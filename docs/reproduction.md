@@ -50,3 +50,5 @@ Replay validates all six quality metrics and saved confidence-interval endpoints
 ## Review provenance
 
 The original independent human assessments and subsequent Codex source adjudications are separate inputs in the material package. Agreement replay describes the original reviewers under their audit reference. Final scientific judgments apply the publication reference and eligibility decisions. The package records the reference reconciliation and preserves historical calibration results with their original scope.
+
+The source-reviewed diagnostic breakdown is reproduced with `python scripts/summarize_diagnostics.py --artifact-root MATERIALS_DIR --out OUTPUT_DIR`. It reads external annotations, verifies their bound evidence and score identities, and exports subtype intersections, capability coverage and grouped scores without changing scientific judgments.

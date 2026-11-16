@@ -56,7 +56,8 @@ class OutputInterfaceTests(unittest.TestCase):
   self.packet=read(self.plan/'packet.json');self.reply=supplied_judgment(self.packet['inventory'])
  def tearDown(self):self.tmp.cleanup()
  def finish(self):
-  q=self.root/'judgment.json';write(q,self.reply)
+  from test_publication_review import synthetic_evidence
+  q=self.root/'judgment.json';write(q,synthetic_evidence(self.packet,self.reply))
   with redirect_stdout(io.StringIO()):finalize(SimpleNamespace(artifact_root=self.artifact,plan=self.plan,judgment=q,actor='Synthetic test',out=self.root/'score'))
  def test_prepare_needs_no_previous_model_judgments(self):
   self.assertFalse((self.artifact/'04_Reproducibility/02_Published_Evaluation/projection/judgments').exists());self.finish();self.assertEqual(read(self.root/'score/score.json')['metrics']['field']['f1'],1)

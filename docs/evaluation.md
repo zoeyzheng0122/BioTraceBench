@@ -4,11 +4,11 @@ EFE evaluates experimental fidelity through a shared scientific correspondence b
 
 ## New-output review
 
-`score_output.py prepare` binds the submission, task, source manifest, fixed reference, field dictionary, and eligibility file. The field roles come from the shipped scoring policy, independently of historical model judgments. The resulting `packet.json` contains the full row/cell inventory, reviewer instructions, and response schema. `binding.json` records the packet identity.
+`score_output.py prepare` binds the submission, task, source manifest, fixed reference, field dictionary, and eligibility file. The field roles come from the shipped scoring policy, independently of historical model judgments. The resulting `packet.json` contains the full row/cell inventory, source-file identities, source information states, eligibility dispositions, complete submitted/reference JSON (including annotation context), reviewer instructions, and response schema. Blank reference values retain an unspecified state unless a source annotation explicitly provides another state; annotations preserve the frozen scoring targets. `binding.json` records the packet identity.
 
-The reviewer supplies exactly `records`, `cells`, and `reference_issues` in a JSON judgment file. Every inventory row appears exactly once in a one-to-one record disposition. Every inventory cell appears exactly once in the corresponding same-field judgment. Reasons identify the scientific facts and source evidence used. An unmatched submitted row is extra; an unmatched reference row is missing.
+The reviewer supplies exactly `records`, `cells`, `reference_issues`, and `identity_evidence` in a JSON judgment file. Every inventory row appears exactly once in a one-to-one record disposition. Every inventory cell appears exactly once in the corresponding same-field judgment. Reasons identify the scientific facts and source evidence used. An unmatched submitted row is extra; an unmatched reference row is missing. Each row disposition also has a structured scientific basis and source/locator evidence. Matched rows cite supporting submitted and reference cells; local primary IDs and result values alone cannot establish identity. Task or declared source evidence supplements weak attributes and link pointers. Evidence locations are validated before counting; the scientific reviewer establishes their meaning.
 
-Keep the reference fixed during a review. Record suspected defects in `reference_issues` for separate adjudication. Resolve uncertain object identities or scientific fields before finalization. `finalize` verifies the packet, reference and eligibility hashes, rejects incomplete or unresolved judgments, then records the actual reviewer and judgment hash with the metrics.
+Keep the reference fixed during a review. Record suspected defects in `reference_issues` for separate adjudication. Resolve uncertain identities, applicable fields and active identity dependencies before finalization. An excluded uncertainty is retained in the output and permits counting when it has no downstream scoring or identity effect. Exclusion from complete-record scoring can retain supported fields, whose judgments and identity evidence remain required. `finalize` verifies task, source, packet, reference, annotation and eligibility identities, checks structured identity evidence and complete coverage, then records the actual reviewer and judgment hash with the metrics. Historical three-section packets require the explicit `--legacy-plan` option; their replay is distinct from validation of a new review.
 
 ## Field and record counts
 
@@ -37,3 +37,13 @@ The preparation interface accepts readable JSON databases, including the `databa
 ## Publication review evidence
 
 Two reviewers independently checked sampled model outputs against study materials for field correctness and record completeness. Subsequent Codex source adjudications resolved source-dependent matches and values. Programs checked complete judgment coverage and counted the final metrics. Original reviews, source adjudications and the final published judgments remain distinct provenance layers in the external materials.
+
+## Reviewed diagnostic annotations
+
+```sh
+python scripts/summarize_diagnostics.py --artifact-root MATERIALS_DIR --out OUTPUT_DIR
+```
+
+The external package supplies event-level subtype decisions, task capability labels, their operational codebook and input hashes. One primary subtype is assigned to each original binding event; output-level subtype counts overlap. Exact intersections recover the frozen answer union. Original decision notes preserve qualifications for missing context, unrecovered objects and reference-relative additions.
+
+Capability groups are overlapping task requirements derived from task/source evidence. The report gives study counts and all six existing scores by model and domain, retaining assigned zeros and metric-specific undefined counts. Overall subgroup means give represented domains equal weight and studies equal weight within domain. Group comparisons are descriptive. Real annotations and model scores remain outside this repository.

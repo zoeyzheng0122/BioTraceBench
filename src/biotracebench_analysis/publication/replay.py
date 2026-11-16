@@ -142,6 +142,9 @@ def run(a):
  record_analyses(scores,artifact,out);attribution_analysis(artifact,out,categories);report['structure']=structure_check(artifact,out);report['resources']=resources(artifact,out)
  from .human import agreement
  report['human_agreement']=agreement(artifact,out/'human-agreement')
+ from .diagnostics import run as diagnostics
+ if (artifact.repro/'03_Experiments/reviewed_diagnostics/annotation_manifest.json').exists():
+  detail,coverage=diagnostics(artifact,out/'reviewed-diagnostics');report['reviewed_diagnostics']={'binding':detail,'task_coverage':coverage}
  from .workload import summarize
  report['workload']=summarize(artifact,out/'tables')
  checks={}
