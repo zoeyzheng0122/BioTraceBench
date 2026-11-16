@@ -39,3 +39,13 @@ New-output scoring reads the selected task, reference, source manifest and globa
 Paper reproduction also reads frozen output status, scientific judgments, source labels, transformation registry and original control databases, accounting records, and expected numerical tables. Expected tables verify newly computed values; scientific labels serve as explicit experimental inputs. Source documents and third-party data follow the provenance and redistribution records in the external package.
 
 All commands write to a new output directory outside the material package. Set provider credentials in the execution environment or an approved secret store when generating new answers. Credentials never belong in configuration files or study packages.
+
+## Integrity verification
+
+```sh
+python scripts/verify_materials.py --artifact-root MATERIALS_DIR
+```
+
+The command uses the same validation core as `04_Reproducibility/verify_bundle.py` in the delivered package. It verifies the checksum anchor, every mandatory manifest entry, task/model coverage, original-answer availability, database-to-inventory correspondence, source/reference identities, human-review sample coverage and current navigation. Missing files, wrong hashes and incomplete coverage cause a nonzero exit status. `--out REPORT.json` saves the validation result.
+
+The active manuscript directory contains the main Word document. The supplementary Word document is retained in the historical archive and excluded from manuscript submission. The plain historical supplementary Word file is outside the active release inventory. Validation follows the versioned inventory: every explicitly listed file is mandatory, including listed historical evidence.

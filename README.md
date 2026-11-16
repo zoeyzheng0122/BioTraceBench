@@ -28,7 +28,13 @@ Run a synthetic example with explicit scientific judgments:
 python scripts/demo.py --out /tmp/biotracebench-demo
 ```
 
-Recompute the paper's analyses from the separate materials package:
+Verify the separate materials package:
+
+```sh
+python scripts/verify_materials.py --artifact-root MATERIALS_DIR
+```
+
+Recompute the paper's analyses:
 
 ```sh
 python scripts/reproduce_paper.py \

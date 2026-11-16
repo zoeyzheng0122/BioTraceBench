@@ -10,9 +10,10 @@
 
 ## Offline replay
 
-Install the analysis extra and run:
+Install the analysis extra, verify the external package, then run:
 
 ```sh
+python scripts/verify_materials.py --artifact-root MATERIALS_DIR
 python scripts/reproduce_paper.py \
   --artifact-root MATERIALS_DIR --out OUTPUT_DIR --figures
 ```
@@ -45,3 +46,7 @@ Figures 1 and 2 are conceptual diagrams. Supplementary figures provide the study
 The quality bootstrap reads its seed, resampling count and weights from the external analysis-parameter file. The record-structure and relationship analyses preserve the publication implementation's 10,000 study resamples and seed 20261110, retaining within-study model observations. Source-composition comparisons match study, model, type and exact width before their specified averaging. Resource summaries retain the published accounting and currency-conversion inputs.
 
 Replay validates all six quality metrics and saved confidence-interval endpoints to numerical tolerance 1e-12. Exact categorical evidence, eligibility, and assigned-zero decisions are retained. A discrepancy stops the run with a validation error and leaves outputs available for diagnosis.
+
+## Review provenance
+
+The original independent human assessments and subsequent Codex source adjudications are separate inputs in the material package. Agreement replay describes the original reviewers under their audit reference. Final scientific judgments apply the publication reference and eligibility decisions. The package records the reference reconciliation and preserves historical calibration results with their original scope.

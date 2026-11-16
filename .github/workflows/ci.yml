@@ -23,6 +23,7 @@ jobs:
       - name: Check commands and synthetic demo
         run: |
           python scripts/demo.py --help
+          python scripts/verify_materials.py --help
           python scripts/reproduce_paper.py --help
           python scripts/score_output.py --help
           python scripts/generate.py --help

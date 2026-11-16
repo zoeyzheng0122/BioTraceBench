@@ -33,3 +33,7 @@ A bare null or blank value supplies no scientific content. Explicitly reported s
 A human or direct scientific reviewer establishes identity and semantic equivalence. The counting program validates coverage and calculates scores. The synthetic controlled-experiment comparator tests predefined transformations using literal scientific signatures; it is a diagnostic baseline rather than the reviewer for new scientific outputs.
 
 The preparation interface accepts readable JSON databases, including the `database` wrapper. Preserve original text and use the separately reviewed partial-inventory process for malformed outputs; the interface reports malformed fragments instead of inventing a repair.
+
+## Publication review evidence
+
+Two reviewers independently checked sampled model outputs against study materials for field correctness and record completeness. Subsequent Codex source adjudications resolved source-dependent matches and values. Programs checked complete judgment coverage and counted the final metrics. Original reviews, source adjudications and the final published judgments remain distinct provenance layers in the external materials.
