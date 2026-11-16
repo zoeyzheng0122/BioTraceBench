@@ -1,0 +1,12 @@
+{
+  "name": "qwen",
+  "defaults": {
+    "provider": "qwen",
+    "protocol": "chat_completions",
+    "endpoint": null,
+    "key_env": "DASHSCOPE_API_KEY",
+    "timeout": 900,
+    "retries": 0,
+    "output_token_field": "max_tokens"
+  }
+}

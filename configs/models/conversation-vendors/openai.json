@@ -1,0 +1,11 @@
+{
+  "name": "openai",
+  "defaults": {
+    "provider": "openai",
+    "protocol": "responses",
+    "endpoint": "https://api.openai.com/v1/responses",
+    "key_env": "OPENAI_API_KEY",
+    "timeout": 900,
+    "retries": 0
+  }
+}

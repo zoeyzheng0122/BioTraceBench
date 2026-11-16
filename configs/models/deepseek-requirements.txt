@@ -1,0 +1,2 @@
+-r biotracebench-requirements.txt
+tokenizers==0.22.1

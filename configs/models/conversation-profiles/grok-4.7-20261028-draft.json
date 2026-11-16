@@ -1,0 +1,59 @@
+{
+  "provider_template": "../conversation-vendors/xai.json",
+  "settings": {
+    "provider": "xai",
+    "protocol": "responses",
+    "endpoint": "https://api.x.ai/v1/responses",
+    "key_env": "XAI_API_KEY",
+    "timeout": 900,
+    "retries": 0,
+    "output_token_field": "max_output_tokens",
+    "model": "grok-4.7",
+    "accepted_response_models": [
+      "grok-4.7"
+    ],
+    "context_tokens": 500000,
+    "max_output_tokens": 32768,
+    "max_request_bytes": 64000000,
+    "generation": {
+      "reasoning": {
+        "effort": "high"
+      },
+      "temperature": 0.7,
+      "top_p": 0.95
+    },
+    "capabilities": {
+      "vision": true,
+      "tools": false,
+      "json_object": true
+    },
+    "api_limits": {
+      "max_image_bytes": 20971520,
+      "retrieved_at": "2026-10-28",
+      "sources": [
+        "https://docs.x.ai/developers/models/grok-4.7",
+        "https://docs.x.ai/developers/model-capabilities/images/understanding",
+        "https://docs.x.ai/developers/model-capabilities/text/best-practices"
+      ],
+      "unknown": [
+        "provider_request_byte_limit; client inspection cap is separate",
+        "provider_max_output_tokens; documented 128000 is a default, not a verified maximum"
+      ],
+      "output_accounting": "visible_answer_only_reasoning_separate"
+    },
+    "deployment": {
+      "region": "provider_default",
+      "retrieved_at": "2026-10-28",
+      "source_url": "https://docs.x.ai/developers/models/grok-4.7",
+      "account_verified": false,
+      "immutable_snapshot": false,
+      "resolved_version": "grok-4.7",
+      "openness": "verify_specific_weights_and_license_at_run_date"
+    },
+    "stream": true,
+    "estimator": {
+      "kind": "offline_only",
+      "basis": "Documentation-only inspection. Select and verify a native counter or tokenizer and formal budgets before freezing or paid calls."
+    }
+  }
+}

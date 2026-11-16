@@ -1,0 +1,12 @@
+{
+  "name": "deepseek",
+  "defaults": {
+    "provider": "deepseek",
+    "protocol": "chat_completions",
+    "endpoint": "https://api.deepseek.com/chat/completions",
+    "key_env": "DEEPSEEK_API_KEY",
+    "timeout": 900,
+    "retries": 0,
+    "output_token_field": "max_tokens"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "eab-model-api",
+  "version": "1.0.0",
+  "interface": "model-api-1",
+  "guide": "docs/development/component-package.md",
+  "prefixes": [
+    "src/model_api/",
+    "configs/models/vendors/",
+    "configs/models/profiles/"
+  ],
+  "files": [
+    "scripts/model_api.py",
+    "scripts/kimi_api_smoke.py",
+    "tests/fixtures/kimi-api-smoke.json",
+    "tests/test_sdk_kimi.py",
+    "docs/development/kimi-api.md",
+    "docs/development/component-package.md"
+  ],
+  "required": [
+    "src/model_api/backend.py",
+    "src/model_api/cli.py",
+    "configs/models/profiles/kimi-k3-text.json",
+    "configs/models/vendors/kimi.json",
+    "scripts/kimi_api_smoke.py",
+    "tests/fixtures/kimi-api-smoke.json",
+    "tests/test_sdk_kimi.py",
+    "docs/development/kimi-api.md"
+  ]
+}

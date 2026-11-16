@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "biotracebench"
+version = "0.1.0"
+description = "Experimental fidelity evaluation for biomedical database construction"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.optional-dependencies]
+analysis = ["numpy==2.3.5"]
+prepare = ["Pillow>=12,<14", "openpyxl==3.1.5", "pypdfium2>=5.13,<6"]
+generation = ["Pillow>=12,<14", "openpyxl==3.1.5", "pypdfium2>=5.13,<6", "tokenizers==0.22.1"]
+test = ["tokenizers==0.22.1", "numpy==2.3.5", "Pillow>=12,<14", "openpyxl==3.1.5", "pypdfium2>=5.13,<6"]
+
+[project.scripts]
+biotracebench = "biotracebench.paper_generation:main"
+biotracebench-demo = "biotracebench_analysis.publication.demo:main"
+biotracebench-reproduce = "biotracebench_analysis.publication.replay:main"
+biotracebench-score = "biotracebench_analysis.publication.score_output:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+biotracebench = ["publication_configs/scoring/*.json", "publication_configs/schemas/*.json"]

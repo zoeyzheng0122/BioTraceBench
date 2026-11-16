@@ -1,0 +1,13 @@
+{
+  "contract": "biotracebench-efe-alignment-1",
+  "rules": {
+    "source_identity": "Use source-native object labels or object-level identifiers and the task scope.",
+    "context_identity": "Use the source-grounded combination of membership, experimental material, roles and context.",
+    "attribute_error": "Independent evidence identifies the object; judge the incorrect attribute separately.",
+    "equivalent_objects": "Source evidence establishes interchangeability, preserving multiplicity and relationship roles.",
+    "merged_or_missing": "A merged submission receives at most one independently supported correspondence; remaining references stay missing.",
+    "surplus_or_nonmatch": "Keep extra, duplicate and scientifically different submitted objects in prediction counts.",
+    "unresolved": "Retain genuine identity uncertainty and its known denominators until source review resolves it."
+  },
+  "association_semantics": "Use the result-producing population required by the task and supported by source membership and analysis definitions. Interpret comparative population anchors jointly with the explicit comparison: a source-supported subject-arm or combined-analysis anchor is equivalent when both treatment or period roles, direction and actual analysis set are complete and correct. Preserve all submitted records and the fixed counting convention; missing task-required population rows remain missing. Store endpoint denominators separately. A different count alone does not define a new population. Preserve subject/reference roles and declared direction; a source-supported comparison need not assert an unreported subtraction formula."
+}

@@ -1,0 +1,397 @@
+{
+  "protocol": "biotracebench-model-set-1",
+  "retrieved_at": "2026-10-28",
+  "state": "documentation_verified_account_untested",
+  "shared_delivery_policy": "shared-2000px-v1",
+  "diagnostic_output_reserve": 32768,
+  "models": [
+    {
+      "id": "gpt-6-astra",
+      "profile": "conversation-profiles/gpt-6-astra-20261028-draft.json",
+      "official_source": "https://developers.openai.com/api/docs/models/gpt-6-astra",
+      "endpoint_identity": "https://api.openai.com/v1/responses",
+      "limitations": {
+        "max_images": 1500,
+        "retrieved_at": "2026-10-28",
+        "sources": [
+          "https://developers.openai.com/api/docs/models/gpt-6-astra",
+          "https://developers.openai.com/api/docs/guides/images-vision"
+        ],
+        "unknown": [
+          "Exact output ceiling is abbreviated K in docs; the stored integer is a conservative operational ceiling pending model metadata"
+        ],
+        "max_request_bytes": 536870912,
+        "provider_max_output_tokens": 128000,
+        "output_accounting": "provider_specific_verify_before_formal_run"
+      },
+      "deployment": {
+        "region": "provider_default",
+        "retrieved_at": "2026-10-28",
+        "source_url": "https://developers.openai.com/api/docs/models/gpt-6-astra",
+        "account_verified": false,
+        "immutable_snapshot": false,
+        "resolved_version": "gpt-6-astra",
+        "openness": "verify_specific_weights_and_license_at_run_date"
+      },
+      "request_id_path": "id",
+      "response_model_path": "model"
+    },
+    {
+      "id": "gpt-6.1-sol",
+      "profile": "conversation-profiles/gpt-6.1-sol-20261028-draft.json",
+      "official_source": "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+      "endpoint_identity": "https://api.openai.com/v1/responses",
+      "limitations": {
+        "max_images": 1500,
+        "retrieved_at": "2026-10-28",
+        "sources": [
+          "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+          "https://developers.openai.com/api/docs/guides/images-vision"
+        ],
+        "unknown": [
+          "Exact output ceiling is abbreviated K in docs; the stored integer is a conservative operational ceiling pending model metadata"
+        ],
+        "max_request_bytes": 536870912,
+        "provider_max_output_tokens": 128000,
+        "output_accounting": "provider_specific_verify_before_formal_run"
+      },
+      "deployment": {
+        "region": "provider_default",
+        "retrieved_at": "2026-10-28",
+        "source_url": "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+        "account_verified": false,
+        "immutable_snapshot": false,
+        "resolved_version": "gpt-6.1-sol",
+        "openness": "verify_specific_weights_and_license_at_run_date"
+      },
+      "request_id_path": "id",
+      "response_model_path": "model"
+    },
+    {
+      "id": "gemini-3.1-pro-preview",
+      "profile": "conversation-profiles/gemini-3.1-pro-preview-20261028-draft.json",
+      "official_source": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-pro-preview",
+      "endpoint_identity": "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro-preview:generateContent",
+      "limitations": {
+        "max_images": 3600,
+        "retrieved_at": "2026-10-28",
+        "sources": [
+          "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-pro-preview",
+          "https://ai.google.dev/gemini-api/docs/image-understanding",
+          "https://ai.google.dev/gemini-api/docs/files"
+        ],
+        "unknown": [],
+        "max_request_bytes": 100000000,
+        "provider_max_output_tokens": 65536,
+        "output_accounting": "provider_specific_verify_before_formal_run"
+      },
+      "deployment": {
+        "region": "provider_default",
+        "retrieved_at": "2026-10-28",
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-pro-preview",
+        "account_verified": false,
+        "immutable_snapshot": false,
+        "resolved_version": "gemini-3.1-pro-preview",
+        "openness": "verify_specific_weights_and_license_at_run_date"
+      },
+      "request_id_path": "responseId",
+      "response_model_path": "modelVersion"
+    },
+    {
+      "id": "gemini-3.8-flash",
+      "profile": "conversation-profiles/gemini-3.8-flash-20261028-draft.json",
+      "official_source": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash",
+      "endpoint_identity": "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent",
+      "limitations": {
+        "max_images": 3600,
+        "retrieved_at": "2026-10-28",
+        "sources": [
+          "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash",
+          "https://ai.google.dev/gemini-api/docs/image-understanding",
+          "https://ai.google.dev/gemini-api/docs/files"
+        ],
+        "unknown": [],
+        "max_request_bytes": 100000000,
+        "provider_max_output_tokens": 65536,
+        "output_accounting": "provider_specific_verify_before_formal_run"
+      },
+      "deployment": {
+        "region": "provider_default",
+        "retrieved_at": "2026-10-28",
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash",
+        "account_verified": false,
+        "immutable_snapshot": false,
+        "resolved_version": "gemini-3.8-flash",
+        "openness": "verify_specific_weights_and_license_at_run_date"
+      },
+      "request_id_path": "responseId",
+      "response_model_path": "modelVersion"
+    },
+    {
+      "id": "claude-sonnet-5-5",
+      "profile": "conversation-profiles/claude-sonnet-5-5-20261028-draft.json",
+      "official_source": "https://platform.claude.com/docs/en/models/sonnet-5-5/overview",
+      "endpoint_identity": "https://api.anthropic.com/v1/messages",
+      "limitations": {
+        "max_images": 600,
+        "max_dimension": 8000,
+        "many_image_threshold": 20,
+        "many_image_max_dimension": 2000,
+        "max_encoded_image_bytes": 10000000,
+        "retrieved_at": "2026-10-28",
+        "sources": [
+          "https://platform.claude.com/docs/en/models/sonnet-5-5/overview",
+          "https://platform.claude.com/docs/en/build-with-claude/vision"
+        ],
+        "unknown": [
+          "Exact output ceiling is abbreviated K in docs; the stored integer is a conservative operational ceiling pending model metadata"
+        ],
+        "max_request_bytes": 32000000,
+        "provider_max_output_tokens": 128000,
+        "output_accounting": "provider_specific_verify_before_formal_run"
+      },
+      "deployment": {
+        "region": "provider_default",
+        "retrieved_at": "2026-10-28",
+        "source_url": "https://platform.claude.com/docs/en/models/sonnet-5-5/overview",
+        "account_verified": false,
+        "immutable_snapshot": false,
+        "resolved_version": "claude-sonnet-5-5",
+        "openness": "verify_specific_weights_and_license_at_run_date"
+      },
+      "request_id_path": "id",
+      "response_model_path": "model"
+    },
+    {
+      "id": "claude-haiku-5-5",
+      "profile": "conversation-profiles/claude-haiku-5-5-20261028-draft.json",
+      "official_source": "https://platform.claude.com/docs/en/models/haiku-5-5/overview",
+      "endpoint_identity": "https://api.anthropic.com/v1/messages",
+      "limitations": {
+        "max_images": 600,
+        "max_dimension": 8000,
+        "many_image_threshold": 20,
+        "many_image_max_dimension": 2000,
+        "max_encoded_image_bytes": 10000000,
+        "retrieved_at": "2026-10-28",
+        "sources": [
+          "https://platform.claude.com/docs/en/models/haiku-5-5/overview",
+          "https://platform.claude.com/docs/en/build-with-claude/vision"
+        ],
+        "unknown": [
+          "Exact output ceiling is abbreviated K in docs; the stored integer is a conservative operational ceiling pending model metadata"
+        ],
+        "max_request_bytes": 32000000,
+        "provider_max_output_tokens": 128000,
+        "output_accounting": "provider_specific_verify_before_formal_run"
+      },
+      "deployment": {
+        "region": "provider_default",
+        "retrieved_at": "2026-10-28",
+        "source_url": "https://platform.claude.com/docs/en/models/haiku-5-5/overview",
+        "account_verified": false,
+        "immutable_snapshot": false,
+        "resolved_version": "claude-haiku-5-5",
+        "openness": "verify_specific_weights_and_license_at_run_date"
+      },
+      "request_id_path": "id",
+      "response_model_path": "model"
+    },
+    {
+      "id": "doubao-seed-2-1-pro-260915",
+      "profile": "conversation-profiles/doubao-seed-2-1-pro-260915-20261028-draft.json",
+      "official_source": "https://docs.volcengine.com/docs/ark/model-list",
+      "endpoint_identity": "https://ark.cn-beijing.volces.com/api/v3/chat/completions",
+      "limitations": {
+        "max_images": 3600,
+        "max_image_bytes": 50000000,
+        "retrieved_at": "2026-10-28",
+        "sources": [
+          "https://docs.volcengine.com/docs/ark/model-list",
+          "https://docs.volcengine.com/docs/ark/image-understanding",
+          "https://docs.volcengine.com/docs/ark/chat-api"
+        ],
+        "unknown": [
+          "Exact output ceiling is abbreviated K in docs; the stored integer is a conservative operational ceiling pending model metadata"
+        ],
+        "max_request_bytes": 64000000,
+        "provider_max_output_tokens": 256000,
+        "output_accounting": "provider_specific_verify_before_formal_run"
+      },
+      "deployment": {
+        "region": "cn-beijing",
+        "retrieved_at": "2026-10-28",
+        "source_url": "https://docs.volcengine.com/docs/ark/model-list",
+        "account_verified": false,
+        "immutable_snapshot": true,
+        "resolved_version": "doubao-seed-2-1-pro-260915",
+        "openness": "verify_specific_weights_and_license_at_run_date"
+      },
+      "request_id_path": "id",
+      "response_model_path": "model"
+    },
+    {
+      "id": "kimi-k3.1-pro",
+      "profile": "conversation-profiles/kimi-k3.1-pro-20261028-draft.json",
+      "official_source": "https://platform.kimi.ai/docs/guide/kimi-k3-1-pro-quickstart",
+      "endpoint_identity": "https://api.moonshot.cn/v1/chat/completions",
+      "limitations": {
+        "retrieved_at": "2026-10-28",
+        "sources": [
+          "https://platform.kimi.ai/docs/guide/kimi-k3-1-pro-quickstart",
+          "https://platform.kimi.ai/docs/guide/use-kimi-vision-model"
+        ],
+        "unknown": [],
+        "max_request_bytes": 100000000,
+        "provider_max_output_tokens": 1048576,
+        "output_accounting": "provider_specific_verify_before_formal_run"
+      },
+      "deployment": {
+        "region": "cn-beijing",
+        "retrieved_at": "2026-10-28",
+        "source_url": "https://platform.kimi.ai/docs/guide/kimi-k3-1-pro-quickstart",
+        "account_verified": false,
+        "immutable_snapshot": false,
+        "resolved_version": "kimi-k3.1-pro",
+        "openness": "verify_specific_weights_and_license_at_run_date"
+      },
+      "request_id_path": "id",
+      "response_model_path": "model"
+    },
+    {
+      "id": "deepseek-flash",
+      "profile": "conversation-profiles/deepseek-flash-20261028-draft.json",
+      "official_source": "https://api-docs.deepseek.com/quick_start/pricing/",
+      "endpoint_identity": "https://api.deepseek.com/chat/completions",
+      "limitations": {
+        "max_images": 600,
+        "max_image_bytes": 33554432,
+        "max_total_image_bytes": 209715200,
+        "max_inline_image_bytes": 67108864,
+        "max_dimension": 8192,
+        "many_image_threshold": 14,
+        "many_image_max_dimension": 4096,
+        "retrieved_at": "2026-10-28",
+        "sources": [
+          "https://api-docs.deepseek.com/quick_start/pricing/",
+          "https://api-docs.deepseek.com/guides/vision/"
+        ],
+        "unknown": [
+          "Exact output ceiling is abbreviated K in docs; the stored integer is a conservative operational ceiling pending model metadata"
+        ],
+        "max_request_bytes": 50331648,
+        "provider_max_output_tokens": 384000,
+        "output_accounting": "provider_specific_verify_before_formal_run"
+      },
+      "deployment": {
+        "region": "provider_default",
+        "retrieved_at": "2026-10-28",
+        "source_url": "https://api-docs.deepseek.com/quick_start/pricing/",
+        "account_verified": false,
+        "immutable_snapshot": false,
+        "resolved_version": "DeepSeek-V4.1-Flash-1017",
+        "openness": "verify_specific_weights_and_license_at_run_date"
+      },
+      "request_id_path": "id",
+      "response_model_path": "model"
+    },
+    {
+      "id": "qwen3.8-max-0902",
+      "profile": "conversation-profiles/qwen3.8-max-0902-20261028-draft.json",
+      "official_source": "https://help.aliyun.com/zh/model-studio/qwen3-8-max",
+      "endpoint_identity": "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+      "limitations": {
+        "max_images": 250,
+        "max_image_bytes": 20000000,
+        "max_encoded_image_bytes": 20000000,
+        "min_dimension": 11,
+        "max_aspect_ratio": 200,
+        "max_input_tokens": 983616,
+        "retrieved_at": "2026-10-28",
+        "sources": [
+          "https://help.aliyun.com/zh/model-studio/qwen3-8-max",
+          "https://www.alibabacloud.com/help/en/model-studio/vision",
+          "https://help.aliyun.com/en/model-studio/stream"
+        ],
+        "unknown": [],
+        "max_request_bytes": 16777216,
+        "provider_max_output_tokens": 131072,
+        "output_accounting": "provider_specific_verify_before_formal_run"
+      },
+      "deployment": {
+        "region": "cn-beijing",
+        "retrieved_at": "2026-10-28",
+        "source_url": "https://help.aliyun.com/zh/model-studio/qwen3-8-max",
+        "account_verified": false,
+        "immutable_snapshot": true,
+        "resolved_version": "qwen3.8-max-0902",
+        "openness": "verify_specific_weights_and_license_at_run_date"
+      },
+      "request_id_path": "id",
+      "response_model_path": "model"
+    },
+    {
+      "id": "glm-5.3-flash",
+      "profile": "conversation-profiles/glm-5.3-flash-20261028-draft.json",
+      "official_source": "https://docs.z.ai/guides/vlm/glm-5.3-flash",
+      "endpoint_identity": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+      "limitations": {
+        "retrieved_at": "2026-10-28",
+        "sources": [
+          "https://docs.z.ai/guides/vlm/glm-5.3-flash"
+        ],
+        "unknown": [
+          "provider_request_byte_limit; client inspection cap is separate",
+          "model_specific_image_count",
+          "model_specific_image_size",
+          "China endpoint parity with cited Z.ai deployment",
+          "Exact output ceiling is abbreviated K in docs; the stored integer is a conservative operational ceiling pending model metadata"
+        ],
+        "provider_max_output_tokens": 128000,
+        "output_accounting": "provider_specific_verify_before_formal_run"
+      },
+      "deployment": {
+        "region": "cn-beijing",
+        "retrieved_at": "2026-10-28",
+        "source_url": "https://docs.z.ai/guides/vlm/glm-5.3-flash",
+        "account_verified": false,
+        "immutable_snapshot": false,
+        "resolved_version": "glm-5.3-flash",
+        "openness": "verify_specific_weights_and_license_at_run_date"
+      },
+      "request_id_path": "id",
+      "response_model_path": "model"
+    },
+    {
+      "id": "grok-4.7",
+      "profile": "conversation-profiles/grok-4.7-20261028-draft.json",
+      "official_source": "https://docs.x.ai/developers/models/grok-4.7",
+      "endpoint_identity": "https://api.x.ai/v1/responses",
+      "limitations": {
+        "max_image_bytes": 20971520,
+        "retrieved_at": "2026-10-28",
+        "sources": [
+          "https://docs.x.ai/developers/models/grok-4.7",
+          "https://docs.x.ai/developers/model-capabilities/images/understanding",
+          "https://docs.x.ai/developers/model-capabilities/text/best-practices"
+        ],
+        "unknown": [
+          "provider_request_byte_limit; client inspection cap is separate",
+          "provider_max_output_tokens; documented 128000 is a default, not a verified maximum"
+        ],
+        "output_accounting": "visible_answer_only_reasoning_separate"
+      },
+      "deployment": {
+        "region": "provider_default",
+        "retrieved_at": "2026-10-28",
+        "source_url": "https://docs.x.ai/developers/models/grok-4.7",
+        "account_verified": false,
+        "immutable_snapshot": false,
+        "resolved_version": "grok-4.7",
+        "openness": "verify_specific_weights_and_license_at_run_date"
+      },
+      "request_id_path": "id",
+      "response_model_path": "model"
+    }
+  ]
+}

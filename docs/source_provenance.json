@@ -1,0 +1,6 @@
+{
+  "upstream_repository": "https://github.com/zoeyzheng0122/biomedical-curation-eab",
+  "source_commit": "93ab86517c5718b0cdf0bb05610c40eaea756449",
+  "implementation": "Frozen runtime plus publication algorithms; scientific judgments are external inputs",
+  "scope": "Code and author-provided manuscript figures"
+}

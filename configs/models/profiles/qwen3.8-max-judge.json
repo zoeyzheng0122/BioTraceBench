@@ -1,0 +1,17 @@
+{
+  "vendor_template": "../vendors/qwen.json",
+  "name": "qwen3.8-max-judge",
+  "model": "qwen3.8-max-0902",
+  "vision": false,
+  "structured_output": "json_object",
+  "context_tokens": 65536,
+  "max_output_tokens": 8192,
+  "output_token_field": "max_completion_tokens",
+  "max_input_bytes": 48000,
+  "max_images": 0,
+  "image_token_reserve": 0,
+  "generation": {
+    "enable_thinking": true
+  },
+  "timeout": 900
+}

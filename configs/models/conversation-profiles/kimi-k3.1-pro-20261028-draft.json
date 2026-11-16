@@ -1,0 +1,52 @@
+{
+  "provider_template": "../conversation-vendors/kimi.json",
+  "settings": {
+    "provider": "kimi",
+    "protocol": "chat_completions",
+    "endpoint": "https://api.moonshot.cn/v1/chat/completions",
+    "key_env": "MOONSHOT_API_KEY",
+    "timeout": 900,
+    "retries": 0,
+    "output_token_field": "max_completion_tokens",
+    "model": "kimi-k3.1-pro",
+    "accepted_response_models": [
+      "kimi-k3.1-pro"
+    ],
+    "context_tokens": 1000000,
+    "max_output_tokens": 32768,
+    "max_request_bytes": 100000000,
+    "generation": {
+      "reasoning_effort": "high"
+    },
+    "capabilities": {
+      "vision": true,
+      "tools": false,
+      "json_object": true
+    },
+    "api_limits": {
+      "retrieved_at": "2026-10-28",
+      "sources": [
+        "https://platform.kimi.ai/docs/guide/kimi-k3-1-pro-quickstart",
+        "https://platform.kimi.ai/docs/guide/use-kimi-vision-model"
+      ],
+      "unknown": [],
+      "max_request_bytes": 100000000,
+      "provider_max_output_tokens": 1048576,
+      "output_accounting": "provider_specific_verify_before_formal_run"
+    },
+    "deployment": {
+      "region": "cn-beijing",
+      "retrieved_at": "2026-10-28",
+      "source_url": "https://platform.kimi.ai/docs/guide/kimi-k3-1-pro-quickstart",
+      "account_verified": false,
+      "immutable_snapshot": false,
+      "resolved_version": "kimi-k3.1-pro",
+      "openness": "verify_specific_weights_and_license_at_run_date"
+    },
+    "stream": true,
+    "estimator": {
+      "kind": "offline_only",
+      "basis": "Documentation-only inspection. Select and verify a native counter or tokenizer and formal budgets before freezing or paid calls."
+    }
+  }
+}

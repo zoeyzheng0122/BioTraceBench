@@ -1,0 +1,10 @@
+{
+  "profile_version": 1,
+  "provider": "zhipu",
+  "protocol": "chat_completions",
+  "endpoint": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+  "key_env": "ZHIPU_API_KEY",
+  "output_token_field": "max_tokens",
+  "timeout": 900,
+  "template_notes": "Endpoint preset only. Declare and verify each model's ID, capacities, generation parameters and capabilities; no live validation or automatic fallback."
+}

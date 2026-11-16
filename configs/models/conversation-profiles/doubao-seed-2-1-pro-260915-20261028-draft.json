@@ -1,0 +1,60 @@
+{
+  "provider_template": "../conversation-vendors/doubao.json",
+  "settings": {
+    "provider": "doubao",
+    "protocol": "chat_completions",
+    "endpoint": "https://ark.cn-beijing.volces.com/api/v3/chat/completions",
+    "key_env": "ARK_API_KEY",
+    "timeout": 900,
+    "retries": 0,
+    "output_token_field": "max_tokens",
+    "model": "doubao-seed-2-1-pro-260915",
+    "accepted_response_models": [
+      "doubao-seed-2-1-pro-260915"
+    ],
+    "context_tokens": 1048576,
+    "max_output_tokens": 32768,
+    "max_request_bytes": 64000000,
+    "generation": {
+      "thinking": {
+        "type": "enabled"
+      },
+      "reasoning_effort": "high"
+    },
+    "capabilities": {
+      "vision": true,
+      "tools": false,
+      "json_object": true
+    },
+    "api_limits": {
+      "max_images": 3600,
+      "max_image_bytes": 50000000,
+      "retrieved_at": "2026-10-28",
+      "sources": [
+        "https://docs.volcengine.com/docs/ark/model-list",
+        "https://docs.volcengine.com/docs/ark/image-understanding",
+        "https://docs.volcengine.com/docs/ark/chat-api"
+      ],
+      "unknown": [
+        "Exact output ceiling is abbreviated K in docs; the stored integer is a conservative operational ceiling pending model metadata"
+      ],
+      "max_request_bytes": 64000000,
+      "provider_max_output_tokens": 256000,
+      "output_accounting": "provider_specific_verify_before_formal_run"
+    },
+    "deployment": {
+      "region": "cn-beijing",
+      "retrieved_at": "2026-10-28",
+      "source_url": "https://docs.volcengine.com/docs/ark/model-list",
+      "account_verified": false,
+      "immutable_snapshot": true,
+      "resolved_version": "doubao-seed-2-1-pro-260915",
+      "openness": "verify_specific_weights_and_license_at_run_date"
+    },
+    "stream": true,
+    "estimator": {
+      "kind": "offline_only",
+      "basis": "Documentation-only inspection. Select and verify a native counter or tokenizer and formal budgets before freezing or paid calls."
+    }
+  }
+}

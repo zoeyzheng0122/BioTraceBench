@@ -1,0 +1,61 @@
+{
+  "provider_template": "../conversation-vendors/deepseek.json",
+  "settings": {
+    "provider": "deepseek",
+    "protocol": "chat_completions",
+    "endpoint": "https://api.deepseek.com/chat/completions",
+    "key_env": "DEEPSEEK_API_KEY",
+    "timeout": 900,
+    "retries": 0,
+    "output_token_field": "max_tokens",
+    "model": "deepseek-flash",
+    "accepted_response_models": [
+      "deepseek-flash"
+    ],
+    "context_tokens": 1048576,
+    "max_output_tokens": 32768,
+    "max_request_bytes": 50331648,
+    "generation": {
+      "reasoning_effort": "high"
+    },
+    "capabilities": {
+      "vision": true,
+      "tools": false,
+      "json_object": true
+    },
+    "api_limits": {
+      "max_images": 600,
+      "max_image_bytes": 33554432,
+      "max_total_image_bytes": 209715200,
+      "max_inline_image_bytes": 67108864,
+      "max_dimension": 8192,
+      "many_image_threshold": 14,
+      "many_image_max_dimension": 4096,
+      "retrieved_at": "2026-10-28",
+      "sources": [
+        "https://api-docs.deepseek.com/quick_start/pricing/",
+        "https://api-docs.deepseek.com/guides/vision/"
+      ],
+      "unknown": [
+        "Exact output ceiling is abbreviated K in docs; the stored integer is a conservative operational ceiling pending model metadata"
+      ],
+      "max_request_bytes": 50331648,
+      "provider_max_output_tokens": 384000,
+      "output_accounting": "provider_specific_verify_before_formal_run"
+    },
+    "deployment": {
+      "region": "provider_default",
+      "retrieved_at": "2026-10-28",
+      "source_url": "https://api-docs.deepseek.com/quick_start/pricing/",
+      "account_verified": false,
+      "immutable_snapshot": false,
+      "resolved_version": "DeepSeek-V4.1-Flash-1017",
+      "openness": "verify_specific_weights_and_license_at_run_date"
+    },
+    "stream": true,
+    "estimator": {
+      "kind": "offline_only",
+      "basis": "Documentation-only inspection. Select and verify a native counter or tokenizer and formal budgets before freezing or paid calls."
+    }
+  }
+}

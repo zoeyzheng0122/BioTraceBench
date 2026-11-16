@@ -1,0 +1,13 @@
+{
+  "vendor_template": "../vendors/openai.json",
+  "name": "openai-text-example",
+  "model": "gpt-4.1-mini",
+  "vision": false,
+  "structured_output": "json_object",
+  "context_tokens": 32768,
+  "max_output_tokens": 4096,
+  "max_input_bytes": 24000,
+  "max_images": 0,
+  "image_token_reserve": 0,
+  "generation": {}
+}

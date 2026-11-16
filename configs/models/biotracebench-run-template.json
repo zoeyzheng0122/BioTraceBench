@@ -1,0 +1,47 @@
+{
+  "protocol": "biotracebench-run-2",
+  "state": "draft",
+  "input_mode": "all_materials",
+  "submission_protocol": "biotracebench-database-annotations-2",
+  "initial_review_policy": "biotracebench-received-initial-1",
+  "capacity_policy": "defer_and_continue",
+  "pdf_policy": "structured_article_with_pdf_attachments",
+  "concurrency": 1,
+  "output_limit_policy": "double_within_provider_bounds",
+  "stages": [
+    "i0"
+  ],
+  "tasks": [],
+  "model": null,
+  "budgets": {
+    "i0": {
+      "max_requests": null,
+      "max_total_tokens": 2000000,
+      "max_cost": null,
+      "max_request_cost": null
+    }
+  },
+  "max_total_cost": null,
+  "tariff": {
+    "currency": null,
+    "version": null,
+    "source_url": null,
+    "retrieved_at": null,
+    "input_accounting": null,
+    "per_million": {
+      "input": null,
+      "cache_hit": null,
+      "cache_write": null,
+      "output": null
+    },
+    "usage_paths": {
+      "input": null,
+      "output": null,
+      "cache_hit": null,
+      "cache_write": null
+    }
+  },
+  "parameter_basis": [],
+  "cost_policy": "require_exact",
+  "scope": "generation"
+}

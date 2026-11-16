@@ -1,0 +1,205 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "basic-three.schema.json",
+  "type": "object",
+  "properties": {
+    "sample": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "sample_id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Unique local sample identifier; arbitrary renaming preserves identity."
+          },
+          "sample_name": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Native label of an identifiable target preparation/pool; never infer individuals."
+          },
+          "biological_source": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Source cells/tissues/organisms; distinguish cellular origin from matrix/reagent origin. Include supported source identifiers."
+          },
+          "species": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Species of assayed biological material; retain distinct origins in mixed-species preparations."
+          },
+          "biological_model": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Reported cell line, genotype/disease or experimental model."
+          },
+          "sample_material": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Actual assayed material, preparation history and physical pooling. State unresolved pool size/members; never reconstruct them."
+          },
+          "sample_accession": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Source-supported sample-level accessions in the format Database:Identifier (sample), for example GEO:GSM9564434 (sample); BioSample:SAMN56344589 (sample). Use canonical database capitalization, no spaces around the colon, one space before the parenthesis, and semicolon-space between entries. Preserve identifier versions and order. Project/study identifiers do not identify samples and are not allowed here. Use null when unreported.",
+            "pattern": "^[A-Za-z][A-Za-z0-9 ._-]*:[^;\\s]+ \\([a-z]+\\)(?:; [A-Za-z][A-Za-z0-9 ._-]*:[^;\\s]+ \\([a-z]+\\))*$"
+          }
+        },
+        "required": [
+          "sample_id",
+          "sample_name",
+          "biological_source",
+          "species",
+          "biological_model",
+          "sample_material",
+          "sample_accession"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "condition": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "condition_id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Unique local condition identifier."
+          },
+          "sample_id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Submitted target sample receiving this condition."
+          },
+          "condition_target": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Receiving material/component; identify source-cell pretreatment when applicable to target preparation."
+          },
+          "experimental_factor": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "One requested identifiable factor; retain dose with its anchored timing."
+          },
+          "factor_value": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "A finite JSON number or a compact source-reported numeric expression such as <0.22, 2–4, 350–400, 1:2 or 5±1. Keep units in factor_unit. Do not put categories, explanatory words, units, NR/NE or null in factor_value. Create a condition row only when the requested numerical value is reported. Otherwise omit that condition row and describe the missing requested value in the corresponding sample.sample_material. Preserve genuine zeros and reported bounds; never substitute an invented midpoint. A reported factor_value remains valid when its factor_unit or time is null because that attribute is unreported or inapplicable.",
+            "pattern": "^(?:(?:<=|>=|<|>|≤|≥|~|≈)\\s*[+-]?(?:\\d+(?:\\.\\d+)?|\\.\\d+)(?:[eE][+-]?\\d+)?|[+-]?(?:\\d+(?:\\.\\d+)?|\\.\\d+)(?:[eE][+-]?\\d+)?\\s*(?:–|—|-|:|/|±|\\+/-)\\s*[+-]?(?:\\d+(?:\\.\\d+)?|\\.\\d+)(?:[eE][+-]?\\d+)?)$"
+          },
+          "factor_unit": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Reported factor unit; null if inapplicable or unsupported."
+          },
+          "time": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Plain anchored time/interval; no nested time object."
+          }
+        },
+        "required": [
+          "condition_id",
+          "sample_id",
+          "condition_target",
+          "experimental_factor",
+          "factor_value",
+          "factor_unit",
+          "time"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "assay_run": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "assay_id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Unique actual acquisition/library or labelled aggregate identifier."
+          },
+          "sample_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 1,
+            "uniqueItems": true,
+            "description": "Submitted sample IDs actually associated with this assay; multiple IDs do not imply pooling."
+          },
+          "assay_type": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Biomedical assay technique for selected experiment."
+          },
+          "platform": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Reported assay instrument/platform."
+          },
+          "method": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Procedure, native library label and unresolved run/multiplex mapping. Do not infer physical runs."
+          },
+          "experiment_run_accession": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Prefer source-supported experiment/library/run accessions, formatted Database:Identifier (level/type), for example SRA:SRX32380739 (experiment) or SRA:SRR28740494 (run). If these are not reported, use an associated source-supported project/study accession or repository record with its actual level/type, for example PRIDE:PXD057572 (project), GEO:GSE311704 (study), Figshare:10.6084/m9.figshare.29955509.v3 (dataset), or Zenodo:10.5281/zenodo.17874586 (software). Use canonical database capitalization, no spaces around the colon, one space before the parenthesis, and semicolon-space between entries. Preserve identifier versions and order. Put content descriptions in Method or separate review records. A shared higher-level record does not identify an individual acquisition or establish pooling. Use null when unreported.",
+            "pattern": "^[A-Za-z][A-Za-z0-9 ._-]*:[^;\\s]+ \\([a-z]+\\)(?:; [A-Za-z][A-Za-z0-9 ._-]*:[^;\\s]+ \\([a-z]+\\))*$"
+          }
+        },
+        "required": [
+          "assay_id",
+          "sample_ids",
+          "assay_type",
+          "platform",
+          "method",
+          "experiment_run_accession"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "sample",
+    "condition",
+    "assay_run"
+  ],
+  "additionalProperties": false,
+  "description": "Complete basic JSON response: exactly the three root arrays sample, condition and assay_run. No outer tables wrapper or additional root keys. Each condition.factor_value is a source-supported finite number or compact numeric expression; never null. Omit a condition with an unreported requested numerical value and explain the absence in sample.sample_material."
+}

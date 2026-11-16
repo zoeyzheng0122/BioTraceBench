@@ -1,0 +1,60 @@
+{
+  "provider_template": "../conversation-vendors/zhipu.json",
+  "settings": {
+    "provider": "zhipu",
+    "protocol": "chat_completions",
+    "endpoint": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+    "key_env": "ZHIPU_API_KEY",
+    "timeout": 900,
+    "retries": 0,
+    "output_token_field": "max_tokens",
+    "model": "glm-5.3-flash",
+    "accepted_response_models": [
+      "glm-5.3-flash"
+    ],
+    "context_tokens": 1000000,
+    "max_output_tokens": 32768,
+    "max_request_bytes": 16777216,
+    "generation": {
+      "thinking": {
+        "type": "enabled",
+        "clear_thinking": false
+      },
+      "reasoning_effort": "max"
+    },
+    "capabilities": {
+      "vision": true,
+      "tools": false,
+      "json_object": true
+    },
+    "api_limits": {
+      "retrieved_at": "2026-10-28",
+      "sources": [
+        "https://docs.z.ai/guides/vlm/glm-5.3-flash"
+      ],
+      "unknown": [
+        "provider_request_byte_limit; client inspection cap is separate",
+        "model_specific_image_count",
+        "model_specific_image_size",
+        "China endpoint parity with cited Z.ai deployment",
+        "Exact output ceiling is abbreviated K in docs; the stored integer is a conservative operational ceiling pending model metadata"
+      ],
+      "provider_max_output_tokens": 128000,
+      "output_accounting": "provider_specific_verify_before_formal_run"
+    },
+    "deployment": {
+      "region": "cn-beijing",
+      "retrieved_at": "2026-10-28",
+      "source_url": "https://docs.z.ai/guides/vlm/glm-5.3-flash",
+      "account_verified": false,
+      "immutable_snapshot": false,
+      "resolved_version": "glm-5.3-flash",
+      "openness": "verify_specific_weights_and_license_at_run_date"
+    },
+    "stream": true,
+    "estimator": {
+      "kind": "offline_only",
+      "basis": "Documentation-only inspection. Select and verify a native counter or tokenizer and formal budgets before freezing or paid calls."
+    }
+  }
+}

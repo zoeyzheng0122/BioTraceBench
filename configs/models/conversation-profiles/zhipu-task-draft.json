@@ -1,0 +1,21 @@
+{
+  "provider_template": "../conversation-vendors/zhipu.json",
+  "settings": {
+    "model": null,
+    "accepted_response_models": [],
+    "context_tokens": null,
+    "max_output_tokens": null,
+    "max_request_bytes": null,
+    "generation": {},
+    "capabilities": {
+      "vision": null,
+      "tools": true,
+      "json_object": null
+    },
+    "estimator": {
+      "kind": "fixed_upper_bound",
+      "input_tokens": null,
+      "basis": null
+    }
+  }
+}

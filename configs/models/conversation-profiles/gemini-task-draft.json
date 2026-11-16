@@ -1,0 +1,21 @@
+{
+  "provider_template": "../conversation-vendors/gemini.json",
+  "settings": {
+    "model": null,
+    "accepted_response_models": [],
+    "context_tokens": null,
+    "max_output_tokens": null,
+    "max_request_bytes": null,
+    "generation": {},
+    "capabilities": {
+      "vision": null,
+      "tools": true,
+      "json_object": null
+    },
+    "estimator": {
+      "kind": "native_count",
+      "reserve_tokens": null,
+      "basis": null
+    }
+  }
+}

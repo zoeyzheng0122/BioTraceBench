@@ -1,0 +1,10 @@
+{
+  "profile_version": 1,
+  "provider": "gemini",
+  "protocol": "gemini",
+  "endpoint": "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent",
+  "key_env": "GEMINI_API_KEY",
+  "output_token_field": "maxOutputTokens",
+  "timeout": 900,
+  "template_notes": "Endpoint preset only. Declare and verify each model's ID, capacities, generation parameters and capabilities; no live validation or automatic fallback."
+}

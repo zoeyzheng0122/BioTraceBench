@@ -1,0 +1,3 @@
+# Paper bootstrap only; archive judgment replay remains standard-library Python.
+# Version used for the archived paper intervals and this review package.
+numpy==2.3.5

@@ -1,0 +1,15 @@
+{
+  "contract": "biotracebench-human-semantic-1",
+  "field_locality": "strict",
+  "reference_version": "unchanged",
+  "rules": {
+    "requiredness": "Task scope, the supplied dictionary and the field responsibility determine required scientific assertions. Reference prose is evidence, not an instruction to require every phrase.",
+    "equivalence": "Accept the same scientific meaning expressed through compatible wording, source-supported names, acronym expansion or order.",
+    "field_locality": "Required assertions must occur in their assigned submitted field. Other fields or linked rows can establish identity and interpretation but cannot fill missing content.",
+    "explanatory_content": "Background, repeated explanation, source locators and a reference-only explanatory caveat are not additional requirements unless the task or dictionary makes their scientific content necessary in this field.",
+    "scientific_integrity": "Require the requested membership, analysis, treatment, time, method, numerical content, uncertainty state and relationship roles appropriate to each field. An additional false or unsupported definite scientific assertion prevents whole-field credit.",
+    "fixed_counts": "Preserve one-to-one mapping, surplus and duplicate submissions, whole-field and complete-record counting, reference blanks, numerical precision and unit rules.",
+    "unknown_states": "Preserve task-required NR/NE, unknown or conflicting scientific states. Omission of an explanatory sentence alone does not assert a definite value; an unsupported definite replacement remains incorrect.",
+    "identity": "Use scientific identity independently of scores. Different requested analyses remain different objects even when they report the same number. A merged record supports at most one justified correspondence."
+  }
+}

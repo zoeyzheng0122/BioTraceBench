@@ -1,0 +1,19 @@
+{
+  "profile_version": 1,
+  "name": "deepseek-flash-high-vision-bounded",
+  "provider": "deepseek",
+  "protocol": "chat_completions",
+  "endpoint": "https://api.deepseek.com/v1/chat/completions",
+  "model": "deepseek-flash",
+  "key_env": "DEEPSEEK_API_KEY",
+  "vision": true,
+  "structured_output": "json_object",
+  "context_tokens": 1000000,
+  "max_output_tokens": 98304,
+  "max_input_bytes": 700000,
+  "max_images": 32,
+  "image_token_reserve": 1024,
+  "output_token_field": "max_tokens",
+  "generation": {"reasoning_effort": "high"},
+  "timeout": 900
+}

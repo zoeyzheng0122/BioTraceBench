@@ -1,0 +1,7 @@
+# Desired parser dependencies; this file does not install anything.
+# Core runner, API, scorer and exports use Python 3.12+ standard library.
+Pillow==12.3.0
+openpyxl==3.1.5
+# Optional external executable: LibreOffice for XLS and embedded WMF/EMF.
+pypdfium2==5.14.0
+# PDF attachments: complete text plus all pages at 200 DPI in RGB PNG.

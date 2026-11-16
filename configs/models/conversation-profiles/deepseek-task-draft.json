@@ -1,0 +1,29 @@
+{
+  "provider_template": "../conversation-vendors/deepseek.json",
+  "settings": {
+    "model": "deepseek-flash",
+    "accepted_response_models": [
+      "deepseek-flash"
+    ],
+    "context_tokens": 1048576,
+    "max_output_tokens": null,
+    "max_request_bytes": 50331648,
+    "generation": {
+      "reasoning_effort": "high"
+    },
+    "capabilities": {
+      "vision": true,
+      "tools": false,
+      "json_object": true
+    },
+    "estimator": {
+      "kind": "local_tokenizer",
+      "path": null,
+      "sha256": null,
+      "image_token_upper": 1024,
+      "reserve_tokens": 4096,
+      "basis": "Official DeepSeek V4 tokenizer; no truncation; text plus 1024 tokens per image and 4096 framing reserve. Complete path and checksum before use."
+    },
+    "file_expiries": {}
+  }
+}

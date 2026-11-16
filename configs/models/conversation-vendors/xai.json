@@ -1,0 +1,12 @@
+{
+  "name": "xai",
+  "defaults": {
+    "provider": "xai",
+    "protocol": "responses",
+    "endpoint": "https://api.x.ai/v1/responses",
+    "key_env": "XAI_API_KEY",
+    "timeout": 900,
+    "retries": 0,
+    "output_token_field": "max_output_tokens"
+  }
+}

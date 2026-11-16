@@ -1,0 +1,57 @@
+{
+  "provider_template": "../conversation-vendors/gemini.json",
+  "settings": {
+    "provider": "gemini",
+    "protocol": "gemini",
+    "endpoint": "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro-preview:generateContent",
+    "key_env": "GEMINI_API_KEY",
+    "timeout": 900,
+    "retries": 0,
+    "output_token_field": "maxOutputTokens",
+    "model": "gemini-3.1-pro-preview",
+    "accepted_response_models": [
+      "gemini-3.1-pro-preview"
+    ],
+    "context_tokens": 1048576,
+    "max_output_tokens": 32768,
+    "max_request_bytes": 100000000,
+    "generation": {
+      "thinkingConfig": {
+        "thinkingLevel": "HIGH",
+        "includeThoughts": true
+      }
+    },
+    "capabilities": {
+      "vision": true,
+      "tools": false,
+      "json_object": true
+    },
+    "api_limits": {
+      "max_images": 3600,
+      "retrieved_at": "2026-10-28",
+      "sources": [
+        "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-pro-preview",
+        "https://ai.google.dev/gemini-api/docs/image-understanding",
+        "https://ai.google.dev/gemini-api/docs/files"
+      ],
+      "unknown": [],
+      "max_request_bytes": 100000000,
+      "provider_max_output_tokens": 65536,
+      "output_accounting": "provider_specific_verify_before_formal_run"
+    },
+    "deployment": {
+      "region": "provider_default",
+      "retrieved_at": "2026-10-28",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-pro-preview",
+      "account_verified": false,
+      "immutable_snapshot": false,
+      "resolved_version": "gemini-3.1-pro-preview",
+      "openness": "verify_specific_weights_and_license_at_run_date"
+    },
+    "stream": true,
+    "estimator": {
+      "kind": "offline_only",
+      "basis": "Documentation-only inspection. Select and verify a native counter or tokenizer and formal budgets before freezing or paid calls."
+    }
+  }
+}

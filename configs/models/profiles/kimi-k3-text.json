@@ -1,0 +1,15 @@
+{
+  "vendor_template": "../vendors/kimi.json",
+  "name": "kimi-k3-text",
+  "model": "kimi-k3",
+  "vision": false,
+  "structured_output": "json_object",
+  "context_tokens": 32768,
+  "max_output_tokens": 8192,
+  "max_input_bytes": 24000,
+  "max_images": 0,
+  "image_token_reserve": 0,
+  "output_token_field": "max_completion_tokens",
+  "generation": {"reasoning_effort": "high"},
+  "timeout": 900
+}

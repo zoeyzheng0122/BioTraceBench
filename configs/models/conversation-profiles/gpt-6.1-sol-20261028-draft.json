@@ -1,0 +1,57 @@
+{
+  "provider_template": "../conversation-vendors/openai.json",
+  "settings": {
+    "provider": "openai",
+    "protocol": "responses",
+    "endpoint": "https://api.openai.com/v1/responses",
+    "key_env": "OPENAI_API_KEY",
+    "timeout": 900,
+    "retries": 0,
+    "output_token_field": "max_output_tokens",
+    "model": "gpt-6.1-sol",
+    "accepted_response_models": [
+      "gpt-6.1-sol"
+    ],
+    "context_tokens": 1050000,
+    "max_output_tokens": 32768,
+    "max_request_bytes": 536870912,
+    "generation": {
+      "reasoning": {
+        "effort": "high"
+      }
+    },
+    "capabilities": {
+      "vision": true,
+      "tools": false,
+      "json_object": true
+    },
+    "api_limits": {
+      "max_images": 1500,
+      "retrieved_at": "2026-10-28",
+      "sources": [
+        "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+        "https://developers.openai.com/api/docs/guides/images-vision"
+      ],
+      "unknown": [
+        "Exact output ceiling is abbreviated K in docs; the stored integer is a conservative operational ceiling pending model metadata"
+      ],
+      "max_request_bytes": 536870912,
+      "provider_max_output_tokens": 128000,
+      "output_accounting": "provider_specific_verify_before_formal_run"
+    },
+    "deployment": {
+      "region": "provider_default",
+      "retrieved_at": "2026-10-28",
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+      "account_verified": false,
+      "immutable_snapshot": false,
+      "resolved_version": "gpt-6.1-sol",
+      "openness": "verify_specific_weights_and_license_at_run_date"
+    },
+    "stream": true,
+    "estimator": {
+      "kind": "offline_only",
+      "basis": "Documentation-only inspection. Select and verify a native counter or tokenizer and formal budgets before freezing or paid calls."
+    }
+  }
+}

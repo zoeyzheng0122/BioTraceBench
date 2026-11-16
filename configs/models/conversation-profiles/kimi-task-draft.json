@@ -1,0 +1,24 @@
+{
+  "provider_template": "../conversation-vendors/kimi.json",
+  "settings": {
+    "model": "kimi-k3",
+    "accepted_response_models": [
+      "kimi-k3"
+    ],
+    "context_tokens": 1000000,
+    "max_output_tokens": 32768,
+    "max_request_bytes": null,
+    "generation": {
+      "reasoning_effort": "high"
+    },
+    "capabilities": {
+      "vision": true,
+      "tools": true,
+      "json_object": true
+    },
+    "estimator": {
+      "kind": "kimi",
+      "endpoint": "https://api.moonshot.cn/v1/tokenizers/estimate-token-count"
+    }
+  }
+}

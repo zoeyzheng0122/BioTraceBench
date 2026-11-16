@@ -1,0 +1,10 @@
+{
+  "max_requests": null,
+  "max_network_retries_per_output": 1,
+  "per_request_cny": null,
+  "total_cny": null,
+  "max_input_cny_per_million": null,
+  "max_output_cny_per_million": null,
+  "price_source": null,
+  "price_verified_at": null
+}

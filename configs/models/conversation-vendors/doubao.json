@@ -1,0 +1,12 @@
+{
+  "name": "doubao",
+  "defaults": {
+    "provider": "doubao",
+    "protocol": "chat_completions",
+    "endpoint": "https://ark.cn-beijing.volces.com/api/v3/chat/completions",
+    "key_env": "ARK_API_KEY",
+    "timeout": 900,
+    "retries": 0,
+    "output_token_field": "max_tokens"
+  }
+}

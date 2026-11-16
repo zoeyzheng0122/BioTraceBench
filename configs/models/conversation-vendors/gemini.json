@@ -1,0 +1,11 @@
+{
+  "name": "gemini",
+  "defaults": {
+    "provider": "gemini",
+    "protocol": "gemini",
+    "endpoint": null,
+    "key_env": "GEMINI_API_KEY",
+    "timeout": 900,
+    "retries": 0
+  }
+}

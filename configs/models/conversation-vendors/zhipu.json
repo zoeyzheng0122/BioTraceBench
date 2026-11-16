@@ -1,0 +1,12 @@
+{
+  "name": "zhipu",
+  "defaults": {
+    "provider": "zhipu",
+    "protocol": "chat_completions",
+    "endpoint": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+    "key_env": "ZHIPU_API_KEY",
+    "timeout": 900,
+    "retries": 0,
+    "output_token_field": "max_tokens"
+  }
+}

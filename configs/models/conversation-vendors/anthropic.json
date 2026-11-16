@@ -1,0 +1,12 @@
+{
+  "name": "anthropic",
+  "defaults": {
+    "provider": "anthropic",
+    "protocol": "anthropic",
+    "endpoint": "https://api.anthropic.com/v1/messages",
+    "key_env": "ANTHROPIC_API_KEY",
+    "timeout": 900,
+    "retries": 0,
+    "api_version": "2023-06-01"
+  }
+}

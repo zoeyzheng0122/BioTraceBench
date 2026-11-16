@@ -1,0 +1,10 @@
+{
+  "profile_version": 1,
+  "provider": "qwen",
+  "protocol": "chat_completions",
+  "endpoint": "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+  "key_env": "DASHSCOPE_API_KEY",
+  "output_token_field": "max_tokens",
+  "timeout": 900,
+  "template_notes": "Endpoint preset only. Declare and verify each model's ID, capacities, generation parameters and capabilities; no live validation or automatic fallback."
+}

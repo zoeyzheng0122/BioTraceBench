@@ -1,0 +1,11 @@
+{
+  "profile_version": 1,
+  "provider": "anthropic",
+  "protocol": "anthropic",
+  "endpoint": "https://api.anthropic.com/v1/messages",
+  "key_env": "ANTHROPIC_API_KEY",
+  "output_token_field": "max_tokens",
+  "timeout": 900,
+  "api_version": "2023-06-01",
+  "template_notes": "Endpoint preset only. Declare and verify each model's ID, capacities, generation parameters and capabilities; no live validation or automatic fallback."
+}

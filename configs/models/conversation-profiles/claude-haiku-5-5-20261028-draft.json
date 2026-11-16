@@ -1,0 +1,65 @@
+{
+  "provider_template": "../conversation-vendors/anthropic.json",
+  "settings": {
+    "provider": "anthropic",
+    "protocol": "anthropic",
+    "endpoint": "https://api.anthropic.com/v1/messages",
+    "key_env": "ANTHROPIC_API_KEY",
+    "timeout": 900,
+    "retries": 0,
+    "output_token_field": "max_tokens",
+    "api_version": "2023-06-01",
+    "model": "claude-haiku-5-5",
+    "accepted_response_models": [
+      "claude-haiku-5-5"
+    ],
+    "context_tokens": 1000000,
+    "max_output_tokens": 32768,
+    "max_request_bytes": 32000000,
+    "generation": {
+      "thinking": {
+        "type": "adaptive"
+      },
+      "output_config": {
+        "effort": "high"
+      }
+    },
+    "capabilities": {
+      "vision": true,
+      "tools": false,
+      "json_object": true
+    },
+    "api_limits": {
+      "max_images": 600,
+      "max_dimension": 8000,
+      "many_image_threshold": 20,
+      "many_image_max_dimension": 2000,
+      "max_encoded_image_bytes": 10000000,
+      "retrieved_at": "2026-10-28",
+      "sources": [
+        "https://platform.claude.com/docs/en/models/haiku-5-5/overview",
+        "https://platform.claude.com/docs/en/build-with-claude/vision"
+      ],
+      "unknown": [
+        "Exact output ceiling is abbreviated K in docs; the stored integer is a conservative operational ceiling pending model metadata"
+      ],
+      "max_request_bytes": 32000000,
+      "provider_max_output_tokens": 128000,
+      "output_accounting": "provider_specific_verify_before_formal_run"
+    },
+    "deployment": {
+      "region": "provider_default",
+      "retrieved_at": "2026-10-28",
+      "source_url": "https://platform.claude.com/docs/en/models/haiku-5-5/overview",
+      "account_verified": false,
+      "immutable_snapshot": false,
+      "resolved_version": "claude-haiku-5-5",
+      "openness": "verify_specific_weights_and_license_at_run_date"
+    },
+    "stream": true,
+    "estimator": {
+      "kind": "offline_only",
+      "basis": "Documentation-only inspection. Select and verify a native counter or tokenizer and formal budgets before freezing or paid calls."
+    }
+  }
+}

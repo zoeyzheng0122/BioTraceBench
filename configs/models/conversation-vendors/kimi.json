@@ -1,0 +1,12 @@
+{
+  "name": "kimi",
+  "defaults": {
+    "provider": "kimi",
+    "protocol": "chat_completions",
+    "endpoint": "https://api.moonshot.cn/v1/chat/completions",
+    "key_env": "MOONSHOT_API_KEY",
+    "timeout": 900,
+    "retries": 0,
+    "output_token_field": "max_completion_tokens"
+  }
+}

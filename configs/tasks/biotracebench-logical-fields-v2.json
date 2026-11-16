@@ -1,0 +1,16 @@
+{
+  "contract": "biotracebench-logical-fields-2",
+  "field_locality": "hybrid",
+  "reference_version": "unchanged",
+  "rules": {
+    "requiredness": "Determine required assertions from the task and schema before inspecting correctness. Reference prose does not make every phrase obligatory.",
+    "placement": "Explicit task/schema placement is strict. Otherwise an expressed fact in the same object or an explicitly linked object may support a logical field. Record the placement and its basis for each assertion.",
+    "identity": "Establish one-to-one scientific record correspondence before judging fields. Never align by row order, local ID equality, equal outcomes alone, or score maximization. A merged object supports at most one correspondence; preserve extras and duplicates.",
+    "evidence": "Sources establish interpretation and truth; they never supply a fact absent from the submitted expression. Cite actual inventory cells, JSON Pointer paths, and exact text excerpts. Shared or linked evidence must retain its actual owner and relationship role.",
+    "counting": "Determine logical predicted and gold presence before correctness. Each logical field counts at most once per side. A wrong or incomplete expressed answer counts as predicted. Correct matches cannot exceed either predicted or gold items.",
+    "integrity": "The native judge checks the complete logical expression, including units, direction, interval attribution, unsupported extra claims, information states, and all required assertions. Whole-field credit requires all required assertions and no erroneous added claim.",
+    "states": "Keep absent, explicit null, empty text, and expressed scientific states distinct in the audit. Bare null or absent content is not an assertion. Expressed NR, NE, not reported, and unknown are scientific content, not an unresolved grading verdict.",
+    "coverage": "Cover every inventory row exactly once and every reference scientific field exactly once. Unconsumed nonempty submitted scientific or unknown fields count conservatively as extras; unknown fields cannot silently disappear.",
+    "finality": "Final judgments contain no uncertain or unknown grading verdicts. Review source-dependent doubts before submitting a final judgment; retain earlier passes separately."
+  }
+}
