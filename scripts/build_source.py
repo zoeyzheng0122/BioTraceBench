@@ -15,7 +15,8 @@ def build(out):
  with zipfile.ZipFile(target,'w',compression=zipfile.ZIP_DEFLATED)as archive:
   for name,b in sorted(data.items()):
    info=zipfile.ZipInfo('BioTraceBench/'+name,date_time=(2026,11,16,0,0,0));info.compress_type=zipfile.ZIP_DEFLATED;info.external_attr=0o100644<<16;archive.writestr(info,b)
-  archive.writestr('source-manifest.json',json.dumps(manifest,indent=2)+'\n')
+  info=zipfile.ZipInfo('source-manifest.json',date_time=(2026,11,16,0,0,0));info.compress_type=zipfile.ZIP_DEFLATED;info.external_attr=0o100644<<16
+  archive.writestr(info,json.dumps(manifest,indent=2)+'\n')
  digest=hashlib.sha256(target.read_bytes()).hexdigest();target.with_suffix('.zip.sha256').write_text(digest+'  '+target.name+'\n')
  return {'archive':str(target),'sha256':digest,'files':len(data)}
 if __name__=='__main__':
