@@ -1,0 +1,32 @@
+{
+  "case_id": "B026",
+  "task_id": "B026",
+  "title": "Single-cell RNA sequencing dataset of hearts from wild type and Cyp26b1 knockout mouse embryos",
+  "doi": "10.1038/s41597-025-05497-5",
+  "comparison_or_design": "Cyp26b1 knockout versus wild type at E12.5; preserve source-supported embryo, pooled-heart and library relationships.",
+  "observations_or_assays": [
+    "Single-cell RNA sequencing"
+  ],
+  "time_scope": "Embryonic day E12.5 only.",
+  "excluded": [
+    "E10.5, E11.5 and E13.5 samples",
+    "Cell-cluster annotations as sample identities, raw FASTQ processing and RDS/expression-result reanalysis"
+  ],
+  "population_or_material": "Embryonic mouse heart preparations in the Cyp26b1 dataset.",
+  "requested_items": [
+    "Cyp26b1 genotype and embryonic collection stage"
+  ],
+  "resources": [
+    {
+      "accession": "10.6084/m9.figshare.29088062",
+      "url": "https://doi.org/10.6084/m9.figshare.29088062"
+    }
+  ],
+  "domain": "basic",
+  "pipeline": "basic-research",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/basic-research.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

@@ -1,0 +1,32 @@
+{
+  "case_id": "B027",
+  "task_id": "B027",
+  "title": "Mouse skeletal muscle satellite cells co-opt the tenogenic gene Scleraxis to instruct regeneration",
+  "doi": "10.7554/eLife.95854",
+  "comparison_or_design": "Scx conditional-knockout versus control mice; retain documented muscle pooling without inferring donor identities.",
+  "observations_or_assays": [
+    "10x single-cell RNA sequencing"
+  ],
+  "time_scope": "2.5 days after BaCl2 injury.",
+  "excluded": [
+    "CUT&RUN, independent cultured-myoblast and differentiation/fusion experiments",
+    "External muscle atlases, trajectory/cluster results and other post-injury time points"
+  ],
+  "population_or_material": "Sorted YFP-lineage satellite-cell preparations submitted to the selected scRNA-seq experiment",
+  "requested_items": [
+    "Scx conditional genotype, BaCl2 injury and collection interval"
+  ],
+  "resources": [
+    {
+      "accession": "10.6084/m9.figshare.24783750",
+      "url": "https://doi.org/10.6084/m9.figshare.24783750"
+    }
+  ],
+  "domain": "basic",
+  "pipeline": "basic-research",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/basic-research.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

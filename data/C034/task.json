@@ -1,0 +1,30 @@
+{
+  "case_id": "C034",
+  "task_id": "C034",
+  "title": "A Phase 2 Trial of Hydroxychloroquine in Individuals at Risk for Rheumatoid Arthritis",
+  "doi": "10.1002/art.43366",
+  "comparison_or_design": "The primary StopRA prevention comparison.",
+  "observations_or_assays": [
+    "Development of clinical RA",
+    "Development of inflammatory arthritis",
+    "Participant-reported painful-joint count over the full 42-joint assessment"
+  ],
+  "time_scope": "The primary month-36 endpoint; baseline/month-36 observed-data summaries for painful-joint counts.",
+  "excluded": [
+    "Week-52, LOCF painful-joint variants, 32-joint and positive-count-only subsets",
+    "Alternate intercurrent-event/per-protocol policies, risk-factor subgroups, stiff joints, other symptoms and safety"
+  ],
+  "population_or_material": "The modified ITT population at risk for RA with elevated anti-CCP3 in StopRA.",
+  "requested_items": [
+    "Month-36 RA/IA arm event counts and KM risk estimates/differences; full 42-joint painful-joint observed baseline/month-36 medians and differences. Exclude month-12 IA, diagnostic subdivisions and the subset that did not develop RA."
+  ],
+  "resources": [],
+  "case_specific_rules": [],
+  "domain": "clinical",
+  "pipeline": "clinical-trials",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/clinical-trials.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

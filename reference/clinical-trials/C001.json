@@ -1,0 +1,127 @@
+{
+  "measure": [
+    {
+      "measure_definition": "Time to event: randomization to disease recurrence or death, whichever occurs first; investigator-assessed DFS; Participants; Investigator assessment; contrast-enhanced computed tomography (CT) of the chest and abdomen, brain magnetic resonance imaging (MRI), and bone scans during scheduled follow-up (every 3 months for the first 2 years, every 6 months until 5 years, every 12 months thereafter until disease relapse or death). Brain MRI and bone scans were scheduled every 12 months or performed as indicated based on symptoms. Recurrence was evaluated according to RECIST version 1.1.; Time origin: random assignment. Event: disease recurrence or death, whichever occurs first. Investigator-assessed recurrence using RECIST version 1.1. Censoring (supplied statistical analysis plan): Patients disease-free and alive at analysis are censored at their last follow-up date. The protocol version uses last-tumor-assessment wording for DFS; the SAP definition is used for these results.",
+      "measure_id": "M0",
+      "measure_name": "Disease-free survival (DFS)"
+    },
+    {
+      "measure_definition": "Time to event: randomization to death from any cause; Participants; Follow-up assessments every 3 months for the first 2 years, every 6 months until 5 years, and every 12 months thereafter until disease relapse or death; data cutoff January 15, 2024.; Time origin: random assignment. Event: death from any cause. Censoring (supplied statistical analysis plan): Patients alive at analysis are censored at their last follow-up date. The protocol version uses last-tumor-assessment wording for DFS; the SAP definition is used for these results.",
+      "measure_id": "M1",
+      "measure_name": "Overall survival (OS)"
+    },
+    {
+      "measure_definition": "Time to event: randomization to brain metastasis or death, whichever occurs first; Participants; Brain magnetic resonance imaging (MRI) and bone scans scheduled every 12 months or performed as indicated based on symptoms; follow-up assessments every 3 months for the first 2 years, every 6 months until 5 years, and every 12 months thereafter until disease relapse or death.; Time origin: randomization. Event: brain metastasis or death, whichever comes first. Censoring: Not reported.",
+      "measure_id": "M2",
+      "measure_name": "Brain-metastasis-free survival (BMFS)"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "Icotinib (12-month and 6-month arms) or observation",
+      "intervention_regimen": "125 mg three times daily (icotinib arms); Icotinib for 12 months or 6 months; observation. Treatment continued until study completion, disease recurrence, intolerable toxicity, or death.",
+      "population_definition": "All randomized patients, irrespective of treatment received (ITT analysis set); Adults aged 18–75 years with completely resected, centrally confirmed EGFR-mutated (exon 19 deletion and/or exon 21 L858R) stage II–IIIA NSCLC after at least two cycles of adjuvant platinum-based chemotherapy; ECOG performance status 0–1; randomized in a 1:1:1 ratio to icotinib for 12 months, icotinib for 6 months, or observation.",
+      "population_id": "P0",
+      "population_name": "ICTAN intention-to-treat (ITT) population",
+      "population_size": 251,
+      "population_time_frame": "Enrolment/screening July 2014 through December 2021; data cutoff January 15, 2024."
+    },
+    {
+      "intervention": "Icotinib",
+      "intervention_regimen": "125 mg three times daily; For 12 months; treatment continued until study completion, disease recurrence, intolerable toxicity, or death.",
+      "population_definition": "Random assignment to icotinib for 12 months; Randomly assigned to icotinib for 12 months within the ICTAN ITT population; completely resected, centrally confirmed EGFR-mutated stage II–IIIA NSCLC after at least two cycles of adjuvant platinum-based chemotherapy.",
+      "population_id": "P1",
+      "population_name": "Icotinib for 12 months arm (ITT)",
+      "population_size": 84,
+      "population_time_frame": "Enrolment/screening July 2014 through December 2021; data cutoff January 15, 2024."
+    },
+    {
+      "intervention": "Observation (no study drug)",
+      "intervention_regimen": "Observation",
+      "population_definition": "Random assignment to observation; Randomly assigned to observation within the ICTAN ITT population; completely resected, centrally confirmed EGFR-mutated stage II–IIIA NSCLC after at least two cycles of adjuvant platinum-based chemotherapy.",
+      "population_id": "P2",
+      "population_name": "Observation arm (ITT)",
+      "population_size": 83,
+      "population_time_frame": "Enrolment/screening July 2014 through December 2021; data cutoff January 15, 2024."
+    }
+  ],
+  "population_relation": [
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P2",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P2",
+      "relationship": "disjoint from"
+    }
+  ],
+  "result": [
+    {
+      "assessment_time": "Data cutoff January 15, 2024; median follow-up for DFS 64.5 months",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R01",
+      "result_unit": "months",
+      "result_value": 61.8,
+      "statistic_type": "Median (Kaplan-Meier estimate)",
+      "statistical_method": "Kaplan–Meier estimation",
+      "supplementary_statistics": "95% CI 43.3 to 80.3 months"
+    },
+    {
+      "assessment_time": "Data cutoff January 15, 2024; median follow-up for DFS 57.9 months",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P2",
+      "result_id": "R02",
+      "result_unit": "months",
+      "result_value": 23.7,
+      "statistic_type": "Median (Kaplan-Meier estimate)",
+      "statistical_method": "Kaplan–Meier estimation",
+      "supplementary_statistics": "95% CI 16.5 to 30.9 months"
+    },
+    {
+      "assessment_time": "Data cutoff January 15, 2024; median follow-up in ITT population 61.4 months (IQR, 44.9–79.8)",
+      "comparison": "P1 relative to P2 (numerator versus reference)",
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R03",
+      "result_unit": null,
+      "result_value": 0.4,
+      "statistic_type": "Hazard ratio (Cox proportional hazards model), 12-month icotinib versus observation",
+      "statistical_method": "ITT Cox proportional hazards model for the HR and CI. Two-sided log-rank test for the reported P value. Model adjustment for this estimate is unreported.",
+      "supplementary_statistics": "95% CI 0.27–0.61; log-rank P < 0.001; stratified log-rank P < 0.001"
+    },
+    {
+      "assessment_time": "Data cutoff January 15, 2024; median follow-up in ITT population 61.4 months (IQR, 44.9–79.8)",
+      "comparison": "P1 relative to P2 (numerator versus reference)",
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R04",
+      "result_unit": null,
+      "result_value": 0.55,
+      "statistic_type": "Hazard ratio (Cox proportional hazards model), 12-month icotinib versus observation",
+      "statistical_method": "ITT Cox proportional hazards model for the HR and CI. Two-sided log-rank test for the reported P value. Model adjustment for this estimate is unreported.",
+      "supplementary_statistics": "95% CI 0.32–0.96; log-rank P = 0.032"
+    },
+    {
+      "assessment_time": "Data cutoff January 15, 2024; median follow-up in ITT population 61.4 months (IQR, 44.9–79.8)",
+      "comparison": "P1 relative to P2 (numerator versus reference)",
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R05",
+      "result_unit": null,
+      "result_value": 0.53,
+      "statistic_type": "Hazard ratio (Cox proportional hazards model), 12-month icotinib versus observation",
+      "statistical_method": "ITT Cox proportional hazards model for the HR and CI. Two-sided log-rank test for the reported P value. Model adjustment for this estimate is unreported.",
+      "supplementary_statistics": "95% CI 0.32–0.88; log-rank P = 0.012"
+    }
+  ]
+}

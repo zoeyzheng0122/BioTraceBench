@@ -1,0 +1,291 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "B037",
+    "domain": "basic",
+    "title": "TGF- β signaling promotes astroglial activation and TDP-43 proteinopathy in organoid models of frontotemporal lobar degeneration",
+    "doi": "10.1172/JCI190035",
+    "pipeline": "basic-research",
+    "pmid": "42302828",
+    "pmcid": "PMC13367973",
+    "registry": "GSE282668"
+  },
+  "files": [
+    {
+      "path": "records/GEO-GSE282668-project.txt",
+      "sha256": "76003fefc8232b290c20cd7eede52ec5be00074c763358af22578d70a38eee5f",
+      "bytes": 3594,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE282668&targ=self&form=text&view=brief"
+      ],
+      "association": "exact accession reported in Data Availability; metadata only; relation not yet verified",
+      "original_filename": "GEO-GSE282668-project.txt"
+    },
+    {
+      "path": "records/GEO-GSE282668-samples.txt",
+      "sha256": "a9e7d49d15f9a6114e3a15a46d5aedf0f454a4361e1eeadbc7ff2aad24e61e2e",
+      "bytes": 264342,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE282668&targ=gsm&form=text&view=brief"
+      ],
+      "association": "exact accession reported in Data Availability; metadata only; relation not yet verified",
+      "original_filename": "GEO-GSE282668-samples.txt"
+    },
+    {
+      "path": "sources/article.xml",
+      "sha256": "7d6a9c3ed4a0cd8a8260511638432b825fcb19c79a927824dae2280ee8776138",
+      "bytes": 163582,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13367973/fullTextXML"
+      ],
+      "association": "exact public PMCID candidate"
+    },
+    {
+      "path": "records/Zenodo-20709533-record.json",
+      "sha256": "d3b4dbd7ad8b99130060f10499f3a59455e4a0ff6bac52a42e7ec66c8831eeee",
+      "bytes": 4189,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://zenodo.org/api/records/20709533"
+      ],
+      "association": "exact accession reported in Data Availability; metadata only; relation not yet verified",
+      "original_filename": "Zenodo-zenodo.20709533-record.json",
+      "retrieved_at": "2026-10-18T00:00:27+08:00"
+    },
+    {
+      "path": "figures/captions.txt",
+      "sha256": "814a3cc6deb7b43c68bc57f43f6caee46074fe71f776e46720d943c1c4cab351",
+      "bytes": 13047,
+      "role": "figure_captions",
+      "roles": [
+        "figure_captions"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13367973/"
+      ],
+      "derived_from": "b09a6f3df27134072b3f86000947367f32d2407f9a7a8d17932ad57f84e15a0b"
+    },
+    {
+      "path": "figures/jci-136-190035-g083.jpg",
+      "sha256": "6b885103672d2496abe40b5ff39a7755493655726840415bbe473456363f4fbd",
+      "bytes": 365825,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13367973.1/jci-136-190035-g083.jpg?md5=068b907b8cb4bb148ff97115d7db3873"
+      ],
+      "association": "exact JATS F1 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/jci-136-190035-g084.jpg",
+      "sha256": "01ffbcdbbb3358acb98d7142c8c94439170926a0237bb354b5210ba64f40e5e7",
+      "bytes": 251947,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13367973.1/jci-136-190035-g084.jpg?md5=9addeb62565d93b47cdf8b79ada8bcb9"
+      ],
+      "association": "Exact JATS main figure or individually declared PDF/DOCX paper supplement"
+    },
+    {
+      "path": "figures/jci-136-190035-g085.jpg",
+      "sha256": "957a0006e2f28aa778c56516f755b5ba934b7421eeb702f5172b11a58180ecf4",
+      "bytes": 330649,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13367973.1/jci-136-190035-g085.jpg?md5=c46e5219764b79b76065af54a2248625"
+      ],
+      "association": "exact JATS F2 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/jci-136-190035-g086.jpg",
+      "sha256": "ba622417a4b79194d65041ee9e57331e0a4d2654267736a4806a65addf73cc48",
+      "bytes": 294344,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13367973.1/jci-136-190035-g086.jpg?md5=4cc89a6b670a2dc2b2f96b183a7700e7"
+      ],
+      "association": "exact JATS F3 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/jci-136-190035-g087.jpg",
+      "sha256": "5bdb6d59bf487ef14048452890b01c86956017a922f52e61060f615a1cbe0cc8",
+      "bytes": 370630,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13367973.1/jci-136-190035-g087.jpg?md5=12b58d69f1b08d877dca252e358f1804"
+      ],
+      "association": "exact JATS F4 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/jci-136-190035-g088.jpg",
+      "sha256": "38de6f1ddc8eff400a77e0c1d0a4666ee2f5dbb1d3bddd1e359a323efca43090",
+      "bytes": 369855,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13367973.1/jci-136-190035-g088.jpg?md5=dac28cbd08d8be5c44d3d3783cf7c7cb"
+      ],
+      "association": "exact JATS F5 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/jci-136-190035-g089.jpg",
+      "sha256": "fb7a55b612a67387dae36030257309a6a339c19150c029d47665c4763416d02f",
+      "bytes": 350127,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13367973.1/jci-136-190035-g089.jpg?md5=c246c4fac02026387e02f196b0a99394"
+      ],
+      "association": "exact JATS F6 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/jci-136-190035-g090.jpg",
+      "sha256": "5ddcbc542054149a7737b7acb2c0863a9729fb4fbdf4abf47826e66bc61c5102",
+      "bytes": 414084,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13367973.1/jci-136-190035-g090.jpg?md5=f46b1d3675135d82a9afd06cec67f4c7"
+      ],
+      "association": "exact JATS F7 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/jci-136-190035-g091.jpg",
+      "sha256": "29377b0215a118e5b5cc6405ab742ea7988d80d6e04f9ae83536294378dde203",
+      "bytes": 280013,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13367973.1/jci-136-190035-g091.jpg?md5=2ee6ad14e65a6cee804bc4a4f50641b4"
+      ],
+      "association": "Exact JATS main figure or individually declared PDF/DOCX paper supplement"
+    },
+    {
+      "path": "figures/jci-136-190035-g092.jpg",
+      "sha256": "58204ab69e44c89f6cb4b41d1d5d5aa7914ddd2d483761d1f17084c9c076a6e4",
+      "bytes": 331774,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13367973.1/jci-136-190035-g092.jpg?md5=447b0fa0e404a051f66540d83f23b608"
+      ],
+      "association": "Exact JATS main figure or individually declared PDF/DOCX paper supplement"
+    },
+    {
+      "path": "records/Zenodo-20709533-record.txt",
+      "sha256": "b3e77211dd07e26151e5205f308424e662f952797e8c4be43ee3531529e3d0e3",
+      "bytes": 4196,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://zenodo.org/api/records/20709533"
+      ],
+      "derived_from": "f0cc859a64b1367444f51983f4bcfd4f00a55d95bf85250fcd38ecc7f18f3018",
+      "representation": "readable_repository_record",
+      "association": "exact accession reported in Data Availability; metadata only; relation not yet verified; readable official record text",
+      "original_filename": "Zenodo-zenodo.20709533-record.txt",
+      "retrieved_at": "2026-10-18T00:00:27+08:00"
+    },
+    {
+      "path": "supplements/jci-136-190035-s093__refine/page-0004-region-01.png",
+      "sha256": "d3e8c141db20f4ac436d7b2394d4a44b23d3fca98641830ff7c8840726c5adf3",
+      "bytes": 843047,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13367973.1/jci-136-190035-s093.pdf?md5=5563e699881a323819aae90339a4743e"
+      ],
+      "association": "exact JATS SD1 in verified PMC version; article source only",
+      "derived_from": "f353a4adc36e0f50b76c9635d48a67edaa739745682cc056388f2e9108b13990",
+      "original_sha256": "f353a4adc36e0f50b76c9635d48a67edaa739745682cc056388f2e9108b13990",
+      "original_filename": "jci-136-190035-s093.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/jci-136-190035-s093__refine/content.md",
+      "sha256": "914379abcf24256b7f6abf1bb449f51c4008217ada76f59387a61759a6f298c2",
+      "bytes": 11074,
+      "role": "supplement",
+      "roles": [
+        "supplement"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13367973.1/jci-136-190035-s093.pdf?md5=5563e699881a323819aae90339a4743e"
+      ],
+      "association": "exact JATS SD1 in verified PMC version; article source only",
+      "derived_from": "f353a4adc36e0f50b76c9635d48a67edaa739745682cc056388f2e9108b13990",
+      "original_sha256": "f353a4adc36e0f50b76c9635d48a67edaa739745682cc056388f2e9108b13990",
+      "original_filename": "jci-136-190035-s093.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "pdf_text_visual",
+      "prior_sha256": "baf213972ed94c792f8c17daf1bf44831d2ae10cfa49ff35ac323c5095ecb590",
+      "compatibility_transform": "remove_task_excluded_image_reference_lines"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

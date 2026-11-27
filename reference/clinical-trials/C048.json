@@ -1,0 +1,355 @@
+{
+  "measure": [
+    {
+      "measure_definition": "Apnea–hypopnea index based on the 4% oxygen-desaturation hypopnea rule (AHI4), measured by polysomnography in events per hour of sleep. The same quantity is assessed at baseline and week 26. Arithmetic summaries/changes and model-estimated geometric-mean percentage reductions are distinct statistical summaries, retained in separate result rows.",
+      "measure_id": "M0",
+      "measure_name": "Apnea-Hypopnea Index (AHI) with the 4% oxygen-desaturation hypopnea rule (reported as AHI4)"
+    },
+    {
+      "measure_definition": "Oxygen desaturation index based on 3% oxygen desaturation, assessed by overnight polysomnography and reported as events per hour. Baseline and week-26 observed summaries, LS mean changes and the treatment difference refer to this same clinical quantity in the primary ITT analysis.",
+      "measure_id": "M3",
+      "measure_name": "Oxygen Desaturation Index (ODI; 3% desaturation rule)"
+    },
+    {
+      "measure_definition": "PROMIS-Fatigue T-score from the eight-item questionnaire; higher T-scores indicate greater fatigue. Assessed at baseline and weeks 4, 13 and 26. Baseline and week-26 observed means and the primary ITT change/contrast quantify the same patient-reported fatigue measure.",
+      "measure_id": "M4",
+      "measure_name": "PROMIS-Fatigue T-score"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "AD109 (fixed-dose combination aroxybutynin/atomoxetine) or matching placebo",
+      "intervention_regimen": "AD109 arm: aroxybutynin 2.5 mg/atomoxetine 75 mg tablet, week 1 run-in aroxybutynin 2.5 mg/atomoxetine 37.5 mg tablet; placebo arm: matching placebo tablet (dose Not reported); Orally once daily at bedtime; week 1 run-in then target dose from Week 2 to Week 26; total planned treatment period 26 weeks (6 months)",
+      "population_definition": "Analysis set (Primary Full Analysis Set); combined total of the AD109 and placebo reporting groups, no treatment split; All participants randomized into the main cohort who received at least one dose of investigational medicinal product (IMP); participants enrolled at the terminated site 1416 were excluded.",
+      "population_id": "P0",
+      "population_name": "Primary Full Analysis Set (PFAS), AD109 and placebo combined",
+      "population_size": 615,
+      "population_time_frame": "Study start 2023-09-16 (actual); primary completion 2025-03-10 (actual); study completion 2025-03-14 (actual); participant-level enrolment dates Not reported"
+    },
+    {
+      "intervention": "AD109: fixed-dose combination aroxybutynin/atomoxetine",
+      "intervention_regimen": "Aroxybutynin 2.5 mg/atomoxetine 75 mg tablet (Weeks 2-26); Week 1 run-in aroxybutynin 2.5 mg/atomoxetine 37.5 mg tablet; Orally once daily at bedtime; week 1 run-in dose, then target dose from Week 2 to Week 26 (planned schedule)",
+      "population_definition": "Randomized treatment assignment: AD109; Randomized into the main cohort, allocated to AD109, and received at least one dose of IMP; participants enrolled at the terminated site 1416 excluded.",
+      "population_id": "P1",
+      "population_name": "AD109 arm, Primary Full Analysis Set (PFAS)",
+      "population_size": 302,
+      "population_time_frame": "Study start 2023-09-16 (actual); primary completion 2025-03-10 (actual); participant-level enrolment dates Not reported"
+    },
+    {
+      "intervention": "Matching placebo",
+      "intervention_regimen": "Matching placebo tablet; active ingredient dose Not reported (run-in and target dose matched to active arm packaging); Orally once daily at bedtime for 26 weeks, with run-in and target dose matched to active arm packaging (planned schedule)",
+      "population_definition": "Randomized treatment assignment: matching placebo; Randomized into the main cohort, allocated to placebo, and received at least one dose of IMP; participants enrolled at the terminated site 1416 excluded.",
+      "population_id": "P2",
+      "population_name": "Placebo arm, Primary Full Analysis Set (PFAS)",
+      "population_size": 313,
+      "population_time_frame": "Study start 2023-09-16 (actual); primary completion 2025-03-10 (actual); participant-level enrolment dates Not reported"
+    }
+  ],
+  "population_relation": [
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P2",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P2",
+      "relationship": "disjoint from"
+    }
+  ],
+  "result": [
+    {
+      "assessment_time": "6 months (baseline to Week 26)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R01",
+      "result_unit": "events/h",
+      "result_value": -3.3,
+      "statistic_type": "Least squares mean change from baseline (MMRM, Treatment Policy Estimand)",
+      "statistical_method": "Primary ITT restricted maximum likelihood mixed model for repeated measures. The pattern-mixture approach treated missing data as not at random and used jump-to-reference sequential multiple imputation. Endpoints were evaluated regardless of adherence or treatment discontinuation.",
+      "supplementary_statistics": "95% CI -5.1 to -1.5; main Table 2 ITT; Table 2 ITT arm total(s) = 302"
+    },
+    {
+      "assessment_time": "6 months (baseline to Week 26)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P2",
+      "result_id": "R02",
+      "result_unit": "events/h",
+      "result_value": 0.7,
+      "statistic_type": "Least squares mean change from baseline (MMRM, Treatment Policy Estimand)",
+      "statistical_method": "Primary ITT restricted maximum likelihood mixed model for repeated measures. The pattern-mixture approach treated missing data as not at random and used jump-to-reference sequential multiple imputation. Endpoints were evaluated regardless of adherence or treatment discontinuation.",
+      "supplementary_statistics": "95% CI -1.0 to 2.4; main Table 2 ITT; Table 2 ITT arm total(s) = 313"
+    },
+    {
+      "assessment_time": "6 months (baseline to Week 26)",
+      "comparison": "P1 minus P2 (AD109 minus placebo), primary ITT estimand",
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R03",
+      "result_unit": "events/h",
+      "result_value": -4.0,
+      "statistic_type": "Least squares mean difference in change from baseline, AD109 minus placebo (MMRM, Treatment Policy Estimand, superiority)",
+      "statistical_method": "Primary ITT restricted maximum likelihood mixed model for repeated measures. The pattern-mixture approach treated missing data as not at random and used jump-to-reference sequential multiple imputation. Endpoints were evaluated regardless of adherence or treatment discontinuation.",
+      "supplementary_statistics": "95% CI -6.4 to -1.6; main Table 2 ITT; P=.001 for between-arm contrast; Table 2 ITT arm total(s) = 302/313"
+    },
+    {
+      "assessment_time": "Week 26 (baseline to Week 26)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R06",
+      "result_unit": "%",
+      "result_value": 44.1,
+      "statistic_type": "Model-estimated percent reduction in geometric mean AHI from baseline",
+      "statistical_method": "Primary ITT geometric-mean AHI analysis by mixed model for repeated measures on the natural-log scale. Zero AHI used log(0.01). Least-squares relative changes were back-transformed and expressed as percentages.",
+      "supplementary_statistics": "Numerical CI limits not separately labelled; Figure 2 shows 95% CI error bars, which were not digitized."
+    },
+    {
+      "assessment_time": "Week 26 (baseline to Week 26)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P2",
+      "result_id": "R07",
+      "result_unit": "%",
+      "result_value": 17.6,
+      "statistic_type": "Model-estimated percent reduction in geometric mean AHI from baseline",
+      "statistical_method": "Primary ITT geometric-mean AHI analysis by mixed model for repeated measures on the natural-log scale. Zero AHI used log(0.01). Least-squares relative changes were back-transformed and expressed as percentages.",
+      "supplementary_statistics": "Numerical CI limits not separately labelled; Figure 2 shows 95% CI error bars, which were not digitized."
+    },
+    {
+      "assessment_time": "Week 26 (baseline to Week 26)",
+      "comparison": "P1 vs P2; subtraction/sign direction not explicitly established",
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R08",
+      "result_unit": null,
+      "result_value": "<.0001",
+      "statistic_type": "P value for between-group comparison of model-estimated percent decrease",
+      "statistical_method": "Primary ITT geometric-mean AHI analysis by mixed model for repeated measures on the natural-log scale. Zero AHI used log(0.01). Least-squares relative changes were back-transformed and expressed as percentages.",
+      "supplementary_statistics": "Exact between-group difference and CI Not reported; P value is for the between-group comparison of percent decrease."
+    },
+    {
+      "assessment_time": "Week 26 (baseline to Week 26)",
+      "comparison": null,
+      "measure_id": "M3",
+      "population_id": "P1",
+      "result_id": "R11",
+      "result_unit": "events/h",
+      "result_value": -3.7,
+      "statistic_type": "Least squares mean change from baseline (MMRM, ITT estimand)",
+      "statistical_method": "Primary ITT restricted maximum likelihood mixed model for repeated measures. The pattern-mixture approach treated missing data as not at random and used jump-to-reference sequential multiple imputation. Endpoints were evaluated regardless of adherence or treatment discontinuation.",
+      "supplementary_statistics": "95% CI −5.6 to −1.7; Table 2 ITT arm total(s) = 302"
+    },
+    {
+      "assessment_time": "Week 26 (baseline to Week 26)",
+      "comparison": null,
+      "measure_id": "M3",
+      "population_id": "P2",
+      "result_id": "R12",
+      "result_unit": "events/h",
+      "result_value": 0.9,
+      "statistic_type": "Least squares mean change from baseline (MMRM, ITT estimand)",
+      "statistical_method": "Primary ITT restricted maximum likelihood mixed model for repeated measures. The pattern-mixture approach treated missing data as not at random and used jump-to-reference sequential multiple imputation. Endpoints were evaluated regardless of adherence or treatment discontinuation.",
+      "supplementary_statistics": "95% CI −1.1 to 2.8; Table 2 ITT arm total(s) = 313"
+    },
+    {
+      "assessment_time": "Week 26 (baseline to Week 26)",
+      "comparison": "P1 minus P2 (AD109 minus placebo), primary ITT estimand",
+      "measure_id": "M3",
+      "population_id": "P0",
+      "result_id": "R13",
+      "result_unit": "events/h",
+      "result_value": -4.5,
+      "statistic_type": "Estimated treatment difference in least squares mean change from baseline, AD109 minus placebo (MMRM, ITT estimand)",
+      "statistical_method": "Primary ITT restricted maximum likelihood mixed model for repeated measures. The pattern-mixture approach treated missing data as not at random and used jump-to-reference sequential multiple imputation. Endpoints were evaluated regardless of adherence or treatment discontinuation.",
+      "supplementary_statistics": "95% CI −7.3 to −1.8; P = .001"
+    },
+    {
+      "assessment_time": "Week 26 (baseline to Week 26)",
+      "comparison": null,
+      "measure_id": "M4",
+      "population_id": "P1",
+      "result_id": "R14",
+      "result_unit": "T-score points",
+      "result_value": -7.4,
+      "statistic_type": "Least squares mean change from baseline (MMRM, ITT estimand)",
+      "statistical_method": "Primary ITT restricted maximum likelihood mixed model for repeated measures. The pattern-mixture approach treated missing data as not at random and used jump-to-reference sequential multiple imputation. Endpoints were evaluated regardless of adherence or treatment discontinuation.",
+      "supplementary_statistics": "95% CI −8.3 to −6.5; Table 2 ITT arm total(s) = 302"
+    },
+    {
+      "assessment_time": "Week 26 (baseline to Week 26)",
+      "comparison": null,
+      "measure_id": "M4",
+      "population_id": "P2",
+      "result_id": "R15",
+      "result_unit": "T-score points",
+      "result_value": -6.2,
+      "statistic_type": "Least squares mean change from baseline (MMRM, ITT estimand)",
+      "statistical_method": "Primary ITT restricted maximum likelihood mixed model for repeated measures. The pattern-mixture approach treated missing data as not at random and used jump-to-reference sequential multiple imputation. Endpoints were evaluated regardless of adherence or treatment discontinuation.",
+      "supplementary_statistics": "95% CI −7.1 to −5.3; Table 2 ITT arm total(s) = 313"
+    },
+    {
+      "assessment_time": "Week 26 (baseline to Week 26)",
+      "comparison": "P1 minus P2 (AD109 minus placebo), primary ITT estimand",
+      "measure_id": "M4",
+      "population_id": "P0",
+      "result_id": "R16",
+      "result_unit": "T-score points",
+      "result_value": -1.2,
+      "statistic_type": "Estimated treatment difference in least squares mean change from baseline, AD109 minus placebo (MMRM, ITT estimand)",
+      "statistical_method": "Primary ITT restricted maximum likelihood mixed model for repeated measures. The pattern-mixture approach treated missing data as not at random and used jump-to-reference sequential multiple imputation. Endpoints were evaluated regardless of adherence or treatment discontinuation.",
+      "supplementary_statistics": "95% CI −2.4 to 0.0; P = .059"
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M3",
+      "population_id": "P1",
+      "result_id": "R17",
+      "result_unit": "events/h",
+      "result_value": 27.3,
+      "statistic_type": "Median",
+      "statistical_method": "Observed summary in the ITT estimand population.",
+      "supplementary_statistics": "IQR 19.4 to 37.6. Baseline endpoint-specific n unreported."
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M3",
+      "population_id": "P2",
+      "result_id": "R18",
+      "result_unit": "events/h",
+      "result_value": 26.9,
+      "statistic_type": "Median",
+      "statistical_method": "Observed summary in the ITT estimand population.",
+      "supplementary_statistics": "IQR 19.1 to 36.0. Baseline endpoint-specific n unreported."
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M4",
+      "population_id": "P1",
+      "result_id": "R19",
+      "result_unit": "T-score",
+      "result_value": 59.2,
+      "statistic_type": "Mean",
+      "statistical_method": "Observed summary in the ITT estimand population.",
+      "supplementary_statistics": "SD 7.0"
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M4",
+      "population_id": "P2",
+      "result_id": "R20",
+      "result_unit": "T-score",
+      "result_value": 58.9,
+      "statistic_type": "Mean",
+      "statistical_method": "Observed summary in the ITT estimand population.",
+      "supplementary_statistics": "SD 6.7"
+    },
+    {
+      "assessment_time": "Week 26",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R21",
+      "result_unit": "events/h",
+      "result_value": 13.3,
+      "statistic_type": "Median",
+      "statistical_method": "Observed summary in the ITT estimand population.",
+      "supplementary_statistics": "95% CI 10.7 to 15.9; IQR 6.5 to 24.2; observed endpoint n=258 (Supplementary Table E1, ITT)."
+    },
+    {
+      "assessment_time": "Week 26",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P2",
+      "result_id": "R22",
+      "result_unit": "events/h",
+      "result_value": 17.7,
+      "statistic_type": "Median",
+      "statistical_method": "Observed summary in the ITT estimand population.",
+      "supplementary_statistics": "95% CI 15.3 to 20.8; IQR 9.0 to 30.5; observed endpoint n=272 (Supplementary Table E1, ITT)."
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R23",
+      "result_unit": "events/h",
+      "result_value": 19.8,
+      "statistic_type": "Median",
+      "statistical_method": "Observed summary in the ITT estimand population.",
+      "supplementary_statistics": "IQR 12.8 to 28.9. Baseline endpoint-specific n unreported."
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P2",
+      "result_id": "R24",
+      "result_unit": "events/h",
+      "result_value": 19.1,
+      "statistic_type": "Median",
+      "statistical_method": "Observed summary in the ITT estimand population.",
+      "supplementary_statistics": "IQR 12.7 to 28.3. Baseline endpoint-specific n unreported."
+    },
+    {
+      "assessment_time": "Week 26",
+      "comparison": null,
+      "measure_id": "M3",
+      "population_id": "P1",
+      "result_id": "R25",
+      "result_unit": "events/h",
+      "result_value": 20.5,
+      "statistic_type": "Median",
+      "statistical_method": "Observed summary in the ITT estimand population.",
+      "supplementary_statistics": "IQR 10.9 to 32.3; analysis n = 258"
+    },
+    {
+      "assessment_time": "Week 26",
+      "comparison": null,
+      "measure_id": "M3",
+      "population_id": "P2",
+      "result_id": "R26",
+      "result_unit": "events/h",
+      "result_value": 24.0,
+      "statistic_type": "Median",
+      "statistical_method": "Observed summary in the ITT estimand population.",
+      "supplementary_statistics": "IQR 14.2 to 38.3; analysis n = 272"
+    },
+    {
+      "assessment_time": "Week 26",
+      "comparison": null,
+      "measure_id": "M4",
+      "population_id": "P1",
+      "result_id": "R27",
+      "result_unit": "T-score",
+      "result_value": 51.4,
+      "statistic_type": "Mean",
+      "statistical_method": "Observed summary in the ITT estimand population.",
+      "supplementary_statistics": "SD 8.3; analysis n = 255"
+    },
+    {
+      "assessment_time": "Week 26",
+      "comparison": null,
+      "measure_id": "M4",
+      "population_id": "P2",
+      "result_id": "R28",
+      "result_unit": "T-score",
+      "result_value": 52.8,
+      "statistic_type": "Mean",
+      "statistical_method": "Observed summary in the ITT estimand population.",
+      "supplementary_statistics": "SD 8.1; analysis n = 275"
+    }
+  ]
+}

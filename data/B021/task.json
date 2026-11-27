@@ -1,0 +1,32 @@
+{
+  "case_id": "B021",
+  "task_id": "B021",
+  "title": "Hypothyroidism impairs skeletal muscle regeneration after injury by altering myogenic and nonmyogenic pathways",
+  "doi": "10.1172/jci.insight.197761",
+  "comparison_or_design": "The post-injury tibialis-anterior scRNA-seq comparison of thyroid status, retaining source-supported pooling and sample identities.",
+  "observations_or_assays": [
+    "Single-cell RNA sequencing"
+  ],
+  "time_scope": "Day 5 after muscle injury.",
+  "excluded": [
+    "Uninjured/day-0 and day-14 sampling points",
+    "Fucci models, histology, cell-type-specific follow-up assays and reanalysis of cell expression/count matrices"
+  ],
+  "population_or_material": "Tibialis anterior muscle preparations in the control-versus-hypothyroid scRNA-seq experiment.",
+  "requested_items": [
+    "Thyroid status, hypothyroidism induction, cardiotoxin injury and post-injury collection day"
+  ],
+  "resources": [
+    {
+      "accession": "GSE311479",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE311479"
+    }
+  ],
+  "domain": "basic",
+  "pipeline": "basic-research",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/basic-research.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

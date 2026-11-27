@@ -1,0 +1,596 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "CE-MS urinary peptidomics",
+      "experiment_run_accession": null,
+      "method": "Individual urine-peptidome profiling by CE-MS, with mass-spectral deconvolution using MosaiquesVisu 2.1.0 and normalization using internal peptide standards. Native CE-MS Analysis ID: 261871. Source sample: UUR_M1_3D.",
+      "platform": "Next 840 capillary electrophoresis system; Bruker microTOF Compact MS",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0002",
+      "assay_type": "CE-MS urinary peptidomics",
+      "experiment_run_accession": null,
+      "method": "Individual urine-peptidome profiling by CE-MS, with mass-spectral deconvolution using MosaiquesVisu 2.1.0 and normalization using internal peptide standards. Native CE-MS Analysis ID: 261872. Source sample: UUR_M2_3D.",
+      "platform": "Next 840 capillary electrophoresis system; Bruker microTOF Compact MS",
+      "sample_ids": [
+        "S0002"
+      ]
+    },
+    {
+      "assay_id": "A0003",
+      "assay_type": "CE-MS urinary peptidomics",
+      "experiment_run_accession": null,
+      "method": "Individual urine-peptidome profiling by CE-MS, with mass-spectral deconvolution using MosaiquesVisu 2.1.0 and normalization using internal peptide standards. Native CE-MS Analysis ID: 261873. Source sample: UUR_M3_3D.",
+      "platform": "Next 840 capillary electrophoresis system; Bruker microTOF Compact MS",
+      "sample_ids": [
+        "S0003"
+      ]
+    },
+    {
+      "assay_id": "A0004",
+      "assay_type": "CE-MS urinary peptidomics",
+      "experiment_run_accession": null,
+      "method": "Individual urine-peptidome profiling by CE-MS, with mass-spectral deconvolution using MosaiquesVisu 2.1.0 and normalization using internal peptide standards. Native CE-MS Analysis ID: 279444. Source sample: UUR1_3D.",
+      "platform": "Next 840 capillary electrophoresis system; Bruker microTOF Compact MS",
+      "sample_ids": [
+        "S0004"
+      ]
+    },
+    {
+      "assay_id": "A0005",
+      "assay_type": "CE-MS urinary peptidomics",
+      "experiment_run_accession": null,
+      "method": "Individual urine-peptidome profiling by CE-MS, with mass-spectral deconvolution using MosaiquesVisu 2.1.0 and normalization using internal peptide standards. Native CE-MS Analysis ID: 279445. Source sample: UUR2_3D.",
+      "platform": "Next 840 capillary electrophoresis system; Bruker microTOF Compact MS",
+      "sample_ids": [
+        "S0005"
+      ]
+    },
+    {
+      "assay_id": "A0006",
+      "assay_type": "CE-MS urinary peptidomics",
+      "experiment_run_accession": null,
+      "method": "Individual urine-peptidome profiling by CE-MS, with mass-spectral deconvolution using MosaiquesVisu 2.1.0 and normalization using internal peptide standards. Native CE-MS Analysis ID: 279426. Source sample: UUR3_3D.",
+      "platform": "Next 840 capillary electrophoresis system; Bruker microTOF Compact MS",
+      "sample_ids": [
+        "S0006"
+      ]
+    },
+    {
+      "assay_id": "A0007",
+      "assay_type": "CE-MS urinary peptidomics",
+      "experiment_run_accession": null,
+      "method": "Individual urine-peptidome profiling by CE-MS, with mass-spectral deconvolution using MosaiquesVisu 2.1.0 and normalization using internal peptide standards. Native CE-MS Analysis ID: 279446. Source sample: UUR4_3D.",
+      "platform": "Next 840 capillary electrophoresis system; Bruker microTOF Compact MS",
+      "sample_ids": [
+        "S0007"
+      ]
+    },
+    {
+      "assay_id": "A0008",
+      "assay_type": "CE-MS urinary peptidomics",
+      "experiment_run_accession": null,
+      "method": "Individual urine-peptidome profiling by CE-MS, with mass-spectral deconvolution using MosaiquesVisu 2.1.0 and normalization using internal peptide standards. Native CE-MS Analysis ID: 279424. Source sample: UUR5_3D.",
+      "platform": "Next 840 capillary electrophoresis system; Bruker microTOF Compact MS",
+      "sample_ids": [
+        "S0008"
+      ]
+    },
+    {
+      "assay_id": "A0009",
+      "assay_type": "CE-MS urinary peptidomics",
+      "experiment_run_accession": null,
+      "method": "Individual urine-peptidome profiling by CE-MS, with mass-spectral deconvolution using MosaiquesVisu 2.1.0 and normalization using internal peptide standards. Native CE-MS Analysis ID: 279447. Source sample: UUR6_3D.",
+      "platform": "Next 840 capillary electrophoresis system; Bruker microTOF Compact MS",
+      "sample_ids": [
+        "S0009"
+      ]
+    },
+    {
+      "assay_id": "A0010",
+      "assay_type": "CE-MS urinary peptidomics",
+      "experiment_run_accession": null,
+      "method": "Individual urine-peptidome profiling by CE-MS, with mass-spectral deconvolution using MosaiquesVisu 2.1.0 and normalization using internal peptide standards. Native CE-MS Analysis ID: 279448. Source sample: UUR7_3D.",
+      "platform": "Next 840 capillary electrophoresis system; Bruker microTOF Compact MS",
+      "sample_ids": [
+        "S0010"
+      ]
+    },
+    {
+      "assay_id": "A0011",
+      "assay_type": "CE-MS urinary peptidomics",
+      "experiment_run_accession": null,
+      "method": "Individual urine-peptidome profiling by CE-MS, with mass-spectral deconvolution using MosaiquesVisu 2.1.0 and normalization using internal peptide standards. Native CE-MS Analysis ID: 261874. Source sample: UUV_M1_3D.",
+      "platform": "Next 840 capillary electrophoresis system; Bruker microTOF Compact MS",
+      "sample_ids": [
+        "S0011"
+      ]
+    },
+    {
+      "assay_id": "A0012",
+      "assay_type": "CE-MS urinary peptidomics",
+      "experiment_run_accession": null,
+      "method": "Individual urine-peptidome profiling by CE-MS, with mass-spectral deconvolution using MosaiquesVisu 2.1.0 and normalization using internal peptide standards. Native CE-MS Analysis ID: 261875. Source sample: UUV_M2_3D.",
+      "platform": "Next 840 capillary electrophoresis system; Bruker microTOF Compact MS",
+      "sample_ids": [
+        "S0012"
+      ]
+    },
+    {
+      "assay_id": "A0013",
+      "assay_type": "CE-MS urinary peptidomics",
+      "experiment_run_accession": null,
+      "method": "Individual urine-peptidome profiling by CE-MS, with mass-spectral deconvolution using MosaiquesVisu 2.1.0 and normalization using internal peptide standards. Native CE-MS Analysis ID: 261876. Source sample: UUV_M3_3D.",
+      "platform": "Next 840 capillary electrophoresis system; Bruker microTOF Compact MS",
+      "sample_ids": [
+        "S0013"
+      ]
+    },
+    {
+      "assay_id": "A0014",
+      "assay_type": "CE-MS urinary peptidomics",
+      "experiment_run_accession": null,
+      "method": "Individual urine-peptidome profiling by CE-MS, with mass-spectral deconvolution using MosaiquesVisu 2.1.0 and normalization using internal peptide standards. Native CE-MS Analysis ID: 279434. Source sample: UUV1_3D.",
+      "platform": "Next 840 capillary electrophoresis system; Bruker microTOF Compact MS",
+      "sample_ids": [
+        "S0014"
+      ]
+    },
+    {
+      "assay_id": "A0015",
+      "assay_type": "CE-MS urinary peptidomics",
+      "experiment_run_accession": null,
+      "method": "Individual urine-peptidome profiling by CE-MS, with mass-spectral deconvolution using MosaiquesVisu 2.1.0 and normalization using internal peptide standards. Native CE-MS Analysis ID: 279449. Source sample: UUV2_3D.",
+      "platform": "Next 840 capillary electrophoresis system; Bruker microTOF Compact MS",
+      "sample_ids": [
+        "S0015"
+      ]
+    },
+    {
+      "assay_id": "A0016",
+      "assay_type": "CE-MS urinary peptidomics",
+      "experiment_run_accession": null,
+      "method": "Individual urine-peptidome profiling by CE-MS, with mass-spectral deconvolution using MosaiquesVisu 2.1.0 and normalization using internal peptide standards. Native CE-MS Analysis ID: 279450. Source sample: UUV3_3D.",
+      "platform": "Next 840 capillary electrophoresis system; Bruker microTOF Compact MS",
+      "sample_ids": [
+        "S0016"
+      ]
+    },
+    {
+      "assay_id": "A0017",
+      "assay_type": "CE-MS urinary peptidomics",
+      "experiment_run_accession": null,
+      "method": "Individual urine-peptidome profiling by CE-MS, with mass-spectral deconvolution using MosaiquesVisu 2.1.0 and normalization using internal peptide standards. Native CE-MS Analysis ID: 279429. Source sample: UUV4_3D.",
+      "platform": "Next 840 capillary electrophoresis system; Bruker microTOF Compact MS",
+      "sample_ids": [
+        "S0017"
+      ]
+    },
+    {
+      "assay_id": "A0018",
+      "assay_type": "CE-MS urinary peptidomics",
+      "experiment_run_accession": null,
+      "method": "Individual urine-peptidome profiling by CE-MS, with mass-spectral deconvolution using MosaiquesVisu 2.1.0 and normalization using internal peptide standards. Native CE-MS Analysis ID: 279451. Source sample: UUV5_3D.",
+      "platform": "Next 840 capillary electrophoresis system; Bruker microTOF Compact MS",
+      "sample_ids": [
+        "S0018"
+      ]
+    },
+    {
+      "assay_id": "A0019",
+      "assay_type": "CE-MS urinary peptidomics",
+      "experiment_run_accession": null,
+      "method": "Individual urine-peptidome profiling by CE-MS, with mass-spectral deconvolution using MosaiquesVisu 2.1.0 and normalization using internal peptide standards. Native CE-MS Analysis ID: 279452. Source sample: UUV6_3D.",
+      "platform": "Next 840 capillary electrophoresis system; Bruker microTOF Compact MS",
+      "sample_ids": [
+        "S0019"
+      ]
+    },
+    {
+      "assay_id": "A0020",
+      "assay_type": "CE-MS urinary peptidomics",
+      "experiment_run_accession": null,
+      "method": "Individual urine-peptidome profiling by CE-MS, with mass-spectral deconvolution using MosaiquesVisu 2.1.0 and normalization using internal peptide standards. Native CE-MS Analysis ID: 279433. Source sample: UUV7_3D.",
+      "platform": "Next 840 capillary electrophoresis system; Bruker microTOF Compact MS",
+      "sample_ids": [
+        "S0020"
+      ]
+    },
+    {
+      "assay_id": "A0021",
+      "assay_type": "CE-MS urinary peptidomics",
+      "experiment_run_accession": null,
+      "method": "Individual urine-peptidome profiling by CE-MS, with mass-spectral deconvolution using MosaiquesVisu 2.1.0 and normalization using internal peptide standards. Native CE-MS Analysis ID: 279430. Source sample: UUV8_3D.",
+      "platform": "Next 840 capillary electrophoresis system; Bruker microTOF Compact MS",
+      "sample_ids": [
+        "S0021"
+      ]
+    }
+  ],
+  "condition": [
+    {
+      "condition_id": "C0001",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-UUO collection interval",
+      "factor_unit": "day",
+      "factor_value": 3,
+      "sample_id": "S0001",
+      "time": "After unilateral ureteral obstruction surgery"
+    },
+    {
+      "condition_id": "C0002",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-UUO collection interval",
+      "factor_unit": "day",
+      "factor_value": 3,
+      "sample_id": "S0002",
+      "time": "After unilateral ureteral obstruction surgery"
+    },
+    {
+      "condition_id": "C0003",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-UUO collection interval",
+      "factor_unit": "day",
+      "factor_value": 3,
+      "sample_id": "S0003",
+      "time": "After unilateral ureteral obstruction surgery"
+    },
+    {
+      "condition_id": "C0004",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-UUO collection interval",
+      "factor_unit": "day",
+      "factor_value": 3,
+      "sample_id": "S0004",
+      "time": "After unilateral ureteral obstruction surgery"
+    },
+    {
+      "condition_id": "C0005",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-UUO collection interval",
+      "factor_unit": "day",
+      "factor_value": 3,
+      "sample_id": "S0005",
+      "time": "After unilateral ureteral obstruction surgery"
+    },
+    {
+      "condition_id": "C0006",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-UUO collection interval",
+      "factor_unit": "day",
+      "factor_value": 3,
+      "sample_id": "S0006",
+      "time": "After unilateral ureteral obstruction surgery"
+    },
+    {
+      "condition_id": "C0007",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-UUO collection interval",
+      "factor_unit": "day",
+      "factor_value": 3,
+      "sample_id": "S0007",
+      "time": "After unilateral ureteral obstruction surgery"
+    },
+    {
+      "condition_id": "C0008",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-UUO collection interval",
+      "factor_unit": "day",
+      "factor_value": 3,
+      "sample_id": "S0008",
+      "time": "After unilateral ureteral obstruction surgery"
+    },
+    {
+      "condition_id": "C0009",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-UUO collection interval",
+      "factor_unit": "day",
+      "factor_value": 3,
+      "sample_id": "S0009",
+      "time": "After unilateral ureteral obstruction surgery"
+    },
+    {
+      "condition_id": "C0010",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-UUO collection interval",
+      "factor_unit": "day",
+      "factor_value": 3,
+      "sample_id": "S0010",
+      "time": "After unilateral ureteral obstruction surgery"
+    },
+    {
+      "condition_id": "C0011",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-UUO collection interval",
+      "factor_unit": "day",
+      "factor_value": 3,
+      "sample_id": "S0011",
+      "time": "After unilateral ureteral obstruction surgery"
+    },
+    {
+      "condition_id": "C0012",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-UUO collection interval",
+      "factor_unit": "day",
+      "factor_value": 3,
+      "sample_id": "S0012",
+      "time": "After unilateral ureteral obstruction surgery"
+    },
+    {
+      "condition_id": "C0013",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-UUO collection interval",
+      "factor_unit": "day",
+      "factor_value": 3,
+      "sample_id": "S0013",
+      "time": "After unilateral ureteral obstruction surgery"
+    },
+    {
+      "condition_id": "C0014",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-UUO collection interval",
+      "factor_unit": "day",
+      "factor_value": 3,
+      "sample_id": "S0014",
+      "time": "After unilateral ureteral obstruction surgery"
+    },
+    {
+      "condition_id": "C0015",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-UUO collection interval",
+      "factor_unit": "day",
+      "factor_value": 3,
+      "sample_id": "S0015",
+      "time": "After unilateral ureteral obstruction surgery"
+    },
+    {
+      "condition_id": "C0016",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-UUO collection interval",
+      "factor_unit": "day",
+      "factor_value": 3,
+      "sample_id": "S0016",
+      "time": "After unilateral ureteral obstruction surgery"
+    },
+    {
+      "condition_id": "C0017",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-UUO collection interval",
+      "factor_unit": "day",
+      "factor_value": 3,
+      "sample_id": "S0017",
+      "time": "After unilateral ureteral obstruction surgery"
+    },
+    {
+      "condition_id": "C0018",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-UUO collection interval",
+      "factor_unit": "day",
+      "factor_value": 3,
+      "sample_id": "S0018",
+      "time": "After unilateral ureteral obstruction surgery"
+    },
+    {
+      "condition_id": "C0019",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-UUO collection interval",
+      "factor_unit": "day",
+      "factor_value": 3,
+      "sample_id": "S0019",
+      "time": "After unilateral ureteral obstruction surgery"
+    },
+    {
+      "condition_id": "C0020",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-UUO collection interval",
+      "factor_unit": "day",
+      "factor_value": 3,
+      "sample_id": "S0020",
+      "time": "After unilateral ureteral obstruction surgery"
+    },
+    {
+      "condition_id": "C0021",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-UUO collection interval",
+      "factor_unit": "day",
+      "factor_value": 3,
+      "sample_id": "S0021",
+      "time": "After unilateral ureteral obstruction surgery"
+    }
+  ],
+  "sample": [
+    {
+      "biological_model": "Unilateral ureteral obstruction mouse model",
+      "biological_source": "Urine from the obstructed renal pelvis of male C57BL/6J mice",
+      "sample_accession": null,
+      "sample_id": "S0001",
+      "sample_material": "Endogenous urinary peptide preparation from obstructed renal pelvis urine collected on day 3 after UUO surgery. A 30-μL urine aliquot was processed by 20-kDa ultrafiltration and NAP5 cleanup. Individual cross-compartment donor pairing and physical pooling were not explicitly documented.",
+      "sample_name": "UUR_M1_3D",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Unilateral ureteral obstruction mouse model",
+      "biological_source": "Urine from the obstructed renal pelvis of male C57BL/6J mice",
+      "sample_accession": null,
+      "sample_id": "S0002",
+      "sample_material": "Endogenous urinary peptide preparation from obstructed renal pelvis urine collected on day 3 after UUO surgery. A 30-μL urine aliquot was processed by 20-kDa ultrafiltration and NAP5 cleanup. Individual cross-compartment donor pairing and physical pooling were not explicitly documented.",
+      "sample_name": "UUR_M2_3D",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Unilateral ureteral obstruction mouse model",
+      "biological_source": "Urine from the obstructed renal pelvis of male C57BL/6J mice",
+      "sample_accession": null,
+      "sample_id": "S0003",
+      "sample_material": "Endogenous urinary peptide preparation from obstructed renal pelvis urine collected on day 3 after UUO surgery. A 30-μL urine aliquot was processed by 20-kDa ultrafiltration and NAP5 cleanup. Individual cross-compartment donor pairing and physical pooling were not explicitly documented.",
+      "sample_name": "UUR_M3_3D",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Unilateral ureteral obstruction mouse model",
+      "biological_source": "Urine from the obstructed renal pelvis of male C57BL/6J mice",
+      "sample_accession": null,
+      "sample_id": "S0004",
+      "sample_material": "Endogenous urinary peptide preparation from obstructed renal pelvis urine collected on day 3 after UUO surgery. A 30-μL urine aliquot was processed by 20-kDa ultrafiltration and NAP5 cleanup. Individual cross-compartment donor pairing and physical pooling were not explicitly documented.",
+      "sample_name": "UUR1_3D",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Unilateral ureteral obstruction mouse model",
+      "biological_source": "Urine from the obstructed renal pelvis of male C57BL/6J mice",
+      "sample_accession": null,
+      "sample_id": "S0005",
+      "sample_material": "Endogenous urinary peptide preparation from obstructed renal pelvis urine collected on day 3 after UUO surgery. A 30-μL urine aliquot was processed by 20-kDa ultrafiltration and NAP5 cleanup. Individual cross-compartment donor pairing and physical pooling were not explicitly documented.",
+      "sample_name": "UUR2_3D",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Unilateral ureteral obstruction mouse model",
+      "biological_source": "Urine from the obstructed renal pelvis of male C57BL/6J mice",
+      "sample_accession": null,
+      "sample_id": "S0006",
+      "sample_material": "Endogenous urinary peptide preparation from obstructed renal pelvis urine collected on day 3 after UUO surgery. A 30-μL urine aliquot was processed by 20-kDa ultrafiltration and NAP5 cleanup. Individual cross-compartment donor pairing and physical pooling were not explicitly documented.",
+      "sample_name": "UUR3_3D",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Unilateral ureteral obstruction mouse model",
+      "biological_source": "Urine from the obstructed renal pelvis of male C57BL/6J mice",
+      "sample_accession": null,
+      "sample_id": "S0007",
+      "sample_material": "Endogenous urinary peptide preparation from obstructed renal pelvis urine collected on day 3 after UUO surgery. A 30-μL urine aliquot was processed by 20-kDa ultrafiltration and NAP5 cleanup. Individual cross-compartment donor pairing and physical pooling were not explicitly documented.",
+      "sample_name": "UUR4_3D",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Unilateral ureteral obstruction mouse model",
+      "biological_source": "Urine from the obstructed renal pelvis of male C57BL/6J mice",
+      "sample_accession": null,
+      "sample_id": "S0008",
+      "sample_material": "Endogenous urinary peptide preparation from obstructed renal pelvis urine collected on day 3 after UUO surgery. A 30-μL urine aliquot was processed by 20-kDa ultrafiltration and NAP5 cleanup. Individual cross-compartment donor pairing and physical pooling were not explicitly documented.",
+      "sample_name": "UUR5_3D",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Unilateral ureteral obstruction mouse model",
+      "biological_source": "Urine from the obstructed renal pelvis of male C57BL/6J mice",
+      "sample_accession": null,
+      "sample_id": "S0009",
+      "sample_material": "Endogenous urinary peptide preparation from obstructed renal pelvis urine collected on day 3 after UUO surgery. A 30-μL urine aliquot was processed by 20-kDa ultrafiltration and NAP5 cleanup. Individual cross-compartment donor pairing and physical pooling were not explicitly documented.",
+      "sample_name": "UUR6_3D",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Unilateral ureteral obstruction mouse model",
+      "biological_source": "Urine from the obstructed renal pelvis of male C57BL/6J mice",
+      "sample_accession": null,
+      "sample_id": "S0010",
+      "sample_material": "Endogenous urinary peptide preparation from obstructed renal pelvis urine collected on day 3 after UUO surgery. A 30-μL urine aliquot was processed by 20-kDa ultrafiltration and NAP5 cleanup. Individual cross-compartment donor pairing and physical pooling were not explicitly documented.",
+      "sample_name": "UUR7_3D",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Unilateral ureteral obstruction mouse model",
+      "biological_source": "Urine from the bladder of male C57BL/6J mice",
+      "sample_accession": null,
+      "sample_id": "S0011",
+      "sample_material": "Endogenous urinary peptide preparation from bladder urine collected on day 3 after UUO surgery. A 30-μL urine aliquot was processed by 20-kDa ultrafiltration and NAP5 cleanup. Individual cross-compartment donor pairing and physical pooling were not explicitly documented.",
+      "sample_name": "UUV_M1_3D",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Unilateral ureteral obstruction mouse model",
+      "biological_source": "Urine from the bladder of male C57BL/6J mice",
+      "sample_accession": null,
+      "sample_id": "S0012",
+      "sample_material": "Endogenous urinary peptide preparation from bladder urine collected on day 3 after UUO surgery. A 30-μL urine aliquot was processed by 20-kDa ultrafiltration and NAP5 cleanup. Individual cross-compartment donor pairing and physical pooling were not explicitly documented.",
+      "sample_name": "UUV_M2_3D",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Unilateral ureteral obstruction mouse model",
+      "biological_source": "Urine from the bladder of male C57BL/6J mice",
+      "sample_accession": null,
+      "sample_id": "S0013",
+      "sample_material": "Endogenous urinary peptide preparation from bladder urine collected on day 3 after UUO surgery. A 30-μL urine aliquot was processed by 20-kDa ultrafiltration and NAP5 cleanup. Individual cross-compartment donor pairing and physical pooling were not explicitly documented.",
+      "sample_name": "UUV_M3_3D",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Unilateral ureteral obstruction mouse model",
+      "biological_source": "Urine from the bladder of male C57BL/6J mice",
+      "sample_accession": null,
+      "sample_id": "S0014",
+      "sample_material": "Endogenous urinary peptide preparation from bladder urine collected on day 3 after UUO surgery. A 30-μL urine aliquot was processed by 20-kDa ultrafiltration and NAP5 cleanup. Individual cross-compartment donor pairing and physical pooling were not explicitly documented.",
+      "sample_name": "UUV1_3D",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Unilateral ureteral obstruction mouse model",
+      "biological_source": "Urine from the bladder of male C57BL/6J mice",
+      "sample_accession": null,
+      "sample_id": "S0015",
+      "sample_material": "Endogenous urinary peptide preparation from bladder urine collected on day 3 after UUO surgery. A 30-μL urine aliquot was processed by 20-kDa ultrafiltration and NAP5 cleanup. Individual cross-compartment donor pairing and physical pooling were not explicitly documented.",
+      "sample_name": "UUV2_3D",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Unilateral ureteral obstruction mouse model",
+      "biological_source": "Urine from the bladder of male C57BL/6J mice",
+      "sample_accession": null,
+      "sample_id": "S0016",
+      "sample_material": "Endogenous urinary peptide preparation from bladder urine collected on day 3 after UUO surgery. A 30-μL urine aliquot was processed by 20-kDa ultrafiltration and NAP5 cleanup. Individual cross-compartment donor pairing and physical pooling were not explicitly documented.",
+      "sample_name": "UUV3_3D",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Unilateral ureteral obstruction mouse model",
+      "biological_source": "Urine from the bladder of male C57BL/6J mice",
+      "sample_accession": null,
+      "sample_id": "S0017",
+      "sample_material": "Endogenous urinary peptide preparation from bladder urine collected on day 3 after UUO surgery. A 30-μL urine aliquot was processed by 20-kDa ultrafiltration and NAP5 cleanup. Individual cross-compartment donor pairing and physical pooling were not explicitly documented.",
+      "sample_name": "UUV4_3D",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Unilateral ureteral obstruction mouse model",
+      "biological_source": "Urine from the bladder of male C57BL/6J mice",
+      "sample_accession": null,
+      "sample_id": "S0018",
+      "sample_material": "Endogenous urinary peptide preparation from bladder urine collected on day 3 after UUO surgery. A 30-μL urine aliquot was processed by 20-kDa ultrafiltration and NAP5 cleanup. Individual cross-compartment donor pairing and physical pooling were not explicitly documented.",
+      "sample_name": "UUV5_3D",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Unilateral ureteral obstruction mouse model",
+      "biological_source": "Urine from the bladder of male C57BL/6J mice",
+      "sample_accession": null,
+      "sample_id": "S0019",
+      "sample_material": "Endogenous urinary peptide preparation from bladder urine collected on day 3 after UUO surgery. A 30-μL urine aliquot was processed by 20-kDa ultrafiltration and NAP5 cleanup. Individual cross-compartment donor pairing and physical pooling were not explicitly documented.",
+      "sample_name": "UUV6_3D",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Unilateral ureteral obstruction mouse model",
+      "biological_source": "Urine from the bladder of male C57BL/6J mice",
+      "sample_accession": null,
+      "sample_id": "S0020",
+      "sample_material": "Endogenous urinary peptide preparation from bladder urine collected on day 3 after UUO surgery. A 30-μL urine aliquot was processed by 20-kDa ultrafiltration and NAP5 cleanup. Individual cross-compartment donor pairing and physical pooling were not explicitly documented.",
+      "sample_name": "UUV7_3D",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Unilateral ureteral obstruction mouse model",
+      "biological_source": "Urine from the bladder of male C57BL/6J mice",
+      "sample_accession": null,
+      "sample_id": "S0021",
+      "sample_material": "Endogenous urinary peptide preparation from bladder urine collected on day 3 after UUO surgery. A 30-μL urine aliquot was processed by 20-kDa ultrafiltration and NAP5 cleanup. Individual cross-compartment donor pairing and physical pooling were not explicitly documented.",
+      "sample_name": "UUV8_3D",
+      "species": "Mus musculus"
+    }
+  ]
+}

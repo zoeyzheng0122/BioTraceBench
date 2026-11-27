@@ -1,0 +1,33 @@
+{
+  "case_id": "C042",
+  "task_id": "C042",
+  "title": "The Effects of Daridorexant on Patients With Comorbid Insomnia Disorder and Untreated Mild Obstructive Sleep Apnoea: A Post Hoc Subgroup Analysis of a Phase 3, Randomised Clinical Trial",
+  "doi": "10.1111/jsr.70135",
+  "comparison_or_design": "The selected daridorexant 50-mg and placebo comparison in the mild-OSA subgroup.",
+  "observations_or_assays": [
+    "Wake after sleep onset",
+    "Latency to persistent sleep",
+    "Self-reported total sleep time"
+  ],
+  "time_scope": "Baseline to month 3.",
+  "excluded": [
+    "Daridorexant 25 mg, month-1 and participants without mild OSA",
+    "IDSIQ/daytime-function, residual sleepiness and safety"
+  ],
+  "population_or_material": "The post hoc subgroup with comorbid insomnia and untreated mild OSA in the phase 3 daridorexant study.",
+  "requested_items": [
+    "Mild-OSA/COMISA selected 50-mg versus placebo subgroup: numerical baseline means, month-three LSM changes and placebo-adjusted contrasts. Exclude generic across-month descriptions, 25-mg results and other sleepiness endpoints."
+  ],
+  "resources": [],
+  "case_specific_rules": [
+    "For the selected mild-OSA subgroup at month three, use the coherent point estimate/CI/P combinations reported together in Supplementary Table S2 and matching the main Results. Retain Figure S1 discrepancies in review records; more decimal places alone do not establish precedence.",
+    "Keep the endpoint/model adjustment context and separate baseline observed summaries from model changes/contrasts. Do not combine an alternative figure estimate with table-only statistics."
+  ],
+  "domain": "clinical",
+  "pipeline": "clinical-trials",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/clinical-trials.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

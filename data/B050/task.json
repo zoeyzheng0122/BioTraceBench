@@ -1,0 +1,32 @@
+{
+  "case_id": "B050",
+  "task_id": "B050",
+  "title": "Evaluation of MSC‐Secretome Effects in an Ex Vivo Compartmentalized Osteochondral Interface Model",
+  "doi": "10.1155/sci/3275855",
+  "comparison_or_design": "The cartilage-side supernatant MMP-activity experiment assessing inflammatory and MSC-secretome exposures, including its untreated reference.",
+  "observations_or_assays": [
+    "Fluorometric MMP activity assay of cartilage supernatants"
+  ],
+  "time_scope": "Day 3 after the defined inflammatory/conditioned-medium treatment, following the reported acclimatization.",
+  "excluded": [
+    "Other collection days, bone-side outcomes, Western blots, metabolic-activity and sGAG assays",
+    "Independent model-integrity and conditioned-medium characterization experiments, and numerical MMP results"
+  ],
+  "population_or_material": "Day-3 cartilage-side supernatants actually submitted to the MMP activity assay. Keep explant origins and CM/pCM reagent provenance in descriptive fields; do not create separate producer-cell or excised-cartilage Western-blot samples.",
+  "requested_items": [
+    "Inflammatory cytokine combination, CM/pCM treatment and source-supported dose, cartilage compartment and supernatant collection interval"
+  ],
+  "resources": [
+    {
+      "accession": "10.5281/zenodo.18173753",
+      "url": "https://doi.org/10.5281/zenodo.18173753"
+    }
+  ],
+  "domain": "basic",
+  "pipeline": "basic-research",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/basic-research.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

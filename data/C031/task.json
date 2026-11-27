@@ -1,0 +1,30 @@
+{
+  "case_id": "C031",
+  "task_id": "C031",
+  "title": "Exploring possibilities towards PeRsonalIsed MEdicine in Rheumatoid Arthritis (PRIMERA): tailored modifications to standard treat-to-target management—a multicentre, randomised, open-label trial",
+  "doi": "10.1136/rmdopen-2026-007217",
+  "comparison_or_design": "The primary PRIMERA treat-to-target comparison.",
+  "observations_or_assays": [
+    "ts/bDMARD use",
+    "Disease Activity Score (DAS)",
+    "Low disease activity under the source-defined DAS threshold"
+  ],
+  "time_scope": "ts/bDMARD use at month 10; the reported overall 10-month DAS analysis; LDA at month 3.",
+  "excluded": [
+    "Separate visit-by-visit DAS rows, time-to-LDA, remission and autoantibody subgroups",
+    "Per-protocol analyses, other medication timelines, PROs and safety"
+  ],
+  "population_or_material": "The main randomized-analysis population of DMARD-naïve RA in PRIMERA.",
+  "requested_items": [
+    "Ten-month ts/bDMARD use counts/proportions and published difference; overall ten-month longitudinal DAS Wald test; month-three LDA counts/proportions and difference. Exclude per-visit DAS and other LDA times."
+  ],
+  "resources": [],
+  "case_specific_rules": [],
+  "domain": "clinical",
+  "pipeline": "clinical-trials",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/clinical-trials.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

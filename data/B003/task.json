@@ -1,0 +1,32 @@
+{
+  "case_id": "B003",
+  "task_id": "B003",
+  "title": "Regulatory role of vitamin D 3 on myogenesis and fibrogenesis under Vdr gene silencing and TGF-β1 stimulation in skeletal muscle cells",
+  "doi": "10.1038/s41598-025-25496-1",
+  "comparison_or_design": "Vdr siRNA versus negative-control siRNA; transfer co-treatments from other experiments only if the source explicitly assigns them to these proteomics samples.",
+  "observations_or_assays": [
+    "Mass-spectrometry proteomics"
+  ],
+  "time_scope": "The transfection and collection schedule of the selected proteomics comparison.",
+  "excluded": [
+    "Vitamin-D-metabolite dose experiments and independent TGF-β1 combination experiments",
+    "Western blots, staining, mitochondrial functional assays and other validation experiments"
+  ],
+  "population_or_material": "C2C12 skeletal-muscle-cell preparations collected for Vdr-knockdown proteomics.",
+  "requested_items": [
+    "Vdr-targeting versus negative-control siRNA, transfection dose and collection interval\n\nExtract siRNA identity, concentration and timing only when supported for the selected proteomics preparations. Distinguish transfection incubation duration from proteomics collection time. Do not infer collection time, co-treatments or replicate counts from other experiments; leave unsupported fields null."
+  ],
+  "resources": [
+    {
+      "accession": "PXD062669",
+      "url": "https://www.ebi.ac.uk/pride/archive/projects/PXD062669"
+    }
+  ],
+  "domain": "basic",
+  "pipeline": "basic-research",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/basic-research.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

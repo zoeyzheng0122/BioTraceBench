@@ -1,0 +1,413 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "B050",
+    "domain": "basic",
+    "title": "Evaluation of MSC‐Secretome Effects in an Ex Vivo Compartmentalized Osteochondral Interface Model",
+    "doi": "10.1155/sci/3275855",
+    "pipeline": "basic-research",
+    "pmid": "41624062",
+    "pmcid": "PMC12860394",
+    "registry": "10.5281/zenodo.18173753"
+  },
+  "files": [
+    {
+      "path": "records/Zenodo-18173753.txt",
+      "sha256": "a11936c372ffe9a44fbb902e70fc02991f79883c560bd9eaa78f016c44089693",
+      "bytes": 3612,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://zenodo.org/api/records/18173753"
+      ],
+      "derived_from": "15462fed9aa5ae1ba562a8adcad0243559142916ced895f0c00f2284c3f82373",
+      "representation": "readable_repository_record",
+      "association": "exact data record linked in article; metadata and file inventory only; readable official record text",
+      "original_filename": "Zenodo-18173753.txt",
+      "retrieved_at": "2026-10-17T23:54:42+08:00"
+    },
+    {
+      "path": "sources/article.xml",
+      "sha256": "05aa7ee70f1a0dc0ff3ec6d32f6d38bae3c867fe24c2db3543e04bf4981e15eb",
+      "bytes": 140469,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12860394/fullTextXML"
+      ],
+      "association": "exact PMCID from case identity"
+    },
+    {
+      "path": "records/Zenodo-18173753.json",
+      "sha256": "8c0a19a09c18e069dd2118b28d1d4af99054242e8b63098629d8d3067145e6b5",
+      "bytes": 3587,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://zenodo.org/api/records/18173753"
+      ],
+      "association": "exact data record linked in article; metadata and file inventory only",
+      "original_filename": "Zenodo-18173753.json",
+      "retrieved_at": "2026-10-17T23:54:42+08:00"
+    },
+    {
+      "path": "figures/SCI-2026-3275855-g001.jpg",
+      "sha256": "9d4898d46e4d6f8fe3029fde04ced812314fa18d687ea7d9a4d7980b2f32acf3",
+      "bytes": 42438,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12860394/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/SCI-2026-3275855-g002.jpg",
+      "sha256": "5ce5e71525c3d844d95e708edafa92cc6dc9af36b022c7ef7bb6951426b65410",
+      "bytes": 42519,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12860394/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/SCI-2026-3275855-g003.jpg",
+      "sha256": "a3f8150fad83beb90e7a11e6055033753c28f4be619bb3685395aa2990060061",
+      "bytes": 7305,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12860394/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/SCI-2026-3275855-g004.jpg",
+      "sha256": "6885f57d5df28bb365c283bb643dbdf29c0ba9f3b327b117a8bc53dddcfce852",
+      "bytes": 37227,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12860394/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/SCI-2026-3275855-g005.jpg",
+      "sha256": "82f82b88820bfe3920e60aab66ab449ae8b97c1c3d8c4aed4bd5841529793b2a",
+      "bytes": 49739,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12860394/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/SCI-2026-3275855-g006.jpg",
+      "sha256": "6ffdcbb47a9bd9918271ae53bea72e2304ccb1fd2b55399c14c08fa82e2b56be",
+      "bytes": 50173,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12860394/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/SCI-2026-3275855-g007.jpg",
+      "sha256": "983839bc32651694267acf029c3947eb8ce8e0e409cbae36ea74e927def4745f",
+      "bytes": 76793,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12860394/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/SCI-2026-3275855-g008.jpg",
+      "sha256": "519afed5869a803507c9ebde634d2de5a25c70d2377af80c9c144c5b6cbebdde",
+      "bytes": 73446,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12860394/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/SCI-2026-3275855-g009.jpg",
+      "sha256": "081b88e3f7e45db9504fac2ed852d4c25e43ddb4005d98ea2c6b11c3a6940dcb",
+      "bytes": 80468,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12860394/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/SCI-2026-3275855-g010.jpg",
+      "sha256": "1d6cbeaf1820c211ac23205322dd1ed243efcfd85ea7cf60e8ed7976d4bc89d7",
+      "bytes": 48123,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12860394/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/SCI-2026-3275855-g011.jpg",
+      "sha256": "15e070a599a54b3de2c0cc1eff7617ee144980ae0f6b4c8ddb74759ef8b96bd2",
+      "bytes": 44428,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12860394/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/SCI-2026-3275855-g012.jpg",
+      "sha256": "8194e21acab0179cec0e9a36e083c6591cce0ff4ce911cbcd5d89163e422c95f",
+      "bytes": 41658,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12860394/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/SCI-2026-3275855-g013.jpg",
+      "sha256": "295e6cc9192c6e06e3e192a4fbf3049eea679915b579e9794b5da6ecea997d43",
+      "bytes": 37126,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12860394/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/SCI-2026-3275855-g014.jpg",
+      "sha256": "4a1387b31e10237b4bc5c74007c0680fb0e33665cc5f4e78d4d3edf0c3deebdf",
+      "bytes": 44606,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12860394/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/SCI-2026-3275855-g015.jpg",
+      "sha256": "744071d03f5fc3fa4ae9a292ff0f23786ef68972fba497384c480433dfb83f69",
+      "bytes": 43372,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12860394/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/SCI-2026-3275855-g016.jpg",
+      "sha256": "56f7d9335035b4ecbd70f2005f3c39826bdbc66bcaa5006ecc1009e7214806dd",
+      "bytes": 37408,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12860394/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/SCI-2026-3275855-g017.jpg",
+      "sha256": "1b55f7b4f19deaf00b8bd101d3be9cd0822ddfdd1a3816fdc1c8f263ffbef9ac",
+      "bytes": 42135,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12860394/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/SCI-2026-3275855-g018.jpg",
+      "sha256": "dbf95499f11b2e1ad2ecadc7d2158acacc7c78b6596459dfc7de8ffc2df43243",
+      "bytes": 39309,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12860394/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/SCI-2026-3275855-g019.jpg",
+      "sha256": "77e413ff0e2068a5d1c8e0de1e5a680f019af71211973c09efa0ed638fc30d52",
+      "bytes": 23715,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12860394/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/SCI-2026-3275855-g020.jpg",
+      "sha256": "370a0abc55fda6baeabbb2ebecf31b8127ae0db0ad126805f11b9d9cbe810ed5",
+      "bytes": 49880,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12860394/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/SCI-2026-3275855-g021.jpg",
+      "sha256": "4a4cebf596cc28f6493a29faf98dc4ba3dbf93a0935d7408a299637683fbaae7",
+      "bytes": 27929,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12860394/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/SCI-2026-3275855-g022.jpg",
+      "sha256": "8d8c11b83c06ecc9dd80bed37699b00c095cb12c7b9bc47834e4c9f5db31d4fb",
+      "bytes": 42647,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12860394/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "supplements/SCI-2026-3275855-s001__refine/content.md",
+      "sha256": "4ee3cfcb276f4e5f7ce95e20faa491a071a47f1929150e89927999ccd2c93baf",
+      "bytes": 1650,
+      "role": "supplement",
+      "roles": [
+        "supplement"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12860394/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package",
+      "derived_from": "eb15f787f7b0ca54ab7ff0230aef82b73cf65b22c55d0867301e1fdf11ecec4e",
+      "original_sha256": "eb15f787f7b0ca54ab7ff0230aef82b73cf65b22c55d0867301e1fdf11ecec4e",
+      "original_filename": "SCI-2026-3275855-s001.docx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "office_text_tables"
+    },
+    {
+      "path": "supplements/SCI-2026-3275855-s005__refine/content.md",
+      "sha256": "4b78342ff34a6ea28178b14532aa2908c4a97b6b9f4c25646f2aba112d557e6a",
+      "bytes": 1325,
+      "role": "supplement",
+      "roles": [
+        "supplement"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12860394/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package",
+      "derived_from": "dd1d32e26cca27efd8307a9073425433d94c6e9791c3e98ecb83a24488d40e48",
+      "original_sha256": "dd1d32e26cca27efd8307a9073425433d94c6e9791c3e98ecb83a24488d40e48",
+      "original_filename": "SCI-2026-3275855-s005.docx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "office_text_tables"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

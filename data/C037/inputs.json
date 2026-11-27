@@ -1,0 +1,202 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "C037",
+    "domain": "clinical",
+    "title": "Subcutaneous versus intravenous ultra-low-dose rituximab in rheumatoid arthritis: a randomized controlled PK-PD non-inferiority trial",
+    "doi": "10.1093/rheumatology/keag420",
+    "pipeline": "clinical-trials",
+    "pmid": "42610717",
+    "pmcid": "PMC13599780",
+    "registry": "NL-OMON52719"
+  },
+  "files": [
+    {
+      "path": "sources/article.xml",
+      "sha256": "f881f8920636b902bfb938a81332f83cdc4639710e4ab22b4c65799623f105ef",
+      "bytes": 73286,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13599780/fullTextXML"
+      ],
+      "association": "exact public PMCID candidate"
+    },
+    {
+      "path": "figures/captions.txt",
+      "sha256": "3b933c8dfefb090744806c597cb667b4527c8dc0248f3d6ef03993af56684228",
+      "bytes": 2180,
+      "role": "figure_captions",
+      "roles": [
+        "figure_captions"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13599780/"
+      ],
+      "derived_from": "a7c77de921385f01e6ea33e769ea3228c8d5b2d1cfba2d591a229de57ed7a164"
+    },
+    {
+      "path": "figures/keag420f1.png",
+      "sha256": "40336e2f3587f013e3e2c1948b3f8a377d550dc979f3d6a8aa48265a7dace68b",
+      "bytes": 179145,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13599780.1/keag420f1.webp?md5=41150d4054e4ce512c7fb3bd927e0b04"
+      ],
+      "association": "exact JATS keag420-F1 in verified PMC version; article source only",
+      "derived_from": "983056215da3ad5a6cfd1592808fae0f0a04f380c16555f8e4b3cf42b546451f",
+      "original_sha256": "983056215da3ad5a6cfd1592808fae0f0a04f380c16555f8e4b3cf42b546451f",
+      "original_filename": "keag420f1.webp",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_palette"
+    },
+    {
+      "path": "figures/keag420f2.png",
+      "sha256": "161cc8f8a46ff12a213faf2149a88d6ffb3c7263f3ff577db0abcab6a9459a3c",
+      "bytes": 59932,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13599780.1/keag420f2.webp?md5=1d0aa8a84ce827bd26ad0d8a91e133a8"
+      ],
+      "association": "exact JATS keag420-F2 in verified PMC version; article source only",
+      "derived_from": "37e84104d3369e1cc9c8aaa483a7b813af05be77e7ba6f715c988d87a5388f58",
+      "original_sha256": "37e84104d3369e1cc9c8aaa483a7b813af05be77e7ba6f715c988d87a5388f58",
+      "original_filename": "keag420f2.webp",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_palette"
+    },
+    {
+      "path": "figures/keag420f3.png",
+      "sha256": "ffdfc4ef39afec089cd953b0fd91fac3366d20927c53856fa0e9e9ccafda3647",
+      "bytes": 48227,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13599780.1/keag420f3.webp?md5=2e00fed6f54b9edf7487fc8974032fb6"
+      ],
+      "association": "exact JATS keag420-F3 in verified PMC version; article source only",
+      "derived_from": "001627b126de2cf49d2ff6d2a539eebf26f6076777a3d10c293ab00c838574fe",
+      "original_sha256": "001627b126de2cf49d2ff6d2a539eebf26f6076777a3d10c293ab00c838574fe",
+      "original_filename": "keag420f3.webp",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_palette"
+    },
+    {
+      "path": "figures/keag420f4.png",
+      "sha256": "2f8c2f89e6d745525bd65f470cd5313160ec224cb101bea40393a012c45f9e1c",
+      "bytes": 32159,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13599780.1/keag420f4.webp?md5=3153837241f8a28001248e24c8fadee4"
+      ],
+      "association": "exact JATS keag420-F4 in verified PMC version; article source only",
+      "derived_from": "1b16b955d2188a27fbc57d3bc6540f5a062e8a2e94e98bd42472377baabc4cd0",
+      "original_sha256": "1b16b955d2188a27fbc57d3bc6540f5a062e8a2e94e98bd42472377baabc4cd0",
+      "original_filename": "keag420f4.webp",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_palette"
+    },
+    {
+      "path": "records/Registry-NL-OMON52719.txt",
+      "sha256": "9b0e0b2c8308b261ec254be709bf85ebfd60b7a854224d63af13c950ceab8f2d",
+      "bytes": 6059,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://onderzoekmetmensen.nl/en/trial/52719"
+      ],
+      "derived_from": "b69942c1cf577fa66dd6a8e255aba3bff3111f04a247e739cc1958d5ed57d522",
+      "representation": "readable_repository_page",
+      "original_filename": "Registry-NL-OMON52719.txt",
+      "retrieved_at": "2026-10-18T02:08:42+08:00"
+    },
+    {
+      "path": "supplements/keag420_supplementary_data__refine/asset-image1.png",
+      "sha256": "d8bde65065699867531b02cd6860a96a636210551f870df749cab7bc80a35c3c",
+      "bytes": 275,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13599780.1/keag420_supplementary_data.docx?md5=56d19f281ab8d86407c2c6b5995823a4"
+      ],
+      "association": "exact JATS sup1 in verified PMC version; article source only",
+      "derived_from": "7c4ace1783c84f13c95aa29199e952a99343ad7f0a3035ead4c4bc378b545447",
+      "original_sha256": "7c4ace1783c84f13c95aa29199e952a99343ad7f0a3035ead4c4bc378b545447",
+      "original_filename": "keag420_supplementary_data.docx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_palette"
+    },
+    {
+      "path": "supplements/keag420_supplementary_data__refine/asset-image2.png",
+      "sha256": "aa43678fd71648db5fc199ea43b989adc7f50cba2ac1299d4f21df3952dc8917",
+      "bytes": 84480,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13599780.1/keag420_supplementary_data.docx?md5=56d19f281ab8d86407c2c6b5995823a4"
+      ],
+      "association": "exact JATS sup1 in verified PMC version; article source only",
+      "derived_from": "7c4ace1783c84f13c95aa29199e952a99343ad7f0a3035ead4c4bc378b545447",
+      "original_sha256": "7c4ace1783c84f13c95aa29199e952a99343ad7f0a3035ead4c4bc378b545447",
+      "original_filename": "keag420_supplementary_data.docx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/keag420_supplementary_data__refine/content.md",
+      "sha256": "51261a2ed4439ffcd3f96b0dbb9f25e9de5e2364047e9459e1e59e4f96d1504d",
+      "bytes": 6556,
+      "role": "supplement",
+      "roles": [
+        "supplement"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13599780.1/keag420_supplementary_data.docx?md5=56d19f281ab8d86407c2c6b5995823a4"
+      ],
+      "association": "exact JATS sup1 in verified PMC version; article source only",
+      "derived_from": "7c4ace1783c84f13c95aa29199e952a99343ad7f0a3035ead4c4bc378b545447",
+      "original_sha256": "7c4ace1783c84f13c95aa29199e952a99343ad7f0a3035ead4c4bc378b545447",
+      "original_filename": "keag420_supplementary_data.docx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "office_text_tables"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

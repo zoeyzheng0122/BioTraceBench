@@ -1,0 +1,137 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "C021",
+    "domain": "clinical",
+    "title": "Physiotherapy informed by acceptance and commitment therapy for chronic low back pain: A randomized trial",
+    "doi": "10.1142/S1013702526500022",
+    "pipeline": "clinical-trials",
+    "pmid": "42016046",
+    "pmcid": "PMC13092432",
+    "registry": "NCT05512338"
+  },
+  "files": [
+    {
+      "path": "sources/article.xml",
+      "sha256": "5b4cc848f3d54d57783cb58359ac1df4ab83ff33b326e901e052129e41b9ccb5",
+      "bytes": 162669,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13092432/fullTextXML"
+      ],
+      "association": "exact PMCID from case identity"
+    },
+    {
+      "path": "records/ClinicalTrials-NCT05512338.json",
+      "sha256": "d567d3fa1e524b951006fcd3f0872c3fde549193177608e8846e025466b23f26",
+      "bytes": 9855,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://clinicaltrials.gov/api/v2/studies/NCT05512338"
+      ],
+      "association": "exact trial registration linked by article; verify in source projection",
+      "original_filename": "registry.json",
+      "retrieved_at": "2026-10-17T21:24:00+08:00",
+      "derived_from": "a3766aaf4fc8d7dafad740f54325d59efbf82e31fb4c7557c648053aaa4c8829",
+      "original_sha256": "a3766aaf4fc8d7dafad740f54325d59efbf82e31fb4c7557c648053aaa4c8829",
+      "representation": "refine-lexical-json-1",
+      "provenance_transform": "exact_json_whitespace_compaction"
+    },
+    {
+      "path": "figures/hkpj-46-01-015-g001.jpg",
+      "sha256": "70eb44352ac2b14fc75278febb3714972d74f3781b5c0400f93318501c5b985c",
+      "bytes": 68712,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13092432/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/hkpj-46-01-015-oid001.jpg",
+      "sha256": "3c693fd15a5f3b35bfa4093321d85e5deff61875f6abbf95da4ca04e755a8e8b",
+      "bytes": 672,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13092432/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/hkpj-46-01-015-t001.jpg",
+      "sha256": "6af189fd66c02464e70fa98b210a03abe8d299c3fbff7e1556807afb92dcdc10",
+      "bytes": 119499,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13092432/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/hkpj-46-01-015-t002.jpg",
+      "sha256": "1ff68d62a6c81773dfe99ac3bdfcb4faa24f305a26cda08022fcd1d206ab4ad5",
+      "bytes": 150356,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13092432/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/hkpj-46-01-015-t003.jpg",
+      "sha256": "aff378c64f517721d3e31ce03d311cd9d153fd742fcc5a6c12cfd41ffdb22a89",
+      "bytes": 82188,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13092432/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/hkpj-46-01-015-t004.jpg",
+      "sha256": "fe3e20272358a94d66e68e85dddfc1b3e657682246f4d7088e8801fcbf1f2783",
+      "bytes": 96042,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13092432/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

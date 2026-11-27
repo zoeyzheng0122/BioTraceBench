@@ -1,0 +1,30 @@
+{
+  "case_id": "C050",
+  "task_id": "C050",
+  "title": "Bilateral hypoglossal nerve stimulation for obstructive sleep apnea: a nonrandomized clinical trial",
+  "doi": "10.5664/jcsm.11822",
+  "comparison_or_design": "The primary 12-month bilateral hypoglossal nerve stimulation assessment.",
+  "observations_or_assays": [
+    "AHI response under the coprimary criterion",
+    "ODI response under the coprimary criterion",
+    "AHI as a continuous quantity"
+  ],
+  "time_scope": "Baseline to the primary 12-month assessment.",
+  "excluded": [
+    "Continuous ODI, oxygenation, other follow-up and patient-reported outcomes",
+    "Safety"
+  ],
+  "population_or_material": "The source-defined populations for the selected coprimary outcomes and Table 2 continuous-AHI summaries, together with the reported participant-flow context necessary to interpret these analyses.",
+  "requested_items": [
+    "Primary worst-case-imputed AHI/ODI responder counts/proportions/performance-goal tests and Table 2 paired continuous total-AHI baseline/12-month summaries/change/test. Exclude PP/FAS sensitivity responses, unrelated baseline denominators and positional/REM/NREM AHI subdivisions."
+  ],
+  "resources": [],
+  "case_specific_rules": [],
+  "domain": "clinical",
+  "pipeline": "clinical-trials",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/clinical-trials.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

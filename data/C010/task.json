@@ -1,0 +1,30 @@
+{
+  "case_id": "C010",
+  "task_id": "C010",
+  "title": "MONETTE: A Randomized Phase II Study of Ceralasertib plus Durvalumab or Ceralasertib Monotherapy in Patients with Advanced Melanoma Resistant to PD-(L)1 Inhibition Ceralasertib ± Durvalumab in PD-(L)1–Resistant Melanoma",
+  "doi": "10.1158/1078-0432.CCR-25-3951",
+  "comparison_or_design": "The primary MONETTE efficacy comparison.",
+  "observations_or_assays": [
+    "BICR-confirmed objective response rate per RECIST v1.1",
+    "BICR-assessed progression-free survival",
+    "Overall survival"
+  ],
+  "time_scope": "The main full-analysis-set results at the article’s reported data cutoff.",
+  "excluded": [
+    "Investigator-assessed response, best-response categories, duration/time to response",
+    "Biomarker subsets, exploratory biomarkers and safety"
+  ],
+  "population_or_material": "The full analysis set of anti–PD-(L)1-resistant advanced melanoma patients in MONETTE.",
+  "requested_items": [
+    "Full-analysis-set BICR ORR arm counts/proportions and adjusted OR; PFS/OS arm medians and primary HRs. Exclude safety-set/investigator responses, subgroups, event counts and landmark survival rates."
+  ],
+  "resources": [],
+  "case_specific_rules": [],
+  "domain": "clinical",
+  "pipeline": "clinical-trials",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/clinical-trials.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

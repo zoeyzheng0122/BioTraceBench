@@ -1,0 +1,175 @@
+{
+  "measure": [
+    {
+      "measure_definition": "Occurrence: achieving ACR20 response at Week 12; Participants; American College of Rheumatology (ACR) 20 composite assessment at baseline and Week 12: tender and swollen joint counts of 28 joints (scale 0=best to 28=worst) plus 3 of 5 measures: HAQ-DI (0=no difficulty to 3=unable to do), subject global assessment (0=best to 10=worst), subject pain (0=no pain to 10=worst), evaluator's global assessment (0=best to 10=worst), and high-sensitivity C-reactive protein (hsCRP) concentration (mg/L).; Response defined as at least 20% improvement from baseline to Week 12 in tender and swollen joint counts of 28 joints and in 3 of the 5 listed measures. The primary endpoint uses baseline at the day of consent; the separate ACR20 endpoint referenced to day-0 randomization is excluded.",
+      "measure_id": "M0",
+      "measure_name": "ACR20 response"
+    },
+    {
+      "measure_definition": "Occurrence: achieving EULAR good or moderate DAS28-CRP response at Week 12; Participants; DAS28-CRP calculated from tender and swollen joint counts of 28 joints (scale 0=best to 28=worst), subject global assessment (0=best to 10=worst), and high-sensitivity C-reactive protein (hsCRP, mg/L): DAS28-CRP = 0.56*sqrt(TJC28) + 0.28*sqrt(SJC28) + 0.36*ln(CRP+1) + 0.014*SGA + 0.96. Assessed at baseline and Week 12.; EULAR good or moderate response: moderate if DAS28-CRP improvement from baseline to Week 12 is >0.6 and <=1.2 with Week 12 DAS28-CRP <=5.1, OR improvement is >1.2 with Week 12 DAS28-CRP >3.2; good if improvement is >1.2 with Week 12 DAS28-CRP <=3.2. This measure captures the combined good-or-moderate category as reported.",
+      "measure_id": "M1",
+      "measure_name": "DAS28-CRP EULAR good or moderate response"
+    },
+    {
+      "measure_definition": "Blinded month-three HAQ-DI response referenced to consent baseline. A decrease of 0.22 points is the reported meaningful improvement criterion. The inequality boundary is unspecified. The 20 items cover eight functional areas. Each area uses its highest item score, raised to 2 for use of aids, devices or assistance if the score is 0 or 1. The overall 0–3 score averages the scored areas when at least six are available. Lower values indicate less disability.",
+      "measure_id": "M2",
+      "measure_name": "HAQ-DI minimum clinically important improvement"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "SetPoint System implant with active or non-active vagus-nerve stimulation; implant procedure; conventional synthetic DMARD background.",
+      "intervention_regimen": "Not reported.; Implant procedure, then active or non-active stimulation for 1 min once per day for 12 weeks blinded; after Week 12 all participants receive active stimulation in a 252-week open-label follow-up.",
+      "population_definition": "All eligible participants who completed implant and were subsequently randomly assigned; parent set for the active and sham groups.; Adults 22-75 years with active moderate or severe rheumatoid arthritis (at least 4/28 tender and 4/28 swollen joints); inadequate response, loss of response, or intolerance to at least 1 approved RA biologic or targeted synthetic DMARD, including JAK inhibitors; receiving at least 1 conventional synthetic DMARD for at least 12 weeks with a stable dose and route for at least 4 weeks before screening and able to continue the same stable dose through Week 12; met eligibility, completed the implant procedure, and were randomized 1:1 to active or non-active stimulation.",
+      "population_id": "P0",
+      "population_name": "Randomized implanted population",
+      "population_size": 242,
+      "population_time_frame": "Randomization after implant; Week 12 primary endpoint assessment. Study start 2021-01-11 (actual); primary completion 2024-05-16 (actual)."
+    },
+    {
+      "intervention": "Active stimulation with the SetPoint System device; implant procedure; conventional synthetic DMARD background.",
+      "intervention_regimen": "Not reported.; Implant procedure, then active stimulation for 1 min once per day for 12 weeks blinded; after Week 12 active stimulation continues in a 252-week open-label follow-up.",
+      "population_definition": "Randomized to the Treatment arm and received active stimulation.; Randomized implanted participants assigned to active stimulation (Treatment arm): adults 22-75 years with active moderate or severe RA; inadequate response, loss of response, or intolerance to at least 1 approved RA biologic or targeted synthetic DMARD, including JAK inhibitors; on stable conventional synthetic DMARD therapy through Week 12; completed implant and randomized to active stimulation.",
+      "population_id": "P1",
+      "population_name": "Active vagus-nerve stimulation group (Treatment)",
+      "population_size": 122,
+      "population_time_frame": "Randomization after implant; Week 12 primary endpoint assessment. Study start 2021-01-11 (actual); primary completion 2024-05-16 (actual)."
+    },
+    {
+      "intervention": "Non-active stimulation (sham) with the SetPoint System device; implant procedure; conventional synthetic DMARD background.",
+      "intervention_regimen": "Not reported.; Implant procedure, then non-active stimulation for 1 min once per day for 12 weeks blinded; after Week 12 one-way crossover to active stimulation and 252-week open-label follow-up.",
+      "population_definition": "Randomized to the Control arm and received non-active stimulation.; Randomized implanted participants assigned to non-active stimulation (Control arm): adults 22-75 years with active moderate or severe RA; inadequate response, loss of response, or intolerance to at least 1 approved RA biologic or targeted synthetic DMARD, including JAK inhibitors; on stable conventional synthetic DMARD therapy through Week 12; completed implant and randomized to non-active stimulation.",
+      "population_id": "P2",
+      "population_name": "Sham non-active stimulation group (Control)",
+      "population_size": 120,
+      "population_time_frame": "Randomization after implant; Week 12 primary endpoint assessment. Study start 2021-01-11 (actual); primary completion 2024-05-16 (actual)."
+    }
+  ],
+  "population_relation": [
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P2",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P2",
+      "relationship": "disjoint from"
+    }
+  ],
+  "result": [
+    {
+      "assessment_time": "3 months after randomization; response from consent baseline",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R01",
+      "result_unit": "participants",
+      "result_value": 43,
+      "statistic_type": "Number of participants with ACR20 response",
+      "statistical_method": null,
+      "supplementary_statistics": "At the Week 12 primary-endpoint milestone, 1/122 participants missed this visit and were imputed as a non-responder.; Reported denominator: 122; reported response proportion 35.2%"
+    },
+    {
+      "assessment_time": "3 months after randomization; response from consent baseline",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P2",
+      "result_id": "R02",
+      "result_unit": "participants",
+      "result_value": 29,
+      "statistic_type": "Number of participants with ACR20 response",
+      "statistical_method": null,
+      "supplementary_statistics": "At the Week 12 primary-endpoint milestone, 1/120 participants missed this visit and were imputed as a non-responder.; Reported denominator: 120; reported response proportion 24.2%"
+    },
+    {
+      "assessment_time": "3 months after randomization; response from consent baseline",
+      "comparison": "P1 minus P2 (active stimulation minus sham)",
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R03",
+      "result_unit": "percentage points",
+      "result_value": 11.8,
+      "statistic_type": "Risk difference (RD), Cochran-Mantel-Haenszel, treatment vs control, superiority",
+      "statistical_method": "Cochran–Mantel–Haenszel test",
+      "supplementary_statistics": "95% CI 0.6 to 23.1; p=0.0209; one-sided alpha 0.025; superiority; Cochran-Mantel-Haenszel; analysis N 122 treatment and 120 control; p not labeled as adjusted in the supplied block."
+    },
+    {
+      "assessment_time": "Week 12 (baseline to Week 12)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R04",
+      "result_unit": "participants",
+      "result_value": 74,
+      "statistic_type": "Number of participants with DAS28-CRP EULAR good or moderate response",
+      "statistical_method": null,
+      "supplementary_statistics": "Reported denominator: 122; reported response proportion 60.7%"
+    },
+    {
+      "assessment_time": "Week 12 (baseline to Week 12)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P2",
+      "result_id": "R05",
+      "result_unit": "participants",
+      "result_value": 50,
+      "statistic_type": "Number of participants with DAS28-CRP EULAR good or moderate response",
+      "statistical_method": null,
+      "supplementary_statistics": "Reported denominator: 120; reported response proportion 41.7%"
+    },
+    {
+      "assessment_time": "Week 12 (baseline to Week 12)",
+      "comparison": "P1 minus P2 (active stimulation minus sham)",
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R06",
+      "result_unit": "percentage points",
+      "result_value": 19.5,
+      "statistic_type": "Risk difference (RD), Cochran-Mantel-Haenszel, treatment vs control, superiority",
+      "statistical_method": "Cochran–Mantel–Haenszel test",
+      "supplementary_statistics": "95% CI 7.3 to 31.7; p=0.0048 (adjusted; Hochberg step-up; one-sided significance level 0.025); superiority; Cochran-Mantel-Haenszel; analysis N 122 treatment and 120 control."
+    },
+    {
+      "assessment_time": "Week 12 (baseline to Week 12; MCID -0.22)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R07",
+      "result_unit": "participants",
+      "result_value": 56,
+      "statistic_type": "Number of participants with HAQ-DI MCID response (MCID -0.22)",
+      "statistical_method": null,
+      "supplementary_statistics": "Reported denominator: 122; reported response proportion 45.9%"
+    },
+    {
+      "assessment_time": "Week 12 (baseline to Week 12; MCID -0.22)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P2",
+      "result_id": "R08",
+      "result_unit": "participants",
+      "result_value": 44,
+      "statistic_type": "Number of participants with HAQ-DI MCID response (MCID -0.22)",
+      "statistical_method": null,
+      "supplementary_statistics": "Reported denominator: 120; reported response proportion 36.7%"
+    },
+    {
+      "assessment_time": "Week 12 (baseline to Week 12; MCID -0.22)",
+      "comparison": "P1 minus P2 (active stimulation minus sham)",
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R09",
+      "result_unit": "percentage points",
+      "result_value": 9.0,
+      "statistic_type": "Risk difference (RD), Cochran-Mantel-Haenszel, treatment vs control, superiority",
+      "statistical_method": "Cochran–Mantel–Haenszel test",
+      "supplementary_statistics": "95% CI -3.3 to 21.4; p=0.0797 (adjusted; Hochberg step-up; one-sided significance level 0.025); superiority; Cochran-Mantel-Haenszel; analysis N 122 treatment and 120 control."
+    }
+  ]
+}

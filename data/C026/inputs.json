@@ -1,0 +1,88 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "C026",
+    "domain": "clinical",
+    "title": "Aquatic therapy compared to standard care for chronic low back pain: a randomized controlled trial",
+    "doi": "10.1080/17581869.2026.2613633",
+    "pipeline": "clinical-trials",
+    "pmid": "41527881",
+    "pmcid": "PMC13248502",
+    "registry": "NCT05823857"
+  },
+  "files": [
+    {
+      "path": "sources/article.xml",
+      "sha256": "80d648370fc92a5a3f058cdc5185e7e48901568a948c31f1bcec3c3ad8e25c91",
+      "bytes": 174467,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13248502/fullTextXML"
+      ],
+      "association": "official full text for exact PMCID"
+    },
+    {
+      "path": "records/ClinicalTrials-NCT05823857.json",
+      "sha256": "092c0ca932989ed03ca2cc3b351e6a153d586a9f8a20e515796fe0e865671aa3",
+      "bytes": 12830,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://clinicaltrials.gov/api/v2/studies/NCT05823857"
+      ],
+      "association": "exact trial accession reported in article",
+      "original_filename": "registry.json",
+      "retrieved_at": "2026-10-17T21:53:06+08:00",
+      "derived_from": "074e1adf3eaa23abeff8ecb88848692ee2a2d8ecab25cfb81f93dab28aa42618",
+      "original_sha256": "074e1adf3eaa23abeff8ecb88848692ee2a2d8ecab25cfb81f93dab28aa42618",
+      "representation": "refine-lexical-json-1",
+      "provenance_transform": "exact_json_whitespace_compaction"
+    },
+    {
+      "path": "figures/IPMT_A_2613633_F0001_B.jpg",
+      "sha256": "42026c41dc5ec5f6419fbfb42ddb38fa3ef7779169a935a6b27300309cdf6f00",
+      "bytes": 102956,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13248502/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package"
+    },
+    {
+      "path": "supplements/IPMT_A_2613633_SM1793__refine/content.md",
+      "sha256": "6bafb68c86697dfcec3f2a2389d3d552052c4b270249579dd547bdc4c785d3b9",
+      "bytes": 6689,
+      "role": "supplement",
+      "roles": [
+        "supplement"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13248502/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package",
+      "derived_from": "217f8444e3905d3755eb0d49d8a9a928a1553a0fa167c5053f68b5cd3a0dfed2",
+      "original_sha256": "217f8444e3905d3755eb0d49d8a9a928a1553a0fa167c5053f68b5cd3a0dfed2",
+      "original_filename": "IPMT_A_2613633_SM1793.docx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "office_text_tables",
+      "prior_sha256": "f35325187f9a42b51d419aea709af896726dda865752d5f93bf4a94aafba09f9",
+      "compatibility_transform": "remove_task_excluded_image_reference_lines"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

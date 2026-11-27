@@ -1,0 +1,35 @@
+{
+  "case_id": "B040",
+  "task_id": "B040",
+  "title": "Free-floating long-term vascularized mesenchymal organoids",
+  "doi": "10.1016/j.isci.2025.114548",
+  "comparison_or_design": "The organoid maturation time series, retaining documented HUVEC/MSC source and pooled-organoid relationships.",
+  "observations_or_assays": [
+    "Bulk RNA sequencing"
+  ],
+  "time_scope": "Days 3, 14, 28 and 60.",
+  "excluded": [
+    "The separate day-14 spheroid/matrix-structure comparison within GSE297746",
+    "GSE297680 scRNA-seq, tumor invasion, other functional assays and expression-result extraction"
+  ],
+  "population_or_material": "Identifiable organoid pools sampled for the GSE297746 temporal bulk RNA-seq experiment. HUVEC and MSC starting cells are biological-source attributes, not additional sample rows.",
+  "requested_items": [
+    "Culture duration at collection",
+    "HUVEC:MSC seeding ratio",
+    "Matrigel concentration at seeding",
+    "Initial cell number per organoid"
+  ],
+  "resources": [
+    {
+      "accession": "GSE297746",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE297746"
+    }
+  ],
+  "domain": "basic",
+  "pipeline": "basic-research",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/basic-research.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

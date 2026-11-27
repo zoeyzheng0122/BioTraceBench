@@ -1,0 +1,32 @@
+{
+  "case_id": "B002",
+  "task_id": "B002",
+  "title": "Comparative effects of standardized Centella asiatica extract (ECa 233) and its active compound mixture on proteomics and mitochondrial function",
+  "doi": "10.1038/s41598-025-12622-2",
+  "comparison_or_design": "The treatment-formulation proteomics comparison in differentiated SH-SY5Y cells.",
+  "observations_or_assays": [
+    "Mass-spectrometry proteomics"
+  ],
+  "time_scope": "The treatment and collection interval of the reported proteomics experiment.",
+  "excluded": [
+    "Rat hippocampal electrophysiology and long-term potentiation experiments",
+    "Independent mitochondrial respiration, pharmacological validation and other non-proteomic assays"
+  ],
+  "population_or_material": "Differentiated SH-SY5Y preparations used for proteomics.",
+  "requested_items": [
+    "Treatment formulation (control, ECa 233 or MDS + ASS), compound concentrations and exposure duration"
+  ],
+  "resources": [
+    {
+      "accession": "PXD057572",
+      "url": "https://www.ebi.ac.uk/pride/archive/projects/PXD057572"
+    }
+  ],
+  "domain": "basic",
+  "pipeline": "basic-research",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/basic-research.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

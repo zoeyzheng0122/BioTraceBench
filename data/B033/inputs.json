@@ -1,0 +1,347 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "B033",
+    "domain": "basic",
+    "title": "Human meibomian gland organoids to study epithelial homeostasis and dysfunction",
+    "doi": "10.1093/procel/pwaf095",
+    "pipeline": "basic-research",
+    "pmid": "41206935",
+    "pmcid": "PMC13429463",
+    "registry": "SRP497138"
+  },
+  "files": [
+    {
+      "path": "records/ENA-SRP497138-runs.txt",
+      "sha256": "a90ec3ccd61ab782d2cb6a79b8d7d6d14285ba395255a261f53d88027fe8f5c6",
+      "bytes": 7081,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP497138&result=read_run&fields=study_accession,secondary_study_accession,sample_accession,secondary_sample_accession,experiment_accession,run_accession,scientific_name,sample_title,library_name,library_strategy,library_source,library_selection,instrument_platform,instrument_model&format=json"
+      ],
+      "derived_from": "f10cac4369a67127d1b0a4d241471aea1f83696a121930972d90c760ac7ba448",
+      "representation": "readable_repository_record",
+      "association": "article explicitly reports project; run metadata without sequence files; readable official record text",
+      "original_filename": "ENA-SRP497138-runs.txt",
+      "retrieved_at": "2026-10-17T23:54:32+08:00"
+    },
+    {
+      "path": "sources/article.xml",
+      "sha256": "a20acff695dda6f78e1057c775a97fcdd104a86a3d3a7739c0feaec68d5e33bf",
+      "bytes": 119897,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13429463/fullTextXML"
+      ],
+      "association": "exact PMCID browser acquisition; front-matter DOI verified"
+    },
+    {
+      "path": "records/ENA-SRP497138-runs.json",
+      "sha256": "fed280a1f008753065b64af12513a8e566ae6c6f63806341aac2ed1f145ac2f5",
+      "bytes": 6838,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP497138&result=read_run&fields=study_accession,secondary_study_accession,sample_accession,secondary_sample_accession,experiment_accession,run_accession,scientific_name,sample_title,library_name,library_strategy,library_source,library_selection,instrument_platform,instrument_model&format=json"
+      ],
+      "association": "article explicitly reports project; run metadata without sequence files",
+      "original_filename": "ENA-SRP497138-runs.json",
+      "retrieved_at": "2026-10-17T23:54:32+08:00"
+    },
+    {
+      "path": "figures/pwaf095f1.jpg",
+      "sha256": "1ed27299a57608e9dbb96a4c85069077ebb9abf8a49f089b8953e9995cdb5c1f",
+      "bytes": 202839,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/61b3/13429463/8637f5f14e1f/pwaf095f1.jpg"
+      ],
+      "association": "exact linked asset in verified same-study XML"
+    },
+    {
+      "path": "figures/pwaf095f2.jpg",
+      "sha256": "b2938cf87a7861dfcac8ad0f8610135c982bef0b80fe4205b0cedcf4f4e74b2b",
+      "bytes": 189528,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/61b3/13429463/2f51b1d351c9/pwaf095f2.jpg"
+      ],
+      "association": "exact linked asset in verified same-study XML"
+    },
+    {
+      "path": "figures/pwaf095f3.jpg",
+      "sha256": "f886ddc267472751ee75a62369a49e9bfe88bcd8522f11c49b20579707c31fe5",
+      "bytes": 184664,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/61b3/13429463/538baef7439c/pwaf095f3.jpg"
+      ],
+      "association": "exact linked asset in verified same-study XML"
+    },
+    {
+      "path": "figures/pwaf095f4.jpg",
+      "sha256": "cd0f4fbee4462277ded97179d112efdb6ba9b1b13afde67d91e8ce5e6a70689e",
+      "bytes": 175689,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/61b3/13429463/bdf6d5b3de60/pwaf095f4.jpg"
+      ],
+      "association": "exact linked asset in verified same-study XML"
+    },
+    {
+      "path": "figures/pwaf095f5.jpg",
+      "sha256": "7c7038d46068af3633163092b5e4d2ef88c9c3c43c9aaec214326ac8705f3e71",
+      "bytes": 156793,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/61b3/13429463/3cf735aa3c39/pwaf095f5.jpg"
+      ],
+      "association": "exact linked asset in verified same-study XML"
+    },
+    {
+      "path": "figures/pwaf095f6.jpg",
+      "sha256": "6afee153a5f554e5b5ae87aeb7b439c887302583b72ee471f5c556315fbf1cff",
+      "bytes": 154656,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/61b3/13429463/95e1875b07a2/pwaf095f6.jpg"
+      ],
+      "association": "exact linked asset in verified same-study XML"
+    },
+    {
+      "path": "supplements/Supplementary_figures-Yu-June_3_2025-220_ppi__refine/asset-image1.png",
+      "sha256": "b5a9999f5131f6fd63eef4610a46e72861f6ec188fe01e21e678f66d234db781",
+      "bytes": 698527,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [],
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "derived_from": "a443a623368da3550c723189c9c6ad36e3a6d60990bec4cbe507b64e91785aff",
+      "original_sha256": "a443a623368da3550c723189c9c6ad36e3a6d60990bec4cbe507b64e91785aff",
+      "original_filename": "Supplementary figures-Yu-June 3 2025-220 ppi.docx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/Supplementary_figures-Yu-June_3_2025-220_ppi__refine/asset-image2.png",
+      "sha256": "324723436f94ec453764db99ab03bc285f2dc7113a6cf20122c4107e91a25119",
+      "bytes": 906985,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [],
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "derived_from": "a443a623368da3550c723189c9c6ad36e3a6d60990bec4cbe507b64e91785aff",
+      "original_sha256": "a443a623368da3550c723189c9c6ad36e3a6d60990bec4cbe507b64e91785aff",
+      "original_filename": "Supplementary figures-Yu-June 3 2025-220 ppi.docx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/Supplementary_figures-Yu-June_3_2025-220_ppi__refine/asset-image3.png",
+      "sha256": "c420a838422bc26cb7c8f79906a3f778cc2580a388c1f116c8678e672e9cc52d",
+      "bytes": 1581986,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [],
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "derived_from": "a443a623368da3550c723189c9c6ad36e3a6d60990bec4cbe507b64e91785aff",
+      "original_sha256": "a443a623368da3550c723189c9c6ad36e3a6d60990bec4cbe507b64e91785aff",
+      "original_filename": "Supplementary figures-Yu-June 3 2025-220 ppi.docx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/Supplementary_figures-Yu-June_3_2025-220_ppi__refine/asset-image4.png",
+      "sha256": "4df30583cd5c9eb796475b629d05f481af5ead2ccf754fd0a1554a9541bdb585",
+      "bytes": 198701,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [],
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "derived_from": "a443a623368da3550c723189c9c6ad36e3a6d60990bec4cbe507b64e91785aff",
+      "original_sha256": "a443a623368da3550c723189c9c6ad36e3a6d60990bec4cbe507b64e91785aff",
+      "original_filename": "Supplementary figures-Yu-June 3 2025-220 ppi.docx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/Supplementary_figures-Yu-June_3_2025-220_ppi__refine/asset-image5.png",
+      "sha256": "133c13a07c72f7c2c6aa94c6d95e17a33a300d5de2973b84b5c9c95d97868b0a",
+      "bytes": 992646,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [],
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "derived_from": "a443a623368da3550c723189c9c6ad36e3a6d60990bec4cbe507b64e91785aff",
+      "original_sha256": "a443a623368da3550c723189c9c6ad36e3a6d60990bec4cbe507b64e91785aff",
+      "original_filename": "Supplementary figures-Yu-June 3 2025-220 ppi.docx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/Supplementary_figures-Yu-June_3_2025-220_ppi__refine/asset-image6.png",
+      "sha256": "a5d0367605428ac81ddd48c0aea5265ea2240b43ebf805785c535d7afb7cf63c",
+      "bytes": 1049558,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [],
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "derived_from": "a443a623368da3550c723189c9c6ad36e3a6d60990bec4cbe507b64e91785aff",
+      "original_sha256": "a443a623368da3550c723189c9c6ad36e3a6d60990bec4cbe507b64e91785aff",
+      "original_filename": "Supplementary figures-Yu-June 3 2025-220 ppi.docx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/Supplementary_figures-Yu-June_3_2025-220_ppi__refine/asset-image7.png",
+      "sha256": "dcfe32b7a344c1b31b598a7b4e0b7d3890551432861893f73c249cf446836dee",
+      "bytes": 468127,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [],
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "derived_from": "a443a623368da3550c723189c9c6ad36e3a6d60990bec4cbe507b64e91785aff",
+      "original_sha256": "a443a623368da3550c723189c9c6ad36e3a6d60990bec4cbe507b64e91785aff",
+      "original_filename": "Supplementary figures-Yu-June 3 2025-220 ppi.docx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/Supplementary_figures-Yu-June_3_2025-220_ppi__refine/asset-image8.png",
+      "sha256": "0c7d7881456232117e2b307f331c4d337848595d06342c4f621318db7ab483fd",
+      "bytes": 226120,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [],
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "derived_from": "a443a623368da3550c723189c9c6ad36e3a6d60990bec4cbe507b64e91785aff",
+      "original_sha256": "a443a623368da3550c723189c9c6ad36e3a6d60990bec4cbe507b64e91785aff",
+      "original_filename": "Supplementary figures-Yu-June 3 2025-220 ppi.docx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/Supplementary_figures-Yu-June_3_2025-220_ppi__refine/asset-image9.png",
+      "sha256": "a2b31d43b8e53726972947df6ec19af25082f8afc4b0063e02082fb4203c0d12",
+      "bytes": 464734,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [],
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "derived_from": "a443a623368da3550c723189c9c6ad36e3a6d60990bec4cbe507b64e91785aff",
+      "original_sha256": "a443a623368da3550c723189c9c6ad36e3a6d60990bec4cbe507b64e91785aff",
+      "original_filename": "Supplementary figures-Yu-June 3 2025-220 ppi.docx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/Supplementary_figures-Yu-June_3_2025-220_ppi__refine/content.md",
+      "sha256": "5a8bacfc220d937a5c153c4995aa232fad7c10d01520b03872e607b9c4979478",
+      "bytes": 6413,
+      "role": "supplement",
+      "roles": [
+        "supplement"
+      ],
+      "input_use": "model",
+      "source_urls": [],
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "derived_from": "a443a623368da3550c723189c9c6ad36e3a6d60990bec4cbe507b64e91785aff",
+      "original_sha256": "a443a623368da3550c723189c9c6ad36e3a6d60990bec4cbe507b64e91785aff",
+      "original_filename": "Supplementary figures-Yu-June 3 2025-220 ppi.docx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "office_text_tables"
+    },
+    {
+      "path": "records/SRA-SRP497138-human-scRNA-sample-attributes.txt",
+      "sha256": "f8af4b62aa7523482a2a8576da3c156f0ea1f9e76de54a75507ad4af9c88077a",
+      "bytes": 6132,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [],
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "original_filename": "SRA-SRP497138-human-scRNA-sample-attributes.txt"
+    },
+    {
+      "path": "records/SRA-SRP497138-human-scRNA-sample-attributes.xml",
+      "sha256": "4af02ebaf7051c349dc8917dba563382ddefd82786e3c10cfde8a0feb3a8f276",
+      "bytes": 34990,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [],
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "original_filename": "SRA-SRP497138-human-scRNA-sample-attributes.xml"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

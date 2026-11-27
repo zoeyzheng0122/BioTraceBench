@@ -1,0 +1,175 @@
+{
+  "measure": [
+    {
+      "measure_definition": "Measured value: absolute change in VAS score from baseline to week 12; Participants; 100 mm VAS (0 = no pain, 100 = worst pain possible); VAS scores recorded via weekly telephone follow-ups over 12 weeks, with the primary endpoint at week 12. Baseline and week-12 values used for change.; Mean reduction from baseline to week 12 in VAS score, reported as a positive magnitude of reduction. Higher VAS indicates worse pain. No responder threshold is applied to this measure.",
+      "measure_id": "M0",
+      "measure_name": "Low back pain visual analogue scale (VAS) score"
+    },
+    {
+      "measure_definition": "Measured value: percentage change in lumbar spine BMD from baseline to week 24; Participants; BMD monitored during screening and at weeks 12 and 24; specific device/method Not reported in supplied text. Lumbar spine BMD.; Percentage change in lumbar spine BMD from baseline to week 24; positive values indicate increase. No fracture or threshold criterion applied.",
+      "measure_id": "M1",
+      "measure_name": "Lumbar spine bone mineral density (BMD)"
+    },
+    {
+      "measure_definition": "Measured value: percentage change in hip BMD from baseline to week 24; Participants; BMD monitored during screening and at weeks 12 and 24; specific device/method Not reported in supplied text. Hip BMD.; Percentage change in hip BMD from baseline to week 24; positive values indicate increase. No fracture or threshold criterion applied.",
+      "measure_id": "M2",
+      "measure_name": "Hip bone mineral density (BMD)"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "Minodronate; all participants also received calcium carbonate and vitamin D3 supplementation",
+      "intervention_regimen": "Minodronate 1 mg/day; calcium carbonate providing calcium 600 mg and vitamin D3 125 IU (supplement); Minodronate orally once daily in the morning for 12 weeks; study drug then discontinued for 12 weeks. Calcium carbonate providing calcium 600 mg plus vitamin D3 125 IU after dinner throughout the study.",
+      "population_definition": "Randomized treatment allocation to minodronate; included in the intention-to-treat efficacy analysis; Postmenopausal women aged >50 years with osteoporosis and chronic low back pain for ≥3 months, VAS score >30 mm, and serum 25-hydroxyvitamin D >20 ng/mL; no secondary osteoporosis, prior medications influencing bone metabolism, or conditions confounding bone-metabolism assessment; randomized to minodronate and included in the ITT analysis (flow chart: 37 included in ITT/SS).",
+      "population_id": "P0",
+      "population_name": "Minodronate intention-to-treat analysis population",
+      "population_size": 37,
+      "population_time_frame": "Trial initiated January 1, 2023; recruitment concluded April 11, 2024; 24-week trial (12-week treatment plus 12-week post-treatment observation)."
+    },
+    {
+      "intervention": "Alendronate; all participants also received calcium carbonate and vitamin D3 supplementation",
+      "intervention_regimen": "Alendronate 10 mg/day; calcium carbonate providing calcium 600 mg and vitamin D3 125 IU (supplement); Alendronate orally once daily in the morning for 12 weeks; study drug then discontinued for 12 weeks. Calcium carbonate providing calcium 600 mg plus vitamin D3 125 IU after dinner throughout the study.",
+      "population_definition": "Randomized treatment allocation to alendronate; included in the intention-to-treat efficacy analysis; Postmenopausal women aged >50 years with osteoporosis and chronic low back pain for ≥3 months, VAS score >30 mm, and serum 25-hydroxyvitamin D >20 ng/mL; no secondary osteoporosis, prior medications influencing bone metabolism, or conditions confounding bone-metabolism assessment; randomized to alendronate and included in the ITT analysis (flow chart: 37 included in ITT/SS).",
+      "population_id": "P1",
+      "population_name": "Alendronate intention-to-treat analysis population",
+      "population_size": 37,
+      "population_time_frame": "Trial initiated January 1, 2023; recruitment concluded April 11, 2024; 24-week trial (12-week treatment plus 12-week post-treatment observation)."
+    },
+    {
+      "intervention": "Minodronate or alendronate",
+      "intervention_regimen": null,
+      "population_definition": "Postmenopausal women >50 years with osteoporosis, chronic low back pain ≥3 months, VAS >30 mm and serum 25-hydroxyvitamin D >20 ng/mL. Published ITT efficacy cohort includes 74 of 80 randomized.",
+      "population_id": "P2",
+      "population_name": "Trial-defined ITT efficacy cohort",
+      "population_size": 74,
+      "population_time_frame": "Recruitment January 2023–April 2024; 12 weeks active treatment and 12 weeks off-treatment observation."
+    }
+  ],
+  "population_relation": [
+    {
+      "population_a_id": "P0",
+      "population_b_id": "P1",
+      "relationship": "disjoint from"
+    },
+    {
+      "population_a_id": "P0",
+      "population_b_id": "P2",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P2",
+      "relationship": "subset of"
+    }
+  ],
+  "result": [
+    {
+      "assessment_time": "Baseline to week 12",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R01",
+      "result_unit": "mm",
+      "result_value": 11.08,
+      "statistic_type": "Mean reduction from baseline",
+      "statistical_method": null,
+      "supplementary_statistics": "95% CI 9.2–12.9; ITT arm n=37; endpoint-specific analysis n not separately reported; within-group P < 0.01"
+    },
+    {
+      "assessment_time": "Baseline to week 12",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R02",
+      "result_unit": "mm",
+      "result_value": 9.86,
+      "statistic_type": "Mean reduction from baseline",
+      "statistical_method": null,
+      "supplementary_statistics": "95% CI 8.1–11.6; ITT arm n=37; endpoint-specific analysis n not separately reported; within-group P < 0.01"
+    },
+    {
+      "assessment_time": "Baseline to week 12",
+      "comparison": "P0 vs P1; subtraction/sign direction not explicitly established",
+      "measure_id": "M0",
+      "population_id": "P2",
+      "result_id": "R05",
+      "result_unit": null,
+      "result_value": "P=0.237",
+      "statistic_type": "P value for between-group difference",
+      "statistical_method": null,
+      "supplementary_statistics": "Endpoint-specific analysis n not separately reported; reported ITT arm sizes are 37 and 37."
+    },
+    {
+      "assessment_time": "Baseline to week 24",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P0",
+      "result_id": "R06",
+      "result_unit": "%",
+      "result_value": 2.42,
+      "statistic_type": "Mean percentage change from baseline",
+      "statistical_method": null,
+      "supplementary_statistics": "SD=7.54 percentage points; ITT arm n=37; endpoint-specific analysis n not separately reported."
+    },
+    {
+      "assessment_time": "Baseline to week 24",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R07",
+      "result_unit": "%",
+      "result_value": 4.84,
+      "statistic_type": "Mean percentage change from baseline",
+      "statistical_method": null,
+      "supplementary_statistics": "SD=3.88 percentage points; ITT arm n=37; endpoint-specific analysis n not separately reported."
+    },
+    {
+      "assessment_time": "Baseline to week 24",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P0",
+      "result_id": "R09",
+      "result_unit": "%",
+      "result_value": 1.58,
+      "statistic_type": "Mean percentage change from baseline",
+      "statistical_method": null,
+      "supplementary_statistics": "SD=7.01 percentage points; ITT arm n=37; endpoint-specific analysis n not separately reported."
+    },
+    {
+      "assessment_time": "Baseline to week 24",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R10",
+      "result_unit": "%",
+      "result_value": 3.13,
+      "statistic_type": "Mean percentage change from baseline",
+      "statistical_method": null,
+      "supplementary_statistics": "SD=14.44 percentage points; ITT arm n=37; endpoint-specific analysis n not separately reported."
+    },
+    {
+      "assessment_time": "Baseline to week 24",
+      "comparison": "P0 vs P1; comparison of percentage changes from baseline; P value has no subtraction direction.",
+      "measure_id": "M1",
+      "population_id": "P2",
+      "result_id": "R08",
+      "result_unit": null,
+      "result_value": "P=0.103",
+      "statistic_type": "P value for between-group difference",
+      "statistical_method": null,
+      "supplementary_statistics": "Endpoint-specific analysis n not separately reported."
+    },
+    {
+      "assessment_time": "Baseline to week 24",
+      "comparison": "P0 vs P1; comparison of percentage changes from baseline; P value has no subtraction direction.",
+      "measure_id": "M2",
+      "population_id": "P2",
+      "result_id": "R11",
+      "result_unit": null,
+      "result_value": "P=0.621",
+      "statistic_type": "P value for between-group difference",
+      "statistical_method": null,
+      "supplementary_statistics": "Endpoint-specific analysis n not separately reported."
+    }
+  ]
+}

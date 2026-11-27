@@ -1,0 +1,32 @@
+{
+  "case_id": "C039",
+  "task_id": "C039",
+  "title": "Vagus nerve-mediated neuroimmune modulation for rheumatoid arthritis: a pivotal randomized controlled trial",
+  "doi": "10.1038/s41591-025-04114-7",
+  "comparison_or_design": "The blinded RESET-RA efficacy comparison.",
+  "observations_or_assays": [
+    "ACR20 response referenced to consent baseline",
+    "DAS28-CRP EULAR good/moderate response",
+    "HAQ-DI minimum clinically important improvement"
+  ],
+  "time_scope": "Month 3 before open-label stimulation, using each endpoint’s actual baseline and threshold.",
+  "excluded": [
+    "ACR20 referenced to day-0 randomization, other thresholds and open-label follow-up",
+    "All-completer, subgroup and safety analyses"
+  ],
+  "population_or_material": "The main randomized efficacy population of RESET-RA.",
+  "requested_items": [
+    "Blinded month-three primary ITT responder count/proportion and one treatment difference/CI/test for each criterion. Keep consent baseline and labeled multiplicity adjustment. Exclude duplicate registry/article representations, later open-label outcomes and alternative responder thresholds."
+  ],
+  "resources": [],
+  "case_specific_rules": [
+    "Use the requested consent-baseline blinded month-three responder endpoints; exclude day-zero-randomization ACR20. Recover the HAQ-DI MCID criterion and direction from the original source. Apply the shared rules for unreported inequality boundaries and use the supplementary instrument scoring rules."
+  ],
+  "domain": "clinical",
+  "pipeline": "clinical-trials",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/clinical-trials.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

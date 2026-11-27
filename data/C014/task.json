@@ -1,0 +1,31 @@
+{
+  "case_id": "C014",
+  "task_id": "C014",
+  "title": "Semaglutide Injection in Indian Patients With Type 2 Diabetes Mellitus: A Randomised, Phase III, Active‐Controlled Study",
+  "doi": "10.1111/dom.70891",
+  "comparison_or_design": "The primary synthetic-semaglutide comparison in the Indian phase III study.",
+  "observations_or_assays": [
+    "HbA1c",
+    "Fasting blood glucose",
+    "Post-prandial blood glucose",
+    "Body weight"
+  ],
+  "time_scope": "Baseline to week 24 in the primary per-protocol efficacy population.",
+  "excluded": [
+    "ITT/sensitivity analyses, earlier visits, HbA1c achievement categories and BMI",
+    "Lipids, blood pressure, safety and immunogenicity"
+  ],
+  "population_or_material": "The per-protocol efficacy population in the Indian phase III semaglutide non-inferiority study.",
+  "requested_items": [
+    "Primary per-protocol Week-24 arm changes for all four requested observations and reported between-group estimates or independent tests; also reported percentage weight loss. HbA1c non-inferiority applies only to HbA1c. Exclude ITT sensitivity results, earlier visits and threshold-achiever endpoints."
+  ],
+  "resources": [],
+  "case_specific_rules": [],
+  "domain": "clinical",
+  "pipeline": "clinical-trials",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/clinical-trials.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

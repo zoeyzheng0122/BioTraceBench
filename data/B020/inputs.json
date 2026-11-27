@@ -1,0 +1,119 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "B020",
+    "domain": "basic",
+    "title": "Estrogen Stabilizes Interferon-Inducible Genes During Skeletal Muscle Regeneration",
+    "doi": "10.1177/10998004251411301",
+    "pipeline": "basic-research",
+    "pmid": "41454847",
+    "pmcid": "PMC12929644",
+    "registry": "GSE311704"
+  },
+  "files": [
+    {
+      "path": "records/GEO-GSE311704-project.txt",
+      "sha256": "683a2ae687f0840e3bf63e53644a377819d374d302cf4766d1664a10cb58ad33",
+      "bytes": 3137,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE311704&targ=self&form=text&view=brief"
+      ],
+      "association": "exact accession reported in Data Availability; metadata only; relation not yet verified",
+      "original_filename": "GEO-GSE311704-project.txt"
+    },
+    {
+      "path": "records/GEO-GSE311704-samples.txt",
+      "sha256": "74e69700b89ba5c84fa3c173965cf9d9233e57ce32c9f31e0cb12c7f1b6c5b47",
+      "bytes": 88488,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE311704&targ=gsm&form=text&view=brief"
+      ],
+      "association": "exact accession reported in Data Availability; metadata only; relation not yet verified",
+      "original_filename": "GEO-GSE311704-samples.txt"
+    },
+    {
+      "path": "sources/article.xml",
+      "sha256": "4e13ff78d79a89370d8e7e0f73c0796963db58241c553aa11911d519d988e99f",
+      "bytes": 93395,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12929644/fullTextXML"
+      ],
+      "association": "exact public PMCID candidate"
+    },
+    {
+      "path": "figures/10.1177_10998004251411301-fig1.jpg",
+      "sha256": "d7c5309e1a1ad289677afa2cd37909c09abaed0debdcd387974d214fa3ed2925",
+      "bytes": 88757,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12929644.1/10.1177_10998004251411301-fig1.jpg?md5=def64c7a7b88c3149e7b2f10afdd3ae4"
+      ],
+      "association": "exact JATS fig1-10998004251411301 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/10.1177_10998004251411301-fig2.jpg",
+      "sha256": "07d2156e83cf394e7edf3f7d32b26586f875b0d58f2073617b6dc34378684d0e",
+      "bytes": 245353,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12929644.1/10.1177_10998004251411301-fig2.jpg?md5=b07734e7fe7608b9c3053501ceb9e770"
+      ],
+      "association": "exact JATS fig2-10998004251411301 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/10.1177_10998004251411301-fig3.jpg",
+      "sha256": "542e785ddbc1c06625c5a99147e947d2fd5773913ab237b1d38066bdad110092",
+      "bytes": 118382,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12929644.1/10.1177_10998004251411301-fig3.jpg?md5=12c325e2a2e6fe9fade2c5fde9780cc5"
+      ],
+      "association": "exact JATS fig3-10998004251411301 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/captions.txt",
+      "sha256": "b1484b0307c249b8e91794f72a5093be80fc52934066737307ffa78ebef5783a",
+      "bytes": 2120,
+      "role": "figure_captions",
+      "roles": [
+        "figure_captions"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12929644/"
+      ],
+      "derived_from": "31f5fcdda972a32fbe737b3c2e2b4fd0ad0e2c7af6d55c995cdf379be300da46"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

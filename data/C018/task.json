@@ -1,0 +1,30 @@
+{
+  "case_id": "C018",
+  "task_id": "C018",
+  "title": "Bimagrumab plus semaglutide alone or in combination for the treatment of obesity: a randomized phase 2 trial",
+  "doi": "10.1038/s41591-026-04204-0",
+  "comparison_or_design": "The comparison of bimagrumab 30 mg/kg plus semaglutide 2.4 mg with semaglutide 2.4 mg plus matching bimagrumab placebo.",
+  "observations_or_assays": [
+    "Body weight",
+    "Total body fat mass by DXA",
+    "Total body lean mass by DXA"
+  ],
+  "time_scope": "Baseline to week 48 in the primary treatment period; preserve the source-defined estimand for each selected result.",
+  "excluded": [
+    "All other arms, placebo-only comparisons, week-72 extension and treatment-regimen analyses beyond the explicitly selected main Table 2 absolute-weight comparison",
+    "Appendicular/visceral measures, waist, responder categories, metabolic and safety outcomes"
+  ],
+  "population_or_material": "The source-defined analysis populations for the selected main Table 2 absolute-weight comparison and the Results fat/lean analyses in the primary 48-week treatment period.",
+  "requested_items": [
+    "Selected two arms only: main Table 2 absolute weight LSM change, efficacy-estimand Results percentage fat/lean LSM changes, and explicit tests against semaglutide 2.4 mg. Preserve each source estimand; exclude double-placebo contrasts, other arms and week 72."
+  ],
+  "resources": [],
+  "case_specific_rules": [],
+  "domain": "clinical",
+  "pipeline": "clinical-trials",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/clinical-trials.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

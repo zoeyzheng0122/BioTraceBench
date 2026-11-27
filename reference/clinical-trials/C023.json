@@ -1,0 +1,319 @@
+{
+  "measure": [
+    {
+      "measure_definition": "Measured value: low-back-pain intensity on a 100 mm visual analogue scale; Participants; Visual analogue scale (VAS) for pain, 0–100 mm, assessed at baseline (D0) and 3 months (D90).; Pain intensity measured on a 100 mm VAS; higher scores indicate greater pain intensity. Change from baseline to 3 months.",
+      "measure_id": "M0",
+      "measure_name": "Low back pain intensity"
+    },
+    {
+      "measure_definition": "Measured value: Roland–Morris Disability Questionnaire score; Participants; Roland–Morris Disability Questionnaire, scores range from 0 to 24, assessed at baseline (D0) and 3 months (D90).; Roland–Morris Disability Questionnaire score range 0–24; higher scores indicate greater disability. Change from baseline to 3 months.",
+      "measure_id": "M1",
+      "measure_name": "Functional disability"
+    },
+    {
+      "measure_definition": "Measured value: overall Dallas Pain Questionnaire score; Participants; Dallas Pain Questionnaire assessing daily life, vocational and recreational activities, psychological well-being, and social interaction; assessed at baseline (D0) and 3 months (D90).; Overall Dallas Pain Questionnaire score as reported; change from baseline to 3 months. Score range and direction are not reported in the supplied text.",
+      "measure_id": "M2",
+      "measure_name": "Dallas Pain Questionnaire score"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "Pamidronate or placebo",
+      "intervention_regimen": "Pamidronate 90 mg per infusion (total 180 mg over two infusions); placebo 500 mL 0.9% sodium chloride solution; Two consecutive daily intravenous infusions; prophylactic paracetamol given to all participants",
+      "population_definition": "Randomisation to pamidronate or placebo (1:1); Adults aged 18–60 years with chronic inflammatory-like low back pain, MRI-confirmed Modic type 1 changes, and randomisation 1:1 to pamidronate or placebo.",
+      "population_id": "P0",
+      "population_name": "Overall randomised participants",
+      "population_size": 44,
+      "population_time_frame": "Randomised February 2013–December 2019"
+    },
+    {
+      "intervention": "Pamidronate",
+      "intervention_regimen": "90 mg per infusion; total 180 mg over two infusions; Two consecutive daily intravenous infusions",
+      "population_definition": "Randomisation to pamidronate; Adults aged 18–60 years with chronic inflammatory-like low back pain and MRI-confirmed Modic type 1 changes, randomised to pamidronate.",
+      "population_id": "P1",
+      "population_name": "Pamidronate group (randomised)",
+      "population_size": 22,
+      "population_time_frame": "Randomised February 2013–December 2019"
+    },
+    {
+      "intervention": "Placebo (0.9% sodium chloride solution)",
+      "intervention_regimen": "500 mL 0.9% sodium chloride solution; Two consecutive daily intravenous infusions",
+      "population_definition": "Randomisation to placebo; Adults aged 18–60 years with chronic inflammatory-like low back pain and MRI-confirmed Modic type 1 changes, randomised to placebo.",
+      "population_id": "P2",
+      "population_name": "Placebo group (randomised)",
+      "population_size": 22,
+      "population_time_frame": "Randomised February 2013–December 2019"
+    }
+  ],
+  "population_relation": [
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P2",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P2",
+      "relationship": "disjoint from"
+    }
+  ],
+  "result": [
+    {
+      "assessment_time": "Baseline (D0)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R01",
+      "result_unit": "mm",
+      "result_value": 60.1,
+      "statistic_type": "Mean",
+      "statistical_method": "Conventional descriptive mean ± SD",
+      "supplementary_statistics": "SD 13.8; table-row available n = 22"
+    },
+    {
+      "assessment_time": "Baseline (D0)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P2",
+      "result_id": "R02",
+      "result_unit": "mm",
+      "result_value": 64.5,
+      "statistic_type": "Mean",
+      "statistical_method": "Conventional descriptive mean ± SD",
+      "supplementary_statistics": "SD 17.6; table-row available n = 22"
+    },
+    {
+      "assessment_time": "3 months (D90)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R03",
+      "result_unit": "mm",
+      "result_value": 45.3,
+      "statistic_type": "Mean",
+      "statistical_method": "Conventional descriptive mean ± SD",
+      "supplementary_statistics": "SD 29.3; table-row available n = 22"
+    },
+    {
+      "assessment_time": "3 months (D90)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P2",
+      "result_id": "R04",
+      "result_unit": "mm",
+      "result_value": 55.5,
+      "statistic_type": "Mean",
+      "statistical_method": "Conventional descriptive mean ± SD",
+      "supplementary_statistics": "SD 25.4; table-row available n = 22"
+    },
+    {
+      "assessment_time": "3 months (D90)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R05",
+      "result_unit": "mm",
+      "result_value": -16.0,
+      "statistic_type": "Median change from baseline",
+      "statistical_method": "Median and interquartile range for non-normal change values",
+      "supplementary_statistics": "IQR −36 to 4; table-row available n = 22"
+    },
+    {
+      "assessment_time": "3 months (D90)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P2",
+      "result_id": "R06",
+      "result_unit": "mm",
+      "result_value": -6.0,
+      "statistic_type": "Median change from baseline",
+      "statistical_method": "Median and interquartile range for non-normal change values",
+      "supplementary_statistics": "IQR −23 to 4; table-row available n = 22"
+    },
+    {
+      "assessment_time": "3 months (D90)",
+      "comparison": "P1 versus P2 (pamidronate versus placebo). Subtraction order unreported.",
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R07",
+      "result_unit": "mm",
+      "result_value": -6.1,
+      "statistic_type": "Age- and sex-adjusted between-group difference",
+      "statistical_method": "Table 2 footnote b: mixed model for time-by-randomization-group interaction, adjusted for age and sex; patient as random effect. The main-text primary-outcome description uses linear-regression wording; the directly matching table analysis is retained here. The primary 3-month analysis follows intention to treat and uses multiple imputation by predictive mean matching with 10 completed datasets, using baseline sex, age, BMI, tobacco consumption and VAS pain as covariates; results are combined across imputations. This imputation description applies to the primary adjusted contrast, not to descriptive medians or observed participant counts.",
+      "supplementary_statistics": "95% CI −22.33 to 10.13; p=0.452; adjusted for age and sex"
+    },
+    {
+      "assessment_time": "Baseline (D0)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R08",
+      "result_unit": "points",
+      "result_value": 11.4,
+      "statistic_type": "Mean",
+      "statistical_method": "Conventional descriptive mean ± SD",
+      "supplementary_statistics": "SD 3.7; table-row available n = 21"
+    },
+    {
+      "assessment_time": "Baseline (D0)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P2",
+      "result_id": "R09",
+      "result_unit": "points",
+      "result_value": 12.1,
+      "statistic_type": "Mean",
+      "statistical_method": "Conventional descriptive mean ± SD",
+      "supplementary_statistics": "SD 3.4; table-row available n = 22"
+    },
+    {
+      "assessment_time": "3 months (D90)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R10",
+      "result_unit": "points",
+      "result_value": 9.5,
+      "statistic_type": "Mean",
+      "statistical_method": "Conventional descriptive mean ± SD",
+      "supplementary_statistics": "SD 5.6; table-row available n = 19"
+    },
+    {
+      "assessment_time": "3 months (D90)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P2",
+      "result_id": "R11",
+      "result_unit": "points",
+      "result_value": 11.0,
+      "statistic_type": "Mean",
+      "statistical_method": "Conventional descriptive mean ± SD",
+      "supplementary_statistics": "SD 4.1; table-row available n = 21"
+    },
+    {
+      "assessment_time": "3 months (D90)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R12",
+      "result_unit": "points",
+      "result_value": -2.0,
+      "statistic_type": "Median change from baseline",
+      "statistical_method": "Median and interquartile range for non-normal change values",
+      "supplementary_statistics": "IQR −4 to 1; table-row available n = 19"
+    },
+    {
+      "assessment_time": "3 months (D90)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P2",
+      "result_id": "R13",
+      "result_unit": "points",
+      "result_value": -1.0,
+      "statistic_type": "Median change from baseline",
+      "statistical_method": "Median and interquartile range for non-normal change values",
+      "supplementary_statistics": "IQR −3 to 0; table-row available n = 21"
+    },
+    {
+      "assessment_time": "3 months (D90)",
+      "comparison": "P1 versus P2 (pamidronate versus placebo). Subtraction order unreported.",
+      "measure_id": "M1",
+      "population_id": "P0",
+      "result_id": "R14",
+      "result_unit": "points",
+      "result_value": -0.96,
+      "statistic_type": "Age- and sex-adjusted between-group difference",
+      "statistical_method": "Table 2 footnote b: mixed model for time-by-randomization-group interaction, adjusted for age and sex; patient as random effect. The main-text primary-outcome description uses linear-regression wording; the directly matching table analysis is retained here.",
+      "supplementary_statistics": "95% CI −3.34 to 1.43; p=0.432; adjusted for age and sex"
+    },
+    {
+      "assessment_time": "Baseline (D0)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R15",
+      "result_unit": "points",
+      "result_value": 27.0,
+      "statistic_type": "Mean",
+      "statistical_method": "Conventional descriptive mean ± SD",
+      "supplementary_statistics": "SD 16.4; table-row available n = 22"
+    },
+    {
+      "assessment_time": "Baseline (D0)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P2",
+      "result_id": "R16",
+      "result_unit": "points",
+      "result_value": 29.9,
+      "statistic_type": "Mean",
+      "statistical_method": "Conventional descriptive mean ± SD",
+      "supplementary_statistics": "SD 17.0; table-row available n = 22"
+    },
+    {
+      "assessment_time": "3 months (D90)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R17",
+      "result_unit": "points",
+      "result_value": 25.8,
+      "statistic_type": "Mean",
+      "statistical_method": "Conventional descriptive mean ± SD",
+      "supplementary_statistics": "SD 18.3; table-row available n = 20"
+    },
+    {
+      "assessment_time": "3 months (D90)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P2",
+      "result_id": "R18",
+      "result_unit": "points",
+      "result_value": 28.3,
+      "statistic_type": "Mean",
+      "statistical_method": "Conventional descriptive mean ± SD",
+      "supplementary_statistics": "SD 16.3; table-row available n = 22"
+    },
+    {
+      "assessment_time": "3 months (D90)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R19",
+      "result_unit": "points",
+      "result_value": 2,
+      "statistic_type": "Median change from baseline",
+      "statistical_method": "Median and interquartile range for non-normal change values",
+      "supplementary_statistics": "IQR −5 to 6; table-row available n = 20"
+    },
+    {
+      "assessment_time": "3 months (D90)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P2",
+      "result_id": "R20",
+      "result_unit": "points",
+      "result_value": -2.0,
+      "statistic_type": "Median change from baseline",
+      "statistical_method": "Median and interquartile range for non-normal change values",
+      "supplementary_statistics": "IQR −9 to 6; table-row available n = 22"
+    },
+    {
+      "assessment_time": "3 months (D90)",
+      "comparison": "P1 versus P2 (pamidronate versus placebo). Subtraction order unreported.",
+      "measure_id": "M2",
+      "population_id": "P0",
+      "result_id": "R21",
+      "result_unit": "points",
+      "result_value": 0.91,
+      "statistic_type": "Age- and sex-adjusted between-group difference",
+      "statistical_method": "Table 2 footnote b: mixed model for time-by-randomization-group interaction, adjusted for age and sex; patient as random effect. The main-text primary-outcome description uses linear-regression wording; the directly matching table analysis is retained here.",
+      "supplementary_statistics": "95% CI −7.25 to 9.07; p=0.826; adjusted for age and sex"
+    }
+  ]
+}

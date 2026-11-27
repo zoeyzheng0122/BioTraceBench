@@ -1,0 +1,106 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "C042",
+    "domain": "clinical",
+    "title": "The Effects of Daridorexant on Patients With Comorbid Insomnia Disorder and Untreated Mild Obstructive Sleep Apnoea: A Post Hoc Subgroup Analysis of a Phase 3, Randomised Clinical Trial",
+    "doi": "10.1111/jsr.70135",
+    "pipeline": "clinical-trials",
+    "pmid": "40660750",
+    "pmcid": "PMC12931678",
+    "registry": "NCT03545191"
+  },
+  "files": [
+    {
+      "path": "sources/article.xml",
+      "sha256": "3ee6610d335254d91baee40e82bd81f63f8195af88d900abc13cdd06820671b7",
+      "bytes": 122400,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12931678/fullTextXML"
+      ],
+      "association": "exact PMCID from case identity"
+    },
+    {
+      "path": "records/NCT03545191.json",
+      "sha256": "dd90191397351a46e6914f844e25ab41ec871707d92d0783a31781b1eaab55b1",
+      "bytes": 68984,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://clinicaltrials.gov/api/v2/studies/NCT03545191"
+      ],
+      "association": "own study registration explicitly reported in article; public record text only",
+      "original_filename": "NCT03545191.json",
+      "retrieved_at": "2026-10-18T01:08:56+08:00",
+      "derived_from": "84872749bcc0e836827716756a0a119abe7ff9fb566bb9162f781f40b8099875",
+      "original_sha256": "84872749bcc0e836827716756a0a119abe7ff9fb566bb9162f781f40b8099875",
+      "representation": "refine-lexical-json-1",
+      "provenance_transform": "exact_json_whitespace_compaction"
+    },
+    {
+      "path": "records/registry-NCT03765294.json",
+      "sha256": "c1fa24c587d91339ef47663f5ccf4adb37c7352aa32caf3ed6166af8e9b58261",
+      "bytes": 9361,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://clinicaltrials.gov/api/v2/studies/NCT03765294"
+      ],
+      "association": "exact study registration explicitly identified in paper; public protocol metadata",
+      "original_filename": "registry-NCT03765294.json",
+      "retrieved_at": "2026-10-18T02:01:18+08:00",
+      "derived_from": "3b0649644ceebe7475f2865fa20a6196891cbaf79fe5a254fa70860c54adfd91",
+      "original_sha256": "3b0649644ceebe7475f2865fa20a6196891cbaf79fe5a254fa70860c54adfd91",
+      "representation": "refine-lexical-json-1",
+      "provenance_transform": "exact_json_whitespace_compaction"
+    },
+    {
+      "path": "figures/JSR-35-e70135-g001.jpg",
+      "sha256": "b3a63f45d75facc920ff39d8d7b5deb5333de689d0ae6cacbd84f2e845b8a80e",
+      "bytes": 113265,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12931678/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "supplements/JSR-35-e70135-s001__refine/content.md",
+      "sha256": "51e889cb32f712079d43c72e5967e796ada4c52328142b831796aa09cfb06a54",
+      "bytes": 4612,
+      "role": "supplement",
+      "roles": [
+        "supplement"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12931678/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package",
+      "derived_from": "a03c7d5d0d118e4b12714ef4ea5e39994451dd280e49e77b4ea97ddc6c8421ca",
+      "original_sha256": "a03c7d5d0d118e4b12714ef4ea5e39994451dd280e49e77b4ea97ddc6c8421ca",
+      "original_filename": "JSR-35-e70135-s001.docx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "office_text_tables"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

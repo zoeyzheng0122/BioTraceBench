@@ -1,0 +1,193 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "B001",
+    "domain": "basic",
+    "title": "Seco-Duocarmycin SA in Aggressive Glioblastoma Cell Lines",
+    "doi": "10.3390/ijms26062766",
+    "pipeline": "basic-research",
+    "pmid": "40141405",
+    "pmcid": "PMC11943345",
+    "registry": "PXD061023"
+  },
+  "files": [
+    {
+      "path": "sources/article.xml",
+      "sha256": "a5e4af49c794ad4de7774f36f3a54aed6e01ce8bd0efe76eede8d193929a22d4",
+      "bytes": 142944,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC11943345.1/PMC11943345.1.xml?md5=b86c043892c33665aaa74df6af4ec4c0"
+      ],
+      "association": "official published article XML for exact DOI"
+    },
+    {
+      "path": "records/PXD061023-record.json",
+      "sha256": "6a26f638430ac1226e2ef6a6224fe92eecdbe8e949d7e4d2c77cc59976423f2b",
+      "bytes": 7096,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/pride/ws/archive/v2/projects/PXD061023"
+      ],
+      "association": "public data accession explicitly reported in this article; module eligibility not yet asserted",
+      "original_filename": "PXD061023-record.json",
+      "retrieved_at": "2026-10-18T01:13:43+08:00",
+      "derived_from": "3c065a7582f7b0abb2e5ec42a1ed106aba84747d24589bd43e8df029500249bb",
+      "original_sha256": "3c065a7582f7b0abb2e5ec42a1ed106aba84747d24589bd43e8df029500249bb",
+      "representation": "refine-lexical-json-1",
+      "provenance_transform": "exact_json_whitespace_compaction"
+    },
+    {
+      "path": "figures/captions.txt",
+      "sha256": "e50bf300fde3b5ddb7bc248d62482fa38f7ac9a64bef1b22ad073a052bd716c8",
+      "bytes": 7642,
+      "role": "figure_captions",
+      "roles": [
+        "figure_captions"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11943345/"
+      ],
+      "derived_from": "bc3dd789bc6b7efd9347ba4c07cc506d961db973ddd18dad02bea6e18aa84e0a"
+    },
+    {
+      "path": "figures/ijms-26-02766-g001.jpg",
+      "sha256": "513ef1745f9af133206a9e953b7b79d880854b1fe45cbe340e7234c9448d1e5a",
+      "bytes": 115729,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC11943345.1/ijms-26-02766-g001.jpg?md5=fe99897d532c48fd450bf5d27e007afc"
+      ],
+      "association": "exact JATS ijms-26-02766-f001 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/ijms-26-02766-g002.jpg",
+      "sha256": "ee7d028978a3c0f3a0b9c69d6d4fb38b95cd2d65179c6cf7ec8b2aba66e2e8eb",
+      "bytes": 82889,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC11943345.1/ijms-26-02766-g002.jpg?md5=dbc69ebdbb6c7233d8aefa3aada191fe"
+      ],
+      "association": "exact JATS ijms-26-02766-f002 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/ijms-26-02766-g003.jpg",
+      "sha256": "a93ab8bad357f9c96e014abbf1c0a1da1d44a47df009fe1674449986cdeb5d74",
+      "bytes": 61907,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC11943345.1/ijms-26-02766-g003.jpg?md5=c37116ed928a52337a31d8d5b6ea115b"
+      ],
+      "association": "exact JATS ijms-26-02766-f003 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/ijms-26-02766-g004a.jpg",
+      "sha256": "3d2c5e4578927910c6a91ddc7bb0715697d2f99b78a792f59115043071946dc3",
+      "bytes": 32682,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC11943345.1/ijms-26-02766-g004a.jpg?md5=155c3c10591795a77bd2dfc6a6271650"
+      ],
+      "association": "exact JATS ijms-26-02766-f004 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/ijms-26-02766-g004b.jpg",
+      "sha256": "5609ac0b8c99d6b064f193b73aedd0452f6235b44fc828d5e3809f39b4a3b997",
+      "bytes": 32553,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC11943345.1/ijms-26-02766-g004b.jpg?md5=e59111eb8b75259233cf3384c4454dde"
+      ],
+      "association": "exact JATS ijms-26-02766-f004 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/ijms-26-02766-g005a.jpg",
+      "sha256": "6a196f2f0ef2f2e147425d5a110b809b3794cc2a4a27ceef19c6ed1a4d59c9c0",
+      "bytes": 132818,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC11943345.1/ijms-26-02766-g005a.jpg?md5=ef43ebee2d5380f04bbeed04ce066620"
+      ],
+      "association": "exact JATS ijms-26-02766-f005 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/ijms-26-02766-g005b.jpg",
+      "sha256": "08052d85602f1f38e5745ecba780d3859d0adee8c78d1453da21bfcafd873b42",
+      "bytes": 123129,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC11943345.1/ijms-26-02766-g005b.jpg?md5=69b197391d1ce23b58e20b63628ad882"
+      ],
+      "association": "exact JATS ijms-26-02766-f005 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/ijms-26-02766-g006.jpg",
+      "sha256": "e8274e21a1b8328962a73c6036b43fb90991ad64dff5c39c8de29eab9a13a62a",
+      "bytes": 152990,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC11943345.1/ijms-26-02766-g006.jpg?md5=9fb263f309b25e362049d514f46758e3"
+      ],
+      "association": "exact JATS ijms-26-02766-f006 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/ijms-26-02766-g007.jpg",
+      "sha256": "ba77614369334788e41f302e80ad66fbcf35e5bcb1e90d02060c94c85c446882",
+      "bytes": 80982,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC11943345.1/ijms-26-02766-g007.jpg?md5=404f1627008fbd4a9afc763e4850a075"
+      ],
+      "association": "exact JATS ijms-26-02766-f007 in verified PMC version; article source only"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

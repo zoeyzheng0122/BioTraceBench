@@ -1,0 +1,294 @@
+{
+  "measure": [
+    {
+      "measure_definition": "Occurrence: development of persistent arthritis fulfilling the 2010 ACR/EULAR RA classification criteria during 24 months of follow-up; Participants; Clinical evaluation by participant clinicians at screening, baseline and every 3 months until the end of the 24-month study period. Primary analysis used the mFAS with failure imputation, imputing missing data on progression to RA as treatment failure.; Persistent arthritis was defined as involvement lasting more than 1 week in the same joint and fulfilling the 2010 ACR/EULAR RA classification criteria. Event time origin: randomization; follow-up 24 months. Failure imputation was applied to missing progression data in the primary analysis.",
+      "measure_id": "M0",
+      "measure_name": "Persistent arthritis fulfilling 2010 ACR/EULAR rheumatoid arthritis classification criteria (RA development)"
+    },
+    {
+      "measure_definition": "Measured value: intensity of joint attacks on a 0–10 visual analog scale during the 24-month period, summarized across attacks; Attacks; Attack intensity was elicited from anamnesis at screening, baseline and every 3 months and evaluated on a visual analog scale 0–10; the source describes intensity as the degree of pain and/or functional impairment. The pre-randomization reference interval was the 6 months before randomization. The 24-month summary is the median (P25, P75) across attacks with information; Fig. 4b reports 793 attacks in the abatacept group and 706 in the hydroxychloroquine group.; VAS scale 0–10. The reported period-level summary is median (P25, P75) intensity across attacks with information during the 24-month period; baseline reference is the 6 months before randomization. Attack-level denominators are distinct from participant denominators.",
+      "measure_id": "M1",
+      "measure_name": "Intensity of palindromic joint attacks on a visual analog scale"
+    },
+    {
+      "measure_definition": "Occurrence: remission of palindromic rheumatism symptoms during the 24-month period; Participants; Assessed at study visits every 3 months from baseline through 24 months.; Remission defined as no or a single palindromic attack during at least four consecutive visits (that is, 12 months) during the 24-month period.",
+      "measure_id": "M2",
+      "measure_name": "Palindromic-rheumatism symptom remission"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "Abatacept or oral hydroxychloroquine",
+      "intervention_regimen": "Abatacept 125 mg subcutaneous; hydroxychloroquine 5 mg kg−1 per day; Abatacept 125 mg subcutaneous weekly during the first 12 months and every 2 weeks during the second 12 months; hydroxychloroquine 5 mg kg−1 per day for 24 months. Planned treatment duration 24 months.",
+      "population_definition": "Combined mFAS across the abatacept and hydroxychloroquine randomized arms; All randomized patients who received at least one dose of study medication; adults aged ≥18 years with palindromic rheumatism diagnosed by modified Guerne and Weissman criteria, disease duration ≥3 months but <3 years, and positive for RF and/or ACPA. Excludes persistent arthritis, other rheumatic diseases, radiographic damage, prior conventional synthetic or biologic DMARDs, and glucocorticoids within 1 month before study entry.",
+      "population_id": "P0",
+      "population_name": "Modified full analysis set (mFAS), combined treatment arms",
+      "population_size": 70,
+      "population_time_frame": "Enrolment 3 June 2019 to 12 July 2022; follow-up 24 months from randomization."
+    },
+    {
+      "intervention": "Abatacept",
+      "intervention_regimen": "125 mg subcutaneous; 125 mg subcutaneous weekly during the first 12 months and every 2 weeks during the second 12 months; planned treatment duration 24 months.",
+      "population_definition": "Randomized treatment arm: abatacept within the mFAS; Randomized to abatacept and received at least one dose of study medication; adults aged ≥18 years with palindromic rheumatism diagnosed by modified Guerne and Weissman criteria, disease duration ≥3 months but <3 years, and positive for RF and/or ACPA. Excludes persistent arthritis, other rheumatic diseases, radiographic damage, prior conventional synthetic or biologic DMARDs, and glucocorticoids within 1 month before study entry.",
+      "population_id": "P1",
+      "population_name": "Modified full analysis set (mFAS), abatacept arm",
+      "population_size": 34,
+      "population_time_frame": "Enrolment 3 June 2019 to 12 July 2022; follow-up 24 months from randomization."
+    },
+    {
+      "intervention": "Hydroxychloroquine",
+      "intervention_regimen": "5 mg kg−1 per day; Oral hydroxychloroquine 5 mg kg−1 per day for 24 months; same dose maintained throughout.",
+      "population_definition": "Randomized treatment arm: oral hydroxychloroquine within the mFAS; Randomized to oral hydroxychloroquine and received at least one dose of study medication; adults aged ≥18 years with palindromic rheumatism diagnosed by modified Guerne and Weissman criteria, disease duration ≥3 months but <3 years, and positive for RF and/or ACPA. Excludes persistent arthritis, other rheumatic diseases, radiographic damage, prior conventional synthetic or biologic DMARDs, and glucocorticoids within 1 month before study entry.",
+      "population_id": "P2",
+      "population_name": "Modified full analysis set (mFAS), hydroxychloroquine arm",
+      "population_size": 36,
+      "population_time_frame": "Enrolment 3 June 2019 to 12 July 2022; follow-up 24 months from randomization."
+    },
+    {
+      "intervention": "Abatacept or hydroxychloroquine",
+      "intervention_regimen": "Abatacept 125 mg subcutaneous; hydroxychloroquine 5 mg kg−1 per day; Randomized to abatacept 125 mg subcutaneous weekly during the first 12 months and every 2 weeks during the second 12 months, or oral hydroxychloroquine 5 mg kg−1 per day for 24 months.",
+      "population_definition": "All 73 randomized participants: 37 assigned to abatacept and 36 to hydroxychloroquine; three assigned abatacept did not receive allocated treatment. The published Methods prespecified age ≥18 years, palindromic rheumatism under modified Guerne and Weissman criteria, disease duration ≥3 months but <3 years, and RF and/or ACPA positivity; exclusions included persistent arthritis, other rheumatic diseases, radiographic damage, prior DMARDs and recent glucocorticoids. These are trial eligibility criteria; a participant found ineligible after randomization remains part of the randomized population.",
+      "population_id": "P3",
+      "population_name": "Randomized population (all randomized participants)",
+      "population_size": 73,
+      "population_time_frame": "Enrolment/randomization start 3 June 2019; primary completion 30 June 2022; study completion 30 September 2024."
+    },
+    {
+      "intervention": "Abatacept",
+      "intervention_regimen": null,
+      "population_definition": "Participants randomly assigned to abatacept. The published Methods prespecified age ≥18 years, palindromic rheumatism under modified Guerne and Weissman criteria, disease duration ≥3 months but <3 years, and RF and/or ACPA positivity; exclusions included persistent arthritis, other rheumatic diseases, radiographic damage, prior DMARDs and recent glucocorticoids. These are trial eligibility criteria; a participant found ineligible after randomization remains part of the randomized population.",
+      "population_id": "P4",
+      "population_name": "Randomized abatacept arm",
+      "population_size": 37,
+      "population_time_frame": "Recruitment between June 3, 2019, and July 12, 2022."
+    },
+    {
+      "intervention": "Hydroxychloroquine",
+      "intervention_regimen": null,
+      "population_definition": "Participants randomly assigned to hydroxychloroquine. The published Methods prespecified age ≥18 years, palindromic rheumatism under modified Guerne and Weissman criteria, disease duration ≥3 months but <3 years, and RF and/or ACPA positivity; exclusions included persistent arthritis, other rheumatic diseases, radiographic damage, prior DMARDs and recent glucocorticoids. These are trial eligibility criteria; a participant found ineligible after randomization remains part of the randomized population.",
+      "population_id": "P5",
+      "population_name": "Randomized hydroxychloroquine arm",
+      "population_size": 36,
+      "population_time_frame": "Recruitment between June 3, 2019, and July 12, 2022."
+    },
+    {
+      "intervention": "Abatacept or hydroxychloroquine",
+      "intervention_regimen": null,
+      "population_definition": "Participants in the mFAS with known remission status, comprising all 34 abatacept and 35 hydroxychloroquine participants.",
+      "population_id": "P6",
+      "population_name": "Observed 0–24-month remission analysis set",
+      "population_size": 69,
+      "population_time_frame": "Screened 3 June 2019–12 July 2022; 24-month active treatment/follow-up."
+    },
+    {
+      "intervention": "Hydroxychloroquine",
+      "intervention_regimen": "5 mg/kg orally daily throughout both years.",
+      "population_definition": "Hydroxychloroquine mFAS participants with a documented 0–24-month remission status.",
+      "population_id": "P7",
+      "population_name": "Hydroxychloroquine observed remission subset",
+      "population_size": 35,
+      "population_time_frame": "Screened 3 June 2019–12 July 2022; 24-month active treatment/follow-up."
+    }
+  ],
+  "population_relation": [
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P2",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P2",
+      "relationship": "disjoint from"
+    },
+    {
+      "population_a_id": "P0",
+      "population_b_id": "P3",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P4",
+      "population_b_id": "P3",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P5",
+      "population_b_id": "P3",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P4",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P2",
+      "population_b_id": "P5",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P4",
+      "population_b_id": "P5",
+      "relationship": "disjoint from"
+    },
+    {
+      "population_a_id": "P7",
+      "population_b_id": "P2",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P6",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P7",
+      "population_b_id": "P6",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P6",
+      "relationship": "subset of"
+    }
+  ],
+  "result": [
+    {
+      "assessment_time": "24 months of follow-up",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R01",
+      "result_unit": "participants",
+      "result_value": 7,
+      "statistic_type": "Number of participants with persistent arthritis fulfilling 2010 ACR/EULAR RA classification criteria (failure imputation)",
+      "statistical_method": null,
+      "supplementary_statistics": "20.6%; Reported denominator: 34"
+    },
+    {
+      "assessment_time": "24 months of follow-up",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P2",
+      "result_id": "R02",
+      "result_unit": "participants",
+      "result_value": 18,
+      "statistic_type": "Number of participants with persistent arthritis fulfilling 2010 ACR/EULAR RA classification criteria (failure imputation)",
+      "statistical_method": null,
+      "supplementary_statistics": "50.0%; Reported denominator: 36"
+    },
+    {
+      "assessment_time": "24 months of follow-up",
+      "comparison": "P1 versus P2 (abatacept versus hydroxychloroquine); subtraction direction not explicitly reported",
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R03",
+      "result_unit": "percentage points",
+      "result_value": 29.4,
+      "statistic_type": "Reported risk difference between abatacept and hydroxychloroquine (absolute difference in proportions; subtraction direction not stated in supplied text)",
+      "statistical_method": null,
+      "supplementary_statistics": "95% CI 8.2 to 50.7; P=0.01"
+    },
+    {
+      "assessment_time": "24-month period",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R05",
+      "result_unit": "VAS points",
+      "result_value": 4.0,
+      "statistic_type": "Median VAS intensity (P25, P75) across attacks",
+      "statistical_method": null,
+      "supplementary_statistics": "P25 3.0; P75 6.0; 648 attacks in the 0–24-month panel. The caption separately reports 793 attacks for this arm without assigning that total to the 0–24-month column."
+    },
+    {
+      "assessment_time": "24-month period",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P2",
+      "result_id": "R06",
+      "result_unit": "VAS points",
+      "result_value": 7.0,
+      "statistic_type": "Median VAS intensity (P25, P75) across attacks",
+      "statistical_method": null,
+      "supplementary_statistics": "P25 5.0; P75 8.0; 495 attacks in the 0–24-month panel. The caption separately reports 706 attacks for this arm without assigning that total to the 0–24-month column."
+    },
+    {
+      "assessment_time": "24-month period",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R07",
+      "result_unit": "participants",
+      "result_value": 19,
+      "statistic_type": "Number of participants in remission",
+      "statistical_method": null,
+      "supplementary_statistics": "55.9%; Reported denominator: 34"
+    },
+    {
+      "assessment_time": "24-month period",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P7",
+      "result_id": "R08",
+      "result_unit": "participants",
+      "result_value": 8,
+      "statistic_type": "Number of participants in remission",
+      "statistical_method": null,
+      "supplementary_statistics": "22.9%; applicable observed remission denominator: 35 (Supplementary Table 7), while parent mFAS arm size is 36"
+    },
+    {
+      "assessment_time": "24-month period",
+      "comparison": "P1 versus P7 (abatacept versus hydroxychloroquine); two-sided between-arm test of observed remission status.",
+      "measure_id": "M2",
+      "population_id": "P6",
+      "result_id": "R09",
+      "result_unit": null,
+      "result_value": 0.007,
+      "statistic_type": "P value for between-arm comparison of remission proportions (two-sided Fisher exact test)",
+      "statistical_method": "Two-sided Fisher exact test (Supplementary Table 7)",
+      "supplementary_statistics": null
+    },
+    {
+      "assessment_time": "0–24 months",
+      "comparison": "P1 vs P2; subtraction/sign direction not explicitly established",
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R10",
+      "result_unit": null,
+      "result_value": "< 0.0001",
+      "statistic_type": "P value for between-arm comparison (two-sided Mann–Whitney U-test; abatacept vs hydroxychloroquine)",
+      "statistical_method": "Mann–Whitney U test",
+      "supplementary_statistics": "No multiplicity adjustment stated."
+    },
+    {
+      "assessment_time": "6 months before start of treatment (pre-randomization reference interval)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R11",
+      "result_unit": "VAS points",
+      "result_value": 7.0,
+      "statistic_type": "Median VAS intensity (P25, P75) across attacks",
+      "statistical_method": null,
+      "supplementary_statistics": "P25 5.0; P75 8.0; 118 attacks"
+    },
+    {
+      "assessment_time": "6 months before start of treatment (pre-randomization reference interval)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P2",
+      "result_id": "R12",
+      "result_unit": "VAS points",
+      "result_value": 7.0,
+      "statistic_type": "Median VAS intensity (P25, P75) across attacks",
+      "statistical_method": null,
+      "supplementary_statistics": "P25 5.0; P75 8.0; 146 attacks"
+    }
+  ]
+}

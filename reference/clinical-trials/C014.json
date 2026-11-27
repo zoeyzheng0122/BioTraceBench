@@ -1,0 +1,221 @@
+{
+  "measure": [
+    {
+      "measure_definition": "Measured value: change from baseline in HbA1c at Week 24; Participants; HbA1c measured in site-specific accredited laboratories whose personnel were unaware of treatment assignment; change from baseline (Week 0) to Week 24.; Change = Week 24 HbA1c minus baseline HbA1c. Eligibility required screening HbA1c ≥7.0% to ≤10.5%. Non-inferiority criterion for the Test−Reference difference: upper bound of the two-sided 95% CI below 0.4%.",
+      "measure_id": "M0",
+      "measure_name": "Glycated haemoglobin (HbA1c)"
+    },
+    {
+      "measure_definition": "Measured value: change from baseline in fasting blood glucose at Week 24; Participants; Fasting blood glucose assessed at scheduled visits; change from baseline (Week 0) to Week 24. Assay details Not reported.; Change = Week 24 FBG minus baseline FBG; fasting sample. No non-inferiority criterion applies.",
+      "measure_id": "M1",
+      "measure_name": "Fasting blood glucose (FBG)"
+    },
+    {
+      "measure_definition": "Measured value: change from baseline in post-prandial blood glucose at Week 24; Participants; Post-prandial blood glucose assessed at scheduled visits; change from baseline (Week 0) to Week 24. Meal timing and assay details Not reported.; Change = Week 24 PPBG minus baseline PPBG. No non-inferiority criterion applies.",
+      "measure_id": "M2",
+      "measure_name": "Post-prandial blood glucose (PPBG)"
+    },
+    {
+      "measure_definition": "Measured value: change from baseline in body weight at Week 24; Participants; Body weight measured at scheduled visits; change from baseline (Week 0) to Week 24. Measurement conditions Not reported.; Change = Week 24 body weight minus baseline body weight; absolute change in kg.",
+      "measure_id": "M3",
+      "measure_name": "Body weight"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "Test synthetic semaglutide injection (Sun Pharmaceutical Industries Limited)",
+      "intervention_regimen": "0.25 mg, 0.5 mg, 1 mg, and 2 mg once weekly; maximum 2.0 mg/week.; Subcutaneous once weekly for 24 weeks; 0.25 mg for Weeks 0–4, 0.5 mg for Weeks 4–8, then response-guided up-titration at Weeks 8, 12, 16 and 20 based on HbA1c (<7.5% continue; ≥7.5% increase) to a maximum of 2 mg once weekly.",
+      "population_definition": "Randomised treatment allocation to Test synthetic semaglutide; per-protocol analysis set.; Adults aged 18–65 years with T2DM and screening HbA1c ≥7.0% to ≤10.5% despite stable metformin ≥1500 mg/day or maximum tolerated dose for ≥12 weeks plus diet and exercise; randomised 1:1 to Test semaglutide; per-protocol population defined as patients who completed the study without major protocol deviations.",
+      "population_id": "P0",
+      "population_name": "Test per-protocol efficacy population",
+      "population_size": 142,
+      "population_time_frame": "Treatment period Week 0 to Week 24; calendar dates Not reported."
+    },
+    {
+      "intervention": "Reference semaglutide injection (Ozempic, Novo Nordisk)",
+      "intervention_regimen": "0.25 mg, 0.5 mg, 1 mg, and 2 mg once weekly; maximum 2.0 mg/week.; Subcutaneous once weekly for 24 weeks; 0.25 mg for Weeks 0–4, 0.5 mg for Weeks 4–8, then response-guided up-titration at Weeks 8, 12, 16 and 20 based on HbA1c (<7.5% continue; ≥7.5% increase) to a maximum of 2 mg once weekly.",
+      "population_definition": "Randomised treatment allocation to Reference semaglutide; per-protocol analysis set.; Adults aged 18–65 years with T2DM and screening HbA1c ≥7.0% to ≤10.5% despite stable metformin ≥1500 mg/day or maximum tolerated dose for ≥12 weeks plus diet and exercise; randomised 1:1 to Reference semaglutide; per-protocol population defined as patients who completed the study without major protocol deviations.",
+      "population_id": "P1",
+      "population_name": "Reference per-protocol efficacy population",
+      "population_size": 146,
+      "population_time_frame": "Treatment period Week 0 to Week 24; calendar dates Not reported."
+    }
+  ],
+  "population_relation": [
+    {
+      "population_a_id": "P0",
+      "population_b_id": "P1",
+      "relationship": "disjoint from"
+    }
+  ],
+  "result": [
+    {
+      "assessment_time": "Week 24",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R01",
+      "result_unit": "%",
+      "result_value": -2.04,
+      "statistic_type": "Mean change from baseline (within-group)",
+      "statistical_method": "PP change from baseline; within-arm repeated-measures ANOVA.",
+      "supplementary_statistics": "Within-arm P <0.0001. The plotted error bars do not report a numeric interval or dispersion."
+    },
+    {
+      "assessment_time": "Week 24",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R02",
+      "result_unit": "%",
+      "result_value": -1.95,
+      "statistic_type": "Mean change from baseline (within-group)",
+      "statistical_method": "PP change from baseline; within-arm repeated-measures ANOVA.",
+      "supplementary_statistics": "Within-arm P <0.0001. The plotted error bars do not report a numeric interval or dispersion."
+    },
+    {
+      "assessment_time": "Week 24",
+      "comparison": "P0 minus P1 (Test minus Reference)",
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R05",
+      "result_unit": "%",
+      "result_value": -0.09,
+      "statistic_type": "Least-squares mean difference (Test − Reference)",
+      "statistical_method": "MMRM with treatment, visit, treatment-by-visit and baseline HbA1c stratification as fixed effects, corresponding baseline measure as covariate, REML, Kenward–Roger degrees of freedom and unstructured covariance when feasible. HbA1c non-inferiority margin: upper two-sided 95% CI below 0.4 percentage points.",
+      "supplementary_statistics": "95% CI −0.26% to 0.09%; non-inferiority margin 0.4%; upper 95% CI bound below margin; between-group P=0.3429"
+    },
+    {
+      "assessment_time": "Week 24",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P0",
+      "result_id": "R07",
+      "result_unit": "mg/dL",
+      "result_value": -52.8,
+      "statistic_type": "Mean change from baseline (within-group)",
+      "statistical_method": "PP change from baseline; within-arm repeated-measures ANOVA.",
+      "supplementary_statistics": "Within-arm P <0.0001. The plotted error bars do not report a numeric interval or dispersion."
+    },
+    {
+      "assessment_time": "Week 24",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R08",
+      "result_unit": "mg/dL",
+      "result_value": -50.3,
+      "statistic_type": "Mean change from baseline (within-group)",
+      "statistical_method": "PP change from baseline; within-arm repeated-measures ANOVA.",
+      "supplementary_statistics": "Within-arm P <0.0001. The plotted error bars do not report a numeric interval or dispersion."
+    },
+    {
+      "assessment_time": "Week 24",
+      "comparison": "P0 vs P1; subtraction/sign direction not explicitly established",
+      "measure_id": "M1",
+      "population_id": "P0",
+      "result_id": "R11",
+      "result_unit": null,
+      "result_value": 0.2142,
+      "statistic_type": "P value (between-group)",
+      "statistical_method": "MMRM with treatment, visit, treatment-by-visit and baseline HbA1c stratification as fixed effects, corresponding baseline measure as covariate, REML, Kenward–Roger degrees of freedom and unstructured covariance when feasible.",
+      "supplementary_statistics": "Test vs Reference at Week 24; no LS mean difference or CI reported"
+    },
+    {
+      "assessment_time": "Week 24",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P0",
+      "result_id": "R12",
+      "result_unit": "mg/dL",
+      "result_value": -94.3,
+      "statistic_type": "Mean change from baseline (within-group)",
+      "statistical_method": "PP change from baseline; within-arm repeated-measures ANOVA.",
+      "supplementary_statistics": "Within-arm P <0.0001. The plotted error bars do not report a numeric interval or dispersion."
+    },
+    {
+      "assessment_time": "Week 24",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R13",
+      "result_unit": "mg/dL",
+      "result_value": -84.6,
+      "statistic_type": "Mean change from baseline (within-group)",
+      "statistical_method": "PP change from baseline; within-arm repeated-measures ANOVA.",
+      "supplementary_statistics": "Within-arm P <0.0001. The plotted error bars do not report a numeric interval or dispersion."
+    },
+    {
+      "assessment_time": "Week 24",
+      "comparison": "P0 vs P1; subtraction/sign direction not explicitly established",
+      "measure_id": "M2",
+      "population_id": "P0",
+      "result_id": "R16",
+      "result_unit": null,
+      "result_value": 0.0485,
+      "statistic_type": "P value (between-group)",
+      "statistical_method": "MMRM with treatment, visit, treatment-by-visit and baseline HbA1c stratification as fixed effects, corresponding baseline measure as covariate, REML, Kenward–Roger degrees of freedom and unstructured covariance when feasible.",
+      "supplementary_statistics": "Test vs Reference at Week 24; no LS mean difference or CI reported"
+    },
+    {
+      "assessment_time": "Week 24",
+      "comparison": null,
+      "measure_id": "M3",
+      "population_id": "P0",
+      "result_id": "R17",
+      "result_unit": "kg",
+      "result_value": -6.17,
+      "statistic_type": "Mean change from baseline (within-group)",
+      "statistical_method": "PP change from baseline; within-arm repeated-measures ANOVA.",
+      "supplementary_statistics": "Within-arm P <0.0001. The plotted error bars do not report a numeric interval or dispersion."
+    },
+    {
+      "assessment_time": "Week 24",
+      "comparison": null,
+      "measure_id": "M3",
+      "population_id": "P1",
+      "result_id": "R18",
+      "result_unit": "kg",
+      "result_value": -6.17,
+      "statistic_type": "Mean change from baseline (within-group)",
+      "statistical_method": "PP change from baseline; within-arm repeated-measures ANOVA.",
+      "supplementary_statistics": "Within-arm P <0.0001. The plotted error bars do not report a numeric interval or dispersion."
+    },
+    {
+      "assessment_time": "Week 24",
+      "comparison": "P0 vs P1; subtraction/sign direction not explicitly established",
+      "measure_id": "M3",
+      "population_id": "P0",
+      "result_id": "R21",
+      "result_unit": null,
+      "result_value": 0.9569,
+      "statistic_type": "P value (between-group)",
+      "statistical_method": "MMRM with treatment, visit, treatment-by-visit and baseline HbA1c stratification as fixed effects, corresponding baseline measure as covariate, REML, Kenward–Roger degrees of freedom and unstructured covariance when feasible.",
+      "supplementary_statistics": "Test vs Reference at Week 24; no LS mean difference or CI reported"
+    },
+    {
+      "assessment_time": "Week 24",
+      "comparison": null,
+      "measure_id": "M3",
+      "population_id": "P0",
+      "result_id": "R22",
+      "result_unit": "%",
+      "result_value": 8.61,
+      "statistic_type": "Percentage weight loss from baseline",
+      "statistical_method": "Reported arm summary; exact percentage aggregation method unreported.",
+      "supplementary_statistics": null
+    },
+    {
+      "assessment_time": "Week 24",
+      "comparison": null,
+      "measure_id": "M3",
+      "population_id": "P1",
+      "result_id": "R23",
+      "result_unit": "%",
+      "result_value": 8.39,
+      "statistic_type": "Percentage weight loss from baseline",
+      "statistical_method": "Reported arm summary; exact percentage aggregation method unreported.",
+      "supplementary_statistics": null
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "Single-cell RNA-seq",
+      "experiment_run_accession": "SRA:SRR28740494 (run); SRA:SRX24306407 (experiment)",
+      "method": "GS-HESC scRNA-seq; 10x Chromium cDNA preparation from the colony’s single-cell suspension; one half used for single-cell transcriptome library preparation and sequencing.",
+      "platform": "Illumina HiSeq X Ten (ENA); NovaSeq reported in Figure 1",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0002",
+      "assay_type": "Expressed lineage-barcode HiFi sequencing",
+      "experiment_run_accession": "SRA:SRR28712998 (run); SRA:SRX24279677 (experiment)",
+      "method": "GS-HESC PacBio; expressed lineage barcodes amplified from the other half of the matched 10x cDNA preparation and sequenced using PacBio HiFi.",
+      "platform": "PacBio Sequel II",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0003",
+      "assay_type": "Single-cell RNA-seq",
+      "experiment_run_accession": "SRA:SRR28740497 (run); SRA:SRX24306404 (experiment)",
+      "method": "A1-CBRAD5 scRNA-seq; 10x Chromium cDNA preparation from the colony’s single-cell suspension; one half used for single-cell transcriptome library preparation and sequencing.",
+      "platform": "Illumina HiSeq X Ten (ENA); NovaSeq reported in Figure 1",
+      "sample_ids": [
+        "S0002"
+      ]
+    },
+    {
+      "assay_id": "A0004",
+      "assay_type": "Expressed lineage-barcode HiFi sequencing",
+      "experiment_run_accession": "SRA:SRR28713004 (run); SRA:SRX24279671 (experiment)",
+      "method": "A1-CBRAD5 PacBio; expressed lineage barcodes amplified from the other half of the matched 10x cDNA preparation and sequenced using PacBio HiFi.",
+      "platform": "PacBio Sequel II",
+      "sample_ids": [
+        "S0002"
+      ]
+    },
+    {
+      "assay_id": "A0005",
+      "assay_type": "Single-cell RNA-seq",
+      "experiment_run_accession": "SRA:SRR28740496 (run); SRA:SRX24306405 (experiment)",
+      "method": "G11-CBRAD5 scRNA-seq; 10x Chromium cDNA preparation from the colony’s single-cell suspension; one half used for single-cell transcriptome library preparation and sequencing.",
+      "platform": "Illumina HiSeq X Ten (ENA); NovaSeq reported in Figure 1",
+      "sample_ids": [
+        "S0003"
+      ]
+    },
+    {
+      "assay_id": "A0006",
+      "assay_type": "Expressed lineage-barcode HiFi sequencing",
+      "experiment_run_accession": "SRA:SRR28713002 (run); SRA:SRX24279673 (experiment)",
+      "method": "G11-CBRAD5 PacBio; expressed lineage barcodes amplified from the other half of the matched 10x cDNA preparation and sequenced using PacBio HiFi.",
+      "platform": "PacBio Sequel II",
+      "sample_ids": [
+        "S0003"
+      ]
+    },
+    {
+      "assay_id": "A0007",
+      "assay_type": "Single-cell RNA-seq",
+      "experiment_run_accession": "SRA:SRR28740495 (run); SRA:SRX24306406 (experiment)",
+      "method": "G2-CBRAD5 scRNA-seq; 10x Chromium cDNA preparation from the colony’s single-cell suspension; one half used for single-cell transcriptome library preparation and sequencing.",
+      "platform": "Illumina HiSeq X Ten (ENA); NovaSeq reported in Figure 1",
+      "sample_ids": [
+        "S0004"
+      ]
+    },
+    {
+      "assay_id": "A0008",
+      "assay_type": "Expressed lineage-barcode HiFi sequencing",
+      "experiment_run_accession": "SRA:SRR28713000 (run); SRA:SRX24279675 (experiment)",
+      "method": "G2-CBRAD5 PacBio; expressed lineage barcodes amplified from the other half of the matched 10x cDNA preparation and sequenced using PacBio HiFi.",
+      "platform": "PacBio Sequel II",
+      "sample_ids": [
+        "S0004"
+      ]
+    }
+  ],
+  "condition": [
+    {
+      "condition_id": "C0001",
+      "condition_target": "Whole sample",
+      "experimental_factor": "PLP-directed differentiation duration",
+      "factor_unit": "day",
+      "factor_value": 10,
+      "sample_id": "S0002",
+      "time": "From directed differentiation initiation to collection"
+    },
+    {
+      "condition_id": "C0002",
+      "condition_target": "Whole sample",
+      "experimental_factor": "PLP-directed differentiation duration",
+      "factor_unit": "day",
+      "factor_value": 10,
+      "sample_id": "S0003",
+      "time": "From directed differentiation initiation to collection"
+    },
+    {
+      "condition_id": "C0003",
+      "condition_target": "Whole sample",
+      "experimental_factor": "PLP-directed differentiation duration",
+      "factor_unit": "day",
+      "factor_value": 10,
+      "sample_id": "S0004",
+      "time": "From directed differentiation initiation to collection"
+    },
+    {
+      "condition_id": "C0004",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Doxycycline concentration for Cas9 induction",
+      "factor_unit": "µg/mL",
+      "factor_value": 1,
+      "sample_id": "S0002",
+      "time": "Applied at directed differentiation initiation"
+    },
+    {
+      "condition_id": "C0005",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Doxycycline concentration for Cas9 induction",
+      "factor_unit": "µg/mL",
+      "factor_value": 1,
+      "sample_id": "S0003",
+      "time": "Applied at directed differentiation initiation"
+    },
+    {
+      "condition_id": "C0006",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Doxycycline concentration for Cas9 induction",
+      "factor_unit": "µg/mL",
+      "factor_value": 1,
+      "sample_id": "S0004",
+      "time": "Applied at directed differentiation initiation"
+    }
+  ],
+  "sample": [
+    {
+      "biological_model": "H9 hESCs carrying an expressed lineage barcode, doxycycline-inducible Cas9 and sgRNAs",
+      "biological_source": "H9 human embryonic stem cells",
+      "sample_accession": "BioSample:SAMN40951497 (sample); SRA:SRS21044471 (sample); BioSample:SAMN40951496 (sample); SRA:SRS21044466 (sample)",
+      "sample_id": "S0001",
+      "sample_material": "cDNA generated from a single-cell suspension of a non-differentiating lineage-tracer hESC colony; split into matched transcriptome and expressed-lineage-barcode preparations.",
+      "sample_name": "GS-HESC",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "H9 hESCs carrying an expressed lineage barcode, doxycycline-inducible Cas9 and sgRNAs",
+      "biological_source": "H9 human embryonic stem cells",
+      "sample_accession": "BioSample:SAMN40951491 (sample); SRA:SRS21044469 (sample); BioSample:SAMN40951490 (sample); SRA:SRS21044465 (sample)",
+      "sample_id": "S0002",
+      "sample_material": "cDNA generated from a single-cell suspension of lineage-tracer hESC colony CBRAD5-A1 after 10 days of PLP-directed differentiation; split into matched transcriptome and expressed-lineage-barcode preparations.",
+      "sample_name": "CBRAD5-A1",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "H9 hESCs carrying an expressed lineage barcode, doxycycline-inducible Cas9 and sgRNAs",
+      "biological_source": "H9 human embryonic stem cells",
+      "sample_accession": "BioSample:SAMN40951493 (sample); SRA:SRS21044467 (sample); BioSample:SAMN40951492 (sample); SRA:SRS21044464 (sample)",
+      "sample_id": "S0003",
+      "sample_material": "cDNA generated from a single-cell suspension of lineage-tracer hESC colony CBRAD5-G11 after 10 days of PLP-directed differentiation; split into matched transcriptome and expressed-lineage-barcode preparations.",
+      "sample_name": "CBRAD5-G11",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "H9 hESCs carrying an expressed lineage barcode, doxycycline-inducible Cas9 and sgRNAs",
+      "biological_source": "H9 human embryonic stem cells",
+      "sample_accession": "BioSample:SAMN40951495 (sample); SRA:SRS21044470 (sample); BioSample:SAMN40951494 (sample); SRA:SRS21044468 (sample)",
+      "sample_id": "S0004",
+      "sample_material": "cDNA generated from a single-cell suspension of lineage-tracer hESC colony CBRAD5-G2 after 10 days of PLP-directed differentiation; split into matched transcriptome and expressed-lineage-barcode preparations.",
+      "sample_name": "CBRAD5-G2",
+      "species": "Homo sapiens"
+    }
+  ]
+}

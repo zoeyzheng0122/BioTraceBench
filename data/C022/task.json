@@ -1,0 +1,30 @@
+{
+  "case_id": "C022",
+  "task_id": "C022",
+  "title": "Evaluation of the Impact of a Smartphone App on Adherence to an Exercise Program in People With Chronic Low Back Pain: Randomized Controlled Trial",
+  "doi": "10.2196/77736",
+  "comparison_or_design": "The primary exercise-app comparison during usual multidisciplinary rehabilitation.",
+  "observations_or_assays": [
+    "Exercise Adherence Rating Scale Part B",
+    "Pain intensity on the Numeric Rating Scale",
+    "Oswestry Disability Index"
+  ],
+  "time_scope": "The 6-month comparison and each outcome’s explicitly reported baseline/reference assessment.",
+  "excluded": [
+    "Three-week outcomes and other measures",
+    "Separately designated confirmation models, other sensitivity versions, standalone within-arm/trajectory tests and calculated changes"
+  ],
+  "population_or_material": "The intention-to-treat population in the chronic-low-back-pain exercise-app trial.",
+  "requested_items": [
+    "EARS/NRS/ODI: Table 1 baseline arm mean/SD and Table 2 six-month arm mean/SD, main-text adjusted between-group differences with CI/P, and all Table 2 effect sizes (ES) with their own CI/P. Preserve Table 2 NRS scale; do not rescale from conflicting prose. Do not infer ES formula/sign or model denominator from follow-up counts. Exclude the separately labelled confirmatory EARS comparison."
+  ],
+  "resources": [],
+  "case_specific_rules": [],
+  "domain": "clinical",
+  "pipeline": "clinical-trials",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/clinical-trials.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

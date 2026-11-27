@@ -1,0 +1,196 @@
+{
+  "measure": [
+    {
+      "measure_definition": "Time to event: randomization to earliest disease progression or death from any cause; Participants; Tumor response assessed by CT scans every 3 months from baseline until treatment discontinuation or death; imaging reviewed by an independent radiologist blinded to treatment allocation; RECIST v1.1 used to define objective progression. Patients were followed for survival until death or consent withdrawal.; PFS was the time from randomization to the earliest occurrence of objective disease progression according to RECIST v1.1 or death from any cause. Patients lost to follow-up, alive, and without reported progression were censored at the date of last visit.",
+      "measure_id": "M0",
+      "measure_name": "Progression-free survival (PFS)"
+    },
+    {
+      "measure_definition": "Time to event: randomization to death from any cause; Participants; Patients were followed for survival until death from any cause or consent withdrawal; vital status was assessed after randomization.; OS was the time from randomization until death from any cause. Patients alive or lost to follow-up were censored at the date of last visit/contact as reported.",
+      "measure_id": "M1",
+      "measure_name": "Overall survival (OS)"
+    },
+    {
+      "measure_definition": "Categorical status: best overall response of complete response or partial response according to RECIST v1.1; Participants; CT scans every 3 months from baseline until treatment discontinuation or death; independent radiologist blinded to treatment allocation; RECIST v1.1. Response-evaluable patients had at least one imaging assessment.; Objective response rate was defined as the proportion of patients achieving a complete response (CR) or partial response (PR). No complete responses were observed. The response-evaluable denominators were 49 patients in the Tr + RHT arm and 46 in the Tr arm.",
+      "measure_id": "M2",
+      "measure_name": "Objective response (complete or partial response)"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "Trabectedin with or without regional hyperthermia (RHT)",
+      "intervention_regimen": "Trabectedin 1.5 mg/m2 body surface area; RHT 42°C for 60 minutes in the Tr + RHT arm; Trabectedin as a 24-hour continuous intravenous infusion every 3 weeks; RHT applied at the end of the infusion in the Tr + RHT arm; treatment continued until progression, unacceptable toxicity, consent withdrawal, or death, with protocol-defined dose reductions.",
+      "population_definition": "All eligible randomized patients, both treatment arms combined; Adults with histologically confirmed advanced soft tissue sarcoma (primary or recurrent) who had failed at least one anthracycline-based chemotherapy or were unsuited to it, were randomized 1:1 to Tr + RHT or Tr, and were included in the intention-to-treat analysis regardless of treatment received. Two randomized patients in the Tr arm were excluded before the efficacy analysis: one screening failure and one duplicate randomization.",
+      "population_id": "P0",
+      "population_name": "HyperTET intention-to-treat population",
+      "population_size": 118,
+      "population_time_frame": "Enrolment 19 December 2014 to 7 December 2021; efficacy data cut-off 30 September 2022."
+    },
+    {
+      "intervention": "Trabectedin plus regional hyperthermia (RHT)",
+      "intervention_regimen": "Trabectedin 1.5 mg/m2 body surface area; RHT 42°C for 60 minutes per session; Trabectedin as a 24-hour continuous intravenous infusion every 3 weeks; RHT applied at the end of the trabectedin infusion; treatment continued until progression, unacceptable toxicity, consent withdrawal, or death.",
+      "population_definition": "Randomized allocation to trabectedin plus regional hyperthermia; Eligible randomized patients allocated to trabectedin plus regional hyperthermia and included in the intention-to-treat analysis; receipt of allocated treatment was not required for inclusion.",
+      "population_id": "P1",
+      "population_name": "Trabectedin plus regional hyperthermia ITT population",
+      "population_size": 60,
+      "population_time_frame": "Enrolment 19 December 2014 to 7 December 2021; efficacy data cut-off 30 September 2022."
+    },
+    {
+      "intervention": "Trabectedin",
+      "intervention_regimen": "Trabectedin 1.5 mg/m2 body surface area; Trabectedin as a 24-hour continuous intravenous infusion every 3 weeks; treatment continued until progression, unacceptable toxicity, consent withdrawal, or death.",
+      "population_definition": "Randomized allocation to trabectedin alone; Eligible randomized patients allocated to trabectedin alone and included in the intention-to-treat analysis after exclusion of two randomized patients: one screening failure and one duplicate randomization.",
+      "population_id": "P2",
+      "population_name": "Trabectedin alone ITT population",
+      "population_size": 58,
+      "population_time_frame": "Enrolment 19 December 2014 to 7 December 2021; efficacy data cut-off 30 September 2022."
+    },
+    {
+      "intervention": "Trabectedin plus regional hyperthermia (RHT)",
+      "intervention_regimen": "Trabectedin 1.5 mg/m2 body surface area; RHT 42°C for 60 minutes per session; Trabectedin as a 24-hour continuous intravenous infusion every 3 weeks; RHT applied at the end of the trabectedin infusion.",
+      "population_definition": "Tumor response evaluability within the trabectedin plus regional hyperthermia arm; Patients in the trabectedin plus regional hyperthermia ITT arm who underwent at least one imaging assessment and were assessable for radiological response by RECIST v1.1. This is an endpoint-specific response-evaluable subset, not the ITT denominator.",
+      "population_id": "P3",
+      "population_name": "Trabectedin plus regional hyperthermia tumor-response-evaluable set",
+      "population_size": 49,
+      "population_time_frame": "Response assessments from baseline until treatment discontinuation or death; efficacy data cut-off 30 September 2022."
+    },
+    {
+      "intervention": "Trabectedin",
+      "intervention_regimen": "Trabectedin 1.5 mg/m2 body surface area; Trabectedin as a 24-hour continuous intravenous infusion every 3 weeks.",
+      "population_definition": "Tumor response evaluability within the trabectedin-alone arm; Patients in the trabectedin-alone ITT arm who underwent at least one imaging assessment and were assessable for radiological response by RECIST v1.1. This is an endpoint-specific response-evaluable subset, not the ITT denominator.",
+      "population_id": "P4",
+      "population_name": "Trabectedin alone tumor-response-evaluable set",
+      "population_size": 46,
+      "population_time_frame": "Response assessments from baseline until treatment discontinuation or death; efficacy data cut-off 30 September 2022."
+    }
+  ],
+  "population_relation": [
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P2",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P3",
+      "population_b_id": "P1",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P4",
+      "population_b_id": "P2",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P2",
+      "relationship": "disjoint from"
+    },
+    {
+      "population_a_id": "P3",
+      "population_b_id": "P4",
+      "relationship": "disjoint from"
+    }
+  ],
+  "result": [
+    {
+      "assessment_time": "At efficacy data cut-off 30 September 2022; median follow-up 21.4 months",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R01",
+      "result_unit": "months",
+      "result_value": 3.0,
+      "statistic_type": "Median",
+      "statistical_method": "Kaplan–Meier estimation; the source compares survival distributions using a stratified log-rank test.",
+      "supplementary_statistics": "95% CI 2.5-5.0 months"
+    },
+    {
+      "assessment_time": "At efficacy data cut-off 30 September 2022",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P2",
+      "result_id": "R02",
+      "result_unit": "months",
+      "result_value": 3.5,
+      "statistic_type": "Median",
+      "statistical_method": "Kaplan–Meier estimation; the source compares survival distributions using a stratified log-rank test.",
+      "supplementary_statistics": "95% CI 2.8-5.9 months"
+    },
+    {
+      "assessment_time": "At efficacy data cut-off 30 September 2022; median follow-up 21.4 months",
+      "comparison": "Between P1 (trabectedin plus regional hyperthermia) and P2 (trabectedin alone). Figure 2 ITT table displays HR 0.86 on P1 and HR 1 on P2. Figure 2 caption note b describes trabectedin alone versus trabectedin plus regional hyperthermia. The source direction is conflicting and remains unresolved.",
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R03",
+      "result_unit": null,
+      "result_value": 0.86,
+      "statistic_type": "Stratified hazard ratio",
+      "statistical_method": "Cox proportional hazards model, stratified by sarcoma histological subtype, prior surgery, metastasis status and ECOG performance status; associated survival comparison by stratified log-rank test.",
+      "supplementary_statistics": "95% CI 0.57-1.30; P = 0.459"
+    },
+    {
+      "assessment_time": "After 75 death events; efficacy data cut-off 30 September 2022",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R04",
+      "result_unit": "months",
+      "result_value": 13.4,
+      "statistic_type": "Median",
+      "statistical_method": "Kaplan–Meier estimation; the source compares survival distributions using a stratified log-rank test.",
+      "supplementary_statistics": "95% CI 8.8-24.2 months"
+    },
+    {
+      "assessment_time": "After 75 death events; efficacy data cut-off 30 September 2022",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P2",
+      "result_id": "R05",
+      "result_unit": "months",
+      "result_value": 15.9,
+      "statistic_type": "Median",
+      "statistical_method": "Kaplan–Meier estimation; the source compares survival distributions using a stratified log-rank test.",
+      "supplementary_statistics": "95% CI 9.7-20.4 months"
+    },
+    {
+      "assessment_time": "After 75 death events; efficacy data cut-off 30 September 2022",
+      "comparison": "Between P1 (trabectedin plus regional hyperthermia) and P2 (trabectedin alone). Figure 3 ITT table displays HR 0.97 on P1 and HR 1 on P2. Figure 3 caption note b describes trabectedin alone versus trabectedin plus regional hyperthermia. The source direction is conflicting and remains unresolved.",
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R06",
+      "result_unit": null,
+      "result_value": 0.97,
+      "statistic_type": "Stratified hazard ratio",
+      "statistical_method": "Cox proportional hazards model, stratified by sarcoma histological subtype, prior surgery, metastasis status and ECOG performance status; associated survival comparison by stratified log-rank test.",
+      "supplementary_statistics": "95% CI 0.59-1.61; P = 0.902"
+    },
+    {
+      "assessment_time": "Response assessment by CT every 3 months from baseline until treatment discontinuation or death; data cut-off 30 September 2022",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P3",
+      "result_id": "R07",
+      "result_unit": "participants",
+      "result_value": 2,
+      "statistic_type": "Number of participants with complete or partial response",
+      "statistical_method": null,
+      "supplementary_statistics": "Reported denominator: 49"
+    },
+    {
+      "assessment_time": "Response assessment by CT every 3 months from baseline until treatment discontinuation or death; data cut-off 30 September 2022",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P4",
+      "result_id": "R08",
+      "result_unit": "participants",
+      "result_value": 2,
+      "statistic_type": "Number of participants with complete or partial response",
+      "statistical_method": null,
+      "supplementary_statistics": "Reported denominator: 46"
+    }
+  ]
+}

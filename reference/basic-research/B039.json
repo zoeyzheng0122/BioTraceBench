@@ -1,0 +1,82 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "DIA LC-MS/MS proteomics",
+      "experiment_run_accession": "Zenodo:10.5281/zenodo.17993221 (dataset)",
+      "method": "Aggregate representation of the BXS0115 He-versus-HI comparison. Protein extracts were processed by NuPAGE and trypsin digestion, followed by DIA LC-MS/MS and DIA-NN v1.8 analysis. Individual acquisitions cannot be assigned to these preparations from the supplied sources.",
+      "platform": "Thermo Scientific Orbitrap Exploris 480; Vanquish Neo UHPLC",
+      "sample_ids": [
+        "S0001",
+        "S0002"
+      ]
+    }
+  ],
+  "condition": [
+    {
+      "condition_id": "C0001",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Organoid age at start of injury/control experiment",
+      "factor_unit": "day",
+      "factor_value": 120,
+      "sample_id": "S0001",
+      "time": "At the start of the selected 4-month experiment; normoxic control"
+    },
+    {
+      "condition_id": "C0002",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Organoid age at start of injury/control experiment",
+      "factor_unit": "day",
+      "factor_value": 120,
+      "sample_id": "S0002",
+      "time": "At initiation of hypoxic exposure"
+    },
+    {
+      "condition_id": "C0003",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Oxygen concentration during hypoxia",
+      "factor_unit": "% O2",
+      "factor_value": 1,
+      "sample_id": "S0002",
+      "time": "During the 24-h hypoxic exposure initiated on organoid day 120"
+    },
+    {
+      "condition_id": "C0004",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Hypoxic exposure duration",
+      "factor_unit": "h",
+      "factor_value": 24,
+      "sample_id": "S0002",
+      "time": "From initiation of 1% O2 exposure until transfer to normoxic incubation"
+    },
+    {
+      "condition_id": "C0005",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Normoxic reoxygenation duration",
+      "factor_unit": "h",
+      "factor_value": 24,
+      "sample_id": "S0002",
+      "time": "After the 24-h hypoxic exposure and before proteomics harvest"
+    }
+  ],
+  "sample": [
+    {
+      "biological_model": "hiPSC-derived human cerebral organoid",
+      "biological_source": "BXS0115 hiPSCs (ATCC ACS-1029, lot 0232), reprogrammed from female-donor CD34+ bone marrow cells",
+      "sample_accession": null,
+      "sample_id": "S0001",
+      "sample_material": "Protein preparations from healthy/normoxic BXS0115 cerebral organoids in the 4-month injury experiment. Reported n = 9 organoids per condition; individual preparation labels, pooling membership and file assignments are not supplied.",
+      "sample_name": "BXS0115 hCO - He",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "hiPSC-derived human cerebral organoid",
+      "biological_source": "BXS0115 hiPSCs (ATCC ACS-1029, lot 0232), reprogrammed from female-donor CD34+ bone marrow cells",
+      "sample_accession": null,
+      "sample_id": "S0002",
+      "sample_material": "Protein preparations from BXS0115 cerebral organoids exposed at day 120 to 1% O2 for 24 h, followed by 24 h normoxic reoxygenation before proteomics. Reported n = 9 organoids; individual preparation labels, pooling membership and file assignments are not supplied.",
+      "sample_name": "BXS0115 hCO - HI",
+      "species": "Homo sapiens"
+    }
+  ]
+}

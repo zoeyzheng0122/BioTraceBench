@@ -1,0 +1,31 @@
+{
+  "case_id": "C009",
+  "task_id": "C009",
+  "title": "Datopotamab–deruxtecan in early-stage breast cancer: the sequential multiple assignment randomized I-SPY2.2 phase 2 trial",
+  "doi": "10.1038/s41591-024-03266-2",
+  "comparison_or_design": "The subtype-specific Dato-DXd I-SPY2.2 strategy analysis across Blocks A–C and its reported dynamic-control comparison.",
+  "observations_or_assays": [
+    "Pathological complete response across the treatment strategy",
+    "Residual Cancer Burden (RCB) class distribution at surgery"
+  ],
+  "time_scope": "Surgery after the complete treatment strategy or protocol-directed early surgery, in the primary strategy analysis.",
+  "excluded": [
+    "Block-A-only efficacy and every other subtype",
+    "preRCB-adherent sensitivities, toxicity, and the separate Dato-DXd plus durvalumab arm"
+  ],
+  "population_or_material": "The HR-negative/HER2-negative/Immune-negative/DRD-negative subtype in the Dato-DXd I-SPY2.2 arm.",
+  "requested_items": [
+    "For the specified RPS subtype and complete treatment strategy: modeled pCR and observed pCR count/proportion; dynamic-control modeled pCR; P(>DC); and observed RCB class counts/proportions in the RCB-evaluable subset. Exclude pCR timing by treatment block, combined pCR/RCB-I summaries, alternate candidate historical regimens and sensitivity strategies."
+  ],
+  "resources": [],
+  "case_specific_rules": [
+    "Use Supplementary Figure 2 for the requested labelled RCB class counts. Apply the shared rules for distinct statistical targets and unlabelled values."
+  ],
+  "domain": "clinical",
+  "pipeline": "clinical-trials",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/clinical-trials.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

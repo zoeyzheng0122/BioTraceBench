@@ -1,0 +1,73 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "LC–MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD061023 (project)",
+      "method": "Study-level comparison aggregate; this row represents the selected preparation groups rather than an individually identified acquisition. LN18 seco-DSA versus control LC-MS/MS proteomics (PXD061023); Bottom-up LC-MS/MS proteomics on an Orbitrap Fusion with MaxQuant 2.1.4.0, comparing LN18 control and seco-DSA-treated material after 48 h. The source supports a control-versus-treated proteomics group; individual run/file assignments and replication are not reported. Multiple sample_ids indicate the compared materials, not asserted physical pooling.",
+      "platform": "Thermo Scientific Orbitrap Fusion Tribrid; EASY-nLC 1200",
+      "sample_ids": [
+        "S0001",
+        "S0002"
+      ]
+    }
+  ],
+  "condition": [
+    {
+      "condition_id": "C0001",
+      "condition_target": "LN18 source cells prior to protein isolation",
+      "experimental_factor": "seco-DSA treatment status",
+      "factor_unit": "nM",
+      "factor_value": 0,
+      "sample_id": "S0001",
+      "time": "At the end of the 48 h proteomics comparison"
+    },
+    {
+      "condition_id": "C0003",
+      "condition_target": "Whole sample",
+      "experimental_factor": "seco-DSA treatment",
+      "factor_unit": "nM",
+      "factor_value": 0.1,
+      "sample_id": "S0002",
+      "time": "48 h post-treatment"
+    },
+    {
+      "condition_id": "C0004",
+      "condition_target": "LN18 source cells prior to protein isolation",
+      "experimental_factor": "Proteomics comparison duration",
+      "factor_unit": "h",
+      "factor_value": 48,
+      "sample_id": "S0001",
+      "time": "From start of the matched comparison to protein isolation."
+    },
+    {
+      "condition_id": "C0005",
+      "condition_target": "LN18 source cells prior to protein isolation",
+      "experimental_factor": "Seco-DSA exposure duration",
+      "factor_unit": "h",
+      "factor_value": 48,
+      "sample_id": "S0002",
+      "time": "From treatment start to protein isolation."
+    }
+  ],
+  "sample": [
+    {
+      "biological_model": "LN18 human glioblastoma cell line",
+      "biological_source": " LN18 (ATCC CRL-2610)",
+      "sample_accession": null,
+      "sample_id": "S0001",
+      "sample_material": "LN18control cell material used for the LC-MS/MS proteomics comparison; control cells were treated with 0.5% DMSO per the general treatment methods.",
+      "sample_name": "LN18 vehicle control",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "LN18 human glioblastoma cell line",
+      "biological_source": " LN18 (ATCC CRL-2610)",
+      "sample_accession": null,
+      "sample_id": "S0002",
+      "sample_material": "LN18 cells treated with seco-DSA for 48 h, followed by protein isolation for LC-MS/MS proteomics.",
+      "sample_name": "LN18 seco-DSA",
+      "species": "Homo sapiens"
+    }
+  ]
+}

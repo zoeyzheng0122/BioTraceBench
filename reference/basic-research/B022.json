@@ -1,0 +1,423 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "Untargeted DIA LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD061167 (project)",
+      "method": "Wound-tissue proteins digested sequentially with Lys-C and trypsin, loaded onto EvoTips, and analyzed using the Whisper100 10SPD DIA method. Data were processed using Spectronaut 17 DirectDIA. Raw acquisition: 20230127_MK_EVO_EM_FAIMS_15cm_10SPD_DIA_wound_wt_ND_494.raw.",
+      "platform": "Orbitrap Exploris 480; Evosep One LC; FAIMS Pro",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0002",
+      "assay_type": "Untargeted DIA LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD061167 (project)",
+      "method": "Wound-tissue proteins digested sequentially with Lys-C and trypsin, loaded onto EvoTips, and analyzed using the Whisper100 10SPD DIA method. Data were processed using Spectronaut 17 DirectDIA. Raw acquisition: 20230127_MK_EVO_EM_FAIMS_15cm_10SPD_DIA_wound_wt_ND_502.raw.",
+      "platform": "Orbitrap Exploris 480; Evosep One LC; FAIMS Pro",
+      "sample_ids": [
+        "S0002"
+      ]
+    },
+    {
+      "assay_id": "A0003",
+      "assay_type": "Untargeted DIA LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD061167 (project)",
+      "method": "Wound-tissue proteins digested sequentially with Lys-C and trypsin, loaded onto EvoTips, and analyzed using the Whisper100 10SPD DIA method. Data were processed using Spectronaut 17 DirectDIA. Raw acquisition: 20230127_MK_EVO_EM_FAIMS_15cm_10SPD_DIA_wound_wt_ND_503.raw.",
+      "platform": "Orbitrap Exploris 480; Evosep One LC; FAIMS Pro",
+      "sample_ids": [
+        "S0003"
+      ]
+    },
+    {
+      "assay_id": "A0004",
+      "assay_type": "Untargeted DIA LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD061167 (project)",
+      "method": "Wound-tissue proteins digested sequentially with Lys-C and trypsin, loaded onto EvoTips, and analyzed using the Whisper100 10SPD DIA method. Data were processed using Spectronaut 17 DirectDIA. Raw acquisition: 20230127_MK_EVO_EM_FAIMS_15cm_10SPD_DIA_wound_wt_ND_513.raw.",
+      "platform": "Orbitrap Exploris 480; Evosep One LC; FAIMS Pro",
+      "sample_ids": [
+        "S0004"
+      ]
+    },
+    {
+      "assay_id": "A0005",
+      "assay_type": "Untargeted DIA LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD061167 (project)",
+      "method": "Wound-tissue proteins digested sequentially with Lys-C and trypsin, loaded onto EvoTips, and analyzed using the Whisper100 10SPD DIA method. Data were processed using Spectronaut 17 DirectDIA. Raw acquisition: 20230127_MK_EVO_EM_FAIMS_15cm_10SPD_DIA_wound_wt_ND_515.raw.",
+      "platform": "Orbitrap Exploris 480; Evosep One LC; FAIMS Pro",
+      "sample_ids": [
+        "S0005"
+      ]
+    },
+    {
+      "assay_id": "A0006",
+      "assay_type": "Untargeted DIA LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD061167 (project)",
+      "method": "Wound-tissue proteins digested sequentially with Lys-C and trypsin, loaded onto EvoTips, and analyzed using the Whisper100 10SPD DIA method. Data were processed using Spectronaut 17 DirectDIA. Raw acquisition: 20230127_MK_EVO_EM_FAIMS_15cm_10SPD_DIA_wound_wt_VAD_505.raw.",
+      "platform": "Orbitrap Exploris 480; Evosep One LC; FAIMS Pro",
+      "sample_ids": [
+        "S0006"
+      ]
+    },
+    {
+      "assay_id": "A0007",
+      "assay_type": "Untargeted DIA LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD061167 (project)",
+      "method": "Wound-tissue proteins digested sequentially with Lys-C and trypsin, loaded onto EvoTips, and analyzed using the Whisper100 10SPD DIA method. Data were processed using Spectronaut 17 DirectDIA. Raw acquisition: 20230127_MK_EVO_EM_FAIMS_15cm_10SPD_DIA_wound_wt_VAD_507.raw.",
+      "platform": "Orbitrap Exploris 480; Evosep One LC; FAIMS Pro",
+      "sample_ids": [
+        "S0007"
+      ]
+    },
+    {
+      "assay_id": "A0008",
+      "assay_type": "Untargeted DIA LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD061167 (project)",
+      "method": "Wound-tissue proteins digested sequentially with Lys-C and trypsin, loaded onto EvoTips, and analyzed using the Whisper100 10SPD DIA method. Data were processed using Spectronaut 17 DirectDIA. Raw acquisition: 20230127_MK_EVO_EM_FAIMS_15cm_10SPD_DIA_wound_wt_VAD_508.raw.",
+      "platform": "Orbitrap Exploris 480; Evosep One LC; FAIMS Pro",
+      "sample_ids": [
+        "S0008"
+      ]
+    },
+    {
+      "assay_id": "A0009",
+      "assay_type": "Untargeted DIA LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD061167 (project)",
+      "method": "Wound-tissue proteins digested sequentially with Lys-C and trypsin, loaded onto EvoTips, and analyzed using the Whisper100 10SPD DIA method. Data were processed using Spectronaut 17 DirectDIA. Raw acquisition: 20230127_MK_EVO_EM_FAIMS_15cm_10SPD_DIA_wound_wt_VAD_511.raw.",
+      "platform": "Orbitrap Exploris 480; Evosep One LC; FAIMS Pro",
+      "sample_ids": [
+        "S0009"
+      ]
+    },
+    {
+      "assay_id": "A0010",
+      "assay_type": "Untargeted DIA LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD061167 (project)",
+      "method": "Wound-tissue proteins digested sequentially with Lys-C and trypsin, loaded onto EvoTips, and analyzed using the Whisper100 10SPD DIA method. Data were processed using Spectronaut 17 DirectDIA. Raw acquisition: 20230127_MK_EVO_EM_FAIMS_15cm_10SPD_DIA_wound_wt_VAD_512.raw.",
+      "platform": "Orbitrap Exploris 480; Evosep One LC; FAIMS Pro",
+      "sample_ids": [
+        "S0010"
+      ]
+    }
+  ],
+  "condition": [
+    {
+      "condition_id": "C0001",
+      "condition_target": "Source mice",
+      "experimental_factor": "Source-animal dietary retinol content",
+      "factor_unit": "IU/g",
+      "factor_value": 23.1,
+      "sample_id": "S0001",
+      "time": "Chow-fed control during the matched dietary experiment"
+    },
+    {
+      "condition_id": "C0002",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-wounding collection interval",
+      "factor_unit": "day",
+      "factor_value": 5,
+      "sample_id": "S0001",
+      "time": "After wounding"
+    },
+    {
+      "condition_id": "C0003",
+      "condition_target": "Source mice",
+      "experimental_factor": "Source-animal dietary retinol content",
+      "factor_unit": "IU/g",
+      "factor_value": 23.1,
+      "sample_id": "S0002",
+      "time": "Chow-fed control during the matched dietary experiment"
+    },
+    {
+      "condition_id": "C0004",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-wounding collection interval",
+      "factor_unit": "day",
+      "factor_value": 5,
+      "sample_id": "S0002",
+      "time": "After wounding"
+    },
+    {
+      "condition_id": "C0005",
+      "condition_target": "Source mice",
+      "experimental_factor": "Source-animal dietary retinol content",
+      "factor_unit": "IU/g",
+      "factor_value": 23.1,
+      "sample_id": "S0003",
+      "time": "Chow-fed control during the matched dietary experiment"
+    },
+    {
+      "condition_id": "C0006",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-wounding collection interval",
+      "factor_unit": "day",
+      "factor_value": 5,
+      "sample_id": "S0003",
+      "time": "After wounding"
+    },
+    {
+      "condition_id": "C0007",
+      "condition_target": "Source mice",
+      "experimental_factor": "Source-animal dietary retinol content",
+      "factor_unit": "IU/g",
+      "factor_value": 23.1,
+      "sample_id": "S0004",
+      "time": "Chow-fed control during the matched dietary experiment"
+    },
+    {
+      "condition_id": "C0008",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-wounding collection interval",
+      "factor_unit": "day",
+      "factor_value": 5,
+      "sample_id": "S0004",
+      "time": "After wounding"
+    },
+    {
+      "condition_id": "C0009",
+      "condition_target": "Source mice",
+      "experimental_factor": "Source-animal dietary retinol content",
+      "factor_unit": "IU/g",
+      "factor_value": 23.1,
+      "sample_id": "S0005",
+      "time": "Chow-fed control during the matched dietary experiment"
+    },
+    {
+      "condition_id": "C0010",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-wounding collection interval",
+      "factor_unit": "day",
+      "factor_value": 5,
+      "sample_id": "S0005",
+      "time": "After wounding"
+    },
+    {
+      "condition_id": "C0011",
+      "condition_target": "Source mice",
+      "experimental_factor": "Source-animal dietary retinol content",
+      "factor_unit": "IU/g",
+      "factor_value": "<0.22",
+      "sample_id": "S0006",
+      "time": "Vitamin-A-deficient diet started at 4 weeks of age; wounding at 10 weeks of age"
+    },
+    {
+      "condition_id": "C0012",
+      "condition_target": "Source mice",
+      "experimental_factor": "Vitamin-A-deficient diet pretreatment duration",
+      "factor_unit": "week",
+      "factor_value": 6,
+      "sample_id": "S0006",
+      "time": "Before wounding, from age 4 weeks to age 10 weeks"
+    },
+    {
+      "condition_id": "C0013",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-wounding collection interval",
+      "factor_unit": "day",
+      "factor_value": 5,
+      "sample_id": "S0006",
+      "time": "After wounding"
+    },
+    {
+      "condition_id": "C0014",
+      "condition_target": "Source mice",
+      "experimental_factor": "Source-animal dietary retinol content",
+      "factor_unit": "IU/g",
+      "factor_value": "<0.22",
+      "sample_id": "S0007",
+      "time": "Vitamin-A-deficient diet started at 4 weeks of age; wounding at 10 weeks of age"
+    },
+    {
+      "condition_id": "C0015",
+      "condition_target": "Source mice",
+      "experimental_factor": "Vitamin-A-deficient diet pretreatment duration",
+      "factor_unit": "week",
+      "factor_value": 6,
+      "sample_id": "S0007",
+      "time": "Before wounding, from age 4 weeks to age 10 weeks"
+    },
+    {
+      "condition_id": "C0016",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-wounding collection interval",
+      "factor_unit": "day",
+      "factor_value": 5,
+      "sample_id": "S0007",
+      "time": "After wounding"
+    },
+    {
+      "condition_id": "C0017",
+      "condition_target": "Source mice",
+      "experimental_factor": "Source-animal dietary retinol content",
+      "factor_unit": "IU/g",
+      "factor_value": "<0.22",
+      "sample_id": "S0008",
+      "time": "Vitamin-A-deficient diet started at 4 weeks of age; wounding at 10 weeks of age"
+    },
+    {
+      "condition_id": "C0018",
+      "condition_target": "Source mice",
+      "experimental_factor": "Vitamin-A-deficient diet pretreatment duration",
+      "factor_unit": "week",
+      "factor_value": 6,
+      "sample_id": "S0008",
+      "time": "Before wounding, from age 4 weeks to age 10 weeks"
+    },
+    {
+      "condition_id": "C0019",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-wounding collection interval",
+      "factor_unit": "day",
+      "factor_value": 5,
+      "sample_id": "S0008",
+      "time": "After wounding"
+    },
+    {
+      "condition_id": "C0020",
+      "condition_target": "Source mice",
+      "experimental_factor": "Source-animal dietary retinol content",
+      "factor_unit": "IU/g",
+      "factor_value": "<0.22",
+      "sample_id": "S0009",
+      "time": "Vitamin-A-deficient diet started at 4 weeks of age; wounding at 10 weeks of age"
+    },
+    {
+      "condition_id": "C0021",
+      "condition_target": "Source mice",
+      "experimental_factor": "Vitamin-A-deficient diet pretreatment duration",
+      "factor_unit": "week",
+      "factor_value": 6,
+      "sample_id": "S0009",
+      "time": "Before wounding, from age 4 weeks to age 10 weeks"
+    },
+    {
+      "condition_id": "C0022",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-wounding collection interval",
+      "factor_unit": "day",
+      "factor_value": 5,
+      "sample_id": "S0009",
+      "time": "After wounding"
+    },
+    {
+      "condition_id": "C0023",
+      "condition_target": "Source mice",
+      "experimental_factor": "Source-animal dietary retinol content",
+      "factor_unit": "IU/g",
+      "factor_value": "<0.22",
+      "sample_id": "S0010",
+      "time": "Vitamin-A-deficient diet started at 4 weeks of age; wounding at 10 weeks of age"
+    },
+    {
+      "condition_id": "C0024",
+      "condition_target": "Source mice",
+      "experimental_factor": "Vitamin-A-deficient diet pretreatment duration",
+      "factor_unit": "week",
+      "factor_value": 6,
+      "sample_id": "S0010",
+      "time": "Before wounding, from age 4 weeks to age 10 weeks"
+    },
+    {
+      "condition_id": "C0025",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-wounding collection interval",
+      "factor_unit": "day",
+      "factor_value": 5,
+      "sample_id": "S0010",
+      "time": "After wounding"
+    }
+  ],
+  "sample": [
+    {
+      "biological_model": "Chow-fed control mouse model of skin wound healing",
+      "biological_source": "Dorsal skin wound tissue from female wild-type C57BL/6 mice",
+      "sample_accession": null,
+      "sample_id": "S0001",
+      "sample_material": "Lys-C/trypsin digest of day-5 wound-tissue protein extract from a chow-fed control mouse; wound tissue collected using a 5-mm punch with subcutaneous fat removed. Native material label: wound_wt_ND_494; original animal identity not mapped.",
+      "sample_name": "wound_wt_ND_494",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Chow-fed control mouse model of skin wound healing",
+      "biological_source": "Dorsal skin wound tissue from female wild-type C57BL/6 mice",
+      "sample_accession": null,
+      "sample_id": "S0002",
+      "sample_material": "Lys-C/trypsin digest of day-5 wound-tissue protein extract from a chow-fed control mouse; wound tissue collected using a 5-mm punch with subcutaneous fat removed. Native material label: wound_wt_ND_502; original animal identity not mapped.",
+      "sample_name": "wound_wt_ND_502",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Chow-fed control mouse model of skin wound healing",
+      "biological_source": "Dorsal skin wound tissue from female wild-type C57BL/6 mice",
+      "sample_accession": null,
+      "sample_id": "S0003",
+      "sample_material": "Lys-C/trypsin digest of day-5 wound-tissue protein extract from a chow-fed control mouse; wound tissue collected using a 5-mm punch with subcutaneous fat removed. Native material label: wound_wt_ND_503; original animal identity not mapped.",
+      "sample_name": "wound_wt_ND_503",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Chow-fed control mouse model of skin wound healing",
+      "biological_source": "Dorsal skin wound tissue from female wild-type C57BL/6 mice",
+      "sample_accession": null,
+      "sample_id": "S0004",
+      "sample_material": "Lys-C/trypsin digest of day-5 wound-tissue protein extract from a chow-fed control mouse; wound tissue collected using a 5-mm punch with subcutaneous fat removed. Native material label: wound_wt_ND_513; original animal identity not mapped.",
+      "sample_name": "wound_wt_ND_513",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Chow-fed control mouse model of skin wound healing",
+      "biological_source": "Dorsal skin wound tissue from female wild-type C57BL/6 mice",
+      "sample_accession": null,
+      "sample_id": "S0005",
+      "sample_material": "Lys-C/trypsin digest of day-5 wound-tissue protein extract from a chow-fed control mouse; wound tissue collected using a 5-mm punch with subcutaneous fat removed. Native material label: wound_wt_ND_515; original animal identity not mapped.",
+      "sample_name": "wound_wt_ND_515",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Vitamin-A-deficient-diet mouse model of skin wound healing",
+      "biological_source": "Dorsal skin wound tissue from female wild-type C57BL/6 mice",
+      "sample_accession": null,
+      "sample_id": "S0006",
+      "sample_material": "Lys-C/trypsin digest of day-5 wound-tissue protein extract from a vitamin-A-deficient-diet mouse; wound tissue collected using a 5-mm punch with subcutaneous fat removed. Native material label: wound_wt_VAD_505; original animal identity not mapped. Source-reported Source-animal dietary retinol content: <0.22 IU/g; this non-scalar expression is not replaced by an exact scalar value.",
+      "sample_name": "wound_wt_VAD_505",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Vitamin-A-deficient-diet mouse model of skin wound healing",
+      "biological_source": "Dorsal skin wound tissue from female wild-type C57BL/6 mice",
+      "sample_accession": null,
+      "sample_id": "S0007",
+      "sample_material": "Lys-C/trypsin digest of day-5 wound-tissue protein extract from a vitamin-A-deficient-diet mouse; wound tissue collected using a 5-mm punch with subcutaneous fat removed. Native material label: wound_wt_VAD_507; original animal identity not mapped. Source-reported Source-animal dietary retinol content: <0.22 IU/g; this non-scalar expression is not replaced by an exact scalar value.",
+      "sample_name": "wound_wt_VAD_507",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Vitamin-A-deficient-diet mouse model of skin wound healing",
+      "biological_source": "Dorsal skin wound tissue from female wild-type C57BL/6 mice",
+      "sample_accession": null,
+      "sample_id": "S0008",
+      "sample_material": "Lys-C/trypsin digest of day-5 wound-tissue protein extract from a vitamin-A-deficient-diet mouse; wound tissue collected using a 5-mm punch with subcutaneous fat removed. Native material label: wound_wt_VAD_508; original animal identity not mapped. Source-reported Source-animal dietary retinol content: <0.22 IU/g; this non-scalar expression is not replaced by an exact scalar value.",
+      "sample_name": "wound_wt_VAD_508",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Vitamin-A-deficient-diet mouse model of skin wound healing",
+      "biological_source": "Dorsal skin wound tissue from female wild-type C57BL/6 mice",
+      "sample_accession": null,
+      "sample_id": "S0009",
+      "sample_material": "Lys-C/trypsin digest of day-5 wound-tissue protein extract from a vitamin-A-deficient-diet mouse; wound tissue collected using a 5-mm punch with subcutaneous fat removed. Native material label: wound_wt_VAD_511; original animal identity not mapped. Source-reported Source-animal dietary retinol content: <0.22 IU/g; this non-scalar expression is not replaced by an exact scalar value.",
+      "sample_name": "wound_wt_VAD_511",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Vitamin-A-deficient-diet mouse model of skin wound healing",
+      "biological_source": "Dorsal skin wound tissue from female wild-type C57BL/6 mice",
+      "sample_accession": null,
+      "sample_id": "S0010",
+      "sample_material": "Lys-C/trypsin digest of day-5 wound-tissue protein extract from a vitamin-A-deficient-diet mouse; wound tissue collected using a 5-mm punch with subcutaneous fat removed. Native material label: wound_wt_VAD_512; original animal identity not mapped. Source-reported Source-animal dietary retinol content: <0.22 IU/g; this non-scalar expression is not replaced by an exact scalar value.",
+      "sample_name": "wound_wt_VAD_512",
+      "species": "Mus musculus"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "case_id": "C037",
+  "task_id": "C037",
+  "title": "Subcutaneous versus intravenous ultra-low-dose rituximab in rheumatoid arthritis: a randomized controlled PK-PD non-inferiority trial",
+  "doi": "10.1093/rheumatology/keag420",
+  "comparison_or_design": "The ultra-low-dose rituximab comparison of 336 mg subcutaneously and 200 mg intravenously.",
+  "observations_or_assays": [
+    "Rituximab serum concentration AUC0–6 months",
+    "DAS28-CRP disease-activity score",
+    "Peripheral B-cell count"
+  ],
+  "time_scope": "AUC over 0–6 months; baseline to month 6 for DAS28-CRP/B-cell counts.",
+  "excluded": [
+    "Trapezoidal-AUC sensitivity, peak/trough concentration, month-3 and prior-dose subgroups",
+    "ADA, quality of life, preferences and safety"
+  ],
+  "population_or_material": "The randomized ultra-low-dose rituximab trial cohort, retaining the actual PK, disease-activity and B-cell analysis populations and their relationship to randomized groups.",
+  "requested_items": [
+    "Primary model AUC geometric-mean ratio with its reported CI; for DAS28-CRP, the six-month within-arm mean change with its CI reported in the abstract and the adjusted between-arm change contrast reported in Results; and the six-month B-cell comparison. Preserve endpoint-specific n and non-inferiority criteria. Do not digitize unlabeled B-cell plots or fabricate numerical summaries."
+  ],
+  "resources": [],
+  "case_specific_rules": [
+    "Use the numerical within-arm DAS28-CRP mean change and its CI in the abstract and the adjusted between-arm contrast in Results. Do not create additional result rows from qualitative-only arm descriptions. Apply the shared rules for statistical targets, comparison direction and endpoint-specific populations. Use available six-month B-cell measurements without digitizing unlabelled plots."
+  ],
+  "domain": "clinical",
+  "pipeline": "clinical-trials",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/clinical-trials.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

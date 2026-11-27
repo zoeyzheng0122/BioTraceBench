@@ -1,0 +1,81 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "C030",
+    "domain": "clinical",
+    "title": "Physiotherapy with integrated virtual reality for patients with severe chronic low back pain: cluster-randomized controlled trial (VARIETY)",
+    "doi": "10.1186/s12891-026-09873-z",
+    "pipeline": "clinical-trials",
+    "pmid": "42067884",
+    "pmcid": "PMC13281433",
+    "registry": "NCT05701891"
+  },
+  "files": [
+    {
+      "path": "sources/article.xml",
+      "sha256": "f40645983ad5cda352ecefcb037e8cd09c6ed0a1655ca50fd839b8aac552a2d6",
+      "bytes": 168834,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13281433/fullTextXML"
+      ],
+      "association": "exact PMCID from case identity"
+    },
+    {
+      "path": "records/ClinicalTrials-NCT05701891.json",
+      "sha256": "179fbb7bb63d79e798626715e34fa53d0c3b128330e13d1690c96b1f506bbc70",
+      "bytes": 11906,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://clinicaltrials.gov/api/v2/studies/NCT05701891"
+      ],
+      "association": "exact trial registration linked by article; verify in source projection",
+      "original_filename": "registry.json",
+      "retrieved_at": "2026-10-17T21:26:32+08:00",
+      "derived_from": "6dfac54516e210448fed02f1d5737f8fd12be8dd4949f0ad7b5962b58954144b",
+      "original_sha256": "6dfac54516e210448fed02f1d5737f8fd12be8dd4949f0ad7b5962b58954144b",
+      "representation": "refine-lexical-json-1",
+      "provenance_transform": "exact_json_whitespace_compaction"
+    },
+    {
+      "path": "figures/12891_2026_9873_Fig1_HTML.jpg",
+      "sha256": "35905e0819a3b62fa8a029f71a38cd020c890f9cab21e209dd33b8f121627e20",
+      "bytes": 62014,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13281433/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/12891_2026_9873_Fig2_HTML.jpg",
+      "sha256": "bb78e5edc42be49e759ac008bd407c40027934e28f571d6f543ea06b955ba657",
+      "bytes": 49098,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13281433/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

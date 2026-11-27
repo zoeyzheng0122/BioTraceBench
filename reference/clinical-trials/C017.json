@@ -1,0 +1,228 @@
+{
+  "measure": [
+    {
+      "measure_definition": "Measured value: norm-based PCS score; Participants; SF-36v2 acute form, a 36-item validated patient-reported measure, administered at baseline and week 72; PCS is a norm-based component summary derived from the eight SF-36v2 domains.; Norm-based PCS score; no threshold applied.",
+      "measure_id": "M0",
+      "measure_name": "SF-36v2 Physical Component Summary (PCS) norm-based score"
+    },
+    {
+      "measure_definition": "Measured value: norm-based MCS score; Participants; SF-36v2 acute form, a 36-item validated patient-reported measure, administered at baseline and week 72; MCS is a norm-based component summary derived from the eight SF-36v2 domains.; Norm-based MCS score; no threshold applied.",
+      "measure_id": "M2",
+      "measure_name": "SF-36v2 Mental Component Summary (MCS) norm-based score"
+    },
+    {
+      "measure_definition": "Measured value: norm-based General Health domain score; Participants; SF-36v2 acute form, a 36-item validated patient-reported measure, administered at baseline and week 72; General Health is one of the eight SF-36v2 domains scored on a norm-based scale.; Norm-based General Health domain score; no threshold applied.",
+      "measure_id": "M4",
+      "measure_name": "SF-36v2 General Health (GH) domain norm-based score"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "Tirzepatide",
+      "intervention_regimen": "15 mg or maximum tolerated dose (MTD); Subcutaneous once weekly; maximum tolerated dose; treatment through Week 72 (trial schedule; supplement Table S2 does not restate the schedule).",
+      "population_definition": "Participants with obesity or overweight in SURMOUNT-5 randomized to tirzepatide 15 mg or maximum tolerated dose who received at least one study dose; modified intent-to-treat treatment arm. Supplementary Table S2 column header N=374.",
+      "population_id": "P6",
+      "population_name": "Tirzepatide MTD modified intent-to-treat population",
+      "population_size": 374,
+      "population_time_frame": "Baseline SF-36v2 assessment; no calendar date reported in supplement Table S2; treatment planned through Week 72."
+    },
+    {
+      "intervention": "Semaglutide",
+      "intervention_regimen": "2.4 mg or maximum tolerated dose (MTD); Subcutaneous once weekly; maximum tolerated dose; treatment through Week 72 (trial schedule; supplement Table S2 does not restate the schedule).",
+      "population_definition": "Participants with obesity or overweight in SURMOUNT-5 randomized to semaglutide 2.4 mg or maximum tolerated dose who received at least one study dose; modified intent-to-treat treatment arm. Supplementary Table S2 column header N=376.",
+      "population_id": "P7",
+      "population_name": "Semaglutide MTD modified intent-to-treat population",
+      "population_size": 376,
+      "population_time_frame": "Baseline SF-36v2 assessment; no calendar date reported in supplement Table S2; treatment planned through Week 72."
+    }
+  ],
+  "population_relation": [
+    {
+      "population_a_id": "P6",
+      "population_b_id": "P7",
+      "relationship": "disjoint from"
+    }
+  ],
+  "result": [
+    {
+      "assessment_time": "Week 72",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P6",
+      "result_id": "R07",
+      "result_unit": "points",
+      "result_value": 6.09,
+      "statistic_type": "LSM change from baseline in norm-based score",
+      "statistical_method": "Mixed model for repeated measures (MMRM), using on-treatment data from participants receiving at least one dose in the modified intent-to-treat efficacy analysis set; fixed effects: treatment, visit, treatment-by-visit, prediabetes status, sex and BMI category; baseline outcome as covariate. Missing data handled under a missing-at-random assumption, with no explicit imputation; treatment comparisons not adjusted for multiplicity.",
+      "supplementary_statistics": "SE not numerically labeled; ** p<0.001 change from baseline (Figure 1B); n=303; N=329."
+    },
+    {
+      "assessment_time": "Week 72",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P7",
+      "result_id": "R08",
+      "result_unit": "points",
+      "result_value": 5.38,
+      "statistic_type": "LSM change from baseline in norm-based score",
+      "statistical_method": "Mixed model for repeated measures (MMRM), using on-treatment data from participants receiving at least one dose in the modified intent-to-treat efficacy analysis set; fixed effects: treatment, visit, treatment-by-visit, prediabetes status, sex and BMI category; baseline outcome as covariate. Missing data handled under a missing-at-random assumption, with no explicit imputation; treatment comparisons not adjusted for multiplicity.",
+      "supplementary_statistics": "SE not numerically labeled; ** p<0.001 change from baseline (Figure 1B); n=287; N=319."
+    },
+    {
+      "assessment_time": "Week 72",
+      "comparison": "P6 minus P7 (tirzepatide minus semaglutide)",
+      "measure_id": "M0",
+      "population_id": "P6",
+      "result_id": "R09",
+      "result_unit": "points",
+      "result_value": 0.7,
+      "statistic_type": "Estimated treatment difference in LSM change from baseline (tirzepatide versus semaglutide)",
+      "statistical_method": "Mixed model for repeated measures (MMRM), using on-treatment data from participants receiving at least one dose in the modified intent-to-treat efficacy analysis set; fixed effects: treatment, visit, treatment-by-visit, prediabetes status, sex and BMI category; baseline outcome as covariate. Missing data handled under a missing-at-random assumption, with no explicit imputation; treatment comparisons not adjusted for multiplicity.",
+      "supplementary_statistics": "95% CI −0.03 to 1.44; p=0.061; MMRM; nominal, not adjusted for multiplicity."
+    },
+    {
+      "assessment_time": "Week 72",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P6",
+      "result_id": "R10",
+      "result_unit": "points",
+      "result_value": 0.44,
+      "statistic_type": "LSM change from baseline in norm-based score",
+      "statistical_method": "Mixed model for repeated measures (MMRM), using on-treatment data from participants receiving at least one dose in the modified intent-to-treat efficacy analysis set; fixed effects: treatment, visit, treatment-by-visit, prediabetes status, sex and BMI category; baseline outcome as covariate. Missing data handled under a missing-at-random assumption, with no explicit imputation; treatment comparisons not adjusted for multiplicity.",
+      "supplementary_statistics": "SE not numerically labeled; p>0.05 change from baseline (Abstract); n=303; N=329."
+    },
+    {
+      "assessment_time": "Week 72",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P7",
+      "result_id": "R11",
+      "result_unit": "points",
+      "result_value": 0.1,
+      "statistic_type": "LSM change from baseline in norm-based score",
+      "statistical_method": "Mixed model for repeated measures (MMRM), using on-treatment data from participants receiving at least one dose in the modified intent-to-treat efficacy analysis set; fixed effects: treatment, visit, treatment-by-visit, prediabetes status, sex and BMI category; baseline outcome as covariate. Missing data handled under a missing-at-random assumption, with no explicit imputation; treatment comparisons not adjusted for multiplicity.",
+      "supplementary_statistics": "SE not numerically labeled; p>0.05 change from baseline (Abstract); n=287; N=319."
+    },
+    {
+      "assessment_time": "Week 72",
+      "comparison": "P6 minus P7 (tirzepatide minus semaglutide)",
+      "measure_id": "M2",
+      "population_id": "P6",
+      "result_id": "R12",
+      "result_unit": "points",
+      "result_value": 0.34,
+      "statistic_type": "Estimated treatment difference in LSM change from baseline (tirzepatide versus semaglutide)",
+      "statistical_method": "Mixed model for repeated measures (MMRM), using on-treatment data from participants receiving at least one dose in the modified intent-to-treat efficacy analysis set; fixed effects: treatment, visit, treatment-by-visit, prediabetes status, sex and BMI category; baseline outcome as covariate. Missing data handled under a missing-at-random assumption, with no explicit imputation; treatment comparisons not adjusted for multiplicity.",
+      "supplementary_statistics": "95% CI −0.45 to 1.13; p=0.397; MMRM; nominal, not adjusted for multiplicity."
+    },
+    {
+      "assessment_time": "Week 72",
+      "comparison": null,
+      "measure_id": "M4",
+      "population_id": "P6",
+      "result_id": "R13",
+      "result_unit": "points",
+      "result_value": 5.45,
+      "statistic_type": "LSM change from baseline in norm-based score",
+      "statistical_method": "Mixed model for repeated measures (MMRM), using on-treatment data from participants receiving at least one dose in the modified intent-to-treat efficacy analysis set; fixed effects: treatment, visit, treatment-by-visit, prediabetes status, sex and BMI category; baseline outcome as covariate. Missing data handled under a missing-at-random assumption, with no explicit imputation; treatment comparisons not adjusted for multiplicity.",
+      "supplementary_statistics": "SE not numerically labeled; ** p<0.001 change from baseline (Figure 1A; text reports p<0.001 with tirzepatide across all domains); n=303; N=329."
+    },
+    {
+      "assessment_time": "Week 72",
+      "comparison": null,
+      "measure_id": "M4",
+      "population_id": "P7",
+      "result_id": "R14",
+      "result_unit": "points",
+      "result_value": 4.2,
+      "statistic_type": "LSM change from baseline in norm-based score",
+      "statistical_method": "Mixed model for repeated measures (MMRM), using on-treatment data from participants receiving at least one dose in the modified intent-to-treat efficacy analysis set; fixed effects: treatment, visit, treatment-by-visit, prediabetes status, sex and BMI category; baseline outcome as covariate. Missing data handled under a missing-at-random assumption, with no explicit imputation; treatment comparisons not adjusted for multiplicity.",
+      "supplementary_statistics": "SE not numerically labeled; ** P<0.001 for change from baseline (Figure 1A and legend); exact GH P value not separately reported; n=287; N=319."
+    },
+    {
+      "assessment_time": "Week 72",
+      "comparison": "P6 minus P7 (tirzepatide minus semaglutide)",
+      "measure_id": "M4",
+      "population_id": "P6",
+      "result_id": "R15",
+      "result_unit": "points",
+      "result_value": 1.25,
+      "statistic_type": "Estimated treatment difference in LSM change from baseline (tirzepatide versus semaglutide)",
+      "statistical_method": "Mixed model for repeated measures (MMRM), using on-treatment data from participants receiving at least one dose in the modified intent-to-treat efficacy analysis set; fixed effects: treatment, visit, treatment-by-visit, prediabetes status, sex and BMI category; baseline outcome as covariate. Missing data handled under a missing-at-random assumption, with no explicit imputation; treatment comparisons not adjusted for multiplicity.",
+      "supplementary_statistics": "95% CI 0.43 to 2.06; p=0.003; MMRM; nominal, not adjusted for multiplicity."
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P6",
+      "result_id": "R16",
+      "result_unit": "points",
+      "result_value": 50.0,
+      "statistic_type": "Mean norm-based score",
+      "statistical_method": null,
+      "supplementary_statistics": "± 7.62 (dispersion printed with ±; footnote says SD=standard error — source abbreviation conflict; dispersion type not resolved by inference); analysis N=374"
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P7",
+      "result_id": "R17",
+      "result_unit": "points",
+      "result_value": 49.8,
+      "statistic_type": "Mean norm-based score",
+      "statistical_method": null,
+      "supplementary_statistics": "± 8.21 (dispersion printed with ±; footnote says SD=standard error — source abbreviation conflict; dispersion type not resolved by inference); analysis N=376"
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P6",
+      "result_id": "R19",
+      "result_unit": "points",
+      "result_value": 55.4,
+      "statistic_type": "Mean norm-based score",
+      "statistical_method": null,
+      "supplementary_statistics": "± 6.38 (dispersion printed with ±; footnote says SD=standard error — source abbreviation conflict; dispersion type not resolved by inference); analysis N=374"
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P7",
+      "result_id": "R20",
+      "result_unit": "points",
+      "result_value": 54.8,
+      "statistic_type": "Mean norm-based score",
+      "statistical_method": null,
+      "supplementary_statistics": "± 6.79 (dispersion printed with ±; footnote says SD=standard error — source abbreviation conflict; dispersion type not resolved by inference); analysis N=376"
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M4",
+      "population_id": "P6",
+      "result_id": "R22",
+      "result_unit": "points",
+      "result_value": 52.4,
+      "statistic_type": "Mean norm-based score",
+      "statistical_method": null,
+      "supplementary_statistics": "± 8.02 (dispersion printed with ±; footnote says SD=standard error — source abbreviation conflict; dispersion type not resolved by inference); analysis N=374"
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M4",
+      "population_id": "P7",
+      "result_id": "R23",
+      "result_unit": "points",
+      "result_value": 52.0,
+      "statistic_type": "Mean norm-based score",
+      "statistical_method": null,
+      "supplementary_statistics": "± 8.03 (dispersion printed with ±; footnote says SD=standard error — source abbreviation conflict; dispersion type not resolved by inference); analysis N=376"
+    }
+  ]
+}

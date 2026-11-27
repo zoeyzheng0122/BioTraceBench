@@ -1,0 +1,232 @@
+{
+  "measure": [
+    {
+      "measure_definition": "Time to event: duration in days from randomization to first clinic-based or telehealth appointment with a rheumatologist; Participants; Appointment records used to calculate median (IQR) duration in days; first clinic-based or telehealth appointment with a rheumatologist; the source notes this may differ conceptually from referral-to-appointment duration.; Time origin: randomization. Event: first clinic-based or telehealth appointment with a rheumatologist. Reported as median (IQR) days; no censoring reported. A shorter duration indicates earlier access.",
+      "measure_id": "M0",
+      "measure_name": "Waiting time to first rheumatologist appointment"
+    },
+    {
+      "measure_definition": "Measured value: pain intensity in the past 7 days on a 0–10 Numeric Rating Scale; Participants; Self-reported questionnaire at baseline and follow-up; median (IQR) summarized at each time point. Table 3 reports baseline and 3-month data; later time points are outside this task scope.; 0–10 Numeric Rating Scale; 0 = no pain, 10 = worst pain imaginable. Higher scores indicate greater pain intensity.",
+      "measure_id": "M1",
+      "measure_name": "Pain in the past 7 days"
+    },
+    {
+      "measure_definition": "Measured value: disability score on the Roland–Morris Disability Questionnaire (0–24 scale); Participants; Self-reported RMDQ completed at baseline and follow-up; median (IQR) summarized at each time point. Table 3 reports baseline and 3-month data; later time points are outside this task scope.; RMDQ total score range 0–24; higher scores indicate greater disability.",
+      "measure_id": "M2",
+      "measure_name": "Roland–Morris Disability Questionnaire total score"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "Rapid Stratified Telehealth or usual clinic-based care",
+      "intervention_regimen": "Randomized 2:1 to Rapid Stratified Telehealth or usual care; planned follow-up to 6 months.",
+      "population_definition": "All randomized participants irrespective of treatment allocation; Adults aged 18 years or older with low back pain (non-specific low back pain or radicular low back pain/sciatica of any duration); new referral to the Back Clinic from primary care (not previously on the waiting list); willing to participate for up to 6 months and provide follow-up data at 6 weeks, 3 months and 6 months. Exclusions: suspected serious underlying pathology (e.g. cancer, fracture, infection, inflammatory arthritis, cauda equina syndrome) or referral strongly suggestive of concerning neurological features (e.g. progressive radiculopathy).",
+      "population_id": "P0",
+      "population_name": "Total randomized participants",
+      "population_size": 40,
+      "population_time_frame": "Recruitment July 2021 to March 2024; follow-up assessments at 6 weeks, 3 months and 6 months."
+    },
+    {
+      "intervention": "Rapid Stratified Telehealth: mode and type of care matched to Keele STarT MSK risk (low, medium, high) and potential radiculopathy; rheumatologist initial call; low risk advice, walking, paracetamol if required and written education; medium/high risk physiotherapist-led telehealth with PhysiTrack app; high risk online pain education; potential radiculopathy clinic-based rheumatologist and physiotherapy care.",
+      "intervention_regimen": "Not reported (paracetamol dose not specified); Initial rheumatologist call; low risk: advice only with callback if no improvement over 6 weeks; medium/high risk: physiotherapist-led telehealth (maximum 12 sessions over 6 months); high risk: online pain education; potential radiculopathy: clinic-based rheumatologist (maximum 4 appointments over 6 months) and clinic-based physiotherapy (maximum 12 over 6 months).",
+      "population_definition": "Randomized to Rapid Stratified Telehealth (intervention arm); Adults aged 18 years or older with low back pain (non-specific low back pain or radicular low back pain/sciatica of any duration); new referral to the Back Clinic from primary care (not previously on the waiting list); willing to participate for up to 6 months and provide follow-up data at 6 weeks, 3 months and 6 months; randomized 2:1 to Rapid Stratified Telehealth. Exclusions: suspected serious underlying pathology (e.g. cancer, fracture, infection, inflammatory arthritis, cauda equina syndrome) or referral strongly suggestive of concerning neurological features (e.g. progressive radiculopathy).",
+      "population_id": "P1",
+      "population_name": "Rapid Stratified Telehealth intervention group",
+      "population_size": 26,
+      "population_time_frame": "Recruitment July 2021 to March 2024; follow-up assessments at 6 weeks, 3 months and 6 months."
+    },
+    {
+      "intervention": "Usual clinic-based care: rheumatologist appointment; referral to physiotherapist, specialised pain clinic, or psychologist as required; physiotherapy advice/education, exercise, graded activity/exposure, and/or spinal manipulative therapy if referred.",
+      "intervention_regimen": "Clinic-based rheumatologist appointment; maximum 4 rheumatologist appointments over 6 months; physiotherapy maximum 12 appointments over 6 months if referred.",
+      "population_definition": "Randomized to usual clinic-based care (control arm); Adults aged 18 years or older with low back pain (non-specific low back pain or radicular low back pain/sciatica of any duration); new referral to the Back Clinic from primary care (not previously on the waiting list); willing to participate for up to 6 months and provide follow-up data at 6 weeks, 3 months and 6 months; randomized 2:1 to usual care. Exclusions: suspected serious underlying pathology (e.g. cancer, fracture, infection, inflammatory arthritis, cauda equina syndrome) or referral strongly suggestive of concerning neurological features (e.g. progressive radiculopathy).",
+      "population_id": "P2",
+      "population_name": "Usual clinic-based care group",
+      "population_size": 14,
+      "population_time_frame": "Recruitment July 2021 to March 2024; follow-up assessments at 6 weeks, 3 months and 6 months."
+    },
+    {
+      "intervention": "Rapid Stratified Telehealth: mode and type of care matched to Keele STarT MSK risk (low, medium, high) and potential radiculopathy; rheumatologist initial call; low risk advice, walking, paracetamol if required and written education; medium/high risk physiotherapist-led telehealth with PhysiTrack app; high risk online pain education; potential radiculopathy clinic-based rheumatologist and physiotherapy care.",
+      "intervention_regimen": "Not reported (paracetamol dose not specified); Initial rheumatologist call; low risk: advice only with callback if no improvement over 6 weeks; medium/high risk: physiotherapist-led telehealth (maximum 12 sessions over 6 months); high risk: online pain education; potential radiculopathy: clinic-based rheumatologist (maximum 4 appointments over 6 months) and clinic-based physiotherapy (maximum 12 over 6 months).",
+      "population_definition": "Participants assigned to Rapid Stratified Telehealth with an observed interval from randomization to the first clinic-based or telehealth appointment with a rheumatologist. The number contributing to the waiting-time summary is unreported.",
+      "population_id": "P3",
+      "population_name": "First rheumatologist appointment observations — Rapid Stratified Telehealth",
+      "population_size": null,
+      "population_time_frame": "Randomization to first rheumatologist appointment."
+    },
+    {
+      "intervention": "Usual clinic-based care: rheumatologist appointment; referral to physiotherapist, specialised pain clinic, or psychologist as required; physiotherapy advice/education, exercise, graded activity/exposure, and/or spinal manipulative therapy if referred.",
+      "intervention_regimen": "Clinic-based rheumatologist appointment; maximum 4 rheumatologist appointments over 6 months; physiotherapy maximum 12 appointments over 6 months if referred.",
+      "population_definition": "Participants assigned to usual care with an observed interval from randomization to the first clinic-based or telehealth appointment with a rheumatologist. The number contributing to the waiting-time summary is unreported.",
+      "population_id": "P4",
+      "population_name": "First rheumatologist appointment observations — usual care",
+      "population_size": null,
+      "population_time_frame": "Randomization to first rheumatologist appointment."
+    }
+  ],
+  "population_relation": [
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P2",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P2",
+      "relationship": "disjoint from"
+    },
+    {
+      "population_a_id": "P3",
+      "population_b_id": "P1",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P4",
+      "population_b_id": "P2",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P3",
+      "population_b_id": "P4",
+      "relationship": "disjoint from"
+    }
+  ],
+  "result": [
+    {
+      "assessment_time": "From randomization to first rheumatologist appointment",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P3",
+      "result_id": "R01",
+      "result_unit": "days",
+      "result_value": 16,
+      "statistic_type": "Median",
+      "statistical_method": "Descriptive observed waiting time",
+      "supplementary_statistics": "IQR 7 to 30 days; analysis N: Not reported"
+    },
+    {
+      "assessment_time": "From randomization to first rheumatologist appointment",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P4",
+      "result_id": "R02",
+      "result_unit": "days",
+      "result_value": 29,
+      "statistic_type": "Median",
+      "statistical_method": "Descriptive observed waiting time",
+      "supplementary_statistics": "IQR 7 to 89 days; analysis N: Not reported"
+    },
+    {
+      "assessment_time": "From randomization to first rheumatologist appointment",
+      "comparison": "P3 versus P4 (intervention versus usual-care first-appointment observations); the article reports 13 days shorter for the intervention.",
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R03",
+      "result_unit": "days",
+      "result_value": "13 days less",
+      "statistic_type": "Reported comparative statement: median waiting time, intervention vs usual care",
+      "statistical_method": "Narrative comparison; no inferential testing reported",
+      "supplementary_statistics": "Reported alongside medians 16 days (IQR 7 to 30) and 29 days (IQR 7 to 89); no P value reported"
+    },
+    {
+      "assessment_time": "Baseline (pre-randomization)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R04",
+      "result_unit": "points",
+      "result_value": 6,
+      "statistic_type": "Median",
+      "statistical_method": "Observed responses at each visit",
+      "supplementary_statistics": "IQR 5 to 7 points; analysis N = 26"
+    },
+    {
+      "assessment_time": "Baseline (pre-randomization)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P2",
+      "result_id": "R05",
+      "result_unit": "points",
+      "result_value": 6,
+      "statistic_type": "Median",
+      "statistical_method": "Observed responses at each visit",
+      "supplementary_statistics": "IQR 4 to 6 points; analysis N = 14"
+    },
+    {
+      "assessment_time": "3 months",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R06",
+      "result_unit": "points",
+      "result_value": 5,
+      "statistic_type": "Median",
+      "statistical_method": "Observed responses at each visit",
+      "supplementary_statistics": "IQR 4 to 6 points; analysis N = 17"
+    },
+    {
+      "assessment_time": "3 months",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P2",
+      "result_id": "R07",
+      "result_unit": "points",
+      "result_value": 5,
+      "statistic_type": "Median",
+      "statistical_method": "Observed responses at each visit",
+      "supplementary_statistics": "IQR 3 to 5 points; analysis N = 12"
+    },
+    {
+      "assessment_time": "Baseline (pre-randomization)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R08",
+      "result_unit": "points",
+      "result_value": 12,
+      "statistic_type": "Median",
+      "statistical_method": "Observed responses at each visit",
+      "supplementary_statistics": "IQR 9 to 14 points; analysis N = 26"
+    },
+    {
+      "assessment_time": "Baseline (pre-randomization)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P2",
+      "result_id": "R09",
+      "result_unit": "points",
+      "result_value": 12,
+      "statistic_type": "Median",
+      "statistical_method": "Observed responses at each visit",
+      "supplementary_statistics": "IQR 4 to 14 points; analysis N = 14"
+    },
+    {
+      "assessment_time": "3 months",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R10",
+      "result_unit": "points",
+      "result_value": 10,
+      "statistic_type": "Median",
+      "statistical_method": "Observed responses at each visit",
+      "supplementary_statistics": "IQR 6 to 11 points; analysis N = 17"
+    },
+    {
+      "assessment_time": "3 months",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P2",
+      "result_id": "R11",
+      "result_unit": "points",
+      "result_value": 9,
+      "statistic_type": "Median",
+      "statistical_method": "Observed responses at each visit",
+      "supplementary_statistics": "IQR 6 to 16 points; analysis N = 12"
+    }
+  ]
+}

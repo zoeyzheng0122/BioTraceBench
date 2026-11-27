@@ -1,0 +1,266 @@
+{
+  "measure": [
+    {
+      "measure_definition": "Measured value: fatigue T score (EORTC CAT Core), with higher scores indicating greater fatigue burden.; Participants; EORTC CAT Core short forms from the QLQ-C30 completed via a smartphone application; scores standardized as T scores against the European general population (mean [SD], 50 [10]). Baseline assessment after randomization and within 7 days (intervention within 2 days); 6-month assessment.; Continuous fatigue T score; higher T scores indicate greater symptom burden. Primary outcome was fatigue at 6 months. Minimal clinically important difference used for interpretation: 3.3 T-score points.",
+      "measure_id": "M0",
+      "measure_name": "Fatigue"
+    },
+    {
+      "measure_definition": "Measured value: physical functioning T score (EORTC CAT Core), with higher scores indicating better functioning.; Participants; EORTC CAT Core short forms from the QLQ-C30 completed via a smartphone application; scores standardized as T scores against the European general population (mean [SD], 50 [10]). Baseline assessment after randomization and within 7 days (intervention within 2 days); 6-month assessment.; Continuous physical functioning T score; higher T scores indicate better functioning. Assessed at baseline and 6 months; minimal clinically important difference 3.2 T-score points.",
+      "measure_id": "M1",
+      "measure_name": "Physical functioning"
+    },
+    {
+      "measure_definition": "Measured value: health-related quality-of-life T score (EORTC CAT Core global health status/QoL), with higher scores indicating better quality of life.; Participants; EORTC CAT Core short forms from the QLQ-C30 completed via a smartphone application; scores standardized as T scores against the European general population (mean [SD], 50 [10]). Baseline assessment after randomization and within 7 days (intervention within 2 days); 6-month assessment.; Continuous global health status/QoL T score; higher T scores indicate better quality of life. Assessed at baseline and 6 months; minimal clinically important difference 2.9 T-score points.",
+      "measure_id": "M2",
+      "measure_name": "Health-related quality of life (global health status/QoL)"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "Weekly electronic patient-reported outcome (PRO) monitoring with alert-based intervention (intervention arm) or usual care with quarterly PRO assessment and no alerts (control arm).",
+      "intervention_regimen": "Intervention arm: weekly PRO questionnaires via smartphone, automated alerts for predefined deterioration, and telephone contact within 48 hours. Control arm: quarterly PRO questionnaires with no alerts and PRO data not visible to care team. Primary outcome assessed at 6 months.",
+      "population_definition": "Randomization and modified intention-to-treat response-evaluable status (at least 1 postbaseline PRO assessment); intervention and control arms combined.; Women aged 18 years or older with metastatic breast cancer receiving systemic therapy at any point in the metastatic disease course, life expectancy longer than 3 months, ECOG performance status 0-2, able to read and understand German, smartphone access, randomized, and completed at least 1 postbaseline PRO assessment. Includes both weekly alert-based PRO monitoring and quarterly PRO usual-care arms.",
+      "population_id": "P0",
+      "population_name": "Modified intention-to-treat population (both arms)",
+      "population_size": 909,
+      "population_time_frame": "Randomization May 2021 to June 2023; follow-up through February 2024; primary outcome at 6 months."
+    },
+    {
+      "intervention": "Weekly electronic PRO questionnaires via smartphone using EORTC CAT Core short forms; automated alerts based on predefined PRO deterioration emailed to trained local nurses or physicians; telephone contact within 48 hours.",
+      "intervention_regimen": "Weekly PRO questionnaires; baseline assessment within 2 days after randomization for weekly PRO initiation; primary outcome at 6 months.",
+      "population_definition": "Randomized to weekly electronic PRO monitoring with alert-based intervention and included in modified ITT after at least 1 postbaseline PRO assessment.; Women aged 18 years or older with metastatic breast cancer receiving systemic therapy at any point in the metastatic disease course, life expectancy longer than 3 months, ECOG performance status 0-2, able to read and understand German, smartphone access, randomized to weekly electronic PRO monitoring with alerts, and completed at least 1 postbaseline PRO assessment.",
+      "population_id": "P1",
+      "population_name": "Weekly electronic PRO monitoring with alerts arm (modified ITT)",
+      "population_size": 456,
+      "population_time_frame": "Randomization May 2021 to June 2023; follow-up through February 2024; primary outcome at 6 months."
+    },
+    {
+      "intervention": "Usual care with quarterly PRO questionnaires via smartphone and no alerts; PRO data not visible to patients or care team.",
+      "intervention_regimen": "Quarterly PRO questionnaires; baseline assessment within 7 days after randomization; primary outcome at 6 months.",
+      "population_definition": "Randomized to usual care with quarterly PRO assessment and no alerts and included in modified ITT after at least 1 postbaseline PRO assessment.; Women aged 18 years or older with metastatic breast cancer receiving systemic therapy at any point in the metastatic disease course, life expectancy longer than 3 months, ECOG performance status 0-2, able to read and understand German, smartphone access, randomized to usual care with quarterly PRO assessment and no alerts, and completed at least 1 postbaseline PRO assessment.",
+      "population_id": "P2",
+      "population_name": "Usual care with quarterly PRO assessment arm (modified ITT)",
+      "population_size": 453,
+      "population_time_frame": "Randomization May 2021 to June 2023; follow-up through February 2024; primary outcome at 6 months."
+    },
+    {
+      "intervention": "Weekly electronic PRO monitoring with alert-based intervention (intervention arm) or usual care with quarterly PRO assessment and no alerts (control arm).",
+      "intervention_regimen": "Baseline PRO assessment after randomization (within 7 days; intervention within 2 days for weekly PRO initiation); treatment schedules as in the respective arms.",
+      "population_definition": "Modified ITT participants with observed baseline PRO data, both arms combined.; Women aged 18 years or older with metastatic breast cancer, randomized in the trial, with at least 1 postbaseline PRO assessment and observed baseline PRO data; both arms combined.",
+      "population_id": "P3",
+      "population_name": "Observed baseline PRO data population (both arms)",
+      "population_size": 855,
+      "population_time_frame": "Baseline assessment after randomization, before group-specific follow-up began; no separate calendar dates reported."
+    },
+    {
+      "intervention": "Weekly electronic PRO questionnaires via smartphone using EORTC CAT Core short forms; automated alerts based on predefined PRO deterioration emailed to trained local nurses or physicians; telephone contact within 48 hours.",
+      "intervention_regimen": "Baseline PRO assessment after randomization within 2 days for weekly PRO initiation.",
+      "population_definition": "Modified ITT intervention-arm participants with observed baseline PRO data.; Women aged 18 years or older with metastatic breast cancer randomized to weekly electronic PRO monitoring with alerts, with at least 1 postbaseline PRO assessment and observed baseline PRO data collected after randomization before group-specific follow-up began.",
+      "population_id": "P4",
+      "population_name": "Observed baseline PRO data, intervention arm",
+      "population_size": 430,
+      "population_time_frame": "Baseline assessment after randomization, before group-specific follow-up began; no separate calendar dates reported."
+    },
+    {
+      "intervention": "Usual care with quarterly PRO questionnaires via smartphone and no alerts; PRO data not visible to patients or care team.",
+      "intervention_regimen": "Baseline PRO assessment after randomization within 7 days; quarterly PRO questionnaires thereafter.",
+      "population_definition": "Modified ITT control-arm participants with observed baseline PRO data.; Women aged 18 years or older with metastatic breast cancer randomized to usual care with quarterly PRO assessment and no alerts, with at least 1 postbaseline PRO assessment and observed baseline PRO data collected after randomization before group-specific follow-up began.",
+      "population_id": "P5",
+      "population_name": "Observed baseline PRO data, control arm",
+      "population_size": 425,
+      "population_time_frame": "Baseline assessment after randomization, before group-specific follow-up began; no separate calendar dates reported."
+    }
+  ],
+  "population_relation": [
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P2",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P2",
+      "relationship": "disjoint from"
+    },
+    {
+      "population_a_id": "P3",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P4",
+      "population_b_id": "P3",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P5",
+      "population_b_id": "P3",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P4",
+      "population_b_id": "P1",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P5",
+      "population_b_id": "P2",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P4",
+      "population_b_id": "P5",
+      "relationship": "disjoint from"
+    },
+    {
+      "population_a_id": "P3",
+      "population_b_id": "P1",
+      "relationship": "overlaps with"
+    },
+    {
+      "population_a_id": "P3",
+      "population_b_id": "P2",
+      "relationship": "overlaps with"
+    }
+  ],
+  "result": [
+    {
+      "assessment_time": "Baseline (post-randomization, before group-specific follow-up)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P4",
+      "result_id": "R02",
+      "result_unit": "T-score points",
+      "result_value": 57.5,
+      "statistic_type": "Mean T score",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 9.5"
+    },
+    {
+      "assessment_time": "Baseline (post-randomization, before group-specific follow-up)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P5",
+      "result_id": "R03",
+      "result_unit": "T-score points",
+      "result_value": 60.2,
+      "statistic_type": "Mean T score",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 9.0"
+    },
+    {
+      "assessment_time": "Baseline (post-randomization, before group-specific follow-up)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P4",
+      "result_id": "R06",
+      "result_unit": "T-score points",
+      "result_value": 41.4,
+      "statistic_type": "Mean T score",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 9.7"
+    },
+    {
+      "assessment_time": "Baseline (post-randomization, before group-specific follow-up)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P5",
+      "result_id": "R07",
+      "result_unit": "T-score points",
+      "result_value": 41.0,
+      "statistic_type": "Mean T score",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 9.1"
+    },
+    {
+      "assessment_time": "Baseline (post-randomization, before group-specific follow-up)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P4",
+      "result_id": "R09",
+      "result_unit": "T-score points",
+      "result_value": 35.9,
+      "statistic_type": "Mean T score",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 3.6"
+    },
+    {
+      "assessment_time": "Baseline (post-randomization, before group-specific follow-up)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P5",
+      "result_id": "R10",
+      "result_unit": "T-score points",
+      "result_value": 36.0,
+      "statistic_type": "Mean T score",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 4.3"
+    },
+    {
+      "assessment_time": "6 months",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R11",
+      "result_unit": "T-score",
+      "result_value": 54.5,
+      "statistic_type": "Adjusted mean T score",
+      "statistical_method": "Linear mixed-effects model for six-month fatigue, with a random intercept for study center, adjusted for baseline PRO score, stratification factors, age, ECOG status, systemic therapy, sociodemographic factors, comorbidity index scores, depression, and enrollment period; two-sided primary-outcome test. Missing survivor data handled by chained-equation multiple imputation within randomized arm (m = 30). Patients who died before month 6 received the highest fatigue score in their arm.",
+      "supplementary_statistics": "95% CI, 53.7-55.4; analysis N = 456"
+    },
+    {
+      "assessment_time": "6 months",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P2",
+      "result_id": "R12",
+      "result_unit": "T-score",
+      "result_value": 59.9,
+      "statistic_type": "Adjusted mean T score",
+      "statistical_method": "Linear mixed-effects model for six-month fatigue, with a random intercept for study center, adjusted for baseline PRO score, stratification factors, age, ECOG status, systemic therapy, sociodemographic factors, comorbidity index scores, depression, and enrollment period; two-sided primary-outcome test. Missing survivor data handled by chained-equation multiple imputation within randomized arm (m = 30). Patients who died before month 6 received the highest fatigue score in their arm.",
+      "supplementary_statistics": "95% CI, 59.0-60.8; analysis N = 453"
+    },
+    {
+      "assessment_time": "6 months",
+      "comparison": "P1 minus P2 (intervention minus control)",
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R13",
+      "result_unit": "T-score points",
+      "result_value": -5.4,
+      "statistic_type": "Adjusted mean difference (intervention minus control)",
+      "statistical_method": "Linear mixed-effects model for six-month fatigue, with a random intercept for study center, adjusted for baseline PRO score, stratification factors, age, ECOG status, systemic therapy, sociodemographic factors, comorbidity index scores, depression, and enrollment period; two-sided primary-outcome test. Missing survivor data handled by chained-equation multiple imputation within randomized arm (m = 30). Patients who died before month 6 received the highest fatigue score in their arm.",
+      "supplementary_statistics": "95% CI, −6.6 to −4.1; P < .001. Main analysis n_obs = 909 (intervention 456, control 453)."
+    },
+    {
+      "assessment_time": "6 months",
+      "comparison": "P1 minus P2 (intervention minus control)",
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R14",
+      "result_unit": "T-score points",
+      "result_value": 4.0,
+      "statistic_type": "Adjusted mean difference (intervention minus control)",
+      "statistical_method": "Longitudinal linear mixed-effects model with random intercepts for study center and patient and discrete time; adjusted for baseline PRO score, stratification factors, age, ECOG status, systemic therapy, sociodemographic factors, comorbidity index scores, depression, and enrollment period; Sidak adjustment across time points; multiple imputation with chained equations for missing data.",
+      "supplementary_statistics": "95% CI, 2.6-5.4"
+    },
+    {
+      "assessment_time": "6 months",
+      "comparison": "P1 minus P2 (intervention minus control)",
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R15",
+      "result_unit": "T-score points",
+      "result_value": 0.8,
+      "statistic_type": "Adjusted mean difference (intervention minus control)",
+      "statistical_method": "Longitudinal linear mixed-effects model with random intercepts for study center and patient and discrete time; adjusted for baseline PRO score, stratification factors, age, ECOG status, systemic therapy, sociodemographic factors, comorbidity index scores, depression, and enrollment period; Sidak adjustment across time points; multiple imputation with chained equations for missing data.",
+      "supplementary_statistics": "95% CI, 0.02 to 1.5"
+    }
+  ]
+}

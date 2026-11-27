@@ -1,0 +1,55 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "Three-photon calcium imaging",
+      "experiment_run_accession": "Zenodo:10.5281/zenodo.18487289 (dataset)",
+      "method": "Spontaneous CAG-driven GCaMP6f calcium imaging of 3-month R306C and isogenic-control organoids at 1300 nm in a microfluidic holder. Figure 2c–d and 2e–f use the same reported functional acquisition settings (100 µm depth, 5 Hz, 256×256) with different dataset summaries. Individual recordings, panel overlap and specimen-to-file mapping are unresolved. Figure 2b provides separate structural GCaMP/THG context.",
+      "platform": "Custom-built three-photon microscope; Spectra-Physics Spirit-NOPA laser system",
+      "sample_ids": [
+        "S0001",
+        "S0002"
+      ]
+    }
+  ],
+  "condition": [
+    {
+      "condition_id": "C0001",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Organoid age at calcium imaging",
+      "factor_unit": "month",
+      "factor_value": 3,
+      "sample_id": "S0001",
+      "time": "At the 3-month (D90) imaging stage after differentiation initiation"
+    },
+    {
+      "condition_id": "C0002",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Organoid age at calcium imaging",
+      "factor_unit": "month",
+      "factor_value": 3,
+      "sample_id": "S0002",
+      "time": "At the 3-month (D90) imaging stage after differentiation initiation"
+    }
+  ],
+  "sample": [
+    {
+      "biological_model": "MECP2 R306C Rett syndrome cortical organoid model",
+      "biological_source": "Rett syndrome patient-derived iPSCs (Coriell Institute, WIC05i-127-325(MT))",
+      "sample_accession": null,
+      "sample_id": "S0001",
+      "sample_material": "Live, intact cortical organoids expressing CAG-driven GCaMP6f after AAV1 transduction. Source-defined R306C preparation group; organoids were imaged separately. Individual organoid identifiers are not supplied.",
+      "sample_name": "MECP2[R306C] cortical organoids",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "CRISPR-corrected isogenic cortical organoid control for MECP2 R306C",
+      "biological_source": "CRISPR/Cas9-corrected isogenic iPSCs (Coriell Institute, WIC04i-127-33(WT))",
+      "sample_accession": null,
+      "sample_id": "S0002",
+      "sample_material": "Live, intact cortical organoids expressing CAG-driven GCaMP6f after AAV1 transduction. Source-defined isogenic control preparation group; organoids were imaged separately. Individual organoid identifiers are not supplied.",
+      "sample_name": "Isogenic control cortical organoids (R306C pair)",
+      "species": "Homo sapiens"
+    }
+  ]
+}

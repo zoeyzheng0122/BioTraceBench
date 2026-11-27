@@ -1,0 +1,388 @@
+{
+  "measure": [
+    {
+      "measure_definition": "Measured value: adjusted mean Numerical Pain Rating Scale score at baseline or week 10; mean differences summarize the same score; Participants; Numerical Pain Rating Scale (NPRS) self-report: pain over the past 7 days rated 0 (no pain) to 10 (worst possible pain). Questionnaires completed in person at baseline and 10 weeks. Mixed-design ANCOVA adjusted for age, sex, BMI, and low back pain duration.; NPRS score range 0–10; higher score indicates worse pain. Adjusted means, within-group mean differences, between-group mean differences, and group × time interaction were estimated; no responder threshold used.",
+      "measure_id": "M0",
+      "measure_name": "Pain intensity"
+    },
+    {
+      "measure_definition": "Measured value: adjusted mean Modified Oswestry Disability Index score at baseline or week 10; mean differences summarize the same score; Participants; Modified Oswestry Disability Index (ODI) version 2.0, 10-item self-report; each item scored 0–5; completed at baseline and 10 weeks. Mixed-design ANCOVA adjusted for age, sex, BMI, and low back pain duration.; Modified ODI total score; higher score indicates greater disability. The paper describes categories minimal, moderate, severe, completely disabled, or bedridden but does not use a category threshold for the adjusted analysis.",
+      "measure_id": "M1",
+      "measure_name": "Low back pain-related disability"
+    },
+    {
+      "measure_definition": "Measured value: adjusted mean Hospital Anxiety and Depression Scale score at baseline or week 10; mean differences summarize the same score; Participants; Hospital Anxiety and Depression Scale (HADS), 14 items (7 anxiety, 7 depression), each item 0–3; reported as a single 'Anxiety & Depression (HADS)' score. Completed at baseline and 10 weeks. Mixed-design ANCOVA adjusted for age, sex, BMI, and low back pain duration.; Higher score indicates greater anxiety/depression. The paper describes separate anxiety and depression subscales each scored 0–21 (normal 0–7, borderline 8–10, abnormal 11–21), but reports only the combined HADS outcome and does not explicitly define the combined score. Separate subscale values were not reported.",
+      "measure_id": "M2",
+      "measure_name": "Anxiety and depression symptoms (HADS)"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "Aquatic therapy: standardized aquatic exercise program including aerobic conditioning, dynamic lumbar stabilization, resistance training, and stretching/mobility exercises.",
+      "intervention_regimen": "2 sessions/week for 10 weeks; 60 minutes per session; one-on-one supervised sessions in a heated therapeutic pool.",
+      "population_definition": "Randomized allocation to aquatic therapy; analyzed group with baseline and 10-week data; Adults aged 18–65 years with chronic nonspecific low back pain >3 months, moderate or severe disability on modified Oswestry Disability Index (21–60%), currently seeking care for low back pain, able to communicate in English or French, and not currently engaged in sports or fitness training specifically for the lower back muscles in the prior 3 months. Excluded for neurological signs/nerve root compression, prior spinal surgery or vertebral fracture, major lumbar structural abnormality, comorbid condition preventing exercise, or missing more than 7 of 20 exercise sessions. Participants had baseline and 10-week data and were included in the aquatic therapy analyzed group (n=18).",
+      "population_id": "P0",
+      "population_name": "Aquatic therapy analyzed group",
+      "population_size": 18,
+      "population_time_frame": "Recruitment October 2022 to December 2023; baseline assessment before intervention; outcomes at baseline and 10 weeks."
+    },
+    {
+      "intervention": "Standard care: individualized manual therapy and exercise therapy.",
+      "intervention_regimen": "2 sessions/week for 10 weeks; 60 minutes per session; one-on-one supervised sessions in the athletic therapy clinic and conditioning floor.",
+      "population_definition": "Randomized allocation to standard care; analyzed group with baseline and 10-week data; Adults aged 18–65 years with chronic nonspecific low back pain >3 months, moderate or severe disability on modified Oswestry Disability Index (21–60%), currently seeking care for low back pain, able to communicate in English or French, and not currently engaged in sports or fitness training specifically for the lower back muscles in the prior 3 months. Excluded for neurological signs/nerve root compression, prior spinal surgery or vertebral fracture, major lumbar structural abnormality, comorbid condition preventing exercise, or missing more than 7 of 20 exercise sessions. Participants had baseline and 10-week data and were included in the standard care analyzed group (n=16).",
+      "population_id": "P1",
+      "population_name": "Standard care analyzed group",
+      "population_size": 16,
+      "population_time_frame": "Recruitment October 2022 to December 2023; baseline assessment before intervention; outcomes at baseline and 10 weeks."
+    },
+    {
+      "intervention": "Aquatic therapy or standard care (manual therapy and exercise).",
+      "intervention_regimen": "Both groups: 2 sessions/week for 10 weeks; 60 minutes per session. Aquatic therapy in a heated therapeutic pool; standard care in the athletic therapy clinic and conditioning floor.",
+      "population_definition": "Both randomized arms combined for the adjusted 10-week analysis; Participants with chronic nonspecific low back pain randomized to aquatic therapy or standard care who had baseline and 10-week data included in the adjusted analysis (18 aquatic therapy + 16 standard care).",
+      "population_id": "P2",
+      "population_name": "Analyzed chronic low back pain cohort",
+      "population_size": 34,
+      "population_time_frame": "Recruitment October 2022 to December 2023; baseline assessment before intervention; outcomes at baseline and 10 weeks."
+    },
+    {
+      "intervention": "Aquatic therapy: supervised aquatic exercise program including trunk stabilization, upper-body and lower-body strengthening, flexibility exercises and aerobic conditioning.",
+      "intervention_regimen": "20 supervised exercise sessions, 2 times per week over a 10-week period; 60-minute sessions per registry.",
+      "population_definition": "Randomized allocation to aquatic therapy; allocated group before follow-up dropout; Adults with chronic nonspecific low back pain randomized to aquatic therapy and allocated to the 10-week aquatic exercise program; includes one participant who dropped out for time commitment before 6 weeks. Participants excluded after randomization before allocation are not included.",
+      "population_id": "P3",
+      "population_name": "Aquatic therapy allocated group",
+      "population_size": 19,
+      "population_time_frame": "Study start 2022-11-01; primary completion 2023-12-18; group-specific enrolment, treatment and follow-up dates Not reported."
+    },
+    {
+      "intervention": "Standard care: individualized manual therapy and exercise therapy, including stretching, strengthening and stabilization exercise, aerobic conditioning, and manual mobilization techniques; modalities could include ice, heat, ultrasound and TENS.",
+      "intervention_regimen": "20 supervised exercise sessions, 2 times per week over a 10-week period; 60-minute sessions per registry.",
+      "population_definition": "Randomized allocation to standard care; allocated group before follow-up dropout; Adults with chronic nonspecific low back pain randomized to standard care and allocated to the 10-week standard care program; includes one participant who dropped out for time commitment before 6 weeks. Participants excluded after randomization before allocation are not included.",
+      "population_id": "P4",
+      "population_name": "Standard care allocated group",
+      "population_size": 17,
+      "population_time_frame": "Study start 2022-11-01; primary completion 2023-12-18; group-specific enrolment, treatment and follow-up dates Not reported."
+    }
+  ],
+  "population_relation": [
+    {
+      "population_a_id": "P0",
+      "population_b_id": "P2",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P2",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P0",
+      "population_b_id": "P1",
+      "relationship": "disjoint from"
+    },
+    {
+      "population_a_id": "P0",
+      "population_b_id": "P3",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P4",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P3",
+      "population_b_id": "P4",
+      "relationship": "disjoint from"
+    }
+  ],
+  "result": [
+    {
+      "assessment_time": "Baseline (pre-intervention)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R01",
+      "result_unit": "points",
+      "result_value": 5.14,
+      "statistic_type": "Adjusted mean score (mixed-design ANCOVA)",
+      "statistical_method": "ANCOVA",
+      "supplementary_statistics": "SE 0.41; adjusted mean"
+    },
+    {
+      "assessment_time": "Baseline (pre-intervention)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R02",
+      "result_unit": "points",
+      "result_value": 5.84,
+      "statistic_type": "Adjusted mean score (mixed-design ANCOVA)",
+      "statistical_method": "ANCOVA",
+      "supplementary_statistics": "SE 0.44; adjusted mean"
+    },
+    {
+      "assessment_time": "10 weeks (post-intervention)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R03",
+      "result_unit": "points",
+      "result_value": 2.2,
+      "statistic_type": "Adjusted mean score (mixed-design ANCOVA)",
+      "statistical_method": "ANCOVA",
+      "supplementary_statistics": "SE 0.42; adjusted mean"
+    },
+    {
+      "assessment_time": "10 weeks (post-intervention)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R04",
+      "result_unit": "points",
+      "result_value": 2.65,
+      "statistic_type": "Adjusted mean score (mixed-design ANCOVA)",
+      "statistical_method": "ANCOVA",
+      "supplementary_statistics": "SE 0.45; adjusted mean"
+    },
+    {
+      "assessment_time": "Baseline to 10 weeks",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R05",
+      "result_unit": "points",
+      "result_value": -2.95,
+      "statistic_type": "Within-group mean difference from baseline to week 10 (mixed-design ANCOVA)",
+      "statistical_method": "ANCOVA",
+      "supplementary_statistics": "95% CI −3.95 to −1.95; SE 0.49; p < 0.001; F = 36.44; df = 1; ηp² = 0.57"
+    },
+    {
+      "assessment_time": "Baseline to 10 weeks",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R06",
+      "result_unit": "points",
+      "result_value": -3.19,
+      "statistic_type": "Within-group mean difference from baseline to week 10 (mixed-design ANCOVA)",
+      "statistical_method": "ANCOVA",
+      "supplementary_statistics": "95% CI −4.25 to −2.12; SE 0.52; p < 0.001; F = 37.68; df = 1; ηp² = 0.57"
+    },
+    {
+      "assessment_time": "10 weeks (post-intervention)",
+      "comparison": "P1 versus P0 (standard care versus aquatic therapy); subtraction direction not explicitly reported",
+      "measure_id": "M0",
+      "population_id": "P2",
+      "result_id": "R07",
+      "result_unit": "points",
+      "result_value": 0.46,
+      "statistic_type": "Between-group adjusted mean difference at week 10",
+      "statistical_method": "Mixed-design ANCOVA adjusting for age, sex, BMI and LBP duration in the complete analyzed cohort.",
+      "supplementary_statistics": "95% CI −0.83 to 1.74; p = 0.472; F = 0.53; df = 1; ηp² = 0.019"
+    },
+    {
+      "assessment_time": "Baseline to 10 weeks (group × time)",
+      "comparison": "P0 versus P1 across baseline–Week 10; unsigned interaction test",
+      "measure_id": "M0",
+      "population_id": "P2",
+      "result_id": "R08",
+      "result_unit": null,
+      "result_value": 0.11,
+      "statistic_type": "Group-by-time interaction F statistic",
+      "statistical_method": "Group × time interaction p value (mixed-design ANCOVA)",
+      "supplementary_statistics": "F = 0.11; df = 1; ηp² = 0.004; no significant group × time interaction (p > 0.05); p = 0.744"
+    },
+    {
+      "assessment_time": "Baseline (pre-intervention)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P0",
+      "result_id": "R09",
+      "result_unit": "points",
+      "result_value": 31.34,
+      "statistic_type": "Adjusted mean score (mixed-design ANCOVA)",
+      "statistical_method": "ANCOVA",
+      "supplementary_statistics": "SE 1.95; adjusted mean"
+    },
+    {
+      "assessment_time": "Baseline (pre-intervention)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R10",
+      "result_unit": "points",
+      "result_value": 24.46,
+      "statistic_type": "Adjusted mean score (mixed-design ANCOVA)",
+      "statistical_method": "ANCOVA",
+      "supplementary_statistics": "SE 2.07; adjusted mean"
+    },
+    {
+      "assessment_time": "10 weeks (post-intervention)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P0",
+      "result_id": "R11",
+      "result_unit": "points",
+      "result_value": 13.3,
+      "statistic_type": "Adjusted mean score (mixed-design ANCOVA)",
+      "statistical_method": "ANCOVA",
+      "supplementary_statistics": "SE 2.07; adjusted mean"
+    },
+    {
+      "assessment_time": "10 weeks (post-intervention)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R12",
+      "result_unit": "points",
+      "result_value": 11.92,
+      "statistic_type": "Adjusted mean score (mixed-design ANCOVA)",
+      "statistical_method": "ANCOVA",
+      "supplementary_statistics": "SE 2.20; adjusted mean"
+    },
+    {
+      "assessment_time": "Baseline to 10 weeks",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P0",
+      "result_id": "R13",
+      "result_unit": "points",
+      "result_value": -18.04,
+      "statistic_type": "Within-group mean difference from baseline to week 10 (mixed-design ANCOVA)",
+      "statistical_method": "ANCOVA",
+      "supplementary_statistics": "95% CI −21.80 to −14.28; SE 1.84; p < 0.001; F = 96.45; df = 1; ηp² = 0.78"
+    },
+    {
+      "assessment_time": "Baseline to 10 weeks",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R14",
+      "result_unit": "points",
+      "result_value": -12.54,
+      "statistic_type": "Within-group mean difference from baseline to week 10 (mixed-design ANCOVA)",
+      "statistical_method": "ANCOVA",
+      "supplementary_statistics": "95% CI −16.54 to −8.54; SE 1.95; p < 0.001; F = 41.24; df = 1; ηp² = 0.60"
+    },
+    {
+      "assessment_time": "10 weeks (post-intervention)",
+      "comparison": "P1 versus P0 (standard care versus aquatic therapy); subtraction direction not explicitly reported",
+      "measure_id": "M1",
+      "population_id": "P2",
+      "result_id": "R15",
+      "result_unit": "points",
+      "result_value": -1.38,
+      "statistic_type": "Between-group adjusted mean difference at week 10",
+      "statistical_method": "Mixed-design ANCOVA adjusting for age, sex, BMI and LBP duration in the complete analyzed cohort.",
+      "supplementary_statistics": "95% CI −7.69 to 4.92; p = 0.657; F = 0.20; df = 1; ηp² = 0.007"
+    },
+    {
+      "assessment_time": "Baseline to 10 weeks (group × time)",
+      "comparison": "P0 versus P1 across baseline–Week 10; unsigned interaction test",
+      "measure_id": "M1",
+      "population_id": "P2",
+      "result_id": "R16",
+      "result_unit": null,
+      "result_value": 4.04,
+      "statistic_type": "Group-by-time interaction F statistic",
+      "statistical_method": "Group × time interaction p value (mixed-design ANCOVA)",
+      "supplementary_statistics": "F = 4.04; df = 1; ηp² = 0.126; p > 0.05; p = 0.054"
+    },
+    {
+      "assessment_time": "Baseline (pre-intervention)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P0",
+      "result_id": "R17",
+      "result_unit": "points",
+      "result_value": 14.32,
+      "statistic_type": "Adjusted mean score (mixed-design ANCOVA)",
+      "statistical_method": "ANCOVA",
+      "supplementary_statistics": "SE 1.45; adjusted mean"
+    },
+    {
+      "assessment_time": "Baseline (pre-intervention)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R18",
+      "result_unit": "points",
+      "result_value": 11.89,
+      "statistic_type": "Adjusted mean score (mixed-design ANCOVA)",
+      "statistical_method": "ANCOVA",
+      "supplementary_statistics": "SE 1.54; adjusted mean"
+    },
+    {
+      "assessment_time": "10 weeks (post-intervention)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P0",
+      "result_id": "R19",
+      "result_unit": "points",
+      "result_value": 10.35,
+      "statistic_type": "Adjusted mean score (mixed-design ANCOVA)",
+      "statistical_method": "ANCOVA",
+      "supplementary_statistics": "SE 1.56; adjusted mean"
+    },
+    {
+      "assessment_time": "10 weeks (post-intervention)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R20",
+      "result_unit": "points",
+      "result_value": 9.23,
+      "statistic_type": "Adjusted mean score (mixed-design ANCOVA)",
+      "statistical_method": "ANCOVA",
+      "supplementary_statistics": "SE 1.66; adjusted mean"
+    },
+    {
+      "assessment_time": "Baseline to 10 weeks",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P0",
+      "result_id": "R21",
+      "result_unit": "points",
+      "result_value": -3.97,
+      "statistic_type": "Within-group mean difference from baseline to week 10 (mixed-design ANCOVA)",
+      "statistical_method": "ANCOVA",
+      "supplementary_statistics": "95% CI −5.74 to −2.20; SE 0.87; p < 0.001; F = 21.04; df = 1; ηp² = 0.43"
+    },
+    {
+      "assessment_time": "Baseline to 10 weeks",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R22",
+      "result_unit": "points",
+      "result_value": -2.66,
+      "statistic_type": "Within-group mean difference from baseline to week 10 (mixed-design ANCOVA)",
+      "statistical_method": "ANCOVA",
+      "supplementary_statistics": "95% CI −4.55 to −0.78; SE 0.92; p = 0.007; F = 8.38; df = 1; ηp² = 0.23"
+    },
+    {
+      "assessment_time": "10 weeks (post-intervention)",
+      "comparison": "P1 versus P0 (standard care versus aquatic therapy); subtraction direction not explicitly reported",
+      "measure_id": "M2",
+      "population_id": "P2",
+      "result_id": "R23",
+      "result_unit": "points",
+      "result_value": -1.12,
+      "statistic_type": "Between-group adjusted mean difference at week 10",
+      "statistical_method": "Mixed-design ANCOVA adjusting for age, sex, BMI and LBP duration in the complete analyzed cohort.",
+      "supplementary_statistics": "95% CI −5.87 to 3.63; p = 0.633; F = 0.23; df = 1; ηp² = 0.008"
+    },
+    {
+      "assessment_time": "Baseline to 10 weeks (group × time)",
+      "comparison": "P0 versus P1 across baseline–Week 10; unsigned interaction test",
+      "measure_id": "M2",
+      "population_id": "P2",
+      "result_id": "R24",
+      "result_unit": null,
+      "result_value": 1.03,
+      "statistic_type": "Group-by-time interaction F statistic",
+      "statistical_method": "Group × time interaction p value (mixed-design ANCOVA)",
+      "supplementary_statistics": "F = 1.03; df = 1; ηp² = 0.035; no significant group × time interaction (p > 0.05); p = 0.320"
+    }
+  ]
+}

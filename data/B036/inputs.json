@@ -1,0 +1,205 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "B036",
+    "domain": "basic",
+    "title": "​Temporal proteomic profiling of iPSC-derived human liver organoids reveals optimal maturation for drug metabolism and toxicology",
+    "doi": "10.1038/s41598-025-32539-0",
+    "pipeline": "basic-research",
+    "pmid": "41535358",
+    "pmcid": "PMC12824400",
+    "registry": "PXD063438"
+  },
+  "files": [
+    {
+      "path": "records/PRIDE-PXD063438.txt",
+      "sha256": "1dc594d512df2c25759350f1b9cf0239537d33953c685b0c0261f7add21b1e54",
+      "bytes": 8484,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/pride/ws/archive/v2/projects/PXD063438"
+      ],
+      "derived_from": "d38654273b8eb1da6c6320841d8710dbe588c987668467d340019d492c674965",
+      "representation": "readable_repository_record",
+      "association": "ProteomeXchange accession explicitly reported; project metadata only; readable official record text",
+      "original_filename": "PRIDE-PXD063438.txt",
+      "retrieved_at": "2026-10-17T23:54:35+08:00"
+    },
+    {
+      "path": "sources/article.xml",
+      "sha256": "a5cdf796339d9faca164420386c389ee8d9278ea70a6a38c5f02437fb0fff674",
+      "bytes": 105029,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12824400/fullTextXML"
+      ],
+      "association": "official full text for exact PMCID"
+    },
+    {
+      "path": "records/PRIDE-PXD063438-project-20261023.json",
+      "sha256": "f351c7e8fa0fb214395c9cb7de94897e4bd0329cb0bc55d4be97c5064281dc42",
+      "bytes": 8885,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/pride/ws/archive/v2/projects/PXD063438"
+      ],
+      "representation": "original API response",
+      "association": "ProteomeXchange accession explicitly reported; project metadata only",
+      "original_filename": "PRIDE-PXD063438-recheck-project.json",
+      "retrieved_at": "2026-10-17T23:54:35+08:00"
+    },
+    {
+      "path": "figures/41598_2025_32539_Fig1_HTML.jpg",
+      "sha256": "be5eae88b41181dcd5c6775bbe5c874356f59097172c65a88d17a91a02e68333",
+      "bytes": 178005,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12824400/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package"
+    },
+    {
+      "path": "figures/41598_2025_32539_Fig2_HTML.jpg",
+      "sha256": "8ea0875a0c32b74502b5f000ada41463153de5198a92292083e5a94b778239e7",
+      "bytes": 263246,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12824400/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package"
+    },
+    {
+      "path": "figures/41598_2025_32539_Fig3_HTML.jpg",
+      "sha256": "31b43e7f11b34fe3e7372b542765a086f4d3c7d8fceaccc2e0b88f5437e1845e",
+      "bytes": 229596,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12824400/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package"
+    },
+    {
+      "path": "figures/41598_2025_32539_Fig4_HTML.jpg",
+      "sha256": "9f95bbc957d75de24d484acd6f986f8a1fd2f243b6111622247b6eaaf7b5fe43",
+      "bytes": 94535,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12824400/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package"
+    },
+    {
+      "path": "records/PRIDE-PXD063438-TMT-channel-annotations.csv",
+      "sha256": "2d7512628f3598c0f5d0b714e7a128b1482ff1baefb644b7ba269e9f246bb46b",
+      "bytes": 2383,
+      "role": "design_metadata",
+      "roles": [
+        "design_metadata"
+      ],
+      "input_use": "model",
+      "source_urls": [],
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "original_filename": "PRIDE-PXD063438-TMT-channel-annotations.csv"
+    },
+    {
+      "path": "records/PRIDE-PXD063438-files.csv",
+      "sha256": "27d05cc86cb247ae750fffbcc8c593365ba3026612df1f017673561ca1d4d5a2",
+      "bytes": 11088,
+      "role": "design_metadata",
+      "roles": [
+        "design_metadata"
+      ],
+      "input_use": "model",
+      "source_urls": [],
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "original_filename": "PRIDE-PXD063438-files.csv"
+    },
+    {
+      "path": "records/PRIDE-PXD063438-files.json",
+      "sha256": "7ae05a871ea0bd4ad469db1bf7e37df0ed71a7df65c74e4345b2478c1d4bbbc6",
+      "bytes": 69882,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [],
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "original_filename": "PRIDE-PXD063438-files.json"
+    },
+    {
+      "path": "records/PRIDE-PXD063438-fileset-fractions.csv",
+      "sha256": "6f86c438042d6b536abd5814f11a666994e16090efec2ac422c4c1a1f2824336",
+      "bytes": 2798,
+      "role": "design_metadata",
+      "roles": [
+        "design_metadata"
+      ],
+      "input_use": "model",
+      "source_urls": [],
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "original_filename": "PRIDE-PXD063438-fileset-fractions.csv"
+    },
+    {
+      "path": "records/PRIDE-PXD063438-AnalysisDefinition.xml",
+      "sha256": "f14a489d09cec6bfefea72ce09af72e2f314af305a1eac9456622e5b4a7da4dc",
+      "bytes": 114340,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [],
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "original_filename": "PRIDE-PXD063438-AnalysisDefinition.xml"
+    },
+    {
+      "path": "records/PRIDE-PXD063438-files-20261023.json",
+      "sha256": "ba0fdec05c4aadd1e17ed243e54e1abdc390a8e7f3e8859b58098161c8cfdf7d",
+      "bytes": 60822,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/pride/ws/archive/v2/projects/PXD063438/files?pageSize=100&page=0"
+      ],
+      "representation": "original API response",
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "original_filename": "PRIDE-PXD063438-recheck-files.json"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

@@ -1,0 +1,165 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "B048",
+    "domain": "basic",
+    "title": "Ex vivo- generated lymphoid progenitors encompass both T cell and innate lymphoid cell fates",
+    "doi": "10.3389/fimmu.2025.1617707",
+    "pipeline": "basic-research",
+    "pmid": "40771806",
+    "pmcid": "PMC12325321",
+    "registry": "GSE292844"
+  },
+  "files": [
+    {
+      "path": "records/GEO-GSE292844-project.txt",
+      "sha256": "8b94ef90592e106c2dfa75c5fd4df888372271539a3eccda1bf345dd2930fdab",
+      "bytes": 3041,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE292844&targ=self&form=text&view=brief"
+      ],
+      "association": "exact accession reported in Data Availability; metadata only; relation not yet verified",
+      "original_filename": "GEO-GSE292844-project.txt"
+    },
+    {
+      "path": "records/GEO-GSE292844-samples.txt",
+      "sha256": "c8f1900d4b1bdab52ca6a0dca2fd9f8dfb9e953964963e17b2f896de59578659",
+      "bytes": 19664,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE292844&targ=gsm&form=text&view=brief"
+      ],
+      "association": "exact accession reported in Data Availability; metadata only; relation not yet verified",
+      "original_filename": "GEO-GSE292844-samples.txt"
+    },
+    {
+      "path": "sources/article.xml",
+      "sha256": "7e10682409fc20044d5575df80452df204a1ddfd0fdccb8eca425bacd927e1ba",
+      "bytes": 234101,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12325321/fullTextXML"
+      ],
+      "association": "exact public PMCID candidate"
+    },
+    {
+      "path": "figures/captions.txt",
+      "sha256": "bb3b921e8e32fe0a062b2bef4efd9bf77bdcfa46f647cae163cacb1225357404",
+      "bytes": 9907,
+      "role": "figure_captions",
+      "roles": [
+        "figure_captions"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12325321/"
+      ],
+      "derived_from": "8165e86ab371dbba47812f3e0cecaab5d33ae5843cb6aa8f2e9146ade6beefc8"
+    },
+    {
+      "path": "figures/fimmu-16-1617707-g001.jpg",
+      "sha256": "42595a114e92ca76f0109dd31448b7193dcb65ccd139f0712e6d6ac772ec6adb",
+      "bytes": 263393,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12325321.1/fimmu-16-1617707-g001.jpg?md5=8e14fb17c9325cb52b464dd938599bec"
+      ],
+      "association": "Exact JATS paper asset and official version MD5; downloaded in local Chrome"
+    },
+    {
+      "path": "figures/fimmu-16-1617707-g002.jpg",
+      "sha256": "b2c0ee0c503225e744c97e204a4bf5dc5edb841febe594627e047eb6596856e3",
+      "bytes": 203071,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12325321.1/fimmu-16-1617707-g002.jpg?md5=0a6eb7db028a5c3659ed0d3a1b691c65"
+      ],
+      "association": "exact JATS f2 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/fimmu-16-1617707-g003.jpg",
+      "sha256": "5a800dbda94179da6a2be3eb99ca5beeb21ebe10bdd169d318e9a14b081b70a9",
+      "bytes": 249765,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12325321.1/fimmu-16-1617707-g003.jpg?md5=ec80c1ccae10433a5695fb51de80f1a0"
+      ],
+      "association": "Exact JATS paper asset and official version MD5; downloaded in local Chrome"
+    },
+    {
+      "path": "figures/fimmu-16-1617707-g004.jpg",
+      "sha256": "6420b78e46a0516bdc946ef6505cb28f5d5f12c2827baeb61791e806733c2d81",
+      "bytes": 194304,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12325321.1/fimmu-16-1617707-g004.jpg?md5=462b098dbd9ee7d4e409b15f92e03a78"
+      ],
+      "association": "Exact JATS paper asset and official version MD5; downloaded in local Chrome"
+    },
+    {
+      "path": "records/GEO-GSE292844-family.soft.txt",
+      "sha256": "5ed1170500cdc237921d826871e300fd3b8c2e9c52e1d071a88d1f043afea15a",
+      "bytes": 22974,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE292nnn/GSE292844/soft/GSE292844_family.soft.gz"
+      ],
+      "representation": "gzip-decompressed SOFT",
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "original_filename": "GEO-GSE292844-family.soft.txt"
+    },
+    {
+      "path": "records/ENA-PRJNA1241729-run-metadata.tsv",
+      "sha256": "b810177429d8dab4cffd27077dad5fce53a07d06787ca9e46a0cf342f8a2526a",
+      "bytes": 1593,
+      "role": "design_metadata",
+      "roles": [
+        "design_metadata"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1241729&result=read_run&fields=run_accession%2Cexperiment_accession%2Csample_accession%2Csecondary_sample_accession%2Cstudy_accession%2Csample_alias%2Csample_title%2Clibrary_name%2Cinstrument_platform%2Cinstrument_model&format=tsv&download=false"
+      ],
+      "representation": "original API response",
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "original_filename": "ENA-PRJNA1241729-run-metadata.tsv"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

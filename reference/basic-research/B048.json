@@ -1,0 +1,344 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "Single-cell RNA-seq",
+      "experiment_run_accession": "SRA:SRX28130577 (experiment); SRA:SRR32848118 (run)",
+      "method": "10x Genomics Chromium Next GEM Single Cell 3′ v3.1 library MLA003_HTLP_SmallScale; paired-end acquisition. Platform follows GEO/ENA registration. The article and GEO protocol also name a NovaSeq S2 flow cell; that conflicting hardware statement is retained without inferring another platform or biological sample.",
+      "platform": "Illumina NextSeq 500",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0002",
+      "assay_type": "Single-cell RNA-seq",
+      "experiment_run_accession": "SRA:SRX28130577 (experiment); SRA:SRR32848119 (run)",
+      "method": "10x Genomics Chromium Next GEM Single Cell 3′ v3.1 library MLA003_HTLP_SmallScale; paired-end acquisition. Platform follows GEO/ENA registration. The article and GEO protocol also name a NovaSeq S2 flow cell; that conflicting hardware statement is retained without inferring another platform or biological sample.",
+      "platform": "Illumina NextSeq 500",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0003",
+      "assay_type": "Single-cell RNA-seq",
+      "experiment_run_accession": "SRA:SRX28130578 (experiment); SRA:SRR32848116 (run)",
+      "method": "10x Genomics Chromium Next GEM Single Cell 3′ v3.1 library MLA004_HTLP_CB2; paired-end acquisition. Platform follows GEO/ENA registration. The article and GEO protocol also name a NovaSeq S2 flow cell; that conflicting hardware statement is retained without inferring another platform or biological sample.",
+      "platform": "Illumina NextSeq 500",
+      "sample_ids": [
+        "S0002"
+      ]
+    },
+    {
+      "assay_id": "A0004",
+      "assay_type": "Single-cell RNA-seq",
+      "experiment_run_accession": "SRA:SRX28130578 (experiment); SRA:SRR32848117 (run)",
+      "method": "10x Genomics Chromium Next GEM Single Cell 3′ v3.1 library MLA004_HTLP_CB2; paired-end acquisition. Platform follows GEO/ENA registration. The article and GEO protocol also name a NovaSeq S2 flow cell; that conflicting hardware statement is retained without inferring another platform or biological sample.",
+      "platform": "Illumina NextSeq 500",
+      "sample_ids": [
+        "S0002"
+      ]
+    },
+    {
+      "assay_id": "A0005",
+      "assay_type": "Single-cell RNA-seq",
+      "experiment_run_accession": "SRA:SRX28130579 (experiment); SRA:SRR32848114 (run)",
+      "method": "10x Genomics Chromium Next GEM Single Cell 3′ v3.1 library MLA005_HTLP_testLTCGFullcoating; paired-end acquisition. Platform follows GEO/ENA registration. The article and GEO protocol also name a NovaSeq S2 flow cell; that conflicting hardware statement is retained without inferring another platform or biological sample.",
+      "platform": "Illumina NextSeq 500",
+      "sample_ids": [
+        "S0003"
+      ]
+    },
+    {
+      "assay_id": "A0006",
+      "assay_type": "Single-cell RNA-seq",
+      "experiment_run_accession": "SRA:SRX28130579 (experiment); SRA:SRR32848115 (run)",
+      "method": "10x Genomics Chromium Next GEM Single Cell 3′ v3.1 library MLA005_HTLP_testLTCGFullcoating; paired-end acquisition. Platform follows GEO/ENA registration. The article and GEO protocol also name a NovaSeq S2 flow cell; that conflicting hardware statement is retained without inferring another platform or biological sample.",
+      "platform": "Illumina NextSeq 500",
+      "sample_ids": [
+        "S0003"
+      ]
+    },
+    {
+      "assay_id": "A0007",
+      "assay_type": "Single-cell RNA-seq",
+      "experiment_run_accession": "SRA:SRX28130580 (experiment); SRA:SRR32848112 (run)",
+      "method": "10x Genomics Chromium Next GEM Single Cell 3′ v3.1 library MLA006_HTLP_CB1; paired-end acquisition. Platform follows GEO/ENA registration. The article and GEO protocol also name a NovaSeq S2 flow cell; that conflicting hardware statement is retained without inferring another platform or biological sample.",
+      "platform": "Illumina NextSeq 500",
+      "sample_ids": [
+        "S0004"
+      ]
+    },
+    {
+      "assay_id": "A0008",
+      "assay_type": "Single-cell RNA-seq",
+      "experiment_run_accession": "SRA:SRX28130580 (experiment); SRA:SRR32848113 (run)",
+      "method": "10x Genomics Chromium Next GEM Single Cell 3′ v3.1 library MLA006_HTLP_CB1; paired-end acquisition. Platform follows GEO/ENA registration. The article and GEO protocol also name a NovaSeq S2 flow cell; that conflicting hardware statement is retained without inferring another platform or biological sample.",
+      "platform": "Illumina NextSeq 500",
+      "sample_ids": [
+        "S0004"
+      ]
+    },
+    {
+      "assay_id": "A0009",
+      "assay_type": "Single-cell RNA-seq",
+      "experiment_run_accession": "SRA:SRX28130581 (experiment); SRA:SRR32848110 (run)",
+      "method": "10x Genomics Chromium Next GEM Single Cell 3′ v3.1 library MLA007_HTLP_Largescale02; paired-end acquisition. Platform follows GEO/ENA registration. The article and GEO protocol also name a NovaSeq S2 flow cell; that conflicting hardware statement is retained without inferring another platform or biological sample.",
+      "platform": "Illumina NextSeq 500",
+      "sample_ids": [
+        "S0005"
+      ]
+    },
+    {
+      "assay_id": "A0010",
+      "assay_type": "Single-cell RNA-seq",
+      "experiment_run_accession": "SRA:SRX28130581 (experiment); SRA:SRR32848111 (run)",
+      "method": "10x Genomics Chromium Next GEM Single Cell 3′ v3.1 library MLA007_HTLP_Largescale02; paired-end acquisition. Platform follows GEO/ENA registration. The article and GEO protocol also name a NovaSeq S2 flow cell; that conflicting hardware statement is retained without inferring another platform or biological sample.",
+      "platform": "Illumina NextSeq 500",
+      "sample_ids": [
+        "S0005"
+      ]
+    },
+    {
+      "assay_id": "A0011",
+      "assay_type": "Single-cell RNA-seq",
+      "experiment_run_accession": "SRA:SRX28130582 (experiment); SRA:SRR32848108 (run)",
+      "method": "10x Genomics Chromium Next GEM Single Cell 3′ v3.1 library MLA008_HTLP_CB3; paired-end acquisition. Platform follows GEO/ENA registration. The article and GEO protocol also name a NovaSeq S2 flow cell; that conflicting hardware statement is retained without inferring another platform or biological sample.",
+      "platform": "Illumina NextSeq 500",
+      "sample_ids": [
+        "S0006"
+      ]
+    },
+    {
+      "assay_id": "A0012",
+      "assay_type": "Single-cell RNA-seq",
+      "experiment_run_accession": "SRA:SRX28130582 (experiment); SRA:SRR32848109 (run)",
+      "method": "10x Genomics Chromium Next GEM Single Cell 3′ v3.1 library MLA008_HTLP_CB3; paired-end acquisition. Platform follows GEO/ENA registration. The article and GEO protocol also name a NovaSeq S2 flow cell; that conflicting hardware statement is retained without inferring another platform or biological sample.",
+      "platform": "Illumina NextSeq 500",
+      "sample_ids": [
+        "S0006"
+      ]
+    }
+  ],
+  "condition": [
+    {
+      "condition_id": "C0001",
+      "condition_target": "Source CD34+ HSPC culture",
+      "experimental_factor": "ProTcell culture duration",
+      "factor_unit": "day",
+      "factor_value": 7,
+      "sample_id": "S0001",
+      "time": "From CD34+ HSPC seeding to Day-7 product harvest"
+    },
+    {
+      "condition_id": "C0002",
+      "condition_target": "Culture-vessel coating",
+      "experimental_factor": "DLL4-Fc coating concentration",
+      "factor_unit": "µg/mL",
+      "factor_value": 5,
+      "sample_id": "S0001",
+      "time": "Culture-vessel coating before CD34+ HSPC seeding"
+    },
+    {
+      "condition_id": "C0003",
+      "condition_target": "Culture-vessel coating",
+      "experimental_factor": "RetroNectin coating concentration",
+      "factor_unit": "µg/mL",
+      "factor_value": 2,
+      "sample_id": "S0001",
+      "time": "Culture-vessel coating before CD34+ HSPC seeding"
+    },
+    {
+      "condition_id": "C0004",
+      "condition_target": "Source CD34+ HSPC culture",
+      "experimental_factor": "ProTcell culture duration",
+      "factor_unit": "day",
+      "factor_value": 7,
+      "sample_id": "S0002",
+      "time": "From CD34+ HSPC seeding to Day-7 product harvest"
+    },
+    {
+      "condition_id": "C0005",
+      "condition_target": "Culture-vessel coating",
+      "experimental_factor": "DLL4-Fc coating concentration",
+      "factor_unit": "µg/mL",
+      "factor_value": 5,
+      "sample_id": "S0002",
+      "time": "Culture-vessel coating before CD34+ HSPC seeding"
+    },
+    {
+      "condition_id": "C0006",
+      "condition_target": "Culture-vessel coating",
+      "experimental_factor": "RetroNectin coating concentration",
+      "factor_unit": "µg/mL",
+      "factor_value": 2,
+      "sample_id": "S0002",
+      "time": "Culture-vessel coating before CD34+ HSPC seeding"
+    },
+    {
+      "condition_id": "C0007",
+      "condition_target": "Source CD34+ HSPC culture",
+      "experimental_factor": "ProTcell culture duration",
+      "factor_unit": "day",
+      "factor_value": 7,
+      "sample_id": "S0003",
+      "time": "From CD34+ HSPC seeding to Day-7 product harvest"
+    },
+    {
+      "condition_id": "C0008",
+      "condition_target": "Culture-vessel coating",
+      "experimental_factor": "DLL4-Fc coating concentration",
+      "factor_unit": "µg/mL",
+      "factor_value": 5,
+      "sample_id": "S0003",
+      "time": "Culture-vessel coating before CD34+ HSPC seeding"
+    },
+    {
+      "condition_id": "C0009",
+      "condition_target": "Culture-vessel coating",
+      "experimental_factor": "RetroNectin coating concentration",
+      "factor_unit": "µg/mL",
+      "factor_value": 2,
+      "sample_id": "S0003",
+      "time": "Culture-vessel coating before CD34+ HSPC seeding"
+    },
+    {
+      "condition_id": "C0010",
+      "condition_target": "Source CD34+ HSPC culture",
+      "experimental_factor": "ProTcell culture duration",
+      "factor_unit": "day",
+      "factor_value": 7,
+      "sample_id": "S0004",
+      "time": "From CD34+ HSPC seeding to Day-7 product harvest"
+    },
+    {
+      "condition_id": "C0011",
+      "condition_target": "Culture-vessel coating",
+      "experimental_factor": "DLL4-Fc coating concentration",
+      "factor_unit": "µg/mL",
+      "factor_value": 5,
+      "sample_id": "S0004",
+      "time": "Culture-vessel coating before CD34+ HSPC seeding"
+    },
+    {
+      "condition_id": "C0012",
+      "condition_target": "Culture-vessel coating",
+      "experimental_factor": "RetroNectin coating concentration",
+      "factor_unit": "µg/mL",
+      "factor_value": 2,
+      "sample_id": "S0004",
+      "time": "Culture-vessel coating before CD34+ HSPC seeding"
+    },
+    {
+      "condition_id": "C0013",
+      "condition_target": "Source CD34+ HSPC culture",
+      "experimental_factor": "ProTcell culture duration",
+      "factor_unit": "day",
+      "factor_value": 7,
+      "sample_id": "S0005",
+      "time": "From CD34+ HSPC seeding to Day-7 product harvest"
+    },
+    {
+      "condition_id": "C0014",
+      "condition_target": "Culture-vessel coating",
+      "experimental_factor": "DLL4-Fc coating concentration",
+      "factor_unit": "µg/mL",
+      "factor_value": 5,
+      "sample_id": "S0005",
+      "time": "Culture-vessel coating before CD34+ HSPC seeding"
+    },
+    {
+      "condition_id": "C0015",
+      "condition_target": "Culture-vessel coating",
+      "experimental_factor": "RetroNectin coating concentration",
+      "factor_unit": "µg/mL",
+      "factor_value": 2,
+      "sample_id": "S0005",
+      "time": "Culture-vessel coating before CD34+ HSPC seeding"
+    },
+    {
+      "condition_id": "C0016",
+      "condition_target": "Source CD34+ HSPC culture",
+      "experimental_factor": "ProTcell culture duration",
+      "factor_unit": "day",
+      "factor_value": 7,
+      "sample_id": "S0006",
+      "time": "From CD34+ HSPC seeding to Day-7 product harvest"
+    },
+    {
+      "condition_id": "C0017",
+      "condition_target": "Culture-vessel coating",
+      "experimental_factor": "DLL4-Fc coating concentration",
+      "factor_unit": "µg/mL",
+      "factor_value": 5,
+      "sample_id": "S0006",
+      "time": "Culture-vessel coating before CD34+ HSPC seeding"
+    },
+    {
+      "condition_id": "C0018",
+      "condition_target": "Culture-vessel coating",
+      "experimental_factor": "RetroNectin coating concentration",
+      "factor_unit": "µg/mL",
+      "factor_value": 2,
+      "sample_id": "S0006",
+      "time": "Culture-vessel coating before CD34+ HSPC seeding"
+    }
+  ],
+  "sample": [
+    {
+      "biological_model": "Ex vivo DLL4-induced lymphoid progenitor (ProTcell) product",
+      "biological_source": "Human CD34+ hematopoietic stem/progenitor cells from mobilized peripheral blood",
+      "sample_accession": "GEO:GSM8866564 (sample); BioSample:SAMN47566189 (sample); SRA:SRS24485421 (sample)",
+      "sample_id": "S0001",
+      "sample_material": "Whole Day-7 ProTcell product from native source/product batch mPB1. Harvested after DLL4-Fc/RetroNectin culture, washed, frozen in 10% DMSO and thawed/washed before single-cell library preparation. CD7-transcript filtering is a later analysis subset, not a separate collected preparation.",
+      "sample_name": "ProTcell mPB1",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Ex vivo DLL4-induced lymphoid progenitor (ProTcell) product",
+      "biological_source": "Human CD34+ hematopoietic stem/progenitor cells from cord blood",
+      "sample_accession": "GEO:GSM8866565 (sample); BioSample:SAMN47566188 (sample); SRA:SRS24485423 (sample)",
+      "sample_id": "S0002",
+      "sample_material": "Whole Day-7 ProTcell product from native source/product batch CB2. Harvested after DLL4-Fc/RetroNectin culture, washed, frozen in 10% DMSO and thawed/washed before single-cell library preparation. CD7-transcript filtering is a later analysis subset, not a separate collected preparation.",
+      "sample_name": "ProTcell CB2",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Ex vivo DLL4-induced lymphoid progenitor (ProTcell) product",
+      "biological_source": "Human CD34+ hematopoietic stem/progenitor cells from mobilized peripheral blood",
+      "sample_accession": "GEO:GSM8866566 (sample); BioSample:SAMN47566187 (sample); SRA:SRS24485422 (sample)",
+      "sample_id": "S0003",
+      "sample_material": "Whole Day-7 ProTcell product from native source/product batch mPB2. Harvested after DLL4-Fc/RetroNectin culture, washed, frozen in 10% DMSO and thawed/washed before single-cell library preparation. CD7-transcript filtering is a later analysis subset, not a separate collected preparation.",
+      "sample_name": "ProTcell mPB2",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Ex vivo DLL4-induced lymphoid progenitor (ProTcell) product",
+      "biological_source": "Human CD34+ hematopoietic stem/progenitor cells from cord blood",
+      "sample_accession": "GEO:GSM8866567 (sample); BioSample:SAMN47566186 (sample); SRA:SRS24485424 (sample)",
+      "sample_id": "S0004",
+      "sample_material": "Whole Day-7 ProTcell product from native source/product batch CB1. Harvested after DLL4-Fc/RetroNectin culture, washed, frozen in 10% DMSO and thawed/washed before single-cell library preparation. CD7-transcript filtering is a later analysis subset, not a separate collected preparation.",
+      "sample_name": "ProTcell CB1",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Ex vivo DLL4-induced lymphoid progenitor (ProTcell) product",
+      "biological_source": "Human CD34+ hematopoietic stem/progenitor cells from mobilized peripheral blood",
+      "sample_accession": "GEO:GSM8866568 (sample); BioSample:SAMN47566185 (sample); SRA:SRS24485425 (sample)",
+      "sample_id": "S0005",
+      "sample_material": "Whole Day-7 ProTcell product from native source/product batch mPB3. Harvested after DLL4-Fc/RetroNectin culture, washed, frozen in 10% DMSO and thawed/washed before single-cell library preparation. CD7-transcript filtering is a later analysis subset, not a separate collected preparation.",
+      "sample_name": "ProTcell mPB3",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Ex vivo DLL4-induced lymphoid progenitor (ProTcell) product",
+      "biological_source": "Human CD34+ hematopoietic stem/progenitor cells from cord blood",
+      "sample_accession": "GEO:GSM8866569 (sample); BioSample:SAMN47566184 (sample); SRA:SRS24485426 (sample)",
+      "sample_id": "S0006",
+      "sample_material": "Whole Day-7 ProTcell product from native source/product batch CB3. Harvested after DLL4-Fc/RetroNectin culture, washed, frozen in 10% DMSO and thawed/washed before single-cell library preparation. CD7-transcript filtering is a later analysis subset, not a separate collected preparation.",
+      "sample_name": "ProTcell CB3",
+      "species": "Homo sapiens"
+    }
+  ]
+}

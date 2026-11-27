@@ -1,0 +1,32 @@
+{
+  "case_id": "C007",
+  "task_id": "C007",
+  "title": "Electronic Patient-Reported Outcome Monitoring With Alert-Based Interventions in Metastatic Breast Cancer",
+  "doi": "10.1001/jamaoncol.2026.2661",
+  "comparison_or_design": "The primary electronic-PRO monitoring comparison in metastatic breast cancer.",
+  "observations_or_assays": [
+    "CAT Core fatigue T score",
+    "CAT Core physical-functioning T score",
+    "CAT Core health-related-quality-of-life T score"
+  ],
+  "time_scope": "Baseline and month 6 only.",
+  "excluded": [
+    "9/12-month trajectories, emotional functioning and other PRO domains",
+    "Subgroups, missing-data sensitivities, healthcare utilization and survival"
+  ],
+  "population_or_material": "The article-defined modified intention-to-treat population with metastatic breast cancer.",
+  "requested_items": [
+    "Use the main baseline table for observed arm-level baseline means/SD and the primary Results paragraphs for six-month adjusted fatigue arm means and three domain treatment differences/CI. Exclude combined-cohort summaries, baseline significance tests, changes, sensitivity/imputed-model presentations in other figures and protocol-planned populations."
+  ],
+  "resources": [],
+  "case_specific_rules": [
+    "Use the baseline PRO table for requested baseline arm summaries. If the abstract or narrative Results repeats a different baseline mean, retain the table value and the discrepancy in the review record. Keep the six-month model analysis separate from baseline descriptives."
+  ],
+  "domain": "clinical",
+  "pipeline": "clinical-trials",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/clinical-trials.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

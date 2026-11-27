@@ -1,0 +1,32 @@
+{
+  "case_id": "B020",
+  "task_id": "B020",
+  "title": "Estrogen Stabilizes Interferon-Inducible Genes During Skeletal Muscle Regeneration",
+  "doi": "10.1177/10998004251411301",
+  "comparison_or_design": "The hormone-replacement microarray experiment across its reported post-injury time series.",
+  "observations_or_assays": [
+    "Affymetrix Mouse Gene 1.0 ST microarray"
+  ],
+  "time_scope": "32, 96 and 192 hours after injury.",
+  "excluded": [
+    "Independent CD169 immunostaining and other tissue/protein validation",
+    "Gene-expression values, differential-expression, correlation and pathway results"
+  ],
+  "population_or_material": "Right lateral gastrocnemius materials from the ovariectomized-mouse estrogen-treatment injury experiment.",
+  "requested_items": [
+    "OVX hormone replacement (17beta-estradiol or placebo), dose, muscle-injury procedure and post-injury collection time"
+  ],
+  "resources": [
+    {
+      "accession": "GSE311704",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE311704"
+    }
+  ],
+  "domain": "basic",
+  "pipeline": "basic-research",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/basic-research.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

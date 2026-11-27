@@ -1,0 +1,32 @@
+{
+  "case_id": "B017",
+  "task_id": "B017",
+  "title": "A dataset of spatially resolved transcriptomics of post-natal cardiac development in mice",
+  "doi": "10.1038/s41597-025-05838-4",
+  "comparison_or_design": "The postnatal cardiac-development Stereo-seq series, retaining source-supported animal, section, library and batch relationships.",
+  "observations_or_assays": [
+    "Stereo-seq spatial transcriptomics"
+  ],
+  "time_scope": "Postnatal P0, P7 and P56 sampling.",
+  "excluded": [
+    "Treating developmental stage as an administered intervention",
+    "Independent validation assays and reprocessing FASTQ, spatial expression matrices or RDS files"
+  ],
+  "population_or_material": "Measured heart sections in the P0/P7/P56 cardiac Stereo-seq dataset Animals remain biological-source description; chips/libraries do not substitute for biological preparations.",
+  "requested_items": [
+    "Postnatal age and section preparation conditions distinguishing the requested spatial libraries"
+  ],
+  "resources": [
+    {
+      "accession": "GSE298650",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE298650"
+    }
+  ],
+  "domain": "basic",
+  "pipeline": "basic-research",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/basic-research.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

@@ -1,0 +1,32 @@
+{
+  "case_id": "B022",
+  "task_id": "B022",
+  "title": "A multiomics analysis identifies retinol metabolism in fibroblasts as a key pathway in wound healing",
+  "doi": "10.1172/jci.insight.194188",
+  "comparison_or_design": "The dietary vitamin-A wound-tissue DIA proteomics comparison.",
+  "observations_or_assays": [
+    "Untargeted DIA mass-spectrometry proteomics"
+  ],
+  "time_scope": "Five days after wounding.",
+  "excluded": [
+    "PXD061256 SureQuant targeted proteomics and unwounded-skin samples",
+    "RNA-seq, metabolomics, Western blot, immunostaining and other wound experiments"
+  ],
+  "population_or_material": "Day-5 wound-tissue materials in the untargeted DIA proteomics comparison.",
+  "requested_items": [
+    "Vitamin-A-deficient versus chow diet, exposure duration and post-wounding collection day"
+  ],
+  "resources": [
+    {
+      "accession": "PXD061167",
+      "url": "https://www.ebi.ac.uk/pride/archive/projects/PXD061167"
+    }
+  ],
+  "domain": "basic",
+  "pipeline": "basic-research",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/basic-research.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

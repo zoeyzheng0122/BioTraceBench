@@ -1,0 +1,79 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "C025",
+    "domain": "clinical",
+    "title": "Effect of temporomandibular joint exercises on mechanical low back pain: a preliminary randomized controlled study",
+    "doi": "10.1186/s12891-026-09657-5",
+    "pipeline": "clinical-trials",
+    "pmid": "41857618",
+    "pmcid": "PMC13123181",
+    "registry": "CTRI/2020/11/028982"
+  },
+  "files": [
+    {
+      "path": "sources/article.xml",
+      "sha256": "e299e0d8073b43f5ead0ff03d8a85ce8872d3d58724e40aacc5910d24d52c4d7",
+      "bytes": 94867,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13123181/fullTextXML"
+      ],
+      "association": "exact public PMCID candidate"
+    },
+    {
+      "path": "figures/12891_2026_9657_Fig1_HTML.jpg",
+      "sha256": "49fb3b8fa01781291655ee1eb8704745e2d91c349ea7cef8e0ddec864cbf20aa",
+      "bytes": 82605,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13123181.1/12891_2026_9657_Fig1_HTML.jpg?md5=04c9a0e00a75613fd81ec1175f3de1be"
+      ],
+      "association": "exact JATS Fig1 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/captions.txt",
+      "sha256": "9616cdf0134b80ac188a996d2d168a8034b2c855f1ce1708fa7af473ce812209",
+      "bytes": 91,
+      "role": "figure_captions",
+      "roles": [
+        "figure_captions"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13123181/"
+      ],
+      "derived_from": "9548a07de33501a6948879792bd77a91e89a262c337ac30c05d1f700318a20d1"
+    },
+    {
+      "path": "records/Registry-CTRI-2020-11-028982-WHO.txt",
+      "sha256": "98e13053a2e2872a15efc2cd9adb25040363c9028a5fd99b050fe559e6054401",
+      "bytes": 4581,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://trialsearch.who.int/Trial2.aspx?TrialID=CTRI/2020/11/028982"
+      ],
+      "derived_from": "0b78b4bed6f638cc54e32fc422c6968e290153d3462d6617f97e1d087bfd5f5f",
+      "representation": "readable_repository_page",
+      "association": "WHO ICTRP mirror; primary trial ID and title verified; registry plans distinct from paper analysis counts",
+      "original_filename": "Registry-CTRI-2020-11-028982-WHO.txt",
+      "retrieved_at": "2026-10-18T02:24:43+08:00"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

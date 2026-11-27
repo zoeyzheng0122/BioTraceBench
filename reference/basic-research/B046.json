@@ -1,0 +1,148 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "Untargeted LC-MS metabolomics",
+      "experiment_run_accession": "Figshare:10.6084/m9.figshare.27753327.v1 (dataset); MetaboLights:MTBLS12434 (study)",
+      "method": "Aggregate comparison of the five selected group-level tissue extracts. ACQUITY UPLC HSS T3 chromatography; ESI positive and negative modes; DDA over m/z 70–1050. Metabolomics-specific preparation-to-file, replicate and harvest mappings are unavailable. Pooled analytical QC is separate from target preparations.",
+      "platform": "Thermo UHPLC–Q Exactive HF-X",
+      "sample_ids": [
+        "S0001",
+        "S0002",
+        "S0003",
+        "S0004",
+        "S0005"
+      ]
+    }
+  ],
+  "condition": [
+    {
+      "condition_id": "C0001",
+      "condition_target": "Source cartilage–synovium co-culture",
+      "experimental_factor": "IL-1β concentration",
+      "factor_unit": "ng/mL",
+      "factor_value": 10,
+      "sample_id": "S0001",
+      "time": null
+    },
+    {
+      "condition_id": "C0002",
+      "condition_target": "Source cartilage–synovium co-culture",
+      "experimental_factor": "IL-1β concentration",
+      "factor_unit": "ng/mL",
+      "factor_value": 10,
+      "sample_id": "S0002",
+      "time": null
+    },
+    {
+      "condition_id": "C0003",
+      "condition_target": "Source cartilage–synovium co-culture",
+      "experimental_factor": "Fresh PRP concentration",
+      "factor_unit": "% (v/v)",
+      "factor_value": 25,
+      "sample_id": "S0002",
+      "time": null
+    },
+    {
+      "condition_id": "C0004",
+      "condition_target": "Source cartilage–synovium co-culture",
+      "experimental_factor": "IL-1β concentration",
+      "factor_unit": "ng/mL",
+      "factor_value": 10,
+      "sample_id": "S0003",
+      "time": null
+    },
+    {
+      "condition_id": "C0005",
+      "condition_target": "Source cartilage–synovium co-culture",
+      "experimental_factor": "Fresh PRP concentration",
+      "factor_unit": "% (v/v)",
+      "factor_value": 50,
+      "sample_id": "S0003",
+      "time": null
+    },
+    {
+      "condition_id": "C0006",
+      "condition_target": "Source cartilage–synovium co-culture",
+      "experimental_factor": "IL-1β concentration",
+      "factor_unit": "ng/mL",
+      "factor_value": 10,
+      "sample_id": "S0004",
+      "time": null
+    },
+    {
+      "condition_id": "C0007",
+      "condition_target": "Source cartilage–synovium co-culture",
+      "experimental_factor": "Reconstituted freeze-dried PRP concentration",
+      "factor_unit": "% (v/v)",
+      "factor_value": 25,
+      "sample_id": "S0004",
+      "time": null
+    },
+    {
+      "condition_id": "C0008",
+      "condition_target": "Source cartilage–synovium co-culture",
+      "experimental_factor": "IL-1β concentration",
+      "factor_unit": "ng/mL",
+      "factor_value": 10,
+      "sample_id": "S0005",
+      "time": null
+    },
+    {
+      "condition_id": "C0009",
+      "condition_target": "Source cartilage–synovium co-culture",
+      "experimental_factor": "Reconstituted freeze-dried PRP concentration",
+      "factor_unit": "% (v/v)",
+      "factor_value": 50,
+      "sample_id": "S0005",
+      "time": null
+    }
+  ],
+  "sample": [
+    {
+      "biological_model": "IL-1β-induced equine cartilage–synovium explant co-culture model",
+      "biological_source": "Equine cartilage/synovial explants; study used four healthy local-breed donors aged 4–5 years; preparation-to-donor mapping unavailable",
+      "sample_accession": null,
+      "sample_id": "S0001",
+      "sample_material": "Methanol/water tissue extract from IL-1β-induced cartilage–synovium co-culture without PRP. Exact tissue composition, pooling and harvest interval of the metabolomics aliquot are unresolved. The general design reports three explant-level wells/group; these are not independent horses and are not mapped to acquisition files.",
+      "sample_name": "IL-1β",
+      "species": "Equus caballus"
+    },
+    {
+      "biological_model": "IL-1β-induced equine cartilage–synovium explant co-culture model",
+      "biological_source": "Equine cartilage/synovial explants; study used four healthy local-breed donors aged 4–5 years; preparation-to-donor mapping unavailable",
+      "sample_accession": null,
+      "sample_id": "S0002",
+      "sample_material": "Methanol/water tissue extract from IL-1β-induced cartilage–synovium co-culture treated with 25% (v/v) F-PRP. Exact tissue composition, pooling and harvest interval of the metabolomics aliquot are unresolved. The general design reports three explant-level wells/group; these are not independent horses and are not mapped to acquisition files. PRP reagent came from one healthy 9-year-old horse.",
+      "sample_name": "25% F-PRP",
+      "species": "Equus caballus"
+    },
+    {
+      "biological_model": "IL-1β-induced equine cartilage–synovium explant co-culture model",
+      "biological_source": "Equine cartilage/synovial explants; study used four healthy local-breed donors aged 4–5 years; preparation-to-donor mapping unavailable",
+      "sample_accession": null,
+      "sample_id": "S0003",
+      "sample_material": "Methanol/water tissue extract from IL-1β-induced cartilage–synovium co-culture treated with 50% (v/v) F-PRP. Exact tissue composition, pooling and harvest interval of the metabolomics aliquot are unresolved. The general design reports three explant-level wells/group; these are not independent horses and are not mapped to acquisition files. PRP reagent came from one healthy 9-year-old horse.",
+      "sample_name": "50% F-PRP",
+      "species": "Equus caballus"
+    },
+    {
+      "biological_model": "IL-1β-induced equine cartilage–synovium explant co-culture model",
+      "biological_source": "Equine cartilage/synovial explants; study used four healthy local-breed donors aged 4–5 years; preparation-to-donor mapping unavailable",
+      "sample_accession": null,
+      "sample_id": "S0004",
+      "sample_material": "Methanol/water tissue extract from IL-1β-induced cartilage–synovium co-culture treated with 25% (v/v) FD-PRP. Exact tissue composition, pooling and harvest interval of the metabolomics aliquot are unresolved. The general design reports three explant-level wells/group; these are not independent horses and are not mapped to acquisition files. PRP reagent came from one healthy 9-year-old horse; FD-PRP was reconstituted to its original volume before use.",
+      "sample_name": "25% FD-PRP",
+      "species": "Equus caballus"
+    },
+    {
+      "biological_model": "IL-1β-induced equine cartilage–synovium explant co-culture model",
+      "biological_source": "Equine cartilage/synovial explants; study used four healthy local-breed donors aged 4–5 years; preparation-to-donor mapping unavailable",
+      "sample_accession": null,
+      "sample_id": "S0005",
+      "sample_material": "Methanol/water tissue extract from IL-1β-induced cartilage–synovium co-culture treated with 50% (v/v) FD-PRP. Exact tissue composition, pooling and harvest interval of the metabolomics aliquot are unresolved. The general design reports three explant-level wells/group; these are not independent horses and are not mapped to acquisition files. PRP reagent came from one healthy 9-year-old horse; FD-PRP was reconstituted to its original volume before use.",
+      "sample_name": "50% FD-PRP",
+      "species": "Equus caballus"
+    }
+  ]
+}

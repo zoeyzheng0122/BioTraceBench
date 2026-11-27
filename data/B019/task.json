@@ -1,0 +1,32 @@
+{
+  "case_id": "B019",
+  "task_id": "B019",
+  "title": "The long non-coding RNA landscape of endurance exercise training",
+  "doi": "10.1016/j.molmet.2026.102358",
+  "comparison_or_design": "The male gastrocnemius RNA-seq comparison at the final endurance-training endpoint and its matched reference.",
+  "observations_or_assays": [
+    "Bulk RNA sequencing"
+  ],
+  "time_scope": "The 8-week training endpoint and its matched control collection.",
+  "excluded": [
+    "Female rats, vastus lateralis and every other tissue, reference RNA/vial controls and other training durations",
+    "ATAC-seq, methylation, proteomics, cross-tissue analyses and lncRNA expression results"
+  ],
+  "population_or_material": "Male Fischer 344 rat gastrocnemius (SKM-GN/SKMGN) materials in the MoTrPAC-derived RNA-seq resource.",
+  "requested_items": [
+    "Endurance training versus sedentary control and training/collection duration"
+  ],
+  "resources": [
+    {
+      "accession": "GSE242358",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE242358"
+    }
+  ],
+  "domain": "basic",
+  "pipeline": "basic-research",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/basic-research.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

@@ -1,0 +1,37 @@
+{
+  "case_id": "B044",
+  "task_id": "B044",
+  "title": "Optimizing DCD donor liver function with resveratrol during machine perfusion",
+  "doi": "10.1038/s41598-025-26147-1",
+  "comparison_or_design": "The preservation-strategy comparison in the donor-liver RNA-seq experiment. Apply the acquisition-specific platform precedence below.",
+  "observations_or_assays": [
+    "Bulk RNA sequencing"
+  ],
+  "time_scope": "Collection after 1 hour of normothermic reperfusion.",
+  "excluded": [
+    "Perfusate time series, histology, metabolite and other functional assays.",
+    "The naïve group and the separate three-hour resveratrol dose-finding experiment.",
+    "Routine anesthesia, perfusate recipes, flow rates, flushing volumes, and library-preparation quantities as experimental conditions.",
+    "Guessing preservation assignments from generic sample titles, file order or expression similarity."
+  ],
+  "population_or_material": "Rat donor-liver tissue preparations in the selected preservation/reperfusion RNA-seq experiment.",
+  "requested_items": [
+    "Asystolic warm-ischemia duration before preservation.",
+    "Preservation temperature and duration for each selected preservation group.",
+    "Normothermic reperfusion temperature and duration from reperfusion initiation to tissue collection.",
+    "Resveratrol concentration during preservation for RES preparations, when supported.\n\nGroup identity belongs in Sample Name / Sample Material; do not create categorical group-name condition rows. Use numeric Factor Value with a separate Unit for the requested quantitative factors. Condition Target identifies the donor liver receiving the intervention, including when the assayed preparation is extracted RNA. Attach every condition to its receiving Sample ID and repeat supported shared conditions for each identifiable preparation. Preserve anchored English Time. Do not invent numerical zero-dose controls or expand routine preparation recipes into conditions."
+  ],
+  "resources": [
+    {
+      "accession": "PRJNA1309769",
+      "url": "https://www.ebi.ac.uk/ena/browser/view/PRJNA1309769"
+    }
+  ],
+  "domain": "basic",
+  "pipeline": "basic-research",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/basic-research.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

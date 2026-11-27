@@ -1,0 +1,155 @@
+{
+  "measure": [
+    {
+      "measure_definition": "NREM slow-oscillation EEG spectral power (0.5 to <1 Hz), evaluated for acute nights 1–2 and chronic nights 29–30. Primary spectral analyses used mean relative power averaged across frontal F3/F4 derivations and both nights at each visit after EEG quality control. The report evaluates log-transformed power-ratio differences from acute to chronic exposure; within-arm one-sample t tests assess deviation from zero.",
+      "measure_id": "M0",
+      "measure_name": "NREM slow-oscillation spectral power"
+    },
+    {
+      "measure_definition": "NREM alpha EEG spectral power (7.5 to <11 Hz), evaluated for acute nights 1–2 and chronic nights 29–30. Primary spectral analyses used mean relative power averaged across frontal F3/F4 derivations and both nights at each visit after EEG quality control. The report evaluates log-transformed power-ratio differences from acute to chronic exposure; within-arm one-sample t tests assess deviation from zero.",
+      "measure_id": "M1",
+      "measure_name": "NREM alpha spectral power"
+    },
+    {
+      "measure_definition": "NREM theta EEG spectral power (4.5 to <7.5 Hz), evaluated for acute nights 1–2 and chronic nights 29–30. Primary spectral analyses used mean relative power averaged across frontal F3/F4 derivations and both nights at each visit after EEG quality control. The report evaluates log-transformed power-ratio differences from acute to chronic exposure; within-arm one-sample t tests assess deviation from zero.",
+      "measure_id": "M2",
+      "measure_name": "NREM theta spectral power"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "Lemborexant 5 mg; lemborexant 10 mg; zolpidem tartrate extended release 6.25 mg; placebo",
+      "intervention_regimen": "Lemborexant 5 mg; lemborexant 10 mg; zolpidem tartrate extended release 6.25 mg; placebo dose not applicable.; Orally each night immediately before intended sleep for 30 nights; each arm receives active drug or matching placebo as randomized.",
+      "population_definition": "Randomized to any double-blind treatment arm (lemborexant 5 mg, lemborexant 10 mg, zolpidem tartrate extended release 6.25 mg, or placebo).; Older adults with insomnia disorder; male age 65 years or older or female age 55 years or older; randomized to treatment in SUNRISE 1. Includes all four treatment arms.",
+      "population_id": "P2",
+      "population_name": "Overall randomized treatment population",
+      "population_size": 1006,
+      "population_time_frame": "Study start 2016-05-31; primary completion 2018-01-30."
+    },
+    {
+      "intervention": "Lemborexant 5 mg; lemborexant 10 mg; zolpidem tartrate extended release 6.25 mg; placebo (randomized parent-trial interventions).",
+      "intervention_regimen": "Lemborexant 5 mg; lemborexant 10 mg; zolpidem tartrate extended release 6.25 mg; placebo: —; Orally once nightly for 30 nights in a double-blind, double-dummy design; PSG at baseline, acute (days 1–2), and chronic (days 29–30).",
+      "population_definition": "Selection into the EEG analysis subsample from the SUNRISE 1 parent trial.; Randomized subsample of 249 participants selected from 450 eligible participants to balance sex (male:female ratio) and race (White/Black representation); selected from the middle two quartiles (25th–75th percentile) of baseline composite memory scores on the Performance Assessment Battery; restricted baseline ISI range 13–28; stratified by baseline PSG total sleep time ≤6 h vs >6 h; all selected participants met ≥80% pill-count adherence during the 30-day treatment period.",
+      "population_id": "P3",
+      "population_name": "Selected EEG subsample (249 participants)",
+      "population_size": 249,
+      "population_time_frame": "Study conducted May 2016–January 2018; PSG assessments at baseline, acute days 1–2, and chronic days 29–30; exact calendar dates Not reported."
+    },
+    {
+      "intervention": "Lemborexant 5 mg; lemborexant 10 mg; zolpidem tartrate extended release 6.25 mg; placebo (randomized parent-trial interventions).",
+      "intervention_regimen": "Lemborexant 5 mg; lemborexant 10 mg; zolpidem tartrate extended release 6.25 mg; placebo: —; Orally once nightly for 30 nights; PSG at baseline, acute (days 1–2), and chronic (days 29–30); spectral estimates averaged across both PSG nights per visit unless one night excluded for poor quality.",
+      "population_definition": "Availability of adequate-quality NREM sleep EEG data for reliable quantitative analysis at all visits.; Participants from the 249-participant EEG subsample with EEG data of adequate quality for reliable quantitative analysis at all visits in NREM sleep; NREM sample included 126 female; mean age 71.77 ± 0.37 years; NREM and REM analytic samples partially overlapping because REM data were more frequently excluded for artifact contamination.",
+      "population_id": "P4",
+      "population_name": "NREM EEG analytic sample",
+      "population_size": 158,
+      "population_time_frame": "Study conducted May 2016–January 2018; PSG assessments at baseline, acute days 1–2, and chronic days 29–30; exact calendar dates Not reported."
+    },
+    {
+      "intervention": "Lemborexant 10 mg plus zolpidem-matched placebo.",
+      "intervention_regimen": "Lemborexant 10 mg; zolpidem-matched placebo: —; Orally once daily from Day 1 up to Day 30 in the Treatment Period; PSG at baseline, acute days 1–2, and chronic days 29–30.",
+      "population_definition": "Participants assigned to lemborexant 10 mg in the EEG sample, with Table 1 reporting 41 members in this treatment group. This is the reported group membership count; the number included in each acute-to-chronic one-sample t test is not separately stated. The selected EEG subsample required at least 80% pill-count adherence.",
+      "population_id": "P5",
+      "population_name": "Lemborexant 10 mg group reported in Table 1",
+      "population_size": 41,
+      "population_time_frame": "Study conducted May 2016–January 2018; PSG assessments at baseline, acute days 1–2, and chronic days 29–30; exact calendar dates Not reported."
+    },
+    {
+      "intervention": "Zolpidem tartrate extended release 6.25 mg plus lemborexant-matched placebo.",
+      "intervention_regimen": "Zolpidem tartrate extended release 6.25 mg; lemborexant-matched placebo: —; Orally once daily from Day 1 up to Day 30 in the Treatment Period; PSG at baseline, acute days 1–2, and chronic days 29–30.",
+      "population_definition": "Participants assigned to zolpidem tartrate extended release 6.25 mg in the EEG sample, with Table 1 reporting 36 members in this treatment group. This is the reported group membership count; the number included in each acute-to-chronic one-sample t test is not separately stated. The selected EEG subsample required at least 80% pill-count adherence.",
+      "population_id": "P6",
+      "population_name": "Zolpidem tartrate extended release 6.25 mg group reported in Table 1",
+      "population_size": 36,
+      "population_time_frame": "Study conducted May 2016–January 2018; PSG assessments at baseline, acute days 1–2, and chronic days 29–30; exact calendar dates Not reported."
+    }
+  ],
+  "population_relation": [
+    {
+      "population_a_id": "P3",
+      "population_b_id": "P2",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P4",
+      "population_b_id": "P3",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P5",
+      "population_b_id": "P4",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P6",
+      "population_b_id": "P4",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P5",
+      "population_b_id": "P6",
+      "relationship": "disjoint from"
+    }
+  ],
+  "result": [
+    {
+      "assessment_time": "Acute nights 1–2 to chronic nights 29–30",
+      "comparison": "Within P5: chronic relative to acute exposure, tested against zero; positive values indicate increased effects with prolonged exposure, negative values decreased effects (source wording)",
+      "measure_id": "M0",
+      "population_id": "P5",
+      "result_id": "R06",
+      "result_unit": null,
+      "result_value": 2.68,
+      "statistic_type": "Within-arm one-sample t statistic for the reported chronic-to-acute log-transformed power-ratio change",
+      "statistical_method": "One-sample t-test against zero with LSD adjustments. The methods define acute and chronic proportional changes as (Acute - Baseline)/Baseline and (Chronic - Baseline)/Baseline and apply log10(1 + ratio). The reported chronic-to-acute change assesses evolving effects; the Results state that positive values indicate increased effects with prolonged exposure and negative values decreased effects. The exact composite chronic-to-acute formula is not separately printed. Per-test n is not explicitly reported. The dedicated one-sample test paragraph specifies LSD; the separate general Bonferroni statement is retained as a source-wording conflict.",
+      "supplementary_statistics": "p=.01; Cohen's d=0.45; df=34; this is not a between-arm test"
+    },
+    {
+      "assessment_time": "Acute nights 1–2 to chronic nights 29–30",
+      "comparison": "Within P5: chronic relative to acute exposure, tested against zero; positive values indicate increased effects with prolonged exposure, negative values decreased effects (source wording)",
+      "measure_id": "M1",
+      "population_id": "P5",
+      "result_id": "R07",
+      "result_unit": null,
+      "result_value": -2.89,
+      "statistic_type": "Within-arm one-sample t statistic for the reported chronic-to-acute log-transformed power-ratio change",
+      "statistical_method": "One-sample t-test against zero with LSD adjustments. The methods define acute and chronic proportional changes as (Acute - Baseline)/Baseline and (Chronic - Baseline)/Baseline and apply log10(1 + ratio). The reported chronic-to-acute change assesses evolving effects; the Results state that positive values indicate increased effects with prolonged exposure and negative values decreased effects. The exact composite chronic-to-acute formula is not separately printed. Per-test n is not explicitly reported. The dedicated one-sample test paragraph specifies LSD; the separate general Bonferroni statement is retained as a source-wording conflict.",
+      "supplementary_statistics": "p=.007; Cohen's d=0.49; df=34; this is not a between-arm test"
+    },
+    {
+      "assessment_time": "Acute nights 1–2 to chronic nights 29–30",
+      "comparison": "Within P5: chronic relative to acute exposure, tested against zero; positive values indicate increased effects with prolonged exposure, negative values decreased effects (source wording)",
+      "measure_id": "M2",
+      "population_id": "P5",
+      "result_id": "R08",
+      "result_unit": null,
+      "result_value": -2.19,
+      "statistic_type": "Within-arm one-sample t statistic for the reported chronic-to-acute log-transformed power-ratio change",
+      "statistical_method": "One-sample t-test against zero with LSD adjustments. The methods define acute and chronic proportional changes as (Acute - Baseline)/Baseline and (Chronic - Baseline)/Baseline and apply log10(1 + ratio). The reported chronic-to-acute change assesses evolving effects; the Results state that positive values indicate increased effects with prolonged exposure and negative values decreased effects. The exact composite chronic-to-acute formula is not separately printed. Per-test n is not explicitly reported. The dedicated one-sample test paragraph specifies LSD; the separate general Bonferroni statement is retained as a source-wording conflict.",
+      "supplementary_statistics": "p=.03; Cohen's d=0.37; df=34; this is not a between-arm test"
+    },
+    {
+      "assessment_time": "Acute nights 1–2 to chronic nights 29–30",
+      "comparison": "Within P6: chronic relative to acute exposure, tested against zero; positive values indicate increased effects with prolonged exposure, negative values decreased effects (source wording)",
+      "measure_id": "M1",
+      "population_id": "P6",
+      "result_id": "R09",
+      "result_unit": null,
+      "result_value": 3.16,
+      "statistic_type": "Within-arm one-sample t statistic for the reported chronic-to-acute log-transformed power-ratio change",
+      "statistical_method": "One-sample t-test against zero with LSD adjustments. The methods define acute and chronic proportional changes as (Acute - Baseline)/Baseline and (Chronic - Baseline)/Baseline and apply log10(1 + ratio). The reported chronic-to-acute change assesses evolving effects; the Results state that positive values indicate increased effects with prolonged exposure and negative values decreased effects. The exact composite chronic-to-acute formula is not separately printed. Per-test n is not explicitly reported. The dedicated one-sample test paragraph specifies LSD; the separate general Bonferroni statement is retained as a source-wording conflict.",
+      "supplementary_statistics": "p=.004; Cohen's d=0.62; df=25; this is not a between-arm test"
+    },
+    {
+      "assessment_time": "Acute nights 1–2 to chronic nights 29–30",
+      "comparison": "Within P6: chronic relative to acute exposure, tested against zero; positive values indicate increased effects with prolonged exposure, negative values decreased effects (source wording)",
+      "measure_id": "M2",
+      "population_id": "P6",
+      "result_id": "R10",
+      "result_unit": null,
+      "result_value": 2.48,
+      "statistic_type": "Within-arm one-sample t statistic for the reported chronic-to-acute log-transformed power-ratio change",
+      "statistical_method": "One-sample t-test against zero with LSD adjustments. The methods define acute and chronic proportional changes as (Acute - Baseline)/Baseline and (Chronic - Baseline)/Baseline and apply log10(1 + ratio). The reported chronic-to-acute change assesses evolving effects; the Results state that positive values indicate increased effects with prolonged exposure and negative values decreased effects. The exact composite chronic-to-acute formula is not separately printed. Per-test n is not explicitly reported. The dedicated one-sample test paragraph specifies LSD; the separate general Bonferroni statement is retained as a source-wording conflict.",
+      "supplementary_statistics": "p=.02; Cohen's d=0.49; df=25; this is not a between-arm test"
+    }
+  ]
+}

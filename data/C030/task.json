@@ -1,0 +1,32 @@
+{
+  "case_id": "C030",
+  "task_id": "C030",
+  "title": "Physiotherapy with integrated virtual reality for patients with severe chronic low back pain: cluster-randomized controlled trial (VARIETY)",
+  "doi": "10.1186/s12891-026-09873-z",
+  "comparison_or_design": "The contemporaneous randomized VARIETY comparison involving home VR.",
+  "observations_or_assays": [
+    "Oswestry Disability Index",
+    "Numeric Pain Rating Scale",
+    "Pain Catastrophizing Scale"
+  ],
+  "time_scope": "Baseline to month 3.",
+  "excluded": [
+    "Historical/augmented total controls and month-1 analyses",
+    "Other questionnaires and feasibility results"
+  ],
+  "population_or_material": "Patients in the contemporaneous VARIETY cluster-randomized trial arms; retain practice-level clustering separately from participant counts.",
+  "requested_items": [
+    "Table 6 observed T0/T3 arm means/SD and T3 observed n; main Table 3 contrasts explicitly labelled three months; directly reported within-arm ODI improvement in Results. Preserve Table 3/Table 6 discrepancies in separate review records. Exclude external/pooled controls, overall-trajectory contrasts and other visits."
+  ],
+  "resources": [],
+  "case_specific_rules": [
+    "Use Table 6 for requested observed T0/T3 summaries and Table 3 rows explicitly labelled three months for adjusted contrasts. Observed and adjusted results are distinct statistical targets. Do not substitute T1 data for T3 to reconcile table differences."
+  ],
+  "domain": "clinical",
+  "pipeline": "clinical-trials",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/clinical-trials.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

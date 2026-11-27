@@ -1,0 +1,211 @@
+{
+  "measure": [
+    {
+      "measure_definition": "Time to event: randomization to first documented disease progression per iwCLL 2018 criteria or death from any cause, whichever occurs first; Participants; Independent review committee (IRC) assessment using iwCLL 2018 criteria; Kaplan-Meier method for PFS and 24-month landmark estimates; stratified log-rank test and stratified Cox proportional hazards model using randomization strata.; Progression-free survival defined as time from random assignment to documented disease progression per iwCLL 2018 criteria or death from any cause, whichever occurs first. The 24-month landmark is a Kaplan-Meier PFS estimate at 24 months. Hazard ratio is pirtobrutinib versus BendaR.",
+      "measure_id": "M0",
+      "measure_name": "Progression-free survival (PFS)"
+    },
+    {
+      "measure_definition": "Time to event: randomization to death from any cause; Participants; Kaplan-Meier method; stratified log-rank test and stratified Cox proportional hazards model using randomization strata. OS includes the crossover period for BendaR patients who crossed over to pirtobrutinib.; Overall survival defined as time from random assignment to death from any cause. Median follow-up estimated by reverse Kaplan-Meier. Hazard ratio is pirtobrutinib versus BendaR.",
+      "measure_id": "M1",
+      "measure_name": "Overall survival (OS)"
+    },
+    {
+      "measure_definition": "Occurrence: best overall response of complete response (CR), CR with incomplete bone marrow recovery (CRi), nodular partial response (nPR), or partial response (PR) at or before initiation of subsequent anticancer therapy; Participants; IRC assessment using iwCLL 2018 criteria; 95% CI and stratified Cochran-Mantel-Haenszel test.; ORR defined as the proportion of patients with best overall response of CR, CRi, nPR, or PR at or before initiation of subsequent anticancer therapy; denominator is the total number randomized per arm. Response assessed by IRC.",
+      "measure_id": "M2",
+      "measure_name": "Overall response rate (ORR)"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "Pirtobrutinib or bendamustine plus rituximab (BendaR).",
+      "intervention_regimen": "Pirtobrutinib 200 mg orally once daily; bendamustine 90 mg/m2 intravenously on days 1 and 2 of each 28-day cycle; rituximab 375 mg/m2 intravenously on day 1 of cycle 1, then 500 mg/m2 on day 1 of cycles 2-6.; Pirtobrutinib given continuously in 28-day cycles until disease progression or unacceptable toxicity; BendaR given as fixed-duration six 28-day cycles. BendaR recipients could cross over to pirtobrutinib after IRC-confirmed progressive disease.",
+      "population_definition": "Randomized treatment assignment; combined group of both treatment arms for the ITT population.; Adults aged 18 years or older with treatment-naive CLL/SLL requiring therapy per iwCLL 2018 criteria, without evidence of del(17p), and ECOG performance status 0-2; all patients randomly assigned 1:1 to pirtobrutinib or BendaR. Crossover from BendaR to pirtobrutinib was permitted after IRC-confirmed progressive disease.",
+      "population_id": "P0",
+      "population_name": "BRUIN CLL-313 ITT population (all randomized)",
+      "population_size": 282,
+      "population_time_frame": "Randomized from December 6, 2021 to April 13, 2023; data cutoff July 11, 2025."
+    },
+    {
+      "intervention": "Pirtobrutinib.",
+      "intervention_regimen": "200 mg orally once daily.; Continuous monotherapy in 28-day cycles until disease progression or unacceptable toxicity.",
+      "population_definition": "Randomized to pirtobrutinib monotherapy.; Adults aged 18 years or older with treatment-naive CLL/SLL requiring therapy per iwCLL 2018 criteria, without evidence of del(17p), and ECOG performance status 0-2; randomly assigned 1:1 to pirtobrutinib. Crossover from BendaR to pirtobrutinib was permitted after IRC-confirmed progressive disease.",
+      "population_id": "P1",
+      "population_name": "Pirtobrutinib arm (ITT)",
+      "population_size": 141,
+      "population_time_frame": "Randomized from December 6, 2021 to April 13, 2023; data cutoff July 11, 2025."
+    },
+    {
+      "intervention": "Bendamustine plus rituximab (BendaR).",
+      "intervention_regimen": "Bendamustine 90 mg/m2 intravenously on days 1 and 2 of each 28-day cycle; rituximab 375 mg/m2 intravenously on day 1 of cycle 1, then 500 mg/m2 intravenously on day 1 of cycles 2-6.; Bendamustine plus rituximab as fixed-duration six 28-day cycles; crossover to pirtobrutinib permitted after IRC-confirmed progressive disease.",
+      "population_definition": "Randomized to bendamustine plus rituximab.; Adults aged 18 years or older with treatment-naive CLL/SLL requiring therapy per iwCLL 2018 criteria, without evidence of del(17p), and ECOG performance status 0-2; randomly assigned 1:1 to BendaR. Crossover to pirtobrutinib was permitted after IRC-confirmed progressive disease.",
+      "population_id": "P2",
+      "population_name": "BendaR arm (ITT)",
+      "population_size": 141,
+      "population_time_frame": "Randomized from December 6, 2021 to April 13, 2023; data cutoff July 11, 2025."
+    }
+  ],
+  "population_relation": [
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P2",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P2",
+      "relationship": "disjoint from"
+    }
+  ],
+  "result": [
+    {
+      "assessment_time": "At data cutoff July 11, 2025; median follow-up for IRC-assessed PFS 28.1 months",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R01",
+      "result_unit": "months",
+      "result_value": "Not reached",
+      "statistic_type": "Median (Kaplan-Meier)",
+      "statistical_method": "Kaplan–Meier estimation",
+      "supplementary_statistics": "Registry 95% CI limits not estimable due to insufficient events. Registry-reported analyzed n = 141 in this arm."
+    },
+    {
+      "assessment_time": "At data cutoff July 11, 2025; median follow-up for IRC-assessed PFS 28.1 months",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P2",
+      "result_id": "R02",
+      "result_unit": "months",
+      "result_value": 33.5,
+      "statistic_type": "Median (Kaplan-Meier)",
+      "statistical_method": "Kaplan–Meier estimation",
+      "supplementary_statistics": "95% CI, 32.7 to not estimable (NE) Registry-reported analyzed n = 141 in this arm."
+    },
+    {
+      "assessment_time": "24 months from random assignment",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R03",
+      "result_unit": "%",
+      "result_value": 93.4,
+      "statistic_type": "Kaplan-Meier estimate (24-month PFS rate)",
+      "statistical_method": "Kaplan–Meier estimation",
+      "supplementary_statistics": "95% CI, 87.6 to 96.5"
+    },
+    {
+      "assessment_time": "24 months from random assignment",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P2",
+      "result_id": "R04",
+      "result_unit": "%",
+      "result_value": 70.7,
+      "statistic_type": "Kaplan-Meier estimate (24-month PFS rate)",
+      "statistical_method": "Kaplan–Meier estimation",
+      "supplementary_statistics": "95% CI, 61.5 to 78.1"
+    },
+    {
+      "assessment_time": "At data cutoff July 11, 2025; median follow-up for IRC-assessed PFS 28.1 months",
+      "comparison": "P1 relative to P2 (numerator versus reference)",
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R05",
+      "result_unit": null,
+      "result_value": 0.199,
+      "statistic_type": "Hazard ratio (pirtobrutinib vs BendaR; stratified Cox proportional hazards model)",
+      "statistical_method": "Cox proportional hazards model stratified by IGHV mutation status and Rai stage. Two-sided stratified log-rank test.",
+      "supplementary_statistics": "95% CI, 0.107 to 0.367; P < .0001 (stratified log-rank test)"
+    },
+    {
+      "assessment_time": "24 months from random assignment",
+      "comparison": "P1 vs P2; subtraction/sign direction not explicitly established",
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R06",
+      "result_unit": "percentage points",
+      "result_value": 22.7,
+      "statistic_type": "Difference in 24-month PFS rates",
+      "statistical_method": null,
+      "supplementary_statistics": "95% CI, 13.4 to 32.0"
+    },
+    {
+      "assessment_time": "Interim OS analysis at data cutoff July 11, 2025; median follow-up 32.2 months",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R07",
+      "result_unit": "months",
+      "result_value": "Not reached",
+      "statistic_type": "Median (Kaplan-Meier)",
+      "statistical_method": "Kaplan–Meier estimation",
+      "supplementary_statistics": "95% CI, NE to NE Registry-reported analyzed n = 141 in this arm."
+    },
+    {
+      "assessment_time": "Interim OS analysis at data cutoff July 11, 2025; median follow-up 32.2 months",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P2",
+      "result_id": "R08",
+      "result_unit": "months",
+      "result_value": "Not reached",
+      "statistic_type": "Median (Kaplan-Meier)",
+      "statistical_method": "Kaplan–Meier estimation",
+      "supplementary_statistics": "95% CI, NE to NE Registry-reported analyzed n = 141 in this arm."
+    },
+    {
+      "assessment_time": "Interim OS analysis at data cutoff July 11, 2025; median follow-up 32.2 months",
+      "comparison": "P1 relative to P2 (numerator versus reference)",
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R09",
+      "result_unit": null,
+      "result_value": 0.257,
+      "statistic_type": "Hazard ratio (pirtobrutinib vs BendaR; stratified Cox proportional hazards model)",
+      "statistical_method": "Cox proportional hazards model stratified by IGHV mutation status and Rai stage. Two-sided stratified log-rank test. The primary OS analysis retains post-crossover outcomes.",
+      "supplementary_statistics": "95% CI, 0.070 to 0.934; P = .0261; two-sided alpha = .000001 for interim OS analysis"
+    },
+    {
+      "assessment_time": "At data cutoff July 11, 2025; best overall response at or before subsequent anticancer therapy, disease progression, or death",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R10",
+      "result_unit": "participants",
+      "result_value": 133,
+      "statistic_type": "Number of participants with overall response (CR, CRi, nPR, or PR)",
+      "statistical_method": null,
+      "supplementary_statistics": "94.3% (133/141). 95% CI 89.13% to 97.52%."
+    },
+    {
+      "assessment_time": "At data cutoff July 11, 2025; best overall response at or before subsequent anticancer therapy, disease progression, or death",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P2",
+      "result_id": "R11",
+      "result_unit": "participants",
+      "result_value": 114,
+      "statistic_type": "Number of participants with overall response (CR, CRi, nPR, or PR)",
+      "statistical_method": null,
+      "supplementary_statistics": "80.9% (114/141). 95% CI 73.38% to 86.99%."
+    },
+    {
+      "assessment_time": "At data cutoff July 11, 2025",
+      "comparison": "P1 versus P2; two-sided test (no subtraction direction)",
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R12",
+      "result_unit": null,
+      "result_value": 0.0006,
+      "statistic_type": "Independent between-arm ORR test P value",
+      "statistical_method": "P value (stratified Cochran-Mantel-Haenszel test; pirtobrutinib vs BendaR)",
+      "supplementary_statistics": "Nominal two-sided P value"
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "B041",
+    "domain": "basic",
+    "title": "The molecular signature of degeneration in explanted decellularized allogeneic heart valves",
+    "doi": "10.3389/fcvm.2026.1865343",
+    "pipeline": "basic-research",
+    "pmid": "42598457",
+    "pmcid": "PMC13470892",
+    "registry": "10.6084/m9.figshare.32051796"
+  },
+  "files": [
+    {
+      "path": "records/Figshare-m9.figshare.32051796-record.txt",
+      "sha256": "ab3bb8f16e8fed048fcc0bc9484817ab5fe0db5c71387da8e92848b2d3cc4cb4",
+      "bytes": 2685,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://api.figshare.com/v2/articles/32051796"
+      ],
+      "derived_from": "ac1b614b006b5159a343fc2754a7e13b64f8e34712712de12f12ed2977bfee03",
+      "representation": "readable_repository_record",
+      "association": "exact accession reported in Data Availability; metadata only; relation not yet verified; readable official record text",
+      "original_filename": "Figshare-m9.figshare.32051796-record.txt",
+      "retrieved_at": "2026-10-18T00:00:22+08:00"
+    },
+    {
+      "path": "sources/article.xml",
+      "sha256": "8d8c0d654cd0411780dd008abf6a1fd8d9e950395eedb7126607fd26152e0d27",
+      "bytes": 104347,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13470892/fullTextXML"
+      ],
+      "association": "exact public PMCID candidate"
+    },
+    {
+      "path": "records/Figshare-m9.figshare.32051796-record.json",
+      "sha256": "5292d12ae0f2cf667f284039f7e89aba81426926fc85047a2544ab99094b8c7f",
+      "bytes": 2693,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://api.figshare.com/v2/articles/32051796"
+      ],
+      "association": "exact accession reported in Data Availability; metadata only; relation not yet verified",
+      "original_filename": "Figshare-m9.figshare.32051796-record.json",
+      "retrieved_at": "2026-10-18T00:00:22+08:00"
+    },
+    {
+      "path": "figures/captions.txt",
+      "sha256": "95bca8b0a39065cb72465a8ba1f4e05cbe18b2e7af2fad0d50bd3bb4eafefff6",
+      "bytes": 4524,
+      "role": "figure_captions",
+      "roles": [
+        "figure_captions"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13470892/"
+      ],
+      "derived_from": "80abec79b55b2b6dd6690fdbea01f6ebe58a5c5db02ecde64f9e5467e5eafd0b"
+    },
+    {
+      "path": "figures/fcvm-13-1865343-g001.jpg",
+      "sha256": "0df6c36c1c458f3f7d16dff57eae760ea9e9edde131e54fa0e34d3d3b2ece742",
+      "bytes": 214962,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13470892.1/fcvm-13-1865343-g001.jpg?md5=e853088e851b8c3c58836c02ef192545"
+      ],
+      "association": "exact JATS F1 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/fcvm-13-1865343-g002.jpg",
+      "sha256": "db1b59b5eaf9cb8a4c82ec4ea388b88880b3a8dd41fd9c2ae17a3f9616fcd4b5",
+      "bytes": 147790,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13470892.1/fcvm-13-1865343-g002.jpg?md5=14dd4adf6d6f1630d039701f5ac0f12a"
+      ],
+      "association": "exact JATS F2 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/fcvm-13-1865343-g003.jpg",
+      "sha256": "7bc0a34fa4a3be374741bf25b2b6ee6b22ce574d76f8ca26f2ee63e4366db3d8",
+      "bytes": 145183,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13470892.1/fcvm-13-1865343-g003.jpg?md5=a730b3282bfa0621d7a0ef9398d22727"
+      ],
+      "association": "exact JATS F3 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/fcvm-13-1865343-g004.jpg",
+      "sha256": "95f476d575f682089a302dadb4696f232d7594f1aa0f654749140f98efb7db20",
+      "bytes": 118611,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13470892.1/fcvm-13-1865343-g004.jpg?md5=3172b11c3926d801e594c85cd8102379"
+      ],
+      "association": "exact JATS F4 in verified PMC version; article source only"
+    },
+    {
+      "path": "records/Figshare-32051796-v3-fibrosis-av-normalized-headers.csv",
+      "sha256": "70c508c8e17174765c039777fd5b0c4270a8b443a541e571eeaf9eef4ee81793",
+      "bytes": 1845,
+      "role": "design_metadata",
+      "roles": [
+        "design_metadata"
+      ],
+      "input_use": "model",
+      "source_urls": [],
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "original_filename": "Figshare-32051796-v3-fibrosis-av-normalized-headers.csv"
+    },
+    {
+      "path": "records/Figshare-32051796-v3-fibrosis-raw-profile-headers.csv",
+      "sha256": "66b65c69d10f529f973a0373f74b3011b5e54bc30e83da583c5ef392f21690b2",
+      "bytes": 1910,
+      "role": "design_metadata",
+      "roles": [
+        "design_metadata"
+      ],
+      "input_use": "model",
+      "source_urls": [],
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "original_filename": "Figshare-32051796-v3-fibrosis-raw-profile-headers.csv"
+    },
+    {
+      "path": "records/Figshare-32051796-v3-fibrosis-sample-annotation.csv",
+      "sha256": "452477b1a6d0412354cb4039c2ae0a7a0f7282db0460074c971ea6737003b653",
+      "bytes": 2169,
+      "role": "design_metadata",
+      "roles": [
+        "design_metadata"
+      ],
+      "input_use": "model",
+      "source_urls": [],
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "original_filename": "Figshare-32051796-v3-fibrosis-sample-annotation.csv",
+      "derived_from": "47906aa42078c7dd42e65c7d7f3c2f1321fbcf2d16865420fd042ea5e7d6e5be"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

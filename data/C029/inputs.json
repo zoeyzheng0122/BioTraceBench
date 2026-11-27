@@ -1,0 +1,121 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "C029",
+    "domain": "clinical",
+    "title": "The feasibility of delivering and evaluating stratified care integrated with telehealth (‘Rapid Stratified Telehealth’) for patients with low back pain: a feasibility and pilot randomised controlled trial",
+    "doi": "10.1007/s10067-026-07955-w",
+    "pipeline": "clinical-trials",
+    "pmid": "41945222",
+    "pmcid": "PMC13249632",
+    "registry": "ACTRN12621001104842"
+  },
+  "files": [
+    {
+      "path": "sources/article.xml",
+      "sha256": "e93f00f1ead3396c72995937910c392f00b6fdf256c66e1474869977da2ac34e",
+      "bytes": 139663,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13249632/fullTextXML"
+      ],
+      "association": "exact PMCID from case identity"
+    },
+    {
+      "path": "figures/10067_2026_7955_Fig1_HTML.jpg",
+      "sha256": "c65f4de8057c5fd10f16de98ffe9f85ae1a6c99f7efb1945c33f16c5b11db048",
+      "bytes": 75084,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13249632/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package"
+    },
+    {
+      "path": "records/Registry-ACTRN12621001104842.txt",
+      "sha256": "3191965fbf60dae588968ea134653ed9e944412abf4ffb651958a98ed81c719a",
+      "bytes": 25797,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.anzctr.org.au/Trial/Registration/TrialReview.aspx?ACTRN=12621001104842"
+      ],
+      "derived_from": "ea74ba17ce6bc4479cacd991f9bfb9a2f9a9304d20fe8934a59fecf6d6433097",
+      "representation": "readable_repository_page",
+      "original_filename": "Registry-ACTRN12621001104842.txt",
+      "retrieved_at": "2026-10-18T02:16:14+08:00"
+    },
+    {
+      "path": "supplements/10067_2026_7955_MOESM4_ESM__refine/page-0001-region-01.png",
+      "sha256": "d0cea810ed184a4e0f815aecb8e1681fffe2df5ef168454c7ce24d65c775f30f",
+      "bytes": 132179,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13249632/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package",
+      "derived_from": "639329b16a40f7ce9cb1153db81c526c8f2dd294b9468716f0b12e1ccf54fe6f",
+      "original_sha256": "639329b16a40f7ce9cb1153db81c526c8f2dd294b9468716f0b12e1ccf54fe6f",
+      "original_filename": "10067_2026_7955_MOESM4_ESM.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/10067_2026_7955_MOESM4_ESM__refine/page-0004-region-01.png",
+      "sha256": "2d184ee1ec75ee2872d2280063ac6a27178eb29f5b67bf4895f13fbb14458908",
+      "bytes": 21561,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13249632/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package",
+      "derived_from": "639329b16a40f7ce9cb1153db81c526c8f2dd294b9468716f0b12e1ccf54fe6f",
+      "original_sha256": "639329b16a40f7ce9cb1153db81c526c8f2dd294b9468716f0b12e1ccf54fe6f",
+      "original_filename": "10067_2026_7955_MOESM4_ESM.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/10067_2026_7955_MOESM4_ESM__refine/content.md",
+      "sha256": "fb3c96b88758d7cdad45b5690894a2fe8bcf4ed50f2fed8956368d5eee2407e2",
+      "bytes": 13470,
+      "role": "supplement",
+      "roles": [
+        "supplement"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13249632/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package",
+      "derived_from": "639329b16a40f7ce9cb1153db81c526c8f2dd294b9468716f0b12e1ccf54fe6f",
+      "original_sha256": "639329b16a40f7ce9cb1153db81c526c8f2dd294b9468716f0b12e1ccf54fe6f",
+      "original_filename": "10067_2026_7955_MOESM4_ESM.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "pdf_text_visual"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

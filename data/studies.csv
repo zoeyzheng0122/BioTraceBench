@@ -1,0 +1,101 @@
+case,domain,doi,title,schema
+B001,basic,10.3390/ijms26062766,Seco-Duocarmycin SA in Aggressive Glioblastoma Cell Lines,basic-research.schema.json
+B002,basic,10.1038/s41598-025-12622-2,Comparative effects of standardized Centella asiatica extract (ECa 233) and its active compound mixture on proteomics and mitochondrial function,basic-research.schema.json
+B003,basic,10.1038/s41598-025-25496-1,Regulatory role of vitamin D 3 on myogenesis and fibrogenesis under Vdr gene silencing and TGF-β1 stimulation in skeletal muscle cells,basic-research.schema.json
+B004,basic,10.3892/ijmm.2025.5718,Recombinant ADAMTS-1 promotes muscle regeneration accompanied by downregulation of Notch signaling,basic-research.schema.json
+B005,basic,10.1038/s41598-025-29722-8,Proteomic analysis of 7-octenoic acid antifibrotic effects in TGF-β1 activated hepatic stellate cells,basic-research.schema.json
+B006,basic,10.1038/s44319-026-00753-0,Matrix stiffness induces midnolin-dependent lamin B1 degradation to control myoblast differentiation,basic-research.schema.json
+B007,basic,10.1016/j.stemcr.2026.102821,Post-replicative chromatin accessibility predicts cell fate change,basic-research.schema.json
+B008,basic,10.1038/s41598-025-31087-x,Activation of TP53 target genes in the primary response of triple-negative breast cancer cells to doxorubicin treatment,basic-research.schema.json
+B009,basic,10.1186/s13059-025-03757-6,Imbalanced chromatin distribution in cellular senescence specifies paraspeckle dynamics,basic-research.schema.json
+B010,basic,10.1038/s41598-025-97829-z,ATR regulates OCT4 phosphorylation and safeguards human naïve pluripotency,basic-research.schema.json
+B011,basic,10.1038/s41467-026-70756-x,IVNS1ABP mutation drives cellular senescence in newly identified progeroid neuropathy,basic-research.schema.json
+B012,basic,10.1002/advs.202406208,Stereotyped Subclones Revealed by High‐Density Single‐Cell Lineage Tracing Support Robust Development,basic-research.schema.json
+B013,basic,10.7554/eLife.107794,Anti-resonance in developmental signaling regulates cell fate decisions,basic-research.schema.json
+B014,basic,10.1038/s41597-026-06606-8,Temporal multiomics gene expression data across human embryonic stem cell-derived polyhormonal cell differentiation,basic-research.schema.json
+B015,basic,10.1002/advs.75924,Stem Cell Differentiation Disperses Transcriptional Clusters via a Conserved Surface‐Condensate Trajectory,basic-research.schema.json
+B016,basic,10.1038/s42003-026-09583-1,PiR48444 inhibits MSC osteogenic differentiation and bone regeneration via targeting METTL7A/eIF4E-mediated BMP2 m6A methylation,basic-research.schema.json
+B017,basic,10.1038/s41597-025-05838-4,A dataset of spatially resolved transcriptomics of post-natal cardiac development in mice,basic-research.schema.json
+B018,basic,10.1038/s41598-024-70310-z,Preliminary investigation on the impact of salty and sugary former foods on pig liver and plasma profiles using OMICS approaches,basic-research.schema.json
+B019,basic,10.1016/j.molmet.2026.102358,The long non-coding RNA landscape of endurance exercise training,basic-research.schema.json
+B020,basic,10.1177/10998004251411301,Estrogen Stabilizes Interferon-Inducible Genes During Skeletal Muscle Regeneration,basic-research.schema.json
+B021,basic,10.1172/jci.insight.197761,Hypothyroidism impairs skeletal muscle regeneration after injury by altering myogenic and nonmyogenic pathways,basic-research.schema.json
+B022,basic,10.1172/jci.insight.194188,A multiomics analysis identifies retinol metabolism in fibroblasts as a key pathway in wound healing,basic-research.schema.json
+B023,basic,10.1038/s41598-025-29217-6,Reduced collagen degradation in pelvic urine precedes kidney fibrosis induced by unilateral ureteral obstruction,basic-research.schema.json
+B024,basic,10.1038/s41598-024-66549-1,Extracellular C1qbp inhibits myogenesis by suppressing NFATc1,basic-research.schema.json
+B025,basic,10.1096/fj.202505096RR,Exercise Training Stimulates the Release of Glutathione Peroxidase 1 ( GPX1 )‐Enriched Extracellular Vesicles That Promote Angiogenesis,basic-research.schema.json
+B026,basic,10.1038/s41597-025-05497-5,Single-cell RNA sequencing dataset of hearts from wild type and Cyp26b1 knockout mouse embryos,basic-research.schema.json
+B027,basic,10.7554/eLife.95854,Mouse skeletal muscle satellite cells co-opt the tenogenic gene Scleraxis to instruct regeneration,basic-research.schema.json
+B028,basic,10.14814/phy2.70906,Loss of calcium‐dependent phospholipase A2 contributes to multi‐omic changes in mouse denervated skeletal muscle,basic-research.schema.json
+B029,basic,10.1038/s41467-026-70669-9,PTBP1 inhibition reprograms myogenesis to rescue impaired muscle regeneration in mdx mice through correcting E2A splicing,basic-research.schema.json
+B030,basic,10.1038/s41467-026-76286-w,Regional diversity of cranial skeletal stem cells governs bone morphogenetic protein-2 mediated bone regeneration,basic-research.schema.json
+B031,basic,10.3390/cells14130983,9-cis-Retinoic Acid Improves Disease Modelling in iPSC-Derived Liver Organoids,basic-research.schema.json
+B032,basic,10.1016/j.crmeth.2026.101538,A xeno-free human iPSC-derived prostate organoid platform for multilineage differentiation and genetic manipulation,basic-research.schema.json
+B033,basic,10.1093/procel/pwaf095,Human meibomian gland organoids to study epithelial homeostasis and dysfunction,basic-research.schema.json
+B034,basic,10.1088/1748-605X/ae943e,Human gastric extracellular matrix hydrogels maintain organoid growth and reduce gene expression associated with stemness and inflammation,basic-research.schema.json
+B035,basic,10.1038/s41467-026-71458-0,Early differential impact of MeCP2 mutations on functional networks in Rett syndrome patient-derived human cortical organoids,basic-research.schema.json
+B036,basic,10.1038/s41598-025-32539-0,​Temporal proteomic profiling of iPSC-derived human liver organoids reveals optimal maturation for drug metabolism and toxicology,basic-research.schema.json
+B037,basic,10.1172/JCI190035,TGF- β signaling promotes astroglial activation and TDP-43 proteinopathy in organoid models of frontotemporal lobar degeneration,basic-research.schema.json
+B038,basic,10.1038/s42003-026-10216-w,Long-term daily light exposure boosts human retinal organoid differentiation,basic-research.schema.json
+B039,basic,10.1016/j.isci.2026.115714,Female metabolic resilience and male-biased protein quality defects under hypoxia in human brain organoids,basic-research.schema.json
+B040,basic,10.1016/j.isci.2025.114548,Free-floating long-term vascularized mesenchymal organoids,basic-research.schema.json
+B041,basic,10.3389/fcvm.2026.1865343,The molecular signature of degeneration in explanted decellularized allogeneic heart valves,basic-research.schema.json
+B042,basic,10.1038/s41598-026-49621-w,Extracellular vesicles derived from induced pluripotent stem cells mediate anti-inflammatory effects in primary human macrophages,basic-research.schema.json
+B043,basic,10.3389/fmolb.2026.1748185,Transcriptomic profiling of chlorogenic acid and taurine treatment in human skin cells provides insights into cellular senescence mechanisms,basic-research.schema.json
+B044,basic,10.1038/s41598-025-26147-1,Optimizing DCD donor liver function with resveratrol during machine perfusion,basic-research.schema.json
+B045,basic,10.1038/s41598-024-80971-5,SLAMF7 defines subsets of human effector CD8 T cells,basic-research.schema.json
+B046,basic,10.3390/vetsci13070654,Anti-Inflammatory and Metabolic Effects of Fresh Versus Freeze-Dried Platelet-Rich Plasma on Equine Osteoarthritis in an Ex Vivo Cartilage-Synovium Explant Co-Culture System: A Pilot Study,basic-research.schema.json
+B047,basic,10.1002/adma.202520717,Matrix Stiffness Governs Fibroblasts’ Regulation of Gingival Immune Homeostasis,basic-research.schema.json
+B048,basic,10.3389/fimmu.2025.1617707,Ex vivo- generated lymphoid progenitors encompass both T cell and innate lymphoid cell fates,basic-research.schema.json
+B049,basic,10.1002/advs.76304,Matrix Stiffness Induces Endothelial Network Senescence,basic-research.schema.json
+B050,basic,10.1155/sci/3275855,Evaluation of MSC‐Secretome Effects in an Ex Vivo Compartmentalized Osteochondral Interface Model,basic-research.schema.json
+C001,clinical,10.1038/s41392-025-02358-w,"Adjuvant icotinib for resected EGFR-mutated stage II–IIIA non-small-cell lung cancer (ICTAN, GASTO1002): a randomized comparison study",clinical-trials.schema.json
+C002,clinical,10.1016/j.esmoop.2026.106921,"A randomized clinical study comparing trabectedin combined with regional hyperthermia with trabectedin in patients with advanced soft tissue sarcoma: HyperTET, a German Interdisciplinary Sarcoma Group trial",clinical-trials.schema.json
+C003,clinical,10.1038/s41392-026-02818-x,"Orelabrutinib versus chemoimmunotherapy in treatment-naïve chronic lymphocytic leukemia/small lymphocytic lymphoma: a randomized, phase 3 trial",clinical-trials.schema.json
+C004,clinical,10.1200/JCO-25-02380,BRUIN CLL-313: Randomized Phase III Trial of Pirtobrutinib Versus Bendamustine Plus Rituximab in Untreated Patients With Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma,clinical-trials.schema.json
+C005,clinical,10.1200/JCO-25-02849,"Polatuzumab Vedotin Plus Rituximab, Gemcitabine, and Oxaliplatin in Relapsed or Refractory Diffuse Large B-Cell Lymphoma: Results From the Phase III, Randomized POLARGO Trial",clinical-trials.schema.json
+C006,clinical,10.1002/pon.70570,Effects of a Psycho‐Behavioural Intervention on Cancer‐Related Fatigue Among Patients With Colorectal Cancer: A Pilot Randomised Controlled Trial,clinical-trials.schema.json
+C007,clinical,10.1001/jamaoncol.2026.2661,Electronic Patient-Reported Outcome Monitoring With Alert-Based Interventions in Metastatic Breast Cancer,clinical-trials.schema.json
+C008,clinical,10.1016/j.esmoop.2025.105082,"Patient-reported outcomes with trastuzumab deruxtecan in hormone receptor-positive, HER2-low or HER2-ultralow metastatic breast cancer: results from the randomized DESTINY-Breast06 trial",clinical-trials.schema.json
+C009,clinical,10.1038/s41591-024-03266-2,Datopotamab–deruxtecan in early-stage breast cancer: the sequential multiple assignment randomized I-SPY2.2 phase 2 trial,clinical-trials.schema.json
+C010,clinical,10.1158/1078-0432.CCR-25-3951,MONETTE: A Randomized Phase II Study of Ceralasertib plus Durvalumab or Ceralasertib Monotherapy in Patients with Advanced Melanoma Resistant to PD-(L)1 Inhibition Ceralasertib ± Durvalumab in PD-(L)1–Resistant Melanoma,clinical-trials.schema.json
+C011,clinical,10.3389/fdgth.2025.1672553,App-based multimodal lifestyle-intervention for essential hypertension (HYPE): a decentralized randomised controlled trial,clinical-trials.schema.json
+C012,clinical,10.2337/dc25-2379,Tirzepatide in Adults With Type 1 Diabetes: A Phase 2 Randomized Placebo-Controlled Clinical Trial,clinical-trials.schema.json
+C013,clinical,10.1016/j.eclinm.2024.102736,"Efficacy of antihypertensive treatment for target organ protection in patients with masked hypertension (ANTI-MASK): a multicentre, double-blind, placebo-controlled trial",clinical-trials.schema.json
+C014,clinical,10.1111/dom.70891,"Semaglutide Injection in Indian Patients With Type 2 Diabetes Mellitus: A Randomised, Phase III, Active‐Controlled Study",clinical-trials.schema.json
+C015,clinical,10.2337/dc25-2041,"Semaglutide Effects on Insulin Sensitivity and β-Cell Function in Patients With Schizophrenia, Prediabetes, and Obesity Treated With Second-Generation Antipsychotics: Findings From the HISTORI Trial, a 30-Week Randomized, Placebo-Controlled Trial With Semaglutide 1.0 mg Weekly",clinical-trials.schema.json
+C016,clinical,10.1038/s41591-026-04313-w,The NPR1 agonist antibody XXB750 in heart failure: a phase 2 randomized trial,clinical-trials.schema.json
+C017,clinical,10.1111/dom.70215,Improved health‐related quality of life with tirzepatide versus semaglutide in adults with obesity or overweight from the SURMOUNT‐5 trial,clinical-trials.schema.json
+C018,clinical,10.1038/s41591-026-04204-0,Bimagrumab plus semaglutide alone or in combination for the treatment of obesity: a randomized phase 2 trial,clinical-trials.schema.json
+C019,clinical,10.1038/s41591-026-04504-5,Polypill for heart failure with reduced ejection fraction: the POLY-HF randomized trial,clinical-trials.schema.json
+C020,clinical,10.1111/dom.70525,"Semaglutide and cardiovascular risk in type 1 diabetes: A predictive modelling analysis in a double‐blind, randomised, placebo‐controlled cross‐over trial",clinical-trials.schema.json
+C021,clinical,10.1142/S1013702526500022,Physiotherapy informed by acceptance and commitment therapy for chronic low back pain: A randomized trial,clinical-trials.schema.json
+C022,clinical,10.2196/77736,Evaluation of the Impact of a Smartphone App on Adherence to an Exercise Program in People With Chronic Low Back Pain: Randomized Controlled Trial,clinical-trials.schema.json
+C023,clinical,10.1016/j.ocarto.2026.100851,"Pamidronate is ineffective for inflammatory-like low back pain associated with Modic type 1 changes: A double-blind, randomised controlled trial",clinical-trials.schema.json
+C024,clinical,10.2147/CIA.S541940,"Comparative Effects of Minodronate and Alendronate on Low Back Pain in Postmenopausal Osteoporosis and Age Influence: A Head-to-Head, Randomized Clinical Trial",clinical-trials.schema.json
+C025,clinical,10.1186/s12891-026-09657-5,Effect of temporomandibular joint exercises on mechanical low back pain: a preliminary randomized controlled study,clinical-trials.schema.json
+C026,clinical,10.1080/17581869.2026.2613633,Aquatic therapy compared to standard care for chronic low back pain: a randomized controlled trial,clinical-trials.schema.json
+C027,clinical,10.1002/acr.25671,Testing a Personalized Approach to Chronic Low Back Pain: A Randomized Controlled Trial in Older Veterans,clinical-trials.schema.json
+C028,clinical,10.3390/jpm16070338,Responsiveness of Outcome Measures in Chronic Non-Specific Low Back Pain: A Secondary Analysis of a Randomized Controlled Trial,clinical-trials.schema.json
+C029,clinical,10.1007/s10067-026-07955-w,The feasibility of delivering and evaluating stratified care integrated with telehealth (‘Rapid Stratified Telehealth’) for patients with low back pain: a feasibility and pilot randomised controlled trial,clinical-trials.schema.json
+C030,clinical,10.1186/s12891-026-09873-z,Physiotherapy with integrated virtual reality for patients with severe chronic low back pain: cluster-randomized controlled trial (VARIETY),clinical-trials.schema.json
+C031,clinical,10.1136/rmdopen-2026-007217,"Exploring possibilities towards PeRsonalIsed MEdicine in Rheumatoid Arthritis (PRIMERA): tailored modifications to standard treat-to-target management—a multicentre, randomised, open-label trial",clinical-trials.schema.json
+C032,clinical,10.3389/fnut.2026.1838160,Specific carbohydrate diet versus Mediterranean diet in adult patients with mild to moderate ulcerative colitis: a randomized controlled-feeding trial,clinical-trials.schema.json
+C033,clinical,10.1038/s41591-026-04395-6,Abatacept versus hydroxychloroquine for prevention of rheumatoid arthritis in individuals with palindromic rheumatism: a randomized open-label trial,clinical-trials.schema.json
+C034,clinical,10.1002/art.43366,A Phase 2 Trial of Hydroxychloroquine in Individuals at Risk for Rheumatoid Arthritis,clinical-trials.schema.json
+C035,clinical,10.1186/s41927-026-00638-8,Baricitinib in moderate to severe rheumatoid arthritis: dose-dependent efficacy and safety in a randomized clinical trial in a developing country,clinical-trials.schema.json
+C036,clinical,10.3390/ph19040552,Adjunctive Pentoxifylline Enhances Clinical Remission and Reduces Inflammatory Biomarkers in Mild-to-Moderate Ulcerative Colitis: A Randomized Double-Blind Placebo-Controlled Pilot Trial,clinical-trials.schema.json
+C037,clinical,10.1093/rheumatology/keag420,Subcutaneous versus intravenous ultra-low-dose rituximab in rheumatoid arthritis: a randomized controlled PK-PD non-inferiority trial,clinical-trials.schema.json
+C038,clinical,10.1111/jgh.70634,"Efficacy, Safety, and Pharmacokinetics of Upadacitinib Among Patients in East Asia With Moderately to Severely Active Ulcerative Colitis: A Post Hoc Subanalysis of Randomized Phase 3 Studies",clinical-trials.schema.json
+C039,clinical,10.1038/s41591-025-04114-7,Vagus nerve-mediated neuroimmune modulation for rheumatoid arthritis: a pivotal randomized controlled trial,clinical-trials.schema.json
+C040,clinical,10.1093/crocol/otag093,Outcomes of tofacitinib dose reduction in patients with ulcerative colitis in stable remission: a long-term follow-up of the randomized RIVETING trial,clinical-trials.schema.json
+C041,clinical,10.3390/medicina62081554,Longitudinal Outcomes of Bilateral and Unilateral Proximal Greater Occipital Nerve Pulsed Radiofrequency in Migraine: A Prospective Randomized Controlled Trial,clinical-trials.schema.json
+C042,clinical,10.1111/jsr.70135,"The Effects of Daridorexant on Patients With Comorbid Insomnia Disorder and Untreated Mild Obstructive Sleep Apnoea: A Post Hoc Subgroup Analysis of a Phase 3, Randomised Clinical Trial",clinical-trials.schema.json
+C043,clinical,10.1093/sleep/zsaf038,Cognition and obstructive sleep apnea in Parkinson’s disease: randomized controlled trial of positive airway pressure,clinical-trials.schema.json
+C044,clinical,10.1007/s11126-025-10143-9,Cognitive Behavioral Therapy Alone or in Combination with Eszopiclone in Comorbid Insomnia and Obstructive Sleep Apnea in Veterans with Posttraumatic Stress Disorder: A Randomized Trial,clinical-trials.schema.json
+C045,clinical,10.1093/sleepadvances/zpag017,Effects of lemborexant and zolpidem on sleep electroencephalography in older adults with insomnia: a randomized trial,clinical-trials.schema.json
+C046,clinical,10.1016/j.lanepe.2026.101637,"Time to diagnosis and treatment of obstructive sleep apnoea using mandibular jaw movement monitoring versus polysomnography: an open-label, multicentre, randomised, controlled trial",clinical-trials.schema.json
+C047,clinical,10.1186/s13030-026-00359-x,The impact of home-based telerehabilitation pranayama on sleep quality and wellbeing in mild to moderate obstructive sleep apnea syndrome. A randomized controlled trial,clinical-trials.schema.json
+C048,clinical,10.1093/ajrccm/aamag215,Aroxybutynin and atomoxetine (AD109) for obstructive sleep apnea: a randomized phase 3 trial (SynAIRgy),clinical-trials.schema.json
+C049,clinical,10.1111/jsr.70114,The Effect of Digital Cognitive Behavioural Therapy for Insomnia in People With Co‐Morbid Insomnia and Sleep Apnoea (COMISA): A Pilot Randomised Controlled Trial,clinical-trials.schema.json
+C050,clinical,10.5664/jcsm.11822,Bilateral hypoglossal nerve stimulation for obstructive sleep apnea: a nonrandomized clinical trial,clinical-trials.schema.json

@@ -1,0 +1,30 @@
+{
+  "case_id": "C005",
+  "task_id": "C005",
+  "title": "Polatuzumab Vedotin Plus Rituximab, Gemcitabine, and Oxaliplatin in Relapsed or Refractory Diffuse Large B-Cell Lymphoma: Results From the Phase III, Randomized POLARGO Trial",
+  "doi": "10.1200/JCO-25-02849",
+  "comparison_or_design": "The randomized POLARGO cohort.",
+  "observations_or_assays": [
+    "Overall survival",
+    "Investigator-assessed progression-free survival",
+    "IRC-assessed overall response rate at end of treatment"
+  ],
+  "time_scope": "The primary/final randomized-cohort analysis; ORR at the article-defined end of treatment.",
+  "excluded": [
+    "Nonrandomized safety run-in, CR-only rate and other response categories",
+    "Subgroup/sensitivity analyses, other survival landmarks and safety"
+  ],
+  "population_or_material": "Transplant-ineligible R/R DLBCL patients in the randomized POLARGO ITT efficacy population.",
+  "requested_items": [
+    "Main efficacy Table 2 OS/PFS medians and primary HRs; IRC end-of-treatment ORR counts/proportions and explicitly reported between-arm rate difference. Exclude landmark survival rates and CR-only response."
+  ],
+  "resources": [],
+  "case_specific_rules": [],
+  "domain": "clinical",
+  "pipeline": "clinical-trials",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/clinical-trials.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

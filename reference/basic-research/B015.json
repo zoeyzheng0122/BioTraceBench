@@ -1,0 +1,46 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "Pol II Ser5P/Ser2P immunofluorescence imaging",
+      "experiment_run_accession": "Zenodo:10.5281/zenodo.19473110 (dataset); Zenodo:10.5281/zenodo.8013307 (dataset)",
+      "method": "Dual-color immunofluorescence of Pol II Ser5P and Ser2P in fixed ESC46C cells, acquired with a 100× oil-immersion objective (NA 1.49). Three-dimensional image stacks were used to quantify nuclear signals and Pol II clusters. This aggregate represents the Figure 1 uninduced reference and 12-h RHB-A condition; Figure 1 reports two independent experimental repeats, without assigning preparation-level repeat identities here. Repository content: Zenodo 10.5281/zenodo.19473110 contains the dataset and analysis scripts; Zenodo 10.5281/zenodo.8013307 identifies the RHB raw-image dataset.",
+      "platform": "VisiTech iSIM super-resolution confocal microscope on Nikon Ti2-E",
+      "sample_ids": [
+        "S0001",
+        "S0002"
+      ]
+    }
+  ],
+  "condition": [
+    {
+      "condition_id": "C0002",
+      "condition_target": "Whole sample",
+      "experimental_factor": "RHB-A neuronal induction duration",
+      "factor_unit": "h",
+      "factor_value": 12,
+      "sample_id": "S0002",
+      "time": "After transfer to RHB-A medium"
+    }
+  ],
+  "sample": [
+    {
+      "biological_model": "Sox1-GFP reporter mouse embryonic stem cells",
+      "biological_source": "Mouse ESC46C cell line, derived from E14tg2a",
+      "sample_accession": null,
+      "sample_id": "S0001",
+      "sample_material": "Fixed ESC46C cells from the uninduced reference culture maintained in serum-free ESGRO Complete Clonal Grade Medium with LIF. Methods report collection after 48 h; the archived dataset description lists controls collected at 24 and 48 h. The exact collection interval represented by the Figure 1 reference is unresolved. Requested Uninduced reference culture duration before collection: numerical value not reported; no quantitative condition row created.",
+      "sample_name": "ESC46C uninduced control",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Sox1-GFP reporter mouse embryonic stem cells undergoing early neuronal differentiation",
+      "biological_source": "Mouse ESC46C cell line, derived from E14tg2a",
+      "sample_accession": null,
+      "sample_id": "S0002",
+      "sample_material": "Fixed ESC46C cells collected 12 h after transfer to RHB-A neuronal induction medium.",
+      "sample_name": "ESC46C RHB-A 12 h",
+      "species": "Mus musculus"
+    }
+  ]
+}

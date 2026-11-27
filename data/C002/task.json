@@ -1,0 +1,32 @@
+{
+  "case_id": "C002",
+  "task_id": "C002",
+  "title": "A randomized clinical study comparing trabectedin combined with regional hyperthermia with trabectedin in patients with advanced soft tissue sarcoma: HyperTET, a German Interdisciplinary Sarcoma Group trial",
+  "doi": "10.1016/j.esmoop.2026.106921",
+  "comparison_or_design": "The primary randomized HyperTET comparison.",
+  "observations_or_assays": [
+    "Progression-free survival",
+    "Overall survival",
+    "Objective response rate"
+  ],
+  "time_scope": "The main efficacy analysis at the reported data cutoff; use the reported response-assessment window for ORR.",
+  "excluded": [
+    "All cycle-defined/post hoc subgroups and exploratory multivariable models",
+    "DCR, treatment exposure and safety"
+  ],
+  "population_or_material": "Eligible randomized patients with advanced soft tissue sarcoma in the HyperTET ITT analysis set.",
+  "requested_items": [
+    "Primary main-text stratified PFS/OS arm medians and HRs; main-text ORR responder counts with the source-reported assessable denominator. Main Results has priority over conflicting supplementary response counts. Exclude univariate forest-plot estimates, alternate logistic response models and cycle-count subgroups."
+  ],
+  "resources": [],
+  "case_specific_rules": [
+    "Use the main Results primary stratified PFS/OS analysis and requested response counts. If its matching CI differs from the abstract, retain the main Results version and record the abstract discrepancy; do not combine bounds from different versions."
+  ],
+  "domain": "clinical",
+  "pipeline": "clinical-trials",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/clinical-trials.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

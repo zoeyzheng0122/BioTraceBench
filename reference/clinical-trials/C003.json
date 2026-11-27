@@ -1,0 +1,232 @@
+{
+  "measure": [
+    {
+      "measure_definition": "Time to event: randomization to first documented disease progression or death from any cause, whichever occurs first; assessed by blinded independent review committee (IRC).; Participants; IRC assessment of radiological disease progression by computed tomography or magnetic resonance imaging at baseline, every 8 weeks for the first 6 cycles, every 12 weeks for cycles 7–24, and every 24 weeks thereafter until confirmed disease progression. IRC reviewers were unaware of treatment assignment.; PFS was defined as the time from randomization until disease progression or death, whichever occurred first. For patients alive without disease progression or lost to follow-up, data were censored at the date of last assessment. Response/progression assessment used iwCLL 2018 criteria for CLL and Cheson 2014 criteria for SLL; the primary PFS analysis was by IRC.",
+      "measure_id": "M0",
+      "measure_name": "Progression-free survival"
+    },
+    {
+      "measure_definition": "Categorical status: confirmed overall response (ORR) assessed by IRC.; Participants; IRC assessment of tumor response by computed tomography or magnetic resonance imaging at baseline and scheduled intervals; response assessed per iwCLL 2018 criteria for CLL or Cheson 2014 criteria for SLL. PR with lymphocytosis (PR-L) was also evaluated for patients receiving orelabrutinib and categorized as ORR as prespecified.; ORR was defined as the proportion of patients achieving complete response (CR), CR with incomplete count recovery (CRi), nodular partial response (nPR), or partial response (PR), assessed by IRC. For orelabrutinib, PR-L was also categorized as ORR as prespecified. Confirmed responses were used; 95% CIs were calculated with the Clopper–Pearson method.",
+      "measure_id": "M1",
+      "measure_name": "Overall response"
+    },
+    {
+      "measure_definition": "Time to event: first documented response to disease progression or death from any cause, whichever occurs first; assessed by IRC.; Participants; IRC-assessed tumor response and subsequent radiological assessments; DoR measured from the first documented response until disease progression or death. IRC reviewers were unaware of treatment assignment.; DoR was defined as the time from the first documented response until disease progression or death. The analysis was restricted to IRC-assessed responders. Data were censored at the last assessment for patients alive without disease progression or lost to follow-up.",
+      "measure_id": "M2",
+      "measure_name": "Duration of response"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "Orelabrutinib or chlorambucil plus rituximab.",
+      "intervention_regimen": "Orelabrutinib 150 mg once daily; chlorambucil 0.5 mg/kg on days 1 and 15 of each 28-day cycle; rituximab 375 mg/m² on day 1 of cycle 1 and 500 mg/m² on day 1 of cycles 2–6.; Orelabrutinib orally once daily continuously until disease progression, unacceptable toxicity, or consent withdrawal; chlorambucil plus rituximab for up to six 28-day cycles, or until disease progression, unacceptable toxicity, or consent withdrawal.",
+      "population_definition": "Randomized treatment allocation (orelabrutinib vs chlorambucil plus rituximab); all randomized patients.; Treatment-naïve chronic lymphocytic leukemia/small lymphocytic lymphoma (CLL/SLL) requiring therapy per iwCLL 2018 criteria; aged ≥65 years, or aged 18–65 years with coexisting comorbidities (creatinine clearance 30–69 mL/min by Cockcroft–Gault equation or Cumulative Illness Rating Scale for Geriatrics score >6); ECOG performance status ≤2; measurable disease; life expectancy >6 months; adequate hematologic, hepatic and renal function; no chromosome 17p13 deletion or TP53 mutation, central nervous system involvement, Richter transformation, or clinically significant cardiovascular disease; randomized 1:1. All randomized patients were included in the ITT population.",
+      "population_id": "P0",
+      "population_name": "Overall intention-to-treat (ITT) population",
+      "population_size": 192,
+      "population_time_frame": "Enrolment from February 20, 2021 to July 8, 2024; interim analysis data cutoff May 17, 2024. Median follow-up 21.4 months (range 0.03–40.3) for all patients."
+    },
+    {
+      "intervention": "Orelabrutinib.",
+      "intervention_regimen": "150 mg.; 150 mg orally once daily continuously until disease progression, unacceptable toxicity, or consent withdrawal.",
+      "population_definition": "Randomized treatment allocation: orelabrutinib group.; Treatment-naïve CLL/SLL requiring therapy per iwCLL 2018 criteria; aged ≥65 years, or aged 18–65 years with coexisting comorbidities; ECOG performance status ≤2; measurable disease; life expectancy >6 months; adequate hematologic, hepatic and renal function; no chromosome 17p13 deletion or TP53 mutation, central nervous system involvement, Richter transformation, or clinically significant cardiovascular disease; randomized to orelabrutinib. All randomized patients allocated to orelabrutinib were included in the ITT population.",
+      "population_id": "P1",
+      "population_name": "Orelabrutinib intention-to-treat (ITT) group",
+      "population_size": 91,
+      "population_time_frame": "Enrolment from February 20, 2021 to July 8, 2024; interim analysis data cutoff May 17, 2024. Median follow-up 22.4 months (range 1.9–40.3)."
+    },
+    {
+      "intervention": "Chlorambucil plus rituximab.",
+      "intervention_regimen": "Chlorambucil 0.5 mg/kg; rituximab 375 mg/m² on day 1 of cycle 1 and 500 mg/m² on day 1 of cycles 2–6.; Chlorambucil orally at days 1 and 15 of each 28-day cycle plus intravenous rituximab on day 1 of each cycle for up to six 28-day cycles, or until disease progression, unacceptable toxicity, or consent withdrawal.",
+      "population_definition": "Randomized treatment allocation: chlorambucil plus rituximab group.; Treatment-naïve CLL/SLL requiring therapy per iwCLL 2018 criteria; aged ≥65 years, or aged 18–65 years with coexisting comorbidities; ECOG performance status ≤2; measurable disease; life expectancy >6 months; adequate hematologic, hepatic and renal function; no chromosome 17p13 deletion or TP53 mutation, central nervous system involvement, Richter transformation, or clinically significant cardiovascular disease; randomized to chlorambucil plus rituximab. All randomized patients allocated to chlorambucil plus rituximab were included in the ITT population.",
+      "population_id": "P2",
+      "population_name": "Chlorambucil–rituximab intention-to-treat (ITT) group",
+      "population_size": 101,
+      "population_time_frame": "Enrolment from February 20, 2021 to July 8, 2024; interim analysis data cutoff May 17, 2024. Median follow-up 19.7 months (range 0.03–38.7)."
+    },
+    {
+      "intervention": "Orelabrutinib.",
+      "intervention_regimen": "150 mg.; 150 mg orally once daily continuously until disease progression, unacceptable toxicity, or consent withdrawal.",
+      "population_definition": "IRC-assessed response status (responders) within the orelabrutinib ITT group.; Treatment-naïve CLL/SLL; randomized to orelabrutinib; confirmed IRC-assessed overall response contributing to the IRC duration-of-response analysis; number at risk at 0 months in the IRC DoR Kaplan–Meier analysis was 82. Participants without an IRC-assessed response are excluded from this responder population. IRC response set includes CR, PR and PR-L: 82/91 (90.1%). Table 2 reports 74 alongside 90.1%, whereas the response definition including PR-L and the IRC DoR risk set support 82 responders. The reason for the discrepant count is not explicitly reported.",
+      "population_id": "P3",
+      "population_name": "Orelabrutinib IRC-assessed DoR responder population",
+      "population_size": 82,
+      "population_time_frame": "Derived from the orelabrutinib ITT group; enrolment from February 20, 2021 to July 8, 2024; interim analysis data cutoff May 17, 2024."
+    },
+    {
+      "intervention": "Chlorambucil plus rituximab.",
+      "intervention_regimen": "Chlorambucil 0.5 mg/kg; rituximab 375 mg/m² on day 1 of cycle 1 and 500 mg/m² on day 1 of cycles 2–6.; Chlorambucil orally at days 1 and 15 of each 28-day cycle plus intravenous rituximab on day 1 of each cycle for up to six 28-day cycles, or until disease progression, unacceptable toxicity, or consent withdrawal.",
+      "population_definition": "IRC-assessed response status (responders) within the chlorambucil–rituximab ITT group.; Treatment-naïve CLL/SLL; randomized to chlorambucil plus rituximab; confirmed IRC-assessed overall response contributing to the IRC duration-of-response analysis; number at risk at 0 months in the IRC DoR Kaplan–Meier analysis was 80. Participants without an IRC-assessed response are excluded from this responder population.",
+      "population_id": "P4",
+      "population_name": "Chlorambucil–rituximab IRC-assessed DoR responder population",
+      "population_size": 80,
+      "population_time_frame": "Derived from the chlorambucil–rituximab ITT group; enrolment from February 20, 2021 to July 8, 2024; interim analysis data cutoff May 17, 2024."
+    },
+    {
+      "intervention": "Orelabrutinib or chlorambucil plus rituximab.",
+      "intervention_regimen": "Orelabrutinib 150 mg once daily; chlorambucil 0.5 mg/kg on days 1 and 15 of each 28-day cycle; rituximab 375 mg/m² on day 1 of cycle 1 and 500 mg/m² on day 1 of cycles 2–6.; Orelabrutinib orally once daily continuously until disease progression, unacceptable toxicity, or consent withdrawal; chlorambucil plus rituximab for up to six 28-day cycles, or until disease progression, unacceptable toxicity, or consent withdrawal.",
+      "population_definition": "Randomized participants from either treatment arm with a confirmed IRC-assessed overall response contributing to the interim duration-of-response analysis. For CLL, the SAP response categories include CR, CRi, PR, PR-L and nPR, with PR-L evaluated in the orelabrutinib arm. For SLL, response includes CR or PR. Figure 3a identifies 82 and 80 at risk at time zero for the two arms, respectively.",
+      "population_id": "P5",
+      "population_name": "Combined IRC-assessed duration-of-response analysis population",
+      "population_size": null,
+      "population_time_frame": "Interim analysis data cutoff May 17, 2024. Duration of response starts at first qualifying response."
+    }
+  ],
+  "population_relation": [
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P2",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P3",
+      "population_b_id": "P1",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P4",
+      "population_b_id": "P2",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P2",
+      "relationship": "disjoint from"
+    },
+    {
+      "population_a_id": "P3",
+      "population_b_id": "P4",
+      "relationship": "disjoint from"
+    },
+    {
+      "population_a_id": "P5",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P3",
+      "population_b_id": "P5",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P4",
+      "population_b_id": "P5",
+      "relationship": "subset of"
+    }
+  ],
+  "result": [
+    {
+      "assessment_time": "At interim analysis data cutoff May 17, 2024; median follow-up 22.4 months (range 1.9–40.3) in the orelabrutinib group.",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R01",
+      "result_unit": "months",
+      "result_value": "NR",
+      "statistic_type": "Median PFS (Kaplan–Meier), IRC-assessed",
+      "statistical_method": "Kaplan–Meier estimation",
+      "supplementary_statistics": "95% CI, NE–NE"
+    },
+    {
+      "assessment_time": "At interim analysis data cutoff May 17, 2024; median follow-up 19.7 months (range 0.03–38.7) in the chlorambucil–rituximab group.",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P2",
+      "result_id": "R02",
+      "result_unit": "months",
+      "result_value": 19.4,
+      "statistic_type": "Median PFS (Kaplan–Meier), IRC-assessed",
+      "statistical_method": "Kaplan–Meier estimation",
+      "supplementary_statistics": "95% CI, 16.6–NE"
+    },
+    {
+      "assessment_time": "At interim analysis data cutoff May 17, 2024; median follow-up 21.4 months overall.",
+      "comparison": "P1 relative to P2 (numerator versus reference)",
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R03",
+      "result_unit": null,
+      "result_value": 0.32,
+      "statistic_type": "Hazard ratio for disease progression or death (orelabrutinib vs chlorambucil–rituximab), stratified Cox proportional-hazards model",
+      "statistical_method": "Cox proportional hazards model",
+      "supplementary_statistics": "95% CI, 0.18–0.58; p < 0.0001 (stratified log-rank)"
+    },
+    {
+      "assessment_time": "At interim analysis data cutoff May 17, 2024; best overall response.",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R04",
+      "result_unit": "participants",
+      "result_value": 74,
+      "statistic_type": "Number of participants with confirmed overall response, IRC-assessed",
+      "statistical_method": "Confirmed IRC overall response on the ITT set. Clopper–Pearson confidence interval. Participants without a post-baseline tumor assessment were treated as nonresponders.",
+      "supplementary_statistics": "90.1% (95% CI, 82.1–95.4); reported ITT denominator 91. Table 2 directly prints 74 next to 90.1%; the separately reported DoR risk-set count of 82 is not substituted."
+    },
+    {
+      "assessment_time": "At interim analysis data cutoff May 17, 2024; best overall response.",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P2",
+      "result_id": "R05",
+      "result_unit": "participants",
+      "result_value": 80,
+      "statistic_type": "Number of participants with confirmed overall response, IRC-assessed",
+      "statistical_method": "Confirmed IRC overall response on the ITT set. Clopper–Pearson confidence interval. Participants without a post-baseline tumor assessment were treated as nonresponders.",
+      "supplementary_statistics": "79.2% (95% CI, 70.0–86.6); Reported denominator: 101"
+    },
+    {
+      "assessment_time": "At interim analysis data cutoff May 17, 2024; best overall response.",
+      "comparison": "P1 relative to P2 (numerator versus reference)",
+      "measure_id": "M1",
+      "population_id": "P0",
+      "result_id": "R06",
+      "result_unit": null,
+      "result_value": 2.41,
+      "statistic_type": "Odds ratio for overall response (orelabrutinib vs chlorambucil–rituximab), Cochran–Mantel–Haenszel test",
+      "statistical_method": "Cochran–Mantel–Haenszel test",
+      "supplementary_statistics": "95% CI, 1.03–5.65; p = 0.041"
+    },
+    {
+      "assessment_time": "At interim analysis data cutoff May 17, 2024.",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P3",
+      "result_id": "R07",
+      "result_unit": "months",
+      "result_value": "NR",
+      "statistic_type": "Median duration of response (Kaplan–Meier), IRC-assessed",
+      "statistical_method": "Kaplan–Meier estimation",
+      "supplementary_statistics": "95% CI, NE–NE"
+    },
+    {
+      "assessment_time": "At interim analysis data cutoff May 17, 2024.",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P4",
+      "result_id": "R08",
+      "result_unit": "months",
+      "result_value": "NR",
+      "statistic_type": "Median duration of response (Kaplan–Meier), IRC-assessed",
+      "statistical_method": "Kaplan–Meier estimation",
+      "supplementary_statistics": "95% CI, 13.6–NE"
+    },
+    {
+      "assessment_time": "At interim analysis data cutoff May 17, 2024.",
+      "comparison": "P3 relative to P4 (numerator versus reference)",
+      "measure_id": "M2",
+      "population_id": "P5",
+      "result_id": "R09",
+      "result_unit": null,
+      "result_value": 0.3,
+      "statistic_type": "Hazard ratio for disease progression or death after response (orelabrutinib vs chlorambucil–rituximab), stratified Cox proportional-hazards model",
+      "statistical_method": "Cox proportional hazards model",
+      "supplementary_statistics": "95% CI, 0.15–0.60; p = 0.0003 (stratified log-rank)"
+    }
+  ]
+}

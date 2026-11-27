@@ -1,0 +1,72 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "C036",
+    "domain": "clinical",
+    "title": "Adjunctive Pentoxifylline Enhances Clinical Remission and Reduces Inflammatory Biomarkers in Mild-to-Moderate Ulcerative Colitis: A Randomized Double-Blind Placebo-Controlled Pilot Trial",
+    "doi": "10.3390/ph19040552",
+    "pipeline": "clinical-trials",
+    "pmid": "42075807",
+    "pmcid": "PMC13118956",
+    "registry": "NCT05575505"
+  },
+  "files": [
+    {
+      "path": "sources/article.xml",
+      "sha256": "e2b2f578e468b2ed41203a939c7997daa540f01989fc6cd68cf9f801e419620b",
+      "bytes": 233096,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13118956/fullTextXML"
+      ],
+      "association": "exact PMCID from case identity"
+    },
+    {
+      "path": "records/ClinicalTrials-NCT05575505.json",
+      "sha256": "0c4e029b53122fc7465c838bf929d1f9d743265372b322dad1c19d571267c618",
+      "bytes": 4916,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://clinicaltrials.gov/api/v2/studies/NCT05575505"
+      ],
+      "association": "exact trial registration linked by article; verify in source projection",
+      "original_filename": "registry.json",
+      "retrieved_at": "2026-10-17T21:27:30+08:00",
+      "derived_from": "051c842ac7d9de57f3cba38369f365d3fcfc29b4d09d71a720c36a36a585c62c",
+      "original_sha256": "051c842ac7d9de57f3cba38369f365d3fcfc29b4d09d71a720c36a36a585c62c",
+      "representation": "refine-lexical-json-1",
+      "provenance_transform": "exact_json_whitespace_compaction"
+    },
+    {
+      "path": "figures/pharmaceuticals-19-00552-g001.png",
+      "sha256": "bb0ec6bb4f008ebad099d3d87e12e5ad390ddf134fcca958e5c9f386e7257b40",
+      "bytes": 464496,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13118956/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package",
+      "derived_from": "5d71c985d50dd6bd8fcc365bb856769ccc34264e0d915f6046b8db4172cb8424",
+      "original_sha256": "5d71c985d50dd6bd8fcc365bb856769ccc34264e0d915f6046b8db4172cb8424",
+      "original_filename": "pharmaceuticals-19-00552-g001.webp",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

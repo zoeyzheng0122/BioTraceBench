@@ -1,0 +1,123 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "B039",
+    "domain": "basic",
+    "title": "Female metabolic resilience and male-biased protein quality defects under hypoxia in human brain organoids",
+    "doi": "10.1016/j.isci.2026.115714",
+    "pipeline": "basic-research",
+    "pmid": "42111172",
+    "pmcid": "PMC13157167",
+    "registry": "10.5281/zenodo.17993221"
+  },
+  "files": [
+    {
+      "path": "records/Zenodo-17993221.txt",
+      "sha256": "c7fa499aaa4180b0381261c36a13eeab4bcd7c1e5bef8a65e61b92889d5b9f3d",
+      "bytes": 32925,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://zenodo.org/api/records/17993221"
+      ],
+      "derived_from": "ec564405cfd133fc97f60324c5ba333d486b8e7a44228660a28b7aa845bcd2a1",
+      "representation": "readable_repository_record",
+      "association": "exact data record linked in article; metadata and file inventory only; readable official record text",
+      "original_filename": "Zenodo-17993221.txt",
+      "retrieved_at": "2026-10-17T23:54:40+08:00"
+    },
+    {
+      "path": "sources/article.xml",
+      "sha256": "b0c88dc348c5222ee265e57ab8b5e513b76231dc1be860dda9056998b9b079f6",
+      "bytes": 152510,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13157167/fullTextXML"
+      ],
+      "association": "exact PMCID from case identity"
+    },
+    {
+      "path": "records/Zenodo-17993221.json",
+      "sha256": "f5b519afff09eba41ac6fb716909b7655d34fbc29542360333cc5d67aa26b2d8",
+      "bytes": 30966,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://zenodo.org/api/records/17993221"
+      ],
+      "association": "exact data record linked in article; metadata and file inventory only",
+      "original_filename": "Zenodo-17993221.json",
+      "retrieved_at": "2026-10-17T23:54:40+08:00"
+    },
+    {
+      "path": "figures/fx1.jpg",
+      "sha256": "f72a7b5d1026e244a8a0ea7c5aa9a69ea92cabae982d133d62b6d80021f7fd26",
+      "bytes": 398214,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13157167/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package"
+    },
+    {
+      "path": "figures/gr1.jpg",
+      "sha256": "dd00427328450cec8d37221f9379523fee78490ace9146a133d5e9c4f34cee4b",
+      "bytes": 587684,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13157167/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package"
+    },
+    {
+      "path": "figures/gr2.jpg",
+      "sha256": "699735e3e830c782537bfd9515a2e95dfacce24b10b670c4a02e108d7f5f7119",
+      "bytes": 303607,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13157167/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package"
+    },
+    {
+      "path": "figures/gr3.jpg",
+      "sha256": "c662e1a37b3b0669d58d6412d8f45b28bdca5601d17894f31e7a046a01a23c17",
+      "bytes": 505079,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13157167/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

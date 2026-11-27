@@ -1,0 +1,19 @@
+{
+  "protocol_version": "kimi-api-smoke-1",
+  "stage": "connectivity",
+  "instruction": "Return only a JSON object matching response_schema.",
+  "payload": {
+    "text": "Connection check: the sample count is 0.",
+    "expected_status": "ok"
+  },
+  "response_schema": {
+    "type": "object",
+    "properties": {
+      "status": {"type": "string"},
+      "count": {"type": "integer"}
+    },
+    "required": ["status", "count"],
+    "additionalProperties": false
+  },
+  "images": []
+}

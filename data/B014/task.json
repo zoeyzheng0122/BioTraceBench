@@ -1,0 +1,36 @@
+{
+  "case_id": "B014",
+  "task_id": "B014",
+  "title": "Temporal multiomics gene expression data across human embryonic stem cell-derived polyhormonal cell differentiation",
+  "doi": "10.1038/s41597-026-06606-8",
+  "comparison_or_design": "The initial-to-terminal RNA-seq comparison in the polyhormonal-cell differentiation experiment.",
+  "observations_or_assays": [
+    "Bulk RNA sequencing"
+  ],
+  "time_scope": "Day 0 and Day 17 collection points only.",
+  "excluded": [
+    "All RNA-seq collection points other than Day 0 and Day 17, including intermediate-day samples and separate upstream-material rows",
+    "Ribosome profiling, proteomics, other lineage branches and expression matrices"
+  ],
+  "population_or_material": "RUES2 hESC-derived materials in the polyhormonal-cell differentiation dataset.",
+  "requested_items": [
+    "Differentiation stage and collection day; earlier induction steps remain preparation history"
+  ],
+  "resources": [
+    {
+      "accession": "GSE305933",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE305933"
+    },
+    {
+      "accession": "GEO-GSE305933-family.soft.txt",
+      "url": "related/GEO-GSE305933-family.soft.txt"
+    }
+  ],
+  "domain": "basic",
+  "pipeline": "basic-research",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/basic-research.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

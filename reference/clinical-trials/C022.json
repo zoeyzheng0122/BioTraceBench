@@ -1,0 +1,311 @@
+{
+  "measure": [
+    {
+      "measure_definition": "Part B of the French Exercise Adherence Rating Scale; six self-reported items assessing adherence to an exercise program.",
+      "measure_id": "M001",
+      "measure_name": "Exercise adherence score (EARS-B)"
+    },
+    {
+      "measure_definition": "Numeric Rating Scale for pain during the preceding seven days. Tables 1/2 and the prose/figure use different displayed magnitudes; descriptive results retain the table literals without automatic scale conversion.",
+      "measure_id": "M002",
+      "measure_name": "Pain intensity (NRS)"
+    },
+    {
+      "measure_definition": "Self-reported Oswestry Disability Index; retain the source-reported scores.",
+      "measure_id": "M003",
+      "measure_name": "Low-back-pain-related disability (ODI)"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "One of the two randomized regimens",
+      "intervention_regimen": "Two parallel groups; common three-week rehabilitation.",
+      "population_definition": "Adults with nonspecific chronic low back pain meeting HAS criteria, able to complete questionnaires, without exercise contraindication or protective guardianship, and owning a smartphone; cluster randomized by rehabilitation session.",
+      "population_id": "P001",
+      "population_name": "All randomized participants",
+      "population_size": 110,
+      "population_time_frame": "Recruitment: March 2020–June 2023; target follow-up: 6 months after randomization"
+    },
+    {
+      "intervention": "Mon Coach Dos smartphone app plus usual multidisciplinary rehabilitation and self-management education",
+      "intervention_regimen": "Three-week multidisciplinary rehabilitation, 5 days/week; three 1-hour app training sessions; individualized home exercise plan.",
+      "population_definition": "All P001 participants randomized to intervention; target group for the main ITT analysis.",
+      "population_id": "P002",
+      "population_name": "Intervention group (IG)",
+      "population_size": 54,
+      "population_time_frame": "Recruitment: March 2020–June 2023; target follow-up: 6 months after randomization"
+    },
+    {
+      "intervention": "Usual multidisciplinary rehabilitation and self-management education",
+      "intervention_regimen": "Three-week multidisciplinary rehabilitation, 5 days/week, including self-management education.",
+      "population_definition": "All P001 participants randomized to control; target group for the main ITT analysis.",
+      "population_id": "P003",
+      "population_name": "Control group (CG)",
+      "population_size": 56,
+      "population_time_frame": "Recruitment: March 2020–June 2023; target follow-up: 6 months after randomization"
+    },
+    {
+      "intervention": "Mon Coach Dos smartphone app plus usual multidisciplinary rehabilitation and self-management education",
+      "intervention_regimen": "Three-week multidisciplinary rehabilitation, 5 days/week; three 1-hour app training sessions; individualized home exercise plan.",
+      "population_definition": "P002 participants assessed at the six-month visit; this count does not establish absence of missing data for every measure.",
+      "population_id": "P004",
+      "population_name": "IG: six-month assessed participants",
+      "population_size": 36,
+      "population_time_frame": "Six-month visit after randomization"
+    },
+    {
+      "intervention": "Usual multidisciplinary rehabilitation and self-management education",
+      "intervention_regimen": "Three-week multidisciplinary rehabilitation, 5 days/week, including self-management education.",
+      "population_definition": "P003 participants assessed at the six-month visit; this count does not establish absence of missing data for every measure.",
+      "population_id": "P005",
+      "population_name": "CG: six-month assessed participants",
+      "population_size": 35,
+      "population_time_frame": "Six-month visit after randomization"
+    }
+  ],
+  "population_relation": [
+    {
+      "population_a_id": "P002",
+      "population_b_id": "P001",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P003",
+      "population_b_id": "P001",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P004",
+      "population_b_id": "P002",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P005",
+      "population_b_id": "P003",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P002",
+      "population_b_id": "P003",
+      "relationship": "disjoint from"
+    }
+  ],
+  "result": [
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M001",
+      "population_id": "P002",
+      "result_id": "R001",
+      "result_unit": "points",
+      "result_value": 14.9,
+      "statistic_type": "Mean",
+      "statistical_method": "Published arm mean and SD. Endpoint-specific denominator unreported.",
+      "supplementary_statistics": "SD=6; group column header n=54; measure-specific valid n not separately reported"
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M001",
+      "population_id": "P003",
+      "result_id": "R002",
+      "result_unit": "points",
+      "result_value": 15.5,
+      "statistic_type": "Mean",
+      "statistical_method": "Published arm mean and SD. Endpoint-specific denominator unreported.",
+      "supplementary_statistics": "SD=5.4; group column header n=56; measure-specific valid n not separately reported"
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M002",
+      "population_id": "P002",
+      "result_id": "R003",
+      "result_unit": "points (source table scale)",
+      "result_value": 44.4,
+      "statistic_type": "Mean",
+      "statistical_method": "Published arm mean and SD. Endpoint-specific denominator unreported.",
+      "supplementary_statistics": "SD=23.4; group column header n=54; measure-specific valid n not separately reported"
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M002",
+      "population_id": "P003",
+      "result_id": "R004",
+      "result_unit": "points (source table scale)",
+      "result_value": 49.3,
+      "statistic_type": "Mean",
+      "statistical_method": "Published arm mean and SD. Endpoint-specific denominator unreported.",
+      "supplementary_statistics": "SD=20.6; group column header n=56; measure-specific valid n not separately reported"
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M003",
+      "population_id": "P002",
+      "result_id": "R005",
+      "result_unit": "points",
+      "result_value": 32.3,
+      "statistic_type": "Mean",
+      "statistical_method": "Published arm mean and SD. Endpoint-specific denominator unreported.",
+      "supplementary_statistics": "SD=12; group column header n=54; measure-specific valid n not separately reported"
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M003",
+      "population_id": "P003",
+      "result_id": "R006",
+      "result_unit": "points",
+      "result_value": 35.2,
+      "statistic_type": "Mean",
+      "statistical_method": "Published arm mean and SD. Endpoint-specific denominator unreported.",
+      "supplementary_statistics": "SD=14.2; group column header n=56; measure-specific valid n not separately reported"
+    },
+    {
+      "assessment_time": "6 months after randomization",
+      "comparison": null,
+      "measure_id": "M001",
+      "population_id": "P004",
+      "result_id": "R007",
+      "result_unit": "points",
+      "result_value": 15.9,
+      "statistic_type": "Mean",
+      "statistical_method": "Published arm mean and SD. Endpoint-specific denominator unreported.",
+      "supplementary_statistics": "SD=5.46; group column header n=36; measure-specific valid n not separately reported"
+    },
+    {
+      "assessment_time": "6 months after randomization",
+      "comparison": null,
+      "measure_id": "M001",
+      "population_id": "P005",
+      "result_id": "R008",
+      "result_unit": "points",
+      "result_value": 16,
+      "statistic_type": "Mean",
+      "statistical_method": "Published arm mean and SD. Endpoint-specific denominator unreported.",
+      "supplementary_statistics": "SD=4.2; group column header n=35; measure-specific valid n not separately reported"
+    },
+    {
+      "assessment_time": "6 months after randomization",
+      "comparison": null,
+      "measure_id": "M002",
+      "population_id": "P004",
+      "result_id": "R009",
+      "result_unit": "points (source table scale)",
+      "result_value": 38.3,
+      "statistic_type": "Mean",
+      "statistical_method": "Published arm mean and SD. Endpoint-specific denominator unreported.",
+      "supplementary_statistics": "SD=21.6; group column header n=36; measure-specific valid n not separately reported"
+    },
+    {
+      "assessment_time": "6 months after randomization",
+      "comparison": null,
+      "measure_id": "M002",
+      "population_id": "P005",
+      "result_id": "R010",
+      "result_unit": "points (source table scale)",
+      "result_value": 48.1,
+      "statistic_type": "Mean",
+      "statistical_method": "Published arm mean and SD. Endpoint-specific denominator unreported.",
+      "supplementary_statistics": "SD=21.6; group column header n=35; measure-specific valid n not separately reported"
+    },
+    {
+      "assessment_time": "6 months after randomization",
+      "comparison": null,
+      "measure_id": "M003",
+      "population_id": "P004",
+      "result_id": "R011",
+      "result_unit": "points",
+      "result_value": 23,
+      "statistic_type": "Mean",
+      "statistical_method": "Published arm mean and SD. Endpoint-specific denominator unreported.",
+      "supplementary_statistics": "SD=12; group column header n=36; measure-specific valid n not separately reported"
+    },
+    {
+      "assessment_time": "6 months after randomization",
+      "comparison": null,
+      "measure_id": "M003",
+      "population_id": "P005",
+      "result_id": "R012",
+      "result_unit": "points",
+      "result_value": 28.6,
+      "statistic_type": "Mean",
+      "statistical_method": "Published arm mean and SD. Endpoint-specific denominator unreported.",
+      "supplementary_statistics": "SD=14.8; group column header n=35; measure-specific valid n not separately reported"
+    },
+    {
+      "assessment_time": "6 months after randomization",
+      "comparison": "P002 vs P003; calculation direction not reported",
+      "measure_id": "M001",
+      "population_id": "P001",
+      "result_id": "R013",
+      "result_unit": "points (source prose scale)",
+      "result_value": 0.01,
+      "statistic_type": "Between-group difference (original score)",
+      "statistical_method": "Primary ITT mixed-model estimate first reported in Results; Methods describes post hoc multiple imputation. Per-estimate analysis n not separately reported.",
+      "supplementary_statistics": "95% CI=[-2.4, 2.4]; P=0.97; per-estimate analysis n not reported"
+    },
+    {
+      "assessment_time": "6 months after randomization",
+      "comparison": "P002 vs P003; calculation direction not reported",
+      "measure_id": "M002",
+      "population_id": "P001",
+      "result_id": "R014",
+      "result_unit": null,
+      "result_value": -6.58,
+      "statistic_type": "Between-group difference (original score)",
+      "statistical_method": "Primary ITT mixed-model estimate first reported in Results; Methods describes post hoc multiple imputation. Per-estimate analysis n not separately reported.",
+      "supplementary_statistics": "95% CI=[-14.46, 1.29]; P=0.10; per-estimate analysis n not reported"
+    },
+    {
+      "assessment_time": "6 months after randomization",
+      "comparison": "P002 vs P003; calculation direction not reported",
+      "measure_id": "M003",
+      "population_id": "P001",
+      "result_id": "R015",
+      "result_unit": "points (source prose scale)",
+      "result_value": -2.27,
+      "statistic_type": "Between-group difference (original score)",
+      "statistical_method": "Primary ITT mixed-model estimate first reported in Results; Methods describes post hoc multiple imputation. Per-estimate analysis n not separately reported.",
+      "supplementary_statistics": "95% CI=[-6.50, 1.96]; P=0.29; per-estimate analysis n not reported"
+    },
+    {
+      "assessment_time": "6 months after randomization",
+      "comparison": "P002 vs P003; calculation direction not reported",
+      "measure_id": "M001",
+      "population_id": "P001",
+      "result_id": "R016",
+      "result_unit": null,
+      "result_value": 0,
+      "statistic_type": "Between-group effect size (ES)",
+      "statistical_method": "Reported between-group effect size from the ITT analysis with post hoc multiple imputation. The exact standardization formula and sign convention are unreported.",
+      "supplementary_statistics": "95% CI=[-0.29, 0.30]; P=0.97; per-estimate analysis n not reported"
+    },
+    {
+      "assessment_time": "6 months after randomization",
+      "comparison": "P002 vs P003; calculation direction not reported",
+      "measure_id": "M002",
+      "population_id": "P001",
+      "result_id": "R017",
+      "result_unit": null,
+      "result_value": -0.25,
+      "statistic_type": "Between-group effect size (ES)",
+      "statistical_method": "Reported between-group effect size from the ITT analysis with post hoc multiple imputation. The exact standardization formula and sign convention are unreported.",
+      "supplementary_statistics": "95% CI=[-0.55, 0.05]; P=0.10; per-estimate analysis n not reported"
+    },
+    {
+      "assessment_time": "6 months after randomization",
+      "comparison": "P002 vs P003; calculation direction not reported",
+      "measure_id": "M003",
+      "population_id": "P001",
+      "result_id": "R018",
+      "result_unit": null,
+      "result_value": -0.16,
+      "statistic_type": "Between-group effect size (ES)",
+      "statistical_method": "Reported between-group effect size from the ITT analysis with post hoc multiple imputation. The exact standardization formula and sign convention are unreported.",
+      "supplementary_statistics": "95% CI=[-0.46, 0.14]; P=0.29; per-estimate analysis n not reported"
+    }
+  ]
+}

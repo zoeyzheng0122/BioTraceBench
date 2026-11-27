@@ -1,0 +1,32 @@
+{
+  "case_id": "C015",
+  "task_id": "C015",
+  "title": "Semaglutide Effects on Insulin Sensitivity and β-Cell Function in Patients With Schizophrenia, Prediabetes, and Obesity Treated With Second-Generation Antipsychotics: Findings From the HISTORI Trial, a 30-Week Randomized, Placebo-Controlled Trial With Semaglutide 1.0 mg Weekly",
+  "doi": "10.2337/dc25-2041",
+  "comparison_or_design": "The semaglutide HOMA analysis in SGA-treated participants with schizophrenia.",
+  "observations_or_assays": [
+    "HOMA2 insulin sensitivity (HOMA2-S)",
+    "HOMA2 beta-cell function (HOMA2-B)",
+    "HOMA insulin resistance (HOMA-IR)"
+  ],
+  "time_scope": "Baseline to week 30.",
+  "excluded": [
+    "Week-15, weight-loss mediation, normal-glucose reference and antipsychotic subgroups",
+    "Glucose, insulin, C-peptide, body weight and other parent-trial endpoints"
+  ],
+  "population_or_material": "The article-defined HOMA analysis population of SGA-treated participants with schizophrenia, prediabetes and overweight/obesity.",
+  "requested_items": [
+    "Main Table 2 week-30 arm HOMA changes and mixed-model treatment effects/CI/P. Do not substitute complete-data subgroup counts for model analysis n; exclude unreported baseline reconstructions, week-15 and unrelated metabolic outcomes."
+  ],
+  "resources": [],
+  "case_specific_rules": [
+    "Retain the requested source-reported HOMA model effects with their own reported CIs. Apply the shared rules for endpoint denominators and unresolved formula or version attributes."
+  ],
+  "domain": "clinical",
+  "pipeline": "clinical-trials",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/clinical-trials.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

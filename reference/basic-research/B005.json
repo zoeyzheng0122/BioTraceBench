@@ -1,0 +1,82 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "Label-free LC–MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD063183 (project)",
+      "method": "Study-level aggregate comparing TGF-β1 alone with TGF-β1 plus 7-OCT. Three independent replicates per condition. Acetone precipitation and tryptic digestion; data-dependent acquisition (TopN15); Proteome Discoverer 2.4 with a UniProt Homo sapiens database. Individual preparation/acquisition identities and sample-to-file mapping are unresolved in the supplied materials.",
+      "platform": "Thermo Fisher Scientific Orbitrap HF-X; EASY-nLC1000",
+      "sample_ids": [
+        "S0001",
+        "S0002"
+      ]
+    }
+  ],
+  "condition": [
+    {
+      "condition_id": "C0001",
+      "condition_target": "Whole sample",
+      "experimental_factor": "TGF-β1",
+      "factor_unit": "ng/mL",
+      "factor_value": 10,
+      "sample_id": "S0001",
+      "time": "During the 48-h treatment period before protein extraction"
+    },
+    {
+      "condition_id": "C0002",
+      "condition_target": "Whole sample",
+      "experimental_factor": "TGF-β1",
+      "factor_unit": "ng/mL",
+      "factor_value": 10,
+      "sample_id": "S0002",
+      "time": "During the 48-h co-treatment period before protein extraction"
+    },
+    {
+      "condition_id": "C0003",
+      "condition_target": "Whole sample",
+      "experimental_factor": "7-OCT",
+      "factor_unit": "mg/mL",
+      "factor_value": 100,
+      "sample_id": "S0002",
+      "time": "During the 48-h co-treatment period before protein extraction"
+    },
+    {
+      "condition_id": "C0004",
+      "condition_target": "LX-2 cells",
+      "experimental_factor": "TGF-β1 stimulation duration",
+      "factor_unit": "h",
+      "factor_value": 48,
+      "sample_id": "S0001",
+      "time": "From stimulation or concurrent co-treatment to protein extraction."
+    },
+    {
+      "condition_id": "C0005",
+      "condition_target": "LX-2 cells",
+      "experimental_factor": "TGF-β1 and 7-OCT co-treatment duration",
+      "factor_unit": "h",
+      "factor_value": 48,
+      "sample_id": "S0002",
+      "time": "From stimulation or concurrent co-treatment to protein extraction."
+    }
+  ],
+  "sample": [
+    {
+      "biological_model": "Immortalized human hepatic stellate cell line",
+      "biological_source": "LX-2 (Merck Millipore SCC064)",
+      "sample_accession": null,
+      "sample_id": "S0001",
+      "sample_material": "Protein extract from LX-2 cells treated with 10 ng/mL TGF-β1 for 48 h.",
+      "sample_name": "LX-2 TGF-β1",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Immortalized human hepatic stellate cell line",
+      "biological_source": "LX-2 (Merck Millipore SCC064)",
+      "sample_accession": null,
+      "sample_id": "S0002",
+      "sample_material": "Protein extract from LX-2 cells co-treated with TGF-β1 and 7-OCT for 48 h. The selected LC–MS/MS protein-preparation protocol reports 7-OCT at 100 mg/mL; the general LX-2 dose-selection results separately report 100 µg/mL. The selected protocol is retained as reported and the source conflict remains explicit; the physical dose is not independently resolved.",
+      "sample_name": "LX-2 TGF-β1 + 7-OCT",
+      "species": "Homo sapiens"
+    }
+  ]
+}

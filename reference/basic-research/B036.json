@@ -1,0 +1,255 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "TMT LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD063438 (project)",
+      "method": "Temporal comparison aggregate. Proteins were trypsin-digested, TMT18-plex-labelled and combined before separation into 24 fractions per file set. Deposited acquisitions are P1211R-A-ECT32-18PLEX-F1–F24 and P1211R-B-ECT33-18PLEX-F1–F24, with 18 configured TMT channels per set. The stage/replicate-to-channel and file mapping is not supplied.",
+      "platform": "Thermo Scientific Orbitrap Exploris 240; Dionex UltiMate 3000 RSLCnano",
+      "sample_ids": [
+        "S0001",
+        "S0002",
+        "S0003",
+        "S0004"
+      ]
+    }
+  ],
+  "condition": [
+    {
+      "condition_id": "C0001",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Organoid age at proteomics collection",
+      "factor_unit": "day",
+      "factor_value": 7,
+      "sample_id": "S0001",
+      "time": "Days after Day-0 dissociation/plating for organoid differentiation"
+    },
+    {
+      "condition_id": "C0002",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Organoid age at proteomics collection",
+      "factor_unit": "day",
+      "factor_value": 15,
+      "sample_id": "S0002",
+      "time": "Days after Day-0 dissociation/plating for organoid differentiation"
+    },
+    {
+      "condition_id": "C0003",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Organoid age at proteomics collection",
+      "factor_unit": "day",
+      "factor_value": 30,
+      "sample_id": "S0003",
+      "time": "Days after Day-0 dissociation/plating for organoid differentiation"
+    },
+    {
+      "condition_id": "C0004",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Organoid age at proteomics collection",
+      "factor_unit": "day",
+      "factor_value": 45,
+      "sample_id": "S0004",
+      "time": "Days after Day-0 dissociation/plating for organoid differentiation"
+    },
+    {
+      "condition_id": "C0005",
+      "condition_target": "Culture medium of the selected iHLO preparation",
+      "experimental_factor": "Knockout Serum Replacer concentration",
+      "factor_unit": "%",
+      "factor_value": 20,
+      "sample_id": "S0001",
+      "time": "Days 3–8 after Day-0 differentiation initiation"
+    },
+    {
+      "condition_id": "C0006",
+      "condition_target": "Culture medium of the selected iHLO preparation",
+      "experimental_factor": "beta-mercaptoethanol concentration",
+      "factor_unit": "µM",
+      "factor_value": 100,
+      "sample_id": "S0001",
+      "time": "Days 3–8 after Day-0 differentiation initiation"
+    },
+    {
+      "condition_id": "C0007",
+      "condition_target": "Culture medium of the selected iHLO preparation",
+      "experimental_factor": "Glutamax concentration",
+      "factor_unit": "%",
+      "factor_value": 1,
+      "sample_id": "S0001",
+      "time": "Days 3–8 after Day-0 differentiation initiation"
+    },
+    {
+      "condition_id": "C0008",
+      "condition_target": "Culture medium of the selected iHLO preparation",
+      "experimental_factor": "DMSO concentration",
+      "factor_unit": "%",
+      "factor_value": 1,
+      "sample_id": "S0001",
+      "time": "Days 3–8 after Day-0 differentiation initiation"
+    },
+    {
+      "condition_id": "C0009",
+      "condition_target": "Culture medium of the selected iHLO preparation",
+      "experimental_factor": "Hepatocyte growth factor concentration",
+      "factor_unit": "ng/mL",
+      "factor_value": 20,
+      "sample_id": "S0002",
+      "time": "Days 9–16 after Day-0 differentiation initiation"
+    },
+    {
+      "condition_id": "C0010",
+      "condition_target": "Culture medium of the selected iHLO preparation",
+      "experimental_factor": "Ocostatin M (source spelling) concentration",
+      "factor_unit": "ng/mL",
+      "factor_value": 20,
+      "sample_id": "S0002",
+      "time": "Days 9–16 after Day-0 differentiation initiation"
+    },
+    {
+      "condition_id": "C0011",
+      "condition_target": "Culture medium of the selected iHLO preparation",
+      "experimental_factor": "Dihexa concentration",
+      "factor_unit": "nM",
+      "factor_value": 100,
+      "sample_id": "S0003",
+      "time": "From Day 17 after differentiation initiation"
+    },
+    {
+      "condition_id": "C0012",
+      "condition_target": "Culture medium of the selected iHLO preparation",
+      "experimental_factor": "Dexamethasone concentration",
+      "factor_unit": "nM",
+      "factor_value": 100,
+      "sample_id": "S0003",
+      "time": "From Day 17 after differentiation initiation"
+    },
+    {
+      "condition_id": "C0013",
+      "condition_target": "Culture medium of the selected iHLO preparation",
+      "experimental_factor": "Hydrocortisone concentration",
+      "factor_unit": "µM",
+      "factor_value": 10,
+      "sample_id": "S0003",
+      "time": "From Day 17 after differentiation initiation"
+    },
+    {
+      "condition_id": "C0014",
+      "condition_target": "Culture medium of the selected iHLO preparation",
+      "experimental_factor": "Sodium L-ascorbate concentration",
+      "factor_unit": "µg/mL",
+      "factor_value": 50,
+      "sample_id": "S0003",
+      "time": "From Day 17 after differentiation initiation"
+    },
+    {
+      "condition_id": "C0015",
+      "condition_target": "Culture medium of the selected iHLO preparation",
+      "experimental_factor": "Insulin–transferrin–selenium concentration",
+      "factor_unit": "%",
+      "factor_value": 0.58,
+      "sample_id": "S0003",
+      "time": "From Day 17 after differentiation initiation"
+    },
+    {
+      "condition_id": "C0016",
+      "condition_target": "Culture medium of the selected iHLO preparation",
+      "experimental_factor": "Fetal bovine serum concentration",
+      "factor_unit": "%",
+      "factor_value": 8.3,
+      "sample_id": "S0003",
+      "time": "From Day 17 after differentiation initiation"
+    },
+    {
+      "condition_id": "C0017",
+      "condition_target": "Culture medium of the selected iHLO preparation",
+      "experimental_factor": "Dihexa concentration",
+      "factor_unit": "nM",
+      "factor_value": 100,
+      "sample_id": "S0004",
+      "time": "From Day 17 after differentiation initiation"
+    },
+    {
+      "condition_id": "C0018",
+      "condition_target": "Culture medium of the selected iHLO preparation",
+      "experimental_factor": "Dexamethasone concentration",
+      "factor_unit": "nM",
+      "factor_value": 100,
+      "sample_id": "S0004",
+      "time": "From Day 17 after differentiation initiation"
+    },
+    {
+      "condition_id": "C0019",
+      "condition_target": "Culture medium of the selected iHLO preparation",
+      "experimental_factor": "Hydrocortisone concentration",
+      "factor_unit": "µM",
+      "factor_value": 10,
+      "sample_id": "S0004",
+      "time": "From Day 17 after differentiation initiation"
+    },
+    {
+      "condition_id": "C0020",
+      "condition_target": "Culture medium of the selected iHLO preparation",
+      "experimental_factor": "Sodium L-ascorbate concentration",
+      "factor_unit": "µg/mL",
+      "factor_value": 50,
+      "sample_id": "S0004",
+      "time": "From Day 17 after differentiation initiation"
+    },
+    {
+      "condition_id": "C0021",
+      "condition_target": "Culture medium of the selected iHLO preparation",
+      "experimental_factor": "Insulin–transferrin–selenium concentration",
+      "factor_unit": "%",
+      "factor_value": 0.58,
+      "sample_id": "S0004",
+      "time": "From Day 17 after differentiation initiation"
+    },
+    {
+      "condition_id": "C0022",
+      "condition_target": "Culture medium of the selected iHLO preparation",
+      "experimental_factor": "Fetal bovine serum concentration",
+      "factor_unit": "%",
+      "factor_value": 8.3,
+      "sample_id": "S0004",
+      "time": "From Day 17 after differentiation initiation"
+    }
+  ],
+  "sample": [
+    {
+      "biological_model": "iPSC-derived human liver organoid model",
+      "biological_source": "Human iPSCs reprogrammed from wild-type foreskin fibroblasts (ATCC CRL-2522)",
+      "sample_accession": null,
+      "sample_id": "S0001",
+      "sample_material": "Protein lysates from Day-7 iHLO preparations; hepatoblast induction in KnockOut DMEM-based medium (Days 3-8). Three biological replicates are reported per stage; their links to the deposited TMT channels and RAW files are not supplied. The number of organoids per lysate is not specified.",
+      "sample_name": "iHLOs at Day 7",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "iPSC-derived human liver organoid model",
+      "biological_source": "Human iPSCs reprogrammed from wild-type foreskin fibroblasts (ATCC CRL-2522)",
+      "sample_accession": null,
+      "sample_id": "S0002",
+      "sample_material": "Protein lysates from Day-15 iHLO preparations; hepatic induction in HepatoZYME-based medium with HGF and oncostatin M (Days 9-16). Three biological replicates are reported per stage; their links to the deposited TMT channels and RAW files are not supplied. The number of organoids per lysate is not specified.",
+      "sample_name": "iHLOs at Day 15",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "iPSC-derived human liver organoid model",
+      "biological_source": "Human iPSCs reprogrammed from wild-type foreskin fibroblasts (ATCC CRL-2522)",
+      "sample_accession": null,
+      "sample_id": "S0003",
+      "sample_material": "Protein lysates from Day-30 iHLO preparations; maturation in supplemented Leibovitz L15 medium (from Day 17). Three biological replicates are reported per stage; their links to the deposited TMT channels and RAW files are not supplied. The number of organoids per lysate is not specified.",
+      "sample_name": "iHLOs at Day 30",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "iPSC-derived human liver organoid model",
+      "biological_source": "Human iPSCs reprogrammed from wild-type foreskin fibroblasts (ATCC CRL-2522)",
+      "sample_accession": null,
+      "sample_id": "S0004",
+      "sample_material": "Protein lysates from Day-45 iHLO preparations; maturation in supplemented Leibovitz L15 medium (from Day 17). Three biological replicates are reported per stage; their links to the deposited TMT channels and RAW files are not supplied. The number of organoids per lysate is not specified.",
+      "sample_name": "iHLOs at Day 45",
+      "species": "Homo sapiens"
+    }
+  ]
+}

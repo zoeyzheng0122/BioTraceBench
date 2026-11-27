@@ -1,0 +1,64 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD067612 (project)",
+      "method": "Aggregate Figure 5 comparison of CTRL and iPSC-EV-treated macrophage protein extracts; tryptic digestion, DDA-PASEF acquisition and MaxQuant 1.6.17.0 label-free analysis. Raw-file identities cannot be assigned to these groups. Article and PRIDE sample protocol specify nanoElute; PRIDE data-processing protocol also names Evosep One.",
+      "platform": "Bruker timsTOF Pro; nanoElute",
+      "sample_ids": [
+        "S0001",
+        "S0002"
+      ]
+    }
+  ],
+  "condition": [
+    {
+      "condition_id": "C0001",
+      "condition_target": "Macrophages",
+      "experimental_factor": "iPSC EV exposure duration",
+      "factor_unit": "h",
+      "factor_value": 24,
+      "sample_id": "S0002",
+      "time": "Before protein harvest"
+    },
+    {
+      "condition_id": "C0002",
+      "condition_target": "Recipient macrophages",
+      "experimental_factor": "iPSC-EV exposure dose",
+      "factor_unit": "EVs/well",
+      "factor_value": 0,
+      "sample_id": "S0001",
+      "time": "During the matched proteomics comparison."
+    },
+    {
+      "condition_id": "C0003",
+      "condition_target": "Recipient macrophages",
+      "experimental_factor": "Matched EV-unexposed comparison interval",
+      "factor_unit": "h",
+      "factor_value": 24,
+      "sample_id": "S0001",
+      "time": "Matched collection interval for the 24 h EV-treatment experiment."
+    }
+  ],
+  "sample": [
+    {
+      "biological_model": "Primary human monocyte-derived macrophage culture",
+      "biological_source": "Primary human PBMC-derived macrophages from healthy blood donors",
+      "sample_accession": null,
+      "sample_id": "S0001",
+      "sample_material": "Protein extract from source-labelled untreated control PBMC-derived macrophages for Figure 5 proteomics. Three independent experiments used biological duplicates, three PBMC donors and EVs from three producer-cell passages; individual preparation/file mappings are unavailable. The EV dose specifically assigned to the Figure 5 proteomics preparations is unresolved; the general protocol does not establish preparation-specific LPS/ATP assignments.",
+      "sample_name": "CTRL",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Primary human monocyte-derived macrophage culture",
+      "biological_source": "Primary human PBMC-derived macrophages from healthy blood donors",
+      "sample_accession": null,
+      "sample_id": "S0002",
+      "sample_material": "Protein extract from iPSC-EV-treated PBMC-derived macrophages for Figure 5 proteomics. Three independent experiments used biological duplicates, three PBMC donors and EVs from three producer-cell passages; individual preparation/file mappings are unavailable. EV producer: iPSC line WTSli028-A; this is reagent provenance, not macrophage donor identity. The EV dose specifically assigned to the Figure 5 proteomics preparations is unresolved; the general protocol does not establish preparation-specific LPS/ATP assignments.",
+      "sample_name": "iPSC EVs",
+      "species": "Homo sapiens"
+    }
+  ]
+}

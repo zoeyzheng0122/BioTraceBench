@@ -1,0 +1,325 @@
+{
+  "measure": [
+    {
+      "measure_definition": "Time to event: randomization to diagnostic consultation (OSA diagnosis visit); Participants; Kaplan–Meier estimation from randomization; diagnostic consultation after MJM monitoring or PSG; between-group comparison by Cox proportional hazards models. Registry time frame: up to 12 months.; Time origin: randomization. Event: attendance at diagnostic consultation to review the sleep study and discuss treatment. Censoring: last contact for participants without the event because of early study exit (e.g., withdrawal, loss to follow-up, or completion of the maximum 18-month study period without event). Median time reported in days. Superiority analysis specified as mITT main.",
+      "measure_id": "M0",
+      "measure_name": "Time to diagnostic consultation"
+    },
+    {
+      "measure_definition": "Time to event: randomization to treatment initiation; Participants; Kaplan–Meier estimation from randomization; treatment initiation (PAP or oral appliance) after diagnosis; between-group comparison by Cox proportional hazards models. Registry time frame: up to 15 months.; Time origin: randomization. Event: treatment initiation. Censoring: last contact for participants without the event because of early study exit (e.g., withdrawal, loss to follow-up, or completion of the maximum 18-month study period without event). Median time reported in days. Superiority analysis specified as mITT main.",
+      "measure_id": "M1",
+      "measure_name": "Time to treatment initiation"
+    },
+    {
+      "measure_definition": "Epworth Sleepiness Scale (ESS) total score: sum of eight items scored 0–3, total range 0–24; higher scores indicate greater daytime sleep propensity. Baseline is enrollment/randomization. The selected primary per-protocol endpoint is change from baseline to 3 months after diagnostic consultation; this is distinct from 3 months after randomization.",
+      "measure_id": "M2",
+      "measure_name": "Daytime sleepiness (Epworth Sleepiness Scale score)"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "Sunrise device: at-home mandibular jaw movement monitoring with artificial intelligence-supported analysis.",
+      "intervention_regimen": "Up to three nights at home; diagnosis based on the first valid recording; minimum 4 h of use required for a valid recording.",
+      "population_definition": "Randomized allocation to at-home mandibular jaw movement monitoring (MJM) with AI-supported analysis versus polysomnography; randomized 1:1.; Adults aged 18–80 years referred for suspicion of OSA, randomized to the MJM arm. Key exclusions included any OSA diagnostic procedure or OSA treatment within the previous 5 years, severe chronic obstructive or restrictive pulmonary disease, unstable cardiovascular disease, severe heart failure, and patients prioritized for OSA diagnosis (e.g., truck drivers, night workers).",
+      "population_id": "P0",
+      "population_name": "MJM randomized arm (Sunrise)",
+      "population_size": 426,
+      "population_time_frame": "Randomization 28 October 2021 to 7 October 2024; baseline at enrolment/randomization."
+    },
+    {
+      "intervention": "Polysomnography (in-laboratory or at-home), manually scored according to American Academy of Sleep Medicine criteria.",
+      "intervention_regimen": "Single standard overnight PSG.",
+      "population_definition": "Randomized allocation to polysomnography (in-laboratory or at-home) versus MJM; randomized 1:1.; Adults aged 18–80 years referred for suspicion of OSA, randomized to the PSG arm. Key exclusions included any OSA diagnostic procedure or OSA treatment within the previous 5 years, severe chronic obstructive or restrictive pulmonary disease, unstable cardiovascular disease, severe heart failure, and patients prioritized for OSA diagnosis (e.g., truck drivers, night workers).",
+      "population_id": "P1",
+      "population_name": "PSG randomized arm",
+      "population_size": 423,
+      "population_time_frame": "Randomization 28 October 2021 to 7 October 2024; baseline at enrolment/randomization."
+    },
+    {
+      "intervention": "Sunrise device: at-home mandibular jaw movement monitoring with artificial intelligence-supported analysis.",
+      "intervention_regimen": "Up to three nights at home; diagnosis based on the first valid recording; minimum 4 h of use required for a valid recording.",
+      "population_definition": "MJM arm in the time-to-treatment-initiation analysis (mITT main analysis). Member of the prescribed-treatment mITT population (P16).",
+      "population_id": "P2",
+      "population_name": "MJM arm in the time-to-treatment-initiation analysis (mITT main analysis)",
+      "population_size": 197,
+      "population_time_frame": "Initial risk set at randomization (day 0) for time to treatment initiation."
+    },
+    {
+      "intervention": "Polysomnography (in-laboratory or at-home), manually scored according to American Academy of Sleep Medicine criteria.",
+      "intervention_regimen": "Single standard overnight PSG.",
+      "population_definition": "PSG arm in the time-to-treatment-initiation analysis (mITT main analysis). Member of the prescribed-treatment mITT population (P16).",
+      "population_id": "P3",
+      "population_name": "PSG arm in the time-to-treatment-initiation analysis (mITT main analysis)",
+      "population_size": 192,
+      "population_time_frame": "Initial risk set at randomization (day 0) for time to treatment initiation."
+    },
+    {
+      "intervention": "Sunrise device: at-home mandibular jaw movement monitoring with artificial intelligence-supported analysis.",
+      "intervention_regimen": "ESS assessed at baseline and 3 months after diagnostic consultation; MJM monitoring up to three nights at home.",
+      "population_definition": "Per-protocol (PP) population for the primary noninferiority analysis of ESS change; randomized to MJM with available data and no major protocol deviations.; Randomized to MJM; available ESS data for change from baseline to 3 months after diagnostic consultation; no major protocol deviations.",
+      "population_id": "P4",
+      "population_name": "MJM per-protocol ESS analysis population",
+      "population_size": 310,
+      "population_time_frame": "ESS baseline at enrolment/randomization; follow-up ESS at 3 months after diagnostic consultation; study period 28 October 2021 to 7 October 2024."
+    },
+    {
+      "intervention": "Polysomnography (in-laboratory or at-home), manually scored according to American Academy of Sleep Medicine criteria.",
+      "intervention_regimen": "ESS assessed at baseline and 3 months after diagnostic consultation; single standard overnight PSG.",
+      "population_definition": "Per-protocol (PP) population for the primary noninferiority analysis of ESS change; randomized to PSG with available data and no major protocol deviations.; Randomized to PSG; available ESS data for change from baseline to 3 months after diagnostic consultation; no major protocol deviations.",
+      "population_id": "P5",
+      "population_name": "PSG per-protocol ESS analysis population",
+      "population_size": 263,
+      "population_time_frame": "ESS baseline at enrolment/randomization; follow-up ESS at 3 months after diagnostic consultation; study period 28 October 2021 to 7 October 2024."
+    },
+    {
+      "intervention": "Randomized to at-home mandibular jaw movement monitoring (MJM) or polysomnography (PSG).",
+      "intervention_regimen": "Randomized parallel-arm allocation; intervention as allocated.",
+      "population_definition": "All participants enrolled in SUNSAS, both randomized arms combined.; Adults ≥18 years in France enrolled from 18 sleep centres, spanning public hospitals and private clinics; SUNSAS study population.",
+      "population_id": "P11",
+      "population_name": "SUNSAS overall enrolled study population",
+      "population_size": 849,
+      "population_time_frame": "Study-conduct interval: 28 October 2021 to 7 October 2024 in France; not an individual participant enrollment or follow-up interval."
+    },
+    {
+      "intervention": "At-home mandibular jaw movement monitoring with artificial intelligence-supported analysis (Sunrise) or polysomnography (PSG), as randomized.",
+      "intervention_regimen": "Randomized parallel-arm allocation; mITT primary analysis.",
+      "population_definition": "Randomized patients in either arm with an indication for and prescription of PAP or an oral appliance. Refused or contraindicated treatment excludes the patient. Missing treatment indication is treated as treatment not required.",
+      "population_id": "P16",
+      "population_name": "Prescribed-treatment mITT analysis population",
+      "population_size": null,
+      "population_time_frame": "Protocol version 1.7 dated 13/06/2022; no separate mITT analysis date reported."
+    },
+    {
+      "intervention": "MJM monitoring or PSG diagnostic pathway",
+      "intervention_regimen": null,
+      "population_definition": "Primary ESS per-protocol cohort. Randomized participants with baseline and three-month post-diagnostic ESS and no major deviations affecting that endpoint.",
+      "population_id": "P17",
+      "population_name": "Primary ESS per-protocol analysis population",
+      "population_size": null,
+      "population_time_frame": "Baseline and three months after diagnostic consultation."
+    }
+  ],
+  "population_relation": [
+    {
+      "population_a_id": "P2",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P3",
+      "population_b_id": "P1",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P4",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P5",
+      "population_b_id": "P1",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P0",
+      "population_b_id": "P1",
+      "relationship": "disjoint from"
+    },
+    {
+      "population_a_id": "P4",
+      "population_b_id": "P5",
+      "relationship": "disjoint from"
+    },
+    {
+      "population_a_id": "P0",
+      "population_b_id": "P11",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P11",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P2",
+      "population_b_id": "P16",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P3",
+      "population_b_id": "P16",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P17",
+      "population_b_id": "P11",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P4",
+      "population_b_id": "P17",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P5",
+      "population_b_id": "P17",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P16",
+      "population_b_id": "P11",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P2",
+      "population_b_id": "P3",
+      "relationship": "disjoint from"
+    }
+  ],
+  "result": [
+    {
+      "assessment_time": "Randomization to diagnostic consultation; up to 12 months",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R01",
+      "result_unit": "days",
+      "result_value": 15,
+      "statistic_type": "Median",
+      "statistical_method": "Kaplan–Meier estimation of the time-to-event endpoint.",
+      "supplementary_statistics": "Day-0 risk set n = 426."
+    },
+    {
+      "assessment_time": "Randomization to diagnostic consultation; up to 12 months",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R02",
+      "result_unit": "days",
+      "result_value": 106,
+      "statistic_type": "Median",
+      "statistical_method": "Kaplan–Meier estimation of the time-to-event endpoint.",
+      "supplementary_statistics": "Day-0 risk set n = 423."
+    },
+    {
+      "assessment_time": "Randomization to diagnostic consultation; up to 12 months",
+      "comparison": "Hazard of diagnostic consultation in P1 (PSG) divided by that in P0 (MJM). Alternative HR < 1.",
+      "measure_id": "M0",
+      "population_id": "P11",
+      "result_id": "R03",
+      "result_unit": null,
+      "result_value": "p < 0·01",
+      "statistic_type": "P value for between-group comparison",
+      "statistical_method": "One-sided superiority test using a Cox proportional hazards model.",
+      "supplementary_statistics": null
+    },
+    {
+      "assessment_time": "Randomization to treatment initiation; up to 15 months",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P2",
+      "result_id": "R04",
+      "result_unit": "days",
+      "result_value": 50,
+      "statistic_type": "Median",
+      "statistical_method": "Kaplan–Meier estimation of the time-to-event endpoint.",
+      "supplementary_statistics": "Day-0 risk set n = 197."
+    },
+    {
+      "assessment_time": "Randomization to treatment initiation; up to 15 months",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P3",
+      "result_id": "R05",
+      "result_unit": "days",
+      "result_value": 124,
+      "statistic_type": "Median",
+      "statistical_method": "Kaplan–Meier estimation of the time-to-event endpoint.",
+      "supplementary_statistics": "Day-0 risk set n = 192."
+    },
+    {
+      "assessment_time": "Randomization to treatment initiation; up to 15 months",
+      "comparison": "Hazard of treatment dispensation in P3 (PSG) divided by that in P2 (MJM). Alternative HR < 1.",
+      "measure_id": "M1",
+      "population_id": "P16",
+      "result_id": "R06",
+      "result_unit": null,
+      "result_value": "p < 0·01",
+      "statistic_type": "P value for between-group comparison",
+      "statistical_method": "One-sided superiority test using a Cox proportional hazards model.",
+      "supplementary_statistics": null
+    },
+    {
+      "assessment_time": "Baseline (enrolment/randomization)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P0",
+      "result_id": "R13",
+      "result_unit": "points",
+      "result_value": 11.0,
+      "statistic_type": "Median",
+      "statistical_method": "Observed baseline median from Table 1.",
+      "supplementary_statistics": "IQR 7.0 to 15.0. Table 1 arm heading n = 426."
+    },
+    {
+      "assessment_time": "Baseline (enrolment/randomization)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R14",
+      "result_unit": "points",
+      "result_value": 11.0,
+      "statistic_type": "Median",
+      "statistical_method": "Observed baseline median from Table 1.",
+      "supplementary_statistics": "IQR 7.0 to 15.0. Table 1 arm heading n = 423."
+    },
+    {
+      "assessment_time": "3 months after diagnostic consultation",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P4",
+      "result_id": "R15",
+      "result_unit": "points",
+      "result_value": -2.26,
+      "statistic_type": "Change from baseline (point estimate)",
+      "statistical_method": null,
+      "supplementary_statistics": null
+    },
+    {
+      "assessment_time": "3 months after diagnostic consultation",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P5",
+      "result_id": "R16",
+      "result_unit": "points",
+      "result_value": -2.29,
+      "statistic_type": "Change from baseline (point estimate)",
+      "statistical_method": null,
+      "supplementary_statistics": null
+    },
+    {
+      "assessment_time": "3 months after diagnostic consultation",
+      "comparison": "P5 minus P4 (PSG minus MJM mean change), per final SAP. Change is follow-up ESS minus baseline ESS.",
+      "measure_id": "M2",
+      "population_id": "P17",
+      "result_id": "R17",
+      "result_unit": "points",
+      "result_value": -0.03,
+      "statistic_type": "PP between-group difference in mean ESS change (noninferiority)",
+      "statistical_method": "Per-protocol one-sided t test with a 1-point noninferiority margin.",
+      "supplementary_statistics": "95% CI −0·85 to 0·79; p = 0·01"
+    },
+    {
+      "assessment_time": "Baseline at randomization",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P11",
+      "result_id": "R18",
+      "result_unit": "ESS points",
+      "result_value": 11.0,
+      "statistic_type": "Median",
+      "statistical_method": "Observed baseline summary from Table 1.",
+      "supplementary_statistics": "IQR 7.0 to 15.0. Table 1 overall heading n = 849."
+    }
+  ]
+}

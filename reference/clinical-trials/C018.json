@@ -1,0 +1,156 @@
+{
+  "measure": [
+    {
+      "measure_definition": "Measured value: absolute change from baseline in body weight at week 48; Participants; Body weight measured at baseline and week 48. Table 2 reports least-squares mean absolute change using an ANCOVA model with multiple imputation under the treatment-regimen estimand.; Change from baseline (baseline defined as the last non-missing assessment recorded on or before the first study drug injection) to week 48, in kg; negative values indicate body-weight loss. Values are not adjusted for a comparator in the principal result cell.",
+      "measure_id": "M0",
+      "measure_name": "Body weight"
+    },
+    {
+      "measure_definition": "Measured value: percentage change from baseline in total body fat mass at week 48; Participants; Total body fat mass assessed by dual-energy X-ray absorptiometry (DXA) at baseline and week 48; least-squares mean percent change reported for the efficacy estimand using a mixed model for repeated measures (MMRM).; Change from baseline to week 48 expressed as percent; negative values indicate fat-mass reduction. Efficacy estimand excludes data after intercurrent events such as permanent treatment discontinuation.",
+      "measure_id": "M1",
+      "measure_name": "Total body fat mass by DXA"
+    },
+    {
+      "measure_definition": "Measured value: percentage change from baseline in total body lean mass at week 48; Participants; Total body lean mass assessed by DXA at baseline and week 48; least-squares mean percent change reported for the efficacy estimand using a mixed model for repeated measures (MMRM).; Change from baseline to week 48 expressed as percent; positive values indicate lean-mass increase and negative values indicate lean-mass decrease. Efficacy estimand excludes data after intercurrent events such as permanent treatment discontinuation.",
+      "measure_id": "M2",
+      "measure_name": "Total body lean mass by DXA"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "Bimagrumab plus semaglutide.",
+      "intervention_regimen": "Bimagrumab 30 mg kg−1; semaglutide 2.4 mg.; Bimagrumab or matching placebo given by 30-minute intravenous infusion with loading doses at week 1 and week 4, then every 12 weeks; open-label semaglutide self-administered subcutaneously once weekly, titrated to 2.4 mg from weeks 17 to 71; primary treatment period through week 48.",
+      "population_definition": "Randomized assignment to bimagrumab 30 mg kg−1 plus semaglutide 2.4 mg.; Adults aged 18–80 years with obesity (BMI ≥30 kg m−2 or BMI ≥27 kg m−2 with at least one obesity-associated comorbidity) and without diabetes requiring current antihyperglycemic drug use or HbA1c ≥6.5%; randomized to bimagrumab 30 mg kg−1 plus semaglutide 2.4 mg. The selected week-48 absolute body-weight change uses the treatment-regimen estimand; selected fat-mass and lean-mass results use the efficacy estimand.",
+      "population_id": "P0",
+      "population_name": "Bimagrumab 30 mg/kg plus semaglutide 2.4 mg group (high-dose combination)",
+      "population_size": 57,
+      "population_time_frame": "Primary treatment period week 1 to week 48; overall screening 16 November 2022 to 16 May 2024."
+    },
+    {
+      "intervention": "Matching bimagrumab placebo plus semaglutide.",
+      "intervention_regimen": "Bimagrumab placebo; semaglutide 2.4 mg.; Bimagrumab placebo given by 30-minute intravenous infusion with loading doses at week 1 and week 4, then every 12 weeks; open-label semaglutide self-administered subcutaneously once weekly, titrated to 2.4 mg from weeks 17 to 71; primary treatment period through week 48.",
+      "population_definition": "Randomized assignment to matching bimagrumab placebo plus semaglutide 2.4 mg.; Adults aged 18–80 years with obesity (BMI ≥30 kg m−2 or BMI ≥27 kg m−2 with at least one obesity-associated comorbidity) and without diabetes requiring current antihyperglycemic drug use or HbA1c ≥6.5%; randomized to matching bimagrumab placebo plus semaglutide 2.4 mg. The selected week-48 absolute body-weight change uses the treatment-regimen estimand; selected fat-mass and lean-mass results use the efficacy estimand.",
+      "population_id": "P1",
+      "population_name": "Semaglutide 2.4 mg with matching bimagrumab placebo group",
+      "population_size": 57,
+      "population_time_frame": "Primary treatment period week 1 to week 48; overall screening 16 November 2022 to 16 May 2024."
+    }
+  ],
+  "population_relation": [
+    {
+      "population_a_id": "P0",
+      "population_b_id": "P1",
+      "relationship": "disjoint from"
+    }
+  ],
+  "result": [
+    {
+      "assessment_time": "Week 48 (change from baseline)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R01",
+      "result_unit": "kg",
+      "result_value": -17.8,
+      "statistic_type": "LSM absolute change from baseline",
+      "statistical_method": "Treatment-regimen estimand. ANCOVA adjusted for treatment, gender, country and baseline value. Week-48 missing data imputed 100 times from placebo, with inference combined using Rubin’s rule.",
+      "supplementary_statistics": "SE 1.3 kg."
+    },
+    {
+      "assessment_time": "Week 48 (change from baseline)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R02",
+      "result_unit": "kg",
+      "result_value": -14.2,
+      "statistic_type": "LSM absolute change from baseline",
+      "statistical_method": "Treatment-regimen estimand. ANCOVA adjusted for treatment, gender, country and baseline value. Week-48 missing data imputed 100 times from placebo, with inference combined using Rubin’s rule.",
+      "supplementary_statistics": "SE 1.2 kg."
+    },
+    {
+      "assessment_time": "Week 48",
+      "comparison": "P0 versus P1; two-sided treatment comparison, no signed subtraction",
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R03",
+      "result_unit": null,
+      "result_value": "p = 0.039",
+      "statistic_type": "P value for between-group comparison (bimagrumab 30 mg/kg plus semaglutide 2.4 mg vs semaglutide 2.4 mg)",
+      "statistical_method": "Treatment-regimen estimand. ANCOVA with group, gender and country and baseline outcome. 100 control-based imputations from observed placebo data, combined with Rubin’s rules; estimates irrespective of adherence and discontinuation. Two-sided t test, nominal and unadjusted for multiplicity.",
+      "supplementary_statistics": "Nominal P value; two-sided t-test without multiplicity adjustment; between-group difference and CI versus semaglutide 2.4 mg not reported."
+    },
+    {
+      "assessment_time": "Week 48 (change from baseline)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P0",
+      "result_id": "R04",
+      "result_unit": "%",
+      "result_value": -42.2,
+      "statistic_type": "LSM percent change from baseline",
+      "statistical_method": "MMRM for the efficacy estimand; fixed effects: treatment group, gender, country, visit and visit-by-treatment; baseline outcome as covariate. Data after intercurrent events such as permanent treatment discontinuation excluded; missing values handled under missing at random, with no additional imputation.",
+      "supplementary_statistics": "Efficacy estimand; n=43 participants with baseline and post-baseline measurement at the specified time point (source-defined observed n, not asserted model-total n); SE=1.83."
+    },
+    {
+      "assessment_time": "Week 48 (change from baseline)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R05",
+      "result_unit": "%",
+      "result_value": -24.8,
+      "statistic_type": "LSM percent change from baseline",
+      "statistical_method": "MMRM for the efficacy estimand; fixed effects: treatment group, gender, country, visit and visit-by-treatment; baseline outcome as covariate. Data after intercurrent events such as permanent treatment discontinuation excluded; missing values handled under missing at random, with no additional imputation.",
+      "supplementary_statistics": "Efficacy estimand; n=47 participants with baseline and post-baseline measurement at the specified time point (source-defined observed n, not asserted model-total n); SE=1.75."
+    },
+    {
+      "assessment_time": "Week 48",
+      "comparison": "P0 versus P1; two-sided treatment comparison, no signed subtraction",
+      "measure_id": "M1",
+      "population_id": "P0",
+      "result_id": "R06",
+      "result_unit": null,
+      "result_value": "P < 0.001",
+      "statistic_type": "P value for between-group comparison (bimagrumab 30 mg/kg plus semaglutide 2.4 mg versus semaglutide 2.4 mg)",
+      "statistical_method": "Efficacy estimand for hypothetical full adherence after receiving at least one dose and no premature discontinuation. Excludes data after intercurrent events. MMRM with treatment, gender, country, visit and treatment-by-visit plus baseline outcome, implicit MAR handling and no additional imputation. Two-sided t test, nominal and unadjusted for multiplicity. Two-sided nominal t-test without multiplicity adjustment.",
+      "supplementary_statistics": "Nominal P value for the selected high-dose combination versus semaglutide 2.4 mg, as directly reported in the Figure 2 source-data worksheet; no between-group difference estimate or CI reported for this standalone test."
+    },
+    {
+      "assessment_time": "Week 48 (change from baseline)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P0",
+      "result_id": "R07",
+      "result_unit": "%",
+      "result_value": -2.6,
+      "statistic_type": "LSM percent change from baseline",
+      "statistical_method": "MMRM for the efficacy estimand; fixed effects: treatment group, gender, country, visit and visit-by-treatment; baseline outcome as covariate. Data after intercurrent events such as permanent treatment discontinuation excluded; missing values handled under missing at random, with no additional imputation.",
+      "supplementary_statistics": "Efficacy estimand; n=43 participants with baseline and post-baseline measurement at the specified time point (source-defined observed n, not asserted model-total n); SE=0.87."
+    },
+    {
+      "assessment_time": "Week 48 (change from baseline)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R08",
+      "result_unit": "%",
+      "result_value": -7.9,
+      "statistic_type": "LSM percent change from baseline",
+      "statistical_method": "MMRM for the efficacy estimand; fixed effects: treatment group, gender, country, visit and visit-by-treatment; baseline outcome as covariate. Data after intercurrent events such as permanent treatment discontinuation excluded; missing values handled under missing at random, with no additional imputation.",
+      "supplementary_statistics": "Efficacy estimand; n=47 participants with baseline and post-baseline measurement at the specified time point (source-defined observed n, not asserted model-total n); SE=0.62."
+    },
+    {
+      "assessment_time": "Week 48",
+      "comparison": "P0 versus P1; two-sided treatment comparison, no signed subtraction",
+      "measure_id": "M2",
+      "population_id": "P0",
+      "result_id": "R09",
+      "result_unit": null,
+      "result_value": "P < 0.001",
+      "statistic_type": "P value for between-group comparison (bimagrumab 30 mg/kg plus semaglutide 2.4 mg versus semaglutide 2.4 mg)",
+      "statistical_method": "Efficacy estimand for hypothetical full adherence after receiving at least one dose and no premature discontinuation. Excludes data after intercurrent events. MMRM with treatment, gender, country, visit and treatment-by-visit plus baseline outcome, implicit MAR handling and no additional imputation. Two-sided t test, nominal and unadjusted for multiplicity. Two-sided nominal t-test without multiplicity adjustment.",
+      "supplementary_statistics": "Nominal comparison of the selected high-dose combination versus semaglutide 2.4 mg; P < 0.001 reported for this comparison as part of the source statement covering all combination groups. No between-group difference estimate or CI reported for this standalone test."
+    }
+  ]
+}

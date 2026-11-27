@@ -1,0 +1,33 @@
+{
+  "case_id": "C026",
+  "task_id": "C026",
+  "title": "Aquatic therapy compared to standard care for chronic low back pain: a randomized controlled trial",
+  "doi": "10.1080/17581869.2026.2613633",
+  "comparison_or_design": "The analyzed aquatic-therapy comparison in chronic low back pain.",
+  "observations_or_assays": [
+    "NPRS pain score",
+    "ODI disability score",
+    "Combined HADS psychological score (not separate anxiety/depression subscales)"
+  ],
+  "time_scope": "Baseline and week 10.",
+  "excluded": [
+    "Other psychological, sleep and quality-of-life measures",
+    "Parent-trial muscle morphology, other visits and subgroup analyses",
+    "Separate HADS anxiety/depression subscale results and other psychological measures"
+  ],
+  "population_or_material": "The analyzed chronic-low-back-pain cohort in this two-arm aquatic-therapy trial.",
+  "requested_items": [
+    "Table 3 NPRS, ODI and combined HADS outcome: adjusted baseline/week-10 arm means, within-arm changes, week-10 group comparisons and group-by-time F with P/df/eta-squared supplements. Exclude SF-12 and other psychological scales."
+  ],
+  "resources": [],
+  "case_specific_rules": [
+    "Use the requested adjusted Table 3 outcomes. Preserve a reported between-group MD and its own CI without inferring its subtraction direction from the two adjusted means or the table column order. Keep the task-requested F/df/partial-eta-squared supplements with the corresponding analysis."
+  ],
+  "domain": "clinical",
+  "pipeline": "clinical-trials",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/clinical-trials.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

@@ -1,0 +1,239 @@
+{
+  "implementation": "Public conformance examples only; no scorer implementation or reference answers.",
+  "examples": [
+    {
+      "id": "origin-vs-target",
+      "variants": [
+        "A selected assay uses a mixed-cell organoid preparation.",
+        "The answer adds generic source-cell sample rows."
+      ],
+      "decision": "Retain source-distinguishable target preparations as samples; describe source cells in biological_source and physical pooling in sample_material.",
+      "rule_refs": [
+        "basic",
+        "tables.basic.sample"
+      ]
+    },
+    {
+      "id": "rna-placement",
+      "variants": [
+        "One target preparation has RNA extraction described in sample_material.",
+        "The same extraction is described in assay_run.method without changing the target identity."
+      ],
+      "decision": "Equivalent if the assayed object, requested conditions, acquisitions and links remain the same. Routine extraction does not create a second sample.",
+      "rule_refs": [
+        "basic",
+        "tables.basic.sample"
+      ]
+    },
+    {
+      "id": "replicates-not-counts",
+      "variants": [
+        "The source reports a total replicate count without identifying separate preparations."
+      ],
+      "decision": "Retain a source-defined condition-level preparation and describe the reported replication; do not invent individually identifiable sample rows.",
+      "rule_refs": [
+        "basic"
+      ]
+    },
+    {
+      "id": "pool-vs-association",
+      "variants": [
+        "One assay_run has sample_ids [\"S001\", \"S002\"]."
+      ],
+      "decision": "Retain both supported links; this association alone does not establish physical pooling.",
+      "rule_refs": [
+        "basic",
+        "serialization_rules.ids"
+      ]
+    },
+    {
+      "id": "aggregate-assay",
+      "variants": [
+        "The selected experiment and target preparations are known, but distinct acquisitions/libraries cannot be identified."
+      ],
+      "decision": "Use an explicitly described aggregate only when its supported granularity and unresolved mapping are stated. Preserve individually identified acquisitions when available.",
+      "rule_refs": [
+        "basic",
+        "tables.basic.assay_run"
+      ]
+    },
+    {
+      "id": "paired-files",
+      "variants": [
+        "A single acquisition has R1/R2 files or multiple file shards."
+      ],
+      "decision": "The file parts do not become independent assay rows.",
+      "rule_refs": [
+        "basic"
+      ]
+    },
+    {
+      "id": "tmt",
+      "variants": [
+        "Channels are labelled inside one multiplex proteomics acquisition."
+      ],
+      "decision": "Channels do not establish separate acquisitions. Preserve supported sample associations and the described multiplex method.",
+      "rule_refs": [
+        "basic"
+      ]
+    },
+    {
+      "id": "project-accession-fallback",
+      "variants": [
+        "No experiment or run accession is reported; the source identifies the associated project as PRIDE:PXD123456."
+      ],
+      "decision": "Use PRIDE:PXD123456 (project), preserving the identifier supplied in this fictional example. Add the actual level/type; do not substitute a generic example accession. A project record does not identify an individual acquisition or establish pooling.",
+      "rule_refs": [
+        "serialization_rules.assay-accession-fallback",
+        "tables.basic.assay_run"
+      ]
+    },
+    {
+      "id": "time-text",
+      "variants": [
+        "A time is represented as \"24 h after treatment initiation\"."
+      ],
+      "decision": "Use anchored text in time/assessment_time; no nested anchor/point/unit/relation object.",
+      "rule_refs": [
+        "serialization_rules.text"
+      ]
+    },
+    {
+      "id": "denominator",
+      "variants": [
+        "A randomized population contains 60 members; only 48 have a specified assessment."
+      ],
+      "decision": "population_size remains the reported member count; use the reported applicable denominator with that result. Never infer an unreported model n from either total.",
+      "rule_refs": [
+        "clinical",
+        "serialization_rules.integer",
+        "serialization_rules.statistics"
+      ]
+    },
+    {
+      "id": "one-principal-statistic",
+      "variants": [
+        "A table mean has its own SD; an adjusted difference has its own CI and P."
+      ],
+      "decision": "Attach each supplementary statistic to its own principal result. An adjusted difference and an arm mean are distinct requested statistical objects.",
+      "rule_refs": [
+        "clinical",
+        "serialization_rules.statistics"
+      ]
+    },
+    {
+      "id": "unspecified-direction",
+      "variants": [
+        "An effect size is negative; no formula or contrast direction is stated."
+      ],
+      "decision": "Preserve the reported sign and ordered comparison context where supported; state that the calculation direction is not reported. Do not infer subtraction direction from sign or column order.",
+      "rule_refs": [
+        "clinical",
+        "tables.clinical.result"
+      ]
+    },
+    {
+      "id": "repeated-estimate",
+      "variants": [
+        "The same requested estimate occurs in an abstract and a table with consistent rounding."
+      ],
+      "decision": "Retain one logical result with its own supplementary statistics and combined source support.",
+      "rule_refs": [
+        "common",
+        "clinical"
+      ]
+    },
+    {
+      "id": "source-conflict",
+      "variants": [
+        "Two supplied locations report incompatible values for the same requested quantity."
+      ],
+      "decision": "Apply an explicit case-specific source-priority rule first. Otherwise, for the same scientific or statistical target, prefer an explicit supplied correction, then a directly matching table row or result paragraph that reports a coherent value and its applicable context or CI/P/denominator information over a general summary. Match sample or population/analysis set, factor or measure, time, unit, model and within-arm versus between-arm statistic before comparing reports. Main and supplementary sources have no unconditional precedence. If these rules do not resolve the conflict, retain the supported alternatives and unresolved conflict in permitted descriptive fields, with detailed locations in separate review records. Do not invent a single value, combine bounds or statistics from different versions, or create duplicate scientific records for the conflict.",
+      "rule_refs": [
+        "common",
+        "clinical",
+        "serialization_rules.audit"
+      ]
+    },
+    {
+      "id": "unknown-foreign-key",
+      "variants": [
+        "A supported result has an unassignable population association."
+      ],
+      "decision": "Do not use an uncertainty label or guessed population as a foreign key. Keep the supported fact and candidate associations in notes until assignable.",
+      "rule_refs": [
+        "serialization_rules.associations"
+      ]
+    },
+    {
+      "id": "id-order-evidence",
+      "variants": [
+        "IDs are consistently renamed; rows reordered; repeated citations combined."
+      ],
+      "decision": "Equivalent only when the same objects, principal statistics, timepoints, values, denominators, comparison roles/direction and supported associations remain.",
+      "rule_refs": [
+        "serialization_rules.id"
+      ]
+    },
+    {
+      "id": "task-specific-standalone-p",
+      "variants": [
+        "The task requests between-group P values but no difference estimate.",
+        "A task explicitly requests within-arm one-sample t statistics and their df/P, without requesting a separate effect estimate."
+      ],
+      "decision": "Each clinical result row contains one requested principal statistic. Its own confidence interval, SD/SE, P value and applicable denominator go in supplementary_statistics. When explicitly requested by the task, a standalone within-arm or between-group test (including a t, F or P statistic) may be the principal statistic in its own result row. Otherwise attach a supplementary test to its corresponding estimate or change without duplicating it as another result. Preserve comparison roles and any source-stated formula; when direction is unspecified, state that it is not reported.",
+      "rule_refs": [
+        "serialization_rules.statistics"
+      ]
+    },
+    {
+      "id": "packet-empty",
+      "variants": [
+        "One evidence packet has no relevant requested content; another contains the requested facts."
+      ],
+      "decision": "Allow empty arrays for the first packet; assess completeness on the final combined answer to the unchanged task.",
+      "rule_refs": [
+        "common"
+      ]
+    },
+    {
+      "id": "numeric-condition-value",
+      "variants": [
+        "A reported scalar is stored as a JSON number, such as 3, 0.5 or a genuine zero.",
+        "A source-reported expression such as <0.22, 2–4, 1:2 or 5±1 is preserved as a compact string with its unit in factor_unit.",
+        "When the requested numerical value is unreported, omit the condition row and describe the missing value in sample.sample_material.",
+        "A categorical genotype remains in Samples descriptive fields; an unreported unit or time may be null when factor_value is supported."
+      ],
+      "decision": "A finite JSON number or a compact source-reported numeric expression such as <0.22, 2–4, 350–400, 1:2 or 5±1. Keep units in factor_unit. Do not put categories, explanatory words, units, NR/NE or null in factor_value. Create a condition row only when the requested numerical value is reported. Otherwise omit that condition row and describe the missing requested value in the corresponding sample.sample_material. Preserve genuine zeros and reported bounds; never substitute an invented midpoint. A reported factor_value remains valid when its factor_unit or time is null because that attribute is unreported or inapplicable.",
+      "rule_refs": [
+        "serialization_rules.numeric-expression",
+        "tables.basic.condition"
+      ]
+    },
+    {
+      "id": "basic-flat-json-response",
+      "variants": [
+        "{\"sample\": [], \"condition\": [], \"assay_run\": []}"
+      ],
+      "decision": "Accept exactly the three arrays sample, condition and assay_run at the response root, with no tables wrapper and no source/review root properties. Store evidence and review records separately.",
+      "rule_refs": [
+        "basic",
+        "serialization_rules.audit"
+      ]
+    },
+    {
+      "id": "canonical-accession-format",
+      "variants": [
+        "Project: PRIDE:PXD061023 → PRIDE:PXD061023 (project)",
+        "PRIDE:PXD062669(project) → PRIDE:PXD062669 (project)",
+        "GEO:GSM9564434; BioSample:SAMN56344589 → GEO:GSM9564434 (sample); BioSample:SAMN56344589 (sample)"
+      ],
+      "decision": "Use Database:Identifier (level/type) for each accession, with no spaces around the colon and exactly one space before the opening parenthesis. Use the database namespace in its canonical capitalization and a lowercase level/type. Examples: PRIDE:PXD057572 (project); GEO:GSE311704 (study); SRA:SRX32380739 (experiment); SRA:SRR28740494 (run); GEO:GSM9564434 (sample); BioSample:SAMN56344589 (sample); Zenodo:10.5281/zenodo.17874586 (software); Figshare:10.6084/m9.figshare.29955509.v3 (dataset). Separate multiple entries with a semicolon and one space, preserving source order and accession version. Put content descriptions in Method or separate review records, outside the accession token. Use null for an unavailable accession. Preserve the actual source-supported level/type; a project/study/dataset/software record does not identify an individual acquisition or establish pooling.",
+      "rule_refs": [
+        "serialization_rules.assay-accession-fallback",
+        "tables.basic.sample",
+        "tables.basic.assay_run"
+      ]
+    }
+  ]
+}

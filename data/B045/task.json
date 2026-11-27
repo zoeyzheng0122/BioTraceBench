@@ -1,0 +1,37 @@
+{
+  "case_id": "B045",
+  "task_id": "B045",
+  "title": "SLAMF7 defines subsets of human effector CD8 T cells",
+  "doi": "10.1038/s41598-024-80971-5",
+  "comparison_or_design": "Extract the identifiable CMV-specific CD8 T-cell RNA preparations whose native library titles specify no CD27 or CD45RA fraction. Retain donor age background only when a supplied library-to-donor mapping establishes it; the selected scope does not require reconstruction of an unavailable age comparison.",
+  "observations_or_assays": [
+    "Bulk RNA sequencing"
+  ],
+  "time_scope": "Baseline/ex vivo collection for selected transcriptomes; source-linked donor background only.",
+  "excluded": [
+    "Explicit CD27 or CD45RA fractions; EBV/Flu-specific preparations; naïve and TE controls; unrelated disease cohorts",
+    "Flow-cytometric phosphorylation, TCR/IL-15 or receptor-stimulation branches, expression reanalysis and TCR-repertoire results",
+    "Inferring donor identity, age group, pooling or biological replicate relationships from RHP order, numbered peptide labels or Mix"
+  ],
+  "population_or_material": "Total-RNA preparations from source-labelled CMV-specific CD8 T-cell materials in GSE282172, excluding explicitly CD27/CD45RA-fractionated libraries. Native RHP and antigen/preparation labels identify libraries, not proven donors.",
+  "requested_items": [
+    "Ex vivo collection state and CMV specificity as sample descriptions; donor age/background only when explicitly linked to the selected library",
+    "No categorical collection-state or age-group condition rows; leave the condition table empty when no requested numerical experimental factor is supported"
+  ],
+  "resources": [
+    {
+      "accession": "GSE282172",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE282172"
+    }
+  ],
+  "case_rules": "## Case-specific identity and conflict rules\nUse the supplied GEO records and ENA annotations to match native library title, sample accession and experiment/run. Select CMV-labelled titles with no explicit CD27 or CD45RA fraction; preserve numbered and Mix preparation labels without translating them into donor identities or confirmed pools. This operational inclusion boundary does not prove a sorting phenotype absent from the source. Put actual assayed total RNA in Sample Material, and source cells/donor background in Biological Source.\n\nAssign age or age group only with an explicit library-to-donor crosswalk. If unavailable, state that linkage is unknown in Biological Source. Ex vivo/collection categories remain descriptions, not Factor Value rows. Do not construct age groups from cohort totals or library order. Keep the condition table empty when no requested supported numerical condition exists.\n\nUse structured sample/experiment instrument metadata in Platform. Retain the conflicting article/library-protocol instrument in Method and the source locations in external notes. Retain the conflicting read-length statements as unresolved; do not select a scalar read length or generate additional assays from the discrepancy. This precedence rule specifies extraction behavior, not the proven physical sequencer.",
+  "row_granularity": "Keep one source-distinguishable RNA preparation per selected native library; do not merge libraries into assumed donors. Keep one assay per identifiable acquisition/experiment and retain parent/run accessions together where supplied; an SRX and its SRR are not separate assays. Generic source cells and routine intermediates stay descriptive. Multiple sample IDs do not prove pooling.",
+  "frozen_annotations": "- `related/ENA-PRJNA1187529/ENA_source_annotations.csv` and `ena-run-annotations.json`: all returned project run annotations, including excluded materials.\n- `related/ENA-PRJNA1187529/SAMN44795456.xml` and `SRX26753616.xml`: representative source-record spot checks.\n- `related/ENA-PRJNA1187529/PROVENANCE.md` and `metadata-manifest.json`: provenance and checksums.",
+  "domain": "basic",
+  "pipeline": "basic-research",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/basic-research.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

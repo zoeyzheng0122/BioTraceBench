@@ -1,0 +1,34 @@
+{
+  "case_id": "C021",
+  "task_id": "C021",
+  "title": "Physiotherapy informed by acceptance and commitment therapy for chronic low back pain: A randomized trial",
+  "doi": "10.1142/S1013702526500022",
+  "comparison_or_design": "The PACT-versus-usual-physiotherapy comparison with DNS-based graded exercise.",
+  "observations_or_assays": [
+    "SRQ-E external regulation",
+    "SRQ-E introjected regulation",
+    "SRQ-E identified regulation",
+    "SRQ-E intrinsic motivation"
+  ],
+  "time_scope": "Baseline and immediately after the 6-week intervention.",
+  "excluded": [
+    "Disability, pain acceptance, exercise adherence and autonomy support",
+    "Other follow-up times and non-SRQ-E outcomes"
+  ],
+  "population_or_material": "Participants with chronic low back pain in the PACT-versus-usual-care randomized comparison.",
+  "requested_items": [
+    "Four SRQ-E subscale arm means at baseline/post; arm changes with within-group tests/effect sizes; between-group effect sizes/tests for baseline, post and change. Do not force conflicting effect-size labels into a single inferred metric."
+  ],
+  "resources": [],
+  "case_specific_rules": [
+    "An explicitly labelled row test plus the source test-to-effect-size convention may identify the metric. Where the abstract and matching table/method disagree about the metric, retain a generic reported effect size and mark the metric unresolved. An unlabelled row test does not establish a metric.",
+    "Preserve table qualitative grades as source-reported when they conflict with stated cutoffs; do not reclassify them. Retain unexplained printing suffixes in the review record without inventing their meaning or changing the numerical component. Keep each independent effect size separate from its raw change."
+  ],
+  "domain": "clinical",
+  "pipeline": "clinical-trials",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/clinical-trials.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

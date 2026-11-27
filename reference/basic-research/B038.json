@@ -1,0 +1,574 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0002",
+      "assay_type": "Bulk mass-spectrometry proteomics",
+      "experiment_run_accession": "PRIDE:PXD065849 (project)",
+      "method": "Second-line validation aggregate for the control and light-conditioned groups in Supplementary Figure 10. The source reports one differentiation batch with two biological and three technical replicates. Individual pools, acquisitions and the validation-specific platform are unspecified.",
+      "platform": null,
+      "sample_ids": [
+        "S0009",
+        "S0010"
+      ]
+    },
+    {
+      "assay_id": "A0003",
+      "assay_type": "NanoLC dia-PASEF label-free proteomics",
+      "experiment_run_accession": "PRIDE:PXD065849 (project)",
+      "method": "Dark_1_1_S1-B1_1_20671.d (processed label Edwin_Dark_1_1_S1-B1_1_20671). RIPA/SDS protein extraction of pooled retinal organoids, detergent removal, reduction/alkylation, overnight trypsin digestion, reversed-phase C18 nanoLC (30SPD), dia-PASEF, and ProteoScape/Spectronaut v19 label-free quantification.",
+      "platform": "Evosep One nanoLC with Bruker timsTOF Pro2 and CaptiveSprayer",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0004",
+      "assay_type": "NanoLC dia-PASEF label-free proteomics",
+      "experiment_run_accession": "PRIDE:PXD065849 (project)",
+      "method": "Dark_1_2_S1-C1_1_20679.d (processed label Edwin_Dark_1_2_S1-C1_1_20679). RIPA/SDS protein extraction of pooled retinal organoids, detergent removal, reduction/alkylation, overnight trypsin digestion, reversed-phase C18 nanoLC (30SPD), dia-PASEF, and ProteoScape/Spectronaut v19 label-free quantification.",
+      "platform": "Evosep One nanoLC with Bruker timsTOF Pro2 and CaptiveSprayer",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0005",
+      "assay_type": "NanoLC dia-PASEF label-free proteomics",
+      "experiment_run_accession": "PRIDE:PXD065849 (project)",
+      "method": "Dark_1_3_S1-D1_1_20687.d (processed label Edwin_Dark_1_3_S1-D1_1_20687). RIPA/SDS protein extraction of pooled retinal organoids, detergent removal, reduction/alkylation, overnight trypsin digestion, reversed-phase C18 nanoLC (30SPD), dia-PASEF, and ProteoScape/Spectronaut v19 label-free quantification.",
+      "platform": "Evosep One nanoLC with Bruker timsTOF Pro2 and CaptiveSprayer",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0006",
+      "assay_type": "NanoLC dia-PASEF label-free proteomics",
+      "experiment_run_accession": "PRIDE:PXD065849 (project)",
+      "method": "Dark_2_1_S1-B3_1_20673.d (processed label Edwin_Dark_2_1_S1-B3_1_20673). RIPA/SDS protein extraction of pooled retinal organoids, detergent removal, reduction/alkylation, overnight trypsin digestion, reversed-phase C18 nanoLC (30SPD), dia-PASEF, and ProteoScape/Spectronaut v19 label-free quantification.",
+      "platform": "Evosep One nanoLC with Bruker timsTOF Pro2 and CaptiveSprayer",
+      "sample_ids": [
+        "S0002"
+      ]
+    },
+    {
+      "assay_id": "A0007",
+      "assay_type": "NanoLC dia-PASEF label-free proteomics",
+      "experiment_run_accession": "PRIDE:PXD065849 (project)",
+      "method": "Dark_2_2_S1-C3_1_20681.d (processed label Edwin_Dark_2_2_S1-C3_1_20681). RIPA/SDS protein extraction of pooled retinal organoids, detergent removal, reduction/alkylation, overnight trypsin digestion, reversed-phase C18 nanoLC (30SPD), dia-PASEF, and ProteoScape/Spectronaut v19 label-free quantification.",
+      "platform": "Evosep One nanoLC with Bruker timsTOF Pro2 and CaptiveSprayer",
+      "sample_ids": [
+        "S0002"
+      ]
+    },
+    {
+      "assay_id": "A0008",
+      "assay_type": "NanoLC dia-PASEF label-free proteomics",
+      "experiment_run_accession": "PRIDE:PXD065849 (project)",
+      "method": "Dark_2_3_S1-D3_1_20689.d (processed label Edwin_Dark_2_3_S1-D3_1_20689). RIPA/SDS protein extraction of pooled retinal organoids, detergent removal, reduction/alkylation, overnight trypsin digestion, reversed-phase C18 nanoLC (30SPD), dia-PASEF, and ProteoScape/Spectronaut v19 label-free quantification.",
+      "platform": "Evosep One nanoLC with Bruker timsTOF Pro2 and CaptiveSprayer",
+      "sample_ids": [
+        "S0002"
+      ]
+    },
+    {
+      "assay_id": "A0009",
+      "assay_type": "NanoLC dia-PASEF label-free proteomics",
+      "experiment_run_accession": "PRIDE:PXD065849 (project)",
+      "method": "Dark_3_1_S1-B5_1_20675.d (processed label Edwin_Dark_3_1_S1-B5_1_20675). RIPA/SDS protein extraction of pooled retinal organoids, detergent removal, reduction/alkylation, overnight trypsin digestion, reversed-phase C18 nanoLC (30SPD), dia-PASEF, and ProteoScape/Spectronaut v19 label-free quantification.",
+      "platform": "Evosep One nanoLC with Bruker timsTOF Pro2 and CaptiveSprayer",
+      "sample_ids": [
+        "S0003"
+      ]
+    },
+    {
+      "assay_id": "A0010",
+      "assay_type": "NanoLC dia-PASEF label-free proteomics",
+      "experiment_run_accession": "PRIDE:PXD065849 (project)",
+      "method": "Dark_3_2_S1-C5_1_20683.d (processed label Edwin_Dark_3_2_S1-C5_1_20683). RIPA/SDS protein extraction of pooled retinal organoids, detergent removal, reduction/alkylation, overnight trypsin digestion, reversed-phase C18 nanoLC (30SPD), dia-PASEF, and ProteoScape/Spectronaut v19 label-free quantification.",
+      "platform": "Evosep One nanoLC with Bruker timsTOF Pro2 and CaptiveSprayer",
+      "sample_ids": [
+        "S0003"
+      ]
+    },
+    {
+      "assay_id": "A0011",
+      "assay_type": "NanoLC dia-PASEF label-free proteomics",
+      "experiment_run_accession": "PRIDE:PXD065849 (project)",
+      "method": "Dark_3_3_S1-D5_1_20691.d (processed label Edwin_Dark_3_3_S1-D5_1_20691). RIPA/SDS protein extraction of pooled retinal organoids, detergent removal, reduction/alkylation, overnight trypsin digestion, reversed-phase C18 nanoLC (30SPD), dia-PASEF, and ProteoScape/Spectronaut v19 label-free quantification.",
+      "platform": "Evosep One nanoLC with Bruker timsTOF Pro2 and CaptiveSprayer",
+      "sample_ids": [
+        "S0003"
+      ]
+    },
+    {
+      "assay_id": "A0012",
+      "assay_type": "NanoLC dia-PASEF label-free proteomics",
+      "experiment_run_accession": "PRIDE:PXD065849 (project)",
+      "method": "Dark_4_1_S1-B7_1_20677.d (processed label Edwin_Dark_4_1_S1-B7_1_20677). RIPA/SDS protein extraction of pooled retinal organoids, detergent removal, reduction/alkylation, overnight trypsin digestion, reversed-phase C18 nanoLC (30SPD), dia-PASEF, and ProteoScape/Spectronaut v19 label-free quantification.",
+      "platform": "Evosep One nanoLC with Bruker timsTOF Pro2 and CaptiveSprayer",
+      "sample_ids": [
+        "S0004"
+      ]
+    },
+    {
+      "assay_id": "A0013",
+      "assay_type": "NanoLC dia-PASEF label-free proteomics",
+      "experiment_run_accession": "PRIDE:PXD065849 (project)",
+      "method": "Dark_4_2_S1-C7_1_20685.d (processed label Edwin_Dark_4_2_S1-C7_1_20685). RIPA/SDS protein extraction of pooled retinal organoids, detergent removal, reduction/alkylation, overnight trypsin digestion, reversed-phase C18 nanoLC (30SPD), dia-PASEF, and ProteoScape/Spectronaut v19 label-free quantification.",
+      "platform": "Evosep One nanoLC with Bruker timsTOF Pro2 and CaptiveSprayer",
+      "sample_ids": [
+        "S0004"
+      ]
+    },
+    {
+      "assay_id": "A0014",
+      "assay_type": "NanoLC dia-PASEF label-free proteomics",
+      "experiment_run_accession": "PRIDE:PXD065849 (project)",
+      "method": "Dark_4_3_S1-D7_1_20693.d (processed label Edwin_Dark_4_3_S1-D7_1_20693). RIPA/SDS protein extraction of pooled retinal organoids, detergent removal, reduction/alkylation, overnight trypsin digestion, reversed-phase C18 nanoLC (30SPD), dia-PASEF, and ProteoScape/Spectronaut v19 label-free quantification.",
+      "platform": "Evosep One nanoLC with Bruker timsTOF Pro2 and CaptiveSprayer",
+      "sample_ids": [
+        "S0004"
+      ]
+    },
+    {
+      "assay_id": "A0015",
+      "assay_type": "NanoLC dia-PASEF label-free proteomics",
+      "experiment_run_accession": "PRIDE:PXD065849 (project)",
+      "method": "Light_1_1_S1-B2_1_20672.d (processed label Edwin_Light_1_1_S1-B2_1_20672). RIPA/SDS protein extraction of pooled retinal organoids, detergent removal, reduction/alkylation, overnight trypsin digestion, reversed-phase C18 nanoLC (30SPD), dia-PASEF, and ProteoScape/Spectronaut v19 label-free quantification.",
+      "platform": "Evosep One nanoLC with Bruker timsTOF Pro2 and CaptiveSprayer",
+      "sample_ids": [
+        "S0005"
+      ]
+    },
+    {
+      "assay_id": "A0016",
+      "assay_type": "NanoLC dia-PASEF label-free proteomics",
+      "experiment_run_accession": "PRIDE:PXD065849 (project)",
+      "method": "Light_1_2_S1-C2_1_20680.d (processed label Edwin_Light_1_2_S1-C2_1_20680). RIPA/SDS protein extraction of pooled retinal organoids, detergent removal, reduction/alkylation, overnight trypsin digestion, reversed-phase C18 nanoLC (30SPD), dia-PASEF, and ProteoScape/Spectronaut v19 label-free quantification.",
+      "platform": "Evosep One nanoLC with Bruker timsTOF Pro2 and CaptiveSprayer",
+      "sample_ids": [
+        "S0005"
+      ]
+    },
+    {
+      "assay_id": "A0017",
+      "assay_type": "NanoLC dia-PASEF label-free proteomics",
+      "experiment_run_accession": "PRIDE:PXD065849 (project)",
+      "method": "Light_1_3_S1-D2_1_20688.d (processed label Edwin_Light_1_3_S1-D2_1_20688). RIPA/SDS protein extraction of pooled retinal organoids, detergent removal, reduction/alkylation, overnight trypsin digestion, reversed-phase C18 nanoLC (30SPD), dia-PASEF, and ProteoScape/Spectronaut v19 label-free quantification.",
+      "platform": "Evosep One nanoLC with Bruker timsTOF Pro2 and CaptiveSprayer",
+      "sample_ids": [
+        "S0005"
+      ]
+    },
+    {
+      "assay_id": "A0018",
+      "assay_type": "NanoLC dia-PASEF label-free proteomics",
+      "experiment_run_accession": "PRIDE:PXD065849 (project)",
+      "method": "Light_2_1_S1-B4_1_20674.d (processed label Edwin_Light_2_1_S1-B4_1_20674). RIPA/SDS protein extraction of pooled retinal organoids, detergent removal, reduction/alkylation, overnight trypsin digestion, reversed-phase C18 nanoLC (30SPD), dia-PASEF, and ProteoScape/Spectronaut v19 label-free quantification.",
+      "platform": "Evosep One nanoLC with Bruker timsTOF Pro2 and CaptiveSprayer",
+      "sample_ids": [
+        "S0006"
+      ]
+    },
+    {
+      "assay_id": "A0019",
+      "assay_type": "NanoLC dia-PASEF label-free proteomics",
+      "experiment_run_accession": "PRIDE:PXD065849 (project)",
+      "method": "Light_2_2_S1-C4_1_20682.d (processed label Edwin_Light_2_2_S1-C4_1_20682). RIPA/SDS protein extraction of pooled retinal organoids, detergent removal, reduction/alkylation, overnight trypsin digestion, reversed-phase C18 nanoLC (30SPD), dia-PASEF, and ProteoScape/Spectronaut v19 label-free quantification.",
+      "platform": "Evosep One nanoLC with Bruker timsTOF Pro2 and CaptiveSprayer",
+      "sample_ids": [
+        "S0006"
+      ]
+    },
+    {
+      "assay_id": "A0020",
+      "assay_type": "NanoLC dia-PASEF label-free proteomics",
+      "experiment_run_accession": "PRIDE:PXD065849 (project)",
+      "method": "Light_2_3_S1-D4_1_20690.d (processed label Edwin_Light_2_3_S1-D4_1_20690). RIPA/SDS protein extraction of pooled retinal organoids, detergent removal, reduction/alkylation, overnight trypsin digestion, reversed-phase C18 nanoLC (30SPD), dia-PASEF, and ProteoScape/Spectronaut v19 label-free quantification.",
+      "platform": "Evosep One nanoLC with Bruker timsTOF Pro2 and CaptiveSprayer",
+      "sample_ids": [
+        "S0006"
+      ]
+    },
+    {
+      "assay_id": "A0021",
+      "assay_type": "NanoLC dia-PASEF label-free proteomics",
+      "experiment_run_accession": "PRIDE:PXD065849 (project)",
+      "method": "Light_3_1_S1-B6_1_20676.d (processed label Edwin_Light_3_1_S1-B6_1_20676). RIPA/SDS protein extraction of pooled retinal organoids, detergent removal, reduction/alkylation, overnight trypsin digestion, reversed-phase C18 nanoLC (30SPD), dia-PASEF, and ProteoScape/Spectronaut v19 label-free quantification.",
+      "platform": "Evosep One nanoLC with Bruker timsTOF Pro2 and CaptiveSprayer",
+      "sample_ids": [
+        "S0007"
+      ]
+    },
+    {
+      "assay_id": "A0022",
+      "assay_type": "NanoLC dia-PASEF label-free proteomics",
+      "experiment_run_accession": "PRIDE:PXD065849 (project)",
+      "method": "Light_3_2_S1-C6_1_20684.d (processed label Edwin_Light_3_2_S1-C6_1_20684). RIPA/SDS protein extraction of pooled retinal organoids, detergent removal, reduction/alkylation, overnight trypsin digestion, reversed-phase C18 nanoLC (30SPD), dia-PASEF, and ProteoScape/Spectronaut v19 label-free quantification.",
+      "platform": "Evosep One nanoLC with Bruker timsTOF Pro2 and CaptiveSprayer",
+      "sample_ids": [
+        "S0007"
+      ]
+    },
+    {
+      "assay_id": "A0023",
+      "assay_type": "NanoLC dia-PASEF label-free proteomics",
+      "experiment_run_accession": "PRIDE:PXD065849 (project)",
+      "method": "Light_3_3_S1-D6_1_20692.d (processed label Edwin_Light_3_3_S1-D6_1_20692). RIPA/SDS protein extraction of pooled retinal organoids, detergent removal, reduction/alkylation, overnight trypsin digestion, reversed-phase C18 nanoLC (30SPD), dia-PASEF, and ProteoScape/Spectronaut v19 label-free quantification.",
+      "platform": "Evosep One nanoLC with Bruker timsTOF Pro2 and CaptiveSprayer",
+      "sample_ids": [
+        "S0007"
+      ]
+    },
+    {
+      "assay_id": "A0024",
+      "assay_type": "NanoLC dia-PASEF label-free proteomics",
+      "experiment_run_accession": "PRIDE:PXD065849 (project)",
+      "method": "Light_4_1_S1-B8_1_20678.d (processed label Edwin_Light_4_1_S1-B8_1_20678). RIPA/SDS protein extraction of pooled retinal organoids, detergent removal, reduction/alkylation, overnight trypsin digestion, reversed-phase C18 nanoLC (30SPD), dia-PASEF, and ProteoScape/Spectronaut v19 label-free quantification.",
+      "platform": "Evosep One nanoLC with Bruker timsTOF Pro2 and CaptiveSprayer",
+      "sample_ids": [
+        "S0008"
+      ]
+    },
+    {
+      "assay_id": "A0025",
+      "assay_type": "NanoLC dia-PASEF label-free proteomics",
+      "experiment_run_accession": "PRIDE:PXD065849 (project)",
+      "method": "Light_4_2_S1-C8_1_20686.d (processed label Edwin_Light_4_2_S1-C8_1_20686). RIPA/SDS protein extraction of pooled retinal organoids, detergent removal, reduction/alkylation, overnight trypsin digestion, reversed-phase C18 nanoLC (30SPD), dia-PASEF, and ProteoScape/Spectronaut v19 label-free quantification.",
+      "platform": "Evosep One nanoLC with Bruker timsTOF Pro2 and CaptiveSprayer",
+      "sample_ids": [
+        "S0008"
+      ]
+    },
+    {
+      "assay_id": "A0026",
+      "assay_type": "NanoLC dia-PASEF label-free proteomics",
+      "experiment_run_accession": "PRIDE:PXD065849 (project)",
+      "method": "Light_4_3_S1-D8_1_20694.d (processed label Edwin_Light_4_3_S1-D8_1_20694). RIPA/SDS protein extraction of pooled retinal organoids, detergent removal, reduction/alkylation, overnight trypsin digestion, reversed-phase C18 nanoLC (30SPD), dia-PASEF, and ProteoScape/Spectronaut v19 label-free quantification.",
+      "platform": "Evosep One nanoLC with Bruker timsTOF Pro2 and CaptiveSprayer",
+      "sample_ids": [
+        "S0008"
+      ]
+    }
+  ],
+  "condition": [
+    {
+      "condition_id": "C0001",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Culture light intensity",
+      "factor_unit": "lux",
+      "factor_value": 0,
+      "sample_id": "S0001",
+      "time": "During the DIV70-DIV210 conditioning interval"
+    },
+    {
+      "condition_id": "C0002",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Organoid age at proteomics collection",
+      "factor_unit": "day",
+      "factor_value": 210,
+      "sample_id": "S0001",
+      "time": "At DIV210 after retinal organoid differentiation initiation"
+    },
+    {
+      "condition_id": "C0003",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Culture light intensity",
+      "factor_unit": "lux",
+      "factor_value": 0,
+      "sample_id": "S0002",
+      "time": "During the DIV70-DIV210 conditioning interval"
+    },
+    {
+      "condition_id": "C0004",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Organoid age at proteomics collection",
+      "factor_unit": "day",
+      "factor_value": 210,
+      "sample_id": "S0002",
+      "time": "At DIV210 after retinal organoid differentiation initiation"
+    },
+    {
+      "condition_id": "C0005",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Culture light intensity",
+      "factor_unit": "lux",
+      "factor_value": 0,
+      "sample_id": "S0003",
+      "time": "During the DIV70-DIV210 conditioning interval"
+    },
+    {
+      "condition_id": "C0006",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Organoid age at proteomics collection",
+      "factor_unit": "day",
+      "factor_value": 210,
+      "sample_id": "S0003",
+      "time": "At DIV210 after retinal organoid differentiation initiation"
+    },
+    {
+      "condition_id": "C0007",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Culture light intensity",
+      "factor_unit": "lux",
+      "factor_value": 0,
+      "sample_id": "S0004",
+      "time": "During the DIV70-DIV210 conditioning interval"
+    },
+    {
+      "condition_id": "C0008",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Organoid age at proteomics collection",
+      "factor_unit": "day",
+      "factor_value": 210,
+      "sample_id": "S0004",
+      "time": "At DIV210 after retinal organoid differentiation initiation"
+    },
+    {
+      "condition_id": "C0009",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Culture light intensity",
+      "factor_unit": "lux",
+      "factor_value": "350–400",
+      "sample_id": "S0005",
+      "time": "During the DIV70-DIV210 conditioning interval"
+    },
+    {
+      "condition_id": "C0010",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Daily LED exposure duration",
+      "factor_unit": "h/day",
+      "factor_value": 6,
+      "sample_id": "S0005",
+      "time": "Daily from DIV70 until DIV210 collection"
+    },
+    {
+      "condition_id": "C0011",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Organoid age at proteomics collection",
+      "factor_unit": "day",
+      "factor_value": 210,
+      "sample_id": "S0005",
+      "time": "At DIV210 after retinal organoid differentiation initiation"
+    },
+    {
+      "condition_id": "C0012",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Culture light intensity",
+      "factor_unit": "lux",
+      "factor_value": "350–400",
+      "sample_id": "S0006",
+      "time": "During the DIV70-DIV210 conditioning interval"
+    },
+    {
+      "condition_id": "C0013",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Daily LED exposure duration",
+      "factor_unit": "h/day",
+      "factor_value": 6,
+      "sample_id": "S0006",
+      "time": "Daily from DIV70 until DIV210 collection"
+    },
+    {
+      "condition_id": "C0014",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Organoid age at proteomics collection",
+      "factor_unit": "day",
+      "factor_value": 210,
+      "sample_id": "S0006",
+      "time": "At DIV210 after retinal organoid differentiation initiation"
+    },
+    {
+      "condition_id": "C0015",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Culture light intensity",
+      "factor_unit": "lux",
+      "factor_value": "350–400",
+      "sample_id": "S0007",
+      "time": "During the DIV70-DIV210 conditioning interval"
+    },
+    {
+      "condition_id": "C0016",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Daily LED exposure duration",
+      "factor_unit": "h/day",
+      "factor_value": 6,
+      "sample_id": "S0007",
+      "time": "Daily from DIV70 until DIV210 collection"
+    },
+    {
+      "condition_id": "C0017",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Organoid age at proteomics collection",
+      "factor_unit": "day",
+      "factor_value": 210,
+      "sample_id": "S0007",
+      "time": "At DIV210 after retinal organoid differentiation initiation"
+    },
+    {
+      "condition_id": "C0018",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Culture light intensity",
+      "factor_unit": "lux",
+      "factor_value": "350–400",
+      "sample_id": "S0008",
+      "time": "During the DIV70-DIV210 conditioning interval"
+    },
+    {
+      "condition_id": "C0019",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Daily LED exposure duration",
+      "factor_unit": "h/day",
+      "factor_value": 6,
+      "sample_id": "S0008",
+      "time": "Daily from DIV70 until DIV210 collection"
+    },
+    {
+      "condition_id": "C0020",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Organoid age at proteomics collection",
+      "factor_unit": "day",
+      "factor_value": 210,
+      "sample_id": "S0008",
+      "time": "At DIV210 after retinal organoid differentiation initiation"
+    },
+    {
+      "condition_id": "C0021",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Culture light intensity",
+      "factor_unit": "lux",
+      "factor_value": 0,
+      "sample_id": "S0009",
+      "time": "During the DIV70-DIV210 conditioning interval"
+    },
+    {
+      "condition_id": "C0022",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Organoid age at proteomics collection",
+      "factor_unit": "day",
+      "factor_value": 210,
+      "sample_id": "S0009",
+      "time": "At DIV210 after retinal organoid differentiation initiation"
+    },
+    {
+      "condition_id": "C0023",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Culture light intensity",
+      "factor_unit": "lux",
+      "factor_value": "350–400",
+      "sample_id": "S0010",
+      "time": "During the DIV70-DIV210 conditioning interval"
+    },
+    {
+      "condition_id": "C0024",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Daily LED exposure duration",
+      "factor_unit": "h/day",
+      "factor_value": 6,
+      "sample_id": "S0010",
+      "time": "Daily from DIV70 until DIV210 collection"
+    },
+    {
+      "condition_id": "C0025",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Organoid age at proteomics collection",
+      "factor_unit": "day",
+      "factor_value": 210,
+      "sample_id": "S0010",
+      "time": "At DIV210 after retinal organoid differentiation initiation"
+    }
+  ],
+  "sample": [
+    {
+      "biological_model": "Human iPSC-derived retinal organoid model",
+      "biological_source": "Human iPSC line SCTCi010-A (control line 1)",
+      "sample_accession": null,
+      "sample_id": "S0001",
+      "sample_material": "Protein extract from a physical pool of three retinal organoids collected at DIV210. The native pool label is retained; individual organoid membership is not reported. Dark-cultured control (0 lux measured).",
+      "sample_name": "Control1",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Human iPSC-derived retinal organoid model",
+      "biological_source": "Human iPSC line SCTCi010-A (control line 1)",
+      "sample_accession": null,
+      "sample_id": "S0002",
+      "sample_material": "Protein extract from a physical pool of three retinal organoids collected at DIV210. The native pool label is retained; individual organoid membership is not reported. Dark-cultured control (0 lux measured).",
+      "sample_name": "Control2",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Human iPSC-derived retinal organoid model",
+      "biological_source": "Human iPSC line SCTCi010-A (control line 1)",
+      "sample_accession": null,
+      "sample_id": "S0003",
+      "sample_material": "Protein extract from a physical pool of three retinal organoids collected at DIV210. The native pool label is retained; individual organoid membership is not reported. Dark-cultured control (0 lux measured).",
+      "sample_name": "Control3",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Human iPSC-derived retinal organoid model",
+      "biological_source": "Human iPSC line SCTCi010-A (control line 1)",
+      "sample_accession": null,
+      "sample_id": "S0004",
+      "sample_material": "Protein extract from a physical pool of three retinal organoids collected at DIV210. The native pool label is retained; individual organoid membership is not reported. Dark-cultured control (0 lux measured).",
+      "sample_name": "Control4",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Human iPSC-derived retinal organoid model",
+      "biological_source": "Human iPSC line SCTCi010-A (control line 1)",
+      "sample_accession": null,
+      "sample_id": "S0005",
+      "sample_material": "Protein extract from a physical pool of three retinal organoids collected at DIV210. The native pool label is retained; individual organoid membership is not reported. Daily full-spectrum LED conditioning from DIV70. Light intensity: 350–400 lux.",
+      "sample_name": "Light1",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Human iPSC-derived retinal organoid model",
+      "biological_source": "Human iPSC line SCTCi010-A (control line 1)",
+      "sample_accession": null,
+      "sample_id": "S0006",
+      "sample_material": "Protein extract from a physical pool of three retinal organoids collected at DIV210. The native pool label is retained; individual organoid membership is not reported. Daily full-spectrum LED conditioning from DIV70. Light intensity: 350–400 lux.",
+      "sample_name": "Light2",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Human iPSC-derived retinal organoid model",
+      "biological_source": "Human iPSC line SCTCi010-A (control line 1)",
+      "sample_accession": null,
+      "sample_id": "S0007",
+      "sample_material": "Protein extract from a physical pool of three retinal organoids collected at DIV210. The native pool label is retained; individual organoid membership is not reported. Daily full-spectrum LED conditioning from DIV70. Light intensity: 350–400 lux.",
+      "sample_name": "Light3",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Human iPSC-derived retinal organoid model",
+      "biological_source": "Human iPSC line SCTCi010-A (control line 1)",
+      "sample_accession": null,
+      "sample_id": "S0008",
+      "sample_material": "Protein extract from a physical pool of three retinal organoids collected at DIV210. The native pool label is retained; individual organoid membership is not reported. Daily full-spectrum LED conditioning from DIV70. Light intensity: 350–400 lux.",
+      "sample_name": "Light4",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Human iPSC-derived retinal organoid model",
+      "biological_source": "Human iPSC line iPS15-00001 (control line 2)",
+      "sample_accession": null,
+      "sample_id": "S0009",
+      "sample_material": "Protein extracts from three-organoid pools collected at DIV210. Source-defined validation group from one differentiation batch; Supplementary Figure 10 reports two biological and three technical replicates without individual pool labels. Dark-cultured control (0 lux measured).",
+      "sample_name": "Control line 2 - control group",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Human iPSC-derived retinal organoid model",
+      "biological_source": "Human iPSC line iPS15-00001 (control line 2)",
+      "sample_accession": null,
+      "sample_id": "S0010",
+      "sample_material": "Protein extracts from three-organoid pools collected at DIV210. Source-defined validation group from one differentiation batch; Supplementary Figure 10 reports two biological and three technical replicates without individual pool labels. Daily full-spectrum LED conditioning from DIV70. Light intensity: 350–400 lux.",
+      "sample_name": "Control line 2 - light-conditioned group",
+      "species": "Homo sapiens"
+    }
+  ]
+}

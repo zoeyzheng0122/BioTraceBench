@@ -1,0 +1,319 @@
+{
+  "measure": [
+    {
+      "measure_definition": "Measured value: average pain intensity at rest over the previous 24 hours on the 0–10 Numerical Pain Rating Scale (NPRS).; NPRS administered before and after the 2-week intervention. Participants marked the average pain felt at rest in the last 24 h; scale 0 = no pain, 10 = excruciating pain. Outcome assessment was performed by a blinded researcher therapist.; NPRS score 0–10; higher score indicates greater pain. Assessed at baseline and after 2 weeks (4 days/week for 2 weeks). No responder threshold was reported.",
+      "measure_id": "M0",
+      "measure_name": "Pain at rest"
+    },
+    {
+      "measure_definition": "Measured value: average pain intensity during activity over the previous 24 hours on the 0–10 Numerical Pain Rating Scale (NPRS).; Participants; NPRS administered before and after the 2-week intervention. Participants marked the average pain felt during activities of daily life in the last 24 h; scale 0 = no pain, 10 = excruciating pain. Outcome assessment was performed by a blinded researcher therapist.; NPRS score 0–10; higher score indicates greater pain. Assessed at baseline and after 2 weeks (4 days/week for 2 weeks). No responder threshold was reported.",
+      "measure_id": "M1",
+      "measure_name": "Pain during activity"
+    },
+    {
+      "measure_definition": "Measured value: Oswestry disability score.; Participants; ODQ/ODI questionnaire given to the participant, who marked the best response; assessed before and after the 2-week intervention. The source labels the instrument both ODQ and ODI; score range and units are not stated in the supplied results.; Higher score indicates greater disability as reported; the source does not state the score range, units or a responder threshold. Baseline and end-of-2-week scores were reported.",
+      "measure_id": "M2",
+      "measure_name": "Disability due to low back pain on the Oswestry Disability Questionnaire/Index (ODQ/ODI as labeled in the source)"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "Randomized to conventional physiotherapy alone or conventional physiotherapy plus temporomandibular correction exercises according to group.",
+      "intervention_regimen": "Both groups planned for 4 days/week for 2 weeks; Group B additionally received temporomandibular correction exercises.",
+      "population_definition": "Random allocation to a parallel-group trial; combined total of both groups; Adults aged 20–50 years with mechanical low back pain for more than 3 months, mild or moderate temporomandibular joint dysfunction by Helkimo Index, and moderate or above disability by Oswestry Disability Questionnaire; exclusions were dental pathology, neurological involvement such as Bell's palsy or other cranial nerve involvement, systemic rheumatic disease, spondylolisthesis, lumbar or cervical radiculopathy, infectious diseases such as Pott's spine, ankylosing spondylosis, tumors, mental illness, or unwillingness to accept treatment. Randomized n=25; all participants were analyzed.",
+      "population_id": "P0",
+      "population_name": "Randomized and analyzed participants with mechanical low back pain",
+      "population_size": 25,
+      "population_time_frame": "Enrolment: December 2021 to March 2022 (paper); registry first enrolment 10-11-2020 and completion 10/03/2021; assessments at baseline and after 2 weeks."
+    },
+    {
+      "intervention": "Conventional physiotherapy alone: hot pack for low back; stretching of quadriceps, iliopsoas, hamstring and dorsolumbar fascia; static abdominal and static back exercises; straight leg raising in supine, side-lying and prone positions; pelvic bridging.",
+      "intervention_regimen": "Planned 4 days/week for 2 weeks. Exercise prescription: hot pack 10 min; stretches 3 repetitions per muscle × 30 s hold; static abdominal/back exercises 5 repetitions per muscle × 10 s hold; straight leg raising 5 repetitions per movement × 10 s hold; pelvic bridging 5 repetitions × 10 s hold. Observed treatment duration: 2 weeks; all participants completed.",
+      "population_definition": "Randomized to the control arm (allocation ratio 1:1); Group A; Adults aged 20–50 years with mechanical low back pain for more than 3 months, mild or moderate temporomandibular joint dysfunction by Helkimo Index, and moderate or above disability by Oswestry Disability Questionnaire; exclusions were dental pathology, neurological involvement such as Bell's palsy or other cranial nerve involvement, systemic rheumatic disease, spondylolisthesis, lumbar or cervical radiculopathy, infectious diseases such as Pott's spine, ankylosing spondylosis, tumors, mental illness, or unwillingness to accept treatment. Randomized to Group A (control); all 13 analyzed, with no loss to follow-up or discontinuation. Group labels follow Methods and Table 2; contradictory narrative claims about superior Group A are not used to reassign treatment.",
+      "population_id": "P1",
+      "population_name": "Group A: conventional physiotherapy alone (control group)",
+      "population_size": 13,
+      "population_time_frame": "Enrolment: December 2021 to March 2022; intervention 2 weeks; assessments at baseline and after 2 weeks."
+    },
+    {
+      "intervention": "Conventional physiotherapy plus temporomandibular correction exercises. TMJ exercises: myofascial release to all facial muscles bilaterally; TMJ joint mobility exercises (elevation, depression, lateral deviation bilaterally, protrusion, retraction); stretching of upper trapezius, pectoral muscles and levator scapulae. Conventional physiotherapy components: hot pack for low back; stretching of quadriceps, iliopsoas, hamstring and dorsolumbar fascia; static abdominal and static back exercises; straight leg raising in supine, side-lying and prone positions; pelvic bridging.",
+      "intervention_regimen": "Planned 4 days/week for 2 weeks. TMJ correction exercises: 5 repetitions of each movement × 10 s hold; stretching 3 repetitions per muscle × 30 s hold. Conventional physiotherapy: hot pack 10 min; stretches 3 repetitions per muscle × 30 s hold; static abdominal/back exercises 5 repetitions per muscle × 10 s hold; straight leg raising 5 repetitions per movement × 10 s hold; pelvic bridging 5 repetitions × 10 s hold. Observed treatment duration: 2 weeks; all participants completed.",
+      "population_definition": "Randomized to the experimental arm (allocation ratio 1:1); Group B; Adults aged 20–50 years with mechanical low back pain for more than 3 months, mild or moderate temporomandibular joint dysfunction by Helkimo Index, and moderate or above disability by Oswestry Disability Questionnaire; exclusions were dental pathology, neurological involvement such as Bell's palsy or other cranial nerve involvement, systemic rheumatic disease, spondylolisthesis, lumbar or cervical radiculopathy, infectious diseases such as Pott's spine, ankylosing spondylosis, tumors, mental illness, or unwillingness to accept treatment. Randomized to Group B (experimental); all 12 analyzed, with no loss to follow-up or discontinuation. Group labels follow Methods and Table 2; contradictory narrative claims about superior Group A are not used to reassign treatment.",
+      "population_id": "P2",
+      "population_name": "Group B: conventional physiotherapy plus temporomandibular correction exercises (experimental group)",
+      "population_size": 12,
+      "population_time_frame": "Enrolment: December 2021 to March 2022; intervention 2 weeks; assessments at baseline and after 2 weeks."
+    }
+  ],
+  "population_relation": [
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P2",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P2",
+      "relationship": "disjoint from"
+    }
+  ],
+  "result": [
+    {
+      "assessment_time": "Baseline (before intervention)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R01",
+      "result_unit": "NPRS points",
+      "result_value": 2.31,
+      "statistic_type": "Mean",
+      "statistical_method": "Published arm summary.",
+      "supplementary_statistics": "SD 0.85; n=13"
+    },
+    {
+      "assessment_time": "End of 2 weeks",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R02",
+      "result_unit": "NPRS points",
+      "result_value": 0.85,
+      "statistic_type": "Mean",
+      "statistical_method": "Published arm summary.",
+      "supplementary_statistics": "SD 0.69; n=13"
+    },
+    {
+      "assessment_time": "Baseline to end of 2 weeks",
+      "comparison": "Within P1: reported pre–post difference; subtraction direction not explicitly defined",
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R03",
+      "result_unit": "NPRS points",
+      "result_value": 1.61,
+      "statistic_type": "Mean difference between pre- and post-intervention scores (as reported)",
+      "statistical_method": "Methods specify paired t or Wilcoxon signed-rank according to distribution; endpoint-specific choice and difference formula are unstated.",
+      "supplementary_statistics": "SD 1.04; n=13; within-group P < 0.01"
+    },
+    {
+      "assessment_time": "Baseline to end of 2 weeks (between-group comparison of pre–post changes)",
+      "comparison": "P1 vs P2; subtraction/sign direction not explicitly established",
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R05",
+      "result_unit": null,
+      "result_value": "p = 0.65",
+      "statistic_type": "P value (between-group)",
+      "statistical_method": "Methods specify t test or Mann–Whitney according to distribution; endpoint-specific selection is unstated.",
+      "supplementary_statistics": "n=13 vs 12; non-significant"
+    },
+    {
+      "assessment_time": "Baseline (before intervention)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P2",
+      "result_id": "R06",
+      "result_unit": "NPRS points",
+      "result_value": 2.42,
+      "statistic_type": "Mean",
+      "statistical_method": "Published arm summary.",
+      "supplementary_statistics": "SD 0.25; n=12"
+    },
+    {
+      "assessment_time": "End of 2 weeks",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P2",
+      "result_id": "R07",
+      "result_unit": "NPRS points",
+      "result_value": 0.41,
+      "statistic_type": "Mean",
+      "statistical_method": "Published arm summary.",
+      "supplementary_statistics": "SD 0.0; n=12"
+    },
+    {
+      "assessment_time": "Baseline to end of 2 weeks",
+      "comparison": "Within P2: reported pre–post difference; subtraction direction not explicitly defined",
+      "measure_id": "M0",
+      "population_id": "P2",
+      "result_id": "R08",
+      "result_unit": "NPRS points",
+      "result_value": 1.8,
+      "statistic_type": "Mean difference between pre- and post-intervention scores (as reported)",
+      "statistical_method": "Methods specify paired t or Wilcoxon signed-rank according to distribution; endpoint-specific choice and difference formula are unstated.",
+      "supplementary_statistics": "SD 1.40; n=12; within-group P < 0.01"
+    },
+    {
+      "assessment_time": "Baseline (before intervention)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R10",
+      "result_unit": "NPRS points",
+      "result_value": 5.92,
+      "statistic_type": "Mean",
+      "statistical_method": "Published arm summary.",
+      "supplementary_statistics": "SD 0.76; n=13"
+    },
+    {
+      "assessment_time": "End of 2 weeks",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R11",
+      "result_unit": "NPRS points",
+      "result_value": 3.92,
+      "statistic_type": "Mean",
+      "statistical_method": "Published arm summary.",
+      "supplementary_statistics": "SD 0.76; n=13"
+    },
+    {
+      "assessment_time": "Baseline to end of 2 weeks",
+      "comparison": "Within P1: reported pre–post difference; subtraction direction not explicitly defined",
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R12",
+      "result_unit": "NPRS points",
+      "result_value": 1.92,
+      "statistic_type": "Mean difference between pre- and post-intervention scores (as reported)",
+      "statistical_method": "Methods specify paired t or Wilcoxon signed-rank according to distribution; endpoint-specific choice and difference formula are unstated.",
+      "supplementary_statistics": "SD 0.64; n=13; within-group P < 0.01"
+    },
+    {
+      "assessment_time": "Baseline to end of 2 weeks (between-group comparison of pre–post changes)",
+      "comparison": "P1 vs P2; subtraction/sign direction not explicitly established",
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R14",
+      "result_unit": null,
+      "result_value": "p < 0.001",
+      "statistic_type": "P value (between-group)",
+      "statistical_method": "Methods specify t test or Mann–Whitney according to distribution; endpoint-specific selection is unstated.",
+      "supplementary_statistics": "n=13 vs 12; reported as significant (*)"
+    },
+    {
+      "assessment_time": "Baseline (before intervention)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P2",
+      "result_id": "R15",
+      "result_unit": "NPRS points",
+      "result_value": 7.16,
+      "statistic_type": "Mean",
+      "statistical_method": "Published arm summary.",
+      "supplementary_statistics": "SD 7.0; n=12"
+    },
+    {
+      "assessment_time": "End of 2 weeks",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P2",
+      "result_id": "R16",
+      "result_unit": "NPRS points",
+      "result_value": 4.41,
+      "statistic_type": "Mean",
+      "statistical_method": "Published arm summary.",
+      "supplementary_statistics": "SD 4.0; n=12"
+    },
+    {
+      "assessment_time": "Baseline to end of 2 weeks",
+      "comparison": "Within P2: reported pre–post difference; subtraction direction not explicitly defined",
+      "measure_id": "M1",
+      "population_id": "P2",
+      "result_id": "R17",
+      "result_unit": "NPRS points",
+      "result_value": 2.75,
+      "statistic_type": "Mean difference between pre- and post-intervention scores (as reported)",
+      "statistical_method": "Methods specify paired t or Wilcoxon signed-rank according to distribution; endpoint-specific choice and difference formula are unstated.",
+      "supplementary_statistics": "SD 0.62; n=12; within-group P < 0.01"
+    },
+    {
+      "assessment_time": "Baseline (before intervention)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R19",
+      "result_unit": null,
+      "result_value": 23,
+      "statistic_type": "Mean",
+      "statistical_method": "Published arm summary.",
+      "supplementary_statistics": "SD 1.78; n=13; score units not reported"
+    },
+    {
+      "assessment_time": "End of 2 weeks",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R20",
+      "result_unit": null,
+      "result_value": 20.77,
+      "statistic_type": "Mean",
+      "statistical_method": "Published arm summary.",
+      "supplementary_statistics": "SD 1.96; n=13; score units not reported"
+    },
+    {
+      "assessment_time": "Baseline to end of 2 weeks",
+      "comparison": "Within P1: reported pre–post difference; subtraction direction not explicitly defined",
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R21",
+      "result_unit": null,
+      "result_value": 2.23,
+      "statistic_type": "Mean difference between pre- and post-intervention scores (as reported)",
+      "statistical_method": "Methods specify paired t or Wilcoxon signed-rank according to distribution; endpoint-specific choice and difference formula are unstated.",
+      "supplementary_statistics": "SD 1.01; n=13; score units not reported; within-group P < 0.01"
+    },
+    {
+      "assessment_time": "Baseline to end of 2 weeks (between-group comparison of pre–post changes)",
+      "comparison": "P1 vs P2; subtraction/sign direction not explicitly established",
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R23",
+      "result_unit": null,
+      "result_value": "p = 0.26",
+      "statistic_type": "P value (between-group)",
+      "statistical_method": "Methods specify t test or Mann–Whitney according to distribution; endpoint-specific selection is unstated.",
+      "supplementary_statistics": "n=13 vs 12; non-significant"
+    },
+    {
+      "assessment_time": "Baseline (before intervention)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P2",
+      "result_id": "R24",
+      "result_unit": null,
+      "result_value": 22.17,
+      "statistic_type": "Mean",
+      "statistical_method": "Published arm summary.",
+      "supplementary_statistics": "SD 1.27; n=12; score units not reported"
+    },
+    {
+      "assessment_time": "End of 2 weeks",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P2",
+      "result_id": "R25",
+      "result_unit": null,
+      "result_value": 18.83,
+      "statistic_type": "Mean",
+      "statistical_method": "Published arm summary.",
+      "supplementary_statistics": "SD 1.59; n=12; score units not reported"
+    },
+    {
+      "assessment_time": "Baseline to end of 2 weeks",
+      "comparison": "Within P2: reported pre–post difference; subtraction direction not explicitly defined",
+      "measure_id": "M2",
+      "population_id": "P2",
+      "result_id": "R26",
+      "result_unit": null,
+      "result_value": 3.33,
+      "statistic_type": "Mean difference between pre- and post-intervention scores (as reported)",
+      "statistical_method": "Methods specify paired t or Wilcoxon signed-rank according to distribution; endpoint-specific choice and difference formula are unstated.",
+      "supplementary_statistics": "SD 1.49; n=12; score units not reported; within-group P < 0.01"
+    }
+  ]
+}

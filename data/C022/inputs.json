@@ -1,0 +1,188 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "C022",
+    "domain": "clinical",
+    "title": "Evaluation of the Impact of a Smartphone App on Adherence to an Exercise Program in People With Chronic Low Back Pain: Randomized Controlled Trial",
+    "doi": "10.2196/77736",
+    "pipeline": "clinical-trials",
+    "pmid": "42296544",
+    "pmcid": "PMC13268638",
+    "registry": "NCT04264949"
+  },
+  "files": [
+    {
+      "path": "sources/article.xml",
+      "sha256": "b20174db00e889b92d95c54fd7073828a0607dc430034f6ad57f1795a20152f1",
+      "bytes": 155198,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13268638/fullTextXML"
+      ],
+      "association": "exact PMCID from case identity"
+    },
+    {
+      "path": "records/ClinicalTrials-NCT04264949.json",
+      "sha256": "b8485485b8a723947fcc54a18c1144e224549e12af34c19e300569d4c90eb19c",
+      "bytes": 8165,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://clinicaltrials.gov/api/v2/studies/NCT04264949"
+      ],
+      "association": "exact trial accession reported in article",
+      "original_filename": "registry.json",
+      "retrieved_at": "2026-10-17T21:52:41+08:00",
+      "derived_from": "d979ed065a1d6fbe1c1e1ae11605b75a8325b6800393a27cb937de06904702ed",
+      "original_sha256": "d979ed065a1d6fbe1c1e1ae11605b75a8325b6800393a27cb937de06904702ed",
+      "representation": "refine-lexical-json-1",
+      "provenance_transform": "exact_json_whitespace_compaction"
+    },
+    {
+      "path": "figures/mhealth-v14-e77736-g001.jpg",
+      "sha256": "2812565fdc44d8a21433d2e53e1a47b4eb131cd63a389c0dd9cf0f662602de60",
+      "bytes": 87783,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13268638/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/mhealth-v14-e77736-g002.jpg",
+      "sha256": "aeda4cde71c055f2121d5a0dd441418fa1ad20379ec79cdeced932e81b5a00cb",
+      "bytes": 30030,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13268638/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/mhealth-v14-e77736-g003.jpg",
+      "sha256": "9ba239baf80b126f789e5c204f6e1486b5da34873484a4274fd3059ab3819f5a",
+      "bytes": 20192,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13268638/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/mhealth-v14-e77736-g004.jpg",
+      "sha256": "7a6dd75e0288f1742e990ee1d0b1d19fc2f69b87d8f63c30d5956d1455c986a6",
+      "bytes": 24713,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13268638/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/mhealth-v14-e77736-s001.png",
+      "sha256": "e34fca33524170b2aac5911cb0f8cce6ebbca5cee29011e5993945dc1c39499f",
+      "bytes": 19014,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13268638/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package",
+      "derived_from": "b6fae7065582f3557f546b55455c6c48f71976a9c25a614ee7679446441443f6",
+      "original_sha256": "b6fae7065582f3557f546b55455c6c48f71976a9c25a614ee7679446441443f6",
+      "original_filename": "mhealth-v14-e77736-s001.png",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_palette"
+    },
+    {
+      "path": "figures/mhealth-v14-e77736-s002.png",
+      "sha256": "0c0c65d3e62cc379d8280eeff131f6e7d6e7081cf1f621f99cf4e948284567a7",
+      "bytes": 516257,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13268638/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package",
+      "derived_from": "633d3d5e7c5491305018ee37bd0a165323f1f3c11ae7ac3a45452e6861dfeeb6",
+      "original_sha256": "633d3d5e7c5491305018ee37bd0a165323f1f3c11ae7ac3a45452e6861dfeeb6",
+      "original_filename": "mhealth-v14-e77736-s002.png",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "figures/mhealth-v14-e77736-s003.png",
+      "sha256": "867336e242f50f51da94fb1daea2c98212aaab5e2a67b823c2f45583d9fcdcf9",
+      "bytes": 344548,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13268638/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package",
+      "derived_from": "cc9720bda754787efb6bf11f2a0a80ada6178db2dd7a15b311ccda634e08bf6c",
+      "original_sha256": "cc9720bda754787efb6bf11f2a0a80ada6178db2dd7a15b311ccda634e08bf6c",
+      "original_filename": "mhealth-v14-e77736-s003.png",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/mhealth-v14-e77736-s004__refine/content.md",
+      "sha256": "141667c957581697a18906ce188fe9fb0e8ae09ca084b705d907d05dc94d0c4a",
+      "bytes": 1398,
+      "role": "supplement",
+      "roles": [
+        "supplement"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13268638/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package",
+      "derived_from": "9a18e80bafca0d03775053b24ffdf34b6df4ba2d6641fedf5660d944c1004e01",
+      "original_sha256": "9a18e80bafca0d03775053b24ffdf34b6df4ba2d6641fedf5660d944c1004e01",
+      "original_filename": "mhealth-v14-e77736-s004.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "pdf_text_visual",
+      "prior_sha256": "10a3681acc4319a24e1d5cd4761cfd60e2be9793378ac1947ca9cd699a9a63fb",
+      "compatibility_transform": "remove_task_excluded_image_reference_lines"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

@@ -1,0 +1,210 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "B042",
+    "domain": "basic",
+    "title": "Extracellular vesicles derived from induced pluripotent stem cells mediate anti-inflammatory effects in primary human macrophages",
+    "doi": "10.1038/s41598-026-49621-w",
+    "pipeline": "basic-research",
+    "pmid": "42106405",
+    "pmcid": "PMC13346880",
+    "registry": "PXD067612"
+  },
+  "files": [
+    {
+      "path": "sources/article.xml",
+      "sha256": "1579588f37fd4640062582fdf864d80221b49dc149816b5bc9705dc7f3bc20c9",
+      "bytes": 166909,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13346880/fullTextXML"
+      ],
+      "association": "exact public PMCID candidate"
+    },
+    {
+      "path": "records/PRIDE-PXD067567.json",
+      "sha256": "5e66b3e4fd333dbe418251ef4b2cdef6071494446c7275f568775cbe4e1f37c2",
+      "bytes": 9064,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/pride/ws/archive/v2/projects/PXD067567"
+      ],
+      "association": "exact dataset identifier in article Data Availability; webpage text only; selected-module relation awaits review",
+      "original_filename": "PRIDE-PXD067567.json",
+      "retrieved_at": "2026-10-18T00:32:53+08:00",
+      "derived_from": "356785401b1b74fb8c287ee644807900016150630ee5bb922be5db0bf28e2ef3",
+      "original_sha256": "356785401b1b74fb8c287ee644807900016150630ee5bb922be5db0bf28e2ef3",
+      "representation": "refine-lexical-json-1",
+      "provenance_transform": "exact_json_whitespace_compaction"
+    },
+    {
+      "path": "records/PRIDE-PXD067612.json",
+      "sha256": "b0c161d771c3cf3043a326fcca9df9067e2adecdf164af60d740071960a5404e",
+      "bytes": 10782,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/pride/ws/archive/v2/projects/PXD067612"
+      ],
+      "association": "exact dataset identifier in article Data Availability; webpage text only; selected-module relation awaits review",
+      "original_filename": "PRIDE-PXD067612.json",
+      "retrieved_at": "2026-10-18T00:32:54+08:00",
+      "derived_from": "7f27d458ad1e1689a66269052d02d3272b9047dfcd14ba8aae346474c55d7402",
+      "original_sha256": "7f27d458ad1e1689a66269052d02d3272b9047dfcd14ba8aae346474c55d7402",
+      "representation": "refine-lexical-json-1",
+      "provenance_transform": "exact_json_whitespace_compaction"
+    },
+    {
+      "path": "figures/41598_2026_49621_Fig1_HTML.jpg",
+      "sha256": "e9241bbc90894f1fd034e7ccc2bd60a0501d5b1afddefc1f07b5d3eb374894bb",
+      "bytes": 146175,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13346880.1/41598_2026_49621_Fig1_HTML.jpg?md5=b2ee0f2e179f2549f5c8ef489265610e"
+      ],
+      "association": "exact JATS Fig1 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41598_2026_49621_Fig2_HTML.jpg",
+      "sha256": "4f54ae06cf8def96cb161caeb6b89350f1c3d9b1317f5a4abb6a772d69c622c9",
+      "bytes": 71781,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13346880.1/41598_2026_49621_Fig2_HTML.jpg?md5=ff7f51453dc64fbbde31c72b32d94ae7"
+      ],
+      "association": "exact JATS Fig2 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41598_2026_49621_Fig3_HTML.jpg",
+      "sha256": "d006cd1e369b82297d1b0f5a893de6edf6dce4215d34e5659af9e113b18f4bb3",
+      "bytes": 100719,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13346880.1/41598_2026_49621_Fig3_HTML.jpg?md5=f995d12d0ebe8d5fe6b70c5acc3f756d"
+      ],
+      "association": "exact JATS Fig3 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41598_2026_49621_Fig4_HTML.jpg",
+      "sha256": "ba430c2056cd670af27b5573e12e9e02eab13170ed9229e95e3b3159ff1b4b50",
+      "bytes": 174978,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13346880.1/41598_2026_49621_Fig4_HTML.jpg?md5=139db505637d8aa7f1d527dbdc695cd7"
+      ],
+      "association": "exact JATS Fig4 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41598_2026_49621_Fig5_HTML.jpg",
+      "sha256": "94c55b1d01790006e24307d132a952c903aada5ff5d65bc891f8a3565609fef3",
+      "bytes": 226416,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13346880.1/41598_2026_49621_Fig5_HTML.jpg?md5=8f5ec9306f5ed5fe0f5241c2146cce63"
+      ],
+      "association": "exact JATS Fig5 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41598_2026_49621_Fig6_HTML.jpg",
+      "sha256": "fa00805a8bfbac2555ff517c23c81543a31667e2690955c4ca8744a9b3e24dc3",
+      "bytes": 229296,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13346880.1/41598_2026_49621_Fig6_HTML.jpg?md5=3a96535c5b647eee900f9a5f16713873"
+      ],
+      "association": "exact JATS Fig6 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/captions.txt",
+      "sha256": "1153df290ff7a8581d10b0deeae6d0078f35b819558237673203572196adc137",
+      "bytes": 9727,
+      "role": "figure_captions",
+      "roles": [
+        "figure_captions"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13346880/"
+      ],
+      "derived_from": "737d102f9af2245b806b02374bcbf42cb651254816796e926dd99a726c651658"
+    },
+    {
+      "path": "supplements/41598_2026_49621_MOESM1_ESM__refine/asset-image5.png",
+      "sha256": "2920032aa9aef1c101e085168ad1e2b63adafca02cb673b6d2e7eabf7aeb3581",
+      "bytes": 63942,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13346880.1/41598_2026_49621_MOESM1_ESM.docx?md5=10143627abb8a04b9c4ccbde11d506e1"
+      ],
+      "association": "exact JATS MOESM1 in verified PMC version; article source only",
+      "derived_from": "18a1ac3146d935288d977e6aa5f4aef8e2c66dcce8f867cacc0515a45066a6fd",
+      "original_sha256": "18a1ac3146d935288d977e6aa5f4aef8e2c66dcce8f867cacc0515a45066a6fd",
+      "original_filename": "41598_2026_49621_MOESM1_ESM.docx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_grayscale"
+    },
+    {
+      "path": "supplements/41598_2026_49621_MOESM1_ESM__refine/content.md",
+      "sha256": "2370da9428ace2bd14a64ce1054748e5d86cf9a30a384cc92d8f51866ba0eced",
+      "bytes": 3057,
+      "role": "supplement",
+      "roles": [
+        "supplement"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13346880.1/41598_2026_49621_MOESM1_ESM.docx?md5=10143627abb8a04b9c4ccbde11d506e1"
+      ],
+      "association": "exact JATS MOESM1 in verified PMC version; article source only",
+      "derived_from": "18a1ac3146d935288d977e6aa5f4aef8e2c66dcce8f867cacc0515a45066a6fd",
+      "original_sha256": "18a1ac3146d935288d977e6aa5f4aef8e2c66dcce8f867cacc0515a45066a6fd",
+      "original_filename": "41598_2026_49621_MOESM1_ESM.docx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "office_text_tables"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

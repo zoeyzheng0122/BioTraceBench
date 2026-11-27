@@ -1,0 +1,179 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "B004",
+    "domain": "basic",
+    "title": "Recombinant ADAMTS-1 promotes muscle regeneration accompanied by downregulation of Notch signaling",
+    "doi": "10.3892/ijmm.2025.5718",
+    "pipeline": "basic-research",
+    "pmid": "41456440",
+    "pmcid": "PMC12768481",
+    "registry": "10.5281/zenodo.17579631"
+  },
+  "files": [
+    {
+      "path": "records/Zenodo-17579631-record.txt",
+      "sha256": "71e3a35ace0d08bb9d16e84d3a115e10adde815b782367bf36f8b4c1c566cde3",
+      "bytes": 4464,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://zenodo.org/api/records/17579631"
+      ],
+      "derived_from": "a7ea25f9a627908c053936a4b9fdcf389e9c83f63190ccaa7b7bb626d04a2bf5",
+      "representation": "readable_repository_record",
+      "association": "exact accession reported in Data Availability; metadata only; relation not yet verified; readable official record text",
+      "original_filename": "Zenodo-zenodo.17579631-record.txt",
+      "retrieved_at": "2026-10-17T23:59:31+08:00"
+    },
+    {
+      "path": "sources/article.xml",
+      "sha256": "37e201f7a2341c30efe4575e1d900e16c812209c0617a1c8e4214e650840c8f5",
+      "bytes": 134952,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12768481/fullTextXML"
+      ],
+      "association": "exact public PMCID candidate"
+    },
+    {
+      "path": "records/Zenodo-17579631-record.json",
+      "sha256": "169511d9579bdac9f8e8da671d313a1bb111855c773c4b443607d90506cf824e",
+      "bytes": 4173,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://zenodo.org/api/records/17579631"
+      ],
+      "association": "exact accession reported in Data Availability; metadata only; relation not yet verified",
+      "original_filename": "Zenodo-zenodo.17579631-record.json",
+      "retrieved_at": "2026-10-17T23:59:31+08:00"
+    },
+    {
+      "path": "figures/captions.txt",
+      "sha256": "320161bd0329c7bac73d2c77233dc57720c0bec4723d28e78c96b48138b2b2eb",
+      "bytes": 10164,
+      "role": "figure_captions",
+      "roles": [
+        "figure_captions"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12768481/"
+      ],
+      "derived_from": "fdfb6aefca133c4d02470fda25b6d4675d52337b9c1ab069849addc78927b99c"
+    },
+    {
+      "path": "figures/ijmm-57-02-05718-g00.jpg",
+      "sha256": "ee9867f82edad1b254f25b988dbb79f239c9fcdfcc9151683719e6aaa16cd1dc",
+      "bytes": 181655,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12768481.1/ijmm-57-02-05718-g00.jpg?md5=23d2f235a1327dec48fbd6b1a5f301af"
+      ],
+      "association": "exact JATS f1-ijmm-57-02-05718 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/ijmm-57-02-05718-g01.jpg",
+      "sha256": "51e39bcf919872c0d66d474a27d8653109544e2cbe7d55c40c37605c89dd5f66",
+      "bytes": 209964,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12768481.1/ijmm-57-02-05718-g01.jpg?md5=6f9bb33a597cba75e9dfcaf6a8dd31e9"
+      ],
+      "association": "exact JATS f2-ijmm-57-02-05718 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/ijmm-57-02-05718-g02.jpg",
+      "sha256": "665efbe8691564fdf77ed8a97e41d7a52ffeb22252ec71b1869f64d8b1333287",
+      "bytes": 140020,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12768481.1/ijmm-57-02-05718-g02.jpg?md5=5e251522130e793597e07e5c645303a0"
+      ],
+      "association": "exact JATS f3-ijmm-57-02-05718 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/ijmm-57-02-05718-g03.jpg",
+      "sha256": "efbb64b12834b935320f020f6c16fe7a5a3bf8b11e24bb81f1a46f96e2a84e8c",
+      "bytes": 187498,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12768481.1/ijmm-57-02-05718-g03.jpg?md5=ad9bac5468371813874d9275dd78838d"
+      ],
+      "association": "exact JATS f4-ijmm-57-02-05718 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/ijmm-57-02-05718-g04.jpg",
+      "sha256": "9fa3efc755e34071a9f54f63ecf61df60fa76ea9080a2c7c8ba3aa6e1d753572",
+      "bytes": 104750,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12768481.1/ijmm-57-02-05718-g04.jpg?md5=606ba79fad1f48d20d36f205d0e78a7e"
+      ],
+      "association": "exact JATS f5-ijmm-57-02-05718 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/ijmm-57-02-05718-g05.jpg",
+      "sha256": "c0a1993ce46f84038b9f6e2b8c627a62c9d9bd143ee0d56f4f5534589cf7b09a",
+      "bytes": 112248,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12768481.1/ijmm-57-02-05718-g05.jpg?md5=270cf2b55a4599bb39aec3a4841e41d0"
+      ],
+      "association": "exact JATS f6-ijmm-57-02-05718 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/ijmm-57-02-05718-g06.jpg",
+      "sha256": "92afd85cc6b1fd46cf77de4a1b2ff4cbf35b200f8b4e43d31952513657cd3933",
+      "bytes": 95733,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12768481.1/ijmm-57-02-05718-g06.jpg?md5=5694ee7f9fe826833384ca5c3feba6c4"
+      ],
+      "association": "exact JATS f7-ijmm-57-02-05718 in verified PMC version; article source only"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

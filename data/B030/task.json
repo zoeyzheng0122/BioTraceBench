@@ -1,0 +1,32 @@
+{
+  "case_id": "B030",
+  "task_id": "B030",
+  "title": "Regional diversity of cranial skeletal stem cells governs bone morphogenetic protein-2 mediated bone regeneration",
+  "doi": "10.1038/s41467-026-76286-w",
+  "comparison_or_design": "The in vitro BMP-2 osteogenic-differentiation comparison in nasal and femoral SSCs, including their matched no-BMP-2 references.",
+  "observations_or_assays": [
+    "Alizarin Red osteogenic-differentiation staining"
+  ],
+  "time_scope": "The endpoint of the selected in vitro osteogenic differentiation assay.",
+  "excluded": [
+    "Mandibular, parietal and occipital SSCs and chondrogenesis assays",
+    "Wnt5a/Box5 interventions, renal-capsule transplants, calvarial defects and baseline transcriptomics"
+  ],
+  "population_or_material": "Nasal- and femoral-derived skeletal stem-cell preparations in the in vitro BMP-2 osteogenesis experiment.",
+  "requested_items": [
+    "SSC anatomical origin, BMP-2 versus matched control, dose and osteogenic differentiation duration"
+  ],
+  "resources": [
+    {
+      "accession": "10.6084/m9.figshare.31968258",
+      "url": "https://doi.org/10.6084/m9.figshare.31968258"
+    }
+  ],
+  "domain": "basic",
+  "pipeline": "basic-research",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/basic-research.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

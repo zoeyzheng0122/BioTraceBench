@@ -1,0 +1,207 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "B013",
+    "domain": "basic",
+    "title": "Anti-resonance in developmental signaling regulates cell fate decisions",
+    "doi": "10.7554/eLife.107794",
+    "pipeline": "basic-research",
+    "pmid": "41562431",
+    "pmcid": "PMC12823063",
+    "registry": "10.5281/zenodo.17874586"
+  },
+  "files": [
+    {
+      "path": "sources/article.xml",
+      "sha256": "d1364d645ac9cdbeefaccf52f17d0136ffb7f478a81efbd7593f0423a708dc89",
+      "bytes": 455950,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12823063/fullTextXML"
+      ],
+      "association": "exact PMCID from case identity"
+    },
+    {
+      "path": "records/Zenodo-17874586.json",
+      "sha256": "ac04c79dd38712edd0c47ecc2dd90b7f4343bb835484a7620ff599dc488ac8f2",
+      "bytes": 3507,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://zenodo.org/api/records/17874586"
+      ],
+      "association": "exact data record linked in article; metadata and file inventory only",
+      "original_filename": "Zenodo-17874586.json",
+      "retrieved_at": "2026-10-17T23:54:37+08:00",
+      "derived_from": "f60dd3a5b9d7ff2eecebb6af5fb0478bd08eff14087d4c7265541ed8cd0ef9b2",
+      "original_sha256": "f60dd3a5b9d7ff2eecebb6af5fb0478bd08eff14087d4c7265541ed8cd0ef9b2",
+      "representation": "refine-lexical-json-1",
+      "provenance_transform": "exact_json_whitespace_compaction"
+    },
+    {
+      "path": "figures/elife-107794-app2-fig1.jpg",
+      "sha256": "ea6ad00d245b769074f635c6b4028a5d4677b6ad0e2842eb29ddd0d86053dff3",
+      "bytes": 35950,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12823063/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/elife-107794-app3-fig1.jpg",
+      "sha256": "9b91e27f5d3575dd57ba152f6af8d3c994c3f722e9f63f5710f214bca08d80b9",
+      "bytes": 56627,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12823063/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/elife-107794-fig1-figsupp1.jpg",
+      "sha256": "3e0d97fd0b4b8b2ab3d2a8961771e7d56fd103d64d26906fd5211484fe84767a",
+      "bytes": 131061,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12823063/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/elife-107794-fig1.jpg",
+      "sha256": "28ade1d79d7c18acd3461e10429c38c26cf5e0cdf6e568e8d016c4d1f08d7374",
+      "bytes": 82075,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12823063/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/elife-107794-fig2-figsupp1.jpg",
+      "sha256": "836decbbf81ddc235c009019e70d5dda855274388497957d4c58c8effc0c72da",
+      "bytes": 63245,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12823063/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/elife-107794-fig2.jpg",
+      "sha256": "76d1c3aa80ff147beec20d5a3cc1cbe9641e6b5878b017910d2643c50326e105",
+      "bytes": 122061,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12823063/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/elife-107794-fig3-figsupp1.jpg",
+      "sha256": "da52947d343c0ddf241bde84ed45691142c2b52009ba24703f42ea1e682358b1",
+      "bytes": 122745,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12823063/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/elife-107794-fig3.jpg",
+      "sha256": "b7b73ac0b8b91af416c1431a57d2fd36f74db551f5ab7cbf92990abdb9365332",
+      "bytes": 136464,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12823063/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/elife-107794-fig4.jpg",
+      "sha256": "b5ac39b6e3e514518f459ea088b5f87b1820e63ee8fde8bf4989bf5812cc6a5a",
+      "bytes": 136846,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12823063/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/elife-107794-fig5-figsupp1.jpg",
+      "sha256": "5ac1824e4b979011d10fa133644daf53ec26723fffad39ccc3649c1927e3b202",
+      "bytes": 178240,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12823063/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/elife-107794-fig5.jpg",
+      "sha256": "03f337f64a6b275ee539e05acda2c449eff4f98a20751bd56937b81a6ef2b030",
+      "bytes": 119404,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12823063/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

@@ -1,0 +1,67 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "C020",
+    "domain": "clinical",
+    "title": "Semaglutide and cardiovascular risk in type 1 diabetes: A predictive modelling analysis in a double‐blind, randomised, placebo‐controlled cross‐over trial",
+    "doi": "10.1111/dom.70525",
+    "pipeline": "clinical-trials",
+    "pmid": "41623193",
+    "pmcid": "PMC12992154",
+    "registry": "NCT05205928"
+  },
+  "files": [
+    {
+      "path": "sources/article.xml",
+      "sha256": "b1ab02c789ad99160a4d76aced4ea55635d56e8f040a4732b818e46ed4145673",
+      "bytes": 37505,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12992154/fullTextXML"
+      ],
+      "association": "official full text for exact PMCID"
+    },
+    {
+      "path": "records/ClinicalTrials-NCT05205928.json",
+      "sha256": "cfc17fccabfea56195238c3159b407b78d27493fe863d6b9c9b45c287ba011b6",
+      "bytes": 13078,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://clinicaltrials.gov/api/v2/studies/NCT05205928"
+      ],
+      "association": "exact trial accession reported in article",
+      "original_filename": "registry.json",
+      "retrieved_at": "2026-10-17T21:52:39+08:00",
+      "derived_from": "7b4206eefad7185b695d6554e9b267fd69c78cf4d1d5b560254d3472b1fb986d",
+      "original_sha256": "7b4206eefad7185b695d6554e9b267fd69c78cf4d1d5b560254d3472b1fb986d",
+      "representation": "refine-lexical-json-1",
+      "provenance_transform": "exact_json_whitespace_compaction"
+    },
+    {
+      "path": "figures/DOM-28-3445-g001.jpg",
+      "sha256": "f277fbeec65f9eaa8eb10355e914d2ebeb3911415b7379fcf08f1fb44ded736a",
+      "bytes": 131145,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12992154/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

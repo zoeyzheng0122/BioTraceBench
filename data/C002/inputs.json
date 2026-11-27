@@ -1,0 +1,191 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "C002",
+    "domain": "clinical",
+    "title": "A randomized clinical study comparing trabectedin combined with regional hyperthermia with trabectedin in patients with advanced soft tissue sarcoma: HyperTET, a German Interdisciplinary Sarcoma Group trial",
+    "doi": "10.1016/j.esmoop.2026.106921",
+    "pipeline": "clinical-trials",
+    "pmid": "41962307",
+    "pmcid": "PMC13091197",
+    "registry": "NCT02359474（HyperTET）"
+  },
+  "files": [
+    {
+      "path": "sources/article.xml",
+      "sha256": "bf35d8c8e8867547761a727d84888d6995321f9a084bd22971f10d696ba01d42",
+      "bytes": 105475,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13091197/fullTextXML"
+      ],
+      "association": "exact PMCID browser acquisition; front-matter DOI verified"
+    },
+    {
+      "path": "records/NCT02359474.json",
+      "sha256": "9b2a08edd4ba7db6c8ff28b46eb9d5a6a0d96e0dd83fd20e26bf7f67106a3569",
+      "bytes": 8462,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://clinicaltrials.gov/api/v2/studies/NCT02359474"
+      ],
+      "association": "own study registration explicitly reported in article; public record text only",
+      "original_filename": "NCT02359474.json",
+      "retrieved_at": "2026-10-18T01:08:49+08:00",
+      "derived_from": "376358fb5bda8d9c63946d7dcdb90e1ce1e43acac200c26395810519432807e6",
+      "original_sha256": "376358fb5bda8d9c63946d7dcdb90e1ce1e43acac200c26395810519432807e6",
+      "representation": "refine-lexical-json-1",
+      "provenance_transform": "exact_json_whitespace_compaction"
+    },
+    {
+      "path": "figures/gr1.jpg",
+      "sha256": "31924628003173225608b485ffb69ccc295986418eb6073df83ea20cf5d6b75e",
+      "bytes": 336687,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4d6f/13091197/2de50410a194/gr1.jpg"
+      ],
+      "association": "exact linked asset in verified same-study XML"
+    },
+    {
+      "path": "figures/gr2.jpg",
+      "sha256": "570e62df34381351112c3e4e1473ae284c7d798ec0b6039a2cbf71d7f12b7280",
+      "bytes": 277276,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4d6f/13091197/f9a34d738d09/gr2.jpg"
+      ],
+      "association": "exact linked asset in verified same-study XML"
+    },
+    {
+      "path": "figures/gr3.jpg",
+      "sha256": "06d3d443563521af3b75b55f80aaadc5c4a062d6914859892651567cd2539f44",
+      "bytes": 275074,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4d6f/13091197/866806860e18/gr3.jpg"
+      ],
+      "association": "exact linked asset in verified same-study XML"
+    },
+    {
+      "path": "supplements/mmc1__refine/page-0001-region-01.png",
+      "sha256": "a5659cb436d1faa54fd5003704ae592458c543c1a9a183ad71491c298ca71139",
+      "bytes": 175716,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/instance/13091197/bin/mmc1.pdf"
+      ],
+      "association": "exact linked asset in verified same-study XML",
+      "derived_from": "57d44eae9a0490e595ca4453e05f4f738f581eb90d1f55b77a6a46259cfd7879",
+      "original_sha256": "57d44eae9a0490e595ca4453e05f4f738f581eb90d1f55b77a6a46259cfd7879",
+      "original_filename": "mmc1.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/mmc1__refine/page-0001-region-02.png",
+      "sha256": "ad5d1407aa49fa49702d655d86936d7be52fb1b661389448d2ddb2b44f9603e5",
+      "bytes": 44855,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/instance/13091197/bin/mmc1.pdf"
+      ],
+      "association": "exact linked asset in verified same-study XML",
+      "derived_from": "57d44eae9a0490e595ca4453e05f4f738f581eb90d1f55b77a6a46259cfd7879",
+      "original_sha256": "57d44eae9a0490e595ca4453e05f4f738f581eb90d1f55b77a6a46259cfd7879",
+      "original_filename": "mmc1.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/mmc1__refine/page-0002-region-01.png",
+      "sha256": "cb989181a226c96ca81ab5c42fb8d57132d2e739ed8518807bcd33686323668f",
+      "bytes": 409381,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/instance/13091197/bin/mmc1.pdf"
+      ],
+      "association": "exact linked asset in verified same-study XML",
+      "derived_from": "57d44eae9a0490e595ca4453e05f4f738f581eb90d1f55b77a6a46259cfd7879",
+      "original_sha256": "57d44eae9a0490e595ca4453e05f4f738f581eb90d1f55b77a6a46259cfd7879",
+      "original_filename": "mmc1.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/mmc1__refine/page-0003-region-01.png",
+      "sha256": "2be7e04b605ff2b7ecd0badaa0ff086c7bce20f37419ccee429fdbb2f8ac4f81",
+      "bytes": 47871,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/instance/13091197/bin/mmc1.pdf"
+      ],
+      "association": "exact linked asset in verified same-study XML",
+      "derived_from": "57d44eae9a0490e595ca4453e05f4f738f581eb90d1f55b77a6a46259cfd7879",
+      "original_sha256": "57d44eae9a0490e595ca4453e05f4f738f581eb90d1f55b77a6a46259cfd7879",
+      "original_filename": "mmc1.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_grayscale"
+    },
+    {
+      "path": "supplements/mmc1__refine/content.md",
+      "sha256": "f47eba2673f4e54c0caaa34c1439c8434c3e8b44068ed3b3175f781168b7d0b5",
+      "bytes": 1444,
+      "role": "supplement",
+      "roles": [
+        "supplement"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/instance/13091197/bin/mmc1.pdf"
+      ],
+      "association": "exact linked asset in verified same-study XML",
+      "derived_from": "57d44eae9a0490e595ca4453e05f4f738f581eb90d1f55b77a6a46259cfd7879",
+      "original_sha256": "57d44eae9a0490e595ca4453e05f4f738f581eb90d1f55b77a6a46259cfd7879",
+      "original_filename": "mmc1.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "pdf_text_visual"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

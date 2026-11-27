@@ -1,0 +1,32 @@
+{
+  "case_id": "B039",
+  "task_id": "B039",
+  "title": "Female metabolic resilience and male-biased protein quality defects under hypoxia in human brain organoids",
+  "doi": "10.1016/j.isci.2026.115714",
+  "comparison_or_design": "The article-defined hypoxic-injury condition versus healthy/normoxic controls for BXS0115 only; retain the actual hypoxia/reoxygenation schedule.",
+  "observations_or_assays": [
+    "Mass-spectrometry proteomics"
+  ],
+  "time_scope": "The 4-month organoid injury experiment and its source-defined harvest endpoint.",
+  "excluded": [
+    "MAA3, HYS0103, PK and SP lines and cross-sex pooled comparisons",
+    "Other maturation ages, metabolic/mitochondrial imaging, LDH/qPCR and unrelated Mendeley-resource assays"
+  ],
+  "population_or_material": "BXS0115-derived human cerebral-organoid preparations in the hypoxic-injury proteomics experiment.",
+  "requested_items": [
+    "Hypoxia versus normoxic control, oxygen level, hypoxia/reoxygenation schedule and organoid age"
+  ],
+  "resources": [
+    {
+      "accession": "10.5281/zenodo.17993221",
+      "url": "https://doi.org/10.5281/zenodo.17993221"
+    }
+  ],
+  "domain": "basic",
+  "pipeline": "basic-research",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/basic-research.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

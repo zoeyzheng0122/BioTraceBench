@@ -1,0 +1,32 @@
+{
+  "case_id": "B036",
+  "task_id": "B036",
+  "title": "​Temporal proteomic profiling of iPSC-derived human liver organoids reveals optimal maturation for drug metabolism and toxicology",
+  "doi": "10.1038/s41598-025-32539-0",
+  "comparison_or_design": "The temporal TMT proteomics experiment of liver-organoid maturation, retaining supported preparation and multiplex/channel identities.",
+  "observations_or_assays": [
+    "TMT mass-spectrometry proteomics"
+  ],
+  "time_scope": "Days 7, 15, 30 and 45.",
+  "excluded": [
+    "Independent toxicant-exposure, viability and immunofluorescence assays",
+    "Protein expression results or inferring an optimal maturation stage from abundance"
+  ],
+  "population_or_material": "iPSC-derived human liver organoid preparations used in the temporal TMT proteomics experiment.",
+  "requested_items": [
+    "Organoid maturation/collection stage and distinguishing culture-stage conditions"
+  ],
+  "resources": [
+    {
+      "accession": "PXD063438",
+      "url": "https://www.ebi.ac.uk/pride/archive/projects/PXD063438"
+    }
+  ],
+  "domain": "basic",
+  "pipeline": "basic-research",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/basic-research.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

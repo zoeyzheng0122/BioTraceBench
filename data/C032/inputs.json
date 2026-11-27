@@ -1,0 +1,138 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "C032",
+    "domain": "clinical",
+    "title": "Specific carbohydrate diet versus Mediterranean diet in adult patients with mild to moderate ulcerative colitis: a randomized controlled-feeding trial",
+    "doi": "10.3389/fnut.2026.1838160",
+    "pipeline": "clinical-trials",
+    "pmid": "42500245",
+    "pmcid": "PMC13395713",
+    "registry": "NCT04398550"
+  },
+  "files": [
+    {
+      "path": "sources/article.xml",
+      "sha256": "95513a574550631639427bad8c9307a9e28bfa25bebd6c683342d41c40082344",
+      "bytes": 67020,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13395713/fullTextXML"
+      ],
+      "association": "exact PMCID from case identity"
+    },
+    {
+      "path": "records/ClinicalTrials-NCT04398550.json",
+      "sha256": "2b3a93e726f8bd504fe398da053680d0551f5d4142f870c55d0ea2c93d26088e",
+      "bytes": 20778,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://clinicaltrials.gov/api/v2/studies/NCT04398550"
+      ],
+      "association": "exact trial registration linked by article; verify in source projection",
+      "original_filename": "registry.json",
+      "retrieved_at": "2026-10-17T21:26:43+08:00",
+      "derived_from": "eb59281e5774a33b338153ff7d8e50edbfa83ec9566460bb4ffc48ae3e34833b",
+      "original_sha256": "eb59281e5774a33b338153ff7d8e50edbfa83ec9566460bb4ffc48ae3e34833b",
+      "representation": "refine-lexical-json-1",
+      "provenance_transform": "exact_json_whitespace_compaction"
+    },
+    {
+      "path": "figures/fnut-13-1838160-g001.jpg",
+      "sha256": "5ee2a1a7013ee792c00dd0e88ffb6326ac2634146e91dd56dccb1dd556f3fba9",
+      "bytes": 76717,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13395713/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/fnut-13-1838160-g002.jpg",
+      "sha256": "4c3e8616e28b2f145f6ffa0ec13594d25db9a841af01b9e68e359f566d3686cf",
+      "bytes": 70579,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13395713/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "supplements/Supplementary_file_1__refine/asset-image1.png",
+      "sha256": "443c2c28beb802d89492300243035156301a0159e763aa1685bf62f34ca47465",
+      "bytes": 195628,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13395713/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package",
+      "derived_from": "9a66d58ef2f2f21009a416e09b086df59504d465c0588670cda4eb2b67889ba8",
+      "original_sha256": "9a66d58ef2f2f21009a416e09b086df59504d465c0588670cda4eb2b67889ba8",
+      "original_filename": "Supplementary_file_1.docx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/Supplementary_file_1__refine/asset-image2.png",
+      "sha256": "dce1d01bbeec4480f0c4981647666aac85959b1a3ca0f0dae6c2d5c05e94d05f",
+      "bytes": 160127,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13395713/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package",
+      "derived_from": "9a66d58ef2f2f21009a416e09b086df59504d465c0588670cda4eb2b67889ba8",
+      "original_sha256": "9a66d58ef2f2f21009a416e09b086df59504d465c0588670cda4eb2b67889ba8",
+      "original_filename": "Supplementary_file_1.docx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/Supplementary_file_1__refine/content.md",
+      "sha256": "84c1fc61012a21f92aa4706d40f5e558ec780f7e7000eca358fb3cf2943794c2",
+      "bytes": 33458,
+      "role": "supplement",
+      "roles": [
+        "supplement"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13395713/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package",
+      "derived_from": "9a66d58ef2f2f21009a416e09b086df59504d465c0588670cda4eb2b67889ba8",
+      "original_sha256": "9a66d58ef2f2f21009a416e09b086df59504d465c0588670cda4eb2b67889ba8",
+      "original_filename": "Supplementary_file_1.docx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "office_text_tables"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

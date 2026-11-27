@@ -1,0 +1,247 @@
+{
+  "measure": [
+    {
+      "measure_definition": "Measured clinical quantity: wake after sleep onset (WASO).; Participants; Objective sleep assessment in the Phase 3 trial; the supplied abstract identifies WASO as an objective insomnia variable.  WASO is wake time after sleep onset. Assessed at baseline and month 3 in the mild-OSA subgroup.",
+      "measure_id": "M0",
+      "measure_name": "Wake after sleep onset (WASO)"
+    },
+    {
+      "measure_definition": "Measured clinical quantity: latency to persistent sleep (LPS).; Participants; Polysomnography (PSG). LPS is the time from start of recording to the beginning of the first continuous 20 epochs (i.e., 10 minutes) scored as non-awake, i.e., epochs scored as sleep stage 1, sleep stage 2, sleep stage 3 (slow wave sleep) or REM.; Change from baseline to Month 3 in LPS measured by PSG.",
+      "measure_id": "M1",
+      "measure_name": "Latency to persistent sleep (LPS)"
+    },
+    {
+      "measure_definition": "Measured clinical quantity: subjective total sleep time (sTST).; Participants; Sleep diary questionnaire; total sleep time reported by the participant.; A positive change from baseline indicates an increase in subjective total sleep time; a negative change indicates a decrease. Assessed at baseline and month 3 in the mild-OSA subgroup.",
+      "measure_id": "M2",
+      "measure_name": "Subjective total sleep time (sTST)"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "Daridorexant (dual orexin receptor antagonist)",
+      "intervention_regimen": "50 mg; Orally once daily in the evening during the 3-month double-blind treatment period; efficacy assessed at Months 1 and 3. Observed treatment duration is not reported.",
+      "population_definition": "Randomized treatment assignment to daridorexant 50 mg among participants with insomnia disorder and untreated mild OSA in the post hoc subgroup.; Adults with chronic insomnia disorder and untreated mild OSA (AHI 5–<15 events/h) at screening in the Phase 3 trial; randomized to daridorexant 50 mg. Full Analysis Set includes all randomized participants with mild OSA, analyzed as assigned. Moderate or severe OSA (AHI ≥15 events/h) was excluded.",
+      "population_id": "P3",
+      "population_name": "Mild OSA subgroup — daridorexant 50 mg (full analysis set)",
+      "population_size": 53,
+      "population_time_frame": "Parent trial registered study dates: 4 June 2018 to 25 February 2020; primary completion 25 January 2020. Screening, single-blind placebo run-in, and double-blind treatment with efficacy assessments at Months 1 and 3. Subgroup-specific recruitment dates are not separately reported."
+    },
+    {
+      "intervention": "Matching placebo",
+      "intervention_regimen": "Orally once daily in the evening during the 3-month double-blind treatment period; efficacy assessed at Months 1 and 3. Observed treatment duration is not reported.",
+      "population_definition": "Randomized treatment assignment to placebo among participants with insomnia disorder and untreated mild OSA in the post hoc subgroup.; Adults with chronic insomnia disorder and untreated mild OSA (AHI 5–<15 events/h) at screening in the Phase 3 trial; randomized to placebo. Full Analysis Set includes all randomized participants with mild OSA, analyzed as assigned. Moderate or severe OSA (AHI ≥15 events/h) was excluded.",
+      "population_id": "P4",
+      "population_name": "Mild OSA subgroup — placebo (full analysis set)",
+      "population_size": 47,
+      "population_time_frame": "Parent trial registered study dates: 4 June 2018 to 25 February 2020; primary completion 25 January 2020. Screening, single-blind placebo run-in, and double-blind treatment with efficacy assessments at Months 1 and 3. Subgroup-specific recruitment dates are not separately reported."
+    },
+    {
+      "intervention": "Daridorexant 25 mg, daridorexant 50 mg, or matching placebo (parent population).",
+      "intervention_regimen": "Daridorexant 25 mg; daridorexant 50 mg; placebo has no active dose.; Orally once daily in the evening during the 3-month double-blind treatment period; efficacy assessed at Months 1 and 3.",
+      "population_definition": "Parent full analysis set of all randomized participants with insomnia disorder and untreated mild OSA in the post hoc subgroup, across daridorexant 25 mg, daridorexant 50 mg, and placebo arms.; Adults with chronic insomnia disorder and untreated mild OSA (AHI 5–<15 events/h) at screening in the Phase 3 trial; all randomized participants with mild OSA (Full Analysis Set). Includes daridorexant 25 mg, daridorexant 50 mg, and placebo arms; 25 mg results are outside the requested comparison and not reported here.",
+      "population_id": "P5",
+      "population_name": "Mild OSA subgroup — full analysis set (all randomized)",
+      "population_size": 153,
+      "population_time_frame": "Parent trial registered study dates: 4 June 2018 to 25 February 2020; primary completion 25 January 2020. Screening, single-blind placebo run-in, and double-blind treatment with efficacy assessments at Months 1 and 3. Subgroup-specific recruitment dates are not separately reported."
+    }
+  ],
+  "population_relation": [
+    {
+      "population_a_id": "P3",
+      "population_b_id": "P5",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P4",
+      "population_b_id": "P5",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P3",
+      "population_b_id": "P4",
+      "relationship": "disjoint from"
+    }
+  ],
+  "result": [
+    {
+      "assessment_time": "Month 3 (change from baseline)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P3",
+      "result_id": "R04",
+      "result_unit": "min",
+      "result_value": -35.4,
+      "statistic_type": "Least-squares mean change from baseline (95% CI); mixed-effects model for repeated measures",
+      "statistical_method": "Mixed-effects model",
+      "supplementary_statistics": "95% CI −46.6 to −24.1"
+    },
+    {
+      "assessment_time": "Month 3 (change from baseline)",
+      "comparison": "P3 minus P4 (daridorexant 50-mg minus placebo)",
+      "measure_id": "M0",
+      "population_id": "P3",
+      "result_id": "R05",
+      "result_unit": "min",
+      "result_value": -19.8,
+      "statistic_type": "Placebo-corrected least-squares mean difference (daridorexant 50 mg minus placebo)",
+      "statistical_method": "Mixed-effects model for repeated measures, adjusted for baseline value of the outcome, age group (<65 or >=65 years), treatment, visit, treatment-by-visit interaction and baseline-by-visit interaction; two-sided comparison. Estimate, CI and P value are reported together in Supplementary Table S2.",
+      "supplementary_statistics": "95% CI -36.5 to -3.1; two-sided P=0.0203; Supplementary Table S2, Month 3."
+    },
+    {
+      "assessment_time": "Month 3 (change from baseline)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P3",
+      "result_id": "R06",
+      "result_unit": "min",
+      "result_value": -36.9,
+      "statistic_type": "Least-squares mean change from baseline (95% CI); mixed-effects model for repeated measures",
+      "statistical_method": "Mixed-effects model",
+      "supplementary_statistics": "95% CI −45.6 to −28.3"
+    },
+    {
+      "assessment_time": "Month 3 (change from baseline)",
+      "comparison": "P3 minus P4 (daridorexant 50-mg minus placebo)",
+      "measure_id": "M1",
+      "population_id": "P3",
+      "result_id": "R07",
+      "result_unit": "min",
+      "result_value": -18.9,
+      "statistic_type": "Placebo-corrected least-squares mean difference (daridorexant 50 mg minus placebo)",
+      "statistical_method": "Mixed-effects model for repeated measures, adjusted for baseline value of the outcome, age group (<65 or >=65 years), treatment, visit, treatment-by-visit interaction and baseline-by-visit interaction; two-sided comparison. Estimate, CI and P value are reported together in Supplementary Table S2.",
+      "supplementary_statistics": "95% CI -31.6 to -6.2; two-sided P=0.0039; Supplementary Table S2, Month 3."
+    },
+    {
+      "assessment_time": "Month 3 (change from baseline)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P3",
+      "result_id": "R08",
+      "result_unit": "min",
+      "result_value": 69.4,
+      "statistic_type": "Least-squares mean change from baseline (95% CI); mixed-effects model for repeated measures",
+      "statistical_method": "Mixed-effects model",
+      "supplementary_statistics": "95% CI 53.7 to 85.1"
+    },
+    {
+      "assessment_time": "Month 3 (change from baseline)",
+      "comparison": "P3 minus P4 (daridorexant 50-mg minus placebo)",
+      "measure_id": "M2",
+      "population_id": "P3",
+      "result_id": "R09",
+      "result_unit": "min",
+      "result_value": 24.6,
+      "statistic_type": "Placebo-corrected least-squares mean difference (daridorexant 50 mg minus placebo)",
+      "statistical_method": "Mixed-effects model for repeated measures, adjusted for baseline value of the outcome, age group (<65 or >=65 years), treatment, visit, treatment-by-visit interaction and baseline-by-visit interaction; two-sided comparison. Estimate, CI and P value are reported together in Supplementary Table S2.",
+      "supplementary_statistics": "95% CI 1.5 to 47.6; two-sided P=0.0370; Supplementary Table S2, Month 3."
+    },
+    {
+      "assessment_time": "Baseline (before double-blind treatment)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P3",
+      "result_id": "R10",
+      "result_unit": "min",
+      "result_value": 108.4,
+      "statistic_type": "Mean",
+      "statistical_method": "Descriptive mean of observed baseline values.",
+      "supplementary_statistics": "SD 43.7 min; n=53"
+    },
+    {
+      "assessment_time": "Baseline (before double-blind treatment)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P4",
+      "result_id": "R11",
+      "result_unit": "min",
+      "result_value": 128.0,
+      "statistic_type": "Mean",
+      "statistical_method": "Descriptive mean of observed baseline values.",
+      "supplementary_statistics": "SD 42.7 min; n=47"
+    },
+    {
+      "assessment_time": "Baseline (before double-blind treatment)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P3",
+      "result_id": "R12",
+      "result_unit": "min",
+      "result_value": 66.1,
+      "statistic_type": "Mean",
+      "statistical_method": "Descriptive mean of observed baseline values.",
+      "supplementary_statistics": "SD 31.6 min; n=53"
+    },
+    {
+      "assessment_time": "Baseline (before double-blind treatment)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P4",
+      "result_id": "R13",
+      "result_unit": "min",
+      "result_value": 58.3,
+      "statistic_type": "Mean",
+      "statistical_method": "Descriptive mean of observed baseline values.",
+      "supplementary_statistics": "SD 33.9 min; n=47"
+    },
+    {
+      "assessment_time": "Baseline (before double-blind treatment)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P3",
+      "result_id": "R14",
+      "result_unit": "min",
+      "result_value": 324.2,
+      "statistic_type": "Mean",
+      "statistical_method": "Descriptive mean of observed baseline values.",
+      "supplementary_statistics": "SD 56.9 min; n=53"
+    },
+    {
+      "assessment_time": "Baseline (before double-blind treatment)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P4",
+      "result_id": "R15",
+      "result_unit": "min",
+      "result_value": 302.0,
+      "statistic_type": "Mean",
+      "statistical_method": "Descriptive mean of observed baseline values.",
+      "supplementary_statistics": "SD 61.5 min; n=47"
+    },
+    {
+      "assessment_time": "Month 3 (change from baseline)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P4",
+      "result_id": "R16",
+      "result_unit": "min",
+      "result_value": -15.5,
+      "statistic_type": "Least-squares mean change from baseline (95% CI)",
+      "statistical_method": "Repeated-measures linear mixed-effects model, adjusted for baseline outcome, age group, treatment, visit, treatment-by-visit and baseline-by-visit interactions. Exploratory subgroup analysis; no multiplicity adjustment.",
+      "supplementary_statistics": "95% CI -27.8 to -3.3"
+    },
+    {
+      "assessment_time": "Month 3 (change from baseline)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P4",
+      "result_id": "R17",
+      "result_unit": "min",
+      "result_value": -18.1,
+      "statistic_type": "Least-squares mean change from baseline (95% CI)",
+      "statistical_method": "Repeated-measures linear mixed-effects model, adjusted for baseline outcome, age group, treatment, visit, treatment-by-visit and baseline-by-visit interactions. Exploratory subgroup analysis; no multiplicity adjustment.",
+      "supplementary_statistics": "95% CI -27.4 to -8.7"
+    },
+    {
+      "assessment_time": "Month 3 (change from baseline)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P4",
+      "result_id": "R18",
+      "result_unit": "min",
+      "result_value": 44.9,
+      "statistic_type": "Least-squares mean change from baseline (95% CI)",
+      "statistical_method": "Repeated-measures linear mixed-effects model, adjusted for baseline outcome, age group, treatment, visit, treatment-by-visit and baseline-by-visit interactions. Exploratory subgroup analysis; no multiplicity adjustment.",
+      "supplementary_statistics": "95% CI 28.0 to 61.8"
+    }
+  ]
+}

@@ -1,0 +1,481 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "B040",
+    "domain": "basic",
+    "title": "Free-floating long-term vascularized mesenchymal organoids",
+    "doi": "10.1016/j.isci.2025.114548",
+    "pipeline": "basic-research",
+    "pmid": "41568151",
+    "pmcid": "PMC12818071",
+    "registry": "10.5281/zenodo.17956129"
+  },
+  "files": [
+    {
+      "path": "records/Zenodo-17956129-record.txt",
+      "sha256": "9fbc93ea01a317cd03c38181ce60b408ee4b91c8f7bbed7c8a93b3e1493fdd97",
+      "bytes": 9837,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://zenodo.org/api/records/17956129"
+      ],
+      "derived_from": "63b270e26fe388a5a11325834010f78257d4d74b5a730f97489ea16005113748",
+      "representation": "readable_repository_record",
+      "association": "exact accession reported in Data Availability; metadata only; relation not yet verified; readable official record text",
+      "original_filename": "Zenodo-zenodo.17956129-record.txt",
+      "retrieved_at": "2026-10-18T00:00:03+08:00"
+    },
+    {
+      "path": "sources/article.xml",
+      "sha256": "be44e13c6d8598c606dd1d1872e127436ff5c5bf10c9199244fb789621102477",
+      "bytes": 258465,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12818071/fullTextXML"
+      ],
+      "association": "exact public PMCID candidate"
+    },
+    {
+      "path": "records/Zenodo-17956129-record.json",
+      "sha256": "9309c517c789a6d434edda6c19974401726dc48e0e7d4d01f3e15c3963409330",
+      "bytes": 9415,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://zenodo.org/api/records/17956129"
+      ],
+      "association": "exact accession reported in Data Availability; metadata only; relation not yet verified",
+      "original_filename": "Zenodo-zenodo.17956129-record.json",
+      "retrieved_at": "2026-10-18T00:00:03+08:00"
+    },
+    {
+      "path": "figures/captions.txt",
+      "sha256": "a6fd4e338b3eda1521eb6d405d376776410d040555a5f9c4b92330b1e03e4ba8",
+      "bytes": 11321,
+      "role": "figure_captions",
+      "roles": [
+        "figure_captions"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12818071/"
+      ],
+      "derived_from": "dec1f72042a94b2063651f5bc4084184c8dd9f3feb3d751804f90541806be905"
+    },
+    {
+      "path": "figures/fx1.jpg",
+      "sha256": "f06a0b38ec9a4d461592296daafff3ebaf18cc51437900e488b4127e1d84e1e0",
+      "bytes": 410917,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12818071.1/fx1.jpg?md5=91abb3b2331c0f30b41c44e773ae6124"
+      ],
+      "association": "exact JATS undfig1 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/gr1.jpg",
+      "sha256": "40605df2f3d4df26abcdeb22feb3a99681111ae7bf2c3f90f69c09bcdaa5614a",
+      "bytes": 464894,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12818071.1/gr1.jpg?md5=04489f898801a62be9587713dec2e2e3"
+      ],
+      "association": "exact JATS fig1 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/gr2.jpg",
+      "sha256": "14cef09e30abe83d602c39b437788115ffc252c121d6518944dd406db862425c",
+      "bytes": 648716,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12818071.1/gr2.jpg?md5=7dc0fae7b37e99962d55134959557f9b"
+      ],
+      "association": "exact JATS fig2 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/gr3.jpg",
+      "sha256": "3f6387b4143834955c01da7c0bf91b271c859918a4f36ce09b75414934265199",
+      "bytes": 570455,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12818071.1/gr3.jpg?md5=f4e012109c8c54e27c652573da0c636e"
+      ],
+      "association": "exact JATS fig3 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/gr4.jpg",
+      "sha256": "f3b5f858508296cdfbffba74d017404ee1f493b8d1fd4142761558591f786fd5",
+      "bytes": 664928,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12818071.1/gr4.jpg?md5=c729323365769bc7ce8b7035c1809c4e"
+      ],
+      "association": "exact JATS fig4 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/gr5.jpg",
+      "sha256": "4f21d8e6067b1997ab66812a993ecf95b7f9fbe6ea2535e0ce54bed7635ce08f",
+      "bytes": 537167,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12818071.1/gr5.jpg?md5=1c0cf6dccee1081db0fd3e3ef67c21b3"
+      ],
+      "association": "exact JATS fig5 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/gr6.jpg",
+      "sha256": "a8d2df9dd2803f89568db16a6ad1aa8798e799b62b318590656a92b7cf179a65",
+      "bytes": 433354,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12818071.1/gr6.jpg?md5=9ef66c059e8135ce9c4978090d4fdb53"
+      ],
+      "association": "exact JATS fig6 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/gr7.jpg",
+      "sha256": "f020ba9fdb8c7805ff54657e521d12a42cd1a0090fde78cd819f5cf34b9cf81f",
+      "bytes": 461159,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12818071.1/gr7.jpg?md5=0dea5007165c9e1aab9cd9a261cb306e"
+      ],
+      "association": "Exact JATS paper asset and official version MD5; downloaded in local Chrome"
+    },
+    {
+      "path": "records/GEO-GSE297680-project.txt",
+      "sha256": "1c0338dd785be7e655074436fd901881147d33beb117deed53d1dc5f7650cfa1",
+      "bytes": 2106,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE297680&targ=self&form=text&view=brief"
+      ],
+      "association": "exact accession reported in Data Availability; metadata only; relation not yet verified",
+      "original_filename": "GEO-GSE297680-project.txt"
+    },
+    {
+      "path": "records/GEO-GSE297680-samples.txt",
+      "sha256": "aaf686958a2efc153961e39bf5af161afda4ac008ea33ef21ce866d675386b2e",
+      "bytes": 8829,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE297680&targ=gsm&form=text&view=brief"
+      ],
+      "association": "exact accession reported in Data Availability; metadata only; relation not yet verified",
+      "original_filename": "GEO-GSE297680-samples.txt"
+    },
+    {
+      "path": "records/GEO-GSE297746-project.txt",
+      "sha256": "9bfef385042fdeefff3d44ab96da9d904a780837f8720cfddb2c1b1cabc187ab",
+      "bytes": 2785,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE297746&targ=self&form=text&view=brief"
+      ],
+      "association": "exact accession reported in Data Availability; metadata only; relation not yet verified",
+      "original_filename": "GEO-GSE297746-project.txt"
+    },
+    {
+      "path": "records/GEO-GSE297746-samples.txt",
+      "sha256": "4c1c9f5a04a3aa5c987d809747f6151451cec6fc0c5ee640ab26ceaf478754f1",
+      "bytes": 62211,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE297746&targ=gsm&form=text&view=brief"
+      ],
+      "association": "exact accession reported in Data Availability; metadata only; relation not yet verified",
+      "original_filename": "GEO-GSE297746-samples.txt"
+    },
+    {
+      "path": "supplements/mmc1__refine/page-0002-region-01.png",
+      "sha256": "21574ff021515ec0ea7efdff11454d9d7c8220b505eb6b22431b6d471b96508f",
+      "bytes": 973106,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12818071.1/mmc1.pdf?md5=2378839a27108cf28b740150c3e96acb"
+      ],
+      "association": "Exact JATS paper asset and official version MD5; downloaded in local Chrome",
+      "derived_from": "6580bdb4b9dd512987c82c34c444eb22060571661a25a931992551799c19a52a",
+      "original_sha256": "6580bdb4b9dd512987c82c34c444eb22060571661a25a931992551799c19a52a",
+      "original_filename": "mmc1.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/mmc1__refine/page-0003-region-01.png",
+      "sha256": "d99635ed45b3b7d7e8d4a468b7bc59a84c22d588e36c160a9175d66f4642e037",
+      "bytes": 998867,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12818071.1/mmc1.pdf?md5=2378839a27108cf28b740150c3e96acb"
+      ],
+      "association": "Exact JATS paper asset and official version MD5; downloaded in local Chrome",
+      "derived_from": "6580bdb4b9dd512987c82c34c444eb22060571661a25a931992551799c19a52a",
+      "original_sha256": "6580bdb4b9dd512987c82c34c444eb22060571661a25a931992551799c19a52a",
+      "original_filename": "mmc1.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/mmc1__refine/page-0005-region-01.png",
+      "sha256": "4383b979f8fc8ce00f91b4c5395c44246b7da311c5e7a71fb496b7f6b4a3c482",
+      "bytes": 467666,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12818071.1/mmc1.pdf?md5=2378839a27108cf28b740150c3e96acb"
+      ],
+      "association": "Exact JATS paper asset and official version MD5; downloaded in local Chrome",
+      "derived_from": "6580bdb4b9dd512987c82c34c444eb22060571661a25a931992551799c19a52a",
+      "original_sha256": "6580bdb4b9dd512987c82c34c444eb22060571661a25a931992551799c19a52a",
+      "original_filename": "mmc1.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/mmc1__refine/page-0006-region-01.png",
+      "sha256": "5f53d0119ce347d88fbb9afa358b879d0c28f10b914bc7fde981a95b54c1cd6b",
+      "bytes": 659896,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12818071.1/mmc1.pdf?md5=2378839a27108cf28b740150c3e96acb"
+      ],
+      "association": "Exact JATS paper asset and official version MD5; downloaded in local Chrome",
+      "derived_from": "6580bdb4b9dd512987c82c34c444eb22060571661a25a931992551799c19a52a",
+      "original_sha256": "6580bdb4b9dd512987c82c34c444eb22060571661a25a931992551799c19a52a",
+      "original_filename": "mmc1.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/mmc1__refine/page-0007-region-01.png",
+      "sha256": "1f0d2e41cc78f416e1a5e0b59c908a6e7b76e16f8e639fc7a903b2e16a1d9b02",
+      "bytes": 581544,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12818071.1/mmc1.pdf?md5=2378839a27108cf28b740150c3e96acb"
+      ],
+      "association": "Exact JATS paper asset and official version MD5; downloaded in local Chrome",
+      "derived_from": "6580bdb4b9dd512987c82c34c444eb22060571661a25a931992551799c19a52a",
+      "original_sha256": "6580bdb4b9dd512987c82c34c444eb22060571661a25a931992551799c19a52a",
+      "original_filename": "mmc1.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/mmc1__refine/page-0008-region-01.png",
+      "sha256": "005d49c1b0865d8149ef6131c290d4b82fbebe545fb8e21be66231c272c63419",
+      "bytes": 368414,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12818071.1/mmc1.pdf?md5=2378839a27108cf28b740150c3e96acb"
+      ],
+      "association": "Exact JATS paper asset and official version MD5; downloaded in local Chrome",
+      "derived_from": "6580bdb4b9dd512987c82c34c444eb22060571661a25a931992551799c19a52a",
+      "original_sha256": "6580bdb4b9dd512987c82c34c444eb22060571661a25a931992551799c19a52a",
+      "original_filename": "mmc1.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/mmc1__refine/page-0010-region-01.png",
+      "sha256": "2cbdbe7c3f1fd1325c948afef0c84a011cf5d93e757ca8e2ccccaaac7ce6ca4d",
+      "bytes": 141316,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12818071.1/mmc1.pdf?md5=2378839a27108cf28b740150c3e96acb"
+      ],
+      "association": "Exact JATS paper asset and official version MD5; downloaded in local Chrome",
+      "derived_from": "6580bdb4b9dd512987c82c34c444eb22060571661a25a931992551799c19a52a",
+      "original_sha256": "6580bdb4b9dd512987c82c34c444eb22060571661a25a931992551799c19a52a",
+      "original_filename": "mmc1.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/mmc1__refine/page-0011-region-01.png",
+      "sha256": "87443033cc9fa523acf4a0a5f21909a768552f04ca0e19972bb69c0cb87d4a80",
+      "bytes": 647894,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12818071.1/mmc1.pdf?md5=2378839a27108cf28b740150c3e96acb"
+      ],
+      "association": "Exact JATS paper asset and official version MD5; downloaded in local Chrome",
+      "derived_from": "6580bdb4b9dd512987c82c34c444eb22060571661a25a931992551799c19a52a",
+      "original_sha256": "6580bdb4b9dd512987c82c34c444eb22060571661a25a931992551799c19a52a",
+      "original_filename": "mmc1.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/mmc1__refine/page-0012-region-01.png",
+      "sha256": "37bfae100193188837d6178f7b01561ffd6c9d0afae8ff32f6ce55195277fc18",
+      "bytes": 476109,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12818071.1/mmc1.pdf?md5=2378839a27108cf28b740150c3e96acb"
+      ],
+      "association": "Exact JATS paper asset and official version MD5; downloaded in local Chrome",
+      "derived_from": "6580bdb4b9dd512987c82c34c444eb22060571661a25a931992551799c19a52a",
+      "original_sha256": "6580bdb4b9dd512987c82c34c444eb22060571661a25a931992551799c19a52a",
+      "original_filename": "mmc1.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/mmc1__refine/page-0013-region-01.png",
+      "sha256": "a3417cb2631dcb31863fdbb0343b052763b8020cf30f0b8110dd00a8c68fee15",
+      "bytes": 450416,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12818071.1/mmc1.pdf?md5=2378839a27108cf28b740150c3e96acb"
+      ],
+      "association": "Exact JATS paper asset and official version MD5; downloaded in local Chrome",
+      "derived_from": "6580bdb4b9dd512987c82c34c444eb22060571661a25a931992551799c19a52a",
+      "original_sha256": "6580bdb4b9dd512987c82c34c444eb22060571661a25a931992551799c19a52a",
+      "original_filename": "mmc1.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/mmc1__refine/page-0015-region-01.png",
+      "sha256": "8467dbd6b7b5a5f0f93567be249cda3216e86424e4e8257814d62c7d3ceb9d70",
+      "bytes": 109963,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12818071.1/mmc1.pdf?md5=2378839a27108cf28b740150c3e96acb"
+      ],
+      "association": "Exact JATS paper asset and official version MD5; downloaded in local Chrome",
+      "derived_from": "6580bdb4b9dd512987c82c34c444eb22060571661a25a931992551799c19a52a",
+      "original_sha256": "6580bdb4b9dd512987c82c34c444eb22060571661a25a931992551799c19a52a",
+      "original_filename": "mmc1.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/mmc1__refine/content.md",
+      "sha256": "99d5d76ef4dc433aa69aff7a7ae2c47f8895129a6b9caf1c4c8f9f1acf34bc5e",
+      "bytes": 8537,
+      "role": "supplement",
+      "roles": [
+        "supplement"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12818071.1/mmc1.pdf?md5=2378839a27108cf28b740150c3e96acb"
+      ],
+      "association": "Exact JATS paper asset and official version MD5; downloaded in local Chrome",
+      "derived_from": "6580bdb4b9dd512987c82c34c444eb22060571661a25a931992551799c19a52a",
+      "original_sha256": "6580bdb4b9dd512987c82c34c444eb22060571661a25a931992551799c19a52a",
+      "original_filename": "mmc1.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "pdf_text_visual"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

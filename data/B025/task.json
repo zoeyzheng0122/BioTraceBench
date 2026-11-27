@@ -1,0 +1,32 @@
+{
+  "case_id": "B025",
+  "task_id": "B025",
+  "title": "Exercise Training Stimulates the Release of Glutathione Peroxidase 1 ( GPX1 )‐Enriched Extracellular Vesicles That Promote Angiogenesis",
+  "doi": "10.1096/fj.202505096RR",
+  "comparison_or_design": "Exercise-associated EVs (ExerVs) versus sedentary EVs (SedVs), retaining the actual donor-to-plasma-to-EV material chain where supported.",
+  "observations_or_assays": [
+    "NanoLC-MS proteomics"
+  ],
+  "time_scope": "Collection immediately after the final bout of the 4-week endurance-training protocol.",
+  "excluded": [
+    "EV injections, HUVEC assays, immobilization/recovery and GPX1 liposome experiments",
+    "Cryo-EM/NTA and other independent characterization assays"
+  ],
+  "population_or_material": "Selected mouse plasma-derived EV preparations Donor identity is biological-source context; totals do not establish individual chains.",
+  "requested_items": [
+    "Exercise versus sedentary regimen, training duration and plasma collection relative to final bout"
+  ],
+  "resources": [
+    {
+      "accession": "PXD064533",
+      "url": "https://www.ebi.ac.uk/pride/archive/projects/PXD064533"
+    }
+  ],
+  "domain": "basic",
+  "pipeline": "basic-research",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/basic-research.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

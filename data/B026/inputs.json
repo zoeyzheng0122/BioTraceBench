@@ -1,0 +1,153 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "B026",
+    "domain": "basic",
+    "title": "Single-cell RNA sequencing dataset of hearts from wild type and Cyp26b1 knockout mouse embryos",
+    "doi": "10.1038/s41597-025-05497-5",
+    "pipeline": "basic-research",
+    "pmid": "40634327",
+    "pmcid": "PMC12241566",
+    "registry": "10.6084/m9.figshare.29088062"
+  },
+  "files": [
+    {
+      "path": "records/Figshare-29088062.txt",
+      "sha256": "9a47c124bd514fc261698584b8bb3fd443e0ad69b3cbe7b04c4d4fccde5c0100",
+      "bytes": 3756,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://api.figshare.com/v2/articles/29088062"
+      ],
+      "derived_from": "c5da4b75d8b85047a481596b9a30567e2770ca36c8d8b885b8c77b2dc5ef4d66",
+      "representation": "readable_repository_record",
+      "association": "Article Data Records explicitly identifies this processed-data and supplementary-table record; readable official record text",
+      "original_filename": "Figshare-29088062.txt",
+      "retrieved_at": "2026-10-18T01:46:49+08:00"
+    },
+    {
+      "path": "sources/article.xml",
+      "sha256": "5e4fdf5f74a9dffdac41850d11ae8119beae09a753efd3b0fc349048befde96b",
+      "bytes": 81307,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12241566.1/PMC12241566.1.xml?md5=31362dae5aefc2245d5c01462ba21147"
+      ],
+      "association": "official published article XML for exact DOI"
+    },
+    {
+      "path": "records/Figshare-29088062.json",
+      "sha256": "b82d9ee5067fc466eacfbe4cc76b9bdcff15651c3ca13566c7c65cb523ddaa9a",
+      "bytes": 3669,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://api.figshare.com/v2/articles/29088062"
+      ],
+      "association": "Article Data Records explicitly identifies this processed-data and supplementary-table record",
+      "original_filename": "Figshare-29088062.json",
+      "retrieved_at": "2026-10-18T01:46:49+08:00"
+    },
+    {
+      "path": "figures/41597_2025_5497_Fig1_HTML.jpg",
+      "sha256": "81a14eade7c3bd643d33bc8305cff0f251e176b6a9c6213b7c05808655fff5a4",
+      "bytes": 91849,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12241566.1/41597_2025_5497_Fig1_HTML.jpg?md5=9147cafdce56d925b62091c3affbc288"
+      ],
+      "association": "exact JATS Fig1 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41597_2025_5497_Fig2_HTML.jpg",
+      "sha256": "b9b6e1a32c122a69f7aae35d30e837de77ea738c68d6bcf2511dfb21b5e724c5",
+      "bytes": 170832,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12241566.1/41597_2025_5497_Fig2_HTML.jpg?md5=3a56d1f1fdb93dfdd3dfe25c1c13f5bb"
+      ],
+      "association": "exact JATS Fig2 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41597_2025_5497_Fig3_HTML.jpg",
+      "sha256": "20bef575826c8844761c0c300aef45c08e1ce7953c0b5df63ac6ad85b90359e7",
+      "bytes": 127674,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12241566.1/41597_2025_5497_Fig3_HTML.jpg?md5=eb28a93284c193297ab66b54513b9325"
+      ],
+      "association": "exact JATS Fig3 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41597_2025_5497_Fig4_HTML.jpg",
+      "sha256": "8d3a8feff1685177f15d373f3890c6061a039faef0c2cd7dd43b118244dcd562",
+      "bytes": 187085,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12241566.1/41597_2025_5497_Fig4_HTML.jpg?md5=c7efb7ab10e804dc635afdd2e9d763e9"
+      ],
+      "association": "exact JATS Fig4 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/captions.txt",
+      "sha256": "53ddd03dadfac1050c870282ec7696ab4ee7082e3fb9aaaef6a3b86a25db98d4",
+      "bytes": 2991,
+      "role": "figure_captions",
+      "roles": [
+        "figure_captions"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12241566/"
+      ],
+      "derived_from": "460d6116ce014c9fb94993592ec10bb483dd3b616b7a0a83d5102e28b8c3d674"
+    },
+    {
+      "path": "supplements/Table-S3-design.csv",
+      "sha256": "53032eeb369699622aa6291e635081826079b6908da49b16ad70c60735da2dd8",
+      "bytes": 13114,
+      "role": "design_metadata",
+      "roles": [
+        "design_metadata"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12241566.1/41597_2025_5497_MOESM1_ESM.xlsx?md5=99aed86a31b03064f42a817fb127fea5"
+      ],
+      "derived_from": "133a93192d292dc585af6069f7418ac229053b74beeaf8a87876c8912c1ea442",
+      "representation": "complete_native_design_table",
+      "association": "Complete Table S3 including title, headers, all stages, companion oligo libraries and split FASTQ identities; Tables S1/S2 are expression results outside the task."
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

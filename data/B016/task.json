@@ -1,0 +1,32 @@
+{
+  "case_id": "B016",
+  "task_id": "B016",
+  "title": "PiR48444 inhibits MSC osteogenic differentiation and bone regeneration via targeting METTL7A/eIF4E-mediated BMP2 m6A methylation",
+  "doi": "10.1038/s42003-026-09583-1",
+  "comparison_or_design": "The SHED piR48444-knockdown ALP-staining experiment and its matched reference.",
+  "observations_or_assays": [
+    "ALP staining"
+  ],
+  "time_scope": "Day 7 of the selected osteogenic differentiation experiment.",
+  "excluded": [
+    "piR48444 overexpression, other piRNAs, other MSC sources and downstream METTL7A/BMP2/PIWIL1 interventions",
+    "Day-14 ARS, qPCR, sequencing, in vivo bone-defect and other validation assays"
+  ],
+  "population_or_material": "SHED dental-pulp-stem-cell preparations undergoing the selected osteogenic differentiation experiment.",
+  "requested_items": [
+    "piR48444 knockdown versus matched control and osteogenic differentiation/ALP collection day"
+  ],
+  "resources": [
+    {
+      "accession": "10.6084/m9.figshare.31042333",
+      "url": "https://doi.org/10.6084/m9.figshare.31042333"
+    }
+  ],
+  "domain": "basic",
+  "pipeline": "basic-research",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/basic-research.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

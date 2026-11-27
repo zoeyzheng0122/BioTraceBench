@@ -1,0 +1,333 @@
+{
+  "measure": [
+    {
+      "measure_definition": "Measured value: Montreal Cognitive Assessment (MoCA) score at baseline and 6 months, including change from baseline; Participants; MoCA (score range 0–30), with alternative versions (mocacognition.com) used at each time point to minimize potential learning effects; administered at baseline and 6 months. Primary ITT analysis compared change from baseline to 6 months between groups by t-test; participants randomized but lost to follow-up were included with the last measurement carried forward.; Primary outcome was the mean change in MoCA score from baseline to 6 months. ITT population; MoCA score range 0–30. No threshold-defined response is used for these results.",
+      "measure_id": "M0",
+      "measure_name": "Montreal Cognitive Assessment (MoCA) score"
+    },
+    {
+      "measure_definition": "Measured value: PDQ-39 score at baseline and 6 months, including change from baseline; Participants; PDQ-39, a validated PD-specific quality-of-life measure, self-reported by participants; assessed at baseline and 6 months for the requested primary unadjusted ITT comparison.; PDQ-39 score as reported. Source footnote labels the instrument 'Parkinson’s Disease Quality of Life Questionnaire—30 questions'. Primary unadjusted ITT comparison uses change from baseline to 6 months. No threshold-defined response is used for these results.",
+      "measure_id": "M1",
+      "measure_name": "Parkinson’s Disease Quality of Life Questionnaire (PDQ-39) score"
+    },
+    {
+      "measure_definition": "Measured value: PDSS score at baseline and 6 months, including change from baseline; Participants; Parkinson’s Disease Sleep Scale (PDSS), a questionnaire measure of sleep quality; assessed at baseline and 6 months for the requested primary unadjusted ITT comparison.; PDSS score as reported. Primary unadjusted ITT comparison uses change from baseline to 6 months. No threshold-defined response is used for these results.",
+      "measure_id": "M2",
+      "measure_name": "Parkinson’s Disease Sleep Scale (PDSS) score"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "Auto-adjusting positive airway pressure (APAP; auto-CPAP; auto-PAP)",
+      "intervention_regimen": "Not reported; Nightly use for 6 months; initiated in auto-PAP mode with subsequent adjustments based on clinical judgment; remote PAP device reports reviewed at 1, 3, and 6 months.",
+      "population_definition": "Randomization to active PAP (auto-adjusting positive airway pressure); Adults with Parkinson’s disease, clinical impression of mild cognitive impairment with Montreal Cognitive Assessment (MoCA) score ≤ 27, and obstructive sleep apnea with respiratory disturbance index (RDI) ≥ 15/hour on screening polysomnography; randomized to PAP and analyzed by intention to treat. Exclusions included active OSA treatment and major comorbidities.",
+      "population_id": "P0",
+      "population_name": "Positive airway pressure (PAP) group, intention-to-treat",
+      "population_size": 48,
+      "population_time_frame": "Randomization to 6-month follow-up; trial start April 2015; primary completion June 2022 (actual)."
+    },
+    {
+      "intervention": "Nasal dilator strips (Breathe-right), used as placebo/sham comparator",
+      "intervention_regimen": "Not reported; Nightly use for 6 months; teaching session on proper use; follow-up call at 1 week and visits at 1, 3, and 6 months.",
+      "population_definition": "Randomization to placebo nasal dilator strips; Adults with Parkinson’s disease, clinical impression of mild cognitive impairment with Montreal Cognitive Assessment (MoCA) score ≤ 27, and obstructive sleep apnea with respiratory disturbance index (RDI) ≥ 15/hour on screening polysomnography; randomized to nasal dilator strips and analyzed by intention to treat. One randomized control participant was excluded from ITT because the diagnosis changed from Parkinson’s disease. Exclusions included active OSA treatment and major comorbidities.",
+      "population_id": "P1",
+      "population_name": "Nasal dilator strips control group, intention-to-treat",
+      "population_size": 46,
+      "population_time_frame": "Randomization to 6-month follow-up; trial start April 2015; primary completion June 2022 (actual)."
+    },
+    {
+      "intervention": "Auto-adjusting positive airway pressure (APAP) or nasal dilator strips",
+      "intervention_regimen": "Not reported; Randomized 1:1 to APAP or nasal dilator strips for 6 months.",
+      "population_definition": "Randomization before analysis exclusions; Participants randomized in COPE-PAP after eligibility screening for Parkinson’s disease and obstructive sleep apnea (RDI ≥15/h) with MoCA ≤27; includes all allocated participants before analysis exclusions.",
+      "population_id": "P2",
+      "population_name": "All randomized participants",
+      "population_size": 95,
+      "population_time_frame": "Randomization (baseline) to 6-month follow-up"
+    },
+    {
+      "intervention": "PAP or placebo nasal dilator strips",
+      "intervention_regimen": null,
+      "population_definition": "Parkinson’s disease and clinical MCI (MoCA ≤27), OSA with respiratory disturbance index ≥15/hour, adequate English or French. One of 47 randomized controls excluded after diagnosis revised from PD.",
+      "population_id": "P3",
+      "population_name": "COPE-PAP primary ITT",
+      "population_size": 94,
+      "population_time_frame": "Baseline to six months of randomized assigned intervention."
+    }
+  ],
+  "population_relation": [
+    {
+      "population_a_id": "P0",
+      "population_b_id": "P1",
+      "relationship": "disjoint from"
+    },
+    {
+      "population_a_id": "P0",
+      "population_b_id": "P3",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P3",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P3",
+      "population_b_id": "P2",
+      "relationship": "subset of"
+    }
+  ],
+  "result": [
+    {
+      "assessment_time": "6 months",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R01",
+      "result_unit": "points",
+      "result_value": 23.21,
+      "statistic_type": "Mean MoCA score at 6 months (ITT)",
+      "statistical_method": "ITT summary. The last measurement was carried forward for participants lost to follow-up.",
+      "supplementary_statistics": "SD 4.02"
+    },
+    {
+      "assessment_time": "Baseline to 6 months",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R02",
+      "result_unit": "points",
+      "result_value": 0.6,
+      "statistic_type": "Mean change in MoCA score from baseline to 6 months (ITT)",
+      "statistical_method": "ITT summary. The last measurement was carried forward for participants lost to follow-up.",
+      "supplementary_statistics": "SD 2.37; 95% CI (−0.083, 1.29); analysis N = 48"
+    },
+    {
+      "assessment_time": "6 months",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R03",
+      "result_unit": "points",
+      "result_value": 22.3,
+      "statistic_type": "Mean MoCA score at 6 months (ITT)",
+      "statistical_method": "ITT summary. The last measurement was carried forward for participants lost to follow-up.",
+      "supplementary_statistics": "SD 3.82"
+    },
+    {
+      "assessment_time": "Baseline to 6 months",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R04",
+      "result_unit": "points",
+      "result_value": -0.39,
+      "statistic_type": "Mean change in MoCA score from baseline to 6 months (ITT)",
+      "statistical_method": "ITT summary. The last measurement was carried forward for participants lost to follow-up.",
+      "supplementary_statistics": "SD 2.79; 95% CI (−1.21, 0.43); analysis N = 46"
+    },
+    {
+      "assessment_time": "Baseline to 6 months",
+      "comparison": "P0 minus P1 (PAP minus nasal-dilator control), unadjusted ITT change contrast",
+      "measure_id": "M0",
+      "population_id": "P3",
+      "result_id": "R05",
+      "result_unit": "points",
+      "result_value": 1.0,
+      "statistic_type": "Between-group difference in mean change in MoCA score from baseline to 6 months (PAP minus control), unadjusted ITT",
+      "statistical_method": "Unadjusted ITT between-group t-test of baseline-to-6-month change. The last measurement was carried forward for participants lost to follow-up.",
+      "supplementary_statistics": "95% CI (−0.060, 2.05); p = 0.065; analysis N = 48 PAP and 46 control"
+    },
+    {
+      "assessment_time": "6 months",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P0",
+      "result_id": "R06",
+      "result_unit": "points",
+      "result_value": 18.4,
+      "statistic_type": "Mean PDQ-39 score at 6 months (ITT)",
+      "statistical_method": "ITT summary. Missing data were carried forward, with carry-backward for prior missing data. If follow-up data were unavailable, missing baseline items were imputed from the mean of other items of the same subscore. One PAP questionnaire missing at every timepoint was left unimputed.",
+      "supplementary_statistics": "SD 13.2"
+    },
+    {
+      "assessment_time": "Baseline to 6 months",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P0",
+      "result_id": "R07",
+      "result_unit": "points",
+      "result_value": -1.11,
+      "statistic_type": "Mean change in PDQ-39 score from baseline to 6 months (ITT)",
+      "statistical_method": "ITT summary. Missing data were carried forward, with carry-backward for prior missing data. If follow-up data were unavailable, missing baseline items were imputed from the mean of other items of the same subscore. One PAP questionnaire missing at every timepoint was left unimputed.",
+      "supplementary_statistics": "SD 5.65; 95% CI (−2.79, 0.57)"
+    },
+    {
+      "assessment_time": "6 months",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R08",
+      "result_unit": "points",
+      "result_value": 16.1,
+      "statistic_type": "Mean PDQ-39 score at 6 months (ITT)",
+      "statistical_method": "ITT summary. Missing data were carried forward, with carry-backward for prior missing data. If follow-up data were unavailable, missing baseline items were imputed from the mean of other items of the same subscore.",
+      "supplementary_statistics": "SD 10.3"
+    },
+    {
+      "assessment_time": "Baseline to 6 months",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R09",
+      "result_unit": "points",
+      "result_value": 0.85,
+      "statistic_type": "Mean change in PDQ-39 score from baseline to 6 months (ITT)",
+      "statistical_method": "ITT summary. Missing data were carried forward, with carry-backward for prior missing data. If follow-up data were unavailable, missing baseline items were imputed from the mean of other items of the same subscore.",
+      "supplementary_statistics": "SD 7.83; 95% CI (−1.48, 3.17)"
+    },
+    {
+      "assessment_time": "Baseline to 6 months",
+      "comparison": "P0 minus P1 (PAP minus nasal-dilator control), unadjusted ITT change contrast",
+      "measure_id": "M1",
+      "population_id": "P3",
+      "result_id": "R10",
+      "result_unit": "points",
+      "result_value": -1.96,
+      "statistic_type": "Between-group difference in mean change in PDQ-39 score from baseline to 6 months (PAP minus control), unadjusted ITT",
+      "statistical_method": "Unadjusted ITT between-group t-test of baseline-to-6-month change. Missing data were carried forward, with carry-backward for prior missing data. If follow-up data were unavailable, missing baseline items were imputed from the mean of other items of the same subscore. One PAP questionnaire missing at every timepoint was left unimputed.",
+      "supplementary_statistics": "95% CI (−4.79, 0.87)"
+    },
+    {
+      "assessment_time": "6 months",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P0",
+      "result_id": "R11",
+      "result_unit": "points",
+      "result_value": 95.68,
+      "statistic_type": "Mean PDSS score at 6 months (ITT)",
+      "statistical_method": "ITT summary. Missing data were carried forward, with carry-backward for prior missing data. If follow-up data were unavailable, missing baseline items were imputed from the mean of other items of the scale.",
+      "supplementary_statistics": "SD 24.41"
+    },
+    {
+      "assessment_time": "Baseline to 6 months",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P0",
+      "result_id": "R12",
+      "result_unit": "points",
+      "result_value": 9.72,
+      "statistic_type": "Mean change in PDSS score from baseline to 6 months (ITT)",
+      "statistical_method": "ITT summary. Missing data were carried forward, with carry-backward for prior missing data. If follow-up data were unavailable, missing baseline items were imputed from the mean of other items of the scale.",
+      "supplementary_statistics": "SD 21.14; 95% CI (3.59, 15.86); *p < 0.05 within group"
+    },
+    {
+      "assessment_time": "6 months",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R13",
+      "result_unit": "points",
+      "result_value": 87.57,
+      "statistic_type": "Mean PDSS score at 6 months (ITT)",
+      "statistical_method": "ITT summary. Missing data were carried forward, with carry-backward for prior missing data. If follow-up data were unavailable, missing baseline items were imputed from the mean of other items of the scale.",
+      "supplementary_statistics": "SD 23.27"
+    },
+    {
+      "assessment_time": "Baseline to 6 months",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R14",
+      "result_unit": "points",
+      "result_value": 3.64,
+      "statistic_type": "Mean change in PDSS score from baseline to 6 months (ITT)",
+      "statistical_method": "ITT summary. Missing data were carried forward, with carry-backward for prior missing data. If follow-up data were unavailable, missing baseline items were imputed from the mean of other items of the scale.",
+      "supplementary_statistics": "SD 23.30; 95% CI (−3.01, 10.28)"
+    },
+    {
+      "assessment_time": "Baseline to 6 months",
+      "comparison": "P0 minus P1 (PAP minus nasal-dilator control), unadjusted ITT change contrast",
+      "measure_id": "M2",
+      "population_id": "P3",
+      "result_id": "R15",
+      "result_unit": "points",
+      "result_value": 6.08,
+      "statistic_type": "Between-group difference in mean change in PDSS score from baseline to 6 months (PAP minus control), unadjusted ITT",
+      "statistical_method": "Unadjusted ITT between-group t-test of baseline-to-6-month change. Missing data were carried forward, with carry-backward for prior missing data. If follow-up data were unavailable, missing baseline items were imputed from the mean of other items of the scale.",
+      "supplementary_statistics": "95% CI (−2.83, 10.01)"
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R16",
+      "result_unit": "points",
+      "result_value": 22.6,
+      "statistic_type": "Mean MoCA score at baseline (observed baseline)",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 3.8; analysis N = 48"
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R17",
+      "result_unit": "points",
+      "result_value": 22.7,
+      "statistic_type": "Mean MoCA score at baseline (observed baseline)",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 3.1; analysis N = 46"
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P0",
+      "result_id": "R18",
+      "result_unit": "points",
+      "result_value": 19.6,
+      "statistic_type": "Mean PDQ-39 score at baseline (observed baseline)",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 12.3; observed baseline n=46; Table 2"
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R19",
+      "result_unit": "points",
+      "result_value": 20.3,
+      "statistic_type": "Mean PDQ-39 score at baseline (observed baseline)",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 11.5; observed baseline n=46; Table 2"
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P0",
+      "result_id": "R20",
+      "result_unit": "points",
+      "result_value": 85.7,
+      "statistic_type": "Mean PDSS score at baseline (observed baseline)",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 21.4; observed baseline n=48; Table 2"
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R21",
+      "result_unit": "points",
+      "result_value": 83.8,
+      "statistic_type": "Mean PDSS score at baseline (observed baseline)",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 24.3; observed baseline n=46; Table 2"
+    }
+  ]
+}

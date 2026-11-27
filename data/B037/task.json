@@ -1,0 +1,32 @@
+{
+  "case_id": "B037",
+  "task_id": "B037",
+  "title": "TGF- β signaling promotes astroglial activation and TDP-43 proteinopathy in organoid models of frontotemporal lobar degeneration",
+  "doi": "10.1172/JCI190035",
+  "comparison_or_design": "GRN−/− versus GRN+/+ at the same 16-week collection point.",
+  "observations_or_assays": [
+    "Single-cell RNA sequencing"
+  ],
+  "time_scope": "Week 16 only.",
+  "excluded": [
+    "Weeks 5/25, the independent GRN R493X cohort and TGF-β inhibition",
+    "Animal tissue, functional assays and transcriptomic cluster/trajectory results"
+  ],
+  "population_or_material": "Native WTC11/isogenic GRN-null CX organoid preparations at 16 weeks in GSE282668; exclude KOLF2.1J and its R493X cohort.",
+  "requested_items": [
+    "GRN genotype and organoid collection age"
+  ],
+  "resources": [
+    {
+      "accession": "GSE282668",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE282668"
+    }
+  ],
+  "domain": "basic",
+  "pipeline": "basic-research",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/basic-research.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

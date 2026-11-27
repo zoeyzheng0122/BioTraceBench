@@ -1,0 +1,109 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "qRT-PCR for CDKN1A and CDKN2A",
+      "experiment_run_accession": "Duke RDR:10.7924/r4r535 (dataset)",
+      "method": "Aggregate Figure 2A Soft-versus-Stiff comparison of Day-4 RNA preparations. TRIzol extraction and RNA Clean & Concentrator-5 purification; GoScript cDNA synthesis; Maxima SYBR Green/Fluorescein chemistry; GAPDH reference and qbase+ processing. Gene-expression methods report three biological repeats per composition; individual preparation/plate identities and the PCR instrument model are not supplied.",
+      "platform": null,
+      "sample_ids": [
+        "S0001",
+        "S0002"
+      ]
+    }
+  ],
+  "condition": [
+    {
+      "condition_id": "C0001",
+      "condition_target": "Source ECFC-containing hydrogel culture",
+      "experimental_factor": "Initial soft-matrix network-formation duration",
+      "factor_unit": "h",
+      "factor_value": 48,
+      "sample_id": "S0001",
+      "time": "From encapsulation on Day 0 to the Day-2 intervention"
+    },
+    {
+      "condition_id": "C0002",
+      "condition_target": "ECFC-containing hydrogel matrix",
+      "experimental_factor": "Hydrogel Young’s modulus (formulation-level)",
+      "factor_unit": "Pa",
+      "factor_value": 191.17,
+      "sample_id": "S0001",
+      "time": "Soft-high formulation retained without light-induced stiffening through Day 4"
+    },
+    {
+      "condition_id": "C0003",
+      "condition_target": "Source ECFC-containing hydrogel culture",
+      "experimental_factor": "Culture duration in assigned stiffness condition",
+      "factor_unit": "h",
+      "factor_value": 48,
+      "sample_id": "S0001",
+      "time": "From the Day-2 intervention/matched control point to Day-4 RNA collection"
+    },
+    {
+      "condition_id": "C0004",
+      "condition_target": "Source ECFC-containing hydrogel culture",
+      "experimental_factor": "Initial soft-matrix network-formation duration",
+      "factor_unit": "h",
+      "factor_value": 48,
+      "sample_id": "S0002",
+      "time": "From encapsulation on Day 0 to the Day-2 intervention"
+    },
+    {
+      "condition_id": "C0005",
+      "condition_target": "ECFC-containing hydrogel matrix",
+      "experimental_factor": "Hydrogel Young’s modulus (formulation-level)",
+      "factor_unit": "Pa",
+      "factor_value": 408.32,
+      "sample_id": "S0002",
+      "time": "Stiff formulation after Day-2 light-induced crosslinking; collection on Day 4"
+    },
+    {
+      "condition_id": "C0006",
+      "condition_target": "ECFC-containing hydrogel matrix",
+      "experimental_factor": "White-LED stiffening exposure duration",
+      "factor_unit": "min",
+      "factor_value": 1,
+      "sample_id": "S0002",
+      "time": "On Day 2 after 48 h of initial soft-matrix network formation"
+    },
+    {
+      "condition_id": "C0007",
+      "condition_target": "Source ECFC-containing hydrogel culture",
+      "experimental_factor": "Culture duration in assigned stiffness condition",
+      "factor_unit": "h",
+      "factor_value": 48,
+      "sample_id": "S0002",
+      "time": "From the Day-2 intervention/matched control point to Day-4 RNA collection"
+    },
+    {
+      "condition_id": "C0008",
+      "condition_target": "ECFC-containing hydrogel matrix",
+      "experimental_factor": "White-LED stiffening exposure duration",
+      "factor_unit": "min",
+      "factor_value": 0,
+      "sample_id": "S0001",
+      "time": "On Day 2 after 48 h of initial soft-matrix network formation"
+    }
+  ],
+  "sample": [
+    {
+      "biological_model": "Three-dimensional endothelial network model of stiffness-induced senescence",
+      "biological_source": "Human umbilical cord blood-derived endothelial colony-forming cells (ECFCs; Yoder Lab)",
+      "sample_accession": null,
+      "sample_id": "S0001",
+      "sample_material": "Total RNA extracted from Day-4 ECFC-containing Col-MA/HA-MA hydrogel constructs. The 64% HA-methacrylation formulation is shared by Soft-high control and Stiff. Initial soft culture: 48 h; photoinitiator added on Day 2, without LED stiffening; another 48 h to collection. Table S1 formulation-level Young’s modulus: 191.17 ± 18.58 Pa; individual qPCR preparations are not labelled.",
+      "sample_name": "Soft ECFC network, Day 4",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Three-dimensional endothelial network model of stiffness-induced senescence",
+      "biological_source": "Human umbilical cord blood-derived endothelial colony-forming cells (ECFCs; Yoder Lab)",
+      "sample_accession": null,
+      "sample_id": "S0002",
+      "sample_material": "Total RNA extracted from Day-4 ECFC-containing Col-MA/HA-MA hydrogel constructs. The 64% HA-methacrylation formulation is shared by Soft-high control and Stiff. Initial soft culture: 48 h; photoinitiator added on Day 2 followed by 1-min white-LED stiffening; another 48 h to collection. Table S1 formulation-level Young’s modulus: 408.32 ± 11.02 Pa; individual qPCR preparations are not labelled.",
+      "sample_name": "Stiff ECFC network, Day 4",
+      "species": "Homo sapiens"
+    }
+  ]
+}

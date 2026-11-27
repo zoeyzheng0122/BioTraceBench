@@ -1,0 +1,105 @@
+{
+  "measure": [
+    {
+      "measure_definition": "Measured value: change in NRS pain intensity score from baseline (T0) to post-intervention (T1); Participants; Numeric Rating Scale (NRS; 0–10) assessed at baseline T0 and post-intervention after two weeks T1; change from T0 to T1.; NRS range 0–10. Change is calculated from T0 to T1. Internal responsiveness was evaluated using the distribution-based standardized mean difference (SMD), reported with 95% CI.",
+      "measure_id": "M0",
+      "measure_name": "NRS pain intensity"
+    },
+    {
+      "measure_definition": "Measured value: change in ODI disability score from baseline (T0) to post-intervention (T1); Participants; Oswestry Disability Index (ODI; 0–100%) assessed at baseline T0 and post-intervention after two weeks T1; change from T0 to T1.; ODI range 0–100%. Change is calculated from T0 to T1. Internal responsiveness was evaluated using the distribution-based standardized mean difference (SMD), reported with 95% CI.",
+      "measure_id": "M1",
+      "measure_name": "Oswestry Disability Index (ODI) disability score"
+    },
+    {
+      "measure_definition": "Measured value: change in RMDQ score from baseline (T0) to post-intervention (T1); Participants; Roland–Morris Disability Questionnaire (RMDQ; 0–24) assessed at baseline T0 and post-intervention after two weeks T1; change from T0 to T1.; RMDQ range 0–24. Change is calculated from T0 to T1. Internal responsiveness was evaluated using the distribution-based standardized mean difference (SMD), reported with 95% CI.",
+      "measure_id": "M2",
+      "measure_name": "Roland–Morris Disability Questionnaire (RMDQ) score"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "Osteopathic manipulative treatment (OMT) combined with transcranial direct current stimulation (tDCS); sham procedures were applied in the placebo condition.",
+      "intervention_regimen": "Active condition: tDCS 2 mA for 20 minutes; OMT dose Not reported. Placebo condition: sham procedures.; Planned: tDCS for 20 minutes over two weeks targeting the primary motor cortex; OMT delivered in two sessions using individualized techniques; sham procedures for placebo. Assessments at baseline T0, post-intervention after two weeks T1, and follow-up one month after treatment completion T2.",
+      "population_definition": "Analysis set: participants pooled across the active and placebo conditions after the original three-arm trial was collapsed into two conditions; restricted to complete T0, T1 and T2 data.; Adults aged 18–55 years diagnosed with chronic non-specific low back pain (pain duration ≥12 weeks), recruited from the original randomized controlled trial; only participants with complete data across all assessment time points (T0, T1, and T2) were included in this analysis. The pooled cohort comprised 38 active-group and 39 placebo-group participants.",
+      "population_id": "P0",
+      "population_name": "Pooled T0–T1 responsiveness cohort",
+      "population_size": 77,
+      "population_time_frame": "Recruited May 2022–July 2023; baseline T0, post-intervention after two weeks T1, and follow-up one month after treatment completion T2."
+    }
+  ],
+  "population_relation": [],
+  "result": [
+    {
+      "assessment_time": "T0 to T1 (post-intervention after two weeks)",
+      "comparison": "Within P0: T0–T1 as labeled in Table 2; subtraction order unreported.",
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R01",
+      "result_unit": "points",
+      "result_value": -2.88,
+      "statistic_type": "Mean change",
+      "statistical_method": "Pooled complete-data mean change in the native units.",
+      "supplementary_statistics": "SD 2.15. Table 2 pooled T0–T1 analysis n=77."
+    },
+    {
+      "assessment_time": "T0 to T1 (post-intervention after two weeks)",
+      "comparison": "Within P0: post-intervention T1 versus baseline T0; source SMD sign convention not explicitly established",
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R02",
+      "result_unit": "dimensionless",
+      "result_value": 1.64,
+      "statistic_type": "Standardized mean difference (SMD)",
+      "statistical_method": "Distribution-based internal responsiveness analysis. Standardization denominator and sign convention unreported.",
+      "supplementary_statistics": "95% CI 1.28 to 2.01. Table 2 pooled T0–T1 analysis n=77."
+    },
+    {
+      "assessment_time": "T0 to T1 (post-intervention after two weeks)",
+      "comparison": "Within P0: T0–T1 as labeled in Table 2; subtraction order unreported.",
+      "measure_id": "M1",
+      "population_id": "P0",
+      "result_id": "R03",
+      "result_unit": "points",
+      "result_value": -9.83,
+      "statistic_type": "Mean change",
+      "statistical_method": "Pooled complete-data mean change in the native units.",
+      "supplementary_statistics": "SD 10.91. Table 2 pooled T0–T1 analysis n=77."
+    },
+    {
+      "assessment_time": "T0 to T1 (post-intervention after two weeks)",
+      "comparison": "Within P0: post-intervention T1 versus baseline T0; source SMD sign convention not explicitly established",
+      "measure_id": "M1",
+      "population_id": "P0",
+      "result_id": "R04",
+      "result_unit": "dimensionless",
+      "result_value": 0.16,
+      "statistic_type": "Standardized mean difference (SMD)",
+      "statistical_method": "Distribution-based internal responsiveness analysis. Standardization denominator and sign convention unreported.",
+      "supplementary_statistics": "95% CI −0.15 to 0.48. Table 2 pooled T0–T1 analysis n=77."
+    },
+    {
+      "assessment_time": "T0 to T1 (post-intervention after two weeks)",
+      "comparison": "Within P0: T0–T1 as labeled in Table 2; subtraction order unreported.",
+      "measure_id": "M2",
+      "population_id": "P0",
+      "result_id": "R05",
+      "result_unit": "points",
+      "result_value": -1.64,
+      "statistic_type": "Mean change",
+      "statistical_method": "Pooled complete-data mean change in the native units.",
+      "supplementary_statistics": "SD 2.50. Table 2 pooled T0–T1 analysis n=77."
+    },
+    {
+      "assessment_time": "T0 to T1 (post-intervention after two weeks)",
+      "comparison": "Within P0: post-intervention T1 versus baseline T0; source SMD sign convention not explicitly established",
+      "measure_id": "M2",
+      "population_id": "P0",
+      "result_id": "R06",
+      "result_unit": "dimensionless",
+      "result_value": 0.42,
+      "statistic_type": "Standardized mean difference (SMD)",
+      "statistical_method": "Distribution-based internal responsiveness analysis. Standardization denominator and sign convention unreported.",
+      "supplementary_statistics": "95% CI 0.10 to 0.74. Table 2 pooled T0–T1 analysis n=77."
+    }
+  ]
+}

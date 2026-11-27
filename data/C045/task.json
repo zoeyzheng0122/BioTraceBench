@@ -1,0 +1,33 @@
+{
+  "case_id": "C045",
+  "task_id": "C045",
+  "title": "Effects of lemborexant and zolpidem on sleep electroencephalography in older adults with insomnia: a randomized trial",
+  "doi": "10.1093/sleepadvances/zpag017",
+  "comparison_or_design": "The selected NREM comparison of lemborexant 10 mg and extended-release zolpidem 6.25 mg.",
+  "observations_or_assays": [
+    "NREM slow-oscillation spectral power",
+    "NREM alpha spectral power",
+    "NREM theta spectral power"
+  ],
+  "time_scope": "Change from acute nights 1–2 to chronic nights 29–30.",
+  "excluded": [
+    "Baseline-referenced contrasts, REM, other bands, LEM5/placebo and omnibus tests over excluded arms",
+    "ISI correlations, subgroups and independent EEG reanalysis"
+  ],
+  "population_or_material": "The analyzable EEG subgroup of older adults with insomnia in this report, using source-supported PSG/EEG assessment denominators.",
+  "requested_items": [
+    "NREM acute-to-chronic paragraph: numerical within-arm t tests and associated df/P/d for SO/alpha/theta in the selected two arms. Include a direct between-arm acute-to-chronic estimate only if explicitly reported. Exclude duplicate qualitative descriptions, baseline-referenced electrode comparisons and plot digitization."
+  ],
+  "resources": [],
+  "case_specific_rules": [
+    "For the selected within-arm NREM acute-to-chronic t tests, use the dedicated one-sample-test paragraph over conflicting general statistical-method wording. Recover its adjustment method from that paragraph and preserve the reported P values.",
+    "Retain the source-reported change definitions, transformation and temporal interpretation; do not construct an unprinted composite formula. Apply the shared endpoint-denominator rules."
+  ],
+  "domain": "clinical",
+  "pipeline": "clinical-trials",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/clinical-trials.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

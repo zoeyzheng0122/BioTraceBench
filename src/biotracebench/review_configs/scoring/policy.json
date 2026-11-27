@@ -1,0 +1,326 @@
+{
+  "bootstrap_resamples": 10000,
+  "bootstrap_seed": 20261024,
+  "compound_fields": [],
+  "compound_policy": "whole-field all-or-nothing: all required content and attributions must match; no subitem credit",
+  "field_granularity": "one whole scientific field; compound content is not split; identifiers and declared provenance excluded; references remain scientific",
+  "field_roles": {},
+  "field_rules": {
+    "condition.factor_value": {
+      "numeric": true
+    },
+    "result.result_value": {
+      "numeric": true
+    },
+    "result.supplementary_statistics": {
+      "normalize_comparators": true,
+      "normalize_space": true,
+      "text_basis": "Whole-field comparison preserves all assertions; only whitespace and equivalent comparator glyphs are normalized."
+    }
+  },
+  "frozen": false,
+  "identity_accessions": {
+    "assay_run": {
+      "experiment_run_accession": [
+        "experiment",
+        "library",
+        "run"
+      ]
+    },
+    "sample": {
+      "sample_accession": [
+        "sample"
+      ]
+    }
+  },
+  "identity_contract": "biotracebench-identity-2",
+  "identity_groups": {
+    "assay_run": [
+      [
+        "experiment_run_accession",
+        "sample_ids",
+        "assay_type"
+      ]
+    ],
+    "condition": [
+      [
+        "sample_id",
+        "condition_target",
+        "experimental_factor",
+        "time"
+      ],
+      [
+        "sample_id",
+        "condition_target",
+        "experimental_factor"
+      ]
+    ],
+    "measure": [
+      [
+        "measure_name",
+        "measure_definition"
+      ]
+    ],
+    "population": [
+      [
+        "population_name",
+        "population_definition"
+      ]
+    ],
+    "population_relation": [
+      [
+        "population_a_id",
+        "population_b_id",
+        "relationship"
+      ]
+    ],
+    "result": [
+      [
+        "population_id",
+        "measure_id",
+        "assessment_time",
+        "statistic_type"
+      ]
+    ],
+    "sample": [
+      [
+        "sample_accession"
+      ],
+      [
+        "sample_name",
+        "biological_source",
+        "sample_material"
+      ]
+    ]
+  },
+  "identity_guards": {
+    "assay_run": [
+      "method",
+      "platform"
+    ],
+    "condition": [
+      "condition_target",
+      "experimental_factor",
+      "time"
+    ],
+    "measure": [],
+    "population": [
+      "intervention",
+      "intervention_regimen",
+      "population_time_frame"
+    ],
+    "population_relation": [],
+    "result": [
+      "statistical_method",
+      "comparison"
+    ],
+    "sample": [
+      "sample_name"
+    ]
+  },
+  "identity_native_labels": {},
+  "identity_policy": "Establish one-to-one scientific correspondence using task definitions and supplied source evidence; local identifiers and row order only locate records. Preserve unmatched, duplicate and extra objects. Scientific judgments and source-dependent applicability are external inputs.",
+  "identity_strong_groups": {
+    "assay_run": [
+      [
+        "experiment_run_accession"
+      ]
+    ],
+    "sample": [
+      [
+        "sample_accession"
+      ]
+    ]
+  },
+  "identity_task_rules": {},
+  "item_policy": "biotracebench-scoring-items-1",
+  "null_policy": "Fixed-version gold, scientific cells: BOTH sides blank => not_scored, with no TP, FP or FN; nonempty gold with a blank or absent prediction => missing (FN); blank gold with nonempty submitted scientific content => extra (FP). Null and empty or whitespace-only strings are blank and are not reference items. Zero, false and explicitly written scientific states including NR/NE remain content. Do not amend the fixed reference.",
+  "numeric_policy": "Establish the same object, quantity, time, direction, comparator and unit. Test numeric equality first. For unequal continuous quantities, round only a finer prediction once to the source-supported reference precision (ROUND_HALF_UP, ties away from zero). Require the rounded prediction to equal the original reference. If the source precision is unknown, require exact equality. Counts, denominators and identifiers require exact agreement. Apply the rule to corresponding components, preserving units, signs, bounds, states and all other assertions. Score the whole field once. When rounding, record both original values, the source locator, the target precision and the rounded value.",
+  "precision_contract": "biotracebench-source-directed-precision-1",
+  "precision_policy": {
+    "version": "biotracebench-source-directed-precision-1",
+    "scope": "all_tasks_generation_models_and_conditions",
+    "decision_authority": "model_whole_cell_judgment",
+    "comparison": "exact_first_then_round_finer_prediction_to_supported_reference_precision",
+    "precision_basis": "source_supported_reference_decimal_place_otherwise_exact",
+    "rounding": "ROUND_HALF_UP",
+    "negative_ties": "away_from_zero",
+    "equal_precision": "numeric_equality_required",
+    "integer_display": "zero_decimal_places_for_continuous_quantities_only",
+    "counts_denominators_identifiers": "exact",
+    "context": "same_scientific_object_quantity_time_direction_and_state",
+    "units": "same_unit_or_approved_exact_conversion_to_a_common_unit",
+    "compound_cells": "all_or_nothing_no_subitem_scores",
+    "original_values": "preserved_without_rewriting",
+    "rounding_reason": "state_both_original_values_target_precision_rounded_value_and_whole_cell_verdict",
+    "citation_quality_gate": false
+  },
+  "reference_contract": "biotracebench-fixed-reference-1",
+  "review_status": "Scientific judgments and source applicability supplied by the external publication materials.",
+  "scoring_standard": "Published whole-field and complete-record evaluation protocol.",
+  "scoring_workflow": "Qwen marks every task cell; program validates coverage and computes scores; automatic workflow ends; humans inspect correction reports externally without an approval-file gate",
+  "semantic_context_fields": {
+    "result.supplementary_statistics": [
+      "result_unit"
+    ]
+  },
+  "task_grading_contract": "biotracebench-task-grading-1",
+  "text_contract": "biotracebench-text-equivalence-1",
+  "text_policy": "Qwen judges complete scientific meaning in the fixed-reference, task and record context; different wording can be correct without an exact textual match or a prelisted alias. Preserve every required assertion, scientific state, association, numerical value, precision and approved quantity-scoped unit rule. A wrong or incomplete whole field is incorrect; genuinely unresolved meaning stays uncertain with a reason. Human inspection takes place after automatic grading outside the program, without an approval-file gate.",
+  "unit_bindings": {
+    "condition.factor_value": {
+      "basis": "Approved finite catalog: compare the independently aligned sample and experimental factor, preserving target and temporal context.",
+      "context_guards": [
+        "time"
+      ],
+      "required_context": [
+        "sample_id",
+        "condition_target",
+        "experimental_factor"
+      ],
+      "unit_field": "factor_unit",
+      "whole_field_companions": []
+    },
+    "result.result_value": {
+      "basis": "Approved finite catalog: compare the same independently aligned population, measure, time, statistic and analysis basis; preserve whole supplementary assertions.",
+      "context_guards": [
+        "comparison",
+        "statistical_method"
+      ],
+      "required_context": [
+        "population_id",
+        "measure_id",
+        "assessment_time",
+        "statistic_type"
+      ],
+      "unit_field": "result_unit",
+      "whole_field_companions": [
+        "supplementary_statistics"
+      ]
+    }
+  },
+  "unit_catalog": {
+    "activated": true,
+    "approved": true,
+    "case_specific_existing_permission": {},
+    "coupled_content": "Convert value and unit consistently. Review all dependent bounds, intervals and own statistics in a whole compound field. Fields remain one all-or-nothing scoring item. Do not let scalar conversion silently exempt unchanged companion content.",
+    "families": {
+      "daily_exposure_duration": {
+        "canonical": "min/day",
+        "requires": "Same daily regimen; do not confuse per-day exposure with total exposure.",
+        "scales": {
+          "h/day": "60",
+          "min/day": "1"
+        }
+      },
+      "event_rate_spelling": {
+        "canonical": "events/h",
+        "requires": "Same event definition and denominator basis.",
+        "scales": {
+          "events/h": "1",
+          "events/hr": "1"
+        }
+      },
+      "fixed_duration": {
+        "canonical": "s",
+        "requires": "Same duration and temporal anchor; never equate distinct visits or calendar cutoffs.",
+        "scales": {
+          "day": "86400",
+          "days": "86400",
+          "h": "3600",
+          "min": "60",
+          "s": "1",
+          "week": "604800",
+          "weeks": "604800"
+        }
+      },
+      "mass": {
+        "canonical": "mg",
+        "scales": {
+          "g": "1000",
+          "kg": "1000000",
+          "mg": "1",
+          "ng": "0.000001",
+          "ug": "0.001",
+          "µg": "0.001",
+          "μg": "0.001"
+        }
+      },
+      "mass_concentration": {
+        "canonical": "ng/mL",
+        "requires": "Same analyte, chemical form and concentration basis; do not convert mass to molar concentration.",
+        "scales": {
+          "mg/dL": "10000",
+          "mg/mL": "1000000",
+          "ng l-1": "0.001",
+          "ng l−1": "0.001",
+          "ng/L": "0.001",
+          "ng/mL": "1",
+          "ng/ml": "1",
+          "ug/mL": "1000",
+          "µg/mL": "1000",
+          "μg/mL": "1000"
+        }
+      },
+      "molar_concentration": {
+        "canonical": "nM",
+        "requires": "Same analyte, chemical form and concentration basis.",
+        "scales": {
+          "nM": "1",
+          "nMol l-1": "1",
+          "nMol l−1": "1",
+          "nmol/L": "1",
+          "uM": "1000",
+          "µM": "1000",
+          "µmol/L": "1000",
+          "μM": "1000",
+          "μmol/L": "1000"
+        }
+      },
+      "pressure_pa": {
+        "canonical": "Pa",
+        "scales": {
+          "Pa": "1",
+          "kPa": "1000"
+        }
+      },
+      "volume": {
+        "canonical": "mL",
+        "scales": {
+          "L": "1000",
+          "mL": "1",
+          "uL": "0.001",
+          "µL": "0.001",
+          "μL": "0.001"
+        }
+      }
+    },
+    "formal_freeze_requirements": [
+      "Documented scientific approval of the final scientific rule package, beyond this previously approved finite catalog",
+      "Quantity-aware scorer integration rather than one global canonical unit",
+      "Whole-field and companion consistency checks",
+      "Tests for equivalent conversions and context or denominator mismatches",
+      "Bind rules to the exact frozen task, reference and scorer identities"
+    ],
+    "frozen": false,
+    "not_automatically_equivalent": [
+      "calendar month versus 30 days; calendar year versus 365 days",
+      "mg/kg body weight versus mg/kg diet or dry matter",
+      "mass concentration versus molar concentration requiring a molecular mass",
+      "% versus % w/v versus % v/v versus % w/w versus percentage points",
+      "raw scale points versus T-score or standardized effect",
+      "person-time event rates versus participant counts or event counts",
+      "Pa/kPa versus psi or mmHg without an approved exact rule"
+    ],
+    "scope": "Approved finite exact equivalences, used only through explicit quantity bindings after independent object alignment. Embedded in the scoring policy for immutable replay; formal scientific rules remain unfrozen.",
+    "status": "approved_catalog_implemented_unfrozen",
+    "unsupported_forms": "Preserve ranges, inequalities, compound ratios, unlisted spellings and ambiguous quantities as whole fields. Qwen judges them under the supplied exact quantity-compatible rules; genuinely unresolved cases stay uncertain with reasons for later external inspection. A parser limitation alone is not a scientific error.",
+    "value_unit_pairs": [
+      "condition.factor_value:condition.factor_unit",
+      "result.result_value:result.result_unit"
+    ],
+    "version": "biotracebench-unit-catalog-draft-1"
+  },
+  "unit_contract": "biotracebench-exact-units-2",
+  "version": "biotracebench-score-2"
+}

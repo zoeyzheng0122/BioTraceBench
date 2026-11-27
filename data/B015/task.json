@@ -1,0 +1,32 @@
+{
+  "case_id": "B015",
+  "task_id": "B015",
+  "title": "Stem Cell Differentiation Disperses Transcriptional Clusters via a Conserved Surface‐Condensate Trajectory",
+  "doi": "10.1002/advs.75924",
+  "comparison_or_design": "The early neuronal-induction comparison assessed by Pol II immunofluorescence in ESC46C cells.",
+  "observations_or_assays": [
+    "Pol II Ser5P/Ser2P immunofluorescence imaging"
+  ],
+  "time_scope": "The control/reference and 12-hour RHB-A induction points.",
+  "excluded": [
+    "Other induction time points and the separate LIF-withdrawal protocol",
+    "Fly/zebrafish experiments, H3K27ac/Western blot, mitotic-fraction archives and condensate simulation"
+  ],
+  "population_or_material": "Mouse ESC46C fixed-cell preparations used for Pol II immunofluorescence.",
+  "requested_items": [
+    "RHB-A induction versus undifferentiated control and induction duration"
+  ],
+  "resources": [
+    {
+      "accession": "10.5281/zenodo.19473110",
+      "url": "https://doi.org/10.5281/zenodo.19473110"
+    }
+  ],
+  "domain": "basic",
+  "pipeline": "basic-research",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/basic-research.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

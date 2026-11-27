@@ -1,0 +1,260 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "Label-free nanoLC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD064533 (project)",
+      "method": "EV protein extraction using Perfect-FOCUS, reduction/alkylation and tryptic digestion, followed by nanoLC-MS/MS with DDA-PASEF and label-free quantification. Native acquisition file: Sed1_Slot2-5_1_1393.d.zip.",
+      "platform": "nanoElute LC; Bruker timsTOF Pro (article) / timsTOF Pro 2 (PRIDE)",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0002",
+      "assay_type": "Label-free nanoLC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD064533 (project)",
+      "method": "EV protein extraction using Perfect-FOCUS, reduction/alkylation and tryptic digestion, followed by nanoLC-MS/MS with DDA-PASEF and label-free quantification. Native acquisition file: Sed2_Slot2-7_1_1399.d.zip.",
+      "platform": "nanoElute LC; Bruker timsTOF Pro (article) / timsTOF Pro 2 (PRIDE)",
+      "sample_ids": [
+        "S0002"
+      ]
+    },
+    {
+      "assay_id": "A0003",
+      "assay_type": "Label-free nanoLC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD064533 (project)",
+      "method": "EV protein extraction using Perfect-FOCUS, reduction/alkylation and tryptic digestion, followed by nanoLC-MS/MS with DDA-PASEF and label-free quantification. Native acquisition file: Sed3_Slot2-9_1_1403.d.zip.",
+      "platform": "nanoElute LC; Bruker timsTOF Pro (article) / timsTOF Pro 2 (PRIDE)",
+      "sample_ids": [
+        "S0003"
+      ]
+    },
+    {
+      "assay_id": "A0004",
+      "assay_type": "Label-free nanoLC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD064533 (project)",
+      "method": "EV protein extraction using Perfect-FOCUS, reduction/alkylation and tryptic digestion, followed by nanoLC-MS/MS with DDA-PASEF and label-free quantification. Native acquisition file: Sed4_Slot2-11_1_1407.d.zip.",
+      "platform": "nanoElute LC; Bruker timsTOF Pro (article) / timsTOF Pro 2 (PRIDE)",
+      "sample_ids": [
+        "S0004"
+      ]
+    },
+    {
+      "assay_id": "A0005",
+      "assay_type": "Label-free nanoLC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD064533 (project)",
+      "method": "EV protein extraction using Perfect-FOCUS, reduction/alkylation and tryptic digestion, followed by nanoLC-MS/MS with DDA-PASEF and label-free quantification. Native acquisition file: Sed5_Slot2-13_1_1411.d.zip.",
+      "platform": "nanoElute LC; Bruker timsTOF Pro (article) / timsTOF Pro 2 (PRIDE)",
+      "sample_ids": [
+        "S0005"
+      ]
+    },
+    {
+      "assay_id": "A0006",
+      "assay_type": "Label-free nanoLC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD064533 (project)",
+      "method": "EV protein extraction using Perfect-FOCUS, reduction/alkylation and tryptic digestion, followed by nanoLC-MS/MS with DDA-PASEF and label-free quantification. Native acquisition file: Ex1_Slot2-6_1_1395.d.zip.",
+      "platform": "nanoElute LC; Bruker timsTOF Pro (article) / timsTOF Pro 2 (PRIDE)",
+      "sample_ids": [
+        "S0006"
+      ]
+    },
+    {
+      "assay_id": "A0007",
+      "assay_type": "Label-free nanoLC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD064533 (project)",
+      "method": "EV protein extraction using Perfect-FOCUS, reduction/alkylation and tryptic digestion, followed by nanoLC-MS/MS with DDA-PASEF and label-free quantification. Native acquisition file: Ex2_Slot2-8_1_1401.d.zip.",
+      "platform": "nanoElute LC; Bruker timsTOF Pro (article) / timsTOF Pro 2 (PRIDE)",
+      "sample_ids": [
+        "S0007"
+      ]
+    },
+    {
+      "assay_id": "A0008",
+      "assay_type": "Label-free nanoLC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD064533 (project)",
+      "method": "EV protein extraction using Perfect-FOCUS, reduction/alkylation and tryptic digestion, followed by nanoLC-MS/MS with DDA-PASEF and label-free quantification. Native acquisition file: Ex3_Slot2-10_1_1405.d.zip.",
+      "platform": "nanoElute LC; Bruker timsTOF Pro (article) / timsTOF Pro 2 (PRIDE)",
+      "sample_ids": [
+        "S0008"
+      ]
+    },
+    {
+      "assay_id": "A0009",
+      "assay_type": "Label-free nanoLC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD064533 (project)",
+      "method": "EV protein extraction using Perfect-FOCUS, reduction/alkylation and tryptic digestion, followed by nanoLC-MS/MS with DDA-PASEF and label-free quantification. Native acquisition file: Ex4_Slot2-12_1_1409.d.zip.",
+      "platform": "nanoElute LC; Bruker timsTOF Pro (article) / timsTOF Pro 2 (PRIDE)",
+      "sample_ids": [
+        "S0009"
+      ]
+    }
+  ],
+  "condition": [
+    {
+      "condition_id": "C0001",
+      "condition_target": "Source donor mice",
+      "experimental_factor": "Locked-wheel sedentary regimen duration",
+      "factor_unit": "day",
+      "factor_value": 28,
+      "sample_id": "S0001",
+      "time": "Before terminal plasma collection at the end of the regimen"
+    },
+    {
+      "condition_id": "C0002",
+      "condition_target": "Source donor mice",
+      "experimental_factor": "Locked-wheel sedentary regimen duration",
+      "factor_unit": "day",
+      "factor_value": 28,
+      "sample_id": "S0002",
+      "time": "Before terminal plasma collection at the end of the regimen"
+    },
+    {
+      "condition_id": "C0003",
+      "condition_target": "Source donor mice",
+      "experimental_factor": "Locked-wheel sedentary regimen duration",
+      "factor_unit": "day",
+      "factor_value": 28,
+      "sample_id": "S0003",
+      "time": "Before terminal plasma collection at the end of the regimen"
+    },
+    {
+      "condition_id": "C0004",
+      "condition_target": "Source donor mice",
+      "experimental_factor": "Locked-wheel sedentary regimen duration",
+      "factor_unit": "day",
+      "factor_value": 28,
+      "sample_id": "S0004",
+      "time": "Before terminal plasma collection at the end of the regimen"
+    },
+    {
+      "condition_id": "C0005",
+      "condition_target": "Source donor mice",
+      "experimental_factor": "Locked-wheel sedentary regimen duration",
+      "factor_unit": "day",
+      "factor_value": 28,
+      "sample_id": "S0005",
+      "time": "Before terminal plasma collection at the end of the regimen"
+    },
+    {
+      "condition_id": "C0006",
+      "condition_target": "Source donor mice",
+      "experimental_factor": "Voluntary wheel-running duration",
+      "factor_unit": "day",
+      "factor_value": 28,
+      "sample_id": "S0006",
+      "time": "Before plasma collection immediately after the final running bout"
+    },
+    {
+      "condition_id": "C0007",
+      "condition_target": "Source donor mice",
+      "experimental_factor": "Voluntary wheel-running duration",
+      "factor_unit": "day",
+      "factor_value": 28,
+      "sample_id": "S0007",
+      "time": "Before plasma collection immediately after the final running bout"
+    },
+    {
+      "condition_id": "C0008",
+      "condition_target": "Source donor mice",
+      "experimental_factor": "Voluntary wheel-running duration",
+      "factor_unit": "day",
+      "factor_value": 28,
+      "sample_id": "S0008",
+      "time": "Before plasma collection immediately after the final running bout"
+    },
+    {
+      "condition_id": "C0009",
+      "condition_target": "Source donor mice",
+      "experimental_factor": "Voluntary wheel-running duration",
+      "factor_unit": "day",
+      "factor_value": 28,
+      "sample_id": "S0009",
+      "time": "Before plasma collection immediately after the final running bout"
+    }
+  ],
+  "sample": [
+    {
+      "biological_model": "Sedentary wild-type mouse control",
+      "biological_source": "Blood plasma from wild-type male C57BL/6J mice; reported age: 4 months.",
+      "sample_accession": null,
+      "sample_id": "S0001",
+      "sample_material": "Tryptic peptide digest of proteins extracted from plasma-derived EVs isolated by size-exclusion chromatography and 30-kDa ultrafiltration. Physical pooling is not specified for this proteomics preparation.",
+      "sample_name": "Sed1",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Sedentary wild-type mouse control",
+      "biological_source": "Blood plasma from wild-type male C57BL/6J mice; reported age: 4 months.",
+      "sample_accession": null,
+      "sample_id": "S0002",
+      "sample_material": "Tryptic peptide digest of proteins extracted from plasma-derived EVs isolated by size-exclusion chromatography and 30-kDa ultrafiltration. Physical pooling is not specified for this proteomics preparation.",
+      "sample_name": "Sed2",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Sedentary wild-type mouse control",
+      "biological_source": "Blood plasma from wild-type male C57BL/6J mice; reported age: 4 months.",
+      "sample_accession": null,
+      "sample_id": "S0003",
+      "sample_material": "Tryptic peptide digest of proteins extracted from plasma-derived EVs isolated by size-exclusion chromatography and 30-kDa ultrafiltration. Physical pooling is not specified for this proteomics preparation.",
+      "sample_name": "Sed3",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Sedentary wild-type mouse control",
+      "biological_source": "Blood plasma from wild-type male C57BL/6J mice; reported age: 4 months.",
+      "sample_accession": null,
+      "sample_id": "S0004",
+      "sample_material": "Tryptic peptide digest of proteins extracted from plasma-derived EVs isolated by size-exclusion chromatography and 30-kDa ultrafiltration. Physical pooling is not specified for this proteomics preparation.",
+      "sample_name": "Sed4",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Sedentary wild-type mouse control",
+      "biological_source": "Blood plasma from wild-type male C57BL/6J mice; reported age: 4 months.",
+      "sample_accession": null,
+      "sample_id": "S0005",
+      "sample_material": "Tryptic peptide digest of proteins extracted from plasma-derived EVs isolated by size-exclusion chromatography and 30-kDa ultrafiltration. Physical pooling is not specified for this proteomics preparation.",
+      "sample_name": "Sed5",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Voluntary wheel-running exercise mouse model",
+      "biological_source": "Blood plasma from wild-type male C57BL/6J mice; reported age: 4 months.",
+      "sample_accession": null,
+      "sample_id": "S0006",
+      "sample_material": "Tryptic peptide digest of proteins extracted from plasma-derived EVs isolated by size-exclusion chromatography and 30-kDa ultrafiltration. Plasma was collected immediately after the final bout of 28 days of voluntary wheel running. Physical pooling is not specified for this proteomics preparation.",
+      "sample_name": "Ex1",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Voluntary wheel-running exercise mouse model",
+      "biological_source": "Blood plasma from wild-type male C57BL/6J mice; reported age: 4 months.",
+      "sample_accession": null,
+      "sample_id": "S0007",
+      "sample_material": "Tryptic peptide digest of proteins extracted from plasma-derived EVs isolated by size-exclusion chromatography and 30-kDa ultrafiltration. Plasma was collected immediately after the final bout of 28 days of voluntary wheel running. Physical pooling is not specified for this proteomics preparation.",
+      "sample_name": "Ex2",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Voluntary wheel-running exercise mouse model",
+      "biological_source": "Blood plasma from wild-type male C57BL/6J mice; reported age: 4 months.",
+      "sample_accession": null,
+      "sample_id": "S0008",
+      "sample_material": "Tryptic peptide digest of proteins extracted from plasma-derived EVs isolated by size-exclusion chromatography and 30-kDa ultrafiltration. Plasma was collected immediately after the final bout of 28 days of voluntary wheel running. Physical pooling is not specified for this proteomics preparation.",
+      "sample_name": "Ex3",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Voluntary wheel-running exercise mouse model",
+      "biological_source": "Blood plasma from wild-type male C57BL/6J mice; reported age: 4 months.",
+      "sample_accession": null,
+      "sample_id": "S0009",
+      "sample_material": "Tryptic peptide digest of proteins extracted from plasma-derived EVs isolated by size-exclusion chromatography and 30-kDa ultrafiltration. Plasma was collected immediately after the final bout of 28 days of voluntary wheel running. Physical pooling is not specified for this proteomics preparation.",
+      "sample_name": "Ex4",
+      "species": "Mus musculus"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "B019",
+    "domain": "basic",
+    "title": "The long non-coding RNA landscape of endurance exercise training",
+    "doi": "10.1016/j.molmet.2026.102358",
+    "pipeline": "basic-research",
+    "pmid": "42019922",
+    "pmcid": "PMC13158426",
+    "registry": "GSE242358"
+  },
+  "files": [
+    {
+      "path": "records/GEO-GSE242358-project.txt",
+      "sha256": "071de06d9c0cc51b805eb734f18deee6caa896b9c13902bb2a9862e4f6eb0335",
+      "bytes": 59361,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE242358&targ=self&form=text&view=brief"
+      ],
+      "association": "GEO accession explicitly reported in this article; metadata only",
+      "original_filename": "GEO-GSE242358-project.txt"
+    },
+    {
+      "path": "records/GEO-GSE242358-samples.txt",
+      "sha256": "ebdd52b79619bf9f3cda8e73f281c5df2cb482d935d8d8f6e08204a2b0fba391",
+      "bytes": 62634,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE242358&targ=gsm&form=text&view=brief"
+      ],
+      "association": "GEO accession explicitly reported in this article; metadata only",
+      "original_filename": "GEO-GSE242358-samples.txt",
+      "derived_from": "60cc8b522fe21786e7207f3035669616aa2f8175e63a79ed38803ea0792b3628",
+      "original_sha256": "60cc8b522fe21786e7207f3035669616aa2f8175e63a79ed38803ea0792b3628",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "complete_GEO_record_selection"
+    },
+    {
+      "path": "sources/article.xml",
+      "sha256": "dc7788568ae5d69ea76716d806c83b4fdf5c75116c75a5e3ac8da1198506275d",
+      "bytes": 209420,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13158426/fullTextXML"
+      ],
+      "association": "official full text for exact PMCID"
+    },
+    {
+      "path": "figures/ga1.jpg",
+      "sha256": "4b5c56b337148fa9b995fef07d262c9d7a0a6acb9582e06cc6750ea67657ac15",
+      "bytes": 383543,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13158426/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package"
+    },
+    {
+      "path": "figures/gr1.jpg",
+      "sha256": "4df43b88c24fb9812574d74f40e014cb999eab2e96a90846d006b70b555ca8b0",
+      "bytes": 454041,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13158426/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package"
+    },
+    {
+      "path": "figures/gr2.jpg",
+      "sha256": "d4ebde1b7f6ebd0c5820730fc321465dd23d31c062e9b8a6021aeb38bd4c61f1",
+      "bytes": 508484,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13158426/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package"
+    },
+    {
+      "path": "figures/gr3.jpg",
+      "sha256": "e61ad055cd741dca5dc498879c3c35a20d4c574f749fb032ca1eda7d8b46f4ce",
+      "bytes": 538577,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13158426/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package"
+    },
+    {
+      "path": "figures/gr4.jpg",
+      "sha256": "b17d8eed22fbb5f38a90b41592447dbf4f89162848823ab4766f7f969c3107ec",
+      "bytes": 516198,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13158426/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package"
+    },
+    {
+      "path": "figures/gr5.jpg",
+      "sha256": "7045e504c5f5979f94888fd5dd702a760506a11d4dd92736a4964a3fa2cc3db5",
+      "bytes": 760792,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13158426/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

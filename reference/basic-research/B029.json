@@ -1,0 +1,91 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "eMyHC immunofluorescence imaging",
+      "experiment_run_accession": "Figshare:10.6084/m9.figshare.29153381.v1 (dataset)",
+      "method": "Study-level comparison aggregate; this row represents the selected preparation groups rather than an individually identified acquisition. eMyHC immunofluorescence imaging of differentiating C2C12 cells after PTBP1 siRNA or scrambled-control transfection (Figure 4h), with evaluation of multinucleated myotube formation. Multiple sample IDs preserve group associations and do not establish physical pooling.",
+      "platform": "Olympus FV3000 confocal microscope",
+      "sample_ids": [
+        "S0001",
+        "S0002"
+      ]
+    }
+  ],
+  "condition": [
+    {
+      "condition_id": "C0001",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Horse serum concentration in differentiation medium",
+      "factor_unit": "%",
+      "factor_value": 2,
+      "sample_id": "S0001",
+      "time": "From differentiation-medium switch until collection"
+    },
+    {
+      "condition_id": "C0002",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Interval from transfection to differentiation-medium switch",
+      "factor_unit": "h",
+      "factor_value": 8,
+      "sample_id": "S0001",
+      "time": "After transfection initiation"
+    },
+    {
+      "condition_id": "C0003",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Interval from transfection to collection",
+      "factor_unit": "h",
+      "factor_value": 96,
+      "sample_id": "S0001",
+      "time": "After transfection initiation"
+    },
+    {
+      "condition_id": "C0004",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Horse serum concentration in differentiation medium",
+      "factor_unit": "%",
+      "factor_value": 2,
+      "sample_id": "S0002",
+      "time": "From differentiation-medium switch until collection"
+    },
+    {
+      "condition_id": "C0005",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Interval from transfection to differentiation-medium switch",
+      "factor_unit": "h",
+      "factor_value": 8,
+      "sample_id": "S0002",
+      "time": "After transfection initiation"
+    },
+    {
+      "condition_id": "C0006",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Interval from transfection to collection",
+      "factor_unit": "h",
+      "factor_value": 96,
+      "sample_id": "S0002",
+      "time": "After transfection initiation"
+    }
+  ],
+  "sample": [
+    {
+      "biological_model": "PTBP1-knockdown C2C12 myogenic differentiation model",
+      "biological_source": "C2C12 (ATCC CRL-1772)",
+      "sample_accession": null,
+      "sample_id": "S0001",
+      "sample_material": "Fixed differentiating C2C12 cells transfected with PTBP1-targeting siRNA and cultured in DMEM containing 2% horse serum for myotube immunofluorescence analysis.",
+      "sample_name": "C2C12 PTBP1-KD",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Negative-control C2C12 myogenic differentiation model",
+      "biological_source": "C2C12 (ATCC CRL-1772)",
+      "sample_accession": null,
+      "sample_id": "S0002",
+      "sample_material": "Fixed differentiating C2C12 cells transfected with scrambled control siRNA and cultured in DMEM containing 2% horse serum for myotube immunofluorescence analysis.",
+      "sample_name": "C2C12 NC",
+      "species": "Mus musculus"
+    }
+  ]
+}

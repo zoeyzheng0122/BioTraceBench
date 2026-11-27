@@ -1,0 +1,225 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "C015",
+    "domain": "clinical",
+    "title": "Semaglutide Effects on Insulin Sensitivity and β-Cell Function in Patients With Schizophrenia, Prediabetes, and Obesity Treated With Second-Generation Antipsychotics: Findings From the HISTORI Trial, a 30-Week Randomized, Placebo-Controlled Trial With Semaglutide 1.0 mg Weekly",
+    "doi": "10.2337/dc25-2041",
+    "pipeline": "clinical-trials",
+    "pmid": "41778920",
+    "pmcid": "PMC13094869",
+    "registry": "NCT05193578"
+  },
+  "files": [
+    {
+      "path": "sources/article.xml",
+      "sha256": "c7bd4908b91f461b943c58816e907dec3cf0505dda28849fc0f2d3423c220e39",
+      "bytes": 102136,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13094869/fullTextXML"
+      ],
+      "association": "exact public PMCID candidate"
+    },
+    {
+      "path": "records/ClinicalTrials-NCT05193578.json",
+      "sha256": "38e75d5003c4636aaf4910aae8b59f4edcda9f4dc0e3dbcd37adc8d704c8e9c3",
+      "bytes": 30409,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://clinicaltrials.gov/api/v2/studies/NCT05193578"
+      ],
+      "association": "exact study registration explicitly identified in paper; public protocol metadata",
+      "original_filename": "registry.json",
+      "retrieved_at": "2026-10-18T02:01:12+08:00",
+      "derived_from": "8a06fe41b2f02db1062787b0216213607850ac5fcc69005456ab3f349288b68c",
+      "original_sha256": "8a06fe41b2f02db1062787b0216213607850ac5fcc69005456ab3f349288b68c",
+      "representation": "refine-lexical-json-1",
+      "provenance_transform": "exact_json_whitespace_compaction"
+    },
+    {
+      "path": "figures/captions.txt",
+      "sha256": "99072c0618434e8b1de82f7aba78bfef7b869bdf581dc7ee81130e419a03bb92",
+      "bytes": 2325,
+      "role": "figure_captions",
+      "roles": [
+        "figure_captions"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13094869/"
+      ],
+      "derived_from": "8ad7641d82677d072d89cc5399e1e0e832a4b35d7b6d23429cf94c72fbdf0f6d"
+    },
+    {
+      "path": "figures/dc252041f1.jpg",
+      "sha256": "89e57195d266e34ab506f2ad8af71472cf7589c507f97236a5969b5644793752",
+      "bytes": 51514,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13094869.1/dc252041f1.jpg?md5=047113b746f5b2b7eccce5e80421d794"
+      ],
+      "association": "exact JATS F1 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/dc252041f2.jpg",
+      "sha256": "d5074d2691150192ea45fc059cf44a0a4ac679cb93fe0514ed9785d81e70f9ff",
+      "bytes": 62180,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13094869.1/dc252041f2.jpg?md5=a711bce8532ef3ebcf9aeed10a2bbf57"
+      ],
+      "association": "exact JATS F2 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/dc252041fGA.jpg",
+      "sha256": "a04fb05d2c3bed80af7a455807e6187c25ac02007336d136eb23e430c3e6caf6",
+      "bytes": 116984,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13094869.1/dc252041fGA.jpg?md5=656b373f542f6d0889a2e7f4d8dba9ba"
+      ],
+      "association": "exact JATS FGA in verified PMC version; article source only"
+    },
+    {
+      "path": "supplements/Supplementary_-_Diabetes_Care_21.08.25__refine/page-0001-region-01-tile-1-1.png",
+      "sha256": "c6bf3961afda8a0f2554c28e9ffc248011a2d2f5a4840e4fda14de2780f5a45f",
+      "bytes": 190277,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13094869.1/dc252041_supp.zip?md5=c89c48a71f7d8b6181b3b10a148fea45"
+      ],
+      "association": "verified member of individually reviewed exact article ZIP",
+      "derived_from": "d3fdf0043a05359ef9f8e7f82744930c886bd625d66f7b4fee5da43843c068c0",
+      "original_sha256": "d3fdf0043a05359ef9f8e7f82744930c886bd625d66f7b4fee5da43843c068c0",
+      "original_filename": "Supplementary_-_Diabetes_Care_21.08.25.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/Supplementary_-_Diabetes_Care_21.08.25__refine/page-0001-region-01-tile-2-1.png",
+      "sha256": "e4fad3fa87917504ba2f4c18afb86c1ffe5c56cb6e25e7d614e3aca726ed48f2",
+      "bytes": 508,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13094869.1/dc252041_supp.zip?md5=c89c48a71f7d8b6181b3b10a148fea45"
+      ],
+      "association": "verified member of individually reviewed exact article ZIP",
+      "derived_from": "d3fdf0043a05359ef9f8e7f82744930c886bd625d66f7b4fee5da43843c068c0",
+      "original_sha256": "d3fdf0043a05359ef9f8e7f82744930c886bd625d66f7b4fee5da43843c068c0",
+      "original_filename": "Supplementary_-_Diabetes_Care_21.08.25.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_grayscale"
+    },
+    {
+      "path": "supplements/Supplementary_-_Diabetes_Care_21.08.25__refine/page-0002-region-01.png",
+      "sha256": "7fc75092b228668fc433f31468974f37c37c0e247f2d731dd1d1837f68e896ea",
+      "bytes": 125144,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13094869.1/dc252041_supp.zip?md5=c89c48a71f7d8b6181b3b10a148fea45"
+      ],
+      "association": "verified member of individually reviewed exact article ZIP",
+      "derived_from": "d3fdf0043a05359ef9f8e7f82744930c886bd625d66f7b4fee5da43843c068c0",
+      "original_sha256": "d3fdf0043a05359ef9f8e7f82744930c886bd625d66f7b4fee5da43843c068c0",
+      "original_filename": "Supplementary_-_Diabetes_Care_21.08.25.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/Supplementary_-_Diabetes_Care_21.08.25__refine/page-0003-region-01.png",
+      "sha256": "891c40b70d8360f2aae464448921a76b120ed27ad5112eada410be702254e91b",
+      "bytes": 14982,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13094869.1/dc252041_supp.zip?md5=c89c48a71f7d8b6181b3b10a148fea45"
+      ],
+      "association": "verified member of individually reviewed exact article ZIP",
+      "derived_from": "d3fdf0043a05359ef9f8e7f82744930c886bd625d66f7b4fee5da43843c068c0",
+      "original_sha256": "d3fdf0043a05359ef9f8e7f82744930c886bd625d66f7b4fee5da43843c068c0",
+      "original_filename": "Supplementary_-_Diabetes_Care_21.08.25.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_palette"
+    },
+    {
+      "path": "supplements/Supplementary_-_Diabetes_Care_21.08.25__refine/page-0004-region-01.png",
+      "sha256": "a4b42bd2f84d5b4c08beeef7ef36533c7a10175c4bfe7967e42d42fe54c2cea2",
+      "bytes": 129432,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13094869.1/dc252041_supp.zip?md5=c89c48a71f7d8b6181b3b10a148fea45"
+      ],
+      "association": "verified member of individually reviewed exact article ZIP",
+      "derived_from": "d3fdf0043a05359ef9f8e7f82744930c886bd625d66f7b4fee5da43843c068c0",
+      "original_sha256": "d3fdf0043a05359ef9f8e7f82744930c886bd625d66f7b4fee5da43843c068c0",
+      "original_filename": "Supplementary_-_Diabetes_Care_21.08.25.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/Supplementary_-_Diabetes_Care_21.08.25__refine/content.md",
+      "sha256": "7e1736f51569ab86a4e7823f14df5d8d2ae5ba41751cda66beb01dc07bd17793",
+      "bytes": 5588,
+      "role": "supplement",
+      "roles": [
+        "supplement"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13094869.1/dc252041_supp.zip?md5=c89c48a71f7d8b6181b3b10a148fea45"
+      ],
+      "association": "verified member of individually reviewed exact article ZIP",
+      "derived_from": "d3fdf0043a05359ef9f8e7f82744930c886bd625d66f7b4fee5da43843c068c0",
+      "original_sha256": "d3fdf0043a05359ef9f8e7f82744930c886bd625d66f7b4fee5da43843c068c0",
+      "original_filename": "Supplementary_-_Diabetes_Care_21.08.25.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "pdf_text_visual"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

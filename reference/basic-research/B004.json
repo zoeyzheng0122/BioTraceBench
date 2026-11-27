@@ -1,0 +1,73 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "Bulk RNA seq",
+      "experiment_run_accession": "Zenodo:10.5281/zenodo.17579631 (dataset)",
+      "method": "Study-level comparison aggregate; this row represents the selected preparation groups rather than an individually identified acquisition. C2C12 differentiation RNA-seq contrast with a source-defined reference preparation; the treated arm received 10 ng/ml rADAMTS-1 and differentiated for 3 days, while precise reference handling is not separately reported; Bulk RNA-seq of C2C12 cells treated with 10 ng/ml rADAMTS-1 and differentiated for 3 days; total RNA was isolated, cDNA libraries were prepared, and indexed libraries were paired-end (2×100 bp) sequenced on the Illumina NovaSeq platform by Macrogen. The source reports a Con comparison but does not distinguish individual libraries or physical pooling. Multiple sample IDs preserve group associations and do not establish physical pooling.",
+      "platform": "Illumina NovaSeq",
+      "sample_ids": [
+        "S0001",
+        "S0002"
+      ]
+    }
+  ],
+  "condition": [
+    {
+      "condition_id": "C0001",
+      "condition_target": "Whole sample",
+      "experimental_factor": "rADAMTS-1 treatment",
+      "factor_unit": "ng/ml",
+      "factor_value": 10,
+      "sample_id": "S0001",
+      "time": "During the 3-day differentiation period"
+    },
+    {
+      "condition_id": "C0006",
+      "condition_target": "Whole sample",
+      "experimental_factor": "differentiation duration",
+      "factor_unit": "days",
+      "factor_value": 3,
+      "sample_id": "S0001",
+      "time": "3 days after differentiation start"
+    },
+    {
+      "condition_id": "C0007",
+      "condition_target": "Whole sample",
+      "experimental_factor": "differentiation duration",
+      "factor_unit": "days",
+      "factor_value": 3,
+      "sample_id": "S0002",
+      "time": "3 days after differentiation start"
+    },
+    {
+      "condition_id": "C0011",
+      "condition_target": "Whole sample",
+      "experimental_factor": "rADAMTS-1 treatment",
+      "factor_unit": "ng/ml",
+      "factor_value": 0,
+      "sample_id": "S0002",
+      "time": "During the 3-day differentiation period"
+    }
+  ],
+  "sample": [
+    {
+      "biological_model": "C2C12 mouse myoblast cell line",
+      "biological_source": "C2C12 (ATCC CRL-1772)",
+      "sample_accession": null,
+      "sample_id": "S0001",
+      "sample_material": "C2C12 myoblast material treated with 10 ng/ml rADAMTS-1 and differentiated for 3 days for bulk RNA-seq.",
+      "sample_name": "C2C12 rADAMTS-1",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "C2C12 mouse myoblast cell line",
+      "biological_source": "C2C12 (ATCC CRL-1772)",
+      "sample_accession": null,
+      "sample_id": "S0002",
+      "sample_material": "Source-defined control/reference C2C12 differentiation preparation in the selected three-day/72-hour RNA-seq comparison. Exact control or vehicle handling and a separately reported numerical rADAMTS-1 control dose are unavailable. Individual replicate, library and physical-pool identities are not established.",
+      "sample_name": "C2C12 control",
+      "species": "Mus musculus"
+    }
+  ]
+}

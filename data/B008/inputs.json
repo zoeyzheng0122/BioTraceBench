@@ -1,0 +1,233 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "B008",
+    "domain": "basic",
+    "title": "Activation of TP53 target genes in the primary response of triple-negative breast cancer cells to doxorubicin treatment",
+    "doi": "10.1038/s41598-025-31087-x",
+    "pipeline": "basic-research",
+    "pmid": "41345520",
+    "pmcid": "PMC12796491",
+    "registry": "GSE174692"
+  },
+  "files": [
+    {
+      "path": "records/GSE174692-project.txt",
+      "sha256": "811df11c3b7c39921b50d7c38d0717a015efb54d947a3402f1b372ca299f8b9d",
+      "bytes": 3332,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE174692&targ=self&form=text&view=brief"
+      ],
+      "association": "public data accession explicitly reported in this article; module eligibility not yet asserted",
+      "original_filename": "GSE174692-project.txt"
+    },
+    {
+      "path": "records/GSE174692-samples.txt",
+      "sha256": "4aa8688d474346486f604f1a0ff6cc257fbd70ba232aae98c9eeab5978cff461",
+      "bytes": 29896,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE174692&targ=gsm&form=text&view=brief"
+      ],
+      "association": "public data accession explicitly reported in this article; module eligibility not yet asserted",
+      "original_filename": "GSE174692-samples.txt"
+    },
+    {
+      "path": "sources/article.xml",
+      "sha256": "b3850145826edb8e1901494ef9b9ea0b6c63ae3dece2ac9e212a32dc0f5c1721",
+      "bytes": 216352,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12796491.1/PMC12796491.1.xml?md5=10e558c60dae983e65336923eac09247"
+      ],
+      "association": "official published article XML for exact DOI"
+    },
+    {
+      "path": "figures/41598_2025_31087_Fig1_HTML.jpg",
+      "sha256": "70e93bb8b18a164ca3f9786e9b9df750d8b34a7e1509bef49ff6721427c04993",
+      "bytes": 95304,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12796491.1/41598_2025_31087_Fig1_HTML.jpg?md5=01743edf3e067b1b41aad1c2b678c82b"
+      ],
+      "association": "exact JATS Fig1 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41598_2025_31087_Fig2_HTML.jpg",
+      "sha256": "ad119ca0e687eafe4e490fe9982173d559db8584e583b80013f4a8e0ba3e83c6",
+      "bytes": 108482,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12796491.1/41598_2025_31087_Fig2_HTML.jpg?md5=1d8193940061a13647603a14f915e798"
+      ],
+      "association": "exact JATS Fig2 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41598_2025_31087_Fig3_HTML.jpg",
+      "sha256": "18b60509e534d2d1ba99f515db4a2c0162b39a84ad841a2981863a3024b0b000",
+      "bytes": 38765,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12796491.1/41598_2025_31087_Fig3_HTML.jpg?md5=fd1946068029d02020a9eb5b5f5c51a7"
+      ],
+      "association": "exact JATS Fig3 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41598_2025_31087_Fig4_HTML.jpg",
+      "sha256": "4ce202d41a660c699087ac112571a72c916da4f409685d5ea3cb9ffb842e0910",
+      "bytes": 126609,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12796491.1/41598_2025_31087_Fig4_HTML.jpg?md5=2555923729c0cb2311eb8b881c6d31f2"
+      ],
+      "association": "exact JATS Fig4 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41598_2025_31087_Fig5_HTML.jpg",
+      "sha256": "b646abc72512e56ad4e57e405f0a51ced2d492a5f07fab873f684ad982aaa947",
+      "bytes": 80448,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12796491.1/41598_2025_31087_Fig5_HTML.jpg?md5=69662e513b3c7d0286e99833a5076829"
+      ],
+      "association": "exact JATS Fig5 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41598_2025_31087_Fig6_HTML.jpg",
+      "sha256": "ed84a3c7e806731f78354c9ab60bbf21db99070b7d374144ce3b9e370096890c",
+      "bytes": 88423,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12796491.1/41598_2025_31087_Fig6_HTML.jpg?md5=7008b47e3c73e90498c4a732d8268196"
+      ],
+      "association": "exact JATS Fig6 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41598_2025_31087_Fig7_HTML.jpg",
+      "sha256": "9804278f66da5ec62554ba8318961d8a01c91c831c1b15ff14630038115a14bc",
+      "bytes": 78069,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12796491.1/41598_2025_31087_Fig7_HTML.jpg?md5=caa4b18fda151341dacbd9b06292fc53"
+      ],
+      "association": "exact JATS Fig7 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41598_2025_31087_Fig8_HTML.jpg",
+      "sha256": "b230c9558d79ae7e3bfe93982f7d692ea0069443e7432f177df17c223a611778",
+      "bytes": 103976,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12796491.1/41598_2025_31087_Fig8_HTML.jpg?md5=43dd7fdc257cf7f7018f330a9f1e90b0"
+      ],
+      "association": "exact JATS Fig8 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41598_2025_31087_Fig9_HTML.jpg",
+      "sha256": "4d77a3a118b8e1e704781cfd596b83f15ee3ad02c26e88de63eb38f2d95d4dd5",
+      "bytes": 81416,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12796491.1/41598_2025_31087_Fig9_HTML.jpg?md5=b338951f7234cc09841eed629ed0f17f"
+      ],
+      "association": "exact JATS Fig9 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/captions.txt",
+      "sha256": "6e32b4c3230091d81fa8506ed8a1e32381d45845ab6a8969ce4754e42dd91994",
+      "bytes": 5500,
+      "role": "figure_captions",
+      "roles": [
+        "figure_captions"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12796491/"
+      ],
+      "derived_from": "119358ffa4428ba5347731c26da5686a31190fbe913d56dd1df9269d6283f72b"
+    },
+    {
+      "path": "records/GSE202536-project.txt",
+      "sha256": "63b78619fe8459959b06f24060759e684e0dff17fa4c1bab9bb711030b64d3b1",
+      "bytes": 2561,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE202536&targ=self&form=text&view=brief"
+      ],
+      "association": "public data accession explicitly reported in this article; module eligibility not yet asserted",
+      "original_filename": "GSE202536-project.txt"
+    },
+    {
+      "path": "records/GSE202536-samples.txt",
+      "sha256": "1289bbe054826c06a1dacbf4d45b5b61da0ce9c469bae030891343feaa6e7662",
+      "bytes": 40023,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE202536&targ=gsm&form=text&view=brief"
+      ],
+      "association": "public data accession explicitly reported in this article; module eligibility not yet asserted",
+      "original_filename": "GSE202536-samples.txt"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

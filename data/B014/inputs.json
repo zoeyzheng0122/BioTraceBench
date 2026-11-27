@@ -1,0 +1,208 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "B014",
+    "domain": "basic",
+    "title": "Temporal multiomics gene expression data across human embryonic stem cell-derived polyhormonal cell differentiation",
+    "doi": "10.1038/s41597-026-06606-8",
+    "pipeline": "basic-research",
+    "pmid": "41545424",
+    "pmcid": "PMC12920657",
+    "registry": "GSE305933"
+  },
+  "files": [
+    {
+      "path": "records/GEO-GSE305933-browser.txt",
+      "sha256": "5f0d716f0e8da3059b35eba9f8ea395a5167bd0bda4e78998ea49c99db71ae5a",
+      "bytes": 4730,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE305933&view=brief"
+      ],
+      "derived_from": "1787138734dccd1faa0fd3f8d3d98d46cd78b94d7e6a00cccb588b5a8d1004ba",
+      "representation": "readable_repository_page",
+      "association": "exact RNA-seq accession, article PMID and endoderm/polyhormonal module match",
+      "original_filename": "GEO-GSE305933-browser.txt",
+      "retrieved_at": "2026-10-18T01:18:08+08:00"
+    },
+    {
+      "path": "sources/article.xml",
+      "sha256": "34429ee98447fcbb6ae530394cc3573537ed1ffd31bfd9b1ce35fb33bfb6b157",
+      "bytes": 86781,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12920657.1/PMC12920657.1.xml?md5=9923b37bb6c8c3e31afbca3ea16cd765"
+      ],
+      "association": "official published article XML for exact DOI"
+    },
+    {
+      "path": "figures/41597_2026_6606_Fig1_HTML.jpg",
+      "sha256": "e415868a2e67f311b33e2c089a149deb5da929e06ff0aee2ab11314c49ac6024",
+      "bytes": 95359,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12920657.1/41597_2026_6606_Fig1_HTML.jpg?md5=13cd1ba8f6b272061071aed476cec306"
+      ],
+      "association": "exact JATS Fig1 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41597_2026_6606_Fig2_HTML.jpg",
+      "sha256": "d86a61bb20956b6a47473eeddc8c68a784ae99f9b7a31ae868d33f5e7ca96cb3",
+      "bytes": 99487,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12920657.1/41597_2026_6606_Fig2_HTML.jpg?md5=27fd7775f1aadff69d1f57af21861211"
+      ],
+      "association": "exact JATS Fig2 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41597_2026_6606_Fig3_HTML.jpg",
+      "sha256": "bf7c793c22d78aacb5b2b4bf2b8da00320b6e82eba91d3b70e6f2669b3e2e39d",
+      "bytes": 165188,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12920657.1/41597_2026_6606_Fig3_HTML.jpg?md5=9d94c9631ada459b5ebee74382d938a1"
+      ],
+      "association": "exact JATS Fig3 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41597_2026_6606_Fig4_HTML.jpg",
+      "sha256": "9d2c8cb7566f93083bf5fcfd36234e6f14ca176f5d6ad75597d293e717ecde6e",
+      "bytes": 316025,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12920657.1/41597_2026_6606_Fig4_HTML.jpg?md5=5553a52ee2c22f31a100aa984cc6c032"
+      ],
+      "association": "exact JATS Fig4 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41597_2026_6606_Fig5_HTML.jpg",
+      "sha256": "0ef1770cf53e5ebb6bffc1c0d5737d3fc16f46070979f70d5092f16192950f21",
+      "bytes": 136015,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12920657.1/41597_2026_6606_Fig5_HTML.jpg?md5=933ea39d1ddb41eafb8edabc68aed89b"
+      ],
+      "association": "exact JATS Fig5 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41597_2026_6606_Fig6_HTML.jpg",
+      "sha256": "6ff66aad4e1e2413a2df88c3569df0a1ab4537d0425311d761e0791ccf6086a9",
+      "bytes": 98317,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12920657.1/41597_2026_6606_Fig6_HTML.jpg?md5=ed649a820102301a04652bcef2680b49"
+      ],
+      "association": "exact JATS Fig6 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41597_2026_6606_Fig7_HTML.jpg",
+      "sha256": "9e70cd4fd9d8e5ce824b0fa37f6b363bc7e5cb064015e6112c25ac960154533b",
+      "bytes": 165663,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12920657.1/41597_2026_6606_Fig7_HTML.jpg?md5=3372b86853500424407de508dabfddd9"
+      ],
+      "association": "exact JATS Fig7 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41597_2026_6606_Fig8_HTML.jpg",
+      "sha256": "0dc10815d0106e32082a68a4e52777f539d1a69dd6c0dd4d2987b2bb3ffecd90",
+      "bytes": 100030,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12920657.1/41597_2026_6606_Fig8_HTML.jpg?md5=8bfd11968ef0f4fbd01779b83f1729c3"
+      ],
+      "association": "exact JATS Fig8 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/captions.txt",
+      "sha256": "87ca9aab95f6b7884a45f9a3838c511f0bfc84f6440173825b4e4cc06684393f",
+      "bytes": 5879,
+      "role": "figure_captions",
+      "roles": [
+        "figure_captions"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12920657/"
+      ],
+      "derived_from": "d9f0a1b4ba8266a00a2796516771ee3e79eaf30ad5de155be91e50b00b5c5b5a"
+    },
+    {
+      "path": "records/GEO-GSE305934-record.txt",
+      "sha256": "d4d8b365ce5cf890f5921730158602a8b2f49a6b7b1beb2502123fd9e87b671a",
+      "bytes": 4658,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE305934&targ=self&form=text&view=brief"
+      ],
+      "association": "exact public accession in same article; save record text only; relation still subject to review",
+      "original_filename": "GEO-GSE305934-record.txt"
+    },
+    {
+      "path": "records/GEO-GSE305933-family.soft.txt",
+      "sha256": "7216d5334296e198bc5eb01a24b035f018ccd9cbd8f9bcf4e48eb39fd3aaeb97",
+      "bytes": 118224,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE305nnn/GSE305933/soft/GSE305933_family.soft.gz"
+      ],
+      "representation": "gzip-decompressed SOFT",
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "original_filename": "GEO-GSE305933-family.soft.txt"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

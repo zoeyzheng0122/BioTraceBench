@@ -1,0 +1,305 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "Stereo-seq spatial transcriptomics",
+      "experiment_run_accession": "SRA:SRX29012252 (experiment)",
+      "method": "Stereo-seq library Sample1 from chip SS200000171BL_D3. OCT-embedded, 10-μm heart cryosections were methanol-fixed at −20 °C for 40 min, followed by on-chip mRNA capture, reverse transcription, cDNA amplification and DNB sequencing. Reads were processed using SAW v5.1.4. Sequencer naming differs between the article and GEO sample metadata.",
+      "platform": "DNBSEQ-T7 (GEO); MGI DNBSEQ-Tx (article)",
+      "sample_ids": [
+        "S0006",
+        "S0007",
+        "S0008"
+      ]
+    },
+    {
+      "assay_id": "A0002",
+      "assay_type": "Stereo-seq spatial transcriptomics",
+      "experiment_run_accession": "SRA:SRX29012253 (experiment)",
+      "method": "Stereo-seq library Sample2 from chip SS200000171BL_E3. OCT-embedded, 10-μm heart cryosections were methanol-fixed at −20 °C for 40 min, followed by on-chip mRNA capture, reverse transcription, cDNA amplification and DNB sequencing. Reads were processed using SAW v5.1.4. Sequencer naming differs between the article and GEO sample metadata.",
+      "platform": "DNBSEQ-T7 (GEO); MGI DNBSEQ-Tx (article)",
+      "sample_ids": [
+        "S0009",
+        "S0010"
+      ]
+    },
+    {
+      "assay_id": "A0003",
+      "assay_type": "Stereo-seq spatial transcriptomics",
+      "experiment_run_accession": "SRA:SRX29012254 (experiment)",
+      "method": "Stereo-seq library Sample3 from chip SS200000171BL_E1. OCT-embedded, 10-μm heart cryosections were methanol-fixed at −20 °C for 40 min, followed by on-chip mRNA capture, reverse transcription, cDNA amplification and DNB sequencing. Reads were processed using SAW v5.1.4. Sequencer naming differs between the article and GEO sample metadata.",
+      "platform": "DNBSEQ-T7 (GEO); MGI DNBSEQ-Tx (article)",
+      "sample_ids": [
+        "S0011",
+        "S0012"
+      ]
+    },
+    {
+      "assay_id": "A0004",
+      "assay_type": "Stereo-seq spatial transcriptomics",
+      "experiment_run_accession": "SRA:SRX29012255 (experiment)",
+      "method": "Stereo-seq library Sample4 from chip FP200000337BR_B2. OCT-embedded, 10-μm heart cryosections were methanol-fixed at −20 °C for 40 min, followed by on-chip mRNA capture, reverse transcription, cDNA amplification and DNB sequencing. Reads were processed using SAW v5.1.4. Sequencer naming differs between the article and GEO sample metadata.",
+      "platform": "DNBSEQ-T7 (GEO); MGI DNBSEQ-Tx (article)",
+      "sample_ids": [
+        "S0004"
+      ]
+    },
+    {
+      "assay_id": "A0005",
+      "assay_type": "Stereo-seq spatial transcriptomics",
+      "experiment_run_accession": "SRA:SRX29012256 (experiment)",
+      "method": "Stereo-seq library Sample5 from chip FP200000337BR_B3. OCT-embedded, 10-μm heart cryosections were methanol-fixed at −20 °C for 40 min, followed by on-chip mRNA capture, reverse transcription, cDNA amplification and DNB sequencing. Reads were processed using SAW v5.1.4. Sequencer naming differs between the article and GEO sample metadata.",
+      "platform": "DNBSEQ-T7 (GEO); MGI DNBSEQ-Tx (article)",
+      "sample_ids": [
+        "S0005"
+      ]
+    }
+  ],
+  "condition": [
+    {
+      "condition_id": "C0007",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Postnatal age at tissue collection",
+      "factor_unit": "day",
+      "factor_value": 56,
+      "sample_id": "S0004",
+      "time": "56 days after birth"
+    },
+    {
+      "condition_id": "C0008",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Tissue permeabilization duration",
+      "factor_unit": "min",
+      "factor_value": 18,
+      "sample_id": "S0004",
+      "time": "During on-chip permeabilization before reverse transcription"
+    },
+    {
+      "condition_id": "C0009",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Postnatal age at tissue collection",
+      "factor_unit": "day",
+      "factor_value": 56,
+      "sample_id": "S0005",
+      "time": "56 days after birth"
+    },
+    {
+      "condition_id": "C0010",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Tissue permeabilization duration",
+      "factor_unit": "min",
+      "factor_value": 18,
+      "sample_id": "S0005",
+      "time": "During on-chip permeabilization before reverse transcription"
+    },
+    {
+      "condition_id": "C0011",
+      "condition_target": "Source mouse",
+      "experimental_factor": "Postnatal age at tissue collection",
+      "factor_unit": "day",
+      "factor_value": 0,
+      "sample_id": "S0006",
+      "time": "At birth, postnatal day 0"
+    },
+    {
+      "condition_id": "C0012",
+      "condition_target": "Heart cryosection",
+      "experimental_factor": "Tissue permeabilization duration",
+      "factor_unit": "min",
+      "factor_value": 6,
+      "sample_id": "S0006",
+      "time": "During on-chip permeabilization before reverse transcription"
+    },
+    {
+      "condition_id": "C0013",
+      "condition_target": "Source mouse",
+      "experimental_factor": "Postnatal age at tissue collection",
+      "factor_unit": "day",
+      "factor_value": 0,
+      "sample_id": "S0007",
+      "time": "At birth, postnatal day 0"
+    },
+    {
+      "condition_id": "C0014",
+      "condition_target": "Heart cryosection",
+      "experimental_factor": "Tissue permeabilization duration",
+      "factor_unit": "min",
+      "factor_value": 6,
+      "sample_id": "S0007",
+      "time": "During on-chip permeabilization before reverse transcription"
+    },
+    {
+      "condition_id": "C0015",
+      "condition_target": "Source mouse",
+      "experimental_factor": "Postnatal age at tissue collection",
+      "factor_unit": "day",
+      "factor_value": 0,
+      "sample_id": "S0008",
+      "time": "At birth, postnatal day 0"
+    },
+    {
+      "condition_id": "C0016",
+      "condition_target": "Heart cryosection",
+      "experimental_factor": "Tissue permeabilization duration",
+      "factor_unit": "min",
+      "factor_value": 6,
+      "sample_id": "S0008",
+      "time": "During on-chip permeabilization before reverse transcription"
+    },
+    {
+      "condition_id": "C0001",
+      "condition_target": "Source mouse",
+      "experimental_factor": "Postnatal age at tissue collection",
+      "factor_unit": "day",
+      "factor_value": 7,
+      "sample_id": "S0009",
+      "time": "7 days after birth"
+    },
+    {
+      "condition_id": "C0002",
+      "condition_target": "Heart cryosection",
+      "experimental_factor": "Tissue permeabilization duration",
+      "factor_unit": "min",
+      "factor_value": 6,
+      "sample_id": "S0009",
+      "time": "During on-chip permeabilization before reverse transcription"
+    },
+    {
+      "condition_id": "C0017",
+      "condition_target": "Source mouse",
+      "experimental_factor": "Postnatal age at tissue collection",
+      "factor_unit": "day",
+      "factor_value": 7,
+      "sample_id": "S0010",
+      "time": "7 days after birth"
+    },
+    {
+      "condition_id": "C0018",
+      "condition_target": "Heart cryosection",
+      "experimental_factor": "Tissue permeabilization duration",
+      "factor_unit": "min",
+      "factor_value": 6,
+      "sample_id": "S0010",
+      "time": "During on-chip permeabilization before reverse transcription"
+    },
+    {
+      "condition_id": "C0003",
+      "condition_target": "Source mouse",
+      "experimental_factor": "Postnatal age at tissue collection",
+      "factor_unit": "day",
+      "factor_value": 7,
+      "sample_id": "S0011",
+      "time": "7 days after birth"
+    },
+    {
+      "condition_id": "C0004",
+      "condition_target": "Heart cryosection",
+      "experimental_factor": "Tissue permeabilization duration",
+      "factor_unit": "min",
+      "factor_value": 6,
+      "sample_id": "S0011",
+      "time": "During on-chip permeabilization before reverse transcription"
+    },
+    {
+      "condition_id": "C0019",
+      "condition_target": "Source mouse",
+      "experimental_factor": "Postnatal age at tissue collection",
+      "factor_unit": "day",
+      "factor_value": 7,
+      "sample_id": "S0012",
+      "time": "7 days after birth"
+    },
+    {
+      "condition_id": "C0020",
+      "condition_target": "Heart cryosection",
+      "experimental_factor": "Tissue permeabilization duration",
+      "factor_unit": "min",
+      "factor_value": 6,
+      "sample_id": "S0012",
+      "time": "During on-chip permeabilization before reverse transcription"
+    }
+  ],
+  "sample": [
+    {
+      "biological_model": "Wild-type C57BL/6J mouse",
+      "biological_source": "Heart from a male mouse",
+      "sample_accession": "GEO:GSM9019995 (sample); BioSample:SAMN48846725 (sample)",
+      "sample_id": "S0004",
+      "sample_material": "One 10-μm coronal heart cryosection from a P56 male mouse, mounted on chip FP200000337BR_B2 for Stereo-seq. Separate P56 preparation batch.",
+      "sample_name": "P56-1 heart section",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Wild-type C57BL/6J mouse",
+      "biological_source": "Heart from a second male mouse",
+      "sample_accession": "GEO:GSM9019996 (sample); BioSample:SAMN48846724 (sample)",
+      "sample_id": "S0005",
+      "sample_material": "One 10-μm coronal heart cryosection from a second P56 male mouse, mounted on chip FP200000337BR_B3 for Stereo-seq. Separate P56 preparation batch.",
+      "sample_name": "P56-2 heart section",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Wild-type C57BL/6J mouse",
+      "biological_source": "Heart from a female mouse",
+      "sample_accession": null,
+      "sample_id": "S0006",
+      "sample_material": "One 10-μm coronal heart cryosection from the P0 mouse, identifiable as the upper-left section in Fig. 2. Mounted on chip SS200000171BL_D3 in the P0/P7 preparation batch. Shared heart-level archive record: GEO:GSM9019992 (sample); BioSample:SAMN48846728 (sample). No separate section accession is reported.",
+      "sample_name": "P0 upper-left heart section",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Wild-type C57BL/6J mouse",
+      "biological_source": "Heart from a female mouse",
+      "sample_accession": null,
+      "sample_id": "S0007",
+      "sample_material": "One 10-μm coronal heart cryosection from the P0 mouse, identifiable as the upper-right section in Fig. 2. Mounted on chip SS200000171BL_D3 in the P0/P7 preparation batch. Shared heart-level archive record: GEO:GSM9019992 (sample); BioSample:SAMN48846728 (sample). No separate section accession is reported.",
+      "sample_name": "P0 upper-right heart section",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Wild-type C57BL/6J mouse",
+      "biological_source": "Heart from a female mouse",
+      "sample_accession": null,
+      "sample_id": "S0008",
+      "sample_material": "One 10-μm coronal heart cryosection from the P0 mouse, identifiable as the lower-left section in Fig. 2. Mounted on chip SS200000171BL_D3 in the P0/P7 preparation batch. Shared heart-level archive record: GEO:GSM9019992 (sample); BioSample:SAMN48846728 (sample). No separate section accession is reported.",
+      "sample_name": "P0 lower-left heart section",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Wild-type C57BL/6J mouse",
+      "biological_source": "Heart from a P7 mouse; sex not individually assigned",
+      "sample_accession": null,
+      "sample_id": "S0009",
+      "sample_material": "One 10-μm coronal heart cryosection from the P7-1 mouse, identifiable as the left section in Fig. 2. Mounted on chip SS200000171BL_E3 in the P0/P7 preparation batch. Shared heart-level archive record: GEO:GSM9019993 (sample); BioSample:SAMN48846727 (sample). No separate section accession is reported. The two P7 mice were one male and one female. Their chip-to-sex mapping is unresolved.",
+      "sample_name": "P7-1 left heart section",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Wild-type C57BL/6J mouse",
+      "biological_source": "Heart from a P7 mouse; sex not individually assigned",
+      "sample_accession": null,
+      "sample_id": "S0010",
+      "sample_material": "One 10-μm coronal heart cryosection from the P7-1 mouse, identifiable as the right section in Fig. 2. Mounted on chip SS200000171BL_E3 in the P0/P7 preparation batch. Shared heart-level archive record: GEO:GSM9019993 (sample); BioSample:SAMN48846727 (sample). No separate section accession is reported. The two P7 mice were one male and one female. Their chip-to-sex mapping is unresolved.",
+      "sample_name": "P7-1 right heart section",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Wild-type C57BL/6J mouse",
+      "biological_source": "Heart from a second P7 mouse; sex not individually assigned",
+      "sample_accession": null,
+      "sample_id": "S0011",
+      "sample_material": "One 10-μm coronal heart cryosection from the P7-2 mouse, identifiable as the left section in Fig. 2. Mounted on chip SS200000171BL_E1 in the P0/P7 preparation batch. Shared heart-level archive record: GEO:GSM9019994 (sample); BioSample:SAMN48846726 (sample). No separate section accession is reported. The two P7 mice were one male and one female. Their chip-to-sex mapping is unresolved.",
+      "sample_name": "P7-2 left heart section",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Wild-type C57BL/6J mouse",
+      "biological_source": "Heart from a second P7 mouse; sex not individually assigned",
+      "sample_accession": null,
+      "sample_id": "S0012",
+      "sample_material": "One 10-μm coronal heart cryosection from the P7-2 mouse, identifiable as the right section in Fig. 2. Mounted on chip SS200000171BL_E1 in the P0/P7 preparation batch. Shared heart-level archive record: GEO:GSM9019994 (sample); BioSample:SAMN48846726 (sample). No separate section accession is reported. The two P7 mice were one male and one female. Their chip-to-sex mapping is unresolved.",
+      "sample_name": "P7-2 right heart section",
+      "species": "Mus musculus"
+    }
+  ]
+}

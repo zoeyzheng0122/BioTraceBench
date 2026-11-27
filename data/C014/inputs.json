@@ -1,0 +1,158 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "C014",
+    "domain": "clinical",
+    "title": "Semaglutide Injection in Indian Patients With Type 2 Diabetes Mellitus: A Randomised, Phase III, Active‐Controlled Study",
+    "doi": "10.1111/dom.70891",
+    "pipeline": "clinical-trials",
+    "pmid": "42219226",
+    "pmcid": "PMC13341390",
+    "registry": "CTRI/2025/02/080592"
+  },
+  "files": [
+    {
+      "path": "sources/article.xml",
+      "sha256": "b528f55f04f2b8b004f1743d0e31c5f2f7d2662d95afc8174255562ee6145623",
+      "bytes": 104782,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13341390/fullTextXML"
+      ],
+      "association": "exact public PMCID candidate"
+    },
+    {
+      "path": "records/CTRI-2025-02-080592.html",
+      "sha256": "19244c9269605e5f4bcb99cbff6c9a5bf6de9e798829f70801fa6ce704109965",
+      "bytes": 64680,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://ctri.nic.in/Clinicaltrials/pmaindet2.php?EncHid=MTIwODUw&Enc=&userName="
+      ],
+      "association": "own trial registration explicitly linked or identified by article",
+      "original_filename": "CTRI-2025-02-080592.html",
+      "derived_from": "f1ec77aa953ed429e08e8a3756083084b0fdffec7f0c233e7c6f1f55f6307f92",
+      "retrieved_at": "2026-10-18T01:24:59+08:00",
+      "representation": "Native registry HTML with self-contained presentation; original capture archived"
+    },
+    {
+      "path": "figures/DOM-28-7094-g001.jpg",
+      "sha256": "0b9a2bd8fcdf149805c9a919ca685062c34aaf094b166f2ece1fa09d195995fb",
+      "bytes": 87430,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13341390.1/DOM-28-7094-g001.jpg?md5=c41feeab3e8c2473725e5b0c370b9799"
+      ],
+      "association": "exact JATS dom70891-fig-0003 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/DOM-28-7094-g002.jpg",
+      "sha256": "7a24ef0c39da2d5e3b5bff4823a9874f6b0b6fb5f63eadfd55add6e0de84099f",
+      "bytes": 72439,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13341390.1/DOM-28-7094-g002.jpg?md5=483de914446abae7efe0f1d89b0ff887"
+      ],
+      "association": "exact JATS dom70891-fig-0002 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/DOM-28-7094-g003.jpg",
+      "sha256": "f0cd943b5a7ca7a7b1cce8a539fb7eb7e0f92af364a0c854d9d83761010c9698",
+      "bytes": 72598,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13341390.1/DOM-28-7094-g003.jpg?md5=f5741faca2579de103fb6306f329ffd4"
+      ],
+      "association": "exact JATS dom70891-fig-0004 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/DOM-28-7094-g004.jpg",
+      "sha256": "94e96bb0e2625f5c998d4fd2c4cbbe73799e6bbd67dc8363d21879ada4fac1a0",
+      "bytes": 45691,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13341390.1/DOM-28-7094-g004.jpg?md5=3d3b6415c3bf8e844f03e8bfa50c63a2"
+      ],
+      "association": "exact JATS dom70891-fig-0001 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/captions.txt",
+      "sha256": "8633c2b34f6aa6d21edf2f3a2a352b18d0cf34487c9fe960b99a5e05cde524e3",
+      "bytes": 670,
+      "role": "figure_captions",
+      "roles": [
+        "figure_captions"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13341390/"
+      ],
+      "derived_from": "7ff84062e941991248ea36dcff007731c76d588c6eac0eac4ff9367aac5e44ed"
+    },
+    {
+      "path": "records/CTRI-2025-02-080592.txt",
+      "sha256": "989815a3ec8abcaefdd9251d5a1552f860e392aebd51bdb40c84900b2936a49b",
+      "bytes": 23641,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://ctri.nic.in/Clinicaltrials/pmaindet2.php?EncHid=MTIwODUw&Enc=&userName="
+      ],
+      "derived_from": "98500ec5200435511c66bba976f7659bba61e2dc9492f10392d34b3e27eafe0c",
+      "representation": "readable_repository_page",
+      "association": "own public registration record identity verified",
+      "original_filename": "CTRI-2025-02-080592.txt",
+      "retrieved_at": "2026-10-18T01:24:59+08:00"
+    },
+    {
+      "path": "supplements/DOM-28-7094-s001__refine/content.md",
+      "sha256": "28ed2a630dbc733bf7b7d22858d26792412f58a1b5d3313bce72073c069e8962",
+      "bytes": 15997,
+      "role": "supplement",
+      "roles": [
+        "supplement"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13341390.1/DOM-28-7094-s001.docx?md5=7eae11dfc107c1123b902c54ac0b1ff7"
+      ],
+      "association": "exact JATS dom70891-supitem-0001 in verified PMC version; article source only",
+      "derived_from": "50e5236bce3e1fce7713632b1c9eebb91db89f66b791321296169a0ad7de72d4",
+      "original_sha256": "50e5236bce3e1fce7713632b1c9eebb91db89f66b791321296169a0ad7de72d4",
+      "original_filename": "DOM-28-7094-s001.docx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "office_text_tables"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

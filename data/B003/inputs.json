@@ -1,0 +1,179 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "B003",
+    "domain": "basic",
+    "title": "Regulatory role of vitamin D 3 on myogenesis and fibrogenesis under Vdr gene silencing and TGF-β1 stimulation in skeletal muscle cells",
+    "doi": "10.1038/s41598-025-25496-1",
+    "pipeline": "basic-research",
+    "pmid": "41286086",
+    "pmcid": "PMC12644712",
+    "registry": "PXD062669"
+  },
+  "files": [
+    {
+      "path": "sources/article.xml",
+      "sha256": "ab5bc4d2c5a6c62768b6811a5db0aecfbe0d49babce914f0310616d4141d3c43",
+      "bytes": 187771,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12644712.1/PMC12644712.1.xml?md5=dd4b6ef419101d958b55dfe19737316c"
+      ],
+      "association": "official published article XML for exact DOI"
+    },
+    {
+      "path": "records/PXD062669-record.json",
+      "sha256": "ab13ade04923af92d42839653bea84b4e734e3b797f9ad01b2c1cba83147ca56",
+      "bytes": 5238,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/pride/ws/archive/v2/projects/PXD062669"
+      ],
+      "association": "public data accession explicitly reported in this article; module eligibility not yet asserted",
+      "original_filename": "PXD062669-record.json",
+      "retrieved_at": "2026-10-18T01:13:38+08:00",
+      "derived_from": "fe4115930e1a1f6cd43dc7795005c47d689b57e78b3856ea9bf513e93bc5b1f9",
+      "original_sha256": "fe4115930e1a1f6cd43dc7795005c47d689b57e78b3856ea9bf513e93bc5b1f9",
+      "representation": "refine-lexical-json-1",
+      "provenance_transform": "exact_json_whitespace_compaction"
+    },
+    {
+      "path": "figures/41598_2025_25496_Fig1_HTML.jpg",
+      "sha256": "e8f1d3e54c4668bdf11b960717772a5aafd2d74de65d854a10d9c3033bdc2fbb",
+      "bytes": 277733,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12644712.1/41598_2025_25496_Fig1_HTML.jpg?md5=faa5d730d01f244d3daed268486a98e8"
+      ],
+      "association": "exact JATS Fig1 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41598_2025_25496_Fig2_HTML.jpg",
+      "sha256": "803fac347c7e2682a4c7655dca8224d79732b7243abff3a5dcfb9478c8cfff69",
+      "bytes": 231089,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12644712.1/41598_2025_25496_Fig2_HTML.jpg?md5=628cc4efdb0110ab65d4480623736200"
+      ],
+      "association": "exact JATS Fig2 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41598_2025_25496_Fig3_HTML.jpg",
+      "sha256": "8a017f20817a0af7b5ca964fa8e7dd6e9dbe64f227386f86472f8940b1b06fec",
+      "bytes": 263157,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12644712.1/41598_2025_25496_Fig3_HTML.jpg?md5=5aba7190a87397fb009a5a5dece912b6"
+      ],
+      "association": "exact JATS Fig3 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41598_2025_25496_Fig4_HTML.jpg",
+      "sha256": "33aaf18072b363c1da11c191e6c585cce6bf17cf6d82258da76576c04589df7e",
+      "bytes": 301767,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12644712.1/41598_2025_25496_Fig4_HTML.jpg?md5=68c161da6d2104731748a9779e580ecd"
+      ],
+      "association": "exact JATS Fig4 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41598_2025_25496_Fig5_HTML.jpg",
+      "sha256": "09d186bf59bebfb478f390ca7b8afe44004e40c48bf804135e55fb72c4e61303",
+      "bytes": 161812,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12644712.1/41598_2025_25496_Fig5_HTML.jpg?md5=662025aff3b43108306fdb24574be4d6"
+      ],
+      "association": "exact JATS Fig5 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41598_2025_25496_Fig6_HTML.jpg",
+      "sha256": "1ddb4f1a1c498d23e8de17cf6097da8755490598be5993ec7baa1160e1946bf4",
+      "bytes": 176236,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12644712.1/41598_2025_25496_Fig6_HTML.jpg?md5=41f22b41814b7a5d04fdc93007fd726c"
+      ],
+      "association": "exact JATS Fig6 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41598_2025_25496_Fig7_HTML.jpg",
+      "sha256": "fb48a261dcd249aa8088082c009b233b082de3d5fd66a6857619f215b831161a",
+      "bytes": 118710,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12644712.1/41598_2025_25496_Fig7_HTML.jpg?md5=4d8423b9f8069f50ca742fa816ba17bf"
+      ],
+      "association": "exact JATS Fig7 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41598_2025_25496_Fig8_HTML.jpg",
+      "sha256": "fb8759847a76df121460d28ce75044b506b821fffbfa182cf458468911f0deb6",
+      "bytes": 88620,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12644712.1/41598_2025_25496_Fig8_HTML.jpg?md5=ce51aac74d87c091110dcc1dcf306c3a"
+      ],
+      "association": "exact JATS Fig8 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/captions.txt",
+      "sha256": "e94b1e0574600874508ddc175e586c849d8428d7852cd08141851c14412bf332",
+      "bytes": 8562,
+      "role": "figure_captions",
+      "roles": [
+        "figure_captions"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12644712/"
+      ],
+      "derived_from": "ce6e6a46f9b8417f4d7a33dd6c4548ae71ce07531d6a57208281d61c1a766747"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

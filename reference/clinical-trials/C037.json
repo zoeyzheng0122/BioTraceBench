@@ -1,0 +1,191 @@
+{
+  "measure": [
+    {
+      "measure_definition": "Measured value: area under the rituximab serum concentration–time curve from 0 to 6 months (AUC0–6m); Participants; Serum rituximab concentrations quantified with a validated ELISA at Sanquin Diagnostic Services (range 0.005–500 mg/l). Empirical Bayes estimates of AUC0–6m obtained by nonlinear mixed-effects modelling (NONMEM V7.5), extending a population PK model for i.v. rituximab in RA with subcutaneous absorption bioavailability and rate constant; steady-state AUC between 6-month doses calculated as AUC = (DOSE × F)/CL.; AUC0–6m during the first 6 months after study rituximab administration. Primary non-inferiority comparison: s.c.:i.v. geometric mean ratio; non-inferiority margin 0.8; s.c. considered non-inferior if the lower boundary of the 90% CI of the ratio exceeds 0.8. AUC estimates are model-derived; trapezoidal AUC is a separate sensitivity analysis not included here.",
+      "measure_id": "M0",
+      "measure_name": "Rituximab serum concentration AUC0–6 months"
+    },
+    {
+      "measure_definition": "Measured value: change in DAS28-CRP score from baseline to 6 months; Participants; DAS28-CRP assessed at baseline and 6 months (also 3 months). Change from baseline analyzed with ANCOVA with administration route as determinant, adjusted for stratum (previous rituximab dose) and baseline DAS28-CRP. Missing DAS28-CRP values imputed with multiple imputation.; Change from baseline to 6 months; negative values indicate a decrease in disease activity. Between-group comparison is s.c. versus i.v.; subtraction direction is not explicitly defined; non-inferiority margin 0.6; s.c. considered non-inferior if the 95% CI does not exceed 0.6. Remission defined as DAS28-CRP <2.4 and low disease activity as <2.9 for descriptive context.",
+      "measure_id": "M1",
+      "measure_name": "DAS28-CRP disease activity score"
+    },
+    {
+      "measure_definition": "Measured value: peripheral blood B-cell count; Measurements (per participant blood sample); Peripheral B cells measured by validated flow cytometric diagnostic assay at Radboudumc Haematology laboratory. Percentages and absolute number determined within 24 h after blood collection using CD45, CD3, CD19 and CD16/56 (Tetra 2 kit, Beckman Coulter) on an Aquios volumetric flow cytometer; calibrated with Aquios Immuno-Trol cells; external quality control via UK NEQAS Alternative Immunomonitoring Program.; B-cell counts at baseline, 3 months and 6 months. Missing B-cell measurements excluded: two at baseline (1 s.c., 1 i.v.) and four at 6 months (2 s.c., 2 i.v.). Between-group comparisons reported as P values; no numerical median values are labelled in the figure.",
+      "measure_id": "M2",
+      "measure_name": "Peripheral B-cell count"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "Rituximab (MabThera; Roche BV), subcutaneous injection.",
+      "intervention_regimen": "336 mg; Single dose at study start, administered in the abdominal skin by a qualified nurse; no premedication. Next maintenance cycle was scheduled at 6 months.",
+      "population_definition": "Randomized allocation to subcutaneous rituximab (1:1), stratified by previous rituximab dose (200 mg or 500 mg).; Adults older than 16 years with rheumatoid arthritis (2010 EULAR/ACR criteria or clinical diagnosis by the treating rheumatologist) currently treated with ultra-low-dose rituximab 200 mg or 500 mg every 6 months, with or without concomitant conventional synthetic DMARD, and with sufficient response (DAS28-CRP <2.9 for ≥3 months after the last infusion or low disease activity judged by the treating physician). Randomized to rituximab 336 mg subcutaneously. Includes one participant who did not receive the allocated intervention because of a switch to another biological DMARD before administration.",
+      "population_id": "P0",
+      "population_name": "Subcutaneous rituximab randomized group",
+      "population_size": 18,
+      "population_time_frame": "Recruitment May 2022 to last visit September 2024; randomization at study entry."
+    },
+    {
+      "intervention": "Rituximab (Rixathon; Sandoz BV), intravenous infusion.",
+      "intervention_regimen": "200 mg; Single dose at study start with standard premedication according to local protocol (50 mg prednisolone orally, 1000 mg paracetamol orally and 10 mg cetirizine orally); next maintenance cycle at 6 months.",
+      "population_definition": "Randomized allocation to intravenous rituximab (1:1), stratified by previous rituximab dose (200 mg or 500 mg).; Adults older than 16 years with rheumatoid arthritis (2010 EULAR/ACR criteria or clinical diagnosis by the treating rheumatologist) currently treated with ultra-low-dose rituximab 200 mg or 500 mg every 6 months, with or without concomitant conventional synthetic DMARD, and with sufficient response (DAS28-CRP <2.9 for ≥3 months after the last infusion or low disease activity judged by the treating physician). Randomized to rituximab 200 mg intravenously; all 17 received the allocated intervention and completed the 6-month follow-up.",
+      "population_id": "P1",
+      "population_name": "Intravenous rituximab randomized group",
+      "population_size": 17,
+      "population_time_frame": "Recruitment May 2022 to last visit September 2024; randomization at study entry."
+    },
+    {
+      "intervention": "Rituximab (MabThera; Roche BV), subcutaneous injection.",
+      "intervention_regimen": "336 mg; Single dose at study start, administered in the abdominal skin by a qualified nurse; no premedication. Next maintenance cycle was scheduled at 6 months.",
+      "population_definition": "Randomized to subcutaneous rituximab, received the allocated intervention, and analyzed for the primary outcome.; The 17 subcutaneous participants who received rituximab 336 mg s.c. and completed the 6-month follow-up; excludes the one randomized s.c. participant who switched to another biological DMARD before rituximab administration and was therefore excluded from the study.",
+      "population_id": "P2",
+      "population_name": "Subcutaneous rituximab primary analysis population",
+      "population_size": 17,
+      "population_time_frame": "Recruitment May 2022 to last visit September 2024; randomization at study entry."
+    },
+    {
+      "intervention": "Rituximab 336 mg subcutaneous or rituximab 200 mg intravenous.",
+      "intervention_regimen": "336 mg subcutaneous; 200 mg intravenous.; Single dose at study start; next maintenance cycle at 6 months.",
+      "population_definition": "Combined subcutaneous and intravenous participants analyzed for the primary outcome.; Participants in the primary analysis: the 17 subcutaneous participants who received allocated rituximab and the 17 intravenous participants; excludes the one subcutaneous randomized participant who did not receive allocated intervention. Used for between-group AUC0–6m and DAS28-CRP comparisons.; Reported population size: 17 per group (17 subcutaneous; 17 intravenous)",
+      "population_id": "P3",
+      "population_name": "Combined primary analysis population (subcutaneous and intravenous)",
+      "population_size": null,
+      "population_time_frame": "Recruitment May 2022 to last visit September 2024; randomization at study entry."
+    },
+    {
+      "intervention": "Rituximab 336 mg subcutaneous or rituximab 200 mg intravenous.",
+      "intervention_regimen": "336 mg subcutaneous; 200 mg intravenous.; Single dose at study start; next maintenance cycle at 6 months.",
+      "population_definition": "Participants in the primary analysis population contributing to the DAS28-CRP analysis, with missing DAS28-CRP values handled by multiple imputation.; The 17 s.c. and 17 i.v. primary analysis participants. One baseline and five 6-month DAS28-CRP measurements were missing and imputed using multiple imputation for the DAS28-CRP analysis.; Reported population size: 17 per group (17 subcutaneous; 17 intravenous)",
+      "population_id": "P4",
+      "population_name": "DAS28-CRP analysis population",
+      "population_size": null,
+      "population_time_frame": "Recruitment May 2022 to last visit September 2024; randomization at study entry."
+    },
+    {
+      "intervention": "Rituximab 336 mg subcutaneous or rituximab 200 mg intravenous.",
+      "intervention_regimen": "336 mg subcutaneous; 200 mg intravenous.; Single dose at study start; next maintenance cycle at 6 months.",
+      "population_definition": "Primary analysis participants with an available peripheral B-cell measurement at month 6. The analysis excludes four missing measurements (two subcutaneous and two intravenous).",
+      "population_id": "P5",
+      "population_name": "Month-6 B-cell measurement analysis population",
+      "population_size": null,
+      "population_time_frame": "Recruitment May 2022 to last visit September 2024; randomization at study entry."
+    },
+    {
+      "intervention": "Assigned subcutaneous or intravenous rituximab",
+      "intervention_regimen": "Single abdominal subcutaneous rituximab 336 mg, without premedication. Single intravenous rituximab 200 mg with oral prednisolone 50 mg, paracetamol 1000 mg and cetirizine 10 mg.",
+      "population_definition": "Adults with RA and stable low disease activity responding to prior 200 or 500 mg rituximab every 6 months, with or without concomitant csDMARD.",
+      "population_id": "P6",
+      "population_name": "Randomized rituximab cohort",
+      "population_size": 35,
+      "population_time_frame": "May 2022 to September 2024 study conduct; 6-month follow-up after one assigned dose."
+    }
+  ],
+  "population_relation": [
+    {
+      "population_a_id": "P2",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P2",
+      "population_b_id": "P3",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P3",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P2",
+      "population_b_id": "P4",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P4",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P2",
+      "relationship": "disjoint from"
+    },
+    {
+      "population_a_id": "P0",
+      "population_b_id": "P1",
+      "relationship": "disjoint from"
+    },
+    {
+      "population_a_id": "P0",
+      "population_b_id": "P6",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P6",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P3",
+      "population_b_id": "P6",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P5",
+      "population_b_id": "P3",
+      "relationship": "subset of"
+    }
+  ],
+  "result": [
+    {
+      "assessment_time": "0–6 months after study rituximab administration",
+      "comparison": "P2 relative to P1 (subcutaneous 336 mg / intravenous 200 mg AUC geometric mean)",
+      "measure_id": "M0",
+      "population_id": "P3",
+      "result_id": "R01",
+      "result_unit": null,
+      "result_value": 0.99,
+      "statistic_type": "Geometric mean ratio (s.c.:i.v.) from ANOVA on log-transformed AUC0–6m, adjusted for allocation and stratification factor",
+      "statistical_method": "ANOVA",
+      "supplementary_statistics": "90% CI 0.82–1.20; non-inferiority margin 0.8"
+    },
+    {
+      "assessment_time": "Baseline to 6 months",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P2",
+      "result_id": "R02",
+      "result_unit": null,
+      "result_value": -0.39,
+      "statistic_type": "Mean change from baseline (within subcutaneous group)",
+      "statistical_method": "The abstract associates this mean change with subcutaneous rituximab; its precise adjustment is unreported and the main text does not confirm the estimand of this figure.",
+      "supplementary_statistics": "95% CI −0.77 to −0.004"
+    },
+    {
+      "assessment_time": "Baseline to 6 months",
+      "comparison": "P2 versus P1 (subcutaneous versus intravenous change); subtraction direction not explicitly stated",
+      "measure_id": "M1",
+      "population_id": "P4",
+      "result_id": "R03",
+      "result_unit": null,
+      "result_value": -0.44,
+      "statistic_type": "Adjusted between-group difference in DAS28-CRP change from baseline",
+      "statistical_method": "ANCOVA",
+      "supplementary_statistics": "95% CI −0.85 to −0.032; non-inferiority margin 0.6"
+    },
+    {
+      "assessment_time": "6 months",
+      "comparison": "P2 versus P1 (subcutaneous versus intravenous), using available six-month B-cell measurements; no subtraction direction",
+      "measure_id": "M2",
+      "population_id": "P5",
+      "result_id": "R04",
+      "result_unit": null,
+      "result_value": "P = 0.59",
+      "statistic_type": "P value for between-group comparison",
+      "statistical_method": "Observed-data comparison, excluding two missing values per route at month 6. Exact endpoint-specific test not identified among the available secondary methods.",
+      "supplementary_statistics": "Available B-cell measurements; four 6-month measurements missing (2 s.c., 2 i.v.)"
+    }
+  ]
+}

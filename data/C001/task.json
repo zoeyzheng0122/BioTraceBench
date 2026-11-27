@@ -1,0 +1,30 @@
+{
+  "case_id": "C001",
+  "task_id": "C001",
+  "title": "Adjuvant icotinib for resected EGFR-mutated stage II–IIIA non-small-cell lung cancer (ICTAN, GASTO1002): a randomized comparison study",
+  "doi": "10.1038/s41392-025-02358-w",
+  "comparison_or_design": "The 12-month icotinib comparison in ICTAN.",
+  "observations_or_assays": [
+    "Investigator-assessed disease-free survival (DFS)",
+    "Overall survival (OS)",
+    "Brain-metastasis-free survival (BMFS)"
+  ],
+  "time_scope": "The main efficacy analysis and data cutoff reported in this article.",
+  "excluded": [
+    "The 6-month icotinib arm and all comparisons involving it",
+    "Landmark survival rates, event-count endpoints, subgroup/per-protocol analyses, quality of life and safety"
+  ],
+  "population_or_material": "The ICTAN intention-to-treat population with completely resected EGFR-mutated stage II–IIIA NSCLC after adjuvant chemotherapy.",
+  "requested_items": [
+    "DFS: reported arm medians and primary DFS HR; OS/BMFS: primary HRs only. Exclude landmark rates, event counts, per-protocol and subgroup analyses."
+  ],
+  "resources": [],
+  "case_specific_rules": [],
+  "domain": "clinical",
+  "pipeline": "clinical-trials",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/clinical-trials.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

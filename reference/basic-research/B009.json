@@ -1,0 +1,64 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "Sequential RNA-FISH/immunofluorescence with confocal imaging",
+      "experiment_run_accession": "Figshare:10.6084/m9.figshare.29955509.v3 (dataset)",
+      "method": "Study-level aggregate of the 5-day vehicle-versus-etoposide comparison, across three biological replicates. Quasar 570 probes targeting the middle region of NEAT1_2, followed by anti-NONO immunofluorescence. NONO and NEAT1_2 were imaged at 488 and 561 nm, respectively, in the same single z-plane; paraspeckles were defined as double-positive foci.",
+      "platform": "ZEISS LSM710 confocal microscope; 100x/1.4 oil objective",
+      "sample_ids": [
+        "S0001",
+        "S0002"
+      ]
+    }
+  ],
+  "condition": [
+    {
+      "condition_id": "C0002",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Etoposide concentration",
+      "factor_unit": "µM",
+      "factor_value": 2,
+      "sample_id": "S0002",
+      "time": "During the 5-day treatment period before fixation"
+    },
+    {
+      "condition_id": "C0001",
+      "condition_target": "U2OS cells on coverslips",
+      "experimental_factor": "Vehicle exposure duration",
+      "factor_unit": "days",
+      "factor_value": 5,
+      "sample_id": "S0001",
+      "time": "From treatment start to the fixed-cell endpoint."
+    },
+    {
+      "condition_id": "C0003",
+      "condition_target": "U2OS cells on coverslips",
+      "experimental_factor": "Etoposide exposure duration",
+      "factor_unit": "days",
+      "factor_value": 5,
+      "sample_id": "S0002",
+      "time": "From treatment start to the fixed-cell endpoint."
+    }
+  ],
+  "sample": [
+    {
+      "biological_model": "Human osteosarcoma cell line",
+      "biological_source": "U2OS (ATCC)",
+      "sample_accession": null,
+      "sample_id": "S0001",
+      "sample_material": "U2OS cells cultured on coverslips, vehicle-treated for 5 days and fixed with 4% paraformaldehyde for sequential NEAT1_2 RNA-FISH and endogenous NONO immunofluorescence. Requested Vehicle concentration: numerical value not reported; no quantitative condition row created.",
+      "sample_name": "U2OS Veh 5d",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Etoposide-induced senescence in human osteosarcoma cell line",
+      "biological_source": "U2OS (ATCC)",
+      "sample_accession": null,
+      "sample_id": "S0002",
+      "sample_material": "U2OS cells cultured on coverslips, treated with 2 µM etoposide for 5 days and fixed with 4% paraformaldehyde for sequential NEAT1_2 RNA-FISH and endogenous NONO immunofluorescence.",
+      "sample_name": "U2OS Eto 5d",
+      "species": "Homo sapiens"
+    }
+  ]
+}

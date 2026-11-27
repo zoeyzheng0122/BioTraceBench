@@ -1,0 +1,355 @@
+{
+  "measure": [
+    {
+      "measure_definition": "Measured value: mean home systolic blood pressure (mmHg) over the home monitoring days of a scheduled visit, reported as the mean at baseline, the mean at week 12 and the mean within-group change from baseline to week 12, together with the adjusted between-group difference at week 12; Participants; Home blood pressure monitoring according to current guideline recommendations; participants were instructed in appropriate BP measurement (Supplementary Content S3) and recorded BP over seven consecutive days with duplicate measurements in the morning and evening (minimum of three consecutive days) using a validated BP monitor. Data were self-reported via remote ePRO at baseline, week 4, week 8 and week 12.; Uncontrolled hypertension at inclusion was defined as mean home systolic BP >135 mmHg. The week-12 mean systolic BP is the primary outcome. Within-group change = week 12 minus baseline. Adjusted between-group differences (intervention minus control) were estimated by ANCOVA in the intention-to-treat set using MICE multiple imputation, adjusting for baseline systolic BP, age, gender, baseline weight and changes in antihypertensive medication.",
+      "measure_id": "M0",
+      "measure_name": "Systolic blood pressure measured by home blood pressure monitoring (HBPM)"
+    },
+    {
+      "measure_definition": "Measured value: mean home diastolic blood pressure (mmHg) over the home monitoring days of a scheduled visit, reported as the mean at baseline, the mean at week 12 and the mean within-group change from baseline to week 12, together with the adjusted between-group difference at week 12; Participants; Home blood pressure monitoring over seven consecutive days with duplicate morning and evening measurements (minimum of three consecutive days) using a validated BP monitor, self-reported via remote ePRO at baseline, week 4, week 8 and week 12; identical measurement procedure to systolic BP (Supplementary Content S3).; Mean home diastolic BP at week 12 is a secondary outcome. Within-group change = week 12 minus baseline. Adjusted between-group differences (intervention minus control) were estimated by ANCOVA in the intention-to-treat set using MICE multiple imputation, adjusting for baseline values of the respective outcome, age and gender.",
+      "measure_id": "M1",
+      "measure_name": "Diastolic blood pressure measured by home blood pressure monitoring (HBPM)"
+    },
+    {
+      "measure_definition": "Absolute body weight assessed at baseline and week12. Body weight was remotely self-reported by ePRO at baseline,weeks4,8,12 and summarized as mean andSD. Table2 labels the row Weight change(%), with absolute weight summaries in the baseline/week12 columns and baseline-relative percentages in change/adjusted-contrast columns. The unit of the absolute weight summaries is not separately specified in the supplied article,supplement or registry; no kg unit or conversion is inferred.",
+      "measure_id": "M2",
+      "measure_name": "Body weight"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "Oviva Direkt Hypertension (CE-marked, app-based multimodal lifestyle intervention: self-monitoring, self-management and education on weight reduction, low-carbohydrate and low-salt diet based on DASH principles, physical activity, stress management, alcohol reduction, meal plans) plus care as usual (usual treatment within the German healthcare system, primarily antihypertensive medication, and an educational brochure from the Deutsche Hochdruckliga)",
+      "intervention_regimen": "Not reported; 12 weeks of app access in addition to care as usual; self-guided use following in-app instructions; one support call from an Oviva contact person within the first two weeks; ongoing support via in-app chat or telephone. Antihypertensive treatment was stable at entry and medication changes were recorded at all follow-up study visits.",
+      "population_definition": "Randomised allocation (1:1, block randomisation without stratification) to the app-based multimodal lifestyle intervention plus care as usual; analysed as intention-to-treat; Adults aged 18–75 years with essential hypertension and mean home systolic BP >135 mmHg measured with a validated device, on stable antihypertensive treatment for at least three months with fewer than four antihypertensive drugs, randomised to the intervention arm. All randomised participants are included in the intention-to-treat analysis irrespective of treatment discontinuation (3 participants discontinued treatment: 2 lack of time to complete study procedures, 1 burden due to planned surgery).",
+      "population_id": "P0",
+      "population_name": "Intervention group: Oviva Direkt Hypertension plus care as usual (ITT)",
+      "population_size": 71,
+      "population_time_frame": "Randomised between 13 June 2024 and 30 September 2024; 12-week follow-up; data collection finalised 30 December 2024"
+    },
+    {
+      "intervention": "Care as usual for hypertension consisting of usual treatment within the German healthcare system (primarily antihypertensive medication) plus an educational brochure from the Deutsche Hochdruckliga outlining lifestyle recommendations; access to the digital therapeutic after the 12-week data collection period (not part of the study)",
+      "intervention_regimen": "Not reported; Care as usual for 12 weeks; antihypertensive treatment stable at entry; medication changes recorded at all follow-up study visits.",
+      "population_definition": "Randomised allocation (1:1, block randomisation without stratification) to care as usual alone; analysed as intention-to-treat; Adults aged 18–75 years with essential hypertension and mean home systolic BP >135 mmHg measured with a validated device, on stable antihypertensive treatment for at least three months with a planned eligibility criterion of fewer than four antihypertensive drugs, randomised to the control arm. All randomised participants are included in the intention-to-treat analysis; no participant in this group discontinued treatment. One control participant taking four classes of antihypertensive drugs was mistakenly randomised and retained in the ITT analysis.",
+      "population_id": "P1",
+      "population_name": "Control group: care as usual alone (ITT)",
+      "population_size": 68,
+      "population_time_frame": "Randomised between 13 June 2024 and 30 September 2024; 12-week follow-up; data collection finalised 30 December 2024"
+    },
+    {
+      "intervention": "Oviva Direkt Hypertension plus care as usual versus care as usual alone (randomised comparison)",
+      "intervention_regimen": "Not reported; 12 weeks per participant (planned duration for both arms)",
+      "population_definition": "All participants randomised in the trial before splitting into the intervention and control arms; Adults aged 18–75 years with essential hypertension (mean home systolic BP >135 mmHg) and stable antihypertensive treatment with a planned eligibility criterion of fewer than four antihypertensive drugs for at least three months; key exclusions were systolic BP ≥180 mmHg, cardiovascular event within six months, severe cognitive impairment and weight loss >5% in the past six months. 139 participants randomised: 71 to intervention, 68 to control. One control participant taking four classes of antihypertensive drugs was mistakenly randomised and retained in the ITT analysis.",
+      "population_id": "P2",
+      "population_name": "Overall randomised (ITT) population of the HYPE trial",
+      "population_size": 139,
+      "population_time_frame": "Randomised 13 June 2024 – 30 September 2024; data collection finalised 30 December 2024; planned study start 2024-06-14, actual start 2024-06-13; planned and actual completion 2024-12-30"
+    }
+  ],
+  "population_relation": [
+    {
+      "population_a_id": "P0",
+      "population_b_id": "P2",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P2",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P0",
+      "population_b_id": "P1",
+      "relationship": "disjoint from"
+    }
+  ],
+  "result": [
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R01",
+      "result_unit": "mmHg",
+      "result_value": 141.9,
+      "statistic_type": "Mean",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 4.2"
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R02",
+      "result_unit": "mmHg",
+      "result_value": 141.8,
+      "statistic_type": "Mean",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 5.2"
+    },
+    {
+      "assessment_time": "Week 12",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R03",
+      "result_unit": "mmHg",
+      "result_value": 130.7,
+      "statistic_type": "Mean",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 9.2; analysis N for this descriptive statistic not reported in Table 2 (68 intervention participants completed the 12-week follow-up)"
+    },
+    {
+      "assessment_time": "Week 12",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R04",
+      "result_unit": "mmHg",
+      "result_value": 139.6,
+      "statistic_type": "Mean",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 6.4; analysis N for this descriptive statistic not reported in Table 2 (68 control participants completed the 12-week follow-up)"
+    },
+    {
+      "assessment_time": "Baseline to week 12",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R05",
+      "result_unit": "mmHg",
+      "result_value": -11.17,
+      "statistic_type": "Mean change from baseline (within group)",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 9.23; observed data only; analysis N not reported in Table 2"
+    },
+    {
+      "assessment_time": "Baseline to week 12",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R06",
+      "result_unit": "mmHg",
+      "result_value": -2.46,
+      "statistic_type": "Mean change from baseline (within group)",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 6.22; observed data only; analysis N not reported in Table 2"
+    },
+    {
+      "assessment_time": "Week 12 (baseline-adjusted)",
+      "comparison": "P0 minus P1 (intervention minus control)",
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R07",
+      "result_unit": "mmHg",
+      "result_value": -8.45,
+      "statistic_type": "Adjusted mean difference, ANCOVA, ITT with MICE imputation (intervention minus control)",
+      "statistical_method": "ANCOVA; reported test t(132)=-6.49",
+      "supplementary_statistics": "SE 1.30; 95% CI -11.0 to -5.9 mmHg; P < 0.001"
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P0",
+      "result_id": "R08",
+      "result_unit": "mmHg",
+      "result_value": 87.5,
+      "statistic_type": "Mean",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 5.0"
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R09",
+      "result_unit": "mmHg",
+      "result_value": 88.8,
+      "statistic_type": "Mean",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 6.2"
+    },
+    {
+      "assessment_time": "Week 12",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P0",
+      "result_id": "R10",
+      "result_unit": "mmHg",
+      "result_value": 80.1,
+      "statistic_type": "Mean",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 7.8; analysis N for this descriptive statistic not reported in Table 2"
+    },
+    {
+      "assessment_time": "Week 12",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R11",
+      "result_unit": "mmHg",
+      "result_value": 86.7,
+      "statistic_type": "Mean",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 6.9; analysis N for this descriptive statistic not reported in Table 2"
+    },
+    {
+      "assessment_time": "Baseline to week 12",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P0",
+      "result_id": "R12",
+      "result_unit": "mmHg",
+      "result_value": -6.93,
+      "statistic_type": "Mean change from baseline (within group)",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 5.85; observed data only; analysis N not reported in Table 2"
+    },
+    {
+      "assessment_time": "Baseline to week 12",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R13",
+      "result_unit": "mmHg",
+      "result_value": -1.6,
+      "statistic_type": "Mean change from baseline (within group)",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 4.38; observed data only; analysis N not reported in Table 2"
+    },
+    {
+      "assessment_time": "Week 12 (baseline-adjusted)",
+      "comparison": "P0 minus P1 (intervention minus control)",
+      "measure_id": "M1",
+      "population_id": "P0",
+      "result_id": "R14",
+      "result_unit": "mmHg",
+      "result_value": -5.06,
+      "statistic_type": "Adjusted mean difference, ANCOVA, ITT with MICE imputation (intervention minus control)",
+      "statistical_method": "ANCOVA; reported test t(132)=-5.32",
+      "supplementary_statistics": "SE 0.95; 95% CI -6.9 to -3.2 mmHg; P < 0.001"
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P0",
+      "result_id": "R15",
+      "result_unit": null,
+      "result_value": 99.2,
+      "statistic_type": "Mean",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 19.5"
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R16",
+      "result_unit": null,
+      "result_value": 98.9,
+      "statistic_type": "Mean",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 18.0"
+    },
+    {
+      "assessment_time": "Week 12",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P0",
+      "result_id": "R17",
+      "result_unit": null,
+      "result_value": 95.4,
+      "statistic_type": "Mean",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 19.0; analysis N for this descriptive statistic not reported in Table 2"
+    },
+    {
+      "assessment_time": "Week 12",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R18",
+      "result_unit": null,
+      "result_value": 98.4,
+      "statistic_type": "Mean",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 18.6; analysis N for this descriptive statistic not reported in Table 2"
+    },
+    {
+      "assessment_time": "Baseline to week 12",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P0",
+      "result_id": "R19",
+      "result_unit": "% of baseline body weight",
+      "result_value": -3.65,
+      "statistic_type": "Mean percent change from baseline (within group)",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 3.19; observed data only; analysis N not reported in Table 2"
+    },
+    {
+      "assessment_time": "Baseline to week 12",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R20",
+      "result_unit": "% of baseline body weight",
+      "result_value": -0.5,
+      "statistic_type": "Mean percent change from baseline (within group)",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 2.96; observed data only; analysis N not reported in Table 2"
+    },
+    {
+      "assessment_time": "Week 12 (baseline-adjusted)",
+      "comparison": "P0 minus P1 (intervention minus control)",
+      "measure_id": "M2",
+      "population_id": "P0",
+      "result_id": "R21",
+      "result_unit": "% of baseline body weight",
+      "result_value": -2.88,
+      "statistic_type": "Adjusted mean difference in percent weight change, ANCOVA, ITT with MICE imputation (intervention minus control)",
+      "statistical_method": "ANCOVA; reported test t(133)=-5.16",
+      "supplementary_statistics": "SE 0.56; 95% CI -4.0% to -1.8%; P < 0.001"
+    },
+    {
+      "assessment_time": "Week 12 (baseline-adjusted)",
+      "comparison": "P0 minus P1 (intervention minus control)",
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R22",
+      "result_unit": null,
+      "result_value": -0.94,
+      "statistic_type": "Standardized between-group effect size (d)",
+      "statistical_method": "Reported standardized effect size d from the primary MICE-imputed ANCOVA analysis; formula not separately specified here.",
+      "supplementary_statistics": "95% CI -1.24 to -0.64"
+    },
+    {
+      "assessment_time": "Week 12 (baseline-adjusted)",
+      "comparison": "P0 minus P1 (intervention minus control)",
+      "measure_id": "M1",
+      "population_id": "P0",
+      "result_id": "R23",
+      "result_unit": null,
+      "result_value": -0.85,
+      "statistic_type": "Standardized between-group effect size (d)",
+      "statistical_method": "Reported standardized effect size d from the primary MICE-imputed ANCOVA analysis; formula not separately specified here.",
+      "supplementary_statistics": "95% CI -1.18 to -0.52"
+    },
+    {
+      "assessment_time": "Week 12 (baseline-adjusted)",
+      "comparison": "P0 minus P1 (intervention minus control)",
+      "measure_id": "M2",
+      "population_id": "P0",
+      "result_id": "R24",
+      "result_unit": null,
+      "result_value": -0.89,
+      "statistic_type": "Standardized between-group effect size (d)",
+      "statistical_method": "Reported standardized effect size d from the primary MICE-imputed ANCOVA analysis; formula not separately specified here.",
+      "supplementary_statistics": "95% CI -1.25 to -0.54"
+    }
+  ]
+}

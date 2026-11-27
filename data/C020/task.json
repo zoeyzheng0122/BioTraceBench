@@ -1,0 +1,31 @@
+{
+  "case_id": "C020",
+  "task_id": "C020",
+  "title": "Semaglutide and cardiovascular risk in type 1 diabetes: A predictive modelling analysis in a double‐blind, randomised, placebo‐controlled cross‐over trial",
+  "doi": "10.1111/dom.70525",
+  "comparison_or_design": "The semaglutide cardiovascular-risk secondary analysis over the completed treatment periods.",
+  "observations_or_assays": [
+    "Predicted 10-year CVD risk using ST1RE",
+    "Predicted 10-year CVD risk using SDRN",
+    "Body weight",
+    "HbA1c"
+  ],
+  "time_scope": "Baseline to the end of each 15-week treatment period.",
+  "excluded": [
+    "The sensitivity analysis excluding transient microalbuminuria and actual CVD events",
+    "All other risk-model input variables and parent-trial glycemic outcomes"
+  ],
+  "population_or_material": "The cardiovascular-risk secondary-analysis cohort completing both treatment periods without established CVD.",
+  "requested_items": [
+    "Baseline pooled median 10-year risk; reported period-specific risk percentage changes and paired placebo-adjusted contrasts; reported paired weight/HbA1c contrasts."
+  ],
+  "resources": [],
+  "case_specific_rules": [],
+  "domain": "clinical",
+  "pipeline": "clinical-trials",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/clinical-trials.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

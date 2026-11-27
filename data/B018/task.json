@@ -1,0 +1,32 @@
+{
+  "case_id": "B018",
+  "task_id": "B018",
+  "title": "Preliminary investigation on the impact of salty and sugary former foods on pig liver and plasma profiles using OMICS approaches",
+  "doi": "10.1038/s41598-024-70310-z",
+  "comparison_or_design": "The salty-former-food branch of the liver LFQ proteomics experiment and its matched reference.",
+  "observations_or_assays": [
+    "Label-free quantitative mass-spectrometry proteomics"
+  ],
+  "time_scope": "The dietary exposure and terminal liver collection used for the selected proteomics comparison.",
+  "excluded": [
+    "Sugary-diet (SU) samples/comparisons and PXD047855 plasma peptidomics",
+    "Non-liver assays and numerical differential-protein results"
+  ],
+  "population_or_material": "Pig liver materials in the salty-former-food versus control comparison of the LFQ proteomics experiment.",
+  "requested_items": [
+    "Salty versus control diet, dietary salt exposure and exposure/terminal collection interval"
+  ],
+  "resources": [
+    {
+      "accession": "PXD049972",
+      "url": "https://www.ebi.ac.uk/pride/archive/projects/PXD049972"
+    }
+  ],
+  "domain": "basic",
+  "pipeline": "basic-research",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/basic-research.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

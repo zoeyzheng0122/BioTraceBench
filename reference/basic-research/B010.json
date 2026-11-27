@@ -1,0 +1,159 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "Affinity-purification LC-MS/MS for OCT4 phosphorylation-site mapping",
+      "experiment_run_accession": "PRIDE:PXD033619 (project)",
+      "method": "1st MS experiment, naïve 8E5 (Table S2). Anti-FLAG-M2 affinity enrichment and 3×FLAG peptide elution; tryptic digestion; data-dependent LC-MS/MS for OCT4 phosphorylation-site mapping.",
+      "platform": "Q Exactive Plus coupled to EASY-nLC 1200",
+      "sample_ids": [
+        "S0004"
+      ]
+    },
+    {
+      "assay_id": "A0002",
+      "assay_type": "Affinity-purification LC-MS/MS for OCT4 phosphorylation-site mapping",
+      "experiment_run_accession": "PRIDE:PXD033619 (project)",
+      "method": "1st MS experiment, primed 8E5 (Table S3). Anti-FLAG-M2 affinity enrichment and 3×FLAG peptide elution; tryptic digestion; data-dependent LC-MS/MS for OCT4 phosphorylation-site mapping.",
+      "platform": "Q Exactive Plus coupled to EASY-nLC 1200",
+      "sample_ids": [
+        "S0003"
+      ]
+    },
+    {
+      "assay_id": "A0003",
+      "assay_type": "Affinity-purification LC-MS/MS for OCT4 phosphorylation-site mapping",
+      "experiment_run_accession": "PRIDE:PXD033619 (project)",
+      "method": "2nd MS experiment, primed 9A10 (Table S4). Anti-FLAG-M2 affinity enrichment and 3×FLAG peptide elution; tryptic digestion; data-dependent LC-MS/MS for OCT4 phosphorylation-site mapping.",
+      "platform": "Q Exactive Plus coupled to EASY-nLC 1200",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0004",
+      "assay_type": "Affinity-purification LC-MS/MS for OCT4 phosphorylation-site mapping",
+      "experiment_run_accession": "PRIDE:PXD033619 (project)",
+      "method": "3rd MS experiment, primed 8E5 (Table S5). Anti-FLAG-M2 affinity enrichment and 3×FLAG peptide elution; tryptic digestion; data-dependent LC-MS/MS for OCT4 phosphorylation-site mapping.",
+      "platform": "Q Exactive Plus coupled to EASY-nLC 1200",
+      "sample_ids": [
+        "S0007"
+      ]
+    },
+    {
+      "assay_id": "A0005",
+      "assay_type": "Affinity-purification LC-MS/MS for OCT4 phosphorylation-site mapping",
+      "experiment_run_accession": "PRIDE:PXD033619 (project)",
+      "method": "4th MS experiment, naïve 9A10 (Table S6). Anti-FLAG-M2 affinity enrichment and 3×FLAG peptide elution; tryptic digestion; data-dependent LC-MS/MS for OCT4 phosphorylation-site mapping.",
+      "platform": "Q Exactive Plus coupled to EASY-nLC 1200",
+      "sample_ids": [
+        "S0002"
+      ]
+    },
+    {
+      "assay_id": "A0006",
+      "assay_type": "Affinity-purification LC-MS/MS for OCT4 phosphorylation-site mapping",
+      "experiment_run_accession": "PRIDE:PXD033619 (project)",
+      "method": "4th MS experiment, naïve 8E5 (Table S7). Anti-FLAG-M2 affinity enrichment and 3×FLAG peptide elution; tryptic digestion; data-dependent LC-MS/MS for OCT4 phosphorylation-site mapping.",
+      "platform": "Q Exactive Plus coupled to EASY-nLC 1200",
+      "sample_ids": [
+        "S0009"
+      ]
+    },
+    {
+      "assay_id": "A0007",
+      "assay_type": "Affinity-purification LC-MS/MS for OCT4 phosphorylation-site mapping",
+      "experiment_run_accession": "PRIDE:PXD033619 (project)",
+      "method": "4th MS experiment, primed 8E5 (Table S8). Anti-FLAG-M2 affinity enrichment and 3×FLAG peptide elution; tryptic digestion; data-dependent LC-MS/MS for OCT4 phosphorylation-site mapping.",
+      "platform": "Q Exactive Plus coupled to EASY-nLC 1200",
+      "sample_ids": [
+        "S0010"
+      ]
+    },
+    {
+      "assay_id": "A0008",
+      "assay_type": "Affinity-purification LC-MS/MS for OCT4 phosphorylation-site mapping",
+      "experiment_run_accession": "PRIDE:PXD033619 (project)",
+      "method": "5th MS experiment, primed 9A10 (Table S9). Anti-FLAG-M2 affinity enrichment and 3×FLAG peptide elution; tryptic digestion; data-dependent LC-MS/MS for OCT4 phosphorylation-site mapping.",
+      "platform": "Q Exactive Plus coupled to EASY-nLC 1200",
+      "sample_ids": [
+        "S0011"
+      ]
+    }
+  ],
+  "condition": [],
+  "sample": [
+    {
+      "biological_model": "Primed H1 hESCs with an endogenous TAP-tagged OCT4 allele",
+      "biological_source": "H1 hESC (SCSP-301), clone 9A10",
+      "sample_accession": null,
+      "sample_id": "S0001",
+      "sample_material": "Affinity-purified TAP-OCT4-containing eluate from cell lysates, obtained using anti-FLAG-M2 beads and 3×FLAG peptide elution. Source cells were maintained in the primed state in feeder-free mTeSR1 medium. Source primed cells were maintained at 5% O2. Requested Primed-state culture duration, clone 9A10: numerical value not reported; no quantitative condition row created.",
+      "sample_name": "2nd MS experiment for TAP-OCT4 phosphoproteomics in primed 9A10 cells",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Naïve-like H1 hESCs with an endogenous TAP-tagged OCT4 allele",
+      "biological_source": "H1 hESC (SCSP-301), clone 9A10",
+      "sample_accession": null,
+      "sample_id": "S0002",
+      "sample_material": "Affinity-purified TAP-OCT4-containing eluate from cell lysates, obtained using anti-FLAG-M2 beads and 3×FLAG peptide elution. Source cells were converted from the primed state to a naïve-like state using RSeT Feeder-Free Medium. Before conversion to the naive-like state, source primed cells were cultured at 20% O2 for one week. Requested Naïve-like-state culture duration, clone 9A10: numerical value not reported; no quantitative condition row created.",
+      "sample_name": "4th MS experiment for TAP-OCT4 phosphoproteomics in naïve 9A10 cells",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Primed H1 hESCs with an endogenous TAP-tagged OCT4 allele",
+      "biological_source": "H1 hESC (SCSP-301), clone 8E5",
+      "sample_accession": null,
+      "sample_id": "S0003",
+      "sample_material": "Affinity-purified TAP-OCT4-containing eluate from cell lysates, obtained using anti-FLAG-M2 beads and 3×FLAG peptide elution. Source cells were maintained in the primed state in feeder-free mTeSR1 medium. Source primed cells were maintained at 5% O2. Requested Primed-state culture duration, clone 8E5: numerical value not reported; no quantitative condition row created.",
+      "sample_name": "1st MS experiment for TAP-OCT4 phosphoproteomics in primed 8E5 cells",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Naïve-like H1 hESCs with an endogenous TAP-tagged OCT4 allele",
+      "biological_source": "H1 hESC (SCSP-301), clone 8E5",
+      "sample_accession": null,
+      "sample_id": "S0004",
+      "sample_material": "Affinity-purified TAP-OCT4-containing eluate from cell lysates, obtained using anti-FLAG-M2 beads and 3×FLAG peptide elution. Source cells were converted from the primed state to a naïve-like state using RSeT Feeder-Free Medium. Before conversion to the naive-like state, source primed cells were cultured at 20% O2 for one week. Requested Naïve-like-state culture duration, clone 8E5: numerical value not reported; no quantitative condition row created.",
+      "sample_name": "1st MS experiment for TAP-OCT4 phosphoproteomics in naïve 8E5 cells",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Primed H1 hESCs with an endogenous TAP-tagged OCT4 allele",
+      "biological_source": "H1 hESC (SCSP-301), clone 8E5",
+      "sample_accession": null,
+      "sample_id": "S0007",
+      "sample_material": "Affinity-purified TAP-OCT4-containing eluate from cell lysates, obtained using anti-FLAG-M2 beads and 3×FLAG peptide elution. Source cells were maintained in the primed state in feeder-free mTeSR1 medium. Source primed cells were maintained at 5% O2. Requested Primed-state culture duration, clone 8E5: numerical value not reported; no quantitative condition row created.",
+      "sample_name": "3rd MS experiment for TAP-OCT4 phosphoproteomics in primed 8E5 cells",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Naïve-like H1 hESCs with an endogenous TAP-tagged OCT4 allele",
+      "biological_source": "H1 hESC (SCSP-301), clone 8E5",
+      "sample_accession": null,
+      "sample_id": "S0009",
+      "sample_material": "Affinity-purified TAP-OCT4-containing eluate from cell lysates, obtained using anti-FLAG-M2 beads and 3×FLAG peptide elution. Source cells were converted from the primed state to a naïve-like state using RSeT Feeder-Free Medium. Before conversion to the naive-like state, source primed cells were cultured at 20% O2 for one week. Requested Naïve-like-state culture duration, clone 8E5: numerical value not reported; no quantitative condition row created.",
+      "sample_name": "4th MS experiment for TAP-OCT4 phosphoproteomics in naïve 8E5 cells",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Primed H1 hESCs with an endogenous TAP-tagged OCT4 allele",
+      "biological_source": "H1 hESC (SCSP-301), clone 8E5",
+      "sample_accession": null,
+      "sample_id": "S0010",
+      "sample_material": "Affinity-purified TAP-OCT4-containing eluate from cell lysates, obtained using anti-FLAG-M2 beads and 3×FLAG peptide elution. Source cells were maintained in the primed state in feeder-free mTeSR1 medium. Source primed cells were maintained at 5% O2. Requested Primed-state culture duration, clone 8E5: numerical value not reported; no quantitative condition row created.",
+      "sample_name": "4th MS experiment for TAP-OCT4 phosphoproteomics in primed 8E5 cells",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Primed H1 hESCs with an endogenous TAP-tagged OCT4 allele",
+      "biological_source": "H1 hESC (SCSP-301), clone 9A10",
+      "sample_accession": null,
+      "sample_id": "S0011",
+      "sample_material": "Affinity-purified TAP-OCT4-containing eluate from cell lysates, obtained using anti-FLAG-M2 beads and 3×FLAG peptide elution. Source cells were maintained in the primed state in feeder-free mTeSR1 medium. Source primed cells were maintained at 5% O2. Requested Primed-state culture duration, clone 9A10: numerical value not reported; no quantitative condition row created.",
+      "sample_name": "5th MS experiment for TAP-OCT4 phosphoproteomics in primed 9A10 cells",
+      "species": "Homo sapiens"
+    }
+  ]
+}

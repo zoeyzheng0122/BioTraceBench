@@ -1,0 +1,30 @@
+{
+  "case_id": "C038",
+  "task_id": "C038",
+  "title": "Efficacy, Safety, and Pharmacokinetics of Upadacitinib Among Patients in East Asia With Moderately to Severely Active Ulcerative Colitis: A Post Hoc Subanalysis of Randomized Phase 3 Studies",
+  "doi": "10.1111/jgh.70634",
+  "comparison_or_design": "The UC1 induction comparison of upadacitinib 45 mg daily and placebo.",
+  "observations_or_assays": [
+    "Clinical remission per adapted Mayo score",
+    "Clinical response per adapted Mayo score",
+    "Endoscopic improvement"
+  ],
+  "time_scope": "UC1 induction week 8 only.",
+  "excluded": [
+    "UC2, UC3, pooled/global populations and biologic-failure subgroups",
+    "Other efficacy thresholds, PK and safety"
+  ],
+  "population_or_material": "East Asian patients in the UC1 (U-ACHIEVE induction) efficacy analysis population only.",
+  "requested_items": [
+    "Table 2 East Asian UC1 week-eight percentages/CI and reported treatment differences for the three specified criteria. Include responder counts only if explicitly reported; do not infer them from rounded percentages. Exclude overall UC1, UC2 and maintenance results."
+  ],
+  "resources": [],
+  "case_specific_rules": [],
+  "domain": "clinical",
+  "pipeline": "clinical-trials",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/clinical-trials.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

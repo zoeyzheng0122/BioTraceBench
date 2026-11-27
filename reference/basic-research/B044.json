@@ -1,0 +1,611 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX30208684 (experiment); SRA:SRR35098606 (run)",
+      "method": "KC-Digital Stranded mRNA library preparation with 8-base UMIs; paired-end RNA-seq. Platform follows the registered experiment/run metadata; the article instead reports Illumina HiSeq X10. MP denotes the SNMP group.",
+      "platform": "Illumina NovaSeq 6000",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0002",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX30208685 (experiment); SRA:SRR35098605 (run)",
+      "method": "KC-Digital Stranded mRNA library preparation with 8-base UMIs; paired-end RNA-seq. Platform follows the registered experiment/run metadata; the article instead reports Illumina HiSeq X10. MP denotes the SNMP group.",
+      "platform": "Illumina NovaSeq 6000",
+      "sample_ids": [
+        "S0002"
+      ]
+    },
+    {
+      "assay_id": "A0003",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX30208686 (experiment); SRA:SRR35098604 (run)",
+      "method": "KC-Digital Stranded mRNA library preparation with 8-base UMIs; paired-end RNA-seq. Platform follows the registered experiment/run metadata; the article instead reports Illumina HiSeq X10. MP denotes the SNMP group.",
+      "platform": "Illumina NovaSeq 6000",
+      "sample_ids": [
+        "S0003"
+      ]
+    },
+    {
+      "assay_id": "A0004",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX30208687 (experiment); SRA:SRR35098603 (run)",
+      "method": "KC-Digital Stranded mRNA library preparation with 8-base UMIs; paired-end RNA-seq. Platform follows the registered experiment/run metadata; the article instead reports Illumina HiSeq X10. MP denotes the SNMP group.",
+      "platform": "Illumina NovaSeq 6000",
+      "sample_ids": [
+        "S0004"
+      ]
+    },
+    {
+      "assay_id": "A0005",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX30208688 (experiment); SRA:SRR35098601 (run)",
+      "method": "KC-Digital Stranded mRNA library preparation with 8-base UMIs; paired-end RNA-seq. Platform follows the registered experiment/run metadata; the article instead reports Illumina HiSeq X10. MP denotes the SNMP group.",
+      "platform": "Illumina NovaSeq 6000",
+      "sample_ids": [
+        "S0005"
+      ]
+    },
+    {
+      "assay_id": "A0006",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX30208689 (experiment); SRA:SRR35098600 (run)",
+      "method": "KC-Digital Stranded mRNA library preparation with 8-base UMIs; paired-end RNA-seq. Platform follows the registered experiment/run metadata; the article instead reports Illumina HiSeq X10. MP denotes the SNMP group.",
+      "platform": "Illumina NovaSeq 6000",
+      "sample_ids": [
+        "S0006"
+      ]
+    },
+    {
+      "assay_id": "A0007",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX30208690 (experiment); SRA:SRR35098599 (run)",
+      "method": "KC-Digital Stranded mRNA library preparation with 8-base UMIs; paired-end RNA-seq. Platform follows the registered experiment/run metadata; the article instead reports Illumina HiSeq X10. MP denotes the SNMP group.",
+      "platform": "Illumina NovaSeq 6000",
+      "sample_ids": [
+        "S0007"
+      ]
+    },
+    {
+      "assay_id": "A0008",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX30208691 (experiment); SRA:SRR35098602 (run)",
+      "method": "KC-Digital Stranded mRNA library preparation with 8-base UMIs; paired-end RNA-seq. Platform follows the registered experiment/run metadata; the article instead reports Illumina HiSeq X10. MP denotes the SNMP group.",
+      "platform": "Illumina NovaSeq 6000",
+      "sample_ids": [
+        "S0008"
+      ]
+    },
+    {
+      "assay_id": "A0009",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX30208692 (experiment); SRA:SRR35098598 (run)",
+      "method": "KC-Digital Stranded mRNA library preparation with 8-base UMIs; paired-end RNA-seq. Platform follows the registered experiment/run metadata; the article instead reports Illumina HiSeq X10. MP denotes the SNMP group.",
+      "platform": "Illumina NovaSeq 6000",
+      "sample_ids": [
+        "S0009"
+      ]
+    }
+  ],
+  "condition": [
+    {
+      "condition_id": "C0001",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Asystolic warm ischemia duration",
+      "factor_unit": "min",
+      "factor_value": 30,
+      "sample_id": "S0001",
+      "time": "From cardiac arrest to cold flushing before preservation"
+    },
+    {
+      "condition_id": "C0002",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Preservation temperature",
+      "factor_unit": "°C",
+      "factor_value": 4,
+      "sample_id": "S0001",
+      "time": "During the 2-h preservation period before normothermic reperfusion"
+    },
+    {
+      "condition_id": "C0003",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Preservation duration",
+      "factor_unit": "h",
+      "factor_value": 2,
+      "sample_id": "S0001",
+      "time": "From start of preservation to transfer to normothermic reperfusion"
+    },
+    {
+      "condition_id": "C0004",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Normothermic reperfusion temperature",
+      "factor_unit": "°C",
+      "factor_value": 38,
+      "sample_id": "S0001",
+      "time": "During the 1-h reperfusion period before tissue collection"
+    },
+    {
+      "condition_id": "C0005",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Normothermic reperfusion duration",
+      "factor_unit": "h",
+      "factor_value": 1,
+      "sample_id": "S0001",
+      "time": "From start of normothermic reperfusion to tissue collection"
+    },
+    {
+      "condition_id": "C0006",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Asystolic warm ischemia duration",
+      "factor_unit": "min",
+      "factor_value": 30,
+      "sample_id": "S0002",
+      "time": "From cardiac arrest to cold flushing before preservation"
+    },
+    {
+      "condition_id": "C0007",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Preservation temperature",
+      "factor_unit": "°C",
+      "factor_value": 4,
+      "sample_id": "S0002",
+      "time": "During the 2-h preservation period before normothermic reperfusion"
+    },
+    {
+      "condition_id": "C0008",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Preservation duration",
+      "factor_unit": "h",
+      "factor_value": 2,
+      "sample_id": "S0002",
+      "time": "From start of preservation to transfer to normothermic reperfusion"
+    },
+    {
+      "condition_id": "C0009",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Normothermic reperfusion temperature",
+      "factor_unit": "°C",
+      "factor_value": 38,
+      "sample_id": "S0002",
+      "time": "During the 1-h reperfusion period before tissue collection"
+    },
+    {
+      "condition_id": "C0010",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Normothermic reperfusion duration",
+      "factor_unit": "h",
+      "factor_value": 1,
+      "sample_id": "S0002",
+      "time": "From start of normothermic reperfusion to tissue collection"
+    },
+    {
+      "condition_id": "C0011",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Asystolic warm ischemia duration",
+      "factor_unit": "min",
+      "factor_value": 30,
+      "sample_id": "S0003",
+      "time": "From cardiac arrest to cold flushing before preservation"
+    },
+    {
+      "condition_id": "C0012",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Preservation temperature",
+      "factor_unit": "°C",
+      "factor_value": 4,
+      "sample_id": "S0003",
+      "time": "During the 2-h preservation period before normothermic reperfusion"
+    },
+    {
+      "condition_id": "C0013",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Preservation duration",
+      "factor_unit": "h",
+      "factor_value": 2,
+      "sample_id": "S0003",
+      "time": "From start of preservation to transfer to normothermic reperfusion"
+    },
+    {
+      "condition_id": "C0014",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Normothermic reperfusion temperature",
+      "factor_unit": "°C",
+      "factor_value": 38,
+      "sample_id": "S0003",
+      "time": "During the 1-h reperfusion period before tissue collection"
+    },
+    {
+      "condition_id": "C0015",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Normothermic reperfusion duration",
+      "factor_unit": "h",
+      "factor_value": 1,
+      "sample_id": "S0003",
+      "time": "From start of normothermic reperfusion to tissue collection"
+    },
+    {
+      "condition_id": "C0016",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Asystolic warm ischemia duration",
+      "factor_unit": "min",
+      "factor_value": 30,
+      "sample_id": "S0004",
+      "time": "From cardiac arrest to cold flushing before preservation"
+    },
+    {
+      "condition_id": "C0017",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Preservation temperature",
+      "factor_unit": "°C",
+      "factor_value": 25,
+      "sample_id": "S0004",
+      "time": "During the 2-h preservation period before normothermic reperfusion"
+    },
+    {
+      "condition_id": "C0018",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Preservation duration",
+      "factor_unit": "h",
+      "factor_value": 2,
+      "sample_id": "S0004",
+      "time": "From start of preservation to transfer to normothermic reperfusion"
+    },
+    {
+      "condition_id": "C0019",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Normothermic reperfusion temperature",
+      "factor_unit": "°C",
+      "factor_value": 38,
+      "sample_id": "S0004",
+      "time": "During the 1-h reperfusion period before tissue collection"
+    },
+    {
+      "condition_id": "C0020",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Normothermic reperfusion duration",
+      "factor_unit": "h",
+      "factor_value": 1,
+      "sample_id": "S0004",
+      "time": "From start of normothermic reperfusion to tissue collection"
+    },
+    {
+      "condition_id": "C0021",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Asystolic warm ischemia duration",
+      "factor_unit": "min",
+      "factor_value": 30,
+      "sample_id": "S0005",
+      "time": "From cardiac arrest to cold flushing before preservation"
+    },
+    {
+      "condition_id": "C0022",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Preservation temperature",
+      "factor_unit": "°C",
+      "factor_value": 25,
+      "sample_id": "S0005",
+      "time": "During the 2-h preservation period before normothermic reperfusion"
+    },
+    {
+      "condition_id": "C0023",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Preservation duration",
+      "factor_unit": "h",
+      "factor_value": 2,
+      "sample_id": "S0005",
+      "time": "From start of preservation to transfer to normothermic reperfusion"
+    },
+    {
+      "condition_id": "C0024",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Normothermic reperfusion temperature",
+      "factor_unit": "°C",
+      "factor_value": 38,
+      "sample_id": "S0005",
+      "time": "During the 1-h reperfusion period before tissue collection"
+    },
+    {
+      "condition_id": "C0025",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Normothermic reperfusion duration",
+      "factor_unit": "h",
+      "factor_value": 1,
+      "sample_id": "S0005",
+      "time": "From start of normothermic reperfusion to tissue collection"
+    },
+    {
+      "condition_id": "C0026",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Asystolic warm ischemia duration",
+      "factor_unit": "min",
+      "factor_value": 30,
+      "sample_id": "S0006",
+      "time": "From cardiac arrest to cold flushing before preservation"
+    },
+    {
+      "condition_id": "C0027",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Preservation temperature",
+      "factor_unit": "°C",
+      "factor_value": 25,
+      "sample_id": "S0006",
+      "time": "During the 2-h preservation period before normothermic reperfusion"
+    },
+    {
+      "condition_id": "C0028",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Preservation duration",
+      "factor_unit": "h",
+      "factor_value": 2,
+      "sample_id": "S0006",
+      "time": "From start of preservation to transfer to normothermic reperfusion"
+    },
+    {
+      "condition_id": "C0029",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Normothermic reperfusion temperature",
+      "factor_unit": "°C",
+      "factor_value": 38,
+      "sample_id": "S0006",
+      "time": "During the 1-h reperfusion period before tissue collection"
+    },
+    {
+      "condition_id": "C0030",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Normothermic reperfusion duration",
+      "factor_unit": "h",
+      "factor_value": 1,
+      "sample_id": "S0006",
+      "time": "From start of normothermic reperfusion to tissue collection"
+    },
+    {
+      "condition_id": "C0031",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Asystolic warm ischemia duration",
+      "factor_unit": "min",
+      "factor_value": 30,
+      "sample_id": "S0007",
+      "time": "From cardiac arrest to cold flushing before preservation"
+    },
+    {
+      "condition_id": "C0032",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Preservation temperature",
+      "factor_unit": "°C",
+      "factor_value": 25,
+      "sample_id": "S0007",
+      "time": "During the 2-h preservation period before normothermic reperfusion"
+    },
+    {
+      "condition_id": "C0033",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Preservation duration",
+      "factor_unit": "h",
+      "factor_value": 2,
+      "sample_id": "S0007",
+      "time": "From start of preservation to transfer to normothermic reperfusion"
+    },
+    {
+      "condition_id": "C0034",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Normothermic reperfusion temperature",
+      "factor_unit": "°C",
+      "factor_value": 38,
+      "sample_id": "S0007",
+      "time": "During the 1-h reperfusion period before tissue collection"
+    },
+    {
+      "condition_id": "C0035",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Normothermic reperfusion duration",
+      "factor_unit": "h",
+      "factor_value": 1,
+      "sample_id": "S0007",
+      "time": "From start of normothermic reperfusion to tissue collection"
+    },
+    {
+      "condition_id": "C0036",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Resveratrol concentration",
+      "factor_unit": "µmol/L",
+      "factor_value": 10,
+      "sample_id": "S0007",
+      "time": "During the 2-h subnormothermic preservation period"
+    },
+    {
+      "condition_id": "C0037",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Asystolic warm ischemia duration",
+      "factor_unit": "min",
+      "factor_value": 30,
+      "sample_id": "S0008",
+      "time": "From cardiac arrest to cold flushing before preservation"
+    },
+    {
+      "condition_id": "C0038",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Preservation temperature",
+      "factor_unit": "°C",
+      "factor_value": 25,
+      "sample_id": "S0008",
+      "time": "During the 2-h preservation period before normothermic reperfusion"
+    },
+    {
+      "condition_id": "C0039",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Preservation duration",
+      "factor_unit": "h",
+      "factor_value": 2,
+      "sample_id": "S0008",
+      "time": "From start of preservation to transfer to normothermic reperfusion"
+    },
+    {
+      "condition_id": "C0040",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Normothermic reperfusion temperature",
+      "factor_unit": "°C",
+      "factor_value": 38,
+      "sample_id": "S0008",
+      "time": "During the 1-h reperfusion period before tissue collection"
+    },
+    {
+      "condition_id": "C0041",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Normothermic reperfusion duration",
+      "factor_unit": "h",
+      "factor_value": 1,
+      "sample_id": "S0008",
+      "time": "From start of normothermic reperfusion to tissue collection"
+    },
+    {
+      "condition_id": "C0042",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Resveratrol concentration",
+      "factor_unit": "µmol/L",
+      "factor_value": 10,
+      "sample_id": "S0008",
+      "time": "During the 2-h subnormothermic preservation period"
+    },
+    {
+      "condition_id": "C0043",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Asystolic warm ischemia duration",
+      "factor_unit": "min",
+      "factor_value": 30,
+      "sample_id": "S0009",
+      "time": "From cardiac arrest to cold flushing before preservation"
+    },
+    {
+      "condition_id": "C0044",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Preservation temperature",
+      "factor_unit": "°C",
+      "factor_value": 25,
+      "sample_id": "S0009",
+      "time": "During the 2-h preservation period before normothermic reperfusion"
+    },
+    {
+      "condition_id": "C0045",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Preservation duration",
+      "factor_unit": "h",
+      "factor_value": 2,
+      "sample_id": "S0009",
+      "time": "From start of preservation to transfer to normothermic reperfusion"
+    },
+    {
+      "condition_id": "C0046",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Normothermic reperfusion temperature",
+      "factor_unit": "°C",
+      "factor_value": 38,
+      "sample_id": "S0009",
+      "time": "During the 1-h reperfusion period before tissue collection"
+    },
+    {
+      "condition_id": "C0047",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Normothermic reperfusion duration",
+      "factor_unit": "h",
+      "factor_value": 1,
+      "sample_id": "S0009",
+      "time": "From start of normothermic reperfusion to tissue collection"
+    },
+    {
+      "condition_id": "C0048",
+      "condition_target": "Source donor liver",
+      "experimental_factor": "Resveratrol concentration",
+      "factor_unit": "µmol/L",
+      "factor_value": 10,
+      "sample_id": "S0009",
+      "time": "During the 2-h subnormothermic preservation period"
+    }
+  ],
+  "sample": [
+    {
+      "biological_model": "Donation-after-circulatory-death donor-liver ischemia–reperfusion model",
+      "biological_source": "Liver from male Sprague-Dawley rats (250–320 g).",
+      "sample_accession": "BioSample:SAMN50757483 (sample); SRA:SRS26267880 (sample)",
+      "sample_id": "S0001",
+      "sample_material": "Total RNA from liver tissue after 30 min asystolic warm ischemia, static cold storage in UW solution at 4 °C for 2 h, then 1 h normothermic reperfusion with diluted donor blood at 38 °C. Native library/sample alias identifies this preparation.",
+      "sample_name": "SCS_3",
+      "species": "Rattus norvegicus"
+    },
+    {
+      "biological_model": "Donation-after-circulatory-death donor-liver ischemia–reperfusion model",
+      "biological_source": "Liver from male Sprague-Dawley rats (250–320 g).",
+      "sample_accession": "BioSample:SAMN50757484 (sample); SRA:SRS26267881 (sample)",
+      "sample_id": "S0002",
+      "sample_material": "Total RNA from liver tissue after 30 min asystolic warm ischemia, static cold storage in UW solution at 4 °C for 2 h, then 1 h normothermic reperfusion with diluted donor blood at 38 °C. Native library/sample alias identifies this preparation.",
+      "sample_name": "SCS_4",
+      "species": "Rattus norvegicus"
+    },
+    {
+      "biological_model": "Donation-after-circulatory-death donor-liver ischemia–reperfusion model",
+      "biological_source": "Liver from male Sprague-Dawley rats (250–320 g).",
+      "sample_accession": "BioSample:SAMN50757485 (sample); SRA:SRS26267882 (sample)",
+      "sample_id": "S0003",
+      "sample_material": "Total RNA from liver tissue after 30 min asystolic warm ischemia, static cold storage in UW solution at 4 °C for 2 h, then 1 h normothermic reperfusion with diluted donor blood at 38 °C. Native library/sample alias identifies this preparation.",
+      "sample_name": "SCS_5",
+      "species": "Rattus norvegicus"
+    },
+    {
+      "biological_model": "Donation-after-circulatory-death donor-liver ischemia–reperfusion model",
+      "biological_source": "Liver from male Sprague-Dawley rats (250–320 g).",
+      "sample_accession": "BioSample:SAMN50757486 (sample); SRA:SRS26267883 (sample)",
+      "sample_id": "S0004",
+      "sample_material": "Total RNA from liver tissue after 30 min asystolic warm ischemia, subnormothermic machine perfusion at 25 °C for 2 h, then 1 h normothermic reperfusion with diluted donor blood at 38 °C. Native library/sample alias identifies this preparation.",
+      "sample_name": "MP_1",
+      "species": "Rattus norvegicus"
+    },
+    {
+      "biological_model": "Donation-after-circulatory-death donor-liver ischemia–reperfusion model",
+      "biological_source": "Liver from male Sprague-Dawley rats (250–320 g).",
+      "sample_accession": "BioSample:SAMN50757487 (sample); SRA:SRS26267884 (sample)",
+      "sample_id": "S0005",
+      "sample_material": "Total RNA from liver tissue after 30 min asystolic warm ischemia, subnormothermic machine perfusion at 25 °C for 2 h, then 1 h normothermic reperfusion with diluted donor blood at 38 °C. Native library/sample alias identifies this preparation.",
+      "sample_name": "MP_3",
+      "species": "Rattus norvegicus"
+    },
+    {
+      "biological_model": "Donation-after-circulatory-death donor-liver ischemia–reperfusion model",
+      "biological_source": "Liver from male Sprague-Dawley rats (250–320 g).",
+      "sample_accession": "BioSample:SAMN50757488 (sample); SRA:SRS26267885 (sample)",
+      "sample_id": "S0006",
+      "sample_material": "Total RNA from liver tissue after 30 min asystolic warm ischemia, subnormothermic machine perfusion at 25 °C for 2 h, then 1 h normothermic reperfusion with diluted donor blood at 38 °C. Native library/sample alias identifies this preparation.",
+      "sample_name": "MP_4",
+      "species": "Rattus norvegicus"
+    },
+    {
+      "biological_model": "Donation-after-circulatory-death donor-liver ischemia–reperfusion model",
+      "biological_source": "Liver from male Sprague-Dawley rats (250–320 g).",
+      "sample_accession": "BioSample:SAMN50757489 (sample); SRA:SRS26267886 (sample)",
+      "sample_id": "S0007",
+      "sample_material": "Total RNA from liver tissue after 30 min asystolic warm ischemia, subnormothermic machine perfusion at 25 °C for 2 h with 10 µmol/L resveratrol, then 1 h normothermic reperfusion with diluted donor blood at 38 °C. Native library/sample alias identifies this preparation.",
+      "sample_name": "Res_3",
+      "species": "Rattus norvegicus"
+    },
+    {
+      "biological_model": "Donation-after-circulatory-death donor-liver ischemia–reperfusion model",
+      "biological_source": "Liver from male Sprague-Dawley rats (250–320 g).",
+      "sample_accession": "BioSample:SAMN50757490 (sample); SRA:SRS26267887 (sample)",
+      "sample_id": "S0008",
+      "sample_material": "Total RNA from liver tissue after 30 min asystolic warm ischemia, subnormothermic machine perfusion at 25 °C for 2 h with 10 µmol/L resveratrol, then 1 h normothermic reperfusion with diluted donor blood at 38 °C. Native library/sample alias identifies this preparation.",
+      "sample_name": "Res_4",
+      "species": "Rattus norvegicus"
+    },
+    {
+      "biological_model": "Donation-after-circulatory-death donor-liver ischemia–reperfusion model",
+      "biological_source": "Liver from male Sprague-Dawley rats (250–320 g).",
+      "sample_accession": "BioSample:SAMN50757491 (sample); SRA:SRS26267888 (sample)",
+      "sample_id": "S0009",
+      "sample_material": "Total RNA from liver tissue after 30 min asystolic warm ischemia, subnormothermic machine perfusion at 25 °C for 2 h with 10 µmol/L resveratrol, then 1 h normothermic reperfusion with diluted donor blood at 38 °C. Native library/sample alias identifies this preparation.",
+      "sample_name": "Res_5",
+      "species": "Rattus norvegicus"
+    }
+  ]
+}

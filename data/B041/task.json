@@ -1,0 +1,35 @@
+{
+  "case_id": "B041",
+  "task_id": "B041",
+  "title": "The molecular signature of degeneration in explanted decellularized allogeneic heart valves",
+  "doi": "10.3389/fcvm.2026.1865343",
+  "comparison_or_design": "Construct the three basic tables for the NanoString Human Fibrosis V2 comparison of explanted decellularized aortic homografts and native/reference aortic-valve tissues. Use the main article's Table 1 to determine explant eligibility and the supplied source annotations to identify preparations and profiles.",
+  "observations_or_assays": [
+    "NanoString nCounter Human Fibrosis V2 expression profiles only."
+  ],
+  "time_scope": "reported implantation-to-explantation intervals and the FFPE tissue preparations used for the selected comparison.",
+  "excluded": [
+    "Pulmonary valves, inflammation-only aortic cases and the separate human-inflammation panel.",
+    "Additional Figshare candidates without a supported Table 1 aortic/fibrosis correspondence, even if a metadata field labels them AV.",
+    "Immunostaining, gene-expression values, inferred causal treatment effects and unsupported donor/profile assignments."
+  ],
+  "population_or_material": "Explants: include aortic-valve cases explicitly eligible for the fibrosis panel in main-text Table 1. Read the anatomy and Analysis columns together: F and F + I are eligible; I alone is not. References: retain individually identifiable aortic-reference preparations from the Figshare fibrosis Summary annotation, corroborated by the Fibrosis_raw_counts profile headers. Reference tissues need not appear as individual rows in Table 1, which lists the explanted homografts.",
+  "requested_items": [
+    "Record the reported implantation-to-explantation interval as a numeric Factor Value in months. Exact conversion using 12 months per year is allowed; retain the source's compound interval in anchored Time text. Do not invent a zero interval for reference tissues.",
+    "Describe homograft versus native/reference status, aortic anatomy and FFPE preservation in the appropriate Samples description fields. Keep original graft donor, recipient and reference-tissue donor roles distinct; do not infer the cellular origin of measured RNA from the explant recipient.",
+    "Describe supported processing history in Sample Material or Method. A cohort-level statement that most explants underwent decalcification does not identify which preparations underwent it, or their duration. Do not assume an optional extra decalcification step for every sample or enumerate routine extraction recipes as additional condition rows."
+  ],
+  "resources": [
+    {
+      "accession": "10.6084/m9.figshare.32051796.v3",
+      "url": "https://doi.org/10.6084/m9.figshare.32051796.v3"
+    }
+  ],
+  "domain": "basic",
+  "pipeline": "basic-research",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/basic-research.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

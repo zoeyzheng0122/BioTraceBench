@@ -1,0 +1,175 @@
+{
+  "measure": [
+    {
+      "measure_definition": "Confirmed objective response: complete or partial response per RECIST v1.1, determined by blinded independent central review and confirmed at a subsequent scan at least 4 weeks later. ORR is the proportion of participants with confirmed CR or PR.",
+      "measure_id": "M0",
+      "measure_name": "Confirmed objective response (complete response or partial response)"
+    },
+    {
+      "measure_definition": "Time to event: randomization to first objective disease progression per RECIST v1.1 by BICR or death from any cause; Participants; BICR per RECIST v1.1; Kaplan–Meier estimates; between-arm comparison by stratified log-rank test and Cox proportional hazards model stratified by PD-(L)1 resistance type and LDH.; PFS defined as time from randomization until objective disease progression per RECIST v1.1 assessed by BICR or death from any cause in the absence of progression. Figure 2 caption states patients with no observed events are censored based on the last recorded date on which the subject was known to be alive.",
+      "measure_id": "M1",
+      "measure_name": "Progression-free survival"
+    },
+    {
+      "measure_definition": "Time to event: randomization to death from any cause; Participants; Kaplan–Meier estimates; between-arm comparison by stratified log-rank test and Cox proportional hazards model stratified by PD-(L)1 resistance type and LDH.; OS defined as time from randomization until death from any cause. Figure 2 caption states patients with no observed events are censored based on the last recorded date on which the subject was known to be alive.",
+      "measure_id": "M2",
+      "measure_name": "Overall survival"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "Ceralasertib plus durvalumab or ceralasertib monotherapy",
+      "intervention_regimen": "Ceralasertib 240 mg twice daily; durvalumab 1,500 mg intravenously in the combination arm; Ceralasertib 240 mg twice daily on days 1–7, with or without durvalumab 1,500 mg intravenously on day 8, every 28 days",
+      "population_definition": "All randomized patients irrespective of treatment received (full analysis set); Adults with histologically or cytologically confirmed unresectable or metastatic melanoma of cutaneous, acral, or mucosal (nonuveal) subtype; confirmed progression during anti–PD-(L)1 therapy with or without anti–CTLA-4; at least one prior immunotherapy for a minimum of 6 weeks and no more than two prior regimens in the metastatic setting; randomized 2:1 in MONETTE. Full analysis set includes all patients who underwent randomization.",
+      "population_id": "P0",
+      "population_name": "MONETTE full analysis set (all randomized patients)",
+      "population_size": 151,
+      "population_time_frame": "Screening/enrolment period: August 11, 2022 to April 12, 2024; data cutoff April 12, 2024"
+    },
+    {
+      "intervention": "Ceralasertib plus durvalumab",
+      "intervention_regimen": "Ceralasertib 240 mg twice daily; durvalumab 1,500 mg intravenously; Ceralasertib 240 mg twice daily on days 1–7 followed by durvalumab 1,500 mg intravenously on day 8, every 28 days",
+      "population_definition": "Randomized to ceralasertib plus durvalumab (2:1 randomization); Full analysis set members randomized to ceralasertib plus durvalumab; includes all randomized patients irrespective of treatment received.",
+      "population_id": "P1",
+      "population_name": "MONETTE full analysis set — ceralasertib plus durvalumab arm",
+      "population_size": 100,
+      "population_time_frame": "Screening/enrolment period: August 11, 2022 to April 12, 2024; data cutoff April 12, 2024"
+    },
+    {
+      "intervention": "Ceralasertib",
+      "intervention_regimen": "Ceralasertib 240 mg twice daily; Ceralasertib 240 mg twice daily on days 1–7, every 28 days",
+      "population_definition": "Randomized to ceralasertib monotherapy (2:1 randomization); Full analysis set members randomized to ceralasertib monotherapy; includes all randomized patients irrespective of treatment received.",
+      "population_id": "P2",
+      "population_name": "MONETTE full analysis set — ceralasertib monotherapy arm",
+      "population_size": 51,
+      "population_time_frame": "Screening/enrolment period: August 11, 2022 to April 12, 2024; data cutoff April 12, 2024"
+    }
+  ],
+  "population_relation": [
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P2",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P2",
+      "relationship": "disjoint from"
+    }
+  ],
+  "result": [
+    {
+      "assessment_time": "At data cutoff April 12, 2024; secondary analysis in the full analysis set",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R03",
+      "result_unit": "participants",
+      "result_value": 9,
+      "statistic_type": "Number of participants with confirmed objective response (CR or PR) per BICR",
+      "statistical_method": null,
+      "supplementary_statistics": "9.0%; 95% CI, 4.2–16.4; Reported denominator: 100"
+    },
+    {
+      "assessment_time": "At data cutoff April 12, 2024; secondary analysis in the full analysis set",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P2",
+      "result_id": "R04",
+      "result_unit": "participants",
+      "result_value": 3,
+      "statistic_type": "Number of participants with confirmed objective response (CR or PR) per BICR",
+      "statistical_method": null,
+      "supplementary_statistics": "5.9%; 95% CI, 1.2–16.2; Reported denominator: 51"
+    },
+    {
+      "assessment_time": "At data cutoff April 12, 2024; secondary analysis in the full analysis set",
+      "comparison": "P1 versus P2; logistic-model OR; numerator/event coding not explicitly labelled",
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R05",
+      "result_unit": null,
+      "result_value": 1.59,
+      "statistic_type": "Adjusted odds ratio for treatment-arm comparison (as reported; direction not explicitly labeled in extracted table)",
+      "statistical_method": "Logistic regression in the full analysis set, adjusted for PD-(L)1 resistance type and LDH as randomization-stratification covariates; 95% profile likelihood confidence interval.",
+      "supplementary_statistics": "95% CI, 0.45–7.43; P = 0.492"
+    },
+    {
+      "assessment_time": "At data cutoff April 12, 2024; full analysis set",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R06",
+      "result_unit": "months",
+      "result_value": 2.0,
+      "statistic_type": "Median progression-free survival (Kaplan–Meier estimate)",
+      "statistical_method": "Kaplan–Meier estimation",
+      "supplementary_statistics": "95% CI, 1.9–3.5; endpoint analysis n = 100 (registry)"
+    },
+    {
+      "assessment_time": "At data cutoff April 12, 2024; full analysis set",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P2",
+      "result_id": "R07",
+      "result_unit": "months",
+      "result_value": 1.9,
+      "statistic_type": "Median progression-free survival (Kaplan–Meier estimate)",
+      "statistical_method": "Kaplan–Meier estimation",
+      "supplementary_statistics": "95% CI, 1.9–3.1; endpoint analysis n = 51 (registry)"
+    },
+    {
+      "assessment_time": "At data cutoff April 12, 2024; full analysis set",
+      "comparison": "P1 relative to P2 (numerator versus reference)",
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R08",
+      "result_unit": null,
+      "result_value": 0.8,
+      "statistic_type": "Hazard ratio for progression or death (ceralasertib plus durvalumab vs ceralasertib monotherapy), stratified by PD-(L)1 resistance type and LDH",
+      "statistical_method": null,
+      "supplementary_statistics": "95% CI, 0.54–1.18; P value: Not reported"
+    },
+    {
+      "assessment_time": "At data cutoff April 12, 2024; full analysis set",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R09",
+      "result_unit": "months",
+      "result_value": 16.0,
+      "statistic_type": "Median overall survival (Kaplan–Meier estimate)",
+      "statistical_method": "Kaplan–Meier estimation",
+      "supplementary_statistics": "95% CI, 10.5–not calculated (NC); endpoint analysis n = 100 (registry)"
+    },
+    {
+      "assessment_time": "At data cutoff April 12, 2024; full analysis set",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P2",
+      "result_id": "R10",
+      "result_unit": "months",
+      "result_value": 12.3,
+      "statistic_type": "Median overall survival (Kaplan–Meier estimate)",
+      "statistical_method": "Kaplan–Meier estimation",
+      "supplementary_statistics": "95% CI, 9.5–NC; endpoint analysis n = 51 (registry)"
+    },
+    {
+      "assessment_time": "At data cutoff April 12, 2024; full analysis set",
+      "comparison": "P1 relative to P2 (numerator versus reference)",
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R11",
+      "result_unit": null,
+      "result_value": 0.81,
+      "statistic_type": "Hazard ratio for death (ceralasertib plus durvalumab vs ceralasertib monotherapy), stratified by PD-(L)1 resistance type and LDH",
+      "statistical_method": null,
+      "supplementary_statistics": "95% CI, 0.49–1.37; P value: Not reported"
+    }
+  ]
+}

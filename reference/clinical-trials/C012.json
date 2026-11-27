@@ -1,0 +1,400 @@
+{
+  "measure": [
+    {
+      "measure_definition": "Body weight measured in kilograms at baseline and week 12. Absolute values, absolute changes and percentage-change contrasts quantify the same clinical quantity; primary ITT weight analysis used multiple imputation for missing data.",
+      "measure_id": "M0",
+      "measure_name": "Body weight"
+    },
+    {
+      "measure_definition": "Glycated hemoglobin (HbA1c), reported in percent, assessed at baseline and week 12. Secondary available-case analysis without imputation; absolute values and changes quantify the same glycemic measure.",
+      "measure_id": "M4",
+      "measure_name": "HbA1c"
+    },
+    {
+      "measure_definition": "Total daily insulin dose in units/day, recorded from insulin-pump downloads or dose diaries during the 7-day periods before baseline and end-of-study visits. Absolute values, changes, geometric-mean ratios and relative percentage contrasts are distinguished in result rows; secondary available-case analysis without imputation.",
+      "measure_id": "M7",
+      "measure_name": "Total daily insulin dose"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "Tirzepatide",
+      "intervention_regimen": "2.5 mg for 4 weeks, then 5.0 mg for 8 weeks; one participant received 2.5 mg after reducing from 5.0 mg following gastroenteritis; Once-weekly subcutaneous injection for 12 weeks; target dose 5.0 mg after 4-week initiation at 2.5 mg",
+      "population_definition": "Randomized treatment allocation to tirzepatide; primary intention-to-treat weight analysis with multiple imputation.; Adults aged 18–60 years with at least a 2-year history of type 1 diabetes and BMI ≥30 kg/m2; randomized 1:1 to once-weekly subcutaneous tirzepatide or placebo and received at least one dose; included in the primary ITT weight analysis (n = 12 per group) with multiple imputation for missing 12-week weight data.",
+      "population_id": "P0",
+      "population_name": "Tirzepatide group — primary ITT weight analysis",
+      "population_size": 12,
+      "population_time_frame": "Randomized and treated between May and December 2024; baseline to 12 weeks"
+    },
+    {
+      "intervention": "Matching placebo (saline)",
+      "intervention_regimen": "Volume-matched placebo corresponding to 2.5 mg for 4 weeks and 5.0 mg for 8 weeks; Once-weekly subcutaneous injection for 12 weeks; volume-matched to the tirzepatide schedule",
+      "population_definition": "Randomized treatment allocation to matching placebo; primary intention-to-treat weight analysis with multiple imputation.; Adults aged 18–60 years with at least a 2-year history of type 1 diabetes and BMI ≥30 kg/m2; randomized 1:1 to once-weekly subcutaneous tirzepatide or placebo and received at least one dose; included in the primary ITT weight analysis (n = 12 per group) with multiple imputation for missing 12-week weight data.",
+      "population_id": "P1",
+      "population_name": "Placebo group — primary ITT weight analysis",
+      "population_size": 12,
+      "population_time_frame": "Randomized and treated between May and December 2024; baseline to 12 weeks"
+    },
+    {
+      "intervention": "Tirzepatide",
+      "intervention_regimen": "2.5 mg for 4 weeks, then 5.0 mg for 8 weeks; one participant received 2.5 mg after reducing from 5.0 mg following gastroenteritis; Once-weekly subcutaneous injection for 12 weeks; target dose 5.0 mg after 4-week initiation at 2.5 mg",
+      "population_definition": "Randomized tirzepatide arm; participants with end-of-treatment measures at 12 weeks; secondary outcomes analyzed without imputation.; Adults with type 1 diabetes and BMI ≥30 kg/m2 randomized to tirzepatide who provided end-of-treatment measures at 12 weeks; n = 11 for all non-primary outcomes, including HbA1c and total daily insulin dose; secondary end points analyzed without imputation.",
+      "population_id": "P2",
+      "population_name": "Tirzepatide group — available-case secondary outcome analysis",
+      "population_size": 11,
+      "population_time_frame": "Randomized and treated between May and December 2024; baseline to 12 weeks"
+    },
+    {
+      "intervention": "Matching placebo (saline)",
+      "intervention_regimen": "Volume-matched placebo corresponding to 2.5 mg for 4 weeks and 5.0 mg for 8 weeks; Once-weekly subcutaneous injection for 12 weeks; volume-matched to the tirzepatide schedule",
+      "population_definition": "Randomized placebo arm; participants with end-of-treatment measures at 12 weeks; secondary outcomes analyzed without imputation.; Adults with type 1 diabetes and BMI ≥30 kg/m2 randomized to matching placebo who provided end-of-treatment measures at 12 weeks; n = 11 for all non-primary outcomes, including HbA1c and total daily insulin dose; secondary end points analyzed without imputation.",
+      "population_id": "P3",
+      "population_name": "Placebo group — available-case secondary outcome analysis",
+      "population_size": 11,
+      "population_time_frame": "Randomized and treated between May and December 2024; baseline to 12 weeks"
+    },
+    {
+      "intervention": "Tirzepatide or matching placebo",
+      "intervention_regimen": "Once-weekly subcutaneous tirzepatide 2.5 mg for 4 weeks followed by 5.0 mg for 8 weeks, or volume-matched placebo. One tirzepatide participant reduced to 2.5 mg after gastroenteritis.",
+      "population_definition": "The 24 participants randomized 1:1 to tirzepatide or matching placebo who received at least one study dose. Adults aged 18–60 years with type 1 diabetes for at least 2 years and BMI ≥30 kg/m2; parent cohort of the two primary ITT weight-analysis arms. Secondary endpoints were analyzed without imputation in the participants with available end-of-treatment measurements.",
+      "population_id": "P4",
+      "population_name": "Overall randomized and treated TIRTLE cohort",
+      "population_size": 24,
+      "population_time_frame": "Randomized and treated between May and December 2024; baseline to 12 weeks"
+    },
+    {
+      "intervention": "Tirzepatide or placebo",
+      "intervention_regimen": "Subcutaneous tirzepatide once weekly: 2.5 mg for 4 weeks, 5 mg for 8 weeks. Matching subcutaneous placebo once weekly over 12 weeks.",
+      "population_definition": "Observed secondary outcome analysis in the randomized TIRTLE cohort. Table 2 reports available data for 11 participants per arm for the selected HbA1c and total daily insulin outcomes, analyzed without imputation.",
+      "population_id": "P5",
+      "population_name": "Observed secondary outcome analysis",
+      "population_size": 22,
+      "population_time_frame": "May–December 2024; baseline to week 12."
+    }
+  ],
+  "population_relation": [
+    {
+      "population_a_id": "P2",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P3",
+      "population_b_id": "P1",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P0",
+      "population_b_id": "P1",
+      "relationship": "disjoint from"
+    },
+    {
+      "population_a_id": "P2",
+      "population_b_id": "P3",
+      "relationship": "disjoint from"
+    },
+    {
+      "population_a_id": "P0",
+      "population_b_id": "P4",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P4",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P5",
+      "population_b_id": "P4",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P2",
+      "population_b_id": "P5",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P3",
+      "population_b_id": "P5",
+      "relationship": "subset of"
+    }
+  ],
+  "result": [
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R01",
+      "result_unit": "kg",
+      "result_value": 106.3,
+      "statistic_type": "Mean",
+      "statistical_method": "Primary ITT weight analysis; missing week-12 weight imputed by chained equations under missing at random.",
+      "supplementary_statistics": "Analysis N: 12"
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R02",
+      "result_unit": "kg",
+      "result_value": 98.1,
+      "statistic_type": "Mean",
+      "statistical_method": "Primary ITT weight analysis; missing week-12 weight imputed by chained equations under missing at random.",
+      "supplementary_statistics": "Analysis N: 12"
+    },
+    {
+      "assessment_time": "12 weeks",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R03",
+      "result_unit": "kg",
+      "result_value": 96.0,
+      "statistic_type": "Mean",
+      "statistical_method": "Primary ITT weight analysis; missing week-12 weight imputed by chained equations under missing at random.",
+      "supplementary_statistics": "Analysis N: 12"
+    },
+    {
+      "assessment_time": "12 weeks",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R04",
+      "result_unit": "kg",
+      "result_value": 97.5,
+      "statistic_type": "Mean",
+      "statistical_method": "Primary ITT weight analysis; missing week-12 weight imputed by chained equations under missing at random.",
+      "supplementary_statistics": "Analysis N: 12"
+    },
+    {
+      "assessment_time": "Baseline to 12 weeks",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R05",
+      "result_unit": "kg",
+      "result_value": -10.3,
+      "statistic_type": "Mean change from baseline (95% CI)",
+      "statistical_method": "Primary ITT weight analysis; missing week-12 weight imputed by chained equations under missing at random.",
+      "supplementary_statistics": "95% CI −12.8 to −7.7 kg; Table 2 analysis n = 12"
+    },
+    {
+      "assessment_time": "Baseline to 12 weeks",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R06",
+      "result_unit": "kg",
+      "result_value": -0.7,
+      "statistic_type": "Mean change from baseline (95% CI)",
+      "statistical_method": "Primary ITT weight analysis; missing week-12 weight imputed by chained equations under missing at random.",
+      "supplementary_statistics": "95% CI −1.4 to 2.8 kg; Table 2 analysis n = 12"
+    },
+    {
+      "assessment_time": "Baseline to 12 weeks",
+      "comparison": "P0 minus P1 (tirzepatide minus placebo)",
+      "measure_id": "M0",
+      "population_id": "P4",
+      "result_id": "R07",
+      "result_unit": "kg",
+      "result_value": -8.7,
+      "statistic_type": "Between-group difference in mean change (tirzepatide vs placebo), ANCOVA adjusted for baseline",
+      "statistical_method": "Baseline-adjusted ANCOVA with treatment as fixed effect and baseline weight as continuous covariate. Primary ITT weight analysis, chained-equations imputation.",
+      "supplementary_statistics": "95% CI −12.0 to −5.5 kg; P < 0.0001; Table 2 analysis n = 12 per arm"
+    },
+    {
+      "assessment_time": "Baseline to 12 weeks",
+      "comparison": "P0 minus P1 (tirzepatide minus placebo)",
+      "measure_id": "M0",
+      "population_id": "P4",
+      "result_id": "R08",
+      "result_unit": "%",
+      "result_value": -8.8,
+      "statistic_type": "Between-group difference in percent body weight change (tirzepatide vs placebo)",
+      "statistical_method": "Reported percentage contrast from primary weight analysis",
+      "supplementary_statistics": "95% CI −11.6 to −5.9%; P < 0.001"
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M4",
+      "population_id": "P2",
+      "result_id": "R09",
+      "result_unit": "%",
+      "result_value": 7.01,
+      "statistic_type": "Mean",
+      "statistical_method": "Observed secondary outcome, no imputation; Table 2 arm summary",
+      "supplementary_statistics": "Analysis N: 11"
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M4",
+      "population_id": "P3",
+      "result_id": "R10",
+      "result_unit": "%",
+      "result_value": 7.3,
+      "statistic_type": "Mean",
+      "statistical_method": "Observed secondary outcome, no imputation; Table 2 arm summary",
+      "supplementary_statistics": "Analysis N: 11"
+    },
+    {
+      "assessment_time": "12 weeks",
+      "comparison": null,
+      "measure_id": "M4",
+      "population_id": "P2",
+      "result_id": "R11",
+      "result_unit": "%",
+      "result_value": 6.5,
+      "statistic_type": "Mean",
+      "statistical_method": "Observed secondary outcome, no imputation; Table 2 arm summary",
+      "supplementary_statistics": "Analysis N: 11"
+    },
+    {
+      "assessment_time": "12 weeks",
+      "comparison": null,
+      "measure_id": "M4",
+      "population_id": "P3",
+      "result_id": "R12",
+      "result_unit": "%",
+      "result_value": 7.1,
+      "statistic_type": "Mean",
+      "statistical_method": "Observed secondary outcome, no imputation; Table 2 arm summary",
+      "supplementary_statistics": "Analysis N: 11"
+    },
+    {
+      "assessment_time": "Baseline to 12 weeks",
+      "comparison": null,
+      "measure_id": "M4",
+      "population_id": "P2",
+      "result_id": "R13",
+      "result_unit": "percentage points",
+      "result_value": -0.5,
+      "statistic_type": "Mean change from baseline (95% CI)",
+      "statistical_method": "Observed secondary outcome, no imputation; Table 2 arm summary",
+      "supplementary_statistics": "95% CI −0.8 to −0.2 percentage points; Table 2 analysis n = 11"
+    },
+    {
+      "assessment_time": "Baseline to 12 weeks",
+      "comparison": null,
+      "measure_id": "M4",
+      "population_id": "P3",
+      "result_id": "R14",
+      "result_unit": "percentage points",
+      "result_value": -0.2,
+      "statistic_type": "Mean change from baseline (95% CI)",
+      "statistical_method": "Observed secondary outcome, no imputation; Table 2 arm summary",
+      "supplementary_statistics": "95% CI −0.5 to 0.1 percentage points; Table 2 analysis n = 11"
+    },
+    {
+      "assessment_time": "Baseline to 12 weeks",
+      "comparison": "P2 minus P3 (tirzepatide minus placebo)",
+      "measure_id": "M4",
+      "population_id": "P5",
+      "result_id": "R15",
+      "result_unit": "percentage points",
+      "result_value": -0.4,
+      "statistic_type": "Between-group difference in mean change (tirzepatide vs placebo), ANCOVA adjusted for baseline",
+      "statistical_method": "Baseline-adjusted ANCOVA with treatment as fixed effect and baseline HbA1c as continuous covariate. Available secondary outcome data without imputation.",
+      "supplementary_statistics": "95% CI −0.7 to 0.0 percentage points; P = 0.05; Table 2 analysis n = 11 per arm"
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M7",
+      "population_id": "P2",
+      "result_id": "R16",
+      "result_unit": "units/day",
+      "result_value": 67.42,
+      "statistic_type": "Mean",
+      "statistical_method": "Observed secondary outcome, no imputation; Table 2 arm summary",
+      "supplementary_statistics": "Analysis N: 11"
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M7",
+      "population_id": "P3",
+      "result_id": "R17",
+      "result_unit": "units/day",
+      "result_value": 55.12,
+      "statistic_type": "Mean",
+      "statistical_method": "Observed secondary outcome, no imputation; Table 2 arm summary",
+      "supplementary_statistics": "Analysis N: 11"
+    },
+    {
+      "assessment_time": "12 weeks",
+      "comparison": null,
+      "measure_id": "M7",
+      "population_id": "P2",
+      "result_id": "R18",
+      "result_unit": "units/day",
+      "result_value": 43.24,
+      "statistic_type": "Mean",
+      "statistical_method": "Observed secondary outcome, no imputation; Table 2 arm summary",
+      "supplementary_statistics": "Analysis N: 11"
+    },
+    {
+      "assessment_time": "12 weeks",
+      "comparison": null,
+      "measure_id": "M7",
+      "population_id": "P3",
+      "result_id": "R19",
+      "result_unit": "units/day",
+      "result_value": 54.79,
+      "statistic_type": "Mean",
+      "statistical_method": "Observed secondary outcome, no imputation; Table 2 arm summary",
+      "supplementary_statistics": "Analysis N: 11"
+    },
+    {
+      "assessment_time": "Baseline to 12 weeks",
+      "comparison": null,
+      "measure_id": "M7",
+      "population_id": "P2",
+      "result_id": "R20",
+      "result_unit": "units/day",
+      "result_value": -24.2,
+      "statistic_type": "Mean change from baseline (95% CI)",
+      "statistical_method": "Observed secondary outcome, no imputation; Table 2 arm summary",
+      "supplementary_statistics": "95% CI −31.55 to −15.44 units/day; Table 2 analysis n = 11"
+    },
+    {
+      "assessment_time": "Baseline to 12 weeks",
+      "comparison": null,
+      "measure_id": "M7",
+      "population_id": "P3",
+      "result_id": "R21",
+      "result_unit": "units/day",
+      "result_value": -0.33,
+      "statistic_type": "Mean change from baseline (95% CI)",
+      "statistical_method": "Observed secondary outcome, no imputation; Table 2 arm summary",
+      "supplementary_statistics": "95% CI −3.54 to 3.96 units/day; Table 2 analysis n = 11"
+    },
+    {
+      "assessment_time": "Baseline to 12 weeks",
+      "comparison": "P2 relative to P3 (ratio of geometric means, tirzepatide/placebo)",
+      "measure_id": "M7",
+      "population_id": "P5",
+      "result_id": "R22",
+      "result_unit": null,
+      "result_value": 0.65,
+      "statistic_type": "Between-group ratio of geometric means (tirzepatide vs placebo)",
+      "statistical_method": "Baseline-adjusted ANCOVA; treatment fixed effect, baseline continuous covariate. Observed secondary outcome, no imputation Log-transformed insulin dose, back-transformed to geometric-mean ratio.",
+      "supplementary_statistics": "95% CI 0.53 to 0.79; P = 0.0002; Table 2 analysis n = 11 per arm"
+    },
+    {
+      "assessment_time": "Baseline to 12 weeks",
+      "comparison": "P2 minus P3 (tirzepatide minus placebo)",
+      "measure_id": "M7",
+      "population_id": "P5",
+      "result_id": "R23",
+      "result_unit": "%",
+      "result_value": -35.1,
+      "statistic_type": "Between-group percent difference (tirzepatide vs placebo)",
+      "statistical_method": "Reported relative contrast for observed secondary outcome; related to the ratio reported in Table 2",
+      "supplementary_statistics": "95% CI −46.5 to −21.3%; P = 0.0002"
+    }
+  ]
+}

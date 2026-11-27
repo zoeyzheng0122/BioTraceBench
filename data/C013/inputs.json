@@ -1,0 +1,99 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "C013",
+    "domain": "clinical",
+    "title": "Efficacy of antihypertensive treatment for target organ protection in patients with masked hypertension (ANTI-MASK): a multicentre, double-blind, placebo-controlled trial",
+    "doi": "10.1016/j.eclinm.2024.102736",
+    "pipeline": "clinical-trials",
+    "pmid": "39091669",
+    "pmcid": "PMC11293515",
+    "registry": "NCT02893358"
+  },
+  "files": [
+    {
+      "path": "sources/article.xml",
+      "sha256": "46c5ae597292ed91667ecf652b218cebeb94d3e08f314a24452137a65b695ec7",
+      "bytes": 103971,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11293515/fullTextXML"
+      ],
+      "association": "exact PMCID from case identity"
+    },
+    {
+      "path": "records/ClinicalTrials-NCT02893358.json",
+      "sha256": "eae81ce8ffdec070043fff310f92665922af2f8bbfa9f6cfc7180841e897e879",
+      "bytes": 7730,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://clinicaltrials.gov/api/v2/studies/NCT02893358"
+      ],
+      "association": "exact trial registration linked by article; verify in source projection",
+      "original_filename": "registry.json",
+      "retrieved_at": "2026-10-17T21:21:38+08:00",
+      "derived_from": "7019c696d743fce99127071f8f1758e23061c6b98abdc14443290bf2d8271fee",
+      "original_sha256": "7019c696d743fce99127071f8f1758e23061c6b98abdc14443290bf2d8271fee",
+      "representation": "refine-lexical-json-1",
+      "provenance_transform": "exact_json_whitespace_compaction"
+    },
+    {
+      "path": "figures/gr1.jpg",
+      "sha256": "fea302a97714ced4b6dee21ff25af194c2ea1f46b70f442afbcdc1078e0fbfcb",
+      "bytes": 212454,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11293515/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package"
+    },
+    {
+      "path": "figures/gr2.jpg",
+      "sha256": "80b8f411324da388f17b57621f94edc89dc1e19821156e0431b2b62e7d9d81ea",
+      "bytes": 340769,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11293515/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package"
+    },
+    {
+      "path": "supplements/mmc2.readable__refine/content.md",
+      "sha256": "03817dde3f9916397fe41c86268928b3acb3294ba870d714c69fa587194c20b5",
+      "bytes": 77176,
+      "role": "supplement",
+      "roles": [
+        "supplement"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11293515/supplementaryFiles"
+      ],
+      "derived_from": "6c5ab660536090f5998c32c8d2796599b017acab80a6f25f42ca690121733e71",
+      "representation": "refine-text-visual-1",
+      "original_sha256": "6c5ab660536090f5998c32c8d2796599b017acab80a6f25f42ca690121733e71",
+      "original_filename": "mmc2.readable.docx",
+      "provenance_transform": "office_text_tables"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

@@ -1,0 +1,175 @@
+{
+  "measure": [
+    {
+      "measure_definition": "Time to event: randomization to death from any cause; Participants; Primary end point in the ITT population; survival estimated by the Kaplan-Meier method; groups compared with a two-sided log-rank test; stratified hazard ratio reported.; Time origin is randomization. Event is death from any cause. Patients not known to have died at analysis are censored at the last date known alive; patients without post-baseline information are censored at randomization (Supplement 2, endpoint definitions and statistical methods). Stratification factors: age (≤70 v >70 years), number of prior lines of systemic therapy (1 v ≥2), and outcome of last systemic therapy (relapsed v refractory).",
+      "measure_id": "M0",
+      "measure_name": "Overall survival"
+    },
+    {
+      "measure_definition": "Time to event: randomization to investigator-assessed disease progression or death from any cause, whichever occurs first; Participants; Investigator-assessed; survival estimated by the Kaplan-Meier method; groups compared with a two-sided log-rank test; stratified hazard ratio reported. Response assessment used PET-CT at screening, PET-CT or CT at mid-treatment, PET-CT at end of treatment, and CT every 6 months during long-term follow-up until progression or end of study, whichever occurred first. A full tumor assessment was performed whenever progression or relapse was suspected; the exact mid-treatment assessment date is not specified in this supplementary methods description.; Time origin is randomization. Event is investigator-assessed disease progression or death from any cause, whichever occurs first. Censored at earliest non-protocol-specified antilymphoma treatment (NALT) or two or more missing tumor assessments. Stratification factors: age (≤70 v >70 years), number of prior lines of systemic therapy (1 v ≥2), and outcome of last systemic therapy (relapsed v refractory).",
+      "measure_id": "M1",
+      "measure_name": "Progression-free survival, investigator-assessed"
+    },
+    {
+      "measure_definition": "Occurrence: overall response (complete response or partial response) at end of treatment by IRC; Participants; PET-CT at end of treatment, assessed by the Independent Review Committee (IRC) per Lugano criteria; 95% CI estimated with the Clopper-Pearson method; response rates compared with a stratified Cochran-Mantel-Haenszel test.; Overall response at EOT includes complete response (CR) or partial response (PR) per Lugano criteria. Supplement 2 explicitly defines ORR as the proportion achieving a complete or partial metabolic response on PET-CT at end of treatment; this selected result uses IRC assessment. Denominator is the randomized ITT population.",
+      "measure_id": "M2",
+      "measure_name": "Overall response rate at end of treatment, IRC-assessed"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "Polatuzumab vedotin plus rituximab, gemcitabine, and oxaliplatin (Pola-R-GemOx)",
+      "intervention_regimen": "Polatuzumab vedotin 1.8 mg/kg; rituximab 375 mg/m2; gemcitabine 1,000 mg/m2; oxaliplatin 100 mg/m2; Intravenous, every 21 days for up to eight cycles; primary G-CSF and anti-infective prophylaxis against Pneumocystis jirovecii pneumonia and herpes simplex virus were mandatory.",
+      "population_definition": "Randomized treatment assignment: Pola-R-GemOx; Adults (≥18 years) with histologically confirmed relapsed or refractory DLBCL, not otherwise specified, or a history of transformation of indolent disease to DLBCL; ≥1 prior line of systemic treatment; ineligible for autologous or allogeneic stem cell transplantation or CAR T-cell therapy at recruitment; randomly assigned 1:1 to Pola-R-GemOx. The ITT population includes all randomly assigned patients regardless of actual treatment received.",
+      "population_id": "P0",
+      "population_name": "Pola-R-GemOx intention-to-treat population (randomized cohort)",
+      "population_size": 129,
+      "population_time_frame": "Enrolment between February 7, 2020 and May 23, 2023; primary/final analysis with median follow-up 24.6 months (range, 0-34) for OS."
+    },
+    {
+      "intervention": "Rituximab, gemcitabine, and oxaliplatin (R-GemOx)",
+      "intervention_regimen": "Rituximab 375 mg/m2; gemcitabine 1,000 mg/m2; oxaliplatin 100 mg/m2; Intravenous, every 21 days for up to eight cycles; primary G-CSF and anti-infective prophylaxis against Pneumocystis jirovecii pneumonia and herpes simplex virus were mandatory.",
+      "population_definition": "Randomized treatment assignment: R-GemOx; Adults (≥18 years) with histologically confirmed relapsed or refractory DLBCL, not otherwise specified, or a history of transformation of indolent disease to DLBCL; ≥1 prior line of systemic treatment; ineligible for autologous or allogeneic stem cell transplantation or CAR T-cell therapy at recruitment; randomly assigned 1:1 to R-GemOx. The ITT population includes all randomly assigned patients regardless of actual treatment received.",
+      "population_id": "P1",
+      "population_name": "R-GemOx intention-to-treat population (randomized cohort)",
+      "population_size": 126,
+      "population_time_frame": "Enrolment between February 7, 2020 and May 23, 2023; primary/final analysis with median follow-up 24.6 months (range, 0-34) for OS."
+    },
+    {
+      "intervention": "Pola-R-GemOx (polatuzumab vedotin plus rituximab, gemcitabine, oxaliplatin) or R-GemOx (rituximab, gemcitabine, oxaliplatin), according to randomization",
+      "intervention_regimen": "Pola-R-GemOx arm: polatuzumab vedotin 1.8 mg/kg; rituximab 375 mg/m2; gemcitabine 1,000 mg/m2; oxaliplatin 100 mg/m2. R-GemOx arm: rituximab 375 mg/m2; gemcitabine 1,000 mg/m2; oxaliplatin 100 mg/m2.; Intravenous, every 21 days for up to eight cycles in both arms; primary G-CSF and anti-infective prophylaxis against Pneumocystis jirovecii pneumonia and herpes simplex virus were mandatory.",
+      "population_definition": "Randomized cohort, both treatment groups combined (parent population); All patients randomly assigned 1:1 to Pola-R-GemOx or R-GemOx in the randomized phase; includes all randomly assigned patients regardless of actual treatment received. Excludes the nonrandomized safety run-in (n = 15). Adults (≥18 years) with histologically confirmed relapsed or refractory DLBCL, not otherwise specified, or a history of transformation of indolent disease to DLBCL; ≥1 prior line of systemic treatment; ineligible for autologous or allogeneic stem cell transplantation or CAR T-cell therapy at recruitment.",
+      "population_id": "P2",
+      "population_name": "Total randomized intention-to-treat population (POLARGO randomized cohort)",
+      "population_size": 255,
+      "population_time_frame": "Enrolment between February 7, 2020 and May 23, 2023; primary/final analysis with median follow-up 24.6 months (range, 0-34) for OS."
+    }
+  ],
+  "population_relation": [
+    {
+      "population_a_id": "P0",
+      "population_b_id": "P2",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P2",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P0",
+      "population_b_id": "P1",
+      "relationship": "disjoint from"
+    }
+  ],
+  "result": [
+    {
+      "assessment_time": "Primary/final analysis; median follow-up 24.6 months (range, 0-34) for OS",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R01",
+      "result_unit": "months",
+      "result_value": 19.5,
+      "statistic_type": "Median overall survival (95% CI), months",
+      "statistical_method": "ITT Kaplan–Meier. Censored at last known alive, or randomization with no post-baseline information.",
+      "supplementary_statistics": "Analysis N = 129; 95% CI, 13.3 to not estimable"
+    },
+    {
+      "assessment_time": "Primary/final analysis; median follow-up 24.6 months (range, 0-34) for OS",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R02",
+      "result_unit": "months",
+      "result_value": 12.5,
+      "statistic_type": "Median overall survival (95% CI), months",
+      "statistical_method": "ITT Kaplan–Meier. Censored at last known alive, or randomization with no post-baseline information.",
+      "supplementary_statistics": "Analysis N = 126; 95% CI, 8.9 to 15.8"
+    },
+    {
+      "assessment_time": "Primary/final analysis; median follow-up 24.6 months (range, 0-34) for OS",
+      "comparison": "P0 relative to P1 (numerator versus reference)",
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R03",
+      "result_unit": null,
+      "result_value": 0.6,
+      "statistic_type": "Stratified hazard ratio for death (Pola-R-GemOx vs R-GemOx)",
+      "statistical_method": "Cox stratified by age ≤70/>70, prior lines 1/≥2, last-therapy outcome relapsed/refractory, with Wald CI and two-sided stratified log-rank P. Censored at last known alive, or randomization with no post-baseline information.",
+      "supplementary_statistics": "Analysis N = 129 vs 126; 95% CI, 0.43 to 0.83; P = .0017"
+    },
+    {
+      "assessment_time": "Primary/final analysis; time origin randomization; median follow-up not separately reported for PFS",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P0",
+      "result_id": "R04",
+      "result_unit": "months",
+      "result_value": 7.4,
+      "statistic_type": "Median investigator-assessed progression-free survival (95% CI), months",
+      "statistical_method": "ITT Kaplan–Meier. Censored at last evaluable tumor assessment when progression/death unobserved, randomization if no follow-up assessment, with additional censoring for earliest non-protocol-specified anti-lymphoma treatment or two or more missing tumor assessments per Table 2.",
+      "supplementary_statistics": "Analysis N = 129; 95% CI, 6.2 to 11.7"
+    },
+    {
+      "assessment_time": "Primary/final analysis; time origin randomization; median follow-up not separately reported for PFS",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R05",
+      "result_unit": "months",
+      "result_value": 2.7,
+      "statistic_type": "Median investigator-assessed progression-free survival (95% CI), months",
+      "statistical_method": "ITT Kaplan–Meier. Censored at last evaluable tumor assessment when progression/death unobserved, randomization if no follow-up assessment, with additional censoring for earliest non-protocol-specified anti-lymphoma treatment or two or more missing tumor assessments per Table 2.",
+      "supplementary_statistics": "Analysis N = 126; 95% CI, 2.4 to 3.3"
+    },
+    {
+      "assessment_time": "Primary/final analysis; time origin randomization; median follow-up not separately reported for PFS",
+      "comparison": "P0 relative to P1 (numerator versus reference)",
+      "measure_id": "M1",
+      "population_id": "P0",
+      "result_id": "R06",
+      "result_unit": null,
+      "result_value": 0.37,
+      "statistic_type": "Stratified hazard ratio for investigator-assessed progression or death (Pola-R-GemOx vs R-GemOx)",
+      "statistical_method": "Cox stratified by age ≤70/>70, prior lines 1/≥2, last-therapy outcome relapsed/refractory, with Wald CI and two-sided stratified log-rank P. Censored at last evaluable tumor assessment when progression/death unobserved, randomization if no follow-up assessment, with additional censoring for earliest non-protocol-specified anti-lymphoma treatment or two or more missing tumor assessments per Table 2.",
+      "supplementary_statistics": "Analysis N = 129 vs 126; 95% CI, 0.27 to 0.51; P < .0001"
+    },
+    {
+      "assessment_time": "At end of treatment (EOT), primary/final analysis",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P0",
+      "result_id": "R07",
+      "result_unit": "participants",
+      "result_value": 68,
+      "statistic_type": "Number of participants with overall response at EOT (IRC-assessed)",
+      "statistical_method": "ITT count and Clopper–Pearson interval for the proportion. Missing post-baseline assessment counted as nonresponse.",
+      "supplementary_statistics": "52.7% (95% CI, 43.7 to 61.6); Reported denominator: 129"
+    },
+    {
+      "assessment_time": "At end of treatment (EOT), primary/final analysis",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R08",
+      "result_unit": "participants",
+      "result_value": 31,
+      "statistic_type": "Number of participants with overall response at EOT (IRC-assessed)",
+      "statistical_method": "ITT count and Clopper–Pearson interval for the proportion. Missing post-baseline assessment counted as nonresponse.",
+      "supplementary_statistics": "24.6% (95% CI, 17.4 to 33.1); Reported denominator: 126"
+    },
+    {
+      "assessment_time": "At end of treatment (EOT); up to approximately 8.5 months",
+      "comparison": "P0 vs P1; subtraction direction not explicitly reported",
+      "measure_id": "M2",
+      "population_id": "P0",
+      "result_id": "R09",
+      "result_unit": "percentage points",
+      "result_value": 28.11,
+      "statistic_type": "Difference in response rate, percentage points",
+      "statistical_method": "ITT difference with normal-approximation binomial 95% CI, stratified Cochran–Mantel–Haenszel P using the randomization strata.",
+      "supplementary_statistics": "95% CI, 15.89 to 40.33; P < .0001"
+    }
+  ]
+}

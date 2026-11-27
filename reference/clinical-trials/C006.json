@@ -1,0 +1,283 @@
+{
+  "measure": [
+    {
+      "measure_definition": "Measured value: total Cancer Fatigue Scale score; Participants; Cancer Fatigue Scale self-report; baseline T0 face-to-face; T1 within 1 week post-intervention by telephone; standardised oral administration if self-completion not feasible.; 5-point Likert scale (1 = no, 5 = very much); total score range 0–60; ≥ 18 indicates clinically meaningful cancer-related fatigue; higher scores indicate greater severity; comprises physical, cognitive and emotional fatigue subscales.",
+      "measure_id": "M0",
+      "measure_name": "Cancer-related fatigue total score"
+    },
+    {
+      "measure_definition": "Measured value: HPLP-II physical-activity subscale score; Participants; Health-Promoting Lifestyle Profile-II physical-activity subscale self-report; baseline T0 face-to-face; T1 within 1 week post-intervention by telephone.; HPLP-II physical-activity subscale score; eight items rated 1 (never) to 4 (routinely), total score 8–32; higher scores indicate greater physical activity (Supplementary Table S6).",
+      "measure_id": "M1",
+      "measure_name": "Physical activity"
+    },
+    {
+      "measure_definition": "Measured value: PROMIS Sleep Disturbance Short Form 4a score; Participants; PROMIS Sleep Disturbance Short Form 4a self-report; baseline T0 face-to-face; T1 within 1 week post-intervention by telephone.; PROMIS Sleep Disturbance Short Form 4a score; four self-report items rated 1–5, converted to T-scores; source-reported T-score range 32.0–73.3, with higher scores indicating greater sleep disturbance (Supplementary Table S6).",
+      "measure_id": "M2",
+      "measure_name": "Sleep disturbance"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "Psycho-behavioural intervention (emotion expression plus behavioural techniques) or usual care",
+      "intervention_regimen": "Randomized 1:1 to a 6-week psycho-behavioural intervention or usual care; outcome assessments at baseline (T0) and within 1 week post-intervention (T1).",
+      "population_definition": "Randomized allocation (1:1) to psycho-behavioural intervention or usual care; intention-to-treat analysis with last observation carried forward (LOCF); Adults aged ≥ 18 years with a clinical diagnosis of colorectal cancer at stage I–III; completed primary treatments (surgery, chemotherapy, radiotherapy) within the past 12 months; clinically meaningful cancer-related fatigue with Cancer Fatigue Scale score ≥ 18; able to communicate in Mandarin; had access to WeChat and were proficient in real-time videoconferencing via it. Excluded: stage IV disease, other cancers, cognitive deficits (Abbreviated Mental Test < 8), mental disorders, or participation in other studies.",
+      "population_id": "P0",
+      "population_name": "All randomized participants (ITT analysis sample)",
+      "population_size": 50,
+      "population_time_frame": "Study conducted April to June 2025; baseline T0; T1 within 1 week post-intervention."
+    },
+    {
+      "intervention": "Psycho-behavioural intervention consisting of emotion expression and behavioural techniques (information provision, problem solving, goal setting, action planning, activity monitoring), plus usual care",
+      "intervention_regimen": "Six weekly 60-min individual sessions; Session 1 face-to-face, Sessions 2–6 via videoconferencing; plus usual care (30-min individual face-to-face health education session and information booklet).",
+      "population_definition": "Randomized to intervention group; Adults aged ≥ 18 years with stage I–III colorectal cancer; completed primary treatments within the past 12 months; Cancer Fatigue Scale score ≥ 18; Mandarin-speaking; WeChat/videoconferencing access; randomized to the intervention group. Excluded: stage IV disease, other cancers, cognitive deficits (Abbreviated Mental Test < 8), mental disorders, participation in other studies.",
+      "population_id": "P1",
+      "population_name": "Psycho-behavioural intervention arm",
+      "population_size": 25,
+      "population_time_frame": "Study conducted April to June 2025; baseline T0; T1 within 1 week post-intervention."
+    },
+    {
+      "intervention": "Usual care: 30-min individual face-to-face health education session delivered by a colorectal professional, supplemented by an information booklet outlining follow-up protocols per Chinese Society of Clinical Oncology guidelines",
+      "intervention_regimen": "Single 30-min individual face-to-face health education session plus information booklet; follow-up per CSCO guidelines.",
+      "population_definition": "Randomized to control group; Adults aged ≥ 18 years with stage I–III colorectal cancer; completed primary treatments within the past 12 months; Cancer Fatigue Scale score ≥ 18; Mandarin-speaking; WeChat/videoconferencing access; randomized to the control group. Excluded: stage IV disease, other cancers, cognitive deficits (Abbreviated Mental Test < 8), mental disorders, participation in other studies.",
+      "population_id": "P2",
+      "population_name": "Usual care control arm",
+      "population_size": 25,
+      "population_time_frame": "Study conducted April to June 2025; baseline T0; T1 within 1 week post-intervention."
+    }
+  ],
+  "population_relation": [
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P2",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P2",
+      "relationship": "disjoint from"
+    }
+  ],
+  "result": [
+    {
+      "assessment_time": "Baseline (T0)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R04",
+      "result_unit": "points",
+      "result_value": 35.28,
+      "statistic_type": "Mean",
+      "statistical_method": "Descriptive arm mean with SD, ITT with LOCF",
+      "supplementary_statistics": "SD: 4.73; n = 25"
+    },
+    {
+      "assessment_time": "Baseline (T0)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R05",
+      "result_unit": "points",
+      "result_value": 14.92,
+      "statistic_type": "Mean",
+      "statistical_method": "Descriptive arm mean with SD, ITT with LOCF",
+      "supplementary_statistics": "SD: 2.69; n = 25"
+    },
+    {
+      "assessment_time": "Baseline (T0)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R06",
+      "result_unit": "T-score points",
+      "result_value": 48.9,
+      "statistic_type": "Mean",
+      "statistical_method": "Descriptive arm mean with SD, ITT with LOCF",
+      "supplementary_statistics": "SD: 5.41; n = 25"
+    },
+    {
+      "assessment_time": "Baseline (T0)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P2",
+      "result_id": "R07",
+      "result_unit": "points",
+      "result_value": 36.56,
+      "statistic_type": "Mean",
+      "statistical_method": "Descriptive arm mean with SD, ITT with LOCF",
+      "supplementary_statistics": "SD: 3.44; n = 25"
+    },
+    {
+      "assessment_time": "Baseline (T0)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P2",
+      "result_id": "R08",
+      "result_unit": "points",
+      "result_value": 14.32,
+      "statistic_type": "Mean",
+      "statistical_method": "Descriptive arm mean with SD, ITT with LOCF",
+      "supplementary_statistics": "SD: 1.55; n = 25"
+    },
+    {
+      "assessment_time": "Baseline (T0)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P2",
+      "result_id": "R09",
+      "result_unit": "T-score points",
+      "result_value": 48.03,
+      "statistic_type": "Mean",
+      "statistical_method": "Descriptive arm mean with SD, ITT with LOCF",
+      "supplementary_statistics": "SD: 3.72; n = 25"
+    },
+    {
+      "assessment_time": "T1 (within 1 week post-intervention)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R10",
+      "result_unit": "points",
+      "result_value": 33.2,
+      "statistic_type": "Mean",
+      "statistical_method": "Descriptive arm mean with SD, ITT with LOCF",
+      "supplementary_statistics": "SD: 3.72; n = 25"
+    },
+    {
+      "assessment_time": "T1 (within 1 week post-intervention)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R11",
+      "result_unit": "points",
+      "result_value": 16.72,
+      "statistic_type": "Mean",
+      "statistical_method": "Descriptive arm mean with SD, ITT with LOCF",
+      "supplementary_statistics": "SD: 2.76; n = 25"
+    },
+    {
+      "assessment_time": "T1 (within 1 week post-intervention)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R12",
+      "result_unit": "T-score points",
+      "result_value": 44.04,
+      "statistic_type": "Mean",
+      "statistical_method": "Descriptive arm mean with SD, ITT with LOCF",
+      "supplementary_statistics": "SD: 4.75; n = 25"
+    },
+    {
+      "assessment_time": "T1 (within 1 week post-intervention)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P2",
+      "result_id": "R13",
+      "result_unit": "points",
+      "result_value": 36.2,
+      "statistic_type": "Mean",
+      "statistical_method": "Descriptive arm mean with SD, ITT with LOCF",
+      "supplementary_statistics": "SD: 3.03; n = 25"
+    },
+    {
+      "assessment_time": "T1 (within 1 week post-intervention)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P2",
+      "result_id": "R14",
+      "result_unit": "points",
+      "result_value": 14.4,
+      "statistic_type": "Mean",
+      "statistical_method": "Descriptive arm mean with SD, ITT with LOCF",
+      "supplementary_statistics": "SD: 1.66; n = 25"
+    },
+    {
+      "assessment_time": "T1 (within 1 week post-intervention)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P2",
+      "result_id": "R15",
+      "result_unit": "T-score points",
+      "result_value": 44.66,
+      "statistic_type": "Mean",
+      "statistical_method": "Descriptive arm mean with SD, ITT with LOCF",
+      "supplementary_statistics": "SD: 3.89; n = 25"
+    },
+    {
+      "assessment_time": "T0 to T1",
+      "comparison": "P1 versus P2 across T0–T1; group-by-time interaction F test",
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R20",
+      "result_unit": null,
+      "result_value": 6.49,
+      "statistic_type": "F statistic for group-by-time interaction (Repeated Measures ANOVA)",
+      "statistical_method": "ANOVA",
+      "supplementary_statistics": "p = 0.014; n = 50"
+    },
+    {
+      "assessment_time": "T1 (within 1 week post-intervention)",
+      "comparison": "P1 relative to P2; negative favors intervention for fatigue/sleep, positive for physical activity",
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R22",
+      "result_unit": null,
+      "result_value": -0.71,
+      "statistic_type": "Hedges' g (intervention vs control; negative favors intervention)",
+      "statistical_method": "ITT with LOCF. Hedges’ g estimated at T1. Formula and standardizer unreported.",
+      "supplementary_statistics": "95% CI: −1.28, −0.14; n = 25 per group"
+    },
+    {
+      "assessment_time": "T0 to T1",
+      "comparison": "P1 versus P2 across T0–T1; group-by-time interaction F test",
+      "measure_id": "M1",
+      "population_id": "P0",
+      "result_id": "R27",
+      "result_unit": null,
+      "result_value": 19.76,
+      "statistic_type": "F statistic for group-by-time interaction (Repeated Measures ANOVA)",
+      "statistical_method": "ANOVA",
+      "supplementary_statistics": "p < 0.001; n = 50"
+    },
+    {
+      "assessment_time": "T1 (within 1 week post-intervention)",
+      "comparison": "P1 relative to P2; negative favors intervention for fatigue/sleep, positive for physical activity",
+      "measure_id": "M1",
+      "population_id": "P0",
+      "result_id": "R29",
+      "result_unit": null,
+      "result_value": 1.24,
+      "statistic_type": "Hedges' g (intervention vs control; positive favors intervention)",
+      "statistical_method": "ITT with LOCF. Hedges’ g estimated at T1. Formula and standardizer unreported.",
+      "supplementary_statistics": "95% CI: 0.63, 1.85; n = 25 per group"
+    },
+    {
+      "assessment_time": "T0 to T1",
+      "comparison": "P1 versus P2 across T0–T1; group-by-time interaction F test",
+      "measure_id": "M2",
+      "population_id": "P0",
+      "result_id": "R34",
+      "result_unit": null,
+      "result_value": 9.64,
+      "statistic_type": "F statistic for group-by-time interaction (Repeated Measures ANOVA)",
+      "statistical_method": "ANOVA",
+      "supplementary_statistics": "p = 0.003; n = 50"
+    },
+    {
+      "assessment_time": "T1 (within 1 week post-intervention)",
+      "comparison": "P1 relative to P2; negative favors intervention for fatigue/sleep, positive for physical activity",
+      "measure_id": "M2",
+      "population_id": "P0",
+      "result_id": "R36",
+      "result_unit": null,
+      "result_value": -0.86,
+      "statistic_type": "Hedges' g (intervention vs control; negative favors intervention)",
+      "statistical_method": "ITT with LOCF. Hedges’ g estimated at T1. Formula and standardizer unreported.",
+      "supplementary_statistics": "95% CI: −1.44, −0.28; n = 25 per group"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "C035",
+    "domain": "clinical",
+    "title": "Baricitinib in moderate to severe rheumatoid arthritis: dose-dependent efficacy and safety in a randomized clinical trial in a developing country",
+    "doi": "10.1186/s41927-026-00638-8",
+    "pipeline": "clinical-trials",
+    "pmid": "41913302",
+    "pmcid": "PMC13154524",
+    "registry": "NCT05660655"
+  },
+  "files": [
+    {
+      "path": "sources/article.xml",
+      "sha256": "3d92eff74c8d31f639258851aff2f59134ba744e284ae406e95a813a454ab598",
+      "bytes": 82968,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13154524/fullTextXML"
+      ],
+      "association": "exact PMCID from case identity"
+    },
+    {
+      "path": "records/ClinicalTrials-NCT05660655.json",
+      "sha256": "592addc867fe68181f40f55f2da1de9f79606f5b941d6c1006126f9349a2b543",
+      "bytes": 9320,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://clinicaltrials.gov/api/v2/studies/NCT05660655"
+      ],
+      "association": "exact trial registration linked by article; verify in source projection",
+      "original_filename": "registry.json",
+      "retrieved_at": "2026-10-17T21:27:24+08:00",
+      "derived_from": "2f5861fa403e76c8eb310508b050bd4bb9d9e359ea598910788333a1a2764e5a",
+      "original_sha256": "2f5861fa403e76c8eb310508b050bd4bb9d9e359ea598910788333a1a2764e5a",
+      "representation": "refine-lexical-json-1",
+      "provenance_transform": "exact_json_whitespace_compaction"
+    },
+    {
+      "path": "figures/41927_2026_638_Fig1_HTML.jpg",
+      "sha256": "1a21c2526a030aee560bd33f2ee8847da2493e2c9c89d93008b43edd85071efa",
+      "bytes": 151975,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13154524/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package"
+    },
+    {
+      "path": "figures/41927_2026_638_Fig2_HTML.jpg",
+      "sha256": "c68f23932d1faf94feab1d8dc4cb5fffd849bbb701ef939740e40bf4f96c4a8c",
+      "bytes": 47577,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13154524/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

@@ -1,0 +1,235 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "B028",
+    "domain": "basic",
+    "title": "Loss of calcium‐dependent phospholipase A2 contributes to multi‐omic changes in mouse denervated skeletal muscle",
+    "doi": "10.14814/phy2.70906",
+    "pipeline": "basic-research",
+    "pmid": "42163780",
+    "pmcid": "PMC13239658",
+    "registry": "10.6084/m9.figshare.32125855"
+  },
+  "files": [
+    {
+      "path": "records/Figshare-32125855.txt",
+      "sha256": "10457428a878a415f29c06b50b913886a21740def9d03ff27899b5342600e57d",
+      "bytes": 5406,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://api.figshare.com/v2/articles/32125855"
+      ],
+      "derived_from": "10698bdcecfbe72fa13d965d457a26ea6592ebbf0febf6d3e6611627c8bd0fad",
+      "representation": "readable_repository_record",
+      "association": "exact dataset identifier in article Data Availability; webpage text only; selected-module relation awaits review; readable official record text",
+      "original_filename": "Figshare-32125855.txt",
+      "retrieved_at": "2026-10-18T00:32:28+08:00"
+    },
+    {
+      "path": "sources/article.xml",
+      "sha256": "8bb2a54116bb99d7d2673082a8fe27bb4391a1c7e0867092af56c8138e933cf1",
+      "bytes": 170991,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13239658/fullTextXML"
+      ],
+      "association": "exact public PMCID candidate"
+    },
+    {
+      "path": "records/Figshare-32125855.json",
+      "sha256": "04664554088180da9e344d610051086cb357dd6ba17c12edce9b75841f251e6e",
+      "bytes": 5449,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://api.figshare.com/v2/articles/32125855"
+      ],
+      "association": "exact dataset identifier in article Data Availability; webpage text only; selected-module relation awaits review",
+      "original_filename": "Figshare-32125855.json",
+      "retrieved_at": "2026-10-18T00:32:28+08:00"
+    },
+    {
+      "path": "figures/PHY2-14-e70906-g001.jpg",
+      "sha256": "1afa5e2edcfafd31786641f02a3fa5bd9a778ccbceb8fbddb9564ac64c19a585",
+      "bytes": 95671,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13239658.1/PHY2-14-e70906-g001.jpg?md5=9324ed418b0ef61b50e6c74786ee8bde"
+      ],
+      "association": "exact JATS phy270906-fig-0003 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/PHY2-14-e70906-g002.jpg",
+      "sha256": "1524b5e983d4f7411682e0d29d061cc3d005ddfeab92a6464140cd38f5c25767",
+      "bytes": 129964,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13239658.1/PHY2-14-e70906-g002.jpg?md5=e26822f0601be8ead4007d0b4ff74345"
+      ],
+      "association": "exact JATS phy270906-fig-0001 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/PHY2-14-e70906-g003.jpg",
+      "sha256": "939057955287b6b44ad686ffd01ced064419c9e557f7c137d9341fd78c192478",
+      "bytes": 101836,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13239658.1/PHY2-14-e70906-g003.jpg?md5=fadd3352b366c24ce206d3384b178d59"
+      ],
+      "association": "exact JATS phy270906-fig-0008 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/PHY2-14-e70906-g004.jpg",
+      "sha256": "481ee491e5ad809ab3fffc184265613c240021cfab810b892bd7e7c77cfcefbf",
+      "bytes": 71670,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13239658.1/PHY2-14-e70906-g004.jpg?md5=d03f865b5fb4a086190e4937f62485fe"
+      ],
+      "association": "exact JATS phy270906-fig-0009 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/PHY2-14-e70906-g005.jpg",
+      "sha256": "40b60c215547cade04b4ff94e9c433b24ec44b5a6afc070e04b93b5b82608d37",
+      "bytes": 63046,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13239658.1/PHY2-14-e70906-g005.jpg?md5=86340536c906b4d8a6d04268bc05b175"
+      ],
+      "association": "exact JATS phy270906-fig-0004 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/PHY2-14-e70906-g006.jpg",
+      "sha256": "2322c72a3d8cc8290d67b5f0c620a71ed90a074c302d3ce0c1de5fc7c6568f29",
+      "bytes": 154405,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13239658.1/PHY2-14-e70906-g006.jpg?md5=abd809b641032b85ecceeb97407e4ea5"
+      ],
+      "association": "exact JATS phy270906-fig-0011 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/PHY2-14-e70906-g007.jpg",
+      "sha256": "4509f6a5a80e2e07178879288cba6a49901dbd7dc6ad4a5a6faa8a6176ca7238",
+      "bytes": 172611,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13239658.1/PHY2-14-e70906-g007.jpg?md5=aaa7710330ea85f650bee52b8370bcad"
+      ],
+      "association": "exact JATS phy270906-fig-0005 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/PHY2-14-e70906-g008.jpg",
+      "sha256": "d9b8340ddfec301bc4d230e5f72d8f078764e3f2461d6a394ae221d5b016f2ec",
+      "bytes": 94809,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13239658.1/PHY2-14-e70906-g008.jpg?md5=1e087b0a6fc1c358f0a5ceb61b42422d"
+      ],
+      "association": "exact JATS phy270906-fig-0002 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/PHY2-14-e70906-g009.jpg",
+      "sha256": "0b1cc0133802316e4cc4e0b7c31a124bce18bfa558004f3b80e3dc39291b04a6",
+      "bytes": 122971,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13239658.1/PHY2-14-e70906-g009.jpg?md5=96b8d0e25ae69fb581ab6a74f17cadba"
+      ],
+      "association": "exact JATS phy270906-fig-0010 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/PHY2-14-e70906-g010.jpg",
+      "sha256": "b9071b32b495936acb080487756e1a100c15fa806a8535b9ec233fdc9571d1ef",
+      "bytes": 179341,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13239658.1/PHY2-14-e70906-g010.jpg?md5=88738aaf361606b465effe3648e0b2db"
+      ],
+      "association": "exact JATS phy270906-fig-0007 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/PHY2-14-e70906-g011.jpg",
+      "sha256": "56eb576f2b1a6958328132be60581d0395c0f567f6ccf8a75b34657bb7f4fb81",
+      "bytes": 148449,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13239658.1/PHY2-14-e70906-g011.jpg?md5=b1026cffa0ce88771026704a3a174d68"
+      ],
+      "association": "exact JATS phy270906-fig-0006 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/captions.txt",
+      "sha256": "3f440e267d8e8b77c9459fa449fd561669578da2015e99c8aa57693e30a616c0",
+      "bytes": 7444,
+      "role": "figure_captions",
+      "roles": [
+        "figure_captions"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13239658/"
+      ],
+      "derived_from": "54bb026c5eef0d83f320a7ecb9007dee117ed3519cdb9df56bedaea9bd8d7917"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

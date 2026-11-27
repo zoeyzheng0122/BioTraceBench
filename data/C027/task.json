@@ -1,0 +1,30 @@
+{
+  "case_id": "C027",
+  "task_id": "C027",
+  "title": "Testing a Personalized Approach to Chronic Low Back Pain: A Randomized Controlled Trial in Older Veterans",
+  "doi": "10.1002/acr.25671",
+  "comparison_or_design": "The primary Personalized Aging Back Clinics comparison.",
+  "observations_or_assays": [
+    "Oswestry Disability Index",
+    "PROMIS-29 physical function",
+    "PROMIS Global physical health"
+  ],
+  "time_scope": "Baseline to month 6.",
+  "excluded": [
+    "Months 3/9/12, mental-health and other PROMIS domains",
+    "Pain, falls, life space, utilization and exploratory/sensitivity analyses"
+  ],
+  "population_or_material": "The intention-to-treat cohort of older veterans with chronic low back pain.",
+  "requested_items": [
+    "Baseline arm means, six-month arm changes and main adjusted mixed-model contrasts for ODI/PROMIS physical function/global physical health. Use exact model-specific secondary comparisons, not generic significance statements. Exclude other visits and healthcare-utilization endpoints."
+  ],
+  "resources": [],
+  "case_specific_rules": [],
+  "domain": "clinical",
+  "pipeline": "clinical-trials",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/clinical-trials.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

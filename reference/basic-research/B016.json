@@ -1,0 +1,55 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "Alkaline phosphatase staining",
+      "experiment_run_accession": "Figshare:10.6084/m9.figshare.31042333.v1 (dataset)",
+      "method": "Day-7 ALP staining of SHED receiving piR48444 knockdown or the matched Con reference in Figure 2A. Lentiviral preparation is described in the general Methods, but the exact control construct for this panel is not separately specified. Cells were seeded at 26,000 cells/well in 48-well plates, fixed with paraformaldehyde, and stained using the Beyotime ALP kit (C3206). Staining intensity was quantified using ImageJ. Figure 2A reports three independent experiments. Repository content: study-level source data for the selected paper.",
+      "platform": "Leica stereomicroscope; LAS EZ imaging software",
+      "sample_ids": [
+        "S0001",
+        "S0002"
+      ]
+    }
+  ],
+  "condition": [
+    {
+      "condition_id": "C0001",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Osteogenic differentiation duration",
+      "factor_unit": "day",
+      "factor_value": 7,
+      "sample_id": "S0001",
+      "time": "From osteogenic induction initiation to ALP staining"
+    },
+    {
+      "condition_id": "C0002",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Osteogenic differentiation duration",
+      "factor_unit": "day",
+      "factor_value": 7,
+      "sample_id": "S0002",
+      "time": "From osteogenic induction initiation to ALP staining"
+    }
+  ],
+  "sample": [
+    {
+      "biological_model": "SHED undergoing osteogenic differentiation",
+      "biological_source": "Dental pulp of human exfoliated deciduous teeth",
+      "sample_accession": null,
+      "sample_id": "S0001",
+      "sample_material": "Paraformaldehyde-fixed SHED in the Figure 2A Con matched-control group, cultured in osteogenic medium for 7 days before ALP staining. The general plasmid/lentivirus Methods describes a scramble construct, but the exact control construct or vehicle for this selected panel is not separately specified.",
+      "sample_name": "SHED Con matched control, Day 7",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "piR48444-knockdown SHED undergoing osteogenic differentiation",
+      "biological_source": "Dental pulp of human exfoliated deciduous teeth",
+      "sample_accession": null,
+      "sample_id": "S0002",
+      "sample_material": "Paraformaldehyde-fixed SHED receiving the piR48444 knockdown construct and cultured in osteogenic medium for 7 days before ALP staining.",
+      "sample_name": "SHED piR48444-KD, Day 7",
+      "species": "Homo sapiens"
+    }
+  ]
+}

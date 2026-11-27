@@ -1,0 +1,285 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "B007",
+    "domain": "basic",
+    "title": "Post-replicative chromatin accessibility predicts cell fate change",
+    "doi": "10.1016/j.stemcr.2026.102821",
+    "pipeline": "basic-research",
+    "pmid": "41720083",
+    "pmcid": "PMC12985388",
+    "registry": "GSE296014"
+  },
+  "files": [
+    {
+      "path": "records/GEO-GSE296014-project.txt",
+      "sha256": "576079176eb7fbc565dd2b99250db0a27dafcc14c7617c6f480a2bf286a3c235",
+      "bytes": 8562,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE296014&targ=self&form=text&view=brief"
+      ],
+      "association": "exact accession reported in Data Availability; metadata only; relation not yet verified",
+      "original_filename": "GEO-GSE296014-project.txt"
+    },
+    {
+      "path": "records/GEO-GSE296014-samples.txt",
+      "sha256": "2b9fcef062733fdcaf360020dacfc4261be35f7a7ae2138eb5f2299e06e5e6c3",
+      "bytes": 552594,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE296014&targ=gsm&form=text&view=brief"
+      ],
+      "association": "exact accession reported in Data Availability; metadata only; relation not yet verified",
+      "original_filename": "GEO-GSE296014-samples.txt"
+    },
+    {
+      "path": "sources/article.xml",
+      "sha256": "a7cd2e8c080cc0496ceb42080de874adc0af658365f64af4bcd86ca8c7d4610d",
+      "bytes": 139037,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12985388/fullTextXML"
+      ],
+      "association": "historical source cache reused; revalidated front matter"
+    },
+    {
+      "path": "figures/captions.txt",
+      "sha256": "e11414ecbce7734a46b3b0eb7fdd7b8c846926a9d1276e520178549c7c0584c2",
+      "bytes": 6722,
+      "role": "figure_captions",
+      "roles": [
+        "figure_captions"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12985388/"
+      ],
+      "derived_from": "386c5e4edcd84585cdda98ed24e19e289b576e338b8f2c425ae03c1d45ec23fc"
+    },
+    {
+      "path": "figures/fx1.jpg",
+      "sha256": "785099699c7901579390fbff6d7abb0e8b20e2654234537a087d94448b0541ba",
+      "bytes": 304167,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12985388.1/fx1.jpg?md5=b373d71f360d42315040bbe5eeccacfc"
+      ],
+      "association": "exact JATS undfig1 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/gr1.jpg",
+      "sha256": "b9767417be4349c68e8c5ec92c529ec27ac5cdee0568d6e4915ed78b7b29c3e1",
+      "bytes": 518238,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12985388.1/gr1.jpg?md5=f9a0bd1a07aef94c9ffe356168123cbc"
+      ],
+      "association": "exact JATS fig1 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/gr2.jpg",
+      "sha256": "4d219cf907e80d423f2f3f3d838c91cd1d70fb0ea98fe35f773274ffc0b07cad",
+      "bytes": 493904,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12985388.1/gr2.jpg?md5=6aa81b521a7c114db8b8a45b250bab7a"
+      ],
+      "association": "exact JATS fig2 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/gr3.jpg",
+      "sha256": "0cf7fb25047ab2f201ec8386b4614fa3a9684ae306d143a791aaedc2019edf76",
+      "bytes": 375281,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12985388.1/gr3.jpg?md5=172af31b18f563aac7f5d458359c9da2"
+      ],
+      "association": "exact JATS fig3 in verified PMC version; article source only"
+    },
+    {
+      "path": "supplements/mmc1__refine/page-0003-region-01.png",
+      "sha256": "ee7eeb46d4a46a8ce3e829dc961b14539b47543275e89abd29397782fbc7f745",
+      "bytes": 630656,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12985388.1/mmc1.pdf?md5=6562ad56ab8621dc4d5bd9364d03423a"
+      ],
+      "association": "exact JATS mmc1 in verified PMC version; article source only",
+      "derived_from": "98be2b06e1ec5688ec41f5c18ded7f10d3542e7a3d208fad30e5e60de572e5c7",
+      "original_sha256": "98be2b06e1ec5688ec41f5c18ded7f10d3542e7a3d208fad30e5e60de572e5c7",
+      "original_filename": "mmc1.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/mmc1__refine/page-0005-region-01.png",
+      "sha256": "fdbbdcaf2e8fc07d8e28eaba4b2ca9cca47a2abc1747cf11c9b58a741fbd7678",
+      "bytes": 418177,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12985388.1/mmc1.pdf?md5=6562ad56ab8621dc4d5bd9364d03423a"
+      ],
+      "association": "exact JATS mmc1 in verified PMC version; article source only",
+      "derived_from": "98be2b06e1ec5688ec41f5c18ded7f10d3542e7a3d208fad30e5e60de572e5c7",
+      "original_sha256": "98be2b06e1ec5688ec41f5c18ded7f10d3542e7a3d208fad30e5e60de572e5c7",
+      "original_filename": "mmc1.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/mmc1__refine/page-0007-region-01.png",
+      "sha256": "f7d5a2823c7f561981439bfe3be6f323b8635920317a2b3455a2301a9df453d7",
+      "bytes": 254250,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12985388.1/mmc1.pdf?md5=6562ad56ab8621dc4d5bd9364d03423a"
+      ],
+      "association": "exact JATS mmc1 in verified PMC version; article source only",
+      "derived_from": "98be2b06e1ec5688ec41f5c18ded7f10d3542e7a3d208fad30e5e60de572e5c7",
+      "original_sha256": "98be2b06e1ec5688ec41f5c18ded7f10d3542e7a3d208fad30e5e60de572e5c7",
+      "original_filename": "mmc1.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/mmc1__refine/page-0014-region-01.png",
+      "sha256": "42d0da692e52f91f77a0fb7f14bbb96ee96a46b6dd05df92cb9a03eaad0f5419",
+      "bytes": 43003,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12985388.1/mmc1.pdf?md5=6562ad56ab8621dc4d5bd9364d03423a"
+      ],
+      "association": "exact JATS mmc1 in verified PMC version; article source only",
+      "derived_from": "98be2b06e1ec5688ec41f5c18ded7f10d3542e7a3d208fad30e5e60de572e5c7",
+      "original_sha256": "98be2b06e1ec5688ec41f5c18ded7f10d3542e7a3d208fad30e5e60de572e5c7",
+      "original_filename": "mmc1.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/mmc1__refine/page-0015-region-01.png",
+      "sha256": "f0bfa1d1f68871c04f2436ce42e12da0a2d4465bc9644b8b3adf6b2b5ec301fb",
+      "bytes": 21912,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12985388.1/mmc1.pdf?md5=6562ad56ab8621dc4d5bd9364d03423a"
+      ],
+      "association": "exact JATS mmc1 in verified PMC version; article source only",
+      "derived_from": "98be2b06e1ec5688ec41f5c18ded7f10d3542e7a3d208fad30e5e60de572e5c7",
+      "original_sha256": "98be2b06e1ec5688ec41f5c18ded7f10d3542e7a3d208fad30e5e60de572e5c7",
+      "original_filename": "mmc1.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/mmc1__refine/page-0016-region-01.png",
+      "sha256": "92de7bb6070f06250a7fb8c79acd3e36a2e6fc4c30e1ca082df83609c5ad5714",
+      "bytes": 193133,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12985388.1/mmc1.pdf?md5=6562ad56ab8621dc4d5bd9364d03423a"
+      ],
+      "association": "exact JATS mmc1 in verified PMC version; article source only",
+      "derived_from": "98be2b06e1ec5688ec41f5c18ded7f10d3542e7a3d208fad30e5e60de572e5c7",
+      "original_sha256": "98be2b06e1ec5688ec41f5c18ded7f10d3542e7a3d208fad30e5e60de572e5c7",
+      "original_filename": "mmc1.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/mmc1__refine/page-0017-region-01.png",
+      "sha256": "c1d8738577bc8246df576099cc0d138228a1ded4010208062d900306640e8e43",
+      "bytes": 505436,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12985388.1/mmc1.pdf?md5=6562ad56ab8621dc4d5bd9364d03423a"
+      ],
+      "association": "exact JATS mmc1 in verified PMC version; article source only",
+      "derived_from": "98be2b06e1ec5688ec41f5c18ded7f10d3542e7a3d208fad30e5e60de572e5c7",
+      "original_sha256": "98be2b06e1ec5688ec41f5c18ded7f10d3542e7a3d208fad30e5e60de572e5c7",
+      "original_filename": "mmc1.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/mmc1__refine/content.md",
+      "sha256": "3418eec27eb6640a56bfb69ff3b2329e2f88986dad39fcd0caf5eda410b2590f",
+      "bytes": 19971,
+      "role": "supplement",
+      "roles": [
+        "supplement"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12985388.1/mmc1.pdf?md5=6562ad56ab8621dc4d5bd9364d03423a"
+      ],
+      "association": "exact JATS mmc1 in verified PMC version; article source only",
+      "derived_from": "98be2b06e1ec5688ec41f5c18ded7f10d3542e7a3d208fad30e5e60de572e5c7",
+      "original_sha256": "98be2b06e1ec5688ec41f5c18ded7f10d3542e7a3d208fad30e5e60de572e5c7",
+      "original_filename": "mmc1.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "pdf_text_visual"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

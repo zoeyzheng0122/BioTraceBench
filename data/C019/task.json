@@ -1,0 +1,30 @@
+{
+  "case_id": "C019",
+  "task_id": "C019",
+  "title": "Polypill for heart failure with reduced ejection fraction: the POLY-HF randomized trial",
+  "doi": "10.1038/s41591-026-04504-5",
+  "comparison_or_design": "The primary POLY-HF comparison.",
+  "observations_or_assays": [
+    "CMR left ventricular ejection fraction",
+    "Heart-failure hospitalization or emergency-department visit (composite)",
+    "Medication adherence from blood drug concentrations"
+  ],
+  "time_scope": "Baseline/month 6 for CMR; the article-defined 6-month clinical-event and adherence windows.",
+  "excluded": [
+    "Full-ITT/imputed CMR, echocardiographic LVEF, responder/subgroup/sensitivity analyses",
+    "Other adherence definitions, NT-proBNP, medication dosing and safety"
+  ],
+  "population_or_material": "The POLY-HF cohort: the primary modified-ITT CMR analysis and the source-defined clinical-event and adherence analyses.",
+  "requested_items": [
+    "Primary modified-ITT CMR LVEF arm estimates/contrast, HF hospitalization/ED episode rates and rate ratio, and TDM adherence counts/proportions and primary risk ratio/unadjusted test. Exclude death-composite HR, alternate LVEF populations and other endpoints."
+  ],
+  "resources": [],
+  "case_specific_rules": [],
+  "domain": "clinical",
+  "pipeline": "clinical-trials",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/clinical-trials.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

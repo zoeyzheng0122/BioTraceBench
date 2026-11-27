@@ -1,0 +1,556 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "10x single-cell RNA-seq",
+      "experiment_run_accession": "SRA:SRX29831340 (experiment)",
+      "method": "hgECM-A, Chromium Controller with Next GEM 3′ v3.1, 10,000 cells per library, paired-end and 30,000 reads per cell (P4 XLEAP-SBS). Cell Ranger 7.1.0, GRCh38. Trypsin–EDTA dissociation with 0.25% at 37 °C for 10 min.",
+      "platform": "Illumina NextSeq 2000",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0002",
+      "assay_type": "10x single-cell RNA-seq",
+      "experiment_run_accession": "SRA:SRX29831341 (experiment)",
+      "method": "Matrigel-A, Chromium Controller with Next GEM 3′ v3.1, 10,000 cells per library, paired-end and 30,000 reads per cell (P4 XLEAP-SBS). Cell Ranger 7.1.0, GRCh38. Trypsin–EDTA dissociation with 0.25% at 37 °C for 10 min.",
+      "platform": "Illumina NextSeq 2000",
+      "sample_ids": [
+        "S0002"
+      ]
+    },
+    {
+      "assay_id": "A0003",
+      "assay_type": "10x single-cell RNA-seq",
+      "experiment_run_accession": "SRA:SRX29831342 (experiment)",
+      "method": "hgECM-B, Chromium Controller with Next GEM 3′ v3.1, 10,000 cells per library, paired-end and 30,000 reads per cell (P4 XLEAP-SBS). Cell Ranger 7.1.0, GRCh38. Cold digestion with Bacillus licheniformis protease 4 mg/mL, DNase 10 µg/mL and CaCl2 5 mM for 1 h at 4 °C.",
+      "platform": "Illumina NextSeq 2000",
+      "sample_ids": [
+        "S0003"
+      ]
+    },
+    {
+      "assay_id": "A0004",
+      "assay_type": "10x single-cell RNA-seq",
+      "experiment_run_accession": "SRA:SRX29831343 (experiment)",
+      "method": "Matrigel-B, Chromium Controller with Next GEM 3′ v3.1, 10,000 cells per library, paired-end and 30,000 reads per cell (P4 XLEAP-SBS). Cell Ranger 7.1.0, GRCh38. Cold digestion with Bacillus licheniformis protease 4 mg/mL, DNase 10 µg/mL and CaCl2 5 mM for 1 h at 4 °C.",
+      "platform": "Illumina NextSeq 2000",
+      "sample_ids": [
+        "S0004"
+      ]
+    },
+    {
+      "assay_id": "A0005",
+      "assay_type": "10x single-cell RNA-seq",
+      "experiment_run_accession": "SRA:SRX29831344 (experiment)",
+      "method": "hgECM-C, Chromium X with GEM-X 3′ v4, 20,000 cells per library, paired-end and 30,000 reads per cell (P4 XLEAP-SBS). Cell Ranger 9.0.1, GRCh38. Cold digestion with Bacillus licheniformis protease 4 mg/mL, DNase 10 µg/mL and CaCl2 5 mM for 1 h at 4 °C.",
+      "platform": "Illumina NextSeq 2000",
+      "sample_ids": [
+        "S0005"
+      ]
+    },
+    {
+      "assay_id": "A0006",
+      "assay_type": "10x single-cell RNA-seq",
+      "experiment_run_accession": "SRA:SRX29831345 (experiment)",
+      "method": "Matrigel-C, Chromium X with GEM-X 3′ v4, 20,000 cells per library, paired-end and 30,000 reads per cell (P4 XLEAP-SBS). Cell Ranger 9.0.1, GRCh38. Cold digestion with Bacillus licheniformis protease 4 mg/mL, DNase 10 µg/mL and CaCl2 5 mM for 1 h at 4 °C.",
+      "platform": "Illumina NextSeq 2000",
+      "sample_ids": [
+        "S0006"
+      ]
+    },
+    {
+      "assay_id": "A0007",
+      "assay_type": "10x single-cell RNA-seq",
+      "experiment_run_accession": "SRA:SRX29831346 (experiment)",
+      "method": "hgECM-D, Chromium X with GEM-X 3′ v4, 20,000 cells per library, paired-end and 30,000 reads per cell (P4 XLEAP-SBS). Cell Ranger 9.0.1, GRCh38. Cold digestion with Bacillus licheniformis protease 4 mg/mL, DNase 10 µg/mL and CaCl2 5 mM for 1 h at 4 °C.",
+      "platform": "Illumina NextSeq 2000",
+      "sample_ids": [
+        "S0007"
+      ]
+    },
+    {
+      "assay_id": "A0008",
+      "assay_type": "10x single-cell RNA-seq",
+      "experiment_run_accession": "SRA:SRX29831347 (experiment)",
+      "method": "Matrigel-D, Chromium X with GEM-X 3′ v4, 20,000 cells per library, paired-end and 30,000 reads per cell (P4 XLEAP-SBS). Cell Ranger 9.0.1, GRCh38. Cold digestion with Bacillus licheniformis protease 4 mg/mL, DNase 10 µg/mL and CaCl2 5 mM for 1 h at 4 °C.",
+      "platform": "Illumina NextSeq 2000",
+      "sample_ids": [
+        "S0008"
+      ]
+    }
+  ],
+  "condition": [
+    {
+      "condition_id": "C0001",
+      "condition_target": "Whole sample",
+      "experimental_factor": "hgECM proportion in culture matrix",
+      "factor_unit": "%",
+      "factor_value": 75,
+      "sample_id": "S0001",
+      "time": "During the 4-day culture after transfer into the test matrix"
+    },
+    {
+      "condition_id": "C0002",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Matrigel proportion in culture matrix",
+      "factor_unit": "%",
+      "factor_value": 25,
+      "sample_id": "S0001",
+      "time": "During the 4-day culture after transfer into the test matrix"
+    },
+    {
+      "condition_id": "C0003",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Test-matrix culture duration",
+      "factor_unit": "day",
+      "factor_value": 4,
+      "sample_id": "S0001",
+      "time": "From transfer into the test matrix to collection for scRNA-seq"
+    },
+    {
+      "condition_id": "C0004",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Matrigel proportion in culture matrix",
+      "factor_unit": "%",
+      "factor_value": 100,
+      "sample_id": "S0002",
+      "time": "During the 4-day culture after transfer into the test matrix"
+    },
+    {
+      "condition_id": "C0005",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Test-matrix culture duration",
+      "factor_unit": "day",
+      "factor_value": 4,
+      "sample_id": "S0002",
+      "time": "From transfer into the test matrix to collection for scRNA-seq"
+    },
+    {
+      "condition_id": "C0006",
+      "condition_target": "Whole sample",
+      "experimental_factor": "hgECM proportion in culture matrix",
+      "factor_unit": "%",
+      "factor_value": 75,
+      "sample_id": "S0003",
+      "time": "During the 4-day culture after transfer into the test matrix"
+    },
+    {
+      "condition_id": "C0007",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Matrigel proportion in culture matrix",
+      "factor_unit": "%",
+      "factor_value": 25,
+      "sample_id": "S0003",
+      "time": "During the 4-day culture after transfer into the test matrix"
+    },
+    {
+      "condition_id": "C0008",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Test-matrix culture duration",
+      "factor_unit": "day",
+      "factor_value": 4,
+      "sample_id": "S0003",
+      "time": "From transfer into the test matrix to collection for scRNA-seq"
+    },
+    {
+      "condition_id": "C0009",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Matrigel proportion in culture matrix",
+      "factor_unit": "%",
+      "factor_value": 100,
+      "sample_id": "S0004",
+      "time": "During the 4-day culture after transfer into the test matrix"
+    },
+    {
+      "condition_id": "C0010",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Test-matrix culture duration",
+      "factor_unit": "day",
+      "factor_value": 4,
+      "sample_id": "S0004",
+      "time": "From transfer into the test matrix to collection for scRNA-seq"
+    },
+    {
+      "condition_id": "C0011",
+      "condition_target": "Whole sample",
+      "experimental_factor": "hgECM proportion in culture matrix",
+      "factor_unit": "%",
+      "factor_value": 75,
+      "sample_id": "S0005",
+      "time": "During the 4-day culture after transfer into the test matrix"
+    },
+    {
+      "condition_id": "C0012",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Matrigel proportion in culture matrix",
+      "factor_unit": "%",
+      "factor_value": 25,
+      "sample_id": "S0005",
+      "time": "During the 4-day culture after transfer into the test matrix"
+    },
+    {
+      "condition_id": "C0013",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Test-matrix culture duration",
+      "factor_unit": "day",
+      "factor_value": 4,
+      "sample_id": "S0005",
+      "time": "From transfer into the test matrix to collection for scRNA-seq"
+    },
+    {
+      "condition_id": "C0014",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Matrigel proportion in culture matrix",
+      "factor_unit": "%",
+      "factor_value": 100,
+      "sample_id": "S0006",
+      "time": "During the 4-day culture after transfer into the test matrix"
+    },
+    {
+      "condition_id": "C0015",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Test-matrix culture duration",
+      "factor_unit": "day",
+      "factor_value": 4,
+      "sample_id": "S0006",
+      "time": "From transfer into the test matrix to collection for scRNA-seq"
+    },
+    {
+      "condition_id": "C0016",
+      "condition_target": "Whole sample",
+      "experimental_factor": "hgECM proportion in culture matrix",
+      "factor_unit": "%",
+      "factor_value": 75,
+      "sample_id": "S0007",
+      "time": "During the 4-day culture after transfer into the test matrix"
+    },
+    {
+      "condition_id": "C0017",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Matrigel proportion in culture matrix",
+      "factor_unit": "%",
+      "factor_value": 25,
+      "sample_id": "S0007",
+      "time": "During the 4-day culture after transfer into the test matrix"
+    },
+    {
+      "condition_id": "C0018",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Test-matrix culture duration",
+      "factor_unit": "day",
+      "factor_value": 4,
+      "sample_id": "S0007",
+      "time": "From transfer into the test matrix to collection for scRNA-seq"
+    },
+    {
+      "condition_id": "C0019",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Matrigel proportion in culture matrix",
+      "factor_unit": "%",
+      "factor_value": 100,
+      "sample_id": "S0008",
+      "time": "During the 4-day culture after transfer into the test matrix"
+    },
+    {
+      "condition_id": "C0020",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Test-matrix culture duration",
+      "factor_unit": "day",
+      "factor_value": 4,
+      "sample_id": "S0008",
+      "time": "From transfer into the test matrix to collection for scRNA-seq"
+    },
+    {
+      "condition_id": "C0021",
+      "condition_target": "Human gastric organoid fragments",
+      "experimental_factor": "Trypsin–EDTA concentration",
+      "factor_unit": "%",
+      "factor_value": 0.25,
+      "sample_id": "S0001",
+      "time": "At day 4, for 10 min at 37 °C."
+    },
+    {
+      "condition_id": "C0022",
+      "condition_target": "Human gastric organoid fragments",
+      "experimental_factor": "Trypsin dissociation duration",
+      "factor_unit": "min",
+      "factor_value": 10,
+      "sample_id": "S0001",
+      "time": "Day 4, at 37 °C."
+    },
+    {
+      "condition_id": "C0023",
+      "condition_target": "Human gastric organoid fragments",
+      "experimental_factor": "Trypsin dissociation temperature",
+      "factor_unit": "°C",
+      "factor_value": 37,
+      "sample_id": "S0001",
+      "time": "Day 4, for 10 min."
+    },
+    {
+      "condition_id": "C0024",
+      "condition_target": "Human gastric organoid fragments",
+      "experimental_factor": "Trypsin–EDTA concentration",
+      "factor_unit": "%",
+      "factor_value": 0.25,
+      "sample_id": "S0002",
+      "time": "At day 4, for 10 min at 37 °C."
+    },
+    {
+      "condition_id": "C0025",
+      "condition_target": "Human gastric organoid fragments",
+      "experimental_factor": "Trypsin dissociation duration",
+      "factor_unit": "min",
+      "factor_value": 10,
+      "sample_id": "S0002",
+      "time": "Day 4, at 37 °C."
+    },
+    {
+      "condition_id": "C0026",
+      "condition_target": "Human gastric organoid fragments",
+      "experimental_factor": "Trypsin dissociation temperature",
+      "factor_unit": "°C",
+      "factor_value": 37,
+      "sample_id": "S0002",
+      "time": "Day 4, for 10 min."
+    },
+    {
+      "condition_id": "C0027",
+      "condition_target": "Human gastric organoid fragments",
+      "experimental_factor": "Cold protease concentration",
+      "factor_unit": "mg/mL",
+      "factor_value": 4,
+      "sample_id": "S0003",
+      "time": "At day 4, with DNase and CaCl2 for 1 h at 4 °C."
+    },
+    {
+      "condition_id": "C0028",
+      "condition_target": "Human gastric organoid fragments",
+      "experimental_factor": "Cold protease dissociation duration",
+      "factor_unit": "h",
+      "factor_value": 1,
+      "sample_id": "S0003",
+      "time": "Day 4, at 4 °C."
+    },
+    {
+      "condition_id": "C0029",
+      "condition_target": "Human gastric organoid fragments",
+      "experimental_factor": "Cold protease dissociation temperature",
+      "factor_unit": "°C",
+      "factor_value": 4,
+      "sample_id": "S0003",
+      "time": "Day 4, for 1 h."
+    },
+    {
+      "condition_id": "C0030",
+      "condition_target": "Human gastric organoid fragments",
+      "experimental_factor": "Cold protease concentration",
+      "factor_unit": "mg/mL",
+      "factor_value": 4,
+      "sample_id": "S0004",
+      "time": "At day 4, with DNase and CaCl2 for 1 h at 4 °C."
+    },
+    {
+      "condition_id": "C0031",
+      "condition_target": "Human gastric organoid fragments",
+      "experimental_factor": "Cold protease dissociation duration",
+      "factor_unit": "h",
+      "factor_value": 1,
+      "sample_id": "S0004",
+      "time": "Day 4, at 4 °C."
+    },
+    {
+      "condition_id": "C0032",
+      "condition_target": "Human gastric organoid fragments",
+      "experimental_factor": "Cold protease dissociation temperature",
+      "factor_unit": "°C",
+      "factor_value": 4,
+      "sample_id": "S0004",
+      "time": "Day 4, for 1 h."
+    },
+    {
+      "condition_id": "C0033",
+      "condition_target": "Human gastric organoid fragments",
+      "experimental_factor": "Cold protease concentration",
+      "factor_unit": "mg/mL",
+      "factor_value": 4,
+      "sample_id": "S0005",
+      "time": "At day 4, with DNase and CaCl2 for 1 h at 4 °C."
+    },
+    {
+      "condition_id": "C0034",
+      "condition_target": "Human gastric organoid fragments",
+      "experimental_factor": "Cold protease dissociation duration",
+      "factor_unit": "h",
+      "factor_value": 1,
+      "sample_id": "S0005",
+      "time": "Day 4, at 4 °C."
+    },
+    {
+      "condition_id": "C0035",
+      "condition_target": "Human gastric organoid fragments",
+      "experimental_factor": "Cold protease dissociation temperature",
+      "factor_unit": "°C",
+      "factor_value": 4,
+      "sample_id": "S0005",
+      "time": "Day 4, for 1 h."
+    },
+    {
+      "condition_id": "C0036",
+      "condition_target": "Human gastric organoid fragments",
+      "experimental_factor": "Cold protease concentration",
+      "factor_unit": "mg/mL",
+      "factor_value": 4,
+      "sample_id": "S0006",
+      "time": "At day 4, with DNase and CaCl2 for 1 h at 4 °C."
+    },
+    {
+      "condition_id": "C0037",
+      "condition_target": "Human gastric organoid fragments",
+      "experimental_factor": "Cold protease dissociation duration",
+      "factor_unit": "h",
+      "factor_value": 1,
+      "sample_id": "S0006",
+      "time": "Day 4, at 4 °C."
+    },
+    {
+      "condition_id": "C0038",
+      "condition_target": "Human gastric organoid fragments",
+      "experimental_factor": "Cold protease dissociation temperature",
+      "factor_unit": "°C",
+      "factor_value": 4,
+      "sample_id": "S0006",
+      "time": "Day 4, for 1 h."
+    },
+    {
+      "condition_id": "C0039",
+      "condition_target": "Human gastric organoid fragments",
+      "experimental_factor": "Cold protease concentration",
+      "factor_unit": "mg/mL",
+      "factor_value": 4,
+      "sample_id": "S0007",
+      "time": "At day 4, with DNase and CaCl2 for 1 h at 4 °C."
+    },
+    {
+      "condition_id": "C0040",
+      "condition_target": "Human gastric organoid fragments",
+      "experimental_factor": "Cold protease dissociation duration",
+      "factor_unit": "h",
+      "factor_value": 1,
+      "sample_id": "S0007",
+      "time": "Day 4, at 4 °C."
+    },
+    {
+      "condition_id": "C0041",
+      "condition_target": "Human gastric organoid fragments",
+      "experimental_factor": "Cold protease dissociation temperature",
+      "factor_unit": "°C",
+      "factor_value": 4,
+      "sample_id": "S0007",
+      "time": "Day 4, for 1 h."
+    },
+    {
+      "condition_id": "C0042",
+      "condition_target": "Human gastric organoid fragments",
+      "experimental_factor": "Cold protease concentration",
+      "factor_unit": "mg/mL",
+      "factor_value": 4,
+      "sample_id": "S0008",
+      "time": "At day 4, with DNase and CaCl2 for 1 h at 4 °C."
+    },
+    {
+      "condition_id": "C0043",
+      "condition_target": "Human gastric organoid fragments",
+      "experimental_factor": "Cold protease dissociation duration",
+      "factor_unit": "h",
+      "factor_value": 1,
+      "sample_id": "S0008",
+      "time": "Day 4, at 4 °C."
+    },
+    {
+      "condition_id": "C0044",
+      "condition_target": "Human gastric organoid fragments",
+      "experimental_factor": "Cold protease dissociation temperature",
+      "factor_unit": "°C",
+      "factor_value": 4,
+      "sample_id": "S0008",
+      "time": "Day 4, for 1 h."
+    }
+  ],
+  "sample": [
+    {
+      "biological_model": "Human gastric organoid line A (Hu0043/Hu043 as reported)",
+      "biological_source": "Human gastric glands (female cellular donor; pair A)",
+      "sample_accession": "GEO:GSM9128519 (sample); BioSample:SAMN50179896 (sample)",
+      "sample_id": "S0001",
+      "sample_material": "Single-cell suspension from passage-6 gastric organoids cultured in 75% hgECM/25% Matrigel; trypsinization before library preparation. hgECM matrix donor 1 (male, H. pylori-negative); not autologous to the cellular donor.",
+      "sample_name": "Organoid A, 75% hgECM",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Human gastric organoid line A (Hu0043/Hu043 as reported)",
+      "biological_source": "Human gastric glands (female cellular donor; pair A)",
+      "sample_accession": "GEO:GSM9128520 (sample); BioSample:SAMN50179895 (sample)",
+      "sample_id": "S0002",
+      "sample_material": "Single-cell suspension from passage-6 gastric organoids cultured in 100% Matrigel; trypsinization before library preparation.",
+      "sample_name": "Organoid A, Matrigel",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Human gastric organoid line B (Hu044)",
+      "biological_source": "Human gastric glands (male cellular donor; pair B)",
+      "sample_accession": "GEO:GSM9128521 (sample); BioSample:SAMN50179894 (sample)",
+      "sample_id": "S0003",
+      "sample_material": "Single-cell suspension from passage-4 gastric organoids cultured in 75% hgECM/25% Matrigel; cold protease digestion before library preparation. hgECM matrix donor 2 (male, H. pylori-negative); autologous to the cellular donor.",
+      "sample_name": "Organoid B, 75% hgECM",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Human gastric organoid line B (Hu044)",
+      "biological_source": "Human gastric glands (male cellular donor; pair B)",
+      "sample_accession": "GEO:GSM9128522 (sample); BioSample:SAMN50179893 (sample)",
+      "sample_id": "S0004",
+      "sample_material": "Single-cell suspension from passage-4 gastric organoids cultured in 100% Matrigel; cold protease digestion before library preparation.",
+      "sample_name": "Organoid B, Matrigel",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Human gastric organoid line C (Hu010)",
+      "biological_source": "Human gastric glands (female cellular donor; pair C)",
+      "sample_accession": "GEO:GSM9128523 (sample); BioSample:SAMN50179892 (sample)",
+      "sample_id": "S0005",
+      "sample_material": "Single-cell suspension from passage-5 gastric organoids cultured in 75% hgECM/25% Matrigel; cold protease digestion before library preparation. hgECM matrix donor 3 (female, H. pylori-positive); not autologous to the cellular donor.",
+      "sample_name": "Organoid C, 75% hgECM",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Human gastric organoid line C (Hu010)",
+      "biological_source": "Human gastric glands (female cellular donor; pair C)",
+      "sample_accession": "GEO:GSM9128524 (sample); BioSample:SAMN50179891 (sample)",
+      "sample_id": "S0006",
+      "sample_material": "Single-cell suspension from passage-5 gastric organoids cultured in 100% Matrigel; cold protease digestion before library preparation.",
+      "sample_name": "Organoid C, Matrigel",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Human gastric organoid line D (Hu007)",
+      "biological_source": "Human gastric glands (female cellular donor; pair D)",
+      "sample_accession": "GEO:GSM9128525 (sample); BioSample:SAMN50179890 (sample)",
+      "sample_id": "S0007",
+      "sample_material": "Single-cell suspension from passage-5 gastric organoids cultured in 75% hgECM/25% Matrigel; cold protease digestion before library preparation. hgECM matrix donor 2 (male, H. pylori-negative); not autologous to the cellular donor.",
+      "sample_name": "Organoid D, 75% hgECM",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Human gastric organoid line D (Hu007)",
+      "biological_source": "Human gastric glands (female cellular donor; pair D)",
+      "sample_accession": "GEO:GSM9128526 (sample); BioSample:SAMN50179889 (sample)",
+      "sample_id": "S0008",
+      "sample_material": "Single-cell suspension from passage-5 gastric organoids cultured in 100% Matrigel; cold protease digestion before library preparation.",
+      "sample_name": "Organoid D, Matrigel",
+      "species": "Homo sapiens"
+    }
+  ]
+}

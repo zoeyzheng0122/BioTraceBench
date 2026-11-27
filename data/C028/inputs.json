@@ -1,0 +1,145 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "C028",
+    "domain": "clinical",
+    "title": "Responsiveness of Outcome Measures in Chronic Non-Specific Low Back Pain: A Secondary Analysis of a Randomized Controlled Trial",
+    "doi": "10.3390/jpm16070338",
+    "pipeline": "clinical-trials",
+    "pmid": "42506065",
+    "pmcid": "PMC13413393",
+    "registry": "RBR-3X5PGN7"
+  },
+  "files": [
+    {
+      "path": "sources/article.xml",
+      "sha256": "72d21e48fbd3f40b0a0c1295009e7868fc564125f938a00eaad976a3fa2e6bec",
+      "bytes": 80147,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13413393/fullTextXML"
+      ],
+      "association": "exact public PMCID candidate"
+    },
+    {
+      "path": "figures/captions.txt",
+      "sha256": "309e96567f63afe0aec4bb98ca74a9cd190af30cfdfaddfb9e9625d6cee4f3aa",
+      "bytes": 1485,
+      "role": "figure_captions",
+      "roles": [
+        "figure_captions"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13413393/"
+      ],
+      "derived_from": "8f0e39a7aa120f7b6b218759dcd1df1a6a4d11d6bb730c2c3df2c773e9a5f302"
+    },
+    {
+      "path": "figures/jpm-16-00338-g001.jpg",
+      "sha256": "73d18dc1f8e4d2112ae9ee18c04213cc40c97e19acf82650ce2d1b0a084fd5c2",
+      "bytes": 46755,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13413393.1/jpm-16-00338-g001.jpg?md5=3f6fa73684faf17f7cfc10d802b40f22"
+      ],
+      "association": "exact JATS jpm-16-00338-f001 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/jpm-16-00338-g002.jpg",
+      "sha256": "4ad018d3249933e51351de314819ae7f5ec2ef3f5585714aa916df980971e726",
+      "bytes": 40112,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13413393.1/jpm-16-00338-g002.jpg?md5=7d6ad22e023520837c357238e81cf0b4"
+      ],
+      "association": "exact JATS jpm-16-00338-f002 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/jpm-16-00338-g003.jpg",
+      "sha256": "e0215d3ea26473af6f8f8cf216ecceb71cdd065e916f11a85c97eef700532269",
+      "bytes": 42243,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13413393.1/jpm-16-00338-g003.jpg?md5=1f88df3ff0ed556436e166ba2346ce21"
+      ],
+      "association": "exact JATS jpm-16-00338-f003 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/jpm-16-00338-g004.jpg",
+      "sha256": "4b5a9c0fb50682db83733658228f1f2c9ef969ea0fb07e94672263376911c1aa",
+      "bytes": 35524,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13413393.1/jpm-16-00338-g004.jpg?md5=dd611b827f0d603ea3f9dde60142ea76"
+      ],
+      "association": "exact JATS jpm-16-00338-f004 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/jpm-16-00338-g005.jpg",
+      "sha256": "0108caaaae16aa739093b38f7b9b8f047a28724d6d5d053a32e0335e775ad570",
+      "bytes": 38277,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13413393.1/jpm-16-00338-g005.jpg?md5=01f3fef916c8e6086651b910381911d7"
+      ],
+      "association": "exact JATS jpm-16-00338-f005 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/jpm-16-00338-g006.jpg",
+      "sha256": "7d0855742340a6a0ae69e668be957f117f2491cbc1c2a1b5c0bd42ba31834979",
+      "bytes": 37253,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13413393.1/jpm-16-00338-g006.jpg?md5=8e4b59a45d776f74c5fef21687984c27"
+      ],
+      "association": "exact JATS jpm-16-00338-f006 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/jpm-16-00338-g007.jpg",
+      "sha256": "0d154bc138cb9e0e45fc3adee72119d22a9eb4b548085bf6897e1a3376aea33d",
+      "bytes": 38157,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13413393.1/jpm-16-00338-g007.jpg?md5=654061698c0b364190811736ed008c3d"
+      ],
+      "association": "exact JATS jpm-16-00338-f007 in verified PMC version; article source only"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

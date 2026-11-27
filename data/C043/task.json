@@ -1,0 +1,30 @@
+{
+  "case_id": "C043",
+  "task_id": "C043",
+  "title": "Cognition and obstructive sleep apnea in Parkinson’s disease: randomized controlled trial of positive airway pressure",
+  "doi": "10.1093/sleep/zsaf038",
+  "comparison_or_design": "The primary COPE-PAP cognition comparison.",
+  "observations_or_assays": [
+    "Montreal Cognitive Assessment score",
+    "PDQ-39 quality-of-life score",
+    "Parkinson’s Disease Sleep Scale score"
+  ],
+  "time_scope": "Baseline to month 6, primary unadjusted ITT comparison.",
+  "excluded": [
+    "Adjusted ITT, per-protocol, sensitivity and subgroup analyses",
+    "Detailed neurocognitive, motor, depression, ESS and other outcomes"
+  ],
+  "population_or_material": "The primary ITT population with Parkinson’s disease, reduced cognition and OSA.",
+  "requested_items": [
+    "Observed baseline Table 2 summaries and primary unadjusted ITT Table 3 six-month means, changes and contrasts for MoCA/PDQ-39/PDSS. Keep observed baseline denominators distinct from imputed ITT endpoints. Exclude PP, covariate-adjusted sensitivity and other visits."
+  ],
+  "resources": [],
+  "case_specific_rules": [],
+  "domain": "clinical",
+  "pipeline": "clinical-trials",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/clinical-trials.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

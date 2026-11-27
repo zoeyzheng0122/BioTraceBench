@@ -1,0 +1,260 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "Single-cell RNA-seq",
+      "experiment_run_accession": "SRA:SRX26836166 (experiment)",
+      "method": "10x Chromium Next GEM Single Cell 3' Gene Expression v3.1; one registered preparation/library. Native sample: B1-CX-KO-16w-o1.",
+      "platform": "10x Genomics Chromium Controller; Illumina NovaSeq 6000",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0002",
+      "assay_type": "Single-cell RNA-seq",
+      "experiment_run_accession": "SRA:SRX26836167 (experiment)",
+      "method": "10x Chromium Next GEM Single Cell 3' Gene Expression v3.1; one registered preparation/library. Native sample: B1-CX-KO-16w-o2.",
+      "platform": "10x Genomics Chromium Controller; Illumina NovaSeq 6000",
+      "sample_ids": [
+        "S0002"
+      ]
+    },
+    {
+      "assay_id": "A0003",
+      "assay_type": "Single-cell RNA-seq",
+      "experiment_run_accession": "SRA:SRX26836174 (experiment)",
+      "method": "10x Chromium Next GEM Single Cell 3' Gene Expression v3.1; one registered preparation/library. Native sample: B1-CX-WT-16w-o1.",
+      "platform": "10x Genomics Chromium Controller; Illumina NovaSeq 6000",
+      "sample_ids": [
+        "S0003"
+      ]
+    },
+    {
+      "assay_id": "A0004",
+      "assay_type": "Single-cell RNA-seq",
+      "experiment_run_accession": "SRA:SRX26836175 (experiment)",
+      "method": "10x Chromium Next GEM Single Cell 3' Gene Expression v3.1; one registered preparation/library. Native sample: B1-CX-WT-16w-o2.",
+      "platform": "10x Genomics Chromium Controller; Illumina NovaSeq 6000",
+      "sample_ids": [
+        "S0004"
+      ]
+    },
+    {
+      "assay_id": "A0005",
+      "assay_type": "Single-cell RNA-seq",
+      "experiment_run_accession": "SRA:SRX26836176 (experiment)",
+      "method": "10x Chromium Next GEM Single Cell 3' Gene Expression v3.1; one registered preparation/library. Native sample: B1-CX-WT-16w-o3.",
+      "platform": "10x Genomics Chromium Controller; Illumina NovaSeq 6000",
+      "sample_ids": [
+        "S0005"
+      ]
+    },
+    {
+      "assay_id": "A0006",
+      "assay_type": "Single-cell RNA-seq",
+      "experiment_run_accession": "SRA:SRX26836190 (experiment)",
+      "method": "10x Chromium Next GEM Single Cell 3' Gene Expression v3.1; one registered preparation/library. Native sample: B2-CX-KO-16w-o1.",
+      "platform": "10x Genomics Chromium Controller; Illumina NovaSeq 6000",
+      "sample_ids": [
+        "S0006"
+      ]
+    },
+    {
+      "assay_id": "A0007",
+      "assay_type": "Single-cell RNA-seq",
+      "experiment_run_accession": "SRA:SRX26836191 (experiment)",
+      "method": "10x Chromium Next GEM Single Cell 3' Gene Expression v3.1; one registered preparation/library. Native sample: B2-CX-KO-16w-o2.",
+      "platform": "10x Genomics Chromium Controller; Illumina NovaSeq 6000",
+      "sample_ids": [
+        "S0007"
+      ]
+    },
+    {
+      "assay_id": "A0008",
+      "assay_type": "Single-cell RNA-seq",
+      "experiment_run_accession": "SRA:SRX26836192 (experiment)",
+      "method": "10x Chromium Next GEM Single Cell 3' Gene Expression v3.1; one registered preparation/library. Native sample: B2-CX-KO-16w-o3.",
+      "platform": "10x Genomics Chromium Controller; Illumina NovaSeq 6000",
+      "sample_ids": [
+        "S0008"
+      ]
+    },
+    {
+      "assay_id": "A0009",
+      "assay_type": "Single-cell RNA-seq",
+      "experiment_run_accession": "SRA:SRX26836183 (experiment)",
+      "method": "10x Chromium Next GEM Single Cell 3' Gene Expression v3.1; one registered preparation/library. Native sample: B2-CX-WT-16w-o1.",
+      "platform": "10x Genomics Chromium Controller; Illumina NovaSeq 6000",
+      "sample_ids": [
+        "S0009"
+      ]
+    }
+  ],
+  "condition": [
+    {
+      "condition_id": "C0001",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Organoid age at scRNA-seq collection",
+      "factor_unit": "week",
+      "factor_value": 16,
+      "sample_id": "S0001",
+      "time": "At collection, 16 weeks after cortical organoid differentiation initiation"
+    },
+    {
+      "condition_id": "C0002",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Organoid age at scRNA-seq collection",
+      "factor_unit": "week",
+      "factor_value": 16,
+      "sample_id": "S0002",
+      "time": "At collection, 16 weeks after cortical organoid differentiation initiation"
+    },
+    {
+      "condition_id": "C0003",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Organoid age at scRNA-seq collection",
+      "factor_unit": "week",
+      "factor_value": 16,
+      "sample_id": "S0003",
+      "time": "At collection, 16 weeks after cortical organoid differentiation initiation"
+    },
+    {
+      "condition_id": "C0004",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Organoid age at scRNA-seq collection",
+      "factor_unit": "week",
+      "factor_value": 16,
+      "sample_id": "S0004",
+      "time": "At collection, 16 weeks after cortical organoid differentiation initiation"
+    },
+    {
+      "condition_id": "C0005",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Organoid age at scRNA-seq collection",
+      "factor_unit": "week",
+      "factor_value": 16,
+      "sample_id": "S0005",
+      "time": "At collection, 16 weeks after cortical organoid differentiation initiation"
+    },
+    {
+      "condition_id": "C0006",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Organoid age at scRNA-seq collection",
+      "factor_unit": "week",
+      "factor_value": 16,
+      "sample_id": "S0006",
+      "time": "At collection, 16 weeks after cortical organoid differentiation initiation"
+    },
+    {
+      "condition_id": "C0007",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Organoid age at scRNA-seq collection",
+      "factor_unit": "week",
+      "factor_value": 16,
+      "sample_id": "S0007",
+      "time": "At collection, 16 weeks after cortical organoid differentiation initiation"
+    },
+    {
+      "condition_id": "C0008",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Organoid age at scRNA-seq collection",
+      "factor_unit": "week",
+      "factor_value": 16,
+      "sample_id": "S0008",
+      "time": "At collection, 16 weeks after cortical organoid differentiation initiation"
+    },
+    {
+      "condition_id": "C0009",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Organoid age at scRNA-seq collection",
+      "factor_unit": "week",
+      "factor_value": 16,
+      "sample_id": "S0009",
+      "time": "At collection, 16 weeks after cortical organoid differentiation initiation"
+    }
+  ],
+  "sample": [
+    {
+      "biological_model": "GRN-null human cortical organoid model",
+      "biological_source": "Isogenic GRN-null WTC11 human iPSCs (GRN-/-)",
+      "sample_accession": "GEO:GSM8648594 (sample); BioSample:SAMN45005520 (sample)",
+      "sample_id": "S0001",
+      "sample_material": "Papain-dissociated single-cell preparation from a 16-week cortical organoid; experimental batch B1, native organoid label o1. No cross-organoid pooling is reported.",
+      "sample_name": "B1-CX-KO-16w-o1",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "GRN-null human cortical organoid model",
+      "biological_source": "Isogenic GRN-null WTC11 human iPSCs (GRN-/-)",
+      "sample_accession": "GEO:GSM8648595 (sample); BioSample:SAMN45005519 (sample)",
+      "sample_id": "S0002",
+      "sample_material": "Papain-dissociated single-cell preparation from a 16-week cortical organoid; experimental batch B1, native organoid label o2. No cross-organoid pooling is reported.",
+      "sample_name": "B1-CX-KO-16w-o2",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Isogenic GRN-wild-type human cortical organoid control",
+      "biological_source": "WTC11 human iPSCs (GRN+/+)",
+      "sample_accession": "GEO:GSM8648602 (sample); BioSample:SAMN45005512 (sample)",
+      "sample_id": "S0003",
+      "sample_material": "Papain-dissociated single-cell preparation from a 16-week cortical organoid; experimental batch B1, native organoid label o1. No cross-organoid pooling is reported.",
+      "sample_name": "B1-CX-WT-16w-o1",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Isogenic GRN-wild-type human cortical organoid control",
+      "biological_source": "WTC11 human iPSCs (GRN+/+)",
+      "sample_accession": "GEO:GSM8648603 (sample); BioSample:SAMN45005511 (sample)",
+      "sample_id": "S0004",
+      "sample_material": "Papain-dissociated single-cell preparation from a 16-week cortical organoid; experimental batch B1, native organoid label o2. No cross-organoid pooling is reported.",
+      "sample_name": "B1-CX-WT-16w-o2",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Isogenic GRN-wild-type human cortical organoid control",
+      "biological_source": "WTC11 human iPSCs (GRN+/+)",
+      "sample_accession": "GEO:GSM8648604 (sample); BioSample:SAMN45005510 (sample)",
+      "sample_id": "S0005",
+      "sample_material": "Papain-dissociated single-cell preparation from a 16-week cortical organoid; experimental batch B1, native organoid label o3. No cross-organoid pooling is reported.",
+      "sample_name": "B1-CX-WT-16w-o3",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "GRN-null human cortical organoid model",
+      "biological_source": "Isogenic GRN-null WTC11 human iPSCs (GRN-/-)",
+      "sample_accession": "GEO:GSM8648611 (sample); BioSample:SAMN45005503 (sample)",
+      "sample_id": "S0006",
+      "sample_material": "Papain-dissociated single-cell preparation from a 16-week cortical organoid; experimental batch B2, native organoid label o1. No cross-organoid pooling is reported.",
+      "sample_name": "B2-CX-KO-16w-o1",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "GRN-null human cortical organoid model",
+      "biological_source": "Isogenic GRN-null WTC11 human iPSCs (GRN-/-)",
+      "sample_accession": "GEO:GSM8648612 (sample); BioSample:SAMN45005502 (sample)",
+      "sample_id": "S0007",
+      "sample_material": "Papain-dissociated single-cell preparation from a 16-week cortical organoid; experimental batch B2, native organoid label o2. No cross-organoid pooling is reported.",
+      "sample_name": "B2-CX-KO-16w-o2",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "GRN-null human cortical organoid model",
+      "biological_source": "Isogenic GRN-null WTC11 human iPSCs (GRN-/-)",
+      "sample_accession": "GEO:GSM8648613 (sample); BioSample:SAMN45005501 (sample)",
+      "sample_id": "S0008",
+      "sample_material": "Papain-dissociated single-cell preparation from a 16-week cortical organoid; experimental batch B2, native organoid label o3. No cross-organoid pooling is reported.",
+      "sample_name": "B2-CX-KO-16w-o3",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Isogenic GRN-wild-type human cortical organoid control",
+      "biological_source": "WTC11 human iPSCs (GRN+/+)",
+      "sample_accession": "GEO:GSM8648620 (sample); BioSample:SAMN45005494 (sample)",
+      "sample_id": "S0009",
+      "sample_material": "Papain-dissociated single-cell preparation from a 16-week cortical organoid; experimental batch B2, native organoid label o1. No cross-organoid pooling is reported.",
+      "sample_name": "B2-CX-WT-16w-o1",
+      "species": "Homo sapiens"
+    }
+  ]
+}

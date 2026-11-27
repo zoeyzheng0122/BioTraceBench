@@ -1,0 +1,167 @@
+{
+  "measure": [
+    {
+      "measure_definition": "Pathological complete response (pCR) assessed on the surgical specimen after the complete Dato-DXd-led treatment strategy across Blocks A–C or protocol-directed early surgery. Model-estimated and observed pCR summaries refer to this same clinical criterion; their statistical summaries are distinguished in result rows.",
+      "measure_id": "M0",
+      "measure_name": "Pathological complete response (pCR)"
+    },
+    {
+      "measure_definition": "Residual Cancer Burden (RCB) class at surgery after the complete Dato-DXd-led strategy or protocol-directed early surgery. The supplied Supplementary Figure 2 identifies RCB 0 (pCR), RCB 1, RCB 2 and RCB 3. The HR-negative/HER2-negative/Immune-negative/DRD-negative RCB-evaluable subtype has n=10; patients assigned non-pCR because of withdrawal before surgery or additional non-protocol therapy were excluded from this RCB analysis.",
+      "measure_id": "M1",
+      "measure_name": "Residual Cancer Burden (RCB) class at surgery"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "Datopotamab-deruxtecan (Dato-DXd) in Block A, followed by protocol-directed sequential neoadjuvant blocks.",
+      "intervention_regimen": "Dato-DXd 6 mg/kg intravenously on day 1 of each 3-week cycle, for up to 4 cycles in Block A; followed by protocol-directed taxane-based Block B and doxorubicin/cyclophosphamide Block C, with surgery after completion or protocol-directed early surgery.",
+      "population_definition": "Treatment: assignment to the Dato-DXd Block A arm in I-SPY2.2 and receipt of Dato-DXd.; High-risk stage 2/3 breast cancer enrolled in I-SPY2.2 and treated with Dato-DXd; all subtypes. Participants receive up to three sequential neoadjuvant blocks, with surgery after the complete strategy or protocol-directed early surgery.",
+      "population_id": "P0",
+      "population_name": "Dato-DXd-treated participants (all subtypes)",
+      "population_size": 103,
+      "population_time_frame": "Study screening/enrollment window reported as 27 June 2022 to 1 September 2023; Block A followed by protocol-directed treatment and surgery."
+    },
+    {
+      "intervention": "Datopotamab-deruxtecan (Dato-DXd) in Block A, followed by protocol-directed sequential neoadjuvant blocks.",
+      "intervention_regimen": "Dato-DXd 6 mg/kg intravenously on day 1 of each 3-week cycle, for up to 4 cycles in Block A; followed, when required by response-directed treatment, by paclitaxel/carboplatin/pembrolizumab in Block B and doxorubicin/cyclophosphamide plus pembrolizumab in Block C (D/TCPe/ACPe), with surgery after the applicable final block or protocol-directed early surgery.",
+      "population_definition": "Response-predictive subtype among Dato-DXd-treated participants; primary strategy analysis across all blocks.; High-risk stage 2/3 breast cancer; Dato-DXd arm; HER2-negative, Immune-negative, DRD-negative subtype, with HR-negative status indicated by the abstract's HR-HER2-Im-DRD− designation. Subtype-specific N=11 reported in the full article.",
+      "population_id": "P1",
+      "population_name": "Dato-DXd strategy in HR-negative/HER2-negative/Immune-negative/DRD-negative subtype",
+      "population_size": 11,
+      "population_time_frame": "Enrolment/treatment dates: Not reported."
+    },
+    {
+      "intervention": "Subtype-specific dynamic control from candidate I-SPY2 arms: paclitaxel followed by AC; paclitaxel plus veliparib plus carboplatin followed by AC; paclitaxel plus pembrolizumab followed by AC.",
+      "intervention_regimen": "Candidate comparators for HR-HER2-Immune-DRD− in Supplementary Table 6; AC denotes doxorubicin/cyclophosphamide. Historical model-derived comparator, not a single concurrent randomized arm; individual candidate doses and schedules not specified in that table.",
+      "population_definition": "Model-derived historical comparator: weighted posterior distribution of candidate I-SPY2 comparator arms for the HR-HER2-Immune-DRD− response-predictive subtype; not a concurrently randomized arm.; HR-HER2-Immune-DRD− response-predictive subtype; dynamic control constructed from previously tested I-SPY2 arms containing elements of standard-of-care; weighted posterior distribution of candidate comparator arms, not a single enrolled arm.; Reported population size: Not reported",
+      "population_id": "P2",
+      "population_name": "I-SPY2 dynamic control for HR-HER2-Immune-DRD− subtype",
+      "population_size": null,
+      "population_time_frame": "I-SPY2 patients enrolled between March 2010 and April 2022; dynamic-control analysis dates Not reported."
+    },
+    {
+      "intervention": "Datopotamab-deruxtecan (Dato-DXd) in Block A followed by protocol-directed sequential neoadjuvant blocks B/C.",
+      "intervention_regimen": "Dato-DXd 6 mg/kg intravenously on day 1 of each 3-week cycle, for up to 4 cycles in Block A; followed, when required by response-directed treatment, by paclitaxel/carboplatin/pembrolizumab in Block B and doxorubicin/cyclophosphamide plus pembrolizumab in Block C (D/TCPe/ACPe), with surgery after the applicable final block or protocol-directed early surgery.",
+      "population_definition": "Analysis set: target response-predictive subtype among Dato-DXd-treated participants with residual cancer burden pathology at surgery.; HR-HER2-Immune-DRD− subtype; received Dato-DXd in Block A followed by protocol-directed sequential blocks B/C; underwent surgery with pathology analyzed by the residual cancer burden method; excludes patients assigned non-pCR because of withdrawal before surgery or addition of non-protocol therapy. The RCB-evaluable target-subtype count is 10.",
+      "population_id": "P3",
+      "population_name": "RCB-evaluable participants in the HR-negative/HER2-negative/Immune-negative/DRD-negative subtype after the Dato-DXd-led strategy",
+      "population_size": 10,
+      "population_time_frame": "Enrolment/treatment dates: Not reported; RCB assessment at surgery after the complete strategy or protocol-directed early surgery."
+    }
+  ],
+  "population_relation": [
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P3",
+      "population_b_id": "P1",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P2",
+      "relationship": "disjoint from"
+    }
+  ],
+  "result": [
+    {
+      "assessment_time": "At surgery after the complete Dato-DXd-led strategy across Blocks A–C or protocol-directed early surgery (primary strategy analysis)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R01",
+      "result_unit": "%",
+      "result_value": 41,
+      "statistic_type": "Estimated pCR rate (estimated proportion of participants with pCR)",
+      "statistical_method": "Bayesian strategy model using timing of pCR assessment and pCR status",
+      "supplementary_statistics": "CI: 16–66%; SD 13%; Reported denominator: Not reported"
+    },
+    {
+      "assessment_time": "At surgery after the complete Dato-DXd-led strategy across Blocks A–C",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R02",
+      "result_unit": "participants",
+      "result_value": 4,
+      "statistic_type": "Number of participants with pCR",
+      "statistical_method": "Observed strategy ITT count with protocol-defined non-pCR assignments",
+      "supplementary_statistics": "36%; Reported denominator: 11"
+    },
+    {
+      "assessment_time": "At surgery after the complete Dato-DXd-led strategy across Blocks A–C; Bayesian comparison with dynamic control",
+      "comparison": "P1 compared with P2; posterior probability pCR strategy rate exceeds dynamic-control rate",
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R03",
+      "result_unit": null,
+      "result_value": 0.97,
+      "statistic_type": "Posterior probability that pCR rate is superior to the dynamic control (P(>DC))",
+      "statistical_method": "Bayesian comparison of strategy and dynamic-control pCR posteriors",
+      "supplementary_statistics": null
+    },
+    {
+      "assessment_time": "Dynamic-control posterior distribution for the HR-HER2-Immune-DRD− subtype; pCR at surgery after complete strategy",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P2",
+      "result_id": "R04",
+      "result_unit": "%",
+      "result_value": 16,
+      "statistic_type": "Mean estimated pCR rate (posterior mean)",
+      "statistical_method": "Weighted historical Bayesian covariate-adjusted posterior distributions",
+      "supplementary_statistics": "95% CI: 6–26%"
+    },
+    {
+      "assessment_time": "At surgery after the complete Dato-DXd-led strategy across Blocks A–C; RCB analysis excludes patients assigned non-pCR because of withdrawal before surgery or addition of non-protocol therapy.",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P3",
+      "result_id": "R07",
+      "result_unit": "participants",
+      "result_value": 4,
+      "statistic_type": "Number of participants with RCB 0 (pCR)",
+      "statistical_method": null,
+      "supplementary_statistics": "40%; Reported denominator: 10"
+    },
+    {
+      "assessment_time": "At surgery after the complete Dato-DXd-led strategy across Blocks A–C; RCB analysis excludes patients assigned non-pCR because of withdrawal before surgery or addition of non-protocol therapy.",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P3",
+      "result_id": "R08",
+      "result_unit": "participants",
+      "result_value": 2,
+      "statistic_type": "Number of participants with RCB-I",
+      "statistical_method": null,
+      "supplementary_statistics": "20%; Reported denominator: 10"
+    },
+    {
+      "assessment_time": "At surgery after the complete Dato-DXd-led strategy across Blocks A–C; RCB analysis excludes patients assigned non-pCR because of withdrawal before surgery or addition of non-protocol therapy.",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P3",
+      "result_id": "R09",
+      "result_unit": "participants",
+      "result_value": 4,
+      "statistic_type": "Number of participants with RCB-II",
+      "statistical_method": null,
+      "supplementary_statistics": "40%; Reported denominator: 10"
+    },
+    {
+      "assessment_time": "At surgery after the complete Dato-DXd-led treatment strategy across Blocks A–C or protocol-directed early surgery; RCB-evaluable analysis set",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P3",
+      "result_id": "R13",
+      "result_unit": "participants",
+      "result_value": null,
+      "statistic_type": "Number of participants with RCB 3",
+      "statistical_method": null,
+      "supplementary_statistics": "RCB 3 count/proportion not numerically labelled in Supplementary Figure 2; RCB-evaluable n=10."
+    }
+  ]
+}

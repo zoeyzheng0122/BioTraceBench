@@ -1,0 +1,1152 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="adma72486" xml:lang="en" article-type="research-article" dtd-version="1.4"><?da-xref-anchor-style autodetect?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Adv Mater</journal-id><journal-id journal-id-type="iso-abbrev">Adv Mater</journal-id><journal-id journal-id-type="pmc-domain-id">379</journal-id><journal-id journal-id-type="pmc-domain">blackwellopen</journal-id><journal-id journal-id-type="nlm-id">9885358</journal-id><journal-id journal-id-type="publisher-id">ADMA</journal-id><journal-title-group><journal-title>Advanced Materials (Deerfield Beach, Fla.)</journal-title></journal-title-group><issn pub-type="ppub">0935-9648</issn><issn pub-type="epub">1521-4095</issn><?publisher_abbrev blackwell?><custom-meta-group><custom-meta><meta-name>pmc-is-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-collection-title</meta-name><meta-value>Wiley Open Access Collection</meta-value></custom-meta></custom-meta-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC12983442</article-id><article-id pub-id-type="pmcid-ver">PMC12983442.1</article-id><article-id pub-id-type="pmcaid">12983442</article-id><article-id pub-id-type="pmcaiid">12983442</article-id><article-id pub-id-type="pmid">41656824</article-id><article-id pub-id-type="doi">10.1002/adma.202520717</article-id><article-id pub-id-type="publisher-id">ADMA72486</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Matrix Stiffness Governs Fibroblasts’ Regulation of Gingival Immune Homeostasis</article-title></title-group><contrib-group><contrib id="adma72486-cr-0001" contrib-type="author"><name name-style="western"><surname>Makkar</surname><given-names initials="H">Hardik</given-names></name><xref rid="adma72486-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="adma72486-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="adma72486-cr-0002" contrib-type="author"><name name-style="western"><surname>Tran</surname><given-names initials="N">Nghi</given-names></name><xref rid="adma72486-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="adma72486-cr-0003" contrib-type="author"><name name-style="western"><surname>Chen</surname><given-names initials="YC">Yu‐Chang</given-names></name><xref rid="adma72486-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="adma72486-cr-0004" contrib-type="author"><name name-style="western"><surname>Ko</surname><given-names initials="KI">Kang I.</given-names></name><xref rid="adma72486-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="adma72486-cr-0005" contrib-type="author"><name name-style="western"><surname>Wells</surname><given-names initials="RG">Rebecca G.</given-names></name><xref rid="adma72486-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref><xref rid="adma72486-aff-0007" ref-type="aff">
+<sup>7</sup>
+</xref></contrib><contrib id="adma72486-cr-0006" contrib-type="author" corresp="yes"><name name-style="western"><surname>Vining</surname><given-names initials="KH">Kyle H.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-4009-879X</contrib-id><xref rid="adma72486-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="adma72486-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="adma72486-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref><address><email>viningk@upenn.edu</email></address></contrib></contrib-group><aff id="adma72486-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Center For Innovation &amp; Precision Dentistry</named-content>
+<institution>University of Pennsylvania</institution>
+<city>Philadelphia</city>
+<country country="US">USA</country>
+</aff><aff id="adma72486-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Department of Preventive and Restorative Sciences</named-content>
+<named-content content-type="organisation-division">School of Dental Medicine</named-content>
+<institution>University of Pennsylvania</institution>
+<city>Philadelphia</city>
+<country country="US">USA</country>
+</aff><aff id="adma72486-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Department of Bioengineering</named-content>
+<named-content content-type="organisation-division">School of Engineering and Applied Sciences</named-content>
+<institution>University of Pennsylvania</institution>
+<city>Philadelphia</city>
+<country country="US">USA</country>
+</aff><aff id="adma72486-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">Department of Materials Science and Engineering</named-content>
+<named-content content-type="organisation-division">School of Engineering and Applied Sciences</named-content>
+<institution>University of Pennsylvania</institution>
+<city>Philadelphia</city>
+<country country="US">USA</country>
+</aff><aff id="adma72486-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<named-content content-type="organisation-division">Department of Periodontics</named-content>
+<named-content content-type="organisation-division">School of Dental Medicine</named-content>
+<institution>University of Pennsylvania</institution>
+<city>Philadelphia</city>
+<country country="US">USA</country>
+</aff><aff id="adma72486-aff-0006">
+<label>
+<sup>6</sup>
+</label>
+<named-content content-type="organisation-division">Center For Engineering Mechanobiology</named-content>
+<institution>University of Pennsylvania</institution>
+<city>Philadelphia</city>
+<country country="US">USA</country>
+</aff><aff id="adma72486-aff-0007">
+<label>
+<sup>7</sup>
+</label>
+<named-content content-type="organisation-division">Department of Medicine</named-content>
+<named-content content-type="organisation-division">Perelman School of Medicine</named-content>
+<institution>University of Pennsylvania</institution>
+<city>Philadelphia</city>
+<country country="US">USA</country>
+</aff><pub-date pub-type="epub"><day>08</day><month>2</month><year>2026</year></pub-date><pub-date pub-type="ppub"><day>12</day><month>3</month><year>2026</year></pub-date><volume>38</volume><issue seq="580">15</issue><issue-id pub-id-type="pmc-issue-id">509450</issue-id><issue-id pub-id-type="doi">10.1002/adma.v38.15</issue-id><elocation-id>e20717</elocation-id><history>
+<date date-type="rev-recd"><day>02</day><month>2</month><year>2026</year></date>
+<date date-type="received"><day>20</day><month>10</month><year>2025</year></date>
+<date date-type="accepted"><day>03</day><month>2</month><year>2026</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>13</day><month>03</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>14</day><month>03</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-03-14 10:25:13.073"><day>14</day><month>03</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2026 The Author(s). <italic toggle="yes">Advanced Materials</italic> published by Wiley‐VCH GmbH</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="ADMA-38-e20717.pdf"><?pdf-name ADMA-38-e20717.pdf?><?pdf-size 9452949?><?pdf-md5 753584fed2fb58c616e89cd1499bc2a2?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:548b/12983442/753584fed2fb/ADMA-38-e20717.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:ADMA-38-e20717.pdf"/><related-article xmlns:xlink="http://www.w3.org/1999/xlink" related-article-type="preprint" xml:lang="en" xlink:title="research-article" journal-id="bioRxiv" journal-id-type="nlm-ta" ext-link-type="pmc" xlink:href="PMC12633271"><article-title>Matrix Stiffness Governs Fibroblast-Driven Immune Homeostasis in Gingival Tissues</article-title><date><day>21</day><month>10</month><year>2025</year></date><elocation-id>2025.10.20.683155</elocation-id><source>bioRxiv</source><pub-id pub-id-type="doi">10.1101/2025.10.20.683155</pub-id><pub-id pub-id-type="pmcid">PMC12633271</pub-id><pub-id pub-id-type="pmid">41279650</pub-id></related-article><abstract><title>ABSTRACT</title><p>Periodontal disease is characterized by inflamed gingival tissues and degradation of the gingival extracellular matrix (ECM), yet the role of mechanical cues remains poorly understood. Gingival ECM in periodontal disease showed reduced fibrillar collagen compared to healthy samples. We hypothesized that ECM softening in periodontal disease contributes to inflammation by dysregulating gingival fibroblasts (GFs). A mechanically tunable hydrogel model of the gingival ECM was developed to investigate the mechano‐immune crosstalk. Stiff and soft collagen‐alginate hydrogels matched the rheological properties of healthy and diseased gingival biopsies respectively. Human donor GFs encapsulated in these stiff hydrogels showed significantly suppressed toll‐like receptor‐mediated inflammatory responses compared to those in soft hydrogels. The non‐canonical NFκB pathway and epigenetic nuclear organization directed stiffness‐dependent inflammatory responses of GFs. The direct impact of mechanical cues on immune responses was investigated ex vivo by co‐culture of donor‐derived human GFs with myeloid cells and in human gingival explants. Myeloid progenitors co‐cultured with GFs in stiff hydrogels differentiated into immunomodulatory dendritic cells. Ex vivo crosslinking of human gingival tissue increased stiffness and reduced the production of inflammatory cytokines. Gingival mechano‐immune regulation offers a novel approach to biomaterial‐based treatments for periodontitis.</p></abstract><abstract id="adma72486-abs-0001" abstract-type="graphical"><p>This study identifies a “mechano‐epigenetic” checkpoint in which matrix stiffness governs the immune responses of gingival fibroblasts. Using biomimetic hydrogels and human gingival explants, the studies revealed that restoring extracellular matrix stiffness actively suppresses inflammation via non‐canonical NF‐κB signaling and DNA methylation, offering a novel therapeutic paradigm.
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="ADMA-38-e20717-g008.jpg"><?image-name ADMA-38-e20717-g008.jpg?><?image-size 11249?><?image-md5 0dec647139189f313457476583544c2d?><?image-image-server-status NEVER_LOAD?><?image-original-height 104?><?image-original-width 180?><?image-scaled-height 104?><?image-scaled-width 180?><?image-cloudpmc-urn urn:cdn:blobs/548b/12983442/0dec64713918/ADMA-38-e20717-g008.jpg?></graphic></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="adma72486-kwd-0001">fibroblast–immune crosstalk</kwd><kwd id="adma72486-kwd-0002">gingival extracellular matrix</kwd><kwd id="adma72486-kwd-0003">matrix stiffness</kwd><kwd id="adma72486-kwd-0004">mechanotransduction</kwd><kwd id="adma72486-kwd-0005">nuclear organization</kwd><kwd id="adma72486-kwd-0006">periodontal disease</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>National Institute of General Medical Sciences (NIGMS)</institution></institution-wrap>
+</funding-source><award-id>R35GM157079</award-id></award-group><award-group id="funding-0002"><funding-source>
+<institution-wrap><institution>Graduate Research Fellowship from the National Science Foundation</institution></institution-wrap>
+</funding-source><award-id>DGE‐2236662</award-id></award-group><award-group id="funding-0003"><funding-source>
+<institution-wrap><institution>NIH Office of the Director</institution><institution-id institution-id-type="doi">10.13039/100000052</institution-id></institution-wrap>
+</funding-source><award-id>S10 OD032305‐01A1</award-id></award-group><award-group id="funding-0004"><funding-source>
+<institution-wrap><institution>National Institute of General Medical Sciences</institution><institution-id institution-id-type="doi">10.13039/100000057</institution-id></institution-wrap>
+</funding-source><award-id>R35GM157079</award-id></award-group><award-group id="funding-0005"><funding-source>
+<institution-wrap><institution>National Institute of Dental and Craniofacial Research</institution><institution-id institution-id-type="doi">10.13039/100000072</institution-id></institution-wrap>
+</funding-source><award-id>R90DE031532</award-id></award-group></funding-group><counts><fig-count count="9"/><table-count count="0"/><page-count count="15"/><word-count count="9485"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>12 March 2026</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.7.1 mode:remove_FC converted:13.03.2026</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="adma72486-sec-0010"><label>1</label><title>Introduction</title><p>Severe periodontitis affects 19% of adults globally, causing tooth loss and increasing the risk of systemic diseases like heart disease, diabetes, respiratory infections, and adverse pregnancy outcomes [<xref rid="adma72486-bib-0001" ref-type="bibr">1</xref>, <xref rid="adma72486-bib-0002" ref-type="bibr">2</xref>, <xref rid="adma72486-bib-0003" ref-type="bibr">3</xref>]. The World Health Organization has prioritized an action plan for this condition due to its significant impact on health, quality of life, and healthcare costs, which exceed $40 billion USD. The primary focus on periodontal disease pathogenesis has been on microbial dysbiosis and its resulting hyper‐inflammatory host response [<xref rid="adma72486-bib-0002" ref-type="bibr">2</xref>, <xref rid="adma72486-bib-0004" ref-type="bibr">4</xref>, <xref rid="adma72486-bib-0005" ref-type="bibr">5</xref>, <xref rid="adma72486-bib-0006" ref-type="bibr">6</xref>]. The contribution of extracellular matrix (ECM) mechanical properties has been extensively explored in other chronic inflammatory diseases, such as rheumatoid arthritis and musculoskeletal injuries [<xref rid="adma72486-bib-0007" ref-type="bibr">7</xref>]. However, its contribution to gingival tissues remains understudied, even though host and microbial proteases expressed in periodontitis may significantly impact the gingival ECM [<xref rid="adma72486-bib-0002" ref-type="bibr">2</xref>, <xref rid="adma72486-bib-0008" ref-type="bibr">8</xref>, <xref rid="adma72486-bib-0009" ref-type="bibr">9</xref>]. There remains a knowledge gap regarding how the physical microenvironment of the gingival connective tissue and its ECM regulates immune homeostasis.</p><p>Gingival fibroblasts (GFs) are the resident cell type of the gingival connective tissue. GFs play a crucial role in regulating the mechano‐immune axis [<xref rid="adma72486-bib-0010" ref-type="bibr">10</xref>, <xref rid="adma72486-bib-0011" ref-type="bibr">11</xref>, <xref rid="adma72486-bib-0012" ref-type="bibr">12</xref>, <xref rid="adma72486-bib-0013" ref-type="bibr">13</xref>, <xref rid="adma72486-bib-0014" ref-type="bibr">14</xref>]. They are essential to both tissue homeostasis and the pathogenesis of periodontal disease [<xref rid="adma72486-bib-0015" ref-type="bibr">15</xref>, <xref rid="adma72486-bib-0016" ref-type="bibr">16</xref>, <xref rid="adma72486-bib-0017" ref-type="bibr">17</xref>, <xref rid="adma72486-bib-0018" ref-type="bibr">18</xref>, <xref rid="adma72486-bib-0019" ref-type="bibr">19</xref>]. GFs act as key sentinel cells in the immune response against pathogen‐associated molecular patterns (PAMPs), mainly through Toll‐like receptor 2 (TLR2) signaling [<xref rid="adma72486-bib-0006" ref-type="bibr">6</xref>, <xref rid="adma72486-bib-0010" ref-type="bibr">10</xref>, <xref rid="adma72486-bib-0013" ref-type="bibr">13</xref>, <xref rid="adma72486-bib-0020" ref-type="bibr">20</xref>, <xref rid="adma72486-bib-0021" ref-type="bibr">21</xref>, <xref rid="adma72486-bib-0022" ref-type="bibr">22</xref>]. We propose that ECM breakdown and tissue softening in periodontitis triggers a switch in GF phenotype from quiescent, tissue‐building cells into pro‐inflammatory, matrix‐degrading effectors that enhance, rather than dampen, inflammation. This establishes a destructive feedback loop in which matrix breakdown triggers a pathological immune response, which in turn degrades more matrix and further softens the surrounding tissue [<xref rid="adma72486-bib-0010" ref-type="bibr">10</xref>, <xref rid="adma72486-bib-0011" ref-type="bibr">11</xref>, <xref rid="adma72486-bib-0012" ref-type="bibr">12</xref>, <xref rid="adma72486-bib-0014" ref-type="bibr">14</xref>, <xref rid="adma72486-bib-0023" ref-type="bibr">23</xref>]. These mechanical cues have the potential to impact the nucleus (epigenome and genome) and the transcriptional control of immune responses [<xref rid="adma72486-bib-0023" ref-type="bibr">23</xref>].</p><p>We investigated the mechanobiology of GFs using a tunable 3D gingival ECM‐mimicking hydrogel system [<xref rid="adma72486-bib-0024" ref-type="bibr">24</xref>, <xref rid="adma72486-bib-0025" ref-type="bibr">25</xref>, <xref rid="adma72486-bib-0026" ref-type="bibr">26</xref>, <xref rid="adma72486-bib-0027" ref-type="bibr">27</xref>] composed of interpenetrating networks of collagen and alginate biopolymers. This composite system combines a bioinert, ionically cross‐linked alginate network that allows independent control of stiffness without altering ligand density or diffusivity with type I collagen, the primary extracellular component of gingival connective tissue. The resulting matrix offers controllable mechanical tunability and native cell‐adhesive cues, enabling a systematic analysis of how defined changes in stiffness influence GF mechanotransduction and inflammatory signaling. Using this 3D platform, we determined how matrix stiffness regulates the GF inflammatory responses to TLR signaling and identified the governing cellular and epigenetic factors. Further, we investigated the integrated impact of mechanical cues on immune homeostasis with stromal‐myeloid co‐culture models. We validated our findings by restoring tissue stiffness through the enzymatic crosslinking of human gingival explants. This approach demonstrated that gingival ECM stiffness is a key regulator of periodontal inflammation, providing a rationale for developing biomaterial‐based treatments to restore gingival health [<xref rid="adma72486-bib-0028" ref-type="bibr">28</xref>].</p></sec><sec id="adma72486-sec-0020"><label>2</label><title>Results and Discussion</title><sec id="adma72486-sec-0030"><label>2.1</label><title>Collagen Fiber Organization in the Gingival Connective Tissue</title><p>Whole‐mount Second Harmonic Generation (SHG) confocal microscopy of healthy gingival connective tissue was used to examine collagen fiber orientation and structure (Figure <xref rid="adma72486-fig-0001" ref-type="fig">1A–D</xref>; Figure <xref rid="adma72486-supinfo-0001" ref-type="">S1A</xref>). The heatmap illustrates the distribution of collagen fiber pixel percentage counts at various angles (<italic toggle="yes">x</italic>‐axis) and Z‐layers (<italic toggle="yes">y</italic>‐axis), with color intensity indicating the count (red for the highest counts, pink for the lowest) (Figure <xref rid="adma72486-fig-0001" ref-type="fig">1D</xref>). In the middle Z‐layers, collagen fibers were oriented between 45°–90° (Figure <xref rid="adma72486-fig-0001" ref-type="fig">1D</xref>), suggesting organized fibers within the bulk of the connective tissue [<xref rid="adma72486-bib-0029" ref-type="bibr">29</xref>, <xref rid="adma72486-bib-0030" ref-type="bibr">30</xref>]. In contrast, fibers in the superficial and deep Z‐layers (toward the top and bottom of the heatmap) were oriented between 0°–45° and 135°–180°. This organization, characterized by a high‐density band of fibers in the middle Z‐layers, surrounded by regions of lower density, is consistent with a stratified arrangement of collagen fibers in the gingival tissue [<xref rid="adma72486-bib-0029" ref-type="bibr">29</xref>, <xref rid="adma72486-bib-0031" ref-type="bibr">31</xref>] and reflects the mechanical and structural requirements of the gingival tissue [<xref rid="adma72486-bib-0032" ref-type="bibr">32</xref>].</p><fig position="float" fig-type="FIGURE" id="adma72486-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>Periodontitis is characterized by a progressive loss of fibrillar collagen organization and density in the human gingival extracellular matrix (<bold>ECM</bold>). (A) Schematic illustrating the experimental workflow for analyzing human gingival ECM. The workflow involves the acquisition of a human gingival tissue biopsy followed by whole‐mount Second Harmonic Generation (SHG) imaging for high‐resolution, label‐free analysis of collagen architecture. Created with BioRender.com. (B) Representative whole−mount SHG image of a healthy gingival connective tissue sample. Collagen fibers (green) are clearly visible. (C) SHG maximum z−projection images (<italic toggle="yes">XY</italic>, <italic toggle="yes">YZ</italic>, and <italic toggle="yes">XZ</italic> planes) demonstrating the organization of collagen fibers through the tissue depth. (D) Heatmap showing the distribution of collagen fiber orientation as a function of Z−layer depth, corresponding histograms quantify fiber straightness and width. (E) Hematoxylin and Eosin (H&amp;E) staining of a representative human gingival tissue section. (F) SHG forward and backward signal imaging of the tissue section outlined in (E), revealing the collagen distribution. (G) SHG pixel intensity map across the section in (F), providing a quantified spatial representation of collagen content. (H) Representative SHG micrographs of gingival connective tissue from Healthy, Periodontal Disease (PD), and Severe PD sites. Images show merged signals of forward‐scattered SHG (blue), backward‐scattered SHG (cyan), and nuclei (yellow). (I) Quantification of the collagen density by measuring the Mean Fluorescence Intensity (MFI) of the SHG signal across the three disease stages. Data are shown as mean ± SD (n = 3 biologically independent donors; dots indicate individual technical replicates derived from these donors. <italic toggle="yes">p</italic>‐values were determined by ordinary one‐way ANOVA followed by Dunnett's multiple comparisons test and are indicated on the graph.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="ADMA-38-e20717-g007.jpg"><?image-name ADMA-38-e20717-g007.jpg?><?image-size 127504?><?image-md5 bcb1f9f0d4fc5bcb34f17a2c3334c12c?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 824?><?image-original-width 820?><?image-scaled-height 549?><?image-scaled-width 546?><?image-cloudpmc-urn urn:cdn:blobs/548b/12983442/bcb1f9f0d4fc/ADMA-38-e20717-g007.jpg?><?thumb-name ADMA-38-e20717-g007.gif?><?thumb-size 9229?><?thumb-md5 70c6557db329d82f69164c5cfe21eead?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 100?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/548b/12983442/70c6557db329/ADMA-38-e20717-g007.gif?></graphic></fig></sec><sec id="adma72486-sec-0040"><label>2.2</label><title>Periodontal Disease is Linked With Pathological Changes to the Extracellular Matrix</title><p>Experimental models and human biopsies consistently demonstrate a significant reduction in collagen area and altered fibril architecture during disease [<xref rid="adma72486-bib-0031" ref-type="bibr">31</xref>]. Periodontal pathogens and their secreted cysteine proteases not only degrade collagen directly but also induce gingival fibroblasts and epithelial cells to upregulate matrix metalloproteinases (MMP‐1, MMP‐2, MMP‐3, MMP‐9) while suppressing their inhibitors (TIMPs), amplifying host‐mediated collagen degradation [<xref rid="adma72486-bib-0033" ref-type="bibr">33</xref>]. Enzymatic breakdown and an imbalance between MMPs and TIMPs lead to a weakened, disorganized ECM [<xref rid="adma72486-bib-0034" ref-type="bibr">34</xref>, <xref rid="adma72486-bib-0035" ref-type="bibr">35</xref>, <xref rid="adma72486-bib-0036" ref-type="bibr">36</xref>]. Multimodal imaging and quantitative analysis were performed to investigate changes in collagen fiber organization in diseased gingival connective tissue compared to healthy controls (Figure <xref rid="adma72486-fig-0001" ref-type="fig">1E,F</xref>). First, we examined SHG images of tissue sections from healthy sites (Figure <xref rid="adma72486-fig-0001" ref-type="fig">1F–H</xref>; Figure <xref rid="adma72486-supinfo-0001" ref-type="">S1A,B</xref>), which showed a robust, orderly collagen network with little to no apparent immune cell infiltration, consistent with a lack of inflammation. Collagen fibers in sections of healthy tissue exhibited a bimodal distribution in the orientation histogram with two major peaks at ±50°−55° (Figure <xref rid="adma72486-supinfo-0001" ref-type="">S1C,D</xref>). In contrast, SHG images of diseased regions revealed a significant decrease in the coherent SHG signal, which appeared fragmented, indicating collagen degradation and disorganization (Figure <xref rid="adma72486-fig-0001" ref-type="fig">1F–I</xref>; Figure <xref rid="adma72486-supinfo-0001" ref-type="">S1B–D</xref>). These images also showed heavy immune cell infiltration. Quantitative angular analysis of diseased tissue (Figure <xref rid="adma72486-supinfo-0001" ref-type="">S1C,D</xref>) showed a less organized collagen fiber distribution with a greater proportion of randomly oriented fibers over a wider range of angles (Figure <xref rid="adma72486-supinfo-0001" ref-type="">S1D</xref>). This diffuse distribution is consistent with large‐scale collagen degradation and the infiltration of inflammatory cells observed in the microscopy images. These imaging results align with prior histological and molecular studies demonstrating that periodontal inflammation drives extensive collagen degradation and remodeling of the gingival ECM [<xref rid="adma72486-bib-0035" ref-type="bibr">35</xref>].</p></sec><sec id="adma72486-sec-0050"><label>2.3</label><title>Gingival ECM Hydrogel Models the Rheological Properties of Human Gingival Tissue</title><p>We developed gingival ECM hydrogels using a collagen‐alginate interpenetrating network hydrogel system with tunable rheological properties to model the ECM microenvironments of healthy and diseased gingival tissue [<xref rid="adma72486-bib-0024" ref-type="bibr">24</xref>, <xref rid="adma72486-bib-0025" ref-type="bibr">25</xref>, <xref rid="adma72486-bib-0027" ref-type="bibr">27</xref>]. Ionic cross‐linking of the alginate network with calcium carbonate provided tunable storage moduli (G′) while maintaining a constant concentration of bovine Type I telo‐collagen (4 mg/mL) and ultra‐pure low molecular weight alginate (1 wt.%). SHG heatmaps of the hydrogels mimicked collagen organization found in healthy gingival tissue (Figure <xref rid="adma72486-fig-0002" ref-type="fig">2A–C</xref>), with a band of collagen fibers orientated between 45–135 degrees, similar to the central high‐density zone of native gingiva (Figures <xref rid="adma72486-fig-0001" ref-type="fig">1D</xref> and <xref rid="adma72486-fig-0002" ref-type="fig">2C</xref>). Shear stress relaxation tests showed the viscoelastic behavior of the ionically cross‐linked hydrogels (Figure <xref rid="adma72486-supinfo-0001" ref-type="">S2A,B</xref>). The stiff and soft ECM hydrogels matched the rheological properties of healthy and diseased gingiva, respectively (Figure <xref rid="adma72486-fig-0002" ref-type="fig">2D</xref>; Figure <xref rid="adma72486-supinfo-0001" ref-type="">S2C</xref>). The G' of gingiva was significantly reduced from ∼2000 Pa in healthy sites to ∼1000 Pa in periodontal disease (Stage 2 and 3). The reduction in G’ is likely attributable to the degradation of the collagen network and other ECM components [<xref rid="adma72486-bib-0003" ref-type="bibr">3</xref>, <xref rid="adma72486-bib-0014" ref-type="bibr">14</xref>, <xref rid="adma72486-bib-0034" ref-type="bibr">34</xref>]. The diseased gingiva also exhibited a significant increase in the loss tangent (tan δ) compared to healthy controls, indicating a more dissipative, fluid‐like material [<xref rid="adma72486-bib-0025" ref-type="bibr">25</xref>, <xref rid="adma72486-bib-0026" ref-type="bibr">26</xref>]. The G’ of the “Soft” hydrogel was slightly lower than that of diseased tissues (Figure <xref rid="adma72486-fig-0002" ref-type="fig">2D</xref>). Overall, these rheological measurements demonstrate that tunable hydrogels can match the range of mechanical properties of healthy (stiff) and diseased (soft) gingival tissue.</p><fig position="float" fig-type="FIGURE" id="adma72486-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>A biomimetic alginate‐collagen interpenetrating hydrogel system recapitulates the tunable stiffness and viscoelasticity of human gingival <bold>ECM</bold>. (A) Schematic illustrating the design of the interpenetrating polymer network (IPN) hydrogel system. It is composed of self‐assembled type I collagen (telo collagen) and ionically cross‐linked alginate (via Ca2+ ions interacting with G‐blocks). Created with BioRender.com. (B) Representative Second Harmonic Generation (SHG) images showcase the fibrillar collagen architecture within the soft and stiff hydrogel formulations. (C) Heatmap analysis of collagen fiber orientation distribution throughout the z−depth of the soft and stiff hydrogels. (D) Rheological characterization of the developed hydrogels compared to native healthy and diseased (PD stage 2 and 3) human gingival tissue. Bar graphs show the Storage Modulus (G′) and Tan Delta (Tanδ) (ratio of loss modulus G′′ to G′), representing viscoelasticity. Data are presented as mean ± SD. Sample size n = 3 biologically independent donors per group for all rheology measurements. P‐values were determined by ordinary one‐way ANOVA followed by Dunnett's multiple comparisons test and are indicated on the graph. Scale bars are as indicated.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="ADMA-38-e20717-g003.jpg"><?image-name ADMA-38-e20717-g003.jpg?><?image-size 61158?><?image-md5 e55947dc842f54e78f4c50aaae13ed14?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 452?><?image-original-width 820?><?image-scaled-height 301?><?image-scaled-width 546?><?image-cloudpmc-urn urn:cdn:blobs/548b/12983442/e55947dc842f/ADMA-38-e20717-g003.jpg?><?thumb-name ADMA-38-e20717-g003.gif?><?thumb-size 9146?><?thumb-md5 98c721c2b2540af323cd17cb376da848?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 145?><?thumb-cloudpmc-urn urn:cdn:blobs/548b/12983442/98c721c2b254/ADMA-38-e20717-g003.gif?></graphic></fig></sec><sec id="adma72486-sec-0060"><label>2.4</label><title>Stiff ECM Hydrogels Upregulate Matrix‐Related Pathways in Gingival Fibroblasts</title><p>Gingival fibroblasts (GFs) were isolated from healthy donor tissue. Flow cytometry showed GFs were positive for markers of mesenchymal stromal cells (MSCs), including CD105, CD73, CD90, and CD44 (Figure <xref rid="adma72486-supinfo-0001" ref-type="">S2D</xref>). Next, GFs were encapsulated in soft and stiff gingival ECM hydrogels. Pathway enrichment analysis of upregulated genes from bulk RNA sequencing data identified enrichment for ECM synthesis and organization. Transcriptional programs related to collagen synthesis and maturation were enriched in stiff hydrogels (Figure <xref rid="adma72486-fig-0003" ref-type="fig">3A</xref>), including the Assembly of Collagen Fibrils, Collagen biosynthesis and modifying enzymes, Collagen formation, and Collagen chain trimerization. ECM organization was the pathway with the largest number of associated genes (200 counts). Taken together, these findings illustrate that the mechanical stiffness of the 3D matrix promotes fibroblasts to adopt an active, matrix‐synthesizing phenotype, which may help preserve tissue integrity (Figure <xref rid="adma72486-fig-0003" ref-type="fig">3A</xref>). In stiff hydrogels, GFs also upregulated genes reflective of a homeostatic and matrix‐maintaining phenotype, typical of healthy gingival connective tissue, such as COL5A3, COL4A2, COL6A5, and COL4A1 (Figure <xref rid="adma72486-fig-0003" ref-type="fig">3B</xref>; Figure <xref rid="adma72486-supinfo-0001" ref-type="">S3A</xref>). The upregulated expression of TIMP3, a matrix metalloproteinase inhibitor, in conjunction with TGFB2 and TGFB3, further supports a transcriptional program of ECM deposition, maturation, and resistance to degradation. Metabolic and signaling genes, such as PDK4 and CALCRL, were also upregulated in GFs cultured in stiff hydrogels (Figure <xref rid="adma72486-supinfo-0001" ref-type="">S3A</xref>). These results were consistent with the organized collagen architecture and strong mechanical properties of native healthy gingiva [<xref rid="adma72486-bib-0037" ref-type="bibr">37</xref>].</p><fig position="float" fig-type="FIGURE" id="adma72486-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>Matrix stiffness drives a pro‐anabolic phenotype, while reduced stiffness promotes TLR2‐mediated inflammatory responses in human GFs. (A) Bubble plot showing the gene set enrichment of pathways significantly upregulated in GFs cultured on stiff hydrogels (G′ approx 2 kPa) compared to soft hydrogels (G′ approx 0.75 kPa) (n = 3). Pathways are predominantly related to the production and organization of ECM. The gene ratio (<italic toggle="yes">x</italic>‐axis) is the proportion of differentially expressed genes in a pathway. Bubble size indicates the count (number of genes in the pathway), and the color scale represents the Benjamini–Hochberg corrected <italic toggle="yes">p</italic>‐value. (B) Heatmap illustrating the relative expression of differentially expressed genes (z‐scored) in the stiff versus soft hydrogel environments (n = 3). (C) ELISA quantification of secreted pro‐inflammatory mediators IL‐6, IL‐8, and CCL‐2 from GFs cultured in hydrogels of varying stiffness (G′: 0.75, 1.5, and 2 kPa) following TLR2 activation (n = 4). Data are presented as mean ± SD. <italic toggle="yes">p</italic>‐values were determined by ordinary one‐way ANOVA followed by Tukey's multiple comparisons test. (D) Cell viability assay showing that neither hydrogel stiffness nor TLR2 agonist stimulation significantly impacted GF viability over the culture period (n = 4). Data are presented as mean ± SD. (E) Bubble plot showing the gene set enrichment of inflammatory signaling pathways regulated in GFs cultured in stiff hydrogels compared to those cultured in soft hydrogels, both with TLR2 agonist stimulation (n = 3). Bubble size corresponds to the count, and color scale indicates the −log10(<italic toggle="yes">p</italic>−value) of the pathway. Circles indicate downregulation, and triangles indicate upregulation in stiff hydrogels. (F) Heatmap showing the relative expression of differentially expressed genes (z‐scored) in GFs cultured in soft versus stiff hydrogels following TLR2 agonist stimulation (n = 3). For all panels, <italic toggle="yes">p</italic>‐values &lt;0.05 were considered statistically significant and are indicated on the graphs.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="ADMA-38-e20717-g009.jpg"><?image-name ADMA-38-e20717-g009.jpg?><?image-size 118179?><?image-md5 4dddf432d9e8e408f4f3abc793ab9add?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 877?><?image-original-width 577?><?image-scaled-height 877?><?image-scaled-width 577?><?image-cloudpmc-urn urn:cdn:blobs/548b/12983442/4dddf432d9e8/ADMA-38-e20717-g009.jpg?><?thumb-name ADMA-38-e20717-g009.gif?><?thumb-size 8977?><?thumb-md5 753d20ea98d23b4bb4a93469786a476f?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 152?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/548b/12983442/753d20ea98d2/ADMA-38-e20717-g009.gif?></graphic></fig></sec><sec id="adma72486-sec-0070"><label>2.5</label><title>TLR Mediates Inflammatory Responses in Gingival ECM Hydrogels</title><p>We investigated how the ECM mechanical properties modulate the inflammatory response of gingival fibroblasts (GFs) to microbial mimetics. The Toll‐like receptor 2 (TLR2) in gingival fibroblasts recognizes a broad spectrum of bacterial components, especially those from abundant Gram‐positive and Gram‐negative bacteria in periodontal biofilms [<xref rid="adma72486-bib-0014" ref-type="bibr">14</xref>, <xref rid="adma72486-bib-0018" ref-type="bibr">18</xref>, <xref rid="adma72486-bib-0022" ref-type="bibr">22</xref>, <xref rid="adma72486-bib-0038" ref-type="bibr">38</xref>]. TLR2 exhibits a broad recognition profile relevant to the initiation and maintenance of chronic inflammatory conditions in gingival fibroblasts [<xref rid="adma72486-bib-0014" ref-type="bibr">14</xref>], whereas TLR4 recognizes Gram‐negative bacterial lipopolysaccharide (LPS) [<xref rid="adma72486-bib-0039" ref-type="bibr">39</xref>]. Soft and stiff gingival ECM hydrogels were challenged with a TLR2 agonist to determine whether stiffness regulates fibroblast inflammatory responses. Gene expression of the TLR2 pathway was not significantly modulated by matrix stiffness, except for the downregulation of CD14 (Figure <xref rid="adma72486-supinfo-0001" ref-type="">S3C</xref>). ELISA analysis demonstrated a dramatic, stiffness‐dependent reduction of secreted pro‐inflammatory cytokines. Fibroblasts within soft 3D matrices secreted increased amounts of the cytokine IL−6 and the chemokines IL−8 (CXCL8) and CCL2 (MCP‐1) in response to TLR2 stimulation (Figure <xref rid="adma72486-fig-0003" ref-type="fig">3C</xref>; Figure <xref rid="adma72486-supinfo-0001" ref-type="">S4A</xref>). In contrast, increasing the stiffness of the hydrogel resulted in a progressive decline in TLR2‐mediated secretion of pro‐inflammatory cytokines. Fibroblasts cultured in the stiffest (2 kPa) 3D matrices produced the lowest amount of IL−6, IL−8, and CCL2. Simulating other innate immune pathways, with agonists for Toll‐like receptors 3 (TLR3) and 4 (TLR4), showed a similar pattern. GFs in soft hydrogels responded to TLR3 and TLR4 agonists with IL‐6 and IL‐8 expression (Figure <xref rid="adma72486-supinfo-0001" ref-type="">S4B</xref>), which was significantly dampened in stiff hydrogels. For simplicity, the remaining studies focused on TLR2‐mediated inflammation. Overall, these results demonstrate that increased ECM stiffness suppressed the inflammatory response of GFs to mimicked microbial challenge, suggesting that 3D mechanotransduction is a crucial regulator of the fibroblast inflammatory secretome [<xref rid="adma72486-bib-0040" ref-type="bibr">40</xref>, <xref rid="adma72486-bib-0041" ref-type="bibr">41</xref>].</p><p>Results from bulk RNA‐seq analysis indicate that GFs in soft hydrogels exhibit upregulation of genes commonly associated with inflammation, immune cell recruitment, and tissue breakdown, mirroring the pathologic alterations observed in diseased gingiva. Chemokines CXCL12, CSF3, CCL8, CXCL6, and CXCL5 were highly upregulated in soft gels, indicating strong chemoattractant signaling for immune cells, characteristic of periodontal inflammation (Figure <xref rid="adma72486-fig-0003" ref-type="fig">3E,F</xref>; Figure <xref rid="adma72486-supinfo-0001" ref-type="">S3B</xref>). Additionally, matrix metalloproteinase genes MMP3 and MMP12, as well as disintegrin and metalloproteinase with thrombospondin motifs ADAMTS14, were upregulated in soft gels, indicating ongoing ECM breakdown [<xref rid="adma72486-bib-0014" ref-type="bibr">14</xref>]. Overall, data suggest stiff hydrogels promote a gene expression profile that actively maintains ECM integrity and regulates inflammation. Conversely, soft hydrogels mirror the disease state by promoting a strong pro‐inflammatory and matrix degradative gene signature.</p></sec><sec id="adma72486-sec-0080"><label>2.6</label><title>Gingival Fibroblasts Exhibit Morphological Responses to Matrix Stiffness</title><p>In soft ECM hydrogels, the gingival fibroblasts displayed a characteristic, highly spread morphology with pronounced uniaxial protrusions (Figure <xref rid="adma72486-fig-0004" ref-type="fig">4A</xref>; Figure <xref rid="adma72486-supinfo-0001" ref-type="">S4C</xref>). These cellular extensions were often seen to be tipped by lamellipodial blebs, reflecting active membrane dynamics underpinned by actin polymerization and cytoskeleton‐mediated probing [<xref rid="adma72486-bib-0024" ref-type="bibr">24</xref>]. The F‐actin cytoskeleton (green) was loosely organized into discrete stress fibers that extended into the processes of the cell, reflecting an active probing nature (Figure <xref rid="adma72486-fig-0004" ref-type="fig">4A–C</xref>), consistent with its role in migration and remodeling [<xref rid="adma72486-bib-0042" ref-type="bibr">42</xref>, <xref rid="adma72486-bib-0043" ref-type="bibr">43</xref>]. The cell body, although spread, remained relatively elongated, and the nucleus (blue) was distended, in agreement with cells probing a compliant environment [<xref rid="adma72486-bib-0024" ref-type="bibr">24</xref>]. In contrast, the spreading of gingival fibroblasts in stiff hydrogels was significantly hindered. The cells displayed a more compact, round, or stellate morphology. The formation of uniaxial extensions and lamellipodial blebs was significantly reduced. While F‐actin (green) was still visible, it was organized into a more compact and highly tensed structure within the limited cellular space (Figure <xref rid="adma72486-fig-0004" ref-type="fig">4A</xref>). The nucleus also showed a more spherical morphology compared to cells in softer gels, reflecting the altered cytoskeletal tension and overall cellular confinement without a reduction in viability (Figures <xref rid="adma72486-fig-0004" ref-type="fig">4B</xref> and <xref rid="adma72486-fig-0003" ref-type="fig">3D</xref>). The compact morphology in stiff gels is indicative of cell‐matrix signaling [<xref rid="adma72486-bib-0044" ref-type="bibr">44</xref>].</p><fig position="float" fig-type="FIGURE" id="adma72486-fig-0004" orientation="portrait"><label>FIGURE 4</label><caption><p>Cytoskeletal tension and the non‐canonical <bold>NF−κB</bold> pathway regulate matrix stiffness‐dependent inflammatory responses in gingival fibroblasts (GFs). (A) Representative confocal immunofluorescence images showing F‐actin organization (Phalloidin, green) and nuclear morphology (DAPI, blue) in GFs cultured on hydrogels with increasing stiffness (G' approx 0.75, 1.5, and 2.0 kPa). (B) Quantification of nuclear sphericity. Dots represent individual nuclei from three independent experiments. n = 319 (soft) and n = 81 (stiff). <italic toggle="yes">p</italic> values were determined by a two‐tailed unpaired t‐test. (C) Representative images and (D) quantification of cell length in GFs following treatment with the non‐muscle myosin II inhibitor Blebbistatin (Blebb) or the ROCK inhibitor Y‐27632. Dots represent individual cells. n = 787 (soft), n = 539 (soft+blebb), n = 539 (soft+Y27632), n = 688 (stiff), n = 359 (stiff+ blebb), n = 358 (stiff+Y27632) pooled from three independent experiments. <italic toggle="yes">p</italic> values were determined by two‐way ANOVA followed by Šídák's multiple comparisons test. (E) ELISA quantification of IL‐6, IL‐8, and CCL‐2 secretion from TLR2‐activated GFs treated with cytoskeletal inhibitors (n = 4) <italic toggle="yes">p</italic> values were determined by two‐way ANOVA followed by the original FDR method of Benjamini and Hochberg. (F) Schematic representation of the proposed mechanism: ECM stiffness and TLR2 signaling converge to regulate non‐canonical NF‐κB signaling in GFs. Created with BioRender.com. (G) Representative immunofluorescence images, and (H) quantification of the Mean Fluorescence Intensity (MFI) of nuclear‐localized phosphorylated RelB (Ser552) in cells cultured in soft versus stiff hydrogels (n = 3) <italic toggle="yes">p</italic> values were determined by a two‐tailed unpaired t‐test. (I) ELISA quantification of IL‐6, IL‐8, and CCL‐2 secretion from TLR2‐activated GFs cultured in soft or stiff matrices with or without IKK inhibition (n = 4). <italic toggle="yes">p</italic> values were determined by two‐way ANOVA followed by Šídák's multiple comparisons test. Scale bars are as indicated. Data are presented as mean ± SD, and specific <italic toggle="yes">p</italic>‐values are indicated directly on the graphs, where <italic toggle="yes">p</italic>&lt;0.05 was considered statistically significant.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="ADMA-38-e20717-g004.jpg"><?image-name ADMA-38-e20717-g004.jpg?><?image-size 127977?><?image-md5 bdb6c38323ab0410d75b2c6e176e52f1?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 846?><?image-original-width 550?><?image-scaled-height 846?><?image-scaled-width 550?><?image-cloudpmc-urn urn:cdn:blobs/548b/12983442/bdb6c38323ab/ADMA-38-e20717-g004.jpg?><?thumb-name ADMA-38-e20717-g004.gif?><?thumb-size 9164?><?thumb-md5 0acec27d9a75b12ac53ea33c29ff671b?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 154?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/548b/12983442/0acec27d9a75/ADMA-38-e20717-g004.gif?></graphic></fig></sec><sec id="adma72486-sec-0090"><label>2.7</label><title>Actomyosin Contractility Determines Fibroblast Morphology and Inflammatory Response in a Stiffness‐Dependent Manner</title><p>GFs encapsulated in soft and stiff hydrogels were exposed to blebbistatin (a myosin II inhibitor) or Y27632 (an inhibitor of Rho‐associated protein kinase (ROCK)), both key disruptors of actin cytoskeleton‐generated forces [<xref rid="adma72486-bib-0024" ref-type="bibr">24</xref>]. Confocal micrographs in Figure <xref rid="adma72486-fig-0004" ref-type="fig">4C</xref> characterized the morphological responses to matrix stiffness. In soft ECM hydrogels, inhibition of actomyosin contractility significantly decreased cell length, with the population of fibroblasts showing a shorter, more rounded morphology (Figure <xref rid="adma72486-fig-0004" ref-type="fig">4D</xref>). This result is consistent with previous works, which show that the elongated phenotype of GFs in a soft environment is dependent on actomyosin contractile forces [<xref rid="adma72486-bib-0012" ref-type="bibr">12</xref>, <xref rid="adma72486-bib-0045" ref-type="bibr">45</xref>, <xref rid="adma72486-bib-0046" ref-type="bibr">46</xref>]. Although GFs were already more compact in stiff hydrogels, inhibition of contractility also caused a further reduction in cell length. Next, GFs in both soft and stiff hydrogels were challenged with a TLR2 agonist and treated with blebbistatin and Y27632, resulting in a dampened inflammatory response across both stiffnesses (Figure <xref rid="adma72486-fig-0004" ref-type="fig">4E</xref>). These results suggest that actomyosin contractility is required for GFs to sense ECM stiffness [<xref rid="adma72486-bib-0024" ref-type="bibr">24</xref>, <xref rid="adma72486-bib-0039" ref-type="bibr">39</xref>, <xref rid="adma72486-bib-0047" ref-type="bibr">47</xref>] and regulate their inflammatory responses [<xref rid="adma72486-bib-0046" ref-type="bibr">46</xref>, <xref rid="adma72486-bib-0048" ref-type="bibr">48</xref>].</p></sec><sec id="adma72486-sec-0100"><label>2.8</label><title>Mechanotransduction‐Induced Inflammatory Response in GFs is Controlled by Non‐Canonical NF‐κB Signaling</title><p>Pathway enrichment analysis was conducted on differentially expressed genes from bulk RNA‐sequencing of GFs activated with a TLR2 agonist in stiff versus soft hydrogels. The bubble plot reveals differentially regulated signaling pathways with the highest fold enrichment (Figure <xref rid="adma72486-fig-0003" ref-type="fig">3E</xref>). The most striking result was the strong downregulation of non‐canonical NF‐κB in stiff hydrogels (Figures <xref rid="adma72486-fig-0003" ref-type="fig">3E</xref> and <xref rid="adma72486-fig-0004" ref-type="fig">4F</xref>; Figure <xref rid="adma72486-supinfo-0001" ref-type="">S5A</xref>). The analysis also indicated downregulation of multiple inflammasome‐related pathways. Several other inflammasome‐related pathways were upregulated, albeit with generally lower statistical significance than the highly downregulated pathways. These included IL‐15 signaling and IL‐2 signaling. The engagement of these cytokine‐signaling pathways, however modest, may be a compensatory or regulatory response in the healthy‐mimicking matrix, modulating overall immune regulation [<xref rid="adma72486-bib-0049" ref-type="bibr">49</xref>]. To further confirm the downregulation of non‐canonical NF‐κB signaling, we examined the protein levels of RelB, an important transcription factor in this pathway [<xref rid="adma72486-bib-0050" ref-type="bibr">50</xref>]. Immunofluorescence staining and subsequent quantification showed lower RelB mean fluorescence intensity (MFI) in GFs encapsulated in stiff hydrogels (Figure <xref rid="adma72486-fig-0004" ref-type="fig">4G,H</xref>).</p><p>IKK, a kinase upstream of RelB, was inhibited following TLR2 activation of GFs in hydrogels. The secretion of IL‐6, IL‐8, and CCL‐2 in soft hydrogels was greatly diminished, reaching levels comparable to or even below those of stiff gels. This drastic decrease shows that the activated inflammatory response in soft matrices is reliant on the activity of the IKK complex [<xref rid="adma72486-bib-0050" ref-type="bibr">50</xref>]. In contrast, TLR2‐stimulated GFs in stiff hydrogels had dramatically lower baseline levels of these inflammatory markers, which align with our observations of dampened inflammatory signaling in a healthy mechanical environment. The IKK inhibitor had little to no further effect on IL‐6 expression in stiff hydrogels (Figure <xref rid="adma72486-fig-0004" ref-type="fig">4I</xref>). These results are consistent with our hypothesis that the stiff matrix intrinsically downregulates the non‐canonical NF‐κB pathway, making it less responsive to further pharmacological inhibition. Collectively, these functional experiments provide strong evidence that the mechanical regulation of the non‐canonical NF‐κB [<xref rid="adma72486-bib-0050" ref-type="bibr">50</xref>] signaling pathway mediates GF's inflammatory response to mechanical cues in a 3D environment. Previous work showed that GFs cultured on 2D soft and stiff substrates were regulated by a YAP‐canonical NF‐κB axis [<xref rid="adma72486-bib-0012" ref-type="bibr">12</xref>]. This present study advances this concept by demonstrating that the non‐canonical NF‐κB pathway plays a major role in the 3D gingival ECM context.</p></sec><sec id="adma72486-sec-0110"><label>2.9</label><title>GFs Exhibit Stiffness‐Dependent Decrease in Overall Nuclear Volume and Transcriptional Activation of Pathways Linked With the ECM‐Cytoskeletal‐Nuclear Axis</title><p>Next, we examined the impact of matrix stiffness on nuclear shape. Confocal microscopy revealed that GFs in soft hydrogels had more elongated nuclei, while nuclear sphericity was increased in GFs in stiff matrices (Figure <xref rid="adma72486-fig-0004" ref-type="fig">4B</xref>). This result is consistent with the effect of increased cytoskeletal tension, which is transmitted to a compact and spherical nuclear shape [<xref rid="adma72486-bib-0051" ref-type="bibr">51</xref>]. Conversely, the decreased tension in softer matrices allows for a more elongated or irregular nuclear morphology [<xref rid="adma72486-bib-0052" ref-type="bibr">52</xref>]. The nucleus integrates mechanical cues into chromatin structure and gene expression [<xref rid="adma72486-bib-0051" ref-type="bibr">51</xref>, <xref rid="adma72486-bib-0052" ref-type="bibr">52</xref>, <xref rid="adma72486-bib-0053" ref-type="bibr">53</xref>, <xref rid="adma72486-bib-0054" ref-type="bibr">54</xref>]. To further understand this process, we conducted a targeted pathway enrichment analysis of nuclear mechanotransduction of TLR2‐activated GFs in stiff gingival ECM hydrogels (Figure <xref rid="adma72486-supinfo-0001" ref-type="">S5B</xref>). Integrin cell surface interactions and non‐integrin membrane‐ECM interactions pathways were prominently upregulated, highlighting the crucial roles played by both direct and indirect cell‐ECM adhesion in sensing matrix stiffness. Additionally, Lamin interactions were upregulated, highlighting the physical linkage between the cytoskeleton and the nuclear lamina, which is critical for transmitting physical forces to the nucleus and influencing nuclear shape and transcriptional activity [<xref rid="adma72486-bib-0055" ref-type="bibr">55</xref>, <xref rid="adma72486-bib-0056" ref-type="bibr">56</xref>]. Immunostaining for Lamin A/C of GFs in soft hydrogels showed a peripheral Lamin A/C distribution, concentrated mainly at the nuclear rim (Figure <xref rid="adma72486-supinfo-0001" ref-type="">S5C</xref>). This peripheral localization is typically associated with a mechanically rigid nuclear lamina, reduced nuclear deformability, and constrained chromatin organization [<xref rid="adma72486-bib-0051" ref-type="bibr">51</xref>, <xref rid="adma72486-bib-0052" ref-type="bibr">52</xref>, <xref rid="adma72486-bib-0056" ref-type="bibr">56</xref>, <xref rid="adma72486-bib-0057" ref-type="bibr">57</xref>]. In contrast, in stiff hydrogels, Lamin A/C was more diffusely distributed throughout the nucleoplasm, suggesting a more deformable nucleus that could enhance the transmission of mechanical signals to chromatin [<xref rid="adma72486-bib-0051" ref-type="bibr">51</xref>, <xref rid="adma72486-bib-0052" ref-type="bibr">52</xref>].</p><p>Next, we examined the role of actomyosin contractility on nuclear morphology. GFs in stiff gingival hydrogels consistently showed a much smaller nuclear volume than GFs in soft gels, regardless of the presence of inhibitors of actomyosin contractility (Figure <xref rid="adma72486-supinfo-0001" ref-type="">S5D</xref>). Notably, nuclear volume in inhibitor‐treated stiff gels was still much lower than in inhibitor‐treated soft gels. Extracellular matrix stiffness largely determines the baseline nuclear volume, likely through external mechanical confinement and/or stiffness‐mediated influences on nuclear chromatin density [<xref rid="adma72486-bib-0057" ref-type="bibr">57</xref>]. These results are consistent with previous works showing that active cellular actomyosin contractility acts as a dynamic modulator of nuclear volume and shape [<xref rid="adma72486-bib-0046" ref-type="bibr">46</xref>, <xref rid="adma72486-bib-0052" ref-type="bibr">52</xref>]. We propose that the nucleus is regulated by both ECM stiffness and its epigenetic landscape [<xref rid="adma72486-bib-0054" ref-type="bibr">54</xref>] in periodontal health and disease.</p></sec><sec id="adma72486-sec-0120"><label>2.10</label><title>Inhibition of DNA Methyltransferase Eliminates the Effect of Matrix Stiffness on Nuclear Morphology, Spreading, and Inflammatory Response of Gingival Fibroblasts</title><p>We hypothesized that matrix stiffness promotes differential levels of nuclear condensation to maintain distinct cellular phenotypes through DNA methylation pathways [<xref rid="adma72486-bib-0023" ref-type="bibr">23</xref>, <xref rid="adma72486-bib-0058" ref-type="bibr">58</xref>, <xref rid="adma72486-bib-0059" ref-type="bibr">59</xref>, <xref rid="adma72486-bib-0060" ref-type="bibr">60</xref>, <xref rid="adma72486-bib-0061" ref-type="bibr">61</xref>, <xref rid="adma72486-bib-0062" ref-type="bibr">62</xref>, <xref rid="adma72486-bib-0063" ref-type="bibr">63</xref>, <xref rid="adma72486-bib-0064" ref-type="bibr">64</xref>] (Figure <xref rid="adma72486-supinfo-0001" ref-type="">S5E</xref>). Fibroblasts in stiff gels generally exhibited higher DNMT1 nuclear expression (Figure <xref rid="adma72486-fig-0005" ref-type="fig">5A</xref>) and a more rounded nuclear shape that may represent a transcriptionally repressed state. GFs in both soft and stiff hydrogels were treated with a DNA methyltransferase inhibitor (DNMTi). We observed a dose‐dependent, significant increase in GF cellular spreading in stiff hydrogels treated with DNMTi (Figure <xref rid="adma72486-fig-0005" ref-type="fig">5B,C</xref>). DNMTi also caused a significant increase in nuclear volume for fibroblasts cultured in stiff hydrogels (Figure <xref rid="adma72486-fig-0005" ref-type="fig">5D</xref>), suggesting that DNA methylation contributes to the compact nuclear morphology observed in stiff ECM. This finding is consistent with previous studies showing that increased global DNA methylation is observed in stiffer matrices and that epigenetic processes integrate microenvironmental inputs to regulate fibroblast activation [<xref rid="adma72486-bib-0007" ref-type="bibr">7</xref>, <xref rid="adma72486-bib-0065" ref-type="bibr">65</xref>, <xref rid="adma72486-bib-0066" ref-type="bibr">66</xref>, <xref rid="adma72486-bib-0067" ref-type="bibr">67</xref>]. The data strongly support our hypothesis that DNA methylation pathways regulate stiffness‐dependent responses [<xref rid="adma72486-bib-0059" ref-type="bibr">59</xref>, <xref rid="adma72486-bib-0060" ref-type="bibr">60</xref>, <xref rid="adma72486-bib-0063" ref-type="bibr">63</xref>]. Our finding that DNMTi can reverse the GF “stiff‐matrix phenotype” highlights the critical role of cellular epigenetic landscapes [<xref rid="adma72486-bib-0064" ref-type="bibr">64</xref>].</p><fig position="float" fig-type="FIGURE" id="adma72486-fig-0005" orientation="portrait"><label>FIGURE 5</label><caption><p>DNMT1 inhibition rescues the mechanical phenotype and restores pro‐inflammatory cytokine secretion by fibroblasts in stiff matrices. (A) Representative confocal immunofluorescence images showing the localization of DNMT1 (yellow) and the nucleus (DAPI, blue) in gingival fibroblasts (GFs) cultured in soft (G' 0.75 kPa) versus stiff (G' 2.0 kPa) ECM hydrogels. (B) Representative <italic toggle="yes">z</italic>‐projection images of phalloidin‐stained GFs encapsulated in stiff hydrogels (G' 2.0 kPa) treated with increasing concentrations of the DNMT inhibitor (0.5 and 1.0 µM). (C) Quantification of cell length. Dots represent individual cells. n = 787 (soft), n = 688 (stiff), n = 710 (stiff+DNMTi 0.5 uM) and n = 917 (stiff+DNMTi 1 uM) pooled from three independent experiments. <italic toggle="yes">p</italic> values were determined by two‐way ANOVA followed by Šídák's multiple comparisons test. (D) Nuclear volume analysis. Dots represent individual nuclei. n = 37 (stiff) and n = 91 (stiff+DNMTi) pooled from three independent experiments; <italic toggle="yes">p</italic> values were determined by an unpaired t‐test with Welch's correction. (E) ELISA quantification of IL‐6 and IL‐8 secretion from GFs (n = 3) cultured in soft or stiff hydrogels with or without DNMT inhibitor treatment; <italic toggle="yes">p</italic> values were determined by ordinary one‐way ANOVA followed by Tukey's multiple comparisons. Scale bars are as indicated. Data in C–E are presented as mean ± SD, and specific <italic toggle="yes">p</italic> values are indicated directly on the graphs where <italic toggle="yes">p</italic>&lt;0.05 was considered statistically significant.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-11" orientation="portrait" xlink:href="ADMA-38-e20717-g005.jpg"><?image-name ADMA-38-e20717-g005.jpg?><?image-size 62338?><?image-md5 230c3487c3da1604bfaa33ab5d9597bc?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 681?><?image-original-width 820?><?image-scaled-height 453?><?image-scaled-width 546?><?image-cloudpmc-urn urn:cdn:blobs/548b/12983442/230c3487c3da/ADMA-38-e20717-g005.jpg?><?thumb-name ADMA-38-e20717-g005.gif?><?thumb-size 6512?><?thumb-md5 c0ae83a7f4936147da500f44e9bf1c3f?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 83?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/548b/12983442/c0ae83a7f493/ADMA-38-e20717-g005.gif?></graphic></fig><p>Further, we observed that DNMTi completely abrogated the immunomodulatory effect of matrix stiffness. GFs in stiff hydrogels treated with DNTMi now secreted significantly more IL‐6, achieving concentrations indistinguishable from those secreted by GFs in soft hydrogels (Figure <xref rid="adma72486-fig-0005" ref-type="fig">5E</xref>). Notably, this effect was selective, as IL‐8 secretion remained unchanged across all conditions, suggesting distinct mechanistic regulation for the two cytokines based on their promoter sensitivity to mechano‐epigenetic signals. We propose that the IL‐6 promoter is susceptible to mechanically induced DNA methylation. By inhibiting DNMTs, the epigenetic brake on IL‐6 is relieved, resulting in partial restoration of IL‐6 transcription when stimulated by TLR2. The suppression of IL‐8 may rely on a different mechanism that is resistant to pharmacological inhibition of DNMT and does not involve changes in CpG methylation status [<xref rid="adma72486-bib-0059" ref-type="bibr">59</xref>, <xref rid="adma72486-bib-0060" ref-type="bibr">60</xref>, <xref rid="adma72486-bib-0062" ref-type="bibr">62</xref>, <xref rid="adma72486-bib-0065" ref-type="bibr">65</xref>]. We propose that matrix stiffness‐dependent DNA methylation acts as an epigenetic regulator of the pro‐inflammatory cytokine IL‐6 [<xref rid="adma72486-bib-0053" ref-type="bibr">53</xref>, <xref rid="adma72486-bib-0064" ref-type="bibr">64</xref>, <xref rid="adma72486-bib-0065" ref-type="bibr">65</xref>, <xref rid="adma72486-bib-0066" ref-type="bibr">66</xref>, <xref rid="adma72486-bib-0067" ref-type="bibr">67</xref>]. We propose that the soft matrix relieves this epigenetic control, allowing GFs to lose their intrinsic immunomodulatory response. DNA methylation and other matrix stiffness‐dependent mechanisms cooperate to fine‐tune the inflammatory setpoint [<xref rid="adma72486-bib-0062" ref-type="bibr">62</xref>]. Future studies are warranted to compare the binding and activity of known mechanosensitive transcription factors at the IL‐6 and IL‐8 promoters in stiff gels following DNMTi treatment.</p></sec><sec id="adma72486-sec-0130"><label>2.11</label><title>Human Co‐Culture Model and Gingival Explant Model Support the Mechano‐Modulation of Inflammation in Periodontitis</title><p>We developed a clinically relevant model to examine the relationship between ECM mechanics and immune cell function. First, a mechanically tunable gingival ECM hydrogel mimicked stromal‐immune cell interactions by co‐culturing human GFs and CD34+ hematopoietic stem cell‐derived myeloid progenitors (Figure <xref rid="adma72486-fig-0006" ref-type="fig">6A</xref>). This strategy enables the evaluation of de novo differentiation of naïve myeloid cells and avoids the potentially confounding effects of previous antigen exposure of peripheral blood monocytes [<xref rid="adma72486-bib-0061" ref-type="bibr">61</xref>, <xref rid="adma72486-bib-0068" ref-type="bibr">68</xref>, <xref rid="adma72486-bib-0069" ref-type="bibr">69</xref>]. Naive myeloid cells were then encapsulated in either soft or stiff ECM hydrogels, either as monocultures or in co‐cultures with GFs. We then examined the differentiation, functional potential, and immunomodulatory phenotype of the stem cell‐derived myeloid cells to discern the integrated impact of fibroblast‐derived cues and mechanical signals. The combination of a stiff matrix and co‐culture with GF promoted the differentiation of naïve myeloid cells into functionally mature DCs, characterized by a higher population of HLA‐DR+ CD11b+ cells (∼40%) (Figure <xref rid="adma72486-fig-0006" ref-type="fig">6B</xref>). We investigated the immunomodulatory phenotype of these DCs by assessing PD‐L1 expression [<xref rid="adma72486-bib-0070" ref-type="bibr">70</xref>, <xref rid="adma72486-bib-0071" ref-type="bibr">71</xref>]. Both matrix stiffness and GF co‐culture were potent inducers of PD‐L1. In immune cell monoculture, stiffness alone resulted in a notable increase in PD‐L1 expression. Yet co‐culture with GFs further upregulated both soft and stiff matrices (Figure <xref rid="adma72486-fig-0006" ref-type="fig">6B</xref>; Figure <xref rid="adma72486-supinfo-0001" ref-type="">S6B</xref>). The highest PD‐L1 expression was observed in cells from the stiff co‐culture condition, indicating synergy between mechanical and paracrine signaling in determining the cells' regulatory potential. Furthermore, DCs differentiated in stiff hydrogels had a significantly greater phagocytic activity than those cultured in more compliant gels, as measured by the internalization of pH‐sensitive fluorescent E. coli particles (Figure <xref rid="adma72486-fig-0006" ref-type="fig">6D</xref>). These results suggest that a stiff environment, similar to healthy gingival tissue, supports the development of antigen‐presenting cells [<xref rid="adma72486-bib-0048" ref-type="bibr">48</xref>, <xref rid="adma72486-bib-0070" ref-type="bibr">70</xref>, <xref rid="adma72486-bib-0071" ref-type="bibr">71</xref>].</p><fig position="float" fig-type="FIGURE" id="adma72486-fig-0006" orientation="portrait"><label>FIGURE 6</label><caption><p>
+<bold>ECM stiffness‐dependent stromal–myeloid crosstalk</bold>. (A) Schematic depicting the 3D co‐culture of human CD34+ hematopoietic stem cell (HSC)‐derived myeloid precursors and GFs within soft (G′ 0.75 kPa) or stiff (G′ 2.0 kPa) hydrogels. Created with BioRender.com. (B) Representative flow cytometry plots and (C) quantification of myeloid cells (live, CD45+ gated) showing the percentage of CD11b+HLA‐DR+ cells (left) and PD‐L1 expression (right, gMFI). Data represent n = 3 biologically independent samples and are presented as mean ± SD. P‐values were determined by two‐way ANOVA followed by uncorrected Fisher's LSD. (D) Representative micrographs of soft and stiff ECM‐derived myeloid cells after incubation with pHrodo E. coli bioparticles, with quantification of phagocytosis by normalized MFI. Dots represent individual cells (n = 30 soft and n = 29 stiff) pooled from three independent experiments. Data are presented as mean ± SD. <italic toggle="yes">p</italic>‐values were determined by a two‐tailed unpaired t‐test. (E) Heatmap showing the relative secretion levels of IL‐6, IL‐8, and CCL2 in monocultures and co‐cultures (n = 3 biologically independent samples). Absolute cytokine concentrations (pg mL<sup>−</sup>
+<sup>1</sup>) were Z‐score normalized across samples, and visualized to highlight relative differences. <italic toggle="yes">p</italic>‐values represent group‐wise comparisons determined by two‐way ANOVA followed by Tukey's multiple comparisons. Scale bars are as indicated. For all panels, specific <italic toggle="yes">p</italic>‐values are indicated directly on the graphs, where <italic toggle="yes">p</italic>&lt;0.05 was considered statistically significant.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-13" orientation="portrait" xlink:href="ADMA-38-e20717-g002.jpg"><?image-name ADMA-38-e20717-g002.jpg?><?image-size 56149?><?image-md5 2ce48624f5768e5b9fedc7da84c9d592?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 479?><?image-original-width 820?><?image-scaled-height 319?><?image-scaled-width 546?><?image-cloudpmc-urn urn:cdn:blobs/548b/12983442/2ce48624f576/ADMA-38-e20717-g002.jpg?><?thumb-name ADMA-38-e20717-g002.gif?><?thumb-size 7833?><?thumb-md5 7d32e0bec12f564799421bc4d9bcf364?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 79?><?thumb-scaled-width 136?><?thumb-cloudpmc-urn urn:cdn:blobs/548b/12983442/7d32e0bec12f/ADMA-38-e20717-g002.gif?></graphic></fig><p>To assess the combined influence of matrix stiffness and TLR2 signaling on the local inflammatory milieu, myeloid cell monocultures and gingival fibroblast co‐cultures within the respective soft and stiff hydrogels were challenged with TLR2, and the resulting cytokine profile was analyzed by ELISA. The assessment of the inflammatory response, summarized in the heatmap of Figure <xref rid="adma72486-fig-0007" ref-type="fig">7E</xref>, revealed a profound interplay between matrix mechanical properties and intercellular communication in regulating cytokine expression. The most significant pro‐inflammatory response was observed in the soft hydrogel (0.75 kPa) under co‐culture conditions. Here, the expression of key inflammatory cytokine (IL‐6) and chemokines, including CCL‐2 and IL‐8, was upregulated. This observation suggests that myeloid cells and GFs, when combined in a soft ECM environment, are highly inflammatory. Conversely, matrix stiffness, similar to that of healthy gingiva, suppressed the expression of all three measured cytokines (CCL‐2, IL‐8, and IL‐6), regardless of whether the cells were in monoculture or co‐culture status. This finding strongly suggests that ECM stiffness can dampen the inflammatory signals of myeloid‐fibroblast crosstalk. Overall, our data show that GFs in a stiff microenvironment induce myeloid precursors to become immunomodulatory phagocytic DCs with attenuated inflammatory responses, which are relevant for maintaining immune homeostasis in healthy gingival tissue [<xref rid="adma72486-bib-0072" ref-type="bibr">72</xref>, <xref rid="adma72486-bib-0073" ref-type="bibr">73</xref>].</p><fig position="float" fig-type="FIGURE" id="adma72486-fig-0007" orientation="portrait"><label>FIGURE 7</label><caption><p>
+<bold>Mechano‐modulation of periodontal inflammation via ECM stiffness</bold>. (A) Schematic illustrating the experimental workflow for translational validation using an ex vivo human gingival explant model. The workflow involves transglutaminase injection to modulate ECM stiffness, followed by TLR2 stimulation and subsequent rheological and ELISA analysis. Created with BioRender.com. (B) Rheological characterization of human gingival tissue, showing the storage modulus (G′) and tan delta following transglutaminase treatment. <italic toggle="yes">p</italic>‐values were determined by a two‐tailed paired t‐test. (C) ELISA quantification of IL‐6 and CCL‐2 secretion from TLR2‐stimulated gingival explants. <italic toggle="yes">p</italic> values were determined by a two‐tailed paired t‐test. For B and C, data represent n = 3 biologically independent donors; dots indicate individual technical replicates (ex vivo explants) derived from these donors. Scale bars are as indicated. Data are presented as mean ± SD, and specific <italic toggle="yes">p</italic> values are indicated directly on the graphs, where <italic toggle="yes">p</italic>&lt;0.05 was considered statistically significant.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-15" orientation="portrait" xlink:href="ADMA-38-e20717-g001.jpg"><?image-name ADMA-38-e20717-g001.jpg?><?image-size 43467?><?image-md5 e5dac579bb3f3ba72d6932a5038d2485?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 445?><?image-original-width 820?><?image-scaled-height 296?><?image-scaled-width 546?><?image-cloudpmc-urn urn:cdn:blobs/548b/12983442/e5dac579bb3f/ADMA-38-e20717-g001.jpg?><?thumb-name ADMA-38-e20717-g001.gif?><?thumb-size 7203?><?thumb-md5 aa3fd5fab3d708bcf5dd197004985105?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 147?><?thumb-cloudpmc-urn urn:cdn:blobs/548b/12983442/aa3fd5fab3d7/ADMA-38-e20717-g001.gif?></graphic></fig><p>Next, we investigated whether enzymatic crosslinking of the gingival ECM with transglutaminase (Tg) can modulate the local immune response. Collagen has nonhelical ends (telopeptide regions), which are even more pronounced in degraded matrix, with accessible glutamine and lysine residues [<xref rid="adma72486-bib-0025" ref-type="bibr">25</xref>]. Tg acts on these sites, covalently linking the glutamine side chains to lysine via an acyl transfer reaction [<xref rid="adma72486-bib-0074" ref-type="bibr">74</xref>]. This causes crosslinking of adjacent collagen fibrils or collagen with adjacent ECM proteins like fibronectin and laminin [<xref rid="adma72486-bib-0075" ref-type="bibr">75</xref>, <xref rid="adma72486-bib-0076" ref-type="bibr">76</xref>, <xref rid="adma72486-bib-0077" ref-type="bibr">77</xref>]. We tested our hypothesis in an ex vivo human gingival explant model, which maintains the native tissue structure, cellular heterogeneity, and ECM composition (Figure <xref rid="adma72486-fig-0007" ref-type="fig">7A</xref>). This human tissue model eliminates inter‐species differences in animal models and provides clinically relevant data [<xref rid="adma72486-bib-0015" ref-type="bibr">15</xref>, <xref rid="adma72486-bib-0017" ref-type="bibr">17</xref>]. Tg treatment successfully restored the mechanical properties of human gingival explant tissue. Rheological measurements showed that Tg‐treated tissue had a greater storage modulus (G′) and a lower tan delta (Tan δ = G′′/G′) value (Figure <xref rid="adma72486-fig-0007" ref-type="fig">7B,C</xref>). Further, when challenged with a TLR2 agonist to mimic a bacterial challenge, the Tg‐treated explants displayed a significant reduction in the release of key inflammatory mediators compared to non‐Tg controls (Figure <xref rid="adma72486-fig-0007" ref-type="fig">7C</xref>; Figure <xref rid="adma72486-supinfo-0001" ref-type="">S7</xref>), including IL‐6 and CCL2. This result demonstrates that restoring the mechanical integrity of the gingival ECM impairs downstream inflammatory cascades. The lowering of CCL2 is especially relevant, as it would restrict the recruitment of further inflammatory monocytes, thereby disrupting a critical positive feedback loop that perpetuates chronic inflammation in periodontitis [<xref rid="adma72486-bib-0078" ref-type="bibr">78</xref>, <xref rid="adma72486-bib-0079" ref-type="bibr">79</xref>].</p><p>Our data support ECM crosslinking as a potential therapeutic approach for periodontitis, as we demonstrate that restoring tissue stiffness is sufficient to shift the local immune environment from pro‐inflammatory to homeostatic and pro‐resolution. The translational potential of restoring healthy tissue stiffness is promising. However, oral tissues are colonized with complex bacterial biofilms [<xref rid="adma72486-bib-0004" ref-type="bibr">4</xref>]. Enhancing ECM cross‐linking cannot be viewed as a standalone therapy. ECM treatments would be adjunctive to standard non‐surgical mechanical debridement [<xref rid="adma72486-bib-0009" ref-type="bibr">9</xref>], which remains essential for reducing the dysbiotic microbial burden [<xref rid="adma72486-bib-0003" ref-type="bibr">3</xref>]. Future research will directly test this hypothesis by integrating polymicrobial biofilms into our stiffened hydrogel system to assess whether the mechanical checkpoint remains active and dominant in the presence of the primary etiological challenge. The insights derived from our work converge with recent advancements in translational biomaterials designed for periodontitis therapy. This finding is critical when evaluating clinically deployable hydrogel systems, such as the recently reported injectable short‐fiber hydrogel composed of nanocellulose (OBNC) and gelatin methacryloyl (GelMA) [<xref rid="adma72486-bib-0080" ref-type="bibr">80</xref>], hyaluronic acid‐based delivery systems, or adapting functional hydrogel technologies with antibacterial and remineralization properties [<xref rid="adma72486-bib-0081" ref-type="bibr">81</xref>, <xref rid="adma72486-bib-0082" ref-type="bibr">82</xref>].</p></sec></sec><sec id="adma72486-sec-0140"><label>3</label><title>Conclusions, Limitations, and Outlook</title><p>This study establishes the mechanical microenvironment of the gingival connective tissue as a paramount and active regulator of GF phenotype and immune homeostasis. Through a tunable 3D gingival ECM‐mimicking hydrogel system, we identified a TLR2‐mediated checkpoint in which matrix stiffness controls GFs’ homeostatic and pathological responses. Stiff matrices, mimicking healthy tissue, drive a GF phenotype characterized by enhanced ECM synthesis, organized nuclear morphology, and robust suppression of pro‐inflammatory responses, primarily mediated by the non‐canonical NF‐κB pathway and influenced by DNA methylation. Conversely, soft, disease‐mimicking hydrogels promote a pro‐inflammatory, matrix‐degrading phenotype, recapitulating key transcriptional signatures observed in human periodontitis fibroblasts. We further elucidated that GFs in a stiff microenvironment promote the differentiation of immunomodulatory and phagocytic DCs Figure <xref rid="adma72486-fig-0008" ref-type="fig">8</xref>. In summary, our work provides compelling evidence for a paradigm shift in understanding periodontal disease pathogenesis, moving beyond traditional microbial models to highlight the central role of the physical microenvironment and opening new avenues for therapeutic intervention.</p><p>Native gingival ECM provides diverse biochemical cues beyond collagen Type I in our collagen‐alginate hydrogel. Our experimental and material design focused on isolating and controlling physical cues (stiffness and collagen architecture) as the dominant regulators of cellular mechanosensing. We achieved rheological properties that match those of healthy and diseased gingival tissue. Our system could incorporate decellularized ECM components in the future to provide a broader range of ligands. Although TLR2 stimulation simplifies the infectious milieu, future studies could validate the clinical generalizability of our findings using microbe‐specific stimuli, such as heat‐killed <italic toggle="yes">F. nucleatum</italic> or <italic toggle="yes">P. gingivalis</italic>, or by integrating polymicrobial periodontal biofilms. The insights gained from this study lay a robust foundation for several avenues of future research, including the link between DNA methylation and NFκB signaling, as well as the role of nuclear mechanics and chromatin remodeling in GFs. Future studies will also explore the heterogeneity of gingival fibroblasts using the 3D hydrogel model to identify novel therapeutic targets, followed by in vivo validation and the development of a bioengineered preclinical model [<xref rid="adma72486-bib-0015" ref-type="bibr">15</xref>] to translate these findings for the treatment of periodontitis Figure <xref rid="adma72486-fig-0008" ref-type="fig">8</xref>.</p><fig position="float" fig-type="FIGURE" id="adma72486-fig-0008" orientation="portrait"><label>FIGURE 8</label><caption><p>The ECM‐cytoskeletal‐nuclear axis regulates periodontal inflammation and fibroblast phenotype via DNMT1 and non‐canonical NFκB signaling. Created with BioRender.com.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-17" orientation="portrait" xlink:href="ADMA-38-e20717-g006.jpg"><?image-name ADMA-38-e20717-g006.jpg?><?image-size 52939?><?image-md5 6e6c092dcf742250aef565c66858ae1c?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 430?><?image-original-width 820?><?image-scaled-height 286?><?image-scaled-width 546?><?image-cloudpmc-urn urn:cdn:blobs/548b/12983442/6e6c092dcf74/ADMA-38-e20717-g006.jpg?><?thumb-name ADMA-38-e20717-g006.gif?><?thumb-size 8730?><?thumb-md5 f264ce060770e78826545b80601efc0b?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 152?><?thumb-cloudpmc-urn urn:cdn:blobs/548b/12983442/f264ce060770/ADMA-38-e20717-g006.gif?></graphic></fig></sec><sec id="adma72486-sec-0150"><title>Author Contributions</title><p>H.M. contributed to conceptualization, data curation, investigation, formal analysis, methodology, visualization, and writing, including the original draft and editing. N.T. and Y.C.C. were involved in investigation, methodology, and formal analysis. K.I.K. contributed to conceptualization, supervision, resources, and investigation. R.G.W. contributed to conceptualization, supervision, visualization, and writing. K.H.V. contributed to conceptualization, methodology, funding acquisition, supervision, visualization, writing, and resources. N.T. contributed to investigation, methodology, and formal analysis.</p></sec><sec id="adma72486-sec-0170"><title>Ethics Statement</title><p>All human gingival tissues and donor‐derived gingival fibroblasts (GFs) utilized in this research were obtained from the University of Pennsylvania Periodontology Clinic under Institutional Review Board oversight (IRB #844933; PI: Ko). These materials, which included deidentified human gingival biopsies from healthy or diseased donors, were used to establish ex vivo explant models or isolate primary GFs for 3D hydrogel systems. To maintain donor privacy, all human tissue samples were deidentified before being processed for experimental use. Furthermore, written informed consent was obtained from all participants prior to the collection and use of human tissues in accordance with ethical standards and institutional protocols.</p></sec><sec sec-type="COI-statement" id="adma72486-sec-0180"><title>Conflicts of Interest</title><p>The authors declare no conflicts of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="adma72486-supinfo-0001" position="float" content-type="local-data" orientation="portrait"/><supplementary-material id="adma72486-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Supporting File</bold>: adma72486‐sup‐0001‐SuppMat.pdf.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ADMA-38-e20717-s001.pdf" position="float" orientation="portrait"><?suppdata-name ADMA-38-e20717-s001.pdf?><?suppdata-size 11144076?><?suppdata-md5 acca107cf1370e2b110a9a620c3444d9?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type pdf?><?suppdata-cloudpmc-urn urn:app:548b/12983442/acca107cf137/ADMA-38-e20717-s001.pdf?></media></supplementary-material></sec></body><back><ack id="adma72486-sec-0160"><title>Acknowledgements</title><p>This work was supported by the National Institute of Dental and Craniofacial Research (NIDCR) through a training grant to the Center for Innovation &amp; Precision Dentistry (CiPD) (R90DE031532 to Hardik Makkar). Additional support was provided in part by the Collaborative Research Grant from the Institute for Regenerative Medicine in the Perelman School of Medicine and the School of Dental Medicine at the University of Pennsylvania (Vining). This study was also partially supported by the National Institute of General Medical Sciences (NIGMS) (R35GM157079, Vining and Chen) and by a Graduate Research Fellowship from the National Science Foundation (No. DGE‐2236662, Nghi Tran). We thank Gordon Ruthel at the Penn Vet Imaging Core for assistance with confocal microscopy and SHG imaging. Confocal microscopy was performed on an instrument purchased with support from an NIH Shared Instrumentation Grant (S10 OD032305‐01A1). We also thank Jennifer Murray at the Children's Hospital of Philadelphia Flow Cytometry Core for assistance with flow cytometry. The graphical abstract was edited using NotebookLM and Gemini Pro.</p></ack><sec sec-type="data-availability" id="adma72486-sec-0200"><title>Data Availability Statement</title><p>The data supporting the findings of this study will be openly available in Dyrad after publication (DOI: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.5061/dryad.xksn02vw6" ext-link-type="uri" specific-use="software is-supplemented-by">10.5061/dryad.xksn02vw6</ext-link>).</p></sec><ref-list id="adma72486-bibl-0001"><title>References</title><ref id="adma72486-bib-0001"><label>1</label><mixed-citation publication-type="book" id="adma72486-cite-0001">
+<collab collab-type="authors">World Health Organization</collab>
+<source>Global Oral Health Status Report: Towards Universal Health Coverage for Oral Health by 2030</source>, (<publisher-name>World Health Organization</publisher-name>, <year>2022</year>).</mixed-citation></ref><ref id="adma72486-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="adma72486-cite-0002">
+<string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Hajishengallis</surname>
+</string-name>, “<article-title>Periodontitis: From Microbial Immune Subversion to Systemic Inflammation</article-title>,” <source>Nature Reviews Immunology</source>
+<volume>15</volume>, no. <issue>1</issue> (<year>2015</year>): <fpage>30</fpage>–<lpage>44</lpage>, <pub-id pub-id-type="doi">10.1038/nri3785</pub-id>.<pub-id pub-id-type="pmcid">PMC4276050</pub-id><pub-id pub-id-type="pmid">25534621</pub-id></mixed-citation></ref><ref id="adma72486-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="adma72486-cite-0003">
+<string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Hajishengallis</surname>
+</string-name> and <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Chavakis</surname>
+</string-name>, “<article-title>Local and Systemic Mechanisms Linking Periodontal Disease and Inflammatory Comorbidities</article-title>,” <source>Nature Reviews Immunology</source>
+<volume>21</volume>, no. <issue>7</issue> (<year>2021</year>): <fpage>426</fpage>–<lpage>440</lpage>, <pub-id pub-id-type="doi">10.1038/s41577-020-00488-6</pub-id>.<pub-id pub-id-type="pmcid">PMC7841384</pub-id><pub-id pub-id-type="pmid">33510490</pub-id></mixed-citation></ref><ref id="adma72486-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="adma72486-cite-0004">
+<string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Hajishengallis</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. P.</given-names>
+<surname>Darveau</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M. A.</given-names>
+<surname>Curtis</surname>
+</string-name>, “<article-title>The Keystone‐Pathogen Hypothesis</article-title>,” <source>Nature Reviews Microbiology</source>
+<volume>10</volume>, no. <issue>10</issue> (<year>2012</year>): <fpage>717</fpage>–<lpage>725</lpage>, <pub-id pub-id-type="doi">10.1038/nrmicro2873</pub-id>.<pub-id pub-id-type="pmid">22941505</pub-id>
+<pub-id pub-id-type="pmcid">PMC3498498</pub-id></mixed-citation></ref><ref id="adma72486-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="adma72486-cite-0005">
+<string-name name-style="western">
+<given-names>R. J.</given-names>
+<surname>Lamont</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Koo</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Hajishengallis</surname>
+</string-name>, “<article-title>The Oral Microbiota: Dynamic Communities and Host Interactions</article-title>,” <source>Nature Reviews Microbiology</source>
+<volume>16</volume>, no. <issue>12</issue> (<year>2018</year>): <fpage>745</fpage>–<lpage>759</lpage>, <pub-id pub-id-type="doi">10.1038/s41579-018-0089-x</pub-id>.<pub-id pub-id-type="pmid">30301974</pub-id>
+<pub-id pub-id-type="pmcid">PMC6278837</pub-id></mixed-citation></ref><ref id="adma72486-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="adma72486-cite-0006">
+<string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Maekawa</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. L.</given-names>
+<surname>Krauss</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Abe</surname>
+</string-name>, et al., “<article-title>Porphyromonas Gingivalis Manipulates Complement and TLR Signaling to Uncouple Bacterial Clearance From Inflammation and Promote Dysbiosis</article-title>,” <source>Cell Host &amp; Microbe</source>
+<volume>15</volume>, no. <issue>6</issue> (<year>2014</year>): <fpage>768</fpage>–<lpage>778</lpage>, <pub-id pub-id-type="doi">10.1016/j.chom.2014.05.012</pub-id>.<pub-id pub-id-type="pmid">24922578</pub-id>
+<pub-id pub-id-type="pmcid">PMC4071223</pub-id></mixed-citation></ref><ref id="adma72486-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="adma72486-cite-0007">
+<string-name name-style="western">
+<given-names>S. J.</given-names>
+<surname>Heo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Thakur</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Chen</surname>
+</string-name>, et al., “<article-title>Aberrant Chromatin Reorganization in Cells From Diseased Fibrous Connective Tissue in Response to Altered Chemomechanical Cues</article-title>,” <source>Nature Biomedical Engineering</source>
+<volume>7</volume>, no. <issue>2</issue> (<year>2023</year>): <fpage>177</fpage>–<lpage>191</lpage>, <pub-id pub-id-type="doi">10.1038/s41551-022-00910-5</pub-id>.<pub-id pub-id-type="pmcid">PMC10053755</pub-id><pub-id pub-id-type="pmid">35996026</pub-id></mixed-citation></ref><ref id="adma72486-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="adma72486-cite-0008">
+<string-name name-style="western">
+<given-names>M. P.</given-names>
+<surname>Dieterle</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Husari</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Steinberg</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Ramminger</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Tomakidi</surname>
+</string-name>, “<article-title>Role of Mechanotransduction in Periodontal Homeostasis and Disease</article-title>,” <source>Journal of Dental Research</source>
+<volume>100</volume>, no. <issue>11</issue> (<year>2021</year>): <fpage>1210</fpage>–<lpage>1219</lpage>, <pub-id pub-id-type="doi">10.1177/00220345211007855</pub-id>.<pub-id pub-id-type="pmid">33870741</pub-id>
+</mixed-citation></ref><ref id="adma72486-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="adma72486-cite-0009">
+<string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Hajishengallis</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Chavakis</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. D.</given-names>
+<surname>Lambris</surname>
+</string-name>, “<article-title>Current Understanding of Periodontal Disease Pathogenesis and Targets for Host‐Modulation Therapy</article-title>,” <source>Periodontology 2000</source>
+<volume>84</volume>, no. <issue>1</issue> (<year>2020</year>): <fpage>14</fpage>–<lpage>34</lpage>, <pub-id pub-id-type="doi">10.1111/prd.12331</pub-id>.<pub-id pub-id-type="pmid">32844416</pub-id>
+<pub-id pub-id-type="pmcid">PMC7457922</pub-id></mixed-citation></ref><ref id="adma72486-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="adma72486-cite-0010">
+<string-name name-style="western">
+<given-names>K. J.</given-names>
+<surname>Baek</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Choi</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Ji</surname>
+</string-name>, “<article-title>Gingival Fibroblasts From Periodontitis Patients Exhibit Inflammatory Characteristics in Vitro</article-title>,” <source>Archives of Oral Biology</source>
+<volume>58</volume>, no. <issue>10</issue> (<year>2013</year>): <fpage>1282</fpage>–<lpage>1292</lpage>, <pub-id pub-id-type="doi">10.1016/j.archoralbio.2013.07.007</pub-id>.<pub-id pub-id-type="pmid">24011303</pub-id>
+</mixed-citation></ref><ref id="adma72486-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="adma72486-cite-0011">
+<string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Zheng</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Q.</given-names>
+<surname>Luan</surname>
+</string-name>, “<article-title>Oxidative Stress in Human Gingival Fibroblasts From Periodontitis Versus Healthy Counterparts</article-title>,” <source>Oral Diseases</source>
+<volume>29</volume>, no. <issue>3</issue> (<year>2023</year>): <fpage>1214</fpage>–<lpage>1225</lpage>, <pub-id pub-id-type="doi">10.1111/odi.14103</pub-id>.<pub-id pub-id-type="pmid">34905275</pub-id>
+</mixed-citation></ref><ref id="adma72486-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="adma72486-cite-0012">
+<string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Tiskratok</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Yamada</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Watanabe</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Kartikasari</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Kimura</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Egusa</surname>
+</string-name>, “<article-title>Substrate Stiffness Controls Proinflammatory Responses in Human Gingival Fibroblasts</article-title>,” <source>Scientific Reports</source>
+<volume>13</volume>, no. <issue>1</issue> (<year>2023</year>): <fpage>1358</fpage>, <pub-id pub-id-type="doi">10.1038/s41598-023-28541-z</pub-id>.<pub-id pub-id-type="pmid">36693942</pub-id>
+<pub-id pub-id-type="pmcid">PMC9873657</pub-id></mixed-citation></ref><ref id="adma72486-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="adma72486-cite-0013">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Uehara</surname>
+</string-name> and <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Takada</surname>
+</string-name>, “<article-title>Functional TLRs and NODs in Human Gingival Fibroblasts</article-title>,” <source>Journal of Dental Research</source>
+<volume>86</volume>, no. <issue>3</issue> (<year>2007</year>): <fpage>249</fpage>–<lpage>254</lpage>, <pub-id pub-id-type="doi">10.1177/154405910708600310</pub-id>.<pub-id pub-id-type="pmid">17314257</pub-id>
+</mixed-citation></ref><ref id="adma72486-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="adma72486-cite-0014">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Wielento</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. B.</given-names>
+<surname>Lagosz‐Cwik</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Potempa</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A. M.</given-names>
+<surname>Grabiec</surname>
+</string-name>, “<article-title>The Role of Gingival Fibroblasts in the Pathogenesis of Periodontitis</article-title>,” <source>Journal of Dental Research</source>
+<volume>102</volume>, no. <issue>5</issue> (<year>2023</year>): <fpage>489</fpage>–<lpage>496</lpage>, <pub-id pub-id-type="doi">10.1177/00220345231151921</pub-id>.<pub-id pub-id-type="pmid">36883660</pub-id>
+<pub-id pub-id-type="pmcid">PMC10249005</pub-id></mixed-citation></ref><ref id="adma72486-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="adma72486-cite-0015">
+<string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Makkar</surname>
+</string-name> and <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Sriram</surname>
+</string-name>, “<article-title>Advances in Modeling Periodontal Host‐Microbe Interactions: Insights From Organotypic and Organ‐on‐Chip Systems</article-title>,” <source>Lab on a Chip</source>
+<volume>25</volume> (<year>2025</year>): <fpage>1342</fpage>–<lpage>1371</lpage>, <pub-id pub-id-type="doi">10.1039/D4LC00871E</pub-id>.<pub-id pub-id-type="pmid">39963082</pub-id>
+<pub-id pub-id-type="pmcid">PMC11833442</pub-id></mixed-citation></ref><ref id="adma72486-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="adma72486-cite-0016">
+<string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Makkar</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Zhou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. S.</given-names>
+<surname>Tan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. T.</given-names>
+<surname>Lim</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Sriram</surname>
+</string-name>, “<article-title>Modeling Crevicular Fluid Flow and Host‐Oral Microbiome Interactions in a Gingival Crevice‐On‐Chip</article-title>,” <source>Advanced Healthcare Materials</source>
+<volume>12</volume>, no. <issue>6</issue> (<year>2023</year>): <elocation-id>2202376</elocation-id>, <pub-id pub-id-type="doi">10.1002/adhm.202202376</pub-id>.<pub-id pub-id-type="pmid">36398428</pub-id></mixed-citation></ref><ref id="adma72486-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="adma72486-cite-0017">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Rahimnejad</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Makkar</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Dal‐Fabbro</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Malda</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Sriram</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M. C.</given-names>
+<surname>Bottino</surname>
+</string-name>, “<article-title>Biofabrication Strategies for Oral Soft Tissue Regeneration</article-title>,” <source>Advanced Healthcare Materials</source>
+<volume>13</volume>, no. <issue>18</issue> (<year>2024</year>): <elocation-id>2304537</elocation-id>, <pub-id pub-id-type="doi">10.1002/adhm.202304537</pub-id>.<pub-id pub-id-type="pmcid">PMC11254569</pub-id><pub-id pub-id-type="pmid">38529835</pub-id></mixed-citation></ref><ref id="adma72486-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="adma72486-cite-0018">
+<string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Makkar</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Atkuru</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y. L.</given-names>
+<surname>Tang</surname>
+</string-name>, et al., “<article-title>Differential Immune Responses of 3D Gingival and Periodontal Connective Tissue Equivalents to Microbial Colonization</article-title>,” <source>Journal of Tissue Engineering</source>
+<volume>13</volume> (<year>2022</year>): <elocation-id>20417314221111650</elocation-id>, <pub-id pub-id-type="doi">10.1177/20417314221111650</pub-id>.<pub-id pub-id-type="pmid">35923175</pub-id>
+<pub-id pub-id-type="pmcid">PMC9340411</pub-id></mixed-citation></ref><ref id="adma72486-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="adma72486-cite-0019">
+<string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Makkar</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. T.</given-names>
+<surname>Lim</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. S.</given-names>
+<surname>Tan</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Sriram</surname>
+</string-name>, “<article-title>Modeling Periodontal Host‐Microbe Interactions Using Vascularized Gingival Connective Tissue Equivalents</article-title>,” <source>Biofabrication</source>
+<volume>15</volume>, no. <issue>4</issue> (<year>2023</year>): <elocation-id>045008</elocation-id>, <pub-id pub-id-type="doi">10.1088/1758-5090/ace935</pub-id>.<pub-id pub-id-type="pmid">37473752</pub-id></mixed-citation></ref><ref id="adma72486-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="adma72486-cite-0020">
+<string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Mori</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Yanagita</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Hasegawa</surname>
+</string-name>, et al., “<article-title>Necrosis‐Induced TLR3 Activation Promotes TLR2 Expression in Gingival Cells</article-title>,” <source>Journal of Dental Research</source>
+<volume>94</volume>, no. <issue>8</issue> (<year>2015</year>): <fpage>1149</fpage>–<lpage>1157</lpage>, <pub-id pub-id-type="doi">10.1177/0022034515589289</pub-id>.<pub-id pub-id-type="pmid">26045329</pub-id>
+</mixed-citation></ref><ref id="adma72486-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="adma72486-cite-0021">
+<string-name name-style="western">
+<given-names>C. R.</given-names>
+<surname>Pinheiro</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. L.</given-names>
+<surname>Coelho</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. E.</given-names>
+<surname>de Oliveira</surname>
+</string-name>, et al., “<article-title>Recognition of Candida Albicans by Gingival Fibroblasts: The Role of TLR2, TLR4/CD14, and MyD88</article-title>,” <source>Cytokine</source>
+<volume>106</volume> (<year>2018</year>): <fpage>67</fpage>–<lpage>75</lpage>, <pub-id pub-id-type="doi">10.1016/j.cyto.2017.10.013</pub-id>.<pub-id pub-id-type="pmid">29128406</pub-id>
+<pub-id pub-id-type="pmcid">PMC5922261</pub-id></mixed-citation></ref><ref id="adma72486-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="adma72486-cite-0022">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Wielento</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G. P.</given-names>
+<surname>Bereta</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. B.</given-names>
+<surname>Lagosz‐Cwik</surname>
+</string-name>, et al., “<article-title>TLR2 Activation by Porphyromonas Gingivalis Requires Both PPAD Activity and Fimbriae</article-title>,” <source>Frontiers in Immunology</source>
+<volume>13</volume> (<year>2022</year>): <elocation-id>823685</elocation-id>, <pub-id pub-id-type="doi">10.3389/fimmu.2022.823685</pub-id>.<pub-id pub-id-type="pmid">35432342</pub-id>
+<pub-id pub-id-type="pmcid">PMC9010743</pub-id></mixed-citation></ref><ref id="adma72486-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="adma72486-cite-0023">
+<string-name name-style="western">
+<given-names>K. T.</given-names>
+<surname>Jurdzinski</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Potempa</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A. M.</given-names>
+<surname>Grabiec</surname>
+</string-name>, “<article-title>Epigenetic Regulation of Inflammation in Periodontitis: Cellular Mechanisms and Therapeutic Potential</article-title>,” <source>Clinical Epigenetics</source>
+<volume>12</volume>, no. <issue>1</issue> (<year>2020</year>): <fpage>186</fpage>, <pub-id pub-id-type="doi">10.1186/s13148-020-00982-7</pub-id>.<pub-id pub-id-type="pmid">33256844</pub-id>
+<pub-id pub-id-type="pmcid">PMC7706209</pub-id></mixed-citation></ref><ref id="adma72486-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="adma72486-cite-0024">
+<string-name name-style="western">
+<given-names>J. J.</given-names>
+<surname>Lim</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. H.</given-names>
+<surname>Vining</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. J.</given-names>
+<surname>Mooney</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>B. J.</given-names>
+<surname>Blencowe</surname>
+</string-name>, “<article-title>Matrix Stiffness‐Dependent Regulation of Immunomodulatory Genes in Human MSCs is Associated With the lncRNA CYTOR</article-title>,” <source>Proceedings of the National Academy of Sciences</source>
+<volume>121</volume>, no. <issue>32</issue>: <elocation-id>2404146121</elocation-id>, <pub-id pub-id-type="doi">10.1073/pnas.2404146121</pub-id>.<pub-id pub-id-type="pmcid">PMC11317610</pub-id><pub-id pub-id-type="pmid">39074278</pub-id></mixed-citation></ref><ref id="adma72486-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="adma72486-cite-0025">
+<string-name name-style="western">
+<given-names>K. H.</given-names>
+<surname>Vining</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Stafford</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D. J.</given-names>
+<surname>Mooney</surname>
+</string-name>, “<article-title>Sequential Modes of Crosslinking Tune Viscoelasticity of Cell‐Instructive Hydrogels</article-title>,” <source>Biomaterials</source>
+<volume>188</volume> (<year>2019</year>): <fpage>187</fpage>–<lpage>197</lpage>, <pub-id pub-id-type="doi">10.1016/j.biomaterials.2018.10.013</pub-id>.<pub-id pub-id-type="pmid">30366219</pub-id>
+<pub-id pub-id-type="pmcid">PMC6279497</pub-id></mixed-citation></ref><ref id="adma72486-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="adma72486-cite-0026">
+<string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y. C.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I. C.</given-names>
+<surname>Yoon</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Graham</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Vining</surname>
+</string-name>, “<article-title>Shear and Compressive Stiffening of Dual‐Cross‐Linked Alginate Hydrogels With Tunable Viscoelasticity</article-title>,” <source>ACS Applied Bio Materials</source>
+<volume>8</volume>, no. <issue>5</issue> (<year>2025</year>): <fpage>3899</fpage>–<lpage>3908</lpage>, <pub-id pub-id-type="doi">10.1021/acsabm.5c00094</pub-id>.<pub-id pub-id-type="pmcid">PMC12094175</pub-id><pub-id pub-id-type="pmid">40274262</pub-id></mixed-citation></ref><ref id="adma72486-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="adma72486-cite-0027">
+<string-name name-style="western">
+<given-names>K. H.</given-names>
+<surname>Vining</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. E.</given-names>
+<surname>Marneth</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Adu‐Berchie</surname>
+</string-name>, et al., “<article-title>Mechanical Checkpoint Regulates Monocyte Differentiation in Fibrotic Niches</article-title>,” <source>Nature Materials</source>
+<volume>21</volume>, no. <issue>8</issue> (<year>2022</year>): <fpage>939</fpage>–<lpage>950</lpage>, <pub-id pub-id-type="doi">10.1038/s41563-022-01293-3</pub-id>.<pub-id pub-id-type="pmid">35817965</pub-id>
+<pub-id pub-id-type="pmcid">PMC10197159</pub-id></mixed-citation></ref><ref id="adma72486-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="adma72486-cite-0028">
+<string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Lin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Li</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Cui</surname>
+</string-name>, “<article-title>Injectable Hydrogel Microspheres in Cartilage Repair</article-title>,” <source>Biomedical Technology</source>
+<volume>1</volume> (<year>2023</year>): <fpage>18</fpage>–<lpage>29</lpage>, <pub-id pub-id-type="doi">10.1016/j.bmt.2022.11.002</pub-id>.</mixed-citation></ref><ref id="adma72486-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="adma72486-cite-0029">
+<string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Chavrier</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. L.</given-names>
+<surname>Couble</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Magloire</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Grimaud</surname>
+</string-name>, “<article-title>Connective Tissue Organization of Healthy Human Gingiva</article-title>,” <source>Journal of Periodontal Research</source>
+<volume>19</volume>, no. <issue>3</issue> (<year>1984</year>): <fpage>221</fpage>–<lpage>229</lpage>, <pub-id pub-id-type="doi">10.1111/j.1600-0765.1984.tb00813.x</pub-id>.<pub-id pub-id-type="pmid">6235338</pub-id>
+</mixed-citation></ref><ref id="adma72486-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="adma72486-cite-0030">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Atkuru</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Muniraj</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Sudhaharan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. H.</given-names>
+<surname>Chiam</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G. D.</given-names>
+<surname>Wright</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Sriram</surname>
+</string-name>, “<article-title>Cellular Ageing of Oral Fibroblasts Differentially Modulates Extracellular Matrix Organization</article-title>,” <source>Journal of Periodontal Research</source>
+<volume>56</volume>, no. <issue>1</issue> (<year>2021</year>): <fpage>108</fpage>–<lpage>120</lpage>, <pub-id pub-id-type="doi">10.1111/jre.12799</pub-id>.<pub-id pub-id-type="pmid">32969036</pub-id>
+</mixed-citation></ref><ref id="adma72486-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="adma72486-cite-0031">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Lorencini</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Silva</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. A.</given-names>
+<surname>Almeida</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Bruni‐Cardoso</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H. F.</given-names>
+<surname>Carvalho</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D. R.</given-names>
+<surname>Stach‐Machado</surname>
+</string-name>, “<article-title>A New Paradigm in the Periodontal Disease Progression: Gingival Connective Tissue Remodeling With Simultaneous Collagen Degradation and Fibers Thickening</article-title>,” <source>Tissue and Cell</source>
+<volume>41</volume>, no. <issue>1</issue> (<year>2009</year>): <fpage>43</fpage>–<lpage>50</lpage>, <pub-id pub-id-type="doi">10.1016/j.tice.2008.07.001</pub-id>.<pub-id pub-id-type="pmid">18801546</pub-id>
+</mixed-citation></ref><ref id="adma72486-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="adma72486-cite-0032">
+<string-name name-style="western">
+<given-names>S. P.</given-names>
+<surname>Pego</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. R.</given-names>
+<surname>de Faria</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. A.</given-names>
+<surname>Santos</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. D.</given-names>
+<surname>Coletta</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. N.</given-names>
+<surname>de Aquino</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Martelli‐Junior</surname>
+</string-name>, “<article-title>Ultrastructural Evaluation of Gingival Connective Tissue in Hereditary Gingival Fibromatosis</article-title>,” <source>Oral Surgery, Oral Medicine, Oral Pathology and Oral Radiology</source>
+<volume>122</volume>, no. <issue>1</issue>: <fpage>81</fpage>–<lpage>88.e2</lpage>, <pub-id pub-id-type="doi">10.1016/j.oooo.2016.04.002</pub-id>.<pub-id pub-id-type="pmid">27260277</pub-id></mixed-citation></ref><ref id="adma72486-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="adma72486-cite-0033">
+<string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Zhou</surname>
+</string-name> and <string-name name-style="western">
+<given-names>L. J.</given-names>
+<surname>Windsor</surname>
+</string-name>, “<article-title>Porphyromonas Gingivalis Affects Host Collagen Degradation by Affecting Expression, Activation, and Inhibition of Matrix Metalloproteinases</article-title>,” <source>Journal of Periodontal Research</source>
+<volume>41</volume>, no. <issue>1</issue> (<year>2006</year>): <fpage>47</fpage>–<lpage>54</lpage>, <pub-id pub-id-type="doi">10.1111/j.1600-0765.2005.00835.x</pub-id>.<pub-id pub-id-type="pmid">16409255</pub-id>
+</mixed-citation></ref><ref id="adma72486-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="adma72486-cite-0034">
+<string-name name-style="western">
+<given-names>A. A.</given-names>
+<surname>DeCarlo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H. E.</given-names>
+<surname>Grenett</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G. J.</given-names>
+<surname>Harber</surname>
+</string-name>, et al., “<article-title>Induction of Matrix Metalloproteinases and a Collagen‐Degrading Phenotype in Fibroblasts and Epithelial Cells by Secreted Porphyromonas Gingivalis Proteinase</article-title>,” <source>Journal of Periodontal Research</source>
+<volume>33</volume>, no. <issue>7</issue> (<year>1998</year>): <fpage>408</fpage>–<lpage>420</lpage>, <pub-id pub-id-type="doi">10.1111/j.1600-0765.1998.tb02337.x</pub-id>.<pub-id pub-id-type="pmid">9842506</pub-id>
+</mixed-citation></ref><ref id="adma72486-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="adma72486-cite-0035">
+<string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Ma</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Sorsa</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. R.</given-names>
+<surname>Billinghurst</surname>
+</string-name>, et al., “<article-title>Direct Evidence of Collagenolysis in Chronic Periodontitis</article-title>,” <source>Journal of Periodontal Research</source>
+<volume>38</volume>, no. <issue>6</issue> (<year>2003</year>): <fpage>564</fpage>–<lpage>567</lpage>, <pub-id pub-id-type="doi">10.1034/j.1600-0765.2003.00689.x</pub-id>.<pub-id pub-id-type="pmid">14632918</pub-id>
+</mixed-citation></ref><ref id="adma72486-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="adma72486-cite-0036">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Seguier</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Gogly</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Bodineau</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Godeau</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Brousse</surname>
+</string-name>, “<article-title>Is Collagen Breakdown During Periodontitis Linked to Inflammatory Cells and Expression of Matrix Metalloproteinases and Tissue Inhibitors of Metalloproteinases in Human Gingival Tissue?</article-title>,” <source>Journal of Periodontology</source>
+<volume>72</volume>, no. <issue>10</issue> (<year>2001</year>): <fpage>1398</fpage>–<lpage>1406</lpage>, <pub-id pub-id-type="doi">10.1902/jop.2001.72.10.1398</pub-id>.<pub-id pub-id-type="pmid">11699482</pub-id>
+</mixed-citation></ref><ref id="adma72486-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="adma72486-cite-0037">
+<string-name name-style="western">
+<given-names>J. J. E.</given-names>
+<surname>Choi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Zwirner</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. S.</given-names>
+<surname>Ramani</surname>
+</string-name>, et al., “<article-title>Mechanical Properties of Human Oral Mucosa Tissues are Site Dependent: A Combined Biomechanical, Histological and Ultrastructural Approach</article-title>,” <source>Clinical and Experimental Dental Research</source>
+<volume>6</volume>, no. <issue>6</issue> (<year>2020</year>): <fpage>602</fpage>–<lpage>611</lpage>, <pub-id pub-id-type="doi">10.1002/cre2.305</pub-id>.<pub-id pub-id-type="pmid">32618130</pub-id>
+<pub-id pub-id-type="pmcid">PMC7745080</pub-id></mixed-citation></ref><ref id="adma72486-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="adma72486-cite-0038">
+<string-name name-style="western">
+<given-names>A. C.</given-names>
+<surname>Morandini</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. P.</given-names>
+<surname>Chaves Souza</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E. S.</given-names>
+<surname>Ramos‐Junior</surname>
+</string-name>, et al., “<article-title>Toll‐Like Receptor 2 Knockdown Modulates Interleukin (IL)‐6 and IL‐8 But Not Stromal Derived Factor‐1 (SDF‐1/CXCL12) in Human Periodontal Ligament and Gingival Fibroblasts</article-title>,” <source>Journal of Periodontology</source>
+<volume>84</volume>, no. <issue>4</issue> (<year>2013</year>): <fpage>535</fpage>–<lpage>544</lpage>, <pub-id pub-id-type="doi">10.1902/jop.2012.120177</pub-id>.<pub-id pub-id-type="pmid">22680301</pub-id>
+</mixed-citation></ref><ref id="adma72486-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="adma72486-cite-0039">
+<string-name name-style="western">
+<given-names>T. D.</given-names>
+<surname>Jacobsen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. A.</given-names>
+<surname>Hernandez</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>N. O.</given-names>
+<surname>Chahine</surname>
+</string-name>, “<article-title>Inhibition of Toll‐Like Receptor 4 Protects Against Inflammation‐Induced Mechanobiological Alterations to Intervertebral Disc Cells</article-title>,” <source>European Cells and Materials</source>
+<volume>41</volume> (<year>2021</year>): <fpage>576</fpage>–<lpage>591</lpage>, <pub-id pub-id-type="doi">10.22203/eCM.v041a37</pub-id>.<pub-id pub-id-type="pmid">34013512</pub-id>
+<pub-id pub-id-type="pmcid">PMC8329983</pub-id></mixed-citation></ref><ref id="adma72486-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="adma72486-cite-0040">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Saraswathibhatla</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Indana</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Chaudhuri</surname>
+</string-name>, “<article-title>Cell–Extracellular Matrix Mechanotransduction in 3D</article-title>,” <source>Nature Reviews Molecular Cell Biology</source>
+<volume>24</volume>, no. <issue>7</issue> (<year>2023</year>): <fpage>495</fpage>–<lpage>516</lpage>, <pub-id pub-id-type="doi">10.1038/s41580-023-00583-1</pub-id>.<pub-id pub-id-type="pmid">36849594</pub-id>
+<pub-id pub-id-type="pmcid">PMC10656994</pub-id></mixed-citation></ref><ref id="adma72486-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="adma72486-cite-0041">
+<string-name name-style="western">
+<given-names>M. E.</given-names>
+<surname>Wechsler</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V. V.</given-names>
+<surname>Rao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. N.</given-names>
+<surname>Borelli</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>K. S.</given-names>
+<surname>Anseth</surname>
+</string-name>, “<article-title>Engineering the MSC Secretome: A Hydrogel Focused Approach</article-title>,” <source>Advanced Healthcare Materials</source>
+<volume>10</volume>, no. <issue>7</issue> (<year>2021</year>): <elocation-id>2001948</elocation-id>, <pub-id pub-id-type="doi">10.1002/adhm.202001948</pub-id>.<pub-id pub-id-type="pmcid">PMC8035320</pub-id><pub-id pub-id-type="pmid">33594836</pub-id></mixed-citation></ref><ref id="adma72486-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="adma72486-cite-0042">
+<string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Branco da Cunha</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. D.</given-names>
+<surname>Klumpers</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W. A.</given-names>
+<surname>Li</surname>
+</string-name>, et al., “<article-title>Influence of the Stiffness of Three‐Dimensional Alginate/Collagen‐I Interpenetrating Networks on Fibroblast Biology</article-title>,” <source>Biomaterials</source>
+<volume>35</volume>, no. <issue>32</issue> (<year>2014</year>): <fpage>8927</fpage>–<lpage>8936</lpage>, <pub-id pub-id-type="doi">10.1016/j.biomaterials.2014.06.047</pub-id>.<pub-id pub-id-type="pmid">25047628</pub-id>
+</mixed-citation></ref><ref id="adma72486-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="adma72486-cite-0043">
+<string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Hinz</surname>
+</string-name>, “<article-title>Matrix Mechanics and Regulation of the Fibroblast Phenotype</article-title>,” <source>Periodontology 2000</source>
+<volume>63</volume>, no. <issue>1</issue> (<year>2013</year>): <fpage>14</fpage>–<lpage>28</lpage>, <pub-id pub-id-type="doi">10.1111/prd.12030</pub-id>.<pub-id pub-id-type="pmid">23931051</pub-id>
+</mixed-citation></ref><ref id="adma72486-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="adma72486-cite-0044">
+<string-name name-style="western">
+<given-names>P. M.</given-names>
+<surname>Bartold</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. J.</given-names>
+<surname>Walsh</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A. S.</given-names>
+<surname>Narayanan</surname>
+</string-name>, “<article-title>Molecular and Cell Biology of the Gingiva</article-title>,” <source>Periodontology 2000</source>
+<volume>24</volume> (<year>2000</year>): <fpage>28</fpage>–<lpage>55</lpage>, <pub-id pub-id-type="doi">10.1034/j.1600-0757.2000.2240103.x</pub-id>.<pub-id pub-id-type="pmid">11276872</pub-id>
+</mixed-citation></ref><ref id="adma72486-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="adma72486-cite-0045">
+<string-name name-style="western">
+<given-names>D. L.</given-names>
+<surname>Jones</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G. F.</given-names>
+<surname>Hallstrom</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Jiang</surname>
+</string-name>, et al., “<article-title>Mechanoepigenetic Regulation of Extracellular Matrix Homeostasis via Yap and Taz</article-title>,” <source>Proceedings of the National Academy of Sciences</source>
+<volume>120</volume>, no. <issue>22</issue>: <elocation-id>2211947120</elocation-id>, <pub-id pub-id-type="doi">10.1073/pnas.2211947120</pub-id>.<pub-id pub-id-type="pmcid">PMC10235980</pub-id><pub-id pub-id-type="pmid">37216538</pub-id></mixed-citation></ref><ref id="adma72486-bib-0046"><label>46</label><mixed-citation publication-type="journal" id="adma72486-cite-0046">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Kalukula</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Luciano</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Simanov</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Charras</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. B.</given-names>
+<surname>Brückner</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Gabriele</surname>
+</string-name>, “<article-title>The Actin Cortex Acts as a Mechanical Memory of Morphology in Confined Migrating Cells</article-title>,” <source>Nature Physics</source>
+<volume>21</volume> (<year>2025</year>): <fpage>1451</fpage>–<lpage>1461</lpage>, <pub-id pub-id-type="doi">10.1038/s41567-025-02980-z</pub-id>.</mixed-citation></ref><ref id="adma72486-bib-0047"><label>47</label><mixed-citation publication-type="journal" id="adma72486-cite-0047">
+<string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Umetsu</surname>
+</string-name>, “<article-title>Cell mechanics and Cell‐Cell Recognition Controls by Toll‐Like Receptors in Tissue Morphogenesis and Homeostasis</article-title>,” <source>Flyer</source>
+<volume>16</volume>, no. <issue>1</issue> (<year>2022</year>): <fpage>233</fpage>–<lpage>247</lpage>, <pub-id pub-id-type="doi">10.1080/19336934.2022.2074783</pub-id>.<pub-id pub-id-type="pmcid">PMC9116419</pub-id><pub-id pub-id-type="pmid">35579305</pub-id></mixed-citation></ref><ref id="adma72486-bib-0048"><label>48</label><mixed-citation publication-type="journal" id="adma72486-cite-0048">
+<string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Ordovas‐Montanes</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Beyaz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Rakoff‐Nahoum</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A. K.</given-names>
+<surname>Shalek</surname>
+</string-name>, “<article-title>Distribution and Storage of Inflammatory Memory in Barrier Tissues</article-title>,” <source>Nature Reviews Immunology</source>
+<volume>20</volume>, no. <issue>5</issue> (<year>2020</year>): <fpage>308</fpage>–<lpage>320</lpage>, <pub-id pub-id-type="doi">10.1038/s41577-019-0263-z</pub-id>.<pub-id pub-id-type="pmcid">PMC7547402</pub-id><pub-id pub-id-type="pmid">32015472</pub-id></mixed-citation></ref><ref id="adma72486-bib-0049"><label>49</label><mixed-citation publication-type="journal" id="adma72486-cite-0049">
+<string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Jain</surname>
+</string-name> and <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Vogel</surname>
+</string-name>, “<article-title>Spatial Confinement Downsizes the Inflammatory Response of Macrophages</article-title>,” <source>Nature Materials</source>
+<volume>17</volume>, no. <issue>12</issue> (<year>2018</year>): <fpage>1134</fpage>–<lpage>1144</lpage>, <pub-id pub-id-type="doi">10.1038/s41563-018-0190-6</pub-id>.<pub-id pub-id-type="pmid">30349032</pub-id>
+<pub-id pub-id-type="pmcid">PMC6615903</pub-id></mixed-citation></ref><ref id="adma72486-bib-0050"><label>50</label><mixed-citation publication-type="journal" id="adma72486-cite-0050">
+<string-name name-style="western">
+<given-names>S. C.</given-names>
+<surname>Sun</surname>
+</string-name>, “<article-title>The Non‐Canonical NF‐κB Pathway in Immunity and Inflammation</article-title>,” <source>Nature Reviews Immunology</source>
+<volume>17</volume>, no. <issue>9</issue> (<year>2017</year>): <fpage>545</fpage>–<lpage>558</lpage>, <pub-id pub-id-type="doi">10.1038/nri.2017.52</pub-id>.<pub-id pub-id-type="pmcid">PMC5753586</pub-id><pub-id pub-id-type="pmid">28580957</pub-id></mixed-citation></ref><ref id="adma72486-bib-0051"><label>51</label><mixed-citation publication-type="journal" id="adma72486-cite-0051">
+<string-name name-style="western">
+<given-names>T.‐C.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Abolghasemzade</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B. P.</given-names>
+<surname>McKee</surname>
+</string-name>, et al., “<article-title>Matrix Stiffness Drives Drop Like Nuclear Deformation and Lamin A/C Tension‐Dependent YAP Nuclear Localization</article-title>,” <source>Nature Communications</source>
+<volume>15</volume>, no. <issue>1</issue> (<year>2024</year>): <elocation-id>10151</elocation-id>, <pub-id pub-id-type="doi">10.1038/s41467-024-54577-4</pub-id>.<pub-id pub-id-type="pmcid">PMC11584751</pub-id><pub-id pub-id-type="pmid">39578439</pub-id></mixed-citation></ref><ref id="adma72486-bib-0052"><label>52</label><mixed-citation publication-type="journal" id="adma72486-cite-0052">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Kalukula</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. D.</given-names>
+<surname>Stephens</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Lammerding</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Gabriele</surname>
+</string-name>, “<article-title>Mechanics and Functional Consequences of Nuclear Deformations</article-title>,” <source>Nature Reviews Molecular Cell Biology</source>
+<volume>23</volume>, no. <issue>9</issue> (<year>2022</year>): <fpage>583</fpage>–<lpage>602</lpage>, <pub-id pub-id-type="doi">10.1038/s41580-022-00480-z</pub-id>.<pub-id pub-id-type="pmid">35513718</pub-id>
+<pub-id pub-id-type="pmcid">PMC9902167</pub-id></mixed-citation></ref><ref id="adma72486-bib-0053"><label>53</label><mixed-citation publication-type="journal" id="adma72486-cite-0053">
+<string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Fu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Taghizadeh</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Taghizadeh</surname>
+</string-name>, et al., “<article-title>Targeting Nuclear Mechanics Mitigates the Fibroblast Invasiveness in Pathological Dermal Scars Induced by Matrix Stiffening</article-title>,” <source>Advanced Science</source>
+<volume>11</volume>, no. <issue>15</issue> (<year>2024</year>): <elocation-id>2308253</elocation-id>, <pub-id pub-id-type="doi">10.1002/advs.202308253</pub-id>.<pub-id pub-id-type="pmid">38353381</pub-id>
+<pub-id pub-id-type="pmcid">PMC11022731</pub-id></mixed-citation></ref><ref id="adma72486-bib-0054"><label>54</label><mixed-citation publication-type="journal" id="adma72486-cite-0054">
+<string-name name-style="western">
+<given-names>C. J.</given-names>
+<surname>Walker</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Crocini</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Ramirez</surname>
+</string-name>, et al., “<article-title>Nuclear Mechanosensing Drives Chromatin Remodelling in Persistently Activated Fibroblasts</article-title>,” <source>Nature Biomedical Engineering</source>
+<volume>5</volume>, no. <issue>12</issue> (<year>2021</year>): <fpage>1485</fpage>–<lpage>1499</lpage>, <pub-id pub-id-type="doi">10.1038/s41551-021-00709-w</pub-id>.<pub-id pub-id-type="pmcid">PMC9102466</pub-id><pub-id pub-id-type="pmid">33875841</pub-id></mixed-citation></ref><ref id="adma72486-bib-0055"><label>55</label><mixed-citation publication-type="journal" id="adma72486-cite-0055">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Vahabikashi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Sivagurunathan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F. A. S.</given-names>
+<surname>Nicdao</surname>
+</string-name>, et al., “<article-title>Nuclear Lamin Isoforms Differentially Contribute to LINC Complex‐Dependent Nucleocytoskeletal Coupling and Whole‐Cell Mechanics</article-title>,” <source>Proceedings of the National Academy of Sciences</source>
+<volume>119</volume>, no. <issue>17</issue>: <elocation-id>2121816119</elocation-id>, <pub-id pub-id-type="doi">10.1073/pnas.2121816119</pub-id>.<pub-id pub-id-type="pmcid">PMC9170021</pub-id><pub-id pub-id-type="pmid">35439057</pub-id></mixed-citation></ref><ref id="adma72486-bib-0056"><label>56</label><mixed-citation publication-type="journal" id="adma72486-cite-0056">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Dhankhar</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Guo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Kant</surname>
+</string-name>, et al., “<article-title>Revealing the Biophysics of Lamina‐Associated Domain Formation by Integrating Theoretical Modeling and High‐Resolution Imaging</article-title>,” <source>Nature Communications</source>
+<year>2025</year>, <volume>16</volume>, <fpage>7909</fpage>, <pub-id pub-id-type="doi">10.1038/s41467-025-63244-1</pub-id>.<pub-id pub-id-type="pmcid">PMC12378204</pub-id><pub-id pub-id-type="pmid">40854894</pub-id></mixed-citation></ref><ref id="adma72486-bib-0057"><label>57</label><mixed-citation publication-type="journal" id="adma72486-cite-0057">
+<string-name name-style="western">
+<given-names>B. D.</given-names>
+<surname>Cosgrove</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Loebel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T. P.</given-names>
+<surname>Driscoll</surname>
+</string-name>, et al., “<article-title>Nuclear Envelope Wrinkling Predicts Mesenchymal Progenitor Cell Mechano‐Response in 2D and 3D Microenvironments</article-title>,” <source>Biomaterials</source>
+<volume>270</volume> (<year>2021</year>): <elocation-id>120662</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.biomaterials.2021.120662</pub-id>.<pub-id pub-id-type="pmid">33540172</pub-id>
+<pub-id pub-id-type="pmcid">PMC7936657</pub-id></mixed-citation></ref><ref id="adma72486-bib-0058"><label>58</label><mixed-citation publication-type="journal" id="adma72486-cite-0058">
+<string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Larsson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. M.</given-names>
+<surname>Castilho</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>W. V.</given-names>
+<surname>Giannobile</surname>
+</string-name>, “<article-title>Epigenetics and Its Role in Periodontal Diseases: A State‐of‐the‐Art Review</article-title>,” <source>Journal of Periodontology</source>
+<volume>86</volume>, no. <issue>4</issue> (<year>2015</year>): <fpage>556</fpage>–<lpage>568</lpage>, <pub-id pub-id-type="doi">10.1902/jop.2014.140559</pub-id>.<pub-id pub-id-type="pmid">25415244</pub-id>
+</mixed-citation></ref><ref id="adma72486-bib-0059"><label>59</label><mixed-citation publication-type="journal" id="adma72486-cite-0059">
+<string-name name-style="western">
+<given-names>N. F.</given-names>
+<surname>Oliveira</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G. R.</given-names>
+<surname>Damm</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. C.</given-names>
+<surname>Andia</surname>
+</string-name>, et al., “<article-title>DNA Methylation Status of the IL8 Gene Promoter in Oral Cells of Smokers and Non‐Smokers With Chronic Periodontitis</article-title>,” <source>Journal of Clinical Periodontology</source>
+<volume>36</volume>, no. <issue>9</issue> (<year>2009</year>): <fpage>719</fpage>–<lpage>725</lpage>, <pub-id pub-id-type="doi">10.1111/j.1600-051X.2009.01446.x</pub-id>.<pub-id pub-id-type="pmid">19659670</pub-id>
+</mixed-citation></ref><ref id="adma72486-bib-0060"><label>60</label><mixed-citation publication-type="journal" id="adma72486-cite-0060">
+<string-name name-style="western">
+<given-names>F. A.</given-names>
+<surname>Stefani</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. B.</given-names>
+<surname>Viana</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. C.</given-names>
+<surname>Dupim</surname>
+</string-name>, et al., “<article-title>Expression, Polymorphism and Methylation Pattern of Interleukin‐6 in Periodontal Tissues</article-title>,” <source>Immunobiology</source>
+<volume>218</volume>, no. <issue>7</issue> (<year>2013</year>): <fpage>1012</fpage>–<lpage>1017</lpage>, <pub-id pub-id-type="doi">10.1016/j.imbio.2012.12.001</pub-id>.<pub-id pub-id-type="pmid">23332218</pub-id>
+</mixed-citation></ref><ref id="adma72486-bib-0061"><label>61</label><mixed-citation publication-type="journal" id="adma72486-cite-0061">
+<string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Divaris</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Pan</surname>
+</string-name>, et al., “<article-title>Clonal Hematopoiesis Driven by Mutated DNMT3A Promotes Inflammatory Bone Loss</article-title>,” <source>Cell</source>
+<volume>187</volume>, no. <issue>14</issue> (<year>2024</year>): <fpage>3690</fpage>–<lpage>3711.e19</lpage>, <pub-id pub-id-type="doi">10.1016/j.cell.2024.05.003</pub-id>.<pub-id pub-id-type="pmid">38838669</pub-id>
+<pub-id pub-id-type="pmcid">PMC11246233</pub-id></mixed-citation></ref><ref id="adma72486-bib-0062"><label>62</label><mixed-citation publication-type="journal" id="adma72486-cite-0062">
+<string-name name-style="western">
+<given-names>A. G.</given-names>
+<surname>Wilson</surname>
+</string-name>, “<article-title>Epigenetic Regulation of Gene Expression in the Inflammatory Response and Relevance to Common Diseases</article-title>,” <source>Journal of Periodontology</source>
+<volume>79</volume>, no. <issue>85</issue> (<year>2008</year>): <fpage>1514</fpage>–<lpage>1519</lpage>, <pub-id pub-id-type="doi">10.1902/jop.2008.080172</pub-id>.<pub-id pub-id-type="pmid">18673005</pub-id>
+</mixed-citation></ref><ref id="adma72486-bib-0063"><label>63</label><mixed-citation publication-type="journal" id="adma72486-cite-0063">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Crivello</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Offenbacher</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Moretti</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. W.</given-names>
+<surname>Paquette</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S. P.</given-names>
+<surname>Barros</surname>
+</string-name>, “<article-title>Interferon‐Gamma Promoter Hypomethylation and Increased Expression in Chronic Periodontitis</article-title>,” <source>Journal of Clinical Periodontology</source>
+<volume>37</volume>, no. <issue>11</issue> (<year>2010</year>): <fpage>953</fpage>–<lpage>961</lpage>, <pub-id pub-id-type="doi">10.1111/j.1600-051X.2010.01616.x</pub-id>.<pub-id pub-id-type="pmid">20958339</pub-id>
+<pub-id pub-id-type="pmcid">PMC3065115</pub-id></mixed-citation></ref><ref id="adma72486-bib-0064"><label>64</label><mixed-citation publication-type="journal" id="adma72486-cite-0064">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Song</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Soto</surname>
+</string-name>, et al., “<article-title>Viscoelastic Extracellular Matrix Enhances Epigenetic Remodeling and Cellular Plasticity</article-title>,” <source>Nature Communications</source>
+<volume>16</volume>, no. <issue>1</issue> (<year>2025</year>): <fpage>4054</fpage>, <pub-id pub-id-type="doi">10.1038/s41467-025-59190-7</pub-id>.<pub-id pub-id-type="pmcid">PMC12043949</pub-id><pub-id pub-id-type="pmid">40307238</pub-id></mixed-citation></ref><ref id="adma72486-bib-0065"><label>65</label><mixed-citation publication-type="journal" id="adma72486-cite-0065">
+<string-name name-style="western">
+<given-names>T. L.</given-names>
+<surname>Downing</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Soto</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Morez</surname>
+</string-name>, et al., “<article-title>Biophysical Regulation of Epigenetic State and Cell Reprogramming</article-title>,” <source>Nature Materials</source>
+<volume>12</volume>, no. <issue>12</issue> (<year>2013</year>): <fpage>1154</fpage>–<lpage>1162</lpage>, <pub-id pub-id-type="doi">10.1038/nmat3777</pub-id>.<pub-id pub-id-type="pmid">24141451</pub-id>
+<pub-id pub-id-type="pmcid">PMC9675045</pub-id></mixed-citation></ref><ref id="adma72486-bib-0066"><label>66</label><mixed-citation publication-type="journal" id="adma72486-cite-0066">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Song</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Soto</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. Y.</given-names>
+<surname>Wong</surname>
+</string-name>, et al., “<article-title>Biphasic Regulation of Epigenetic State by Matrix Stiffness During Cell Reprogramming</article-title>,” <source>Science Advances</source>
+<volume>10</volume>, no. <issue>7</issue> (<year>2024</year>): <elocation-id>adk0639</elocation-id>, <pub-id pub-id-type="doi">10.1126/sciadv.adk0639</pub-id>.<pub-id pub-id-type="pmcid">PMC10866547</pub-id><pub-id pub-id-type="pmid">38354231</pub-id></mixed-citation></ref><ref id="adma72486-bib-0067"><label>67</label><mixed-citation publication-type="journal" id="adma72486-cite-0067">
+<string-name name-style="western">
+<given-names>X. B.</given-names>
+<surname>Zhao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y. P.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Tan</surname>
+</string-name>, et al., “<article-title>Extracellular Matrix Stiffness Regulates DNA Methylation by PKC α ‐Dependent Nuclear Transport of DNMT3L</article-title>,” <source>Advanced Healthcare Materials</source>
+<volume>10</volume>, no. <issue>16</issue> (<year>2021</year>): <elocation-id>2100821</elocation-id>, <pub-id pub-id-type="doi">10.1002/adhm.202100821</pub-id>.<pub-id pub-id-type="pmid">34174172</pub-id></mixed-citation></ref><ref id="adma72486-bib-0068"><label>68</label><mixed-citation publication-type="journal" id="adma72486-cite-0068">
+<string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Hajishengallis</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Divaris</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Chavakis</surname>
+</string-name>, “<article-title>Maladaptive Trained Immunity and Clonal Hematopoiesis as Potential Mechanistic Links Between Periodontitis and Inflammatory Comorbidities</article-title>,” <source>Periodontology 2000</source>
+<volume>89</volume>, no. <issue>1</issue> (<year>2022</year>): <fpage>215</fpage>–<lpage>230</lpage>, <pub-id pub-id-type="doi">10.1111/prd.12421</pub-id>.<pub-id pub-id-type="pmid">35244943</pub-id>
+<pub-id pub-id-type="pmcid">PMC9018499</pub-id></mixed-citation></ref><ref id="adma72486-bib-0069"><label>69</label><mixed-citation publication-type="journal" id="adma72486-cite-0069">
+<string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Hajishengallis</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. G.</given-names>
+<surname>Netea</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Chavakis</surname>
+</string-name>, “<article-title>Innate Immune Memory, Trained Immunity and Nomenclature Clarification</article-title>,” <source>Nature Immunology</source>
+<volume>24</volume>, no. <issue>9</issue> (<year>2023</year>): <fpage>1393</fpage>–<lpage>1394</lpage>, <pub-id pub-id-type="doi">10.1038/s41590-023-01595-x</pub-id>.<pub-id pub-id-type="pmid">37620602</pub-id>
+</mixed-citation></ref><ref id="adma72486-bib-0070"><label>70</label><mixed-citation publication-type="journal" id="adma72486-cite-0070">
+<string-name name-style="western">
+<given-names>A. H.</given-names>
+<surname>Hovav</surname>
+</string-name>, “<article-title>Dendritic Cells of the Oral Mucosa</article-title>,” <source>Mucosal Immunology</source>
+<volume>7</volume>, no. <issue>1</issue> (<year>2014</year>): <fpage>27</fpage>–<lpage>37</lpage>, <pub-id pub-id-type="doi">10.1038/mi.2013.42</pub-id>.<pub-id pub-id-type="pmid">23757304</pub-id>
+</mixed-citation></ref><ref id="adma72486-bib-0071"><label>71</label><mixed-citation publication-type="journal" id="adma72486-cite-0071">
+<string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Novak</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Haberstok</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Bieber</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. P.</given-names>
+<surname>Allam</surname>
+</string-name>, “<article-title>The Immune Privilege of the Oral Mucosa</article-title>,” <source>Trends in Molecular Medicine</source>
+<volume>14</volume>, no. <issue>5</issue> (<year>2008</year>): <fpage>191</fpage>–<lpage>198</lpage>, <pub-id pub-id-type="doi">10.1016/j.molmed.2008.03.001</pub-id>.<pub-id pub-id-type="pmid">18396104</pub-id>
+</mixed-citation></ref><ref id="adma72486-bib-0072"><label>72</label><mixed-citation publication-type="journal" id="adma72486-cite-0072">
+<string-name name-style="western">
+<given-names>D. W.</given-names>
+<surname>Williams</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Greenwell‐Wild</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Brenchley</surname>
+</string-name>, et al., “<article-title>Human Oral Mucosa Cell Atlas Reveals a Stromal‐Neutrophil Axis Regulating Tissue Immunity</article-title>,” <source>Cell</source>
+<volume>184</volume>, no. <issue>15</issue> (<year>2021</year>): <fpage>4090</fpage>–<lpage>4104.e15</lpage>, <pub-id pub-id-type="doi">10.1016/j.cell.2021.05.013</pub-id>.<pub-id pub-id-type="pmid">34129837</pub-id>
+<pub-id pub-id-type="pmcid">PMC8359928</pub-id></mixed-citation></ref><ref id="adma72486-bib-0073"><label>73</label><mixed-citation publication-type="journal" id="adma72486-cite-0073">
+<string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Janssen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>van den Dries</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Ventre</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Cambi</surname>
+</string-name>, “<article-title>Mechanobiology of Myeloid Cells</article-title>,” <source>Current Opinion in Cell Biology</source>
+<volume>86</volume> (<year>2024</year>): <elocation-id>102311</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.ceb.2023.102311</pub-id>.<pub-id pub-id-type="pmid">38176349</pub-id>
+</mixed-citation></ref><ref id="adma72486-bib-0074"><label>74</label><mixed-citation publication-type="journal" id="adma72486-cite-0074">
+<string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Yao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Fan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Lin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. E.</given-names>
+<surname>Kellems</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Xia</surname>
+</string-name>, “<article-title>Tissue Transglutaminase: A Multifunctional and Multisite Regulator in Health and Disease</article-title>,” <source>Physiological Reviews</source>
+<volume>104</volume>, no. <issue>1</issue> (<year>2024</year>): <fpage>281</fpage>–<lpage>325</lpage>, <pub-id pub-id-type="doi">10.1152/physrev.00003.2023</pub-id>.<pub-id pub-id-type="pmid">37712623</pub-id>
+</mixed-citation></ref><ref id="adma72486-bib-0075"><label>75</label><mixed-citation publication-type="journal" id="adma72486-cite-0075">
+<string-name name-style="western">
+<given-names>A. L.</given-names>
+<surname>Palkowitz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Ruger</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Ziegler</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E. M.</given-names>
+<surname>Buhl</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Fischer</surname>
+</string-name>, “<article-title>Transglutaminase Enables Highly Hydrolytically and Proteolytically Stable Crosslinking of Collagen on Titanium Surfaces and Promotes Osteogenic Differentiation of Human Mesenchymal Stem Cells</article-title>,” <source>Journal of Biomedical Materials Research Part A</source>
+<volume>112</volume>, no. <issue>6</issue> (<year>2024</year>): <fpage>812</fpage>–<lpage>824</lpage>, <pub-id pub-id-type="doi">10.1002/jbm.a.37661</pub-id>.<pub-id pub-id-type="pmid">38146594</pub-id>
+</mixed-citation></ref><ref id="adma72486-bib-0076"><label>76</label><mixed-citation publication-type="journal" id="adma72486-cite-0076">
+<string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Aeschlimann</surname>
+</string-name> and <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Thomazy</surname>
+</string-name>, “<article-title>Protein Crosslinking in Assembly and Remodelling of Extracellular Matrices: The Role of Transglutaminases</article-title>,” <source>Connective Tissue Research</source>
+<volume>41</volume>, no. <issue>1</issue> (<year>2000</year>): <fpage>1</fpage>–<lpage>27</lpage>, <pub-id pub-id-type="doi">10.3109/03008200009005638</pub-id>.<pub-id pub-id-type="pmid">10826705</pub-id>
+</mixed-citation></ref><ref id="adma72486-bib-0077"><label>77</label><mixed-citation publication-type="journal" id="adma72486-cite-0077">
+<string-name name-style="western">
+<given-names>S. S.</given-names>
+<surname>Akimov</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Krylov</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. F.</given-names>
+<surname>Fleischman</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A. M.</given-names>
+<surname>Belkin</surname>
+</string-name>, “<article-title>Tissue Transglutaminase is an Integrin‐Binding Adhesion Coreceptor for Fibronectin</article-title>,” <source>The Journal of Cell Biology</source>
+<volume>148</volume>, no. <issue>4</issue> (<year>2000</year>): <fpage>825</fpage>–<lpage>838</lpage>, <pub-id pub-id-type="doi">10.1083/jcb.148.4.825</pub-id>.<pub-id pub-id-type="pmid">10684262</pub-id>
+<pub-id pub-id-type="pmcid">PMC2169362</pub-id></mixed-citation></ref><ref id="adma72486-bib-0078"><label>78</label><mixed-citation publication-type="journal" id="adma72486-cite-0078">
+<string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Jiang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Xu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Song</surname>
+</string-name>, et al., “<article-title>CCL2 is a Key Regulator and Therapeutic Target for Periodontitis</article-title>,” <source>Journal of Clinical Periodontology</source>
+<volume>50</volume>, no. <issue>12</issue> (<year>2023</year>): <fpage>1644</fpage>–<lpage>1657</lpage>, <pub-id pub-id-type="doi">10.1111/jcpe.13872</pub-id>.<pub-id pub-id-type="pmid">37697486</pub-id>
+</mixed-citation></ref><ref id="adma72486-bib-0079"><label>79</label><mixed-citation publication-type="journal" id="adma72486-cite-0079">
+<string-name name-style="western">
+<given-names>W. S.</given-names>
+<surname>Kim</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Prasongyuenyong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Ko</surname>
+</string-name>, et al., “<article-title>ICAM1<sup>+</sup> Gingival Fibroblasts Modulate Periodontal Inflammation to Mitigate Bone Loss</article-title>,” <source>Frontiers in Immunology</source>
+<volume>15</volume> (<year>2024</year>): <elocation-id>1484483</elocation-id>, <pub-id pub-id-type="doi">10.3389/fimmu.2024.1484483</pub-id>.<pub-id pub-id-type="pmid">39650645</pub-id>
+<pub-id pub-id-type="pmcid">PMC11621011</pub-id></mixed-citation></ref><ref id="adma72486-bib-0080"><label>80</label><mixed-citation publication-type="journal" id="adma72486-cite-0080">
+<string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Han</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Bao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Yu</surname>
+</string-name>, et al., “<article-title>Injectable Short‐Fiber Hydrogel With Fatigue Resistance and Antibacterial Properties for Synergistic Periodontitis Therapy</article-title>,” <source>Chemical Engineering Journal</source>
+<volume>520</volume> (<year>2025</year>): <elocation-id>166298</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.cej.2025.166298</pub-id>.</mixed-citation></ref><ref id="adma72486-bib-0081"><label>81</label><mixed-citation publication-type="journal" id="adma72486-cite-0081">
+<string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Song</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Fang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Gu</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Wang</surname>
+</string-name>, “<article-title>Developing Functional Hydrogels for Treatment of Oral Diseases</article-title>,” <source>Smart Medicine</source>
+<volume>3</volume>, no. <issue>3</issue> (<year>2024</year>): <elocation-id>20240020</elocation-id>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/SMMD.20240020</pub-id><pub-id pub-id-type="pmcid">PMC11425053</pub-id><pub-id pub-id-type="pmid">39420948</pub-id></mixed-citation></ref><ref id="adma72486-bib-0082"><label>82</label><mixed-citation publication-type="journal" id="adma72486-cite-0082">
+<string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Song</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Kong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Gu</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Chen</surname>
+</string-name>, “<article-title>Functional Hydrogels for Treatment of Dental Caries</article-title>,” <source>Biomedical Technology</source>
+<volume>5</volume> (<year>2024</year>): <fpage>73</fpage>–<lpage>81</lpage>, <pub-id pub-id-type="doi">10.1016/j.bmt.2023.05.002</pub-id>.</mixed-citation></ref></ref-list></back></article>

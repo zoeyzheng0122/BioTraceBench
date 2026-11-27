@@ -1,0 +1,39 @@
+{
+  "case_id": "B047",
+  "task_id": "B047",
+  "title": "Matrix Stiffness Governs Fibroblasts’ Regulation of Gingival Immune Homeostasis",
+  "doi": "10.1002/adma.202520717",
+  "comparison_or_design": "Figure 3C: the stimulated hydrogel-culture supernatant ELISA experiment.",
+  "observations_or_assays": [
+    "ELISA of secreted inflammatory mediators"
+  ],
+  "time_scope": "The hydrogel stimulation-to-supernatant-collection schedule used in Figure 3C.",
+  "excluded": [
+    "RNA-seq/qPCR, DNA-methylation/actin pharmacology, human-tissue/explant and myeloid co-culture branches",
+    "Cytokine concentration values, BCA outputs and other independent assay results",
+    "Unstimulated supplementary cytokine comparisons, other receptor agonists and the distinct explant-specific Pam3CSK4 dose",
+    "Inferring donor, aliquot, pooling or run identities from replicate counts or positional result labels"
+  ],
+  "population_or_material": "Culture supernatants actually assayed by ELISA in Figure 3C. Interventions act on the upstream GF-containing hydrogel culture, not on already collected supernatants.",
+  "requested_items": [
+    "Nominal matrix storage modulus (G′), retaining source numerical precision and units",
+    "Pam3CSK4 concentration and stimulation-to-supernatant-collection duration from the hydrogel exposure method and Table T2",
+    "The preceding culture interval as preparation history and anchored Time, without adding a separate routine-culture condition"
+  ],
+  "resources": [
+    {
+      "accession": "10.5061/dryad.xksn02vw6",
+      "url": "https://doi.org/10.5061/dryad.xksn02vw6"
+    }
+  ],
+  "case_rules": "## Case-specific culture and assay rules\nUse every stiffness group plotted in Figure 3C, including the intermediate group. Take agonist concentration from the hydrogel treatment entry in Table T2 and take stimulation-to-collection timing from the hydrogel exposure method. The preceding culture period is preparation history; distinguish it from time after agonist addition. Keep numerical Factor Value separate from Unit, retain source precision, and attach conditions to the source GF-containing hydrogel culture. Source human gingival fibroblasts and matrix/reagent provenance remain distinct.\n\nUse the public Dryad README descriptions to identify Figure 3C files and group labels. The descriptions cover multiple experiments; maintain the Figure 3C boundary. For this task, represent each stiffness group as a group-level supernatant preparation. Replicate counts and Rep 1–4 result positions do not identify original donors, preparations or shared aliquots across cytokines. Do not infer physical pooling or generate biological samples from result position alone.\n\nKeep BioLegend kit details and reported protein normalization in Method. Platform denotes the reported detection instrument; leave it null when the reader model is unreported. Do not import the microscope, flow cytometer or rheometer from another assay. Use one labelled aggregate ELISA assay when individual acquisitions are unassigned; mark the repository DOI as a dataset, not a sample/run accession.",
+  "row_granularity": "Use one group-level supernatant sample per Figure 3C stiffness condition and one labelled aggregate ELISA assay across those groups. Generic source fibroblasts, matrices and intermediate cultures stay in Biological Source / Sample Material, not extra sample rows. Conditions identify the source receiving culture. Positional result labels do not establish independent physical sample identities or aliquot crosswalks; multiple sample associations do not assert pooling.",
+  "frozen_annotations": "- `related/Dryad-xksn02vw6/Dryad_README_from_landing.md`: complete publicly displayed README converted from the source page.\n- `related/Dryad-xksn02vw6/Dryad_landing_source.html`, `Dryad_README_provenance.json` and `dryad-file-metadata.json`: source page, representation provenance and original README file metadata.\n- `related/Dryad-xksn02vw6/PROVENANCE.md` and `metadata-manifest.json`: retrieval limits and checksums. The converted README is not byte-identical to the uploaded Markdown file.",
+  "domain": "basic",
+  "pipeline": "basic-research",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/basic-research.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

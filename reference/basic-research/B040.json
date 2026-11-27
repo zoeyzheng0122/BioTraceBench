@@ -1,0 +1,888 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX28916938 (experiment)",
+      "method": "Paired-end sequencing of total RNA using P3 XLEAP 200-cycle chemistry. Native library label: Sample 1. Sequencing-library pooling is reported; multiplex membership and physical run identifiers are not supplied. The article reports RNA isolation with the Zymo Research Quick-RNA Microprep Kit. The matching GEO sample extract protocol reports the Qiagen RNeasy Mini Kit. The extraction kit for this library remains unresolved.",
+      "platform": "Illumina NextSeq 2000",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0002",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX28916939 (experiment)",
+      "method": "Paired-end sequencing of total RNA using P3 XLEAP 200-cycle chemistry. Native library label: Sample 2. Sequencing-library pooling is reported; multiplex membership and physical run identifiers are not supplied. The article reports RNA isolation with the Zymo Research Quick-RNA Microprep Kit. The matching GEO sample extract protocol reports the Qiagen RNeasy Mini Kit. The extraction kit for this library remains unresolved.",
+      "platform": "Illumina NextSeq 2000",
+      "sample_ids": [
+        "S0002"
+      ]
+    },
+    {
+      "assay_id": "A0003",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX28916922 (experiment)",
+      "method": "Paired-end sequencing of total RNA using P3 XLEAP 200-cycle chemistry. Native library label: Sample 3. Sequencing-library pooling is reported; multiplex membership and physical run identifiers are not supplied. The article reports RNA isolation with the Zymo Research Quick-RNA Microprep Kit. The matching GEO sample extract protocol reports the Qiagen RNeasy Mini Kit. The extraction kit for this library remains unresolved.",
+      "platform": "Illumina NextSeq 2000",
+      "sample_ids": [
+        "S0003"
+      ]
+    },
+    {
+      "assay_id": "A0004",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX28916923 (experiment)",
+      "method": "Paired-end sequencing of total RNA using P3 XLEAP 200-cycle chemistry. Native library label: Sample 4. Sequencing-library pooling is reported; multiplex membership and physical run identifiers are not supplied. The article reports RNA isolation with the Zymo Research Quick-RNA Microprep Kit. The matching GEO sample extract protocol reports the Qiagen RNeasy Mini Kit. The extraction kit for this library remains unresolved.",
+      "platform": "Illumina NextSeq 2000",
+      "sample_ids": [
+        "S0004"
+      ]
+    },
+    {
+      "assay_id": "A0005",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX28916924 (experiment)",
+      "method": "Paired-end sequencing of total RNA using P3 XLEAP 200-cycle chemistry. Native library label: Sample 5. Sequencing-library pooling is reported; multiplex membership and physical run identifiers are not supplied. The article reports RNA isolation with the Zymo Research Quick-RNA Microprep Kit. The matching GEO sample extract protocol reports the Qiagen RNeasy Mini Kit. The extraction kit for this library remains unresolved.",
+      "platform": "Illumina NextSeq 2000",
+      "sample_ids": [
+        "S0005"
+      ]
+    },
+    {
+      "assay_id": "A0006",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX28916925 (experiment)",
+      "method": "Paired-end sequencing of total RNA using P3 XLEAP 200-cycle chemistry. Native library label: Sample 6. Sequencing-library pooling is reported; multiplex membership and physical run identifiers are not supplied. The article reports RNA isolation with the Zymo Research Quick-RNA Microprep Kit. The matching GEO sample extract protocol reports the Qiagen RNeasy Mini Kit. The extraction kit for this library remains unresolved.",
+      "platform": "Illumina NextSeq 2000",
+      "sample_ids": [
+        "S0006"
+      ]
+    },
+    {
+      "assay_id": "A0007",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX28916926 (experiment)",
+      "method": "Paired-end sequencing of total RNA using P3 XLEAP 200-cycle chemistry. Native library label: Sample 7. Sequencing-library pooling is reported; multiplex membership and physical run identifiers are not supplied. The article reports RNA isolation with the Zymo Research Quick-RNA Microprep Kit. The matching GEO sample extract protocol reports the Qiagen RNeasy Mini Kit. The extraction kit for this library remains unresolved.",
+      "platform": "Illumina NextSeq 2000",
+      "sample_ids": [
+        "S0007"
+      ]
+    },
+    {
+      "assay_id": "A0008",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX28916927 (experiment)",
+      "method": "Paired-end sequencing of total RNA using P3 XLEAP 200-cycle chemistry. Native library label: Sample 8. Sequencing-library pooling is reported; multiplex membership and physical run identifiers are not supplied. The article reports RNA isolation with the Zymo Research Quick-RNA Microprep Kit. The matching GEO sample extract protocol reports the Qiagen RNeasy Mini Kit. The extraction kit for this library remains unresolved.",
+      "platform": "Illumina NextSeq 2000",
+      "sample_ids": [
+        "S0008"
+      ]
+    },
+    {
+      "assay_id": "A0009",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX28916928 (experiment)",
+      "method": "Paired-end sequencing of total RNA using P3 XLEAP 200-cycle chemistry. Native library label: Sample 9. Sequencing-library pooling is reported; multiplex membership and physical run identifiers are not supplied. The article reports RNA isolation with the Zymo Research Quick-RNA Microprep Kit. The matching GEO sample extract protocol reports the Qiagen RNeasy Mini Kit. The extraction kit for this library remains unresolved.",
+      "platform": "Illumina NextSeq 2000",
+      "sample_ids": [
+        "S0009"
+      ]
+    },
+    {
+      "assay_id": "A0010",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX28916929 (experiment)",
+      "method": "Paired-end sequencing of total RNA using P3 XLEAP 200-cycle chemistry. Native library label: Sample 10. Sequencing-library pooling is reported; multiplex membership and physical run identifiers are not supplied. The article reports RNA isolation with the Zymo Research Quick-RNA Microprep Kit. The matching GEO sample extract protocol reports the Qiagen RNeasy Mini Kit. The extraction kit for this library remains unresolved.",
+      "platform": "Illumina NextSeq 2000",
+      "sample_ids": [
+        "S0010"
+      ]
+    },
+    {
+      "assay_id": "A0011",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX28916930 (experiment)",
+      "method": "Paired-end sequencing of total RNA using P3 XLEAP 200-cycle chemistry. Native library label: Sample 11. Sequencing-library pooling is reported; multiplex membership and physical run identifiers are not supplied. The article reports RNA isolation with the Zymo Research Quick-RNA Microprep Kit. The matching GEO sample extract protocol reports the Qiagen RNeasy Mini Kit. The extraction kit for this library remains unresolved.",
+      "platform": "Illumina NextSeq 2000",
+      "sample_ids": [
+        "S0011"
+      ]
+    },
+    {
+      "assay_id": "A0012",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX28916931 (experiment)",
+      "method": "Paired-end sequencing of total RNA using P3 XLEAP 200-cycle chemistry. Native library label: Sample 12. Sequencing-library pooling is reported; multiplex membership and physical run identifiers are not supplied. The article reports RNA isolation with the Zymo Research Quick-RNA Microprep Kit. The matching GEO sample extract protocol reports the Qiagen RNeasy Mini Kit. The extraction kit for this library remains unresolved.",
+      "platform": "Illumina NextSeq 2000",
+      "sample_ids": [
+        "S0012"
+      ]
+    },
+    {
+      "assay_id": "A0013",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX28916932 (experiment)",
+      "method": "Paired-end sequencing of total RNA using P3 XLEAP 200-cycle chemistry. Native library label: Sample 13. Sequencing-library pooling is reported; multiplex membership and physical run identifiers are not supplied. The article reports RNA isolation with the Zymo Research Quick-RNA Microprep Kit. The matching GEO sample extract protocol reports the Qiagen RNeasy Mini Kit. The extraction kit for this library remains unresolved.",
+      "platform": "Illumina NextSeq 2000",
+      "sample_ids": [
+        "S0013"
+      ]
+    },
+    {
+      "assay_id": "A0014",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX28916933 (experiment)",
+      "method": "Paired-end sequencing of total RNA using P3 XLEAP 200-cycle chemistry. Native library label: Sample 14. Sequencing-library pooling is reported; multiplex membership and physical run identifiers are not supplied. The article reports RNA isolation with the Zymo Research Quick-RNA Microprep Kit. The matching GEO sample extract protocol reports the Qiagen RNeasy Mini Kit. The extraction kit for this library remains unresolved.",
+      "platform": "Illumina NextSeq 2000",
+      "sample_ids": [
+        "S0014"
+      ]
+    },
+    {
+      "assay_id": "A0015",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX28916934 (experiment)",
+      "method": "Paired-end sequencing of total RNA using P3 XLEAP 200-cycle chemistry. Native library label: Sample 15. Sequencing-library pooling is reported; multiplex membership and physical run identifiers are not supplied. The article reports RNA isolation with the Zymo Research Quick-RNA Microprep Kit. The matching GEO sample extract protocol reports the Qiagen RNeasy Mini Kit. The extraction kit for this library remains unresolved.",
+      "platform": "Illumina NextSeq 2000",
+      "sample_ids": [
+        "S0015"
+      ]
+    },
+    {
+      "assay_id": "A0016",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX28916935 (experiment)",
+      "method": "Paired-end sequencing of total RNA using P3 XLEAP 200-cycle chemistry. Native library label: Sample 16. Sequencing-library pooling is reported; multiplex membership and physical run identifiers are not supplied. The article reports RNA isolation with the Zymo Research Quick-RNA Microprep Kit. The matching GEO sample extract protocol reports the Qiagen RNeasy Mini Kit. The extraction kit for this library remains unresolved.",
+      "platform": "Illumina NextSeq 2000",
+      "sample_ids": [
+        "S0016"
+      ]
+    }
+  ],
+  "condition": [
+    {
+      "condition_id": "C0001",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Culture duration at collection",
+      "factor_unit": "day",
+      "factor_value": 3,
+      "sample_id": "S0001",
+      "time": "Collected on day 3 after organoid seeding"
+    },
+    {
+      "condition_id": "C0002",
+      "condition_target": "Whole sample",
+      "experimental_factor": "HUVEC-to-MSC seeding ratio",
+      "factor_unit": null,
+      "factor_value": "50:50",
+      "sample_id": "S0001",
+      "time": "At organoid seeding; source ratio 50:50"
+    },
+    {
+      "condition_id": "C0003",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Matrigel concentration in seeding suspension",
+      "factor_unit": "%",
+      "factor_value": 1.5,
+      "sample_id": "S0001",
+      "time": "At organoid seeding; seeding supplements removed by medium exchanges on day 3"
+    },
+    {
+      "condition_id": "C0004",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Initial cell number per organoid",
+      "factor_unit": "cells/organoid",
+      "factor_value": 3000,
+      "sample_id": "S0001",
+      "time": "At organoid seeding"
+    },
+    {
+      "condition_id": "C0005",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Culture duration at collection",
+      "factor_unit": "day",
+      "factor_value": 3,
+      "sample_id": "S0002",
+      "time": "Collected on day 3 after organoid seeding"
+    },
+    {
+      "condition_id": "C0006",
+      "condition_target": "Whole sample",
+      "experimental_factor": "HUVEC-to-MSC seeding ratio",
+      "factor_unit": null,
+      "factor_value": "50:50",
+      "sample_id": "S0002",
+      "time": "At organoid seeding; source ratio 50:50"
+    },
+    {
+      "condition_id": "C0007",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Matrigel concentration in seeding suspension",
+      "factor_unit": "%",
+      "factor_value": 1.5,
+      "sample_id": "S0002",
+      "time": "At organoid seeding; seeding supplements removed by medium exchanges on day 3"
+    },
+    {
+      "condition_id": "C0008",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Initial cell number per organoid",
+      "factor_unit": "cells/organoid",
+      "factor_value": 3000,
+      "sample_id": "S0002",
+      "time": "At organoid seeding"
+    },
+    {
+      "condition_id": "C0009",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Culture duration at collection",
+      "factor_unit": "day",
+      "factor_value": 3,
+      "sample_id": "S0003",
+      "time": "Collected on day 3 after organoid seeding"
+    },
+    {
+      "condition_id": "C0010",
+      "condition_target": "Whole sample",
+      "experimental_factor": "HUVEC-to-MSC seeding ratio",
+      "factor_unit": null,
+      "factor_value": "50:50",
+      "sample_id": "S0003",
+      "time": "At organoid seeding; source ratio 50:50"
+    },
+    {
+      "condition_id": "C0011",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Matrigel concentration in seeding suspension",
+      "factor_unit": "%",
+      "factor_value": 1.5,
+      "sample_id": "S0003",
+      "time": "At organoid seeding; seeding supplements removed by medium exchanges on day 3"
+    },
+    {
+      "condition_id": "C0012",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Initial cell number per organoid",
+      "factor_unit": "cells/organoid",
+      "factor_value": 3000,
+      "sample_id": "S0003",
+      "time": "At organoid seeding"
+    },
+    {
+      "condition_id": "C0013",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Culture duration at collection",
+      "factor_unit": "day",
+      "factor_value": 3,
+      "sample_id": "S0004",
+      "time": "Collected on day 3 after organoid seeding"
+    },
+    {
+      "condition_id": "C0014",
+      "condition_target": "Whole sample",
+      "experimental_factor": "HUVEC-to-MSC seeding ratio",
+      "factor_unit": null,
+      "factor_value": "50:50",
+      "sample_id": "S0004",
+      "time": "At organoid seeding; source ratio 50:50"
+    },
+    {
+      "condition_id": "C0015",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Matrigel concentration in seeding suspension",
+      "factor_unit": "%",
+      "factor_value": 1.5,
+      "sample_id": "S0004",
+      "time": "At organoid seeding; seeding supplements removed by medium exchanges on day 3"
+    },
+    {
+      "condition_id": "C0016",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Initial cell number per organoid",
+      "factor_unit": "cells/organoid",
+      "factor_value": 3000,
+      "sample_id": "S0004",
+      "time": "At organoid seeding"
+    },
+    {
+      "condition_id": "C0017",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Culture duration at collection",
+      "factor_unit": "day",
+      "factor_value": 14,
+      "sample_id": "S0005",
+      "time": "Collected on day 14 after organoid seeding"
+    },
+    {
+      "condition_id": "C0018",
+      "condition_target": "Whole sample",
+      "experimental_factor": "HUVEC-to-MSC seeding ratio",
+      "factor_unit": null,
+      "factor_value": "50:50",
+      "sample_id": "S0005",
+      "time": "At organoid seeding; source ratio 50:50"
+    },
+    {
+      "condition_id": "C0019",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Matrigel concentration in seeding suspension",
+      "factor_unit": "%",
+      "factor_value": 1.5,
+      "sample_id": "S0005",
+      "time": "At organoid seeding; seeding supplements removed by medium exchanges on day 3"
+    },
+    {
+      "condition_id": "C0020",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Initial cell number per organoid",
+      "factor_unit": "cells/organoid",
+      "factor_value": 3000,
+      "sample_id": "S0005",
+      "time": "At organoid seeding"
+    },
+    {
+      "condition_id": "C0021",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Culture duration at collection",
+      "factor_unit": "day",
+      "factor_value": 14,
+      "sample_id": "S0006",
+      "time": "Collected on day 14 after organoid seeding"
+    },
+    {
+      "condition_id": "C0022",
+      "condition_target": "Whole sample",
+      "experimental_factor": "HUVEC-to-MSC seeding ratio",
+      "factor_unit": null,
+      "factor_value": "50:50",
+      "sample_id": "S0006",
+      "time": "At organoid seeding; source ratio 50:50"
+    },
+    {
+      "condition_id": "C0023",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Matrigel concentration in seeding suspension",
+      "factor_unit": "%",
+      "factor_value": 1.5,
+      "sample_id": "S0006",
+      "time": "At organoid seeding; seeding supplements removed by medium exchanges on day 3"
+    },
+    {
+      "condition_id": "C0024",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Initial cell number per organoid",
+      "factor_unit": "cells/organoid",
+      "factor_value": 3000,
+      "sample_id": "S0006",
+      "time": "At organoid seeding"
+    },
+    {
+      "condition_id": "C0025",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Culture duration at collection",
+      "factor_unit": "day",
+      "factor_value": 14,
+      "sample_id": "S0007",
+      "time": "Collected on day 14 after organoid seeding"
+    },
+    {
+      "condition_id": "C0026",
+      "condition_target": "Whole sample",
+      "experimental_factor": "HUVEC-to-MSC seeding ratio",
+      "factor_unit": null,
+      "factor_value": "50:50",
+      "sample_id": "S0007",
+      "time": "At organoid seeding; source ratio 50:50"
+    },
+    {
+      "condition_id": "C0027",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Matrigel concentration in seeding suspension",
+      "factor_unit": "%",
+      "factor_value": 1.5,
+      "sample_id": "S0007",
+      "time": "At organoid seeding; seeding supplements removed by medium exchanges on day 3"
+    },
+    {
+      "condition_id": "C0028",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Initial cell number per organoid",
+      "factor_unit": "cells/organoid",
+      "factor_value": 3000,
+      "sample_id": "S0007",
+      "time": "At organoid seeding"
+    },
+    {
+      "condition_id": "C0029",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Culture duration at collection",
+      "factor_unit": "day",
+      "factor_value": 14,
+      "sample_id": "S0008",
+      "time": "Collected on day 14 after organoid seeding"
+    },
+    {
+      "condition_id": "C0030",
+      "condition_target": "Whole sample",
+      "experimental_factor": "HUVEC-to-MSC seeding ratio",
+      "factor_unit": null,
+      "factor_value": "50:50",
+      "sample_id": "S0008",
+      "time": "At organoid seeding; source ratio 50:50"
+    },
+    {
+      "condition_id": "C0031",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Matrigel concentration in seeding suspension",
+      "factor_unit": "%",
+      "factor_value": 1.5,
+      "sample_id": "S0008",
+      "time": "At organoid seeding; seeding supplements removed by medium exchanges on day 3"
+    },
+    {
+      "condition_id": "C0032",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Initial cell number per organoid",
+      "factor_unit": "cells/organoid",
+      "factor_value": 3000,
+      "sample_id": "S0008",
+      "time": "At organoid seeding"
+    },
+    {
+      "condition_id": "C0033",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Culture duration at collection",
+      "factor_unit": "day",
+      "factor_value": 28,
+      "sample_id": "S0009",
+      "time": "Collected on day 28 after organoid seeding"
+    },
+    {
+      "condition_id": "C0034",
+      "condition_target": "Whole sample",
+      "experimental_factor": "HUVEC-to-MSC seeding ratio",
+      "factor_unit": null,
+      "factor_value": "50:50",
+      "sample_id": "S0009",
+      "time": "At organoid seeding; source ratio 50:50"
+    },
+    {
+      "condition_id": "C0035",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Matrigel concentration in seeding suspension",
+      "factor_unit": "%",
+      "factor_value": 1.5,
+      "sample_id": "S0009",
+      "time": "At organoid seeding; seeding supplements removed by medium exchanges on day 3"
+    },
+    {
+      "condition_id": "C0036",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Initial cell number per organoid",
+      "factor_unit": "cells/organoid",
+      "factor_value": 3000,
+      "sample_id": "S0009",
+      "time": "At organoid seeding"
+    },
+    {
+      "condition_id": "C0037",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Culture duration at collection",
+      "factor_unit": "day",
+      "factor_value": 28,
+      "sample_id": "S0010",
+      "time": "Collected on day 28 after organoid seeding"
+    },
+    {
+      "condition_id": "C0038",
+      "condition_target": "Whole sample",
+      "experimental_factor": "HUVEC-to-MSC seeding ratio",
+      "factor_unit": null,
+      "factor_value": "50:50",
+      "sample_id": "S0010",
+      "time": "At organoid seeding; source ratio 50:50"
+    },
+    {
+      "condition_id": "C0039",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Matrigel concentration in seeding suspension",
+      "factor_unit": "%",
+      "factor_value": 1.5,
+      "sample_id": "S0010",
+      "time": "At organoid seeding; seeding supplements removed by medium exchanges on day 3"
+    },
+    {
+      "condition_id": "C0040",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Initial cell number per organoid",
+      "factor_unit": "cells/organoid",
+      "factor_value": 3000,
+      "sample_id": "S0010",
+      "time": "At organoid seeding"
+    },
+    {
+      "condition_id": "C0041",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Culture duration at collection",
+      "factor_unit": "day",
+      "factor_value": 28,
+      "sample_id": "S0011",
+      "time": "Collected on day 28 after organoid seeding"
+    },
+    {
+      "condition_id": "C0042",
+      "condition_target": "Whole sample",
+      "experimental_factor": "HUVEC-to-MSC seeding ratio",
+      "factor_unit": null,
+      "factor_value": "50:50",
+      "sample_id": "S0011",
+      "time": "At organoid seeding; source ratio 50:50"
+    },
+    {
+      "condition_id": "C0043",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Matrigel concentration in seeding suspension",
+      "factor_unit": "%",
+      "factor_value": 1.5,
+      "sample_id": "S0011",
+      "time": "At organoid seeding; seeding supplements removed by medium exchanges on day 3"
+    },
+    {
+      "condition_id": "C0044",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Initial cell number per organoid",
+      "factor_unit": "cells/organoid",
+      "factor_value": 3000,
+      "sample_id": "S0011",
+      "time": "At organoid seeding"
+    },
+    {
+      "condition_id": "C0045",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Culture duration at collection",
+      "factor_unit": "day",
+      "factor_value": 28,
+      "sample_id": "S0012",
+      "time": "Collected on day 28 after organoid seeding"
+    },
+    {
+      "condition_id": "C0046",
+      "condition_target": "Whole sample",
+      "experimental_factor": "HUVEC-to-MSC seeding ratio",
+      "factor_unit": null,
+      "factor_value": "50:50",
+      "sample_id": "S0012",
+      "time": "At organoid seeding; source ratio 50:50"
+    },
+    {
+      "condition_id": "C0047",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Matrigel concentration in seeding suspension",
+      "factor_unit": "%",
+      "factor_value": 1.5,
+      "sample_id": "S0012",
+      "time": "At organoid seeding; seeding supplements removed by medium exchanges on day 3"
+    },
+    {
+      "condition_id": "C0048",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Initial cell number per organoid",
+      "factor_unit": "cells/organoid",
+      "factor_value": 3000,
+      "sample_id": "S0012",
+      "time": "At organoid seeding"
+    },
+    {
+      "condition_id": "C0049",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Culture duration at collection",
+      "factor_unit": "day",
+      "factor_value": 60,
+      "sample_id": "S0013",
+      "time": "Collected on day 60 after organoid seeding"
+    },
+    {
+      "condition_id": "C0050",
+      "condition_target": "Whole sample",
+      "experimental_factor": "HUVEC-to-MSC seeding ratio",
+      "factor_unit": null,
+      "factor_value": "50:50",
+      "sample_id": "S0013",
+      "time": "At organoid seeding; source ratio 50:50"
+    },
+    {
+      "condition_id": "C0051",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Matrigel concentration in seeding suspension",
+      "factor_unit": "%",
+      "factor_value": 1.5,
+      "sample_id": "S0013",
+      "time": "At organoid seeding; seeding supplements removed by medium exchanges on day 3"
+    },
+    {
+      "condition_id": "C0052",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Initial cell number per organoid",
+      "factor_unit": "cells/organoid",
+      "factor_value": 3000,
+      "sample_id": "S0013",
+      "time": "At organoid seeding"
+    },
+    {
+      "condition_id": "C0053",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Culture duration at collection",
+      "factor_unit": "day",
+      "factor_value": 60,
+      "sample_id": "S0014",
+      "time": "Collected on day 60 after organoid seeding"
+    },
+    {
+      "condition_id": "C0054",
+      "condition_target": "Whole sample",
+      "experimental_factor": "HUVEC-to-MSC seeding ratio",
+      "factor_unit": null,
+      "factor_value": "50:50",
+      "sample_id": "S0014",
+      "time": "At organoid seeding; source ratio 50:50"
+    },
+    {
+      "condition_id": "C0055",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Matrigel concentration in seeding suspension",
+      "factor_unit": "%",
+      "factor_value": 1.5,
+      "sample_id": "S0014",
+      "time": "At organoid seeding; seeding supplements removed by medium exchanges on day 3"
+    },
+    {
+      "condition_id": "C0056",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Initial cell number per organoid",
+      "factor_unit": "cells/organoid",
+      "factor_value": 3000,
+      "sample_id": "S0014",
+      "time": "At organoid seeding"
+    },
+    {
+      "condition_id": "C0057",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Culture duration at collection",
+      "factor_unit": "day",
+      "factor_value": 60,
+      "sample_id": "S0015",
+      "time": "Collected on day 60 after organoid seeding"
+    },
+    {
+      "condition_id": "C0058",
+      "condition_target": "Whole sample",
+      "experimental_factor": "HUVEC-to-MSC seeding ratio",
+      "factor_unit": null,
+      "factor_value": "50:50",
+      "sample_id": "S0015",
+      "time": "At organoid seeding; source ratio 50:50"
+    },
+    {
+      "condition_id": "C0059",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Matrigel concentration in seeding suspension",
+      "factor_unit": "%",
+      "factor_value": 1.5,
+      "sample_id": "S0015",
+      "time": "At organoid seeding; seeding supplements removed by medium exchanges on day 3"
+    },
+    {
+      "condition_id": "C0060",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Initial cell number per organoid",
+      "factor_unit": "cells/organoid",
+      "factor_value": 3000,
+      "sample_id": "S0015",
+      "time": "At organoid seeding"
+    },
+    {
+      "condition_id": "C0061",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Culture duration at collection",
+      "factor_unit": "day",
+      "factor_value": 60,
+      "sample_id": "S0016",
+      "time": "Collected on day 60 after organoid seeding"
+    },
+    {
+      "condition_id": "C0062",
+      "condition_target": "Whole sample",
+      "experimental_factor": "HUVEC-to-MSC seeding ratio",
+      "factor_unit": null,
+      "factor_value": "50:50",
+      "sample_id": "S0016",
+      "time": "At organoid seeding; source ratio 50:50"
+    },
+    {
+      "condition_id": "C0063",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Matrigel concentration in seeding suspension",
+      "factor_unit": "%",
+      "factor_value": 1.5,
+      "sample_id": "S0016",
+      "time": "At organoid seeding; seeding supplements removed by medium exchanges on day 3"
+    },
+    {
+      "condition_id": "C0064",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Initial cell number per organoid",
+      "factor_unit": "cells/organoid",
+      "factor_value": 3000,
+      "sample_id": "S0016",
+      "time": "At organoid seeding"
+    }
+  ],
+  "sample": [
+    {
+      "biological_model": "Vascularized mesenchymal organoid (VMO)",
+      "biological_source": "HUVEC (ATCC PCS-100-013) and human bone marrow MSC (RoosterBio MSC-003)",
+      "sample_accession": "GEO:GSM8998320 (sample); BioSample:SAMN48721008 (sample)",
+      "sample_id": "S0001",
+      "sample_material": "Total RNA extracted from pooled VMOs. Organoids per pool and individual organoid membership are not reported for this bulk RNA-seq preparation. The reported HUVEC:MSC seeding ratio was 50:50.",
+      "sample_name": "Organoid Day 3 - A",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Vascularized mesenchymal organoid (VMO)",
+      "biological_source": "HUVEC (ATCC PCS-100-013) and human bone marrow MSC (RoosterBio MSC-003)",
+      "sample_accession": "GEO:GSM8998321 (sample); BioSample:SAMN48721007 (sample)",
+      "sample_id": "S0002",
+      "sample_material": "Total RNA extracted from pooled VMOs. Organoids per pool and individual organoid membership are not reported for this bulk RNA-seq preparation. The reported HUVEC:MSC seeding ratio was 50:50.",
+      "sample_name": "Organoid Day 3 - B",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Vascularized mesenchymal organoid (VMO)",
+      "biological_source": "HUVEC (ATCC PCS-100-013) and human bone marrow MSC (RoosterBio MSC-003)",
+      "sample_accession": "GEO:GSM8998322 (sample); BioSample:SAMN48721006 (sample)",
+      "sample_id": "S0003",
+      "sample_material": "Total RNA extracted from pooled VMOs. Organoids per pool and individual organoid membership are not reported for this bulk RNA-seq preparation. The reported HUVEC:MSC seeding ratio was 50:50.",
+      "sample_name": "Organoid Day 3 - C",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Vascularized mesenchymal organoid (VMO)",
+      "biological_source": "HUVEC (ATCC PCS-100-013) and human bone marrow MSC (RoosterBio MSC-003)",
+      "sample_accession": "GEO:GSM8998323 (sample); BioSample:SAMN48721005 (sample)",
+      "sample_id": "S0004",
+      "sample_material": "Total RNA extracted from pooled VMOs. Organoids per pool and individual organoid membership are not reported for this bulk RNA-seq preparation. The reported HUVEC:MSC seeding ratio was 50:50.",
+      "sample_name": "Organoid Day 3 - D",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Vascularized mesenchymal organoid (VMO)",
+      "biological_source": "HUVEC (ATCC PCS-100-013) and human bone marrow MSC (RoosterBio MSC-003)",
+      "sample_accession": "GEO:GSM8998324 (sample); BioSample:SAMN48721004 (sample)",
+      "sample_id": "S0005",
+      "sample_material": "Total RNA extracted from pooled VMOs. Organoids per pool and individual organoid membership are not reported for this bulk RNA-seq preparation. The reported HUVEC:MSC seeding ratio was 50:50.",
+      "sample_name": "Organoid Day 14 - A",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Vascularized mesenchymal organoid (VMO)",
+      "biological_source": "HUVEC (ATCC PCS-100-013) and human bone marrow MSC (RoosterBio MSC-003)",
+      "sample_accession": "GEO:GSM8998325 (sample); BioSample:SAMN48721003 (sample)",
+      "sample_id": "S0006",
+      "sample_material": "Total RNA extracted from pooled VMOs. Organoids per pool and individual organoid membership are not reported for this bulk RNA-seq preparation. The reported HUVEC:MSC seeding ratio was 50:50.",
+      "sample_name": "Organoid Day 14 - B",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Vascularized mesenchymal organoid (VMO)",
+      "biological_source": "HUVEC (ATCC PCS-100-013) and human bone marrow MSC (RoosterBio MSC-003)",
+      "sample_accession": "GEO:GSM8998326 (sample); BioSample:SAMN48721002 (sample)",
+      "sample_id": "S0007",
+      "sample_material": "Total RNA extracted from pooled VMOs. Organoids per pool and individual organoid membership are not reported for this bulk RNA-seq preparation. The reported HUVEC:MSC seeding ratio was 50:50.",
+      "sample_name": "Organoid Day 14 - C",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Vascularized mesenchymal organoid (VMO)",
+      "biological_source": "HUVEC (ATCC PCS-100-013) and human bone marrow MSC (RoosterBio MSC-003)",
+      "sample_accession": "GEO:GSM8998327 (sample); BioSample:SAMN48721001 (sample)",
+      "sample_id": "S0008",
+      "sample_material": "Total RNA extracted from pooled VMOs. Organoids per pool and individual organoid membership are not reported for this bulk RNA-seq preparation. The reported HUVEC:MSC seeding ratio was 50:50.",
+      "sample_name": "Organoid Day 14 - D",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Vascularized mesenchymal organoid (VMO)",
+      "biological_source": "HUVEC (ATCC PCS-100-013) and human bone marrow MSC (RoosterBio MSC-003)",
+      "sample_accession": "GEO:GSM8998328 (sample); BioSample:SAMN48721000 (sample)",
+      "sample_id": "S0009",
+      "sample_material": "Total RNA extracted from pooled VMOs. Organoids per pool and individual organoid membership are not reported for this bulk RNA-seq preparation. The reported HUVEC:MSC seeding ratio was 50:50.",
+      "sample_name": "Organoid Day 28 - A",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Vascularized mesenchymal organoid (VMO)",
+      "biological_source": "HUVEC (ATCC PCS-100-013) and human bone marrow MSC (RoosterBio MSC-003)",
+      "sample_accession": "GEO:GSM8998329 (sample); BioSample:SAMN48720999 (sample)",
+      "sample_id": "S0010",
+      "sample_material": "Total RNA extracted from pooled VMOs. Organoids per pool and individual organoid membership are not reported for this bulk RNA-seq preparation. The reported HUVEC:MSC seeding ratio was 50:50.",
+      "sample_name": "Organoid Day 28 - B",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Vascularized mesenchymal organoid (VMO)",
+      "biological_source": "HUVEC (ATCC PCS-100-013) and human bone marrow MSC (RoosterBio MSC-003)",
+      "sample_accession": "GEO:GSM8998330 (sample); BioSample:SAMN48720998 (sample)",
+      "sample_id": "S0011",
+      "sample_material": "Total RNA extracted from pooled VMOs. Organoids per pool and individual organoid membership are not reported for this bulk RNA-seq preparation. The reported HUVEC:MSC seeding ratio was 50:50.",
+      "sample_name": "Organoid Day 28 - C",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Vascularized mesenchymal organoid (VMO)",
+      "biological_source": "HUVEC (ATCC PCS-100-013) and human bone marrow MSC (RoosterBio MSC-003)",
+      "sample_accession": "GEO:GSM8998331 (sample); BioSample:SAMN48720997 (sample)",
+      "sample_id": "S0012",
+      "sample_material": "Total RNA extracted from pooled VMOs. Organoids per pool and individual organoid membership are not reported for this bulk RNA-seq preparation. The reported HUVEC:MSC seeding ratio was 50:50.",
+      "sample_name": "Organoid Day 28 - D",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Vascularized mesenchymal organoid (VMO)",
+      "biological_source": "HUVEC (ATCC PCS-100-013) and human bone marrow MSC (RoosterBio MSC-003)",
+      "sample_accession": "GEO:GSM8998332 (sample); BioSample:SAMN48720996 (sample)",
+      "sample_id": "S0013",
+      "sample_material": "Total RNA extracted from pooled VMOs. Organoids per pool and individual organoid membership are not reported for this bulk RNA-seq preparation. The reported HUVEC:MSC seeding ratio was 50:50.",
+      "sample_name": "Organoid Day 60 - A",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Vascularized mesenchymal organoid (VMO)",
+      "biological_source": "HUVEC (ATCC PCS-100-013) and human bone marrow MSC (RoosterBio MSC-003)",
+      "sample_accession": "GEO:GSM8998333 (sample); BioSample:SAMN48720995 (sample)",
+      "sample_id": "S0014",
+      "sample_material": "Total RNA extracted from pooled VMOs. Organoids per pool and individual organoid membership are not reported for this bulk RNA-seq preparation. The reported HUVEC:MSC seeding ratio was 50:50.",
+      "sample_name": "Organoid Day 60 - B",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Vascularized mesenchymal organoid (VMO)",
+      "biological_source": "HUVEC (ATCC PCS-100-013) and human bone marrow MSC (RoosterBio MSC-003)",
+      "sample_accession": "GEO:GSM8998334 (sample); BioSample:SAMN48720994 (sample)",
+      "sample_id": "S0015",
+      "sample_material": "Total RNA extracted from pooled VMOs. Organoids per pool and individual organoid membership are not reported for this bulk RNA-seq preparation. The reported HUVEC:MSC seeding ratio was 50:50.",
+      "sample_name": "Organoid Day 60 - C",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Vascularized mesenchymal organoid (VMO)",
+      "biological_source": "HUVEC (ATCC PCS-100-013) and human bone marrow MSC (RoosterBio MSC-003)",
+      "sample_accession": "GEO:GSM8998335 (sample); BioSample:SAMN48720993 (sample)",
+      "sample_id": "S0016",
+      "sample_material": "Total RNA extracted from pooled VMOs. Organoids per pool and individual organoid membership are not reported for this bulk RNA-seq preparation. The reported HUVEC:MSC seeding ratio was 50:50.",
+      "sample_name": "Organoid Day 60 - D",
+      "species": "Homo sapiens"
+    }
+  ]
+}

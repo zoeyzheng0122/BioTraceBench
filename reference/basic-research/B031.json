@@ -1,0 +1,121 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "Bulk 3′ mRNA-seq",
+      "experiment_run_accession": "SRA:SRX28149792 (experiment); SRA:SRR32868344 (run)",
+      "method": "RNA extracted using ReliaPrep RNA Cell Miniprep System; Lexogen QuantSeq 3′ mRNA-Seq V2 FWD libraries with UDI 12 nt set B1. Native GEO sample: iHEP1_P2.",
+      "platform": "Illumina NovaSeq X (GEO/SRA); NovaSeq SP reported in article",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0002",
+      "assay_type": "Bulk 3′ mRNA-seq",
+      "experiment_run_accession": "SRA:SRX28149793 (experiment); SRA:SRR32868343 (run)",
+      "method": "RNA extracted using ReliaPrep RNA Cell Miniprep System; Lexogen QuantSeq 3′ mRNA-Seq V2 FWD libraries with UDI 12 nt set B1. Native GEO sample: iHEP2_P2.",
+      "platform": "Illumina NovaSeq X (GEO/SRA); NovaSeq SP reported in article",
+      "sample_ids": [
+        "S0002"
+      ]
+    },
+    {
+      "assay_id": "A0003",
+      "assay_type": "Bulk 3′ mRNA-seq",
+      "experiment_run_accession": "SRA:SRX28149794 (experiment); SRA:SRR32868342 (run)",
+      "method": "RNA extracted using ReliaPrep RNA Cell Miniprep System; Lexogen QuantSeq 3′ mRNA-Seq V2 FWD libraries with UDI 12 nt set B1. Native GEO sample: iHEP3_P2.",
+      "platform": "Illumina NovaSeq X (GEO/SRA); NovaSeq SP reported in article",
+      "sample_ids": [
+        "S0003"
+      ]
+    },
+    {
+      "assay_id": "A0004",
+      "assay_type": "Bulk 3′ mRNA-seq",
+      "experiment_run_accession": "SRA:SRX28149789 (experiment); SRA:SRR32868347 (run)",
+      "method": "RNA extracted using ReliaPrep RNA Cell Miniprep System; Lexogen QuantSeq 3′ mRNA-Seq V2 FWD libraries with UDI 12 nt set B1. Native GEO sample: HepaRG1.",
+      "platform": "Illumina NovaSeq X (GEO/SRA); NovaSeq SP reported in article",
+      "sample_ids": [
+        "S0004"
+      ]
+    },
+    {
+      "assay_id": "A0005",
+      "assay_type": "Bulk 3′ mRNA-seq",
+      "experiment_run_accession": "SRA:SRX28149790 (experiment); SRA:SRR32868346 (run)",
+      "method": "RNA extracted using ReliaPrep RNA Cell Miniprep System; Lexogen QuantSeq 3′ mRNA-Seq V2 FWD libraries with UDI 12 nt set B1. Native GEO sample: HepaRG2.",
+      "platform": "Illumina NovaSeq X (GEO/SRA); NovaSeq SP reported in article",
+      "sample_ids": [
+        "S0005"
+      ]
+    },
+    {
+      "assay_id": "A0006",
+      "assay_type": "Bulk 3′ mRNA-seq",
+      "experiment_run_accession": "SRA:SRX28149791 (experiment); SRA:SRR32868345 (run)",
+      "method": "RNA extracted using ReliaPrep RNA Cell Miniprep System; Lexogen QuantSeq 3′ mRNA-Seq V2 FWD libraries with UDI 12 nt set B1. Native GEO sample: HepaRG3.",
+      "platform": "Illumina NovaSeq X (GEO/SRA); NovaSeq SP reported in article",
+      "sample_ids": [
+        "S0006"
+      ]
+    }
+  ],
+  "condition": [],
+  "sample": [
+    {
+      "biological_model": "GEO-registered iHEP preparation; monoculture versus co-culture unresolved",
+      "biological_source": "Human iPSC-derived hepatocyte preparation, registered as iHEP in GEO; exact culture composition unresolved.",
+      "sample_accession": "GEO:GSM8871054 (sample); BioSample:SAMN47586161 (sample); SRA:SRS24503952 (sample)",
+      "sample_id": "S0001",
+      "sample_material": "Poly(A) RNA from GEO sample iHEP1_P2 (batch 1), harvested using the ReliaPrep RNA Cell Miniprep System. P2 is the native label. Its mapping to a differentiation day and the exact culture composition are unresolved.",
+      "sample_name": "iHEP1_P2",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "GEO-registered iHEP preparation; monoculture versus co-culture unresolved",
+      "biological_source": "Human iPSC-derived hepatocyte preparation, registered as iHEP in GEO; exact culture composition unresolved.",
+      "sample_accession": "GEO:GSM8871055 (sample); BioSample:SAMN47586160 (sample); SRA:SRS24503953 (sample)",
+      "sample_id": "S0002",
+      "sample_material": "Poly(A) RNA from GEO sample iHEP2_P2 (batch 2), harvested using the ReliaPrep RNA Cell Miniprep System. P2 is the native label. Its mapping to a differentiation day and the exact culture composition are unresolved.",
+      "sample_name": "iHEP2_P2",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "GEO-registered iHEP preparation; monoculture versus co-culture unresolved",
+      "biological_source": "Human iPSC-derived hepatocyte preparation, registered as iHEP in GEO; exact culture composition unresolved.",
+      "sample_accession": "GEO:GSM8871056 (sample); BioSample:SAMN47586159 (sample); SRA:SRS24503954 (sample)",
+      "sample_id": "S0003",
+      "sample_material": "Poly(A) RNA from GEO sample iHEP3_P2 (batch 3), harvested using the ReliaPrep RNA Cell Miniprep System. P2 is the native label. Its mapping to a differentiation day and the exact culture composition are unresolved.",
+      "sample_name": "iHEP3_P2",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "GEO-registered HepaRG reference; monoculture versus co-culture unresolved",
+      "biological_source": "Human HepaRG cell line (Biopredic, HPR116), registered as HepaRG in GEO. Exact culture composition is unresolved.",
+      "sample_accession": "GEO:GSM8871051 (sample); BioSample:SAMN47586164 (sample); SRA:SRS24503949 (sample)",
+      "sample_id": "S0004",
+      "sample_material": "Poly(A) RNA from GEO sample HepaRG1 (batch 1), harvested using the ReliaPrep RNA Cell Miniprep System. The study describes freshly thawed HepaRG cells for RNA sequencing. Exact culture composition and sample-specific collection time are unresolved.",
+      "sample_name": "HepaRG1",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "GEO-registered HepaRG reference; monoculture versus co-culture unresolved",
+      "biological_source": "Human HepaRG cell line (Biopredic, HPR116), registered as HepaRG in GEO. Exact culture composition is unresolved.",
+      "sample_accession": "GEO:GSM8871052 (sample); BioSample:SAMN47586163 (sample); SRA:SRS24503950 (sample)",
+      "sample_id": "S0005",
+      "sample_material": "Poly(A) RNA from GEO sample HepaRG2 (batch 2), harvested using the ReliaPrep RNA Cell Miniprep System. The study describes freshly thawed HepaRG cells for RNA sequencing. Exact culture composition and sample-specific collection time are unresolved.",
+      "sample_name": "HepaRG2",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "GEO-registered HepaRG reference; monoculture versus co-culture unresolved",
+      "biological_source": "Human HepaRG cell line (Biopredic, HPR116), registered as HepaRG in GEO. Exact culture composition is unresolved.",
+      "sample_accession": "GEO:GSM8871053 (sample); BioSample:SAMN47586162 (sample); SRA:SRS24503951 (sample)",
+      "sample_id": "S0006",
+      "sample_material": "Poly(A) RNA from GEO sample HepaRG3 (batch 3), harvested using the ReliaPrep RNA Cell Miniprep System. The study describes freshly thawed HepaRG cells for RNA sequencing. Exact culture composition and sample-specific collection time are unresolved.",
+      "sample_name": "HepaRG3",
+      "species": "Homo sapiens"
+    }
+  ]
+}

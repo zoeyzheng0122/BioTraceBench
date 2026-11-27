@@ -1,0 +1,32 @@
+{
+  "case_id": "C017",
+  "task_id": "C017",
+  "title": "Improved health‐related quality of life with tirzepatide versus semaglutide in adults with obesity or overweight from the SURMOUNT‐5 trial",
+  "doi": "10.1111/dom.70215",
+  "comparison_or_design": "The SURMOUNT-5 HRQoL comparison at the maximum tolerated doses.",
+  "observations_or_assays": [
+    "SF-36v2 Physical Component Summary",
+    "SF-36v2 Mental Component Summary",
+    "SF-36v2 General Health domain"
+  ],
+  "time_scope": "Baseline to week 72.",
+  "excluded": [
+    "All other SF-36 domains and limited-function/weight-loss-category subgroups",
+    "PHQ-9, PGI-S, weight-loss efficacy and safety"
+  ],
+  "population_or_material": "The overall on-treatment population receiving at least one study dose in this SURMOUNT-5 HRQoL analysis.",
+  "requested_items": [
+    "Arm-level baseline norm-based scores from the source baseline table and week-72 efficacy-model changes/contrasts for PCS/MCS/GH. Exclude duplicated figure baseline means, whole-cohort summaries, other domains and mental-health categorical outcomes."
+  ],
+  "resources": [],
+  "case_specific_rules": [
+    "Use Supplementary Table S2 for the requested baseline scores and Figure 1 for week-72 efficacy changes/contrasts. Resolve plotted significance symbols through their legends. Apply the shared rules for denominators, graphical values and conflicting dispersion terminology."
+  ],
+  "domain": "clinical",
+  "pipeline": "clinical-trials",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/clinical-trials.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

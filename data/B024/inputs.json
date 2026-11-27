@@ -1,0 +1,246 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "B024",
+    "domain": "basic",
+    "title": "Extracellular C1qbp inhibits myogenesis by suppressing NFATc1",
+    "doi": "10.1038/s41598-024-66549-1",
+    "pipeline": "basic-research",
+    "pmid": "38977785",
+    "pmcid": "PMC11231330",
+    "registry": "PXD043715"
+  },
+  "files": [
+    {
+      "path": "sources/article.xml",
+      "sha256": "0f93b4d0a7a72da248e1a9defad881ab85859741bb895f81e3bc146afcf764a1",
+      "bytes": 106228,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC11231330.1/PMC11231330.1.xml?md5=526494ae0e783f0e628eeb448591230c"
+      ],
+      "association": "official published article XML for exact DOI"
+    },
+    {
+      "path": "records/PXD043715-record.json",
+      "sha256": "a1f03cb7312a8a6c21355abf0a4f6407b7325ebc049b7cde45af1b06ee8f2950",
+      "bytes": 6567,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/pride/ws/archive/v2/projects/PXD043715"
+      ],
+      "association": "public data accession explicitly reported in this article; module eligibility not yet asserted",
+      "original_filename": "PXD043715-record.json",
+      "retrieved_at": "2026-10-18T01:13:41+08:00",
+      "derived_from": "0be96c87a46cc11909e599c234fd3505ad46682678020daa6219d668c39aa4de",
+      "original_sha256": "0be96c87a46cc11909e599c234fd3505ad46682678020daa6219d668c39aa4de",
+      "representation": "refine-lexical-json-1",
+      "provenance_transform": "exact_json_whitespace_compaction"
+    },
+    {
+      "path": "figures/41598_2024_66549_Fig1_HTML.jpg",
+      "sha256": "833bb43889e18860e5d3b59b0b3de744c8ab1c4ebd768b8898b80f8295411319",
+      "bytes": 224622,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC11231330.1/41598_2024_66549_Fig1_HTML.jpg?md5=7be4a1f86ab696288737302a5788f6a1"
+      ],
+      "association": "exact JATS Fig1 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41598_2024_66549_Fig2_HTML.jpg",
+      "sha256": "8749fc739c12aa25d86dcf33a4f6a11fea960d05391abe8a5b9b1ee794c605b3",
+      "bytes": 177716,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC11231330.1/41598_2024_66549_Fig2_HTML.jpg?md5=d107454f755f0b2ec3f6c75a681697ee"
+      ],
+      "association": "exact JATS Fig2 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41598_2024_66549_Fig3_HTML.jpg",
+      "sha256": "4130f8da74951dc6255a6e217b84bb3f0d5a44980db71d5e326581a25f9ccc9f",
+      "bytes": 219218,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC11231330.1/41598_2024_66549_Fig3_HTML.jpg?md5=b4ab066349be7b28bf46008105823216"
+      ],
+      "association": "exact JATS Fig3 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41598_2024_66549_Fig4_HTML.jpg",
+      "sha256": "062004fc6e64607c8d4ce82943d5eda273f79611ef9affa0ef9cc684f61b5386",
+      "bytes": 236837,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC11231330.1/41598_2024_66549_Fig4_HTML.jpg?md5=d046b25a47fbf3c8bd6886d9922519ea"
+      ],
+      "association": "exact JATS Fig4 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41598_2024_66549_Fig5_HTML.jpg",
+      "sha256": "d512b6758cfde961723c1e4f5b6cb94fa7fe7bce5762223fe09fccd1c6644f24",
+      "bytes": 235572,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC11231330.1/41598_2024_66549_Fig5_HTML.jpg?md5=d0a13cb3b28d20ecf926eacff67c83ca"
+      ],
+      "association": "exact JATS Fig5 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41598_2024_66549_Fig6_HTML.jpg",
+      "sha256": "a46ff6d1ea4271cd43b3e18563ec93eedd53e83ba54ada586627cc84e1bff712",
+      "bytes": 180744,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC11231330.1/41598_2024_66549_Fig6_HTML.jpg?md5=2de729703a318329dd4e513e6045fb40"
+      ],
+      "association": "exact JATS Fig6 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41598_2024_66549_Fig7_HTML.jpg",
+      "sha256": "10da879ee3162db2d0245e9ec330f43544b7b02998c24fd8ab540fbda4b9f981",
+      "bytes": 185673,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC11231330.1/41598_2024_66549_Fig7_HTML.jpg?md5=0804f3b1f56e857c967b7c58f916d836"
+      ],
+      "association": "exact JATS Fig7 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/captions.txt",
+      "sha256": "e9658f3fa345b1e75bf8ae58b6220a2ac59bbf66bc71d043cf4ae4dfcf729836",
+      "bytes": 14599,
+      "role": "figure_captions",
+      "roles": [
+        "figure_captions"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11231330/"
+      ],
+      "derived_from": "c3e85b94f2bcdae07d433208f51f614f18ab2ef751939d66a976e7f6319f104a"
+    },
+    {
+      "path": "supplements/41598_2024_66549_MOESM1_ESM__refine/content.md",
+      "sha256": "4eca80c84be88d618a37f545bddec19c0e59bf2290f4ffd90d25327b03ddfc05",
+      "bytes": 28641,
+      "role": "supplement",
+      "roles": [
+        "supplement"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC11231330.1/41598_2024_66549_MOESM1_ESM.pdf?md5=1a45829d10ebf43b7f4c45595b3c57c8"
+      ],
+      "association": "exact JATS MOESM1 in verified PMC version; article source only",
+      "derived_from": "487c80e68e03b6b3abf1cc88f2d6fa74d91e5de1a6c3f5c69091ccc03fb94f51",
+      "original_sha256": "487c80e68e03b6b3abf1cc88f2d6fa74d91e5de1a6c3f5c69091ccc03fb94f51",
+      "original_filename": "41598_2024_66549_MOESM1_ESM.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "pdf_text_visual",
+      "prior_sha256": "822e63b2de0d2b868070ef922d78e0892eafeb464c1599fb50d486a02c2fce7f",
+      "compatibility_transform": "remove_task_excluded_image_reference_lines"
+    },
+    {
+      "path": "records/PRIDE-PXD043715-files.json",
+      "sha256": "f76d8673aa886fa10f20d007bb4fbd6e565fdb45b7c833a7bac4d4a091f162d5",
+      "bytes": 89016,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [],
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "original_filename": "PRIDE-PXD043715-files.json"
+    },
+    {
+      "path": "records/Sample_Code__refine/20170720_KoJM_mouse_muscle_4typ.tsv",
+      "sha256": "16d03c263d94dabd72bc132593ebcf66f6f1b0157bd09b01849ed93838adabb8",
+      "bytes": 1217,
+      "role": "design_metadata",
+      "roles": [
+        "design_metadata"
+      ],
+      "input_use": "model",
+      "source_urls": [],
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "original_filename": "Sample_Code.xlsx",
+      "derived_from": "83bc5c4824aac4a1ad55e7b7882e49cb37f7901f27f609d5dbe523261a93f2db",
+      "original_sha256": "83bc5c4824aac4a1ad55e7b7882e49cb37f7901f27f609d5dbe523261a93f2db",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "worksheet_tsv"
+    },
+    {
+      "path": "records/Sample_Code__refine/source-notes.md",
+      "sha256": "696ada8976be1245be6d6eff3f9416b6bca92b970ff6b2410880d82eb48766ee",
+      "bytes": 357,
+      "role": "design_metadata",
+      "roles": [
+        "design_metadata"
+      ],
+      "input_use": "model",
+      "source_urls": [],
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "original_filename": "Sample_Code.xlsx",
+      "derived_from": "83bc5c4824aac4a1ad55e7b7882e49cb37f7901f27f609d5dbe523261a93f2db",
+      "original_sha256": "83bc5c4824aac4a1ad55e7b7882e49cb37f7901f27f609d5dbe523261a93f2db",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "worksheet_context"
+    },
+    {
+      "path": "records/PRIDE-PXD043715-files.csv",
+      "sha256": "33fe776ac87dea42b0465226968331e0da6d03ccfac8758c73041b8eadb9d7f1",
+      "bytes": 13913,
+      "role": "design_metadata",
+      "roles": [
+        "design_metadata"
+      ],
+      "input_use": "model",
+      "source_urls": [],
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "original_filename": "PRIDE-PXD043715-files.csv"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

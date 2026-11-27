@@ -1,0 +1,30 @@
+{
+  "case_id": "C036",
+  "task_id": "C036",
+  "title": "Adjunctive Pentoxifylline Enhances Clinical Remission and Reduces Inflammatory Biomarkers in Mild-to-Moderate Ulcerative Colitis: A Randomized Double-Blind Placebo-Controlled Pilot Trial",
+  "doi": "10.3390/ph19040552",
+  "comparison_or_design": "The primary pentoxifylline add-on comparison in mesalamine-treated ulcerative colitis.",
+  "observations_or_assays": [
+    "Partial Mayo score",
+    "Clinical remission under the source-defined PMS rule",
+    "IBDQ-32 quality-of-life score"
+  ],
+  "time_scope": "Baseline to week 24, primary ITT analysis.",
+  "excluded": [
+    "Per-protocol, mesalamine-exposure subgroups, clinical-response categories and other visits",
+    "Inflammatory biomarkers and exploratory regression models"
+  ],
+  "population_or_material": "The primary intention-to-treat population with mild-to-moderate UC.",
+  "requested_items": [
+    "ITT Tables 2/4: baseline/week-24 PMS/IBDQ-32 medians, explicitly reported percentage changes and tests; remission counts/proportions/test. Include labeled adjusted P supplement. Exclude PP, clinical-response endpoint and medication-naive/experienced subgroup analyses."
+  ],
+  "resources": [],
+  "case_specific_rules": [],
+  "domain": "clinical",
+  "pipeline": "clinical-trials",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/clinical-trials.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

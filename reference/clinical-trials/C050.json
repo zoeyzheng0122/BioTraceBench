@@ -1,0 +1,188 @@
+{
+  "measure": [
+    {
+      "measure_definition": "Binary Sher responder criterion: at least 50% reduction from preoperative baseline in the PSG-derived 4% AHI, with a final AHI below 20 events/h at the 12-month postoperative PSG.",
+      "measure_id": "M0",
+      "measure_name": "Apnea-hypopnea index (4% AHI) responder status at 12 months (Sher criteria)"
+    },
+    {
+      "measure_definition": "Binary responder criterion: at least 25% reduction from preoperative baseline in the 4% ODI at the 12-month postoperative PSG. The 4% ODI counts events with a drop in oxygen saturation of at least 4%.",
+      "measure_id": "M1",
+      "measure_name": "Oxygen desaturation index (4% ODI) responder status at 12 months"
+    },
+    {
+      "measure_definition": "Continuous total 4% apnea-hypopnea index in events per hour of sleep on polysomnography. Hypopneas require a 30% decrease in airflow with at least a 4% oxygen saturation drop. Baseline is the average of the two preoperative PSGs (screening and baseline); month-12 PSG is performed at fixed therapeutic settings.",
+      "measure_id": "M2",
+      "measure_name": "Apnea-hypopnea index (4% AHI)"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "No study intervention assigned at screening.",
+      "intervention_regimen": null,
+      "population_definition": "Participants who signed informed consent and began screening for the single-arm DREAM trial.",
+      "population_id": "P0",
+      "population_name": "Participants who initiated screening",
+      "population_size": 687,
+      "population_time_frame": "Screening before eligibility confirmation and implant surgery."
+    },
+    {
+      "intervention": "Attempted Genio bilateral hypoglossal nerve stimulation implantation.",
+      "intervention_regimen": "For successful implantations, protocol activation two months after surgery, nightly use via the externally powered submental controller, individual titration at PSGs and clinic visits, and a full-night 12-month PSG at fixed therapeutic settings.",
+      "population_definition": "All participants who underwent surgery for bilateral HNS in DREAM, including both successful implantations and aborted surgeries, and formed the coprimary analysis set.",
+      "population_id": "P1",
+      "population_name": "All participants who underwent implant surgery (coprimary analysis set)",
+      "population_size": 115,
+      "population_time_frame": "Implant surgery through the coprimary assessment at 12 months postoperatively."
+    },
+    {
+      "intervention": "Genio bilateral hypoglossal nerve stimulation system (implanted, externally powered)",
+      "intervention_regimen": "Same implanted Genio protocol: activation two months after surgery, nightly external controller use and individual titration at PSGs and clinic visits.",
+      "population_definition": "Successfully implanted participants with postoperative visit data retained in the full analysis set (FAS) for secondary outcomes.",
+      "population_id": "P2",
+      "population_name": "Full analysis set for 12-month secondary outcomes (FAS, n = 110)",
+      "population_size": 110,
+      "population_time_frame": "Postoperative FAS membership through the 12-month secondary assessment."
+    },
+    {
+      "intervention": "Genio bilateral hypoglossal nerve stimulation system (implanted, externally powered)",
+      "intervention_regimen": "Nightly use during sleep; 12-month PSG performed at fixed therapeutic settings; therapy activated 2 months after implantation.",
+      "population_definition": "Participants with evaluable 12-month PSG data for objective secondary outcomes and paired baseline and month-12 total AHI in Table 2.",
+      "population_id": "P4",
+      "population_name": "Participants with evaluable 12-month PSG data for continuous efficacy analyses (n = 89)",
+      "population_size": 89,
+      "population_time_frame": "Preoperative baseline to the 12-month postoperative PSG."
+    },
+    {
+      "intervention": "Genio bilateral hypoglossal nerve stimulation planned after eligibility determination.",
+      "intervention_regimen": null,
+      "population_definition": "Adults with OSA who met DREAM eligibility criteria. Of 119 included, 4 did not undergo implant surgery and 115 underwent the procedure.",
+      "population_id": "P5",
+      "population_name": "Included participants (n = 119)",
+      "population_size": 119,
+      "population_time_frame": "Eligibility confirmed during screening before implant surgery."
+    },
+    {
+      "intervention": "Genio bilateral hypoglossal nerve stimulation",
+      "intervention_regimen": "Genio implant with a rechargeable external submental controller worn nightly during sleep. Activation two months after implantation, clinical/PSG titration, then fixed therapeutic settings during month-12 efficacy PSG.",
+      "population_definition": "Eligible DREAM participants who received a successful Genio implant at the index surgery; 113 of the 115 surgery participants.",
+      "population_id": "P6",
+      "population_name": "Successfully implanted participants",
+      "population_size": 113,
+      "population_time_frame": "Successful device placement at the index implant surgery; primary assessment scheduled 12 months after surgery."
+    }
+  ],
+  "population_relation": [
+    {
+      "population_a_id": "P5",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P5",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P6",
+      "population_b_id": "P1",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P2",
+      "population_b_id": "P6",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P4",
+      "population_b_id": "P2",
+      "relationship": "subset of"
+    }
+  ],
+  "result": [
+    {
+      "assessment_time": "12 months after implant surgery",
+      "comparison": "P1: responder proportion against the prespecified 50% performance goal (single arm).",
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R01",
+      "result_unit": "participants",
+      "result_value": 73,
+      "statistic_type": "Number of AHI responders",
+      "statistical_method": "Primary worst-case imputation (missing data counted as nonresponse); one-sided one-sample exact binomial test.",
+      "supplementary_statistics": "63.5% (73/115); one-sided exact binomial test versus 50% performance goal: P = .002; Reported denominator: 115"
+    },
+    {
+      "assessment_time": "12 months after implant surgery",
+      "comparison": "P1: responder proportion against the prespecified 50% performance goal (single arm).",
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R03",
+      "result_unit": "participants",
+      "result_value": 82,
+      "statistic_type": "Number of ODI responders",
+      "statistical_method": "Primary worst-case imputation (missing data counted as nonresponse); one-sided one-sample exact binomial test.",
+      "supplementary_statistics": "71.3% (82/115); P < .001 (one-sided exact binomial test versus 50% performance goal); Reported denominator: 115"
+    },
+    {
+      "assessment_time": "Baseline (average of the screening and baseline preoperative PSGs)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P4",
+      "result_id": "R05",
+      "result_unit": "events/h",
+      "result_value": 27.8,
+      "statistic_type": "Mean",
+      "statistical_method": "Descriptive paired-data analysis; missing secondary outcome data were censored.",
+      "supplementary_statistics": "analysis n = 89; SD 11.5"
+    },
+    {
+      "assessment_time": "12 months after implant surgery",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P4",
+      "result_id": "R06",
+      "result_unit": "events/h",
+      "result_value": 9.5,
+      "statistic_type": "Mean",
+      "statistical_method": "Descriptive paired-data analysis; missing secondary outcome data were censored.",
+      "supplementary_statistics": "analysis n = 89; SD 9.4"
+    },
+    {
+      "assessment_time": "Preoperative baseline to 12 months after implant surgery",
+      "comparison": "Within P4: reported paired change from preoperative baseline to the 12-month visit; the algebraic subtraction formula is unreported.",
+      "measure_id": "M2",
+      "population_id": "P4",
+      "result_id": "R07",
+      "result_unit": "events/h",
+      "result_value": -18.3,
+      "statistic_type": "Mean within-participant change",
+      "statistical_method": "One-sided one-sample paired t test; missing secondary outcome data were censored.",
+      "supplementary_statistics": "Paired analysis n=89; SD 11.8 events/h; two-sided 95% CI −20.8 to −15.8 events/h; P < .001."
+    },
+    {
+      "assessment_time": "Baseline (average of the screening and baseline preoperative PSGs)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P4",
+      "result_id": "R08",
+      "result_unit": "events/h",
+      "result_value": 24.3,
+      "statistic_type": "Median",
+      "statistical_method": "Descriptive paired-data analysis; missing secondary outcome data were censored.",
+      "supplementary_statistics": "Reported paired continuous-analysis n=89"
+    },
+    {
+      "assessment_time": "12 months after implant surgery",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P4",
+      "result_id": "R09",
+      "result_unit": "events/h",
+      "result_value": 6.8,
+      "statistic_type": "Median",
+      "statistical_method": "Descriptive paired-data analysis; missing secondary outcome data were censored.",
+      "supplementary_statistics": "Reported paired continuous-analysis n=89"
+    }
+  ]
+}

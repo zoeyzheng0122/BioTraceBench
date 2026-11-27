@@ -1,0 +1,32 @@
+{
+  "case_id": "B043",
+  "task_id": "B043",
+  "title": "Transcriptomic profiling of chlorogenic acid and taurine treatment in human skin cells provides insights into cellular senescence mechanisms",
+  "doi": "10.3389/fmolb.2026.1748185",
+  "comparison_or_design": "The CGA-only RNA-seq comparison in normal human epidermal keratinocytes and its matched untreated reference.",
+  "observations_or_assays": [
+    "Bulk RNA sequencing"
+  ],
+  "time_scope": "The 24-hour exposure in the reported skin-cell RNA-seq experiment.",
+  "excluded": [
+    "Taurine-alone/combined treatments, melanocytes and fibroblasts",
+    "GWAS, TWAS, CMap, network/pathway analyses and other skin-cell experiments"
+  ],
+  "population_or_material": "Normal human epidermal keratinocyte preparations in GSE302932.",
+  "requested_items": [
+    "CGA alone versus untreated control, dose and exposure duration"
+  ],
+  "resources": [
+    {
+      "accession": "GSE302932",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE302932"
+    }
+  ],
+  "domain": "basic",
+  "pipeline": "basic-research",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/basic-research.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

@@ -1,0 +1,247 @@
+{
+  "measure": [
+    {
+      "measure_definition": "Measured value: Oswestry Disability Index score; Participants; Oswestry Disability Index administered; assesses interference of pain with function. Follow-up telephone assessments were conducted by a research coordinator masked to randomization.; ODI score; higher scores indicate greater pain-related disability. Baseline was recorded before randomization; follow-up is assessed at 6 months.",
+      "measure_id": "M0",
+      "measure_name": "Oswestry Disability Index (ODI) score"
+    },
+    {
+      "measure_definition": "Measured value: PROMIS-29 physical function score; Participants; PROMIS-29 physical function scale administered; follow-up telephone assessments by a research coordinator masked to randomization.; PROMIS-29 physical function scale score; higher scores indicate better physical function. Baseline was recorded before randomization; follow-up is assessed at 6 months.",
+      "measure_id": "M2",
+      "measure_name": "PROMIS-29 physical function score"
+    },
+    {
+      "measure_definition": "Measured value: PROMIS Global physical health score; Participants; PROMIS Global Health physical health summary administered; follow-up telephone assessments by a research coordinator masked to randomization.; PROMIS Global physical health summary score; higher scores indicate better physical health. Baseline was recorded before randomization; follow-up is assessed at 6 months.",
+      "measure_id": "M4",
+      "measure_name": "PROMIS Global physical health score"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "Personalized, algorithm-guided ABC care; physician-led structured assessment and treatment recommendations that could include referral to physical therapy, chiropractic, acupuncture, behavioral health, and other condition-specific treatments. Specific treatments varied by participant.",
+      "intervention_regimen": "Not reported; Initial ABC visits included a self-report screening tool, structured history and physical examination, and a collaborative personalized care plan; referrals and follow-up visits were scheduled as clinically indicated. Follow-up lasted up to 12 months; primary endpoint at 6 months.",
+      "population_definition": "Randomization to ABC care; analyzed according to intention-to-treat; Veterans aged 65 to 89 with chronic low back pain recruited from three VA medical centers; randomized to ABC care; included in intention-to-treat analyses with multiple imputation for missing continuous data.",
+      "population_id": "P0",
+      "population_name": "Aging Back Clinic (ABC) intention-to-treat population",
+      "population_size": 150,
+      "population_time_frame": "Baseline testing before randomization; follow-up assessments up to 12 months; primary endpoint at 6 months. Calendar dates Not reported."
+    },
+    {
+      "intervention": "Usual care guided by the participant's primary care provider; no ABC algorithm-guided care.",
+      "intervention_regimen": "Not reported; Participants were instructed to discuss their chronic low back pain care with their primary care provider. Follow-up assessments up to 12 months; primary endpoint at 6 months.",
+      "population_definition": "Randomization to usual care; analyzed according to intention-to-treat; Veterans aged 65 to 89 with chronic low back pain recruited from three VA medical centers; randomized to UC; included in intention-to-treat analyses with multiple imputation for missing continuous data.",
+      "population_id": "P1",
+      "population_name": "Usual care (UC) intention-to-treat population",
+      "population_size": 149,
+      "population_time_frame": "Baseline testing before randomization; follow-up assessments up to 12 months; primary endpoint at 6 months. Calendar dates Not reported."
+    },
+    {
+      "intervention": "ABC personalized algorithm-guided care or UC guided by the primary care provider.",
+      "intervention_regimen": "Not reported; Randomization stratified by VA site using random block sizes; follow-up up to 12 months; primary endpoint at 6 months.",
+      "population_definition": "Randomization to ABC or UC, combined; Veterans aged 65 to 89 with chronic low back pain from three VA medical centers; underwent baseline testing and were randomized in equal proportions to ABC or UC; follow-up planned for up to 12 months.",
+      "population_id": "P2",
+      "population_name": "All randomized participants (overall intention-to-treat cohort)",
+      "population_size": 299,
+      "population_time_frame": "Baseline testing before randomization; follow-up assessments up to 12 months; primary endpoint at 6 months. Calendar dates Not reported."
+    }
+  ],
+  "population_relation": [
+    {
+      "population_a_id": "P0",
+      "population_b_id": "P2",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P2",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P0",
+      "population_b_id": "P1",
+      "relationship": "disjoint from"
+    }
+  ],
+  "result": [
+    {
+      "assessment_time": "Baseline (before randomization)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R01",
+      "result_unit": "points",
+      "result_value": 30.5,
+      "statistic_type": "Mean ± SD (baseline score)",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 14.7"
+    },
+    {
+      "assessment_time": "Baseline (before randomization)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R02",
+      "result_unit": "points",
+      "result_value": 33.1,
+      "statistic_type": "Mean ± SD (baseline score)",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 15.3"
+    },
+    {
+      "assessment_time": "6 months after randomization (primary endpoint)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R03",
+      "result_unit": "points",
+      "result_value": -0.8,
+      "statistic_type": "Mean change from baseline ± SD",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 12.0"
+    },
+    {
+      "assessment_time": "6 months after randomization (primary endpoint)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R04",
+      "result_unit": "points",
+      "result_value": 1.2,
+      "statistic_type": "Mean change from baseline ± SD",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 11.5"
+    },
+    {
+      "assessment_time": "6 months after randomization (primary endpoint)",
+      "comparison": "P0 minus P1 (ABC minus usual care)",
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R05",
+      "result_unit": "points",
+      "result_value": -2.0,
+      "statistic_type": "Adjusted between-group difference (mean ± SE)",
+      "statistical_method": "Intention-to-treat linear mixed model for change from baseline; intervention group, follow-up time and their interaction as fixed effects, baseline outcome as covariate and participant as random effect; multiple imputation for missing continuous data in the first six months.",
+      "supplementary_statistics": "P = 0.1820; SE 1.5"
+    },
+    {
+      "assessment_time": "Baseline (before randomization)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P0",
+      "result_id": "R06",
+      "result_unit": "points",
+      "result_value": 39.2,
+      "statistic_type": "Mean ± SD (baseline score)",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 7.2"
+    },
+    {
+      "assessment_time": "Baseline (before randomization)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R07",
+      "result_unit": "points",
+      "result_value": 39.0,
+      "statistic_type": "Mean ± SD (baseline score)",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 7.5"
+    },
+    {
+      "assessment_time": "Baseline (before randomization)",
+      "comparison": null,
+      "measure_id": "M4",
+      "population_id": "P0",
+      "result_id": "R08",
+      "result_unit": "points",
+      "result_value": 41.4,
+      "statistic_type": "Mean ± SD (baseline score)",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 6.0"
+    },
+    {
+      "assessment_time": "Baseline (before randomization)",
+      "comparison": null,
+      "measure_id": "M4",
+      "population_id": "P1",
+      "result_id": "R09",
+      "result_unit": "points",
+      "result_value": 41.6,
+      "statistic_type": "Mean ± SD (baseline score)",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 7.3"
+    },
+    {
+      "assessment_time": "6 months after randomization",
+      "comparison": null,
+      "measure_id": "M4",
+      "population_id": "P0",
+      "result_id": "R10",
+      "result_unit": "points",
+      "result_value": 1.3,
+      "statistic_type": "Mean change from baseline ± SD",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 6.3"
+    },
+    {
+      "assessment_time": "6 months after randomization",
+      "comparison": null,
+      "measure_id": "M4",
+      "population_id": "P1",
+      "result_id": "R11",
+      "result_unit": "points",
+      "result_value": -1.2,
+      "statistic_type": "Mean change from baseline ± SD",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 5.9"
+    },
+    {
+      "assessment_time": "6 months after randomization",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P0",
+      "result_id": "R13",
+      "result_unit": "points",
+      "result_value": 1.0,
+      "statistic_type": "Mean change from baseline ± SD",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 6.0"
+    },
+    {
+      "assessment_time": "6 months after randomization",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R14",
+      "result_unit": "points",
+      "result_value": -0.6,
+      "statistic_type": "Mean change from baseline ± SD",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 5.6"
+    },
+    {
+      "assessment_time": "6 months after randomization",
+      "comparison": "P0 minus P1 (ABC minus usual care)",
+      "measure_id": "M2",
+      "population_id": "P0",
+      "result_id": "R15",
+      "result_unit": "points",
+      "result_value": 1.2,
+      "statistic_type": "Adjusted between-group difference (ABC vs UC; adjusted for pre-administration value as covariate using linear mixed models and multiple imputation), mean ± SE",
+      "statistical_method": "Mixed-effects model",
+      "supplementary_statistics": "P = 0.0930; SE 0.7"
+    },
+    {
+      "assessment_time": "6 months after randomization",
+      "comparison": "P0 minus P1 (ABC minus usual care)",
+      "measure_id": "M4",
+      "population_id": "P0",
+      "result_id": "R16",
+      "result_unit": "points",
+      "result_value": 2.4,
+      "statistic_type": "Adjusted between-group difference (ABC vs UC; adjusted for pre-administration value as covariate using linear mixed models and multiple imputation), mean ± SE",
+      "statistical_method": "Mixed-effects model",
+      "supplementary_statistics": "P = 0.0008; SE 0.7"
+    }
+  ]
+}

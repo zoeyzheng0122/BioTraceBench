@@ -1,0 +1,834 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="acr25671" xml:lang="en" article-type="research-article" dtd-version="1.4"><?da-xref-anchor-style autodetect?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Arthritis Care Res (Hoboken)</journal-id><journal-id journal-id-type="iso-abbrev">Arthritis Care Res (Hoboken)</journal-id><journal-id journal-id-type="pmc-domain-id">379</journal-id><journal-id journal-id-type="pmc-domain">blackwellopen</journal-id><journal-id journal-id-type="nlm-id">101518086</journal-id><journal-id journal-id-type="publisher-id">ACR</journal-id><journal-title-group><journal-title>Arthritis Care &amp; Research</journal-title></journal-title-group><issn pub-type="ppub">2151-464X</issn><issn pub-type="epub">2151-4658</issn><?publisher_abbrev blackwell?><custom-meta-group><custom-meta><meta-name>pmc-is-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-collection-title</meta-name><meta-value>Wiley Open Access Collection</meta-value></custom-meta></custom-meta-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC13116040</article-id><article-id pub-id-type="pmcid-ver">PMC13116040.1</article-id><article-id pub-id-type="pmcaid">13116040</article-id><article-id pub-id-type="pmcaiid">13116040</article-id><article-id pub-id-type="pmid">41120228</article-id><article-id pub-id-type="doi">10.1002/acr.25671</article-id><article-id pub-id-type="publisher-id">ACR25671</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Original Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Low Back Pain</subject><subj-group subj-group-type="heading"><subject>Original Article</subject></subj-group></subj-group></article-categories><title-group><article-title>Testing a Personalized Approach to Chronic Low Back Pain: A Randomized Controlled Trial in Older Veterans</article-title><alt-title alt-title-type="right-running-head">PERSONALIZED TREATMENT FOR OLDER VETERANS WITH BACK PAIN</alt-title><alt-title alt-title-type="left-running-head">WEINER ET AL</alt-title></title-group><contrib-group><contrib id="acr25671-cr-0001" contrib-type="author"><name name-style="western"><surname>Weiner</surname><given-names initials="DK">Debra K.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-8907-3155</contrib-id><xref rid="acr25671-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="acr25671-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="acr25671-cr-0002" contrib-type="author"><name name-style="western"><surname>Gentili</surname><given-names initials="A">Angela</given-names></name><xref rid="acr25671-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="acr25671-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="acr25671-cr-0003" contrib-type="author" corresp="yes"><name name-style="western"><surname>Fang</surname><given-names initials="MA">Meika A.</given-names></name><xref rid="acr25671-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref><xref rid="acr25671-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref><address><email>meika.fang@va.gov</email></address></contrib><contrib id="acr25671-cr-0004" contrib-type="author"><name name-style="western"><surname>Garay</surname><given-names initials="E">Edward</given-names></name><xref rid="acr25671-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="acr25671-cr-0005" contrib-type="author"><name name-style="western"><surname>Lawson</surname><given-names initials="L">Laura</given-names></name><xref rid="acr25671-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="acr25671-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="acr25671-cr-0006" contrib-type="author"><name name-style="western"><surname>Joseph</surname><given-names initials="L">Lenore</given-names></name><xref rid="acr25671-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="acr25671-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="acr25671-cr-0007" contrib-type="author"><name name-style="western"><surname>Lee</surname><given-names initials="CC">Cathy C.</given-names></name><xref rid="acr25671-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref><xref rid="acr25671-aff-0007" ref-type="aff">
+<sup>7</sup>
+</xref></contrib><contrib id="acr25671-cr-0008" contrib-type="author"><name name-style="western"><surname>Rossi</surname><given-names initials="MI">Michelle I.</given-names></name><xref rid="acr25671-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="acr25671-aff-0008" ref-type="aff">
+<sup>8</sup>
+</xref></contrib><contrib id="acr25671-cr-0009" contrib-type="author"><name name-style="western"><surname>Thorn</surname><given-names initials="B">Beverly</given-names></name><xref rid="acr25671-aff-0009" ref-type="aff">
+<sup>9</sup>
+</xref></contrib><contrib id="acr25671-cr-0010" contrib-type="author"><name name-style="western"><surname>Perera</surname><given-names initials="S">Subashan</given-names></name><xref rid="acr25671-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="acr25671-aff-0010" ref-type="aff">
+<sup>10</sup>
+</xref></contrib></contrib-group><aff id="acr25671-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<institution>Geriatric Research, Education and Clinic Center, VA Pittsburgh Healthcare System</institution>
+<city>Pittsburgh</city>
+<named-content content-type="country-part">Pennsylvania</named-content>
+</aff><aff id="acr25671-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<institution>VA Pittsburgh Healthcare System</institution>
+<city>Pittsburgh</city>
+<named-content content-type="country-part">Pennsylvania</named-content>
+</aff><aff id="acr25671-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<institution>Central Virginia VA Health Care System</institution>
+<city>Richmond</city>
+</aff><aff id="acr25671-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<institution>Virginia Commonwealth University Health System</institution>
+<city>Richmond</city>
+</aff><aff id="acr25671-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<institution>VA Greater Los Angeles Healthcare System</institution>
+<city>Los Angeles</city>
+<named-content content-type="country-part">California</named-content>
+</aff><aff id="acr25671-aff-0006">
+<label>
+<sup>6</sup>
+</label>
+<named-content content-type="organisation-division">David Geffen School of Medicine</named-content>
+<institution>University of California</institution>
+<city>Los Angeles</city>
+</aff><aff id="acr25671-aff-0007">
+<label>
+<sup>7</sup>
+</label>
+<named-content content-type="organisation-division">Geriatric Research</named-content>
+<institution>Education and Clinic Center, VA Greater Los Angeles Healthcare System</institution>
+<city>Los Angeles</city>
+<named-content content-type="country-part">California</named-content>
+</aff><aff id="acr25671-aff-0008">
+<label>
+<sup>8</sup>
+</label>
+<named-content content-type="organisation-division">School of Medicine</named-content>
+<institution>University of Pittsburgh</institution>
+<city>Pittsburgh</city>
+<named-content content-type="country-part">Pennsylvania</named-content>
+</aff><aff id="acr25671-aff-0009">
+<label>
+<sup>9</sup>
+</label>
+<institution>University of Alabama</institution>
+<city>Tuscaloosa</city>
+</aff><aff id="acr25671-aff-0010">
+<label>
+<sup>10</sup>
+</label>
+<named-content content-type="organisation-division">Graduate School of Public Health</named-content>
+<institution>University of Pittsburgh</institution>
+<city>Pittsburgh</city>
+<named-content content-type="country-part">Pennsylvania</named-content>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+Address correspondence via email to Meika A. Fang, MD, at <email>meika.fang@va.gov</email>.<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>08</day><month>2</month><year>2026</year></pub-date><pub-date pub-type="ppub"><month>5</month><year>2026</year></pub-date><volume>78</volume><issue seq="70">5</issue><issue-id pub-id-type="pmc-issue-id">512384</issue-id><issue-id pub-id-type="doi">10.1002/acr.v78.5</issue-id><fpage>609</fpage><lpage>619</lpage><history>
+<date date-type="rev-recd"><day>14</day><month>9</month><year>2025</year></date>
+<date date-type="received"><day>23</day><month>4</month><year>2025</year></date>
+<date date-type="accepted"><day>16</day><month>9</month><year>2025</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>27</day><month>04</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>28</day><month>04</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-04-28 12:25:16.933"><day>28</day><month>04</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2025 The Author(s). <italic toggle="yes">Arthritis Care &amp; Research</italic> published by Wiley Periodicals LLC on behalf of American College of Rheumatology.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="ACR-78-609.pdf"><?pdf-name ACR-78-609.pdf?><?pdf-size 589290?><?pdf-md5 7413d0cdb7856221d02ff442b3ea0786?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:f562/13116040/7413d0cdb785/ACR-78-609.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:ACR-78-609.pdf"/><abstract><sec id="acr25671-sec-0001"><title>Objective</title><p>We aimed to test the efficacy of personalized treatment of older veterans with chronic low back pain (CLBP) delivered by Aging Back Clinics (ABCs) as compared with usual care (UC).</p></sec><sec id="acr25671-sec-0002"><title>Methods</title><p>Two hundred ninety‐nine veterans aged 65 to 89 with CLBP from three Veterans Affairs (VA) medical centers underwent baseline testing, randomization to ABC or UC, and 12 months of follow‐up. ABC care was guided by trained physicians and published algorithms targeting key conditions contributing to CLBP (eg, hip osteoarthritis, depression, fibromyalgia). UC was guided by the participant's primary care provider. The primary outcome was six‐month change in the Oswestry Disability Index (ODI). Among multiple secondary outcomes were pain intensity, quality of life (Patient‐Reported Outcomes Measurement Information System [PROMIS]‐Global Health), self‐reported physical function (PROMIS‐29), falls, life space, and health care utilization collected at 3, 6, 9, and 12 months. Analyses were conducted according to intention‐to‐treat.</p></sec><sec id="acr25671-sec-0003"><title>Results</title><p>There were no significant group differences in ODI change. Greater improvement with ABC in the PROMIS‐29 physical function scale was observed at 12 months (1.7 vs −0.4 points), PROMIS Global physical health at 6 (1.3 vs −1.2) and 12 months (0.7 vs −1.5), PROMIS Global mental health at 6 months (0.2 vs −2.3), and present and prior week average/worst pain over 12 months (all <italic toggle="no">P</italic> &lt; 0.05). There were marginally fewer falls over 12 months (<italic toggle="no">P</italic> = 0.0527).</p></sec><sec id="acr25671-sec-0004"><title>Conclusion</title><p>We did not find confirmatory evidence that personalized care (ABC) was superior with respect to ODI. We did find preliminary evidence that ABC was superior in other respects including improved self‐reported physical health, less pain, and fewer falls.</p></sec></abstract><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>Office of Research and Development</institution><institution-id institution-id-type="doi">10.13039/100006379</institution-id></institution-wrap>
+</funding-source><award-id>#101RX002808</award-id></award-group></funding-group><counts><fig-count count="2"/><table-count count="3"/><page-count count="11"/><word-count count="7900"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>May 2026</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.7.6 mode:remove_FC converted:27.04.2026</meta-value></custom-meta></custom-meta-group></article-meta><notes><fn-group id="acr25671-ntgp-0001"><fn id="acr25671-note-0001"><p>The contents of this report do not represent the views of the Department of Veterans Affairs or the United States government.</p></fn><fn id="acr25671-note-0002"><p>Supported by the Office of Research and Development, Veterans Health Administration, Department of Veterans Affairs (grant 101RX002808).</p></fn><fn id="acr25671-note-0004"><p>Additional supplementary information cited in this article can be found online in the Supporting Information section (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.1002/acr.25671" ext-link-type="uri">https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/acr.25671</ext-link>).</p></fn><fn id="acr25671-note-0005"><p>Author disclosures are available at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://onlinelibrary.wiley.com/doi/10.1002/acr.25671" ext-link-type="uri">https://onlinelibrary.wiley.com/doi/10.1002/acr.25671</ext-link>.</p></fn></fn-group></notes></front><body id="acr25671-body-0001"><sec id="acr25671-sec-0005"><title>INTRODUCTION</title><p>Back and other musculoskeletal pains are the most common reasons that United States veterans seek medical care,<xref rid="acr25671-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref> and approximately half of such patients are aged 65 and older.<xref rid="acr25671-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref> The prevalence of low back pain in those 85 and older, the most vulnerable and fastest growing segment of society, is estimated at 44%.<xref rid="acr25671-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref> Chronic low back pain (CLBP; ie, occurring on at least half the days for at least six months<xref rid="acr25671-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref>) is associated with the overwhelming majority of low back pain–associated health care resource utilization and personal suffering, including physical disability, depression, anxiety, insomnia, cognitive dysfunction, loss of sleep and appetite, and social isolation.<xref rid="acr25671-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref>, <xref rid="acr25671-bib-0006" ref-type="bibr">
+<sup>6</sup>
+</xref>, <xref rid="acr25671-bib-0007" ref-type="bibr">
+<sup>7</sup>
+</xref> In older veterans (ie, aged ≥65), physical and emotional suffering may be compounded by a heightened risk of iatrogenic adversity associated with commonly employed interventions such as spinal injections, surgery, and potentially harmful medications (eg, gastrointestinal bleeding and renal failure with nonsteroidal anti‐inflammatory drugs, falls and hip fractures with opioids<xref rid="acr25671-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref>). Furthermore, although substantial resources continue to target treating patients with back pain, treatment outcomes are typically modest and have remained stagnant.<xref rid="acr25671-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref> What accounts for this health care crisis?</p><p>
+<boxed-text position="anchor" content-type="box" id="acr25671-blkfxd-0001" orientation="portrait"><caption><title>SIGNIFICANCE &amp; INNOVATIONS</title></caption><p>
+<list list-type="bullet" id="acr25671-list-0001"><list-item id="acr25671-li-0001"><p>This is the first clinical trial testing the efficacy of a personalized approach to managing chronic low back pain (CLBP) in older adults, guided by published algorithms that operationalize the evaluation and treatment of conditions that contribute to pain and disability and reside outside the lumbar spine.</p></list-item><list-item id="acr25671-li-0002"><p>Although we did not find confirmatory evidence of reducing self‐reported CLBP disability, we did find some evidence supporting reduction of pain intensity and falls as well as improvement in self‐reported physical health in participants who received personalized as compared with usual care.</p></list-item></list>
+</p></boxed-text>
+</p><p>CLBP is referred to in the medical literature as a “nonspecific” condition evaluated and managed using imaging‐guided spine‐specific approaches (eg, spinal injections) or generic treatments (eg, pain medications, physical therapy, cognitive behavioral therapy). Spine‐specific approaches may lead to suboptimal outcomes in older adults because imaging‐identified pathology such as degenerative disc disease and spinal stenosis are common in older individuals, even those who are pain free<xref rid="acr25671-bib-0010" ref-type="bibr">
+<sup>10</sup>
+</xref>, <xref rid="acr25671-bib-0011" ref-type="bibr">
+<sup>11</sup>
+</xref>; thus, such approaches may or may not target actual contributors to pain. Generically applied first‐line treatments such as physical therapy, cognitive behavioral therapy, and/or oral analgesics typically result in only modest improvement in pain and function,<xref rid="acr25671-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref> perhaps not surprising because CLBP is a biopsychosocial syndrome in which disability may be caused by a combination of physical and psychosocial factors for which optimal treatment requires a comprehensive approach.<xref rid="acr25671-bib-0013" ref-type="bibr">
+<sup>13</sup>
+</xref> In older adults, there may be a combination of specific CLBP‐associated disability contributors such as hip osteoarthritis, myofascial pain, fibromyalgia, and depression that cannot be detected by spinal imaging but for which evidence‐based treatments exist.</p><p>The present manuscript reports the results of a clinical trial based on the premise that CLBP in older adults is a geriatric syndrome, that is, a final common pathway for the expression of multiple specific contributors.<xref rid="acr25671-bib-0014" ref-type="bibr">
+<sup>14</sup>
+</xref> The lumbar spine is considered the weakest link (ie, the most vulnerable part of the system), and multiple conditions outside it are considered potential treatment targets.<xref rid="acr25671-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref> We have published a series of evidence and expert opinion‐based clinical evaluation and treatment algorithms for key conditions that are commonly overlooked or misdiagnosed in older adults with CLBP (ie, hip osteoarthritis, fibromyalgia, myofascial pain, depression, anxiety, insomnia, maladaptive coping, sacroiliac joint syndrome, leg length inequality, lateral hip and thigh pain, lumbar spinal stenosis, dementia)<xref rid="acr25671-bib-0016" ref-type="bibr">
+<sup>16</sup>
+</xref>, <xref rid="acr25671-bib-0017" ref-type="bibr">
+<sup>17</sup>
+</xref>, <xref rid="acr25671-bib-0018" ref-type="bibr">
+<sup>18</sup>
+</xref>, <xref rid="acr25671-bib-0019" ref-type="bibr">
+<sup>19</sup>
+</xref>, <xref rid="acr25671-bib-0020" ref-type="bibr">
+<sup>20</sup>
+</xref>, <xref rid="acr25671-bib-0021" ref-type="bibr">
+<sup>21</sup>
+</xref>, <xref rid="acr25671-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref>, <xref rid="acr25671-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref>, <xref rid="acr25671-bib-0024" ref-type="bibr">
+<sup>24</sup>
+</xref>; we have explored their prevalence in older veterans<xref rid="acr25671-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref> and conducted a pilot study demonstrating feasibility and preliminary efficacy of algorithm‐guided care.<xref rid="acr25671-bib-0026" ref-type="bibr">
+<sup>26</sup>
+</xref> We hypothesized that older veterans with CLBP who are randomized to receive care in Aging Back Clinics (ABCs) that conduct evaluations and prescribe treatment using a comprehensive, algorithm‐guided approach will have greater 6‐month (primary endpoint) and 12‐month reductions in pain‐related disability (primary outcome) and improvements in other outcomes as compared with those who receive usual care (UC).</p></sec><sec id="acr25671-sec-0007"><title>PARTICIPANTS AND METHODS</title><sec id="acr25671-sec-0009"><title>Study participants</title><p>The parent study methodology is described in detail elsewhere.<xref rid="acr25671-bib-0027" ref-type="bibr">
+<sup>27</sup>
+</xref> The study was approved by the Veterans Affairs (VA) Central Institutional Review Board (no. 18‐23, approved 9‐13‐2018). Briefly, 299 veterans aged 65 to 89 with CLBP, on average, of at least moderate severity (based on a verbal descriptor scale) were recruited from three VA sites (VA Pittsburgh Healthcare System, Pittsburgh, Pennsylvania; Central Virginia VA Health Care System, Richmond, Virginia; West LA VA Medical Center, Los Angeles, California). Participants were excluded if they did not speak English or had other communication difficulties (severe uncorrected vision or hearing loss), screened positive for possible dementia based on a Folstein mini‐mental state examination (MMSE)<xref rid="acr25671-bib-0028" ref-type="bibr">
+<sup>28</sup>
+</xref> score less than 24 of 30 (because the psychometric properties of our outcome measures have not been established in those with dementia), had psychotic symptoms, were acutely ill, had previously undergone lumbar surgery, had pain in other body locations more severe than that in the lower back, reported active illicit substance use, or had “red flags” (ie, signs or symptoms indicative of serious underlying illness requiring urgent care for their low back pain). Race and ethnicity were obtained from the participant's electronic medical record.</p></sec><sec id="acr25671-sec-0010"><title>Testing procedures</title><sec id="acr25671-sec-0011"><title>Baseline</title><p>The following parameters were assessed on all participants at baseline: (1) the Oswestry Disability Index (ODI)<xref rid="acr25671-bib-0029" ref-type="bibr">
+<sup>29</sup>
+</xref>, our primary outcome measure, assesses interference of pain with function; (2) the Minimal Data Set (MDS), recommended by the National Institutes of Health Task Force on research standards for CLBP,<xref rid="acr25671-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref> measures pain severity and interference with daily activities, widespread pain, prior CLBP treatments, overall physical function, depressive symptoms, sleep, psychological maladaptation (ie, fear‐avoidance beliefs and catastrophizing), alcohol/drug use, cigarette smoking, demographics (age, race, ethnicity, gender, education, marital status), height, and weight; (3) the Patient‐Reported Outcomes Measurement Information System (PROMIS)‐29 items not already included in the MDS—anxiety symptoms, fatigue, and participation in social roles and activities<xref rid="acr25671-bib-0030" ref-type="bibr">
+<sup>30</sup>
+</xref>; (4) other key cofactors that could contribute to disability—medical comorbidity (Duke comorbidity index<xref rid="acr25671-bib-0031" ref-type="bibr">
+<sup>31</sup>
+</xref>), pain medications (opioids and nonopioids), social support (Medical Outcomes Study Social Support Scale<xref rid="acr25671-bib-0032" ref-type="bibr">
+<sup>32</sup>
+</xref>), opioid difficulties in those taking opioids (Prescribed Opioids Difficulties Scale<xref rid="acr25671-bib-0033" ref-type="bibr">
+<sup>33</sup>
+</xref>) and smoking status; (5) pain severity rated 0 to 10 for pain now, average pain over the past week, and worst pain over the past week; (6) the Pain Self‐Efficacy Questionnaire<xref rid="acr25671-bib-0034" ref-type="bibr">
+<sup>34</sup>
+</xref> assesses the confidence people with ongoing pain have in performing activities while in pain; (7) quality of life was assessed with (a) the PROMIS Global Health scale and (b) the Veterans RAND 12 Item Health Survey (VR‐12), a measure of health‐related quality of life comprised of 12 items and collapsed into two summary variables—physical health and mental health; (8) the Quick Mild Cognitive Impairment (QMCI) screen is a validated measure that screens for the presence of mild cognitive impairment<xref rid="acr25671-bib-0035" ref-type="bibr">
+<sup>35</sup>
+</xref> (participants with more significant cognitive impairment were already excluded using the MMSE); (9) balance confidence was evaluated with the Falls Efficacy Scale‐international short form<xref rid="acr25671-bib-0036" ref-type="bibr">
+<sup>36</sup>
+</xref>; (10) falls were assessed as the number of self‐reported falls over the prior three months; and (11) mobility was assessed with gait speed and life space, the spatial extent of a person's mobility.<xref rid="acr25671-bib-0037" ref-type="bibr">
+<sup>37</sup>
+</xref>
+</p></sec><sec id="acr25671-sec-0012"><title>Intervention phase</title><p>Procedures conducted during the intervention phase are described in detail elsewhere.<xref rid="acr25671-bib-0027" ref-type="bibr">
+<sup>27</sup>
+</xref> Following collection of baseline measures, participants were randomized in equal proportions to receive either UC or algorithm‐guided personalized CLBP care in ABCs stratified by VA site and using random block sizes of four and six (chosen with equal likelihood). Those randomized to UC were instructed to discuss their CLBP care with their primary care provider. Those randomized to ABC care received a personalized treatment regimen by ABC providers.</p><p>ABC providers were VA medical center physicians. At the Pittsburgh VA, there were three providers—two geriatricians and one physiatrist/pain medicine physician. At the Richmond VA, there were three providers—two geriatricians and one neurologist. At the West LA VA there were two providers—one geriatrician and one rheumatologist.</p><p>ABC providers received structured training from the principal investigator (PI) on the application of our published algorithms on diagnostic criteria and management guidelines of 11 separate conditions contributing to CLBP. The PI also assessed treatment implementation fidelity (ie, adherence to treatment algorithms) by conducting a monthly review of structured research notes and providing ABC providers with written feedback.</p><p>At the initial ABC visits, the study coordinators asked the veterans to complete a self‐report tool on an electronic tablet, <italic toggle="yes">Take Back Your Back</italic>, to screen for conditions contributing to their CLBP and related disability (eg, hip osteoarthritis, depression, fibromyalgia) and help guide the clinical assesment.<xref rid="acr25671-bib-0038" ref-type="bibr">
+<sup>38</sup>
+</xref> The ABC providers reviewed the results of the screening tool and conducted a structured history and physical examination to identify the specific treatment targets. As an example, if the participant screened positive for depression on the Patient Health Questionnaire‐2, they would conduct a more detailed assessment for depression. ABC providers educated veterans on the clinical findings and the conditions contributing to the CLBP and then collaborated with veterans to design a multifaceted personalized care plan with specific treatment recommendations for each condition as guided by our algorithms. An educational booklet was provided to patients detailing their personalized treatment targets and plans.</p><p>As the management plan was based on a collaborative approach, veterans were free to choose some and decline other treatment recommendations. The ABC providers referred participants to the appropriate services (eg, physical therapy, chiropractic, acupuncture, behavioral health) and conducted follow‐up visits as they felt appropriate. The number of treatments was determined by the providers to which veterans were referred. Veterans were permitted to continue identified treatments for the duration of the follow‐up period or as long as deemed appropriate by the receiving service. If acute issues arose before their scheduled follow‐up appointments with ABC providers, veterans were permitted to reach out to schedule an earlier appointment.</p></sec><sec id="acr25671-sec-0013"><title>Follow‐up</title><p>In the ABC group, the ABC provider scheduled follow‐up visits as clinically indicated, with the last visit scheduled at the end of the study. The primary outcome point was at six months following randomization. The follow‐up period lasted up to 12 months. In both the ABC and UC groups, measures were collected over the telephone by a research coordinator masked to randomization assignment, either monthly (pain intensity and health care utilization), every 3 months (ODI, PROMIS‐29, falls and falls efficacy, PROMIS global health, VR‐12), or at 12 months (medications, global impression of change). Health care utilization was assessed as numbers of office visits, emergency room visits, hospitalizations, opioid prescriptions, and back injections in both intervention arms. At the final study visit, participants were asked to evaluate the perceived value of the various treatments that they received, from 0 = not helpful to 10 = extremely helpful.</p><p>For the 9‐month and 12‐month data collection time points, data were collected on a subset of participants. The clinical trial was conducted during the peak of the COVID‐19 pandemic and recruitment was often challenging, with recruitment extending beyond the planned period. The final participants in the trial were asked to volunteer to be observed for only six months, as it was the primary study end point. This is reflected in Figure <xref rid="acr25671-fig-0001" ref-type="fig">1</xref>, which annotates some participants as “optional.”</p><fig position="float" fig-type="Figure" id="acr25671-fig-0001" orientation="portrait"><label>Figure 1</label><caption><p>Study participant flow. ABC, Aging Back Clinic; F/U, follow‐up; UC, usual care.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="ACR-78-609-g002.jpg"><?image-name ACR-78-609-g002.jpg?><?image-size 109782?><?image-md5 738039a30e5ca2fa62b8ffd52a9f9ae0?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 912?><?image-original-width 1064?><?image-scaled-height 608?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/f562/13116040/738039a30e5c/ACR-78-609-g002.jpg?><?thumb-name ACR-78-609-g002.gif?><?thumb-size 3363?><?thumb-md5 efe16e828bd89e72b891250705533122?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 86?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/f562/13116040/efe16e828bd8/ACR-78-609-g002.gif?></graphic></fig></sec></sec><sec id="acr25671-sec-0014"><title>Statistical analysis</title><p>Prior data and assumptions include a between‐subject SD of 18 points for pre‐ to postintervention change in the primary outcome ODI<xref rid="acr25671-bib-0039" ref-type="bibr">
+<sup>39</sup>
+</xref> and a conservative dropout rate of 15% from other back pain trials.<xref rid="acr25671-bib-0040" ref-type="bibr">
+<sup>40</sup>
+</xref> With 330 participants randomized and 280 anticipated completers, we sought be able to detect an observed primary outcome difference as small as seven points with 90% power in a two‐tailed test at the α = 0.05 level. Due to the aforementioned challenges due to the COVID‐19 pandemic, we were able to randomize only 299 participants, which was estimated to afford 87% statistical power under the same assumptions.</p><p>We used appropriate descriptive statistics to summarize participant characteristics and outcomes by intervention group and time point. Participant baseline characteristics were compared between intervention arms using independent samples <italic toggle="yes">t</italic>‐ and chi‐square tests, as appropriate. The main analyses were conducted on an intention‐to‐treat basis and multiple imputation for missing data in continuous variables from the first six months. Specifically, for continuous outcomes (including the primary outcome), we fitted a series of linear mixed models with change from baseline as the dependent variable; intervention group, follow‐up time point, and their interaction as fixed effects of interest; baseline value of the outcome as a fixed effect covariate; and participant as a random effect. Means contrasts were constructed to estimate the adjusted between‐group difference at each follow‐up time point. For count outcomes representing health care utilization and falls, we fitted negative binomial regression models with logarithm of reporting months as an offset (exposure) and intervention group as the independent variable, and we estimated incident rate ratios to quantify the intervention effects. SAS software version 9.4 (SAS Institute, Inc.) was used for statistical analysis.</p></sec></sec><sec sec-type="results" id="acr25671-sec-0015"><title>RESULTS</title><p>Participant flow is shown in Figure <xref rid="acr25671-fig-0001" ref-type="fig">1</xref>. A total of 411 veterans were screened and 299 were randomized. Supplemental Table <xref rid="acr25671-supitem-0002" ref-type="supplementary-material">1</xref> lists reasons for exclusion. All follow‐up data were collected by telephone. There were no reportable adverse events.</p><p>Participant baseline characteristics are displayed in Table <xref rid="acr25671-tbl-0001" ref-type="table">1</xref>. Mean age was approximately 73 years, most participants were male, more than two‐thirds were White, approximately a quarter were Black, and majority had attended at least some college. There were no significant between‐group differences, with the exception of a greater percentage of participants in the ABC group reporting refreshing sleep and more participants in the UC group with sleep disturbance and worse QMCI performance on the clock drawing and logical memory tests.</p><table-wrap position="float" id="acr25671-tbl-0001" content-type="Table" orientation="portrait"><label>Table 1</label><caption><p>Participant baseline characteristics<xref rid="acr25671-note-0006" ref-type="table-fn">*</xref>
+</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="center" valign="bottom" rowspan="1" colspan="1">Participant characteristic</th><th align="center" valign="bottom" rowspan="1" colspan="1">ABC (n = 150)</th><th align="center" valign="bottom" rowspan="1" colspan="1">UC (n = 149)</th><th align="center" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">P</italic> value<xref rid="acr25671-note-0007" ref-type="table-fn">
+<sup>a</sup>
+</xref>
+</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">Age</td><td align="center" valign="top" rowspan="1" colspan="1">73.5 ± 5.1</td><td align="center" valign="top" rowspan="1" colspan="1">73.3 ± 5.0</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.7956</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Male gender</td><td align="center" valign="top" rowspan="1" colspan="1">136 (90.7)</td><td align="center" valign="top" rowspan="1" colspan="1">143 (96.0)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.0663</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Hispanic ethnicity</td><td align="center" valign="top" rowspan="1" colspan="1">11 (7.3)</td><td align="center" valign="top" rowspan="1" colspan="1">14 (9.4)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.5194</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Race</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="char" char="." valign="top" rowspan="1" colspan="1">0.5653</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Asian</td><td align="center" valign="top" rowspan="1" colspan="1">0 (0.0)</td><td align="center" valign="top" rowspan="1" colspan="1">3 (2.0)</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Black</td><td align="center" valign="top" rowspan="1" colspan="1">41 (27.3)</td><td align="center" valign="top" rowspan="1" colspan="1">41 (27.5)</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Native American</td><td align="center" valign="top" rowspan="1" colspan="1">2 (1.3)</td><td align="center" valign="top" rowspan="1" colspan="1">2 (1.3)</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Pacific Islander</td><td align="center" valign="top" rowspan="1" colspan="1">1 (0.7)</td><td align="center" valign="top" rowspan="1" colspan="1">1 (0.7)</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">White</td><td align="center" valign="top" rowspan="1" colspan="1">105 (70.0)</td><td align="center" valign="top" rowspan="1" colspan="1">99 (66.4)</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Unspecified</td><td align="center" valign="top" rowspan="1" colspan="1">1 (0.7)</td><td align="center" valign="top" rowspan="1" colspan="1">3 (2.0)</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Education</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="char" char="." valign="top" rowspan="1" colspan="1">0.4162</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">High school or less</td><td align="center" valign="top" rowspan="1" colspan="1">50 (33.6)</td><td align="center" valign="top" rowspan="1" colspan="1">40 (26.7)</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">At least some college</td><td align="center" valign="top" rowspan="1" colspan="1">75 (50.3)</td><td align="center" valign="top" rowspan="1" colspan="1">85 (56.7)</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Graduate/professional degree</td><td align="center" valign="top" rowspan="1" colspan="1">24 (16.1)</td><td align="center" valign="top" rowspan="1" colspan="1">25 (16.7)</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Oswestry Disability Index</td><td align="center" valign="top" rowspan="1" colspan="1">30.5 ± 14.7</td><td align="center" valign="top" rowspan="1" colspan="1">33.1 ± 15.3</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.1239</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Duke Comorbidity Index</td><td align="center" valign="top" rowspan="1" colspan="1">3.4 ± 1.3</td><td align="center" valign="top" rowspan="1" colspan="1">3.6 ± 1.3</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.2165</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Cardiac</td><td align="center" valign="top" rowspan="1" colspan="1">35 (23.3)</td><td align="center" valign="top" rowspan="1" colspan="1">33 (22.2)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.8068</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Neurologic</td><td align="center" valign="top" rowspan="1" colspan="1">14 (9.3)</td><td align="center" valign="top" rowspan="1" colspan="1">22 (14.8)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.1490</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Musculoskeletal</td><td align="center" valign="top" rowspan="1" colspan="1">140 (93.3)</td><td align="center" valign="top" rowspan="1" colspan="1">136 (91.3)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.5043</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">General</td><td align="center" valign="top" rowspan="1" colspan="1">90 (60.0)</td><td align="center" valign="top" rowspan="1" colspan="1">91 (61.1)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.8494</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Visual/hearing</td><td align="center" valign="top" rowspan="1" colspan="1">114 (76.0)</td><td align="center" valign="top" rowspan="1" colspan="1">122 (81.9)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.2126</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Diabetes</td><td align="center" valign="top" rowspan="1" colspan="1">44 (29.3)</td><td align="center" valign="top" rowspan="1" colspan="1">49 (32.9)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.5070</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Cancer</td><td align="center" valign="top" rowspan="1" colspan="1">39 (26.0)</td><td align="center" valign="top" rowspan="1" colspan="1">43 (28.9)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.5795</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Lung</td><td align="center" valign="top" rowspan="1" colspan="1">35 (23.3)</td><td align="center" valign="top" rowspan="1" colspan="1">40 (26.9)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.4836</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Minimum data set</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Height, in.</td><td align="center" valign="top" rowspan="1" colspan="1">68.5 ± 3.4</td><td align="center" valign="top" rowspan="1" colspan="1">69.5 ± 3.3</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.0119</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Weight, lb</td><td align="center" valign="top" rowspan="1" colspan="1">209.2 ± 42.7</td><td align="center" valign="top" rowspan="1" colspan="1">212.4 ± 38.2</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.4930</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Body mass index</td><td align="center" valign="top" rowspan="1" colspan="1">31.5 ± 6.5</td><td align="center" valign="top" rowspan="1" colspan="1">31.0 ± 5.4</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.5009</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Average pain</td><td align="center" valign="top" rowspan="1" colspan="1">5.6 ± 1.8</td><td align="center" valign="top" rowspan="1" colspan="1">5.6 ± 1.9</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.1213</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Pain duration 5+ y</td><td align="center" valign="top" rowspan="1" colspan="1">118 (78.7)</td><td align="center" valign="top" rowspan="1" colspan="1">120 (80.5)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.6882</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Pain every day</td><td align="center" valign="top" rowspan="1" colspan="1">133 (88.7)</td><td align="center" valign="top" rowspan="1" colspan="1">128 (85.9)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.4736</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Leg pain</td><td align="center" valign="top" rowspan="1" colspan="1">55 (36.7)</td><td align="center" valign="top" rowspan="1" colspan="1">52 (34.9)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.7499</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Bothersome stomach pain</td><td align="center" valign="top" rowspan="1" colspan="1">111 (74.0)</td><td align="center" valign="top" rowspan="1" colspan="1">110 (73.8)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.9726</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Bothersome joint pain</td><td align="center" valign="top" rowspan="1" colspan="1">33 (22.0)</td><td align="center" valign="top" rowspan="1" colspan="1">28 (18.8)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.4913</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Bothersome headache</td><td align="center" valign="top" rowspan="1" colspan="1">109 (72.7)</td><td align="center" valign="top" rowspan="1" colspan="1">97 (65.1)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.1576</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Bothersome widespread pain</td><td align="center" valign="top" rowspan="1" colspan="1">76 (50.7)</td><td align="center" valign="top" rowspan="1" colspan="1">79 (53.0)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.6838</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Prior low back pain treatments</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Opioid painkiller use (ever used)</td><td align="center" valign="top" rowspan="1" colspan="1">63 (42.0)</td><td align="center" valign="top" rowspan="1" colspan="1">57 (38.3)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.5089</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Current opioid use</td><td align="center" valign="top" rowspan="1" colspan="1">29 (19.3)</td><td align="center" valign="top" rowspan="1" colspan="1">33 (22.2)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.5484</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Injections (ever used)</td><td align="center" valign="top" rowspan="1" colspan="1">45 (30.0)</td><td align="center" valign="top" rowspan="1" colspan="1">45 (30.2)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.9697</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Exercise therapy (ever used)</td><td align="center" valign="top" rowspan="1" colspan="1">98 (65.3)</td><td align="center" valign="top" rowspan="1" colspan="1">94 (63.1)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.6854</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Psychological counseling (ever used)</td><td align="center" valign="top" rowspan="1" colspan="1">18 (12.0)</td><td align="center" valign="top" rowspan="1" colspan="1">19 (12.8)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.8435</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Unemployed 1+ mo</td><td align="center" valign="top" rowspan="1" colspan="1">6 (4.0)</td><td align="center" valign="top" rowspan="1" colspan="1">11 (7.4)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.2066</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Disability/worker's compensation</td><td align="center" valign="top" rowspan="1" colspan="1">10 (6.7)</td><td align="center" valign="top" rowspan="1" colspan="1">15 (10.1)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.2882</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Felt worthless (sometimes/often/always)</td><td align="center" valign="top" rowspan="1" colspan="1">21 (14.0)</td><td align="center" valign="top" rowspan="1" colspan="1">21 (14.1)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.9813</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Felt helpless (sometimes/often/always)</td><td align="center" valign="top" rowspan="1" colspan="1">23 (15.3)</td><td align="center" valign="top" rowspan="1" colspan="1">22 (14.8)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.8907</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Felt depressed (sometimes/often/always)</td><td align="center" valign="top" rowspan="1" colspan="1">29 (19.3)</td><td align="center" valign="top" rowspan="1" colspan="1">35 (23.5)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.3809</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Felt hopeless (sometimes/often/always)</td><td align="center" valign="top" rowspan="1" colspan="1">12 (8.0)</td><td align="center" valign="top" rowspan="1" colspan="1">15 (10.1)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.5329</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Sleep quality (good/very good)</td><td align="center" valign="top" rowspan="1" colspan="1">52 (34.7)</td><td align="center" valign="top" rowspan="1" colspan="1">50 (33.6)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.8396</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Refreshing sleep (somewhat/quite a bit/very much)</td><td align="center" valign="top" rowspan="1" colspan="1">106 (70.7)</td><td align="center" valign="top" rowspan="1" colspan="1">86 (57.7)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.0195</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Problems with sleep (somewhat/quite a bit/very much)</td><td align="center" valign="top" rowspan="1" colspan="1">83 (55.3)</td><td align="center" valign="top" rowspan="1" colspan="1">92 (61.7)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.2605</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Difficulty falling asleep (somewhat/quite a bit/very much)</td><td align="center" valign="top" rowspan="1" colspan="1">49 (32.7)</td><td align="center" valign="top" rowspan="1" colspan="1">60 (40.3)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.1721</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Unsafe to be physically active (fear‐avoidance belief)</td><td align="center" valign="top" rowspan="1" colspan="1">39 (26.0)</td><td align="center" valign="top" rowspan="1" colspan="1">43 (28.9)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.5795</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Pain is terrible and never going to get better (catastrophizing)</td><td align="center" valign="top" rowspan="1" colspan="1">55 (36.7)</td><td align="center" valign="top" rowspan="1" colspan="1">61 (40.9)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.4484</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Drinking/drug use</td><td align="center" valign="top" rowspan="1" colspan="1">12 (8.0)</td><td align="center" valign="top" rowspan="1" colspan="1">18 (12.1)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.2403</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Need to reduce drinking</td><td align="center" valign="top" rowspan="1" colspan="1">11 (7.3)</td><td align="center" valign="top" rowspan="1" colspan="1">13 (8.7)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.6579</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Smoking status:</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="char" char="." valign="top" rowspan="1" colspan="1">0.5145</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Never smoker</td><td align="center" valign="top" rowspan="1" colspan="1">48 (32.0)</td><td align="center" valign="top" rowspan="1" colspan="1">40 (26.9)</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Current smoker</td><td align="center" valign="top" rowspan="1" colspan="1">19 (12.7)</td><td align="center" valign="top" rowspan="1" colspan="1">24 (16.1)</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Quit smoking</td><td align="center" valign="top" rowspan="1" colspan="1">83 (55.3)</td><td align="center" valign="top" rowspan="1" colspan="1">85 (57.1)</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Pain medications</td><td align="center" valign="top" rowspan="1" colspan="1">103 (68.7)</td><td align="center" valign="top" rowspan="1" colspan="1">100 (67.1)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.7737</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Opioid pain medications</td><td align="center" valign="top" rowspan="1" colspan="1">17 (11.3)</td><td align="center" valign="top" rowspan="1" colspan="1">14 (9.4)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.5827</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">MOS social support</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Emotional/informational</td><td align="center" valign="top" rowspan="1" colspan="1">76.3 ± 24.3</td><td align="center" valign="top" rowspan="1" colspan="1">75.7 ± 23.5</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.8344</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Tangible</td><td align="center" valign="top" rowspan="1" colspan="1">78.4 ± 25.6</td><td align="center" valign="top" rowspan="1" colspan="1">78.6 ± 24.4</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.9360</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Affectionate</td><td align="center" valign="top" rowspan="1" colspan="1">75.3 ± 24.9</td><td align="center" valign="top" rowspan="1" colspan="1">72.1 ± 26.7</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.2869</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Positive social interaction</td><td align="center" valign="top" rowspan="1" colspan="1">78.6 ± 24.2</td><td align="center" valign="top" rowspan="1" colspan="1">75.5 ± 24.6</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.2808</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Overall</td><td align="center" valign="top" rowspan="1" colspan="1">77.2 ± 23.7</td><td align="center" valign="top" rowspan="1" colspan="1">76.0 ± 23.3</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.6605</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Prescribed opioids difficulties scale</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Psychological problems</td><td align="center" valign="top" rowspan="1" colspan="1">0.4 ± 2.2</td><td align="center" valign="top" rowspan="1" colspan="1">0.7 ± 3.0</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.2415</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Opioid control concerns</td><td align="center" valign="top" rowspan="1" colspan="1">0.3 ± 1.7</td><td align="center" valign="top" rowspan="1" colspan="1">0.5 ± 2.2</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.3333</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Overall</td><td align="center" valign="top" rowspan="1" colspan="1">0.7 ± 2.8</td><td align="center" valign="top" rowspan="1" colspan="1">1.2 ± 4.2</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.1684</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Opioids helpful (at least a little)</td><td align="center" valign="top" rowspan="1" colspan="1">21 (14.0)</td><td align="center" valign="top" rowspan="1" colspan="1">25 (16.8)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.5055</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">MMSE</td><td align="center" valign="top" rowspan="1" colspan="1">28.6 ± 1.6</td><td align="center" valign="top" rowspan="1" colspan="1">28.5 ± 1.6</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.6186</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Pain scale</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">At the moment</td><td align="center" valign="top" rowspan="1" colspan="1">4.0 ± 2.7</td><td align="center" valign="top" rowspan="1" colspan="1">4.2 ± 2.6</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.4736</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Prior week average</td><td align="center" valign="top" rowspan="1" colspan="1">5.7 ± 2.0</td><td align="center" valign="top" rowspan="1" colspan="1">6.0 ± 2.0</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.2691</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Worst</td><td align="center" valign="top" rowspan="1" colspan="1">8.0 ± 1.8</td><td align="center" valign="top" rowspan="1" colspan="1">8.1 ± 2.1</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.7005</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Pain self‐efficacy scale</td><td align="center" valign="top" rowspan="1" colspan="1">44.6 ± 11.6</td><td align="center" valign="top" rowspan="1" colspan="1">43.5 ± 12.6</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.4574</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">PROMIS‐29</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Physical function</td><td align="center" valign="top" rowspan="1" colspan="1">39.2 ± 7.2</td><td align="center" valign="top" rowspan="1" colspan="1">39.0 ± 7.5</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.8491</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Anxiety scale</td><td align="center" valign="top" rowspan="1" colspan="1">46.8 ± 8.4</td><td align="center" valign="top" rowspan="1" colspan="1">48.1 ± 8.9</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.1716</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Depression scale</td><td align="center" valign="top" rowspan="1" colspan="1">46.7 ± 7.7</td><td align="center" valign="top" rowspan="1" colspan="1">46.9 ± 7.7</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.8679</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Fatigue</td><td align="center" valign="top" rowspan="1" colspan="1">51.6 ± 8.8</td><td align="center" valign="top" rowspan="1" colspan="1">51.1 ± 9.6</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.6559</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Sleep disturbances</td><td align="center" valign="top" rowspan="1" colspan="1">51.1 ± 7.6</td><td align="center" valign="top" rowspan="1" colspan="1">53.0 ± 8.4</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.0419</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Social roles</td><td align="center" valign="top" rowspan="1" colspan="1">50.1 ± 8.7</td><td align="center" valign="top" rowspan="1" colspan="1">48.7 ± 9.8</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.2027</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Pain interference</td><td align="center" valign="top" rowspan="1" colspan="1">59.0 ± 6.4</td><td align="center" valign="top" rowspan="1" colspan="1">59.7 ± 7.6</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.4421</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Average pain</td><td align="center" valign="top" rowspan="1" colspan="1">5.6 ± 1.8</td><td align="center" valign="top" rowspan="1" colspan="1">5.9 ± 1.9</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.2232</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">PROMIS Global Health</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">General health</td><td align="center" valign="top" rowspan="1" colspan="1">3.3 ± 0.9</td><td align="center" valign="top" rowspan="1" colspan="1">3.0 ± 0.9</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.3561</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Roles</td><td align="center" valign="top" rowspan="1" colspan="1">3.3 ± 0.9</td><td align="center" valign="top" rowspan="1" colspan="1">3.4 ± 1.1</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.7132</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Physical health</td><td align="center" valign="top" rowspan="1" colspan="1">41.4 ± 6.0</td><td align="center" valign="top" rowspan="1" colspan="1">41.6 ± 7.3</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.7220</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Mental health</td><td align="center" valign="top" rowspan="1" colspan="1">48.8 ± 8.3</td><td align="center" valign="top" rowspan="1" colspan="1">49.2 ± 78.7</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.7061</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">QMCI</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Orientation</td><td align="center" valign="top" rowspan="1" colspan="1">10.0 ± 0.3</td><td align="center" valign="top" rowspan="1" colspan="1">9.9 ± 0.4</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.6143</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Word registration</td><td align="center" valign="top" rowspan="1" colspan="1">4.7 ± 0.6</td><td align="center" valign="top" rowspan="1" colspan="1">4.6 ± 0.6</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.1109</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Clock drawing</td><td align="center" valign="top" rowspan="1" colspan="1">13.3 ± 2.4</td><td align="center" valign="top" rowspan="1" colspan="1">12.5 ± 2.9</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.0186</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Delayed recall</td><td align="center" valign="top" rowspan="1" colspan="1">13.1 ± 5.2</td><td align="center" valign="top" rowspan="1" colspan="1">12.6 ± 5.3</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.4940</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Verbal fluency</td><td align="center" valign="top" rowspan="1" colspan="1">14.1 ± 5.0</td><td align="center" valign="top" rowspan="1" colspan="1">14.3 ± 5.0</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.7972</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Logical memory</td><td align="center" valign="top" rowspan="1" colspan="1">19.1 ± 5.3</td><td align="center" valign="top" rowspan="1" colspan="1">17.6 ± 5.7</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.0190</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Total score</td><td align="center" valign="top" rowspan="1" colspan="1">74.2 ± 12.1</td><td align="center" valign="top" rowspan="1" colspan="1">71.5 ± 12.5</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.0647</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">VR‐12</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Physical summary</td><td align="center" valign="top" rowspan="1" colspan="1">35.2 ± 10.0</td><td align="center" valign="top" rowspan="1" colspan="1">35.2 ± 10.5</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.9613</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Mental summary</td><td align="center" valign="top" rowspan="1" colspan="1">53.8 ± 10.2</td><td align="center" valign="top" rowspan="1" colspan="1">53.6 ± 9.8</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.8579</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Gait speed, m/s</td><td align="center" valign="top" rowspan="1" colspan="1">0.72 ± 0.25</td><td align="center" valign="top" rowspan="1" colspan="1">0.70 ± 0.23</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.3233</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Life Space Assessment</td><td align="center" valign="top" rowspan="1" colspan="1">69.5 ± 27.3</td><td align="center" valign="top" rowspan="1" colspan="1">69.0 ± 27.5</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.8939</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Falls Efficacy Scale</td><td align="center" valign="top" rowspan="1" colspan="1">12.3 ± 5.5</td><td align="center" valign="top" rowspan="1" colspan="1">12.7 ± 5.9</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.5466</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Falls prior 3 mo</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Any</td><td align="center" valign="top" rowspan="1" colspan="1">40 (26.7)</td><td align="center" valign="top" rowspan="1" colspan="1">46 (30.9)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.4072</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Multiple</td><td align="center" valign="top" rowspan="1" colspan="1">23 (15.3)</td><td align="center" valign="top" rowspan="1" colspan="1">25 (16.8)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.6953</td></tr></tbody></table><table-wrap-foot id="acr25671-ntgp-0002"><fn id="acr25671-note-0006"><label>*</label><p>Values are in mean ± SD or n (%). Computed using independent samples <italic toggle="yes">t</italic> tests for continuous variables, and chi‐square and Fisher's exact tests for categorical variables. ABC, Aging Back Clinic; MMSE, mini‐mental state examination; MOS, Medical Outcomes Study; PROMIS, Patient‐Reported Outcomes Measurement Information System; QMCI, Quick Mild Cognitive Impairment; UC, usual care; VR‐12, Veterans RAND 12 Item Health Survey.</p></fn><fn id="acr25671-note-0007"><label>
+<sup>a</sup>
+</label><p>Using independent samples <italic toggle="yes">t</italic>‐ or chi‐square tests.</p></fn></table-wrap-foot></table-wrap><p>Table <xref rid="acr25671-tbl-0002" ref-type="table">2</xref> and Figure <xref rid="acr25671-fig-0002" ref-type="fig">2</xref> display change of the ODI, the primary outcome. There were no significant differences in ODI change (the primary outcome) at any of the time points. Significant differences in several of the secondary outcome changes were observed, as displayed in Supplemental Table <xref rid="acr25671-supitem-0002" ref-type="supplementary-material">2</xref>. ABC group showed greater improvement in the PROMIS‐29 physical function scale at 12 months (1.7 vs −0.4 points), PROMIS Global general health at 12 months (−0.2 vs −0.4), PROMIS Global physical health scale at 6 (1.3 vs −1.2) and 12 months (0.7 vs −1.5), PROMIS Global mental health at 6 months (0.2 vs −2.3), and present and prior week average/worst pain over 12 months (all <italic toggle="yes">P</italic> &lt; 0.05; Figure <xref rid="acr25671-fig-0002" ref-type="fig">2</xref>).</p><table-wrap position="float" id="acr25671-tbl-0002" content-type="Table" orientation="portrait"><label>Table 2</label><caption><p>Continuous primary outcome changes from baseline by intervention group<xref rid="acr25671-note-0008" ref-type="table-fn">*</xref>
+</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="center" valign="bottom" rowspan="1" colspan="1">Outcome and period of change, Oswestry Disability Index</th><th align="center" valign="bottom" rowspan="1" colspan="1">ABC (n = 150), mean ± SD</th><th align="center" valign="bottom" rowspan="1" colspan="1">UC (n = 149), mean ± SD</th><th align="center" valign="bottom" rowspan="1" colspan="1">Adjusted difference,<xref rid="acr25671-note-0009" ref-type="table-fn">
+<sup>a</sup>
+</xref> mean ± SE</th><th align="center" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">P</italic> value</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">3 mo</td><td align="char" char="±" valign="top" rowspan="1" colspan="1">−0.4 ± 13.0</td><td align="char" char="±" valign="top" rowspan="1" colspan="1">2.7 ± 11.3</td><td align="char" char="±" valign="top" rowspan="1" colspan="1">−2.7 ± 1.6</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.0982</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">6 mo<xref rid="acr25671-note-0010" ref-type="table-fn">
+<sup>b</sup>
+</xref>
+</td><td align="char" char="±" valign="top" rowspan="1" colspan="1">−0.8 ± 12.0</td><td align="char" char="±" valign="top" rowspan="1" colspan="1">1.2 ± 11.5</td><td align="char" char="±" valign="top" rowspan="1" colspan="1">−2.0 ± 1.5</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.1820</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">9 mo</td><td align="char" char="±" valign="top" rowspan="1" colspan="1">1.3 ± 14.7</td><td align="char" char="±" valign="top" rowspan="1" colspan="1">−0.2 ± 12.6</td><td align="char" char="±" valign="top" rowspan="1" colspan="1">−0.3 ± 1.7</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.8738</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">12 mo</td><td align="char" char="±" valign="top" rowspan="1" colspan="1">0.2 ± 14.0</td><td align="char" char="±" valign="top" rowspan="1" colspan="1">2.8 ± 12.1</td><td align="char" char="±" valign="top" rowspan="1" colspan="1">−2.8 ± 1.6</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.0844</td></tr></tbody></table><table-wrap-foot id="acr25671-ntgp-0003"><fn id="acr25671-note-0008"><label>*</label><p>ABC, Aging Back Clinic; UC, usual care.</p></fn><fn id="acr25671-note-0009"><label>
+<sup>a</sup>
+</label><p>Adjusted for preadministration value of the physiologic measure as a covariate using linear mixed models and multiple imputation for missing data.</p></fn><fn id="acr25671-note-0010"><label>
+<sup>b</sup>
+</label><p>Primary outcome and endpoint.</p></fn></table-wrap-foot></table-wrap><fig position="float" fig-type="Figure" id="acr25671-fig-0002" orientation="portrait"><label>Figure 2</label><caption><p>Changes in pain and related disability between usual care (UC) group and aging back clinic (ABC) group.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="ACR-78-609-g001.jpg"><?image-name ACR-78-609-g001.jpg?><?image-size 141062?><?image-md5 05a3175306e8496619fefe1b0ea27965?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1027?><?image-original-width 1064?><?image-scaled-height 684?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/f562/13116040/05a3175306e8/ACR-78-609-g001.jpg?><?thumb-name ACR-78-609-g001.gif?><?thumb-size 12739?><?thumb-md5 3ac16642420d4e3f88c2e1cc0483b84d?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 97?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/f562/13116040/3ac16642420d/ACR-78-609-g001.gif?></graphic></fig><p>Table <xref rid="acr25671-tbl-0003" ref-type="table">3</xref> displays effect on count outcomes representing health care utilization and falls. There were more office visits in the ABC group (2.3 vs 1.78 per person‐month; <italic toggle="yes">P</italic> = 0.0287) and marginally significantly fewer falls (0.23 vs 0.36 per person‐month; <italic toggle="yes">P</italic> = 0.0527).</p><table-wrap position="float" id="acr25671-tbl-0003" content-type="Table" orientation="portrait"><label>Table 3</label><caption><p>Effect on healthcare utilization outcome (6–12 months) and falls (over 12 months)<xref rid="acr25671-note-0011" ref-type="table-fn">*</xref>
+</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="center" valign="bottom" rowspan="1" colspan="1">Outcome</th><th align="center" valign="bottom" rowspan="1" colspan="1">ABC, rate per person‐month</th><th align="center" valign="bottom" rowspan="1" colspan="1">UC, rate per person‐month</th><th align="center" valign="bottom" rowspan="1" colspan="1">Incident rate ratio<xref rid="acr25671-note-0012" ref-type="table-fn">
+<sup>a</sup>
+</xref> (95% CI)</th><th align="center" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">P</italic> value</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">Office visits</td><td align="char" char="." valign="top" rowspan="1" colspan="1">2.30</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.78</td><td align="char" char="(" valign="top" rowspan="1" colspan="1">1.59 (1.05‐2.41)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.0287</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Emergency room visits</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.08</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.06</td><td align="char" char="(" valign="top" rowspan="1" colspan="1">1.78 (0.64‐4.95)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.2658</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Hospital visits</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.03</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.02</td><td align="char" char="(" valign="top" rowspan="1" colspan="1">1.59 (0.52‐4.84)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.4172</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Opioid prescriptions</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.01</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.02</td><td align="char" char="(" valign="top" rowspan="1" colspan="1">0.74 (0.23‐2.35)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.6064</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Back injections</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.00</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.01</td><td align="char" char="(" valign="top" rowspan="1" colspan="1">0.24 (0.01‐10.5)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.4561</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Falls</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.23</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.36</td><td align="char" char="(" valign="top" rowspan="1" colspan="1">0.39 (0.15‐1.01)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.0527</td></tr></tbody></table><table-wrap-foot id="acr25671-ntgp-0004"><fn id="acr25671-note-0011"><label>*</label><p>ABC, Aging Back Clinic; CI, confidence interval; UC, usual care.</p></fn><fn id="acr25671-note-0012"><label>
+<sup>a</sup>
+</label><p>Estimated using a negative binomial regression model unless otherwise noted.</p></fn></table-wrap-foot></table-wrap><p>Supplemental Table <xref rid="acr25671-supitem-0002" ref-type="supplementary-material">3</xref> describes the conditions identified at baseline by the ABC provider and the services to which participants were triaged for the length of their study participation. Each condition screened was present in at least 20% participants, with the exception of fibromyalgia (present in 2.7%) and leg length discrepancy (present in 11.3%). One or more central nervous system (CNS) conditions (anxiety, depression, fibromyalgia, insomnia, maladaptive coping) were present in 67.3% of participants. One or more physical conditions (hip osteoarthritis, lateral hip/thigh pain, leg length discrepancy, lumbar spinal stenosis, myofascial pain, sacroiliac joint syndrome) was identified in 90% of participants. Both CNS and physical conditions were present in 64.7% of participants. Services most often referred to varied by condition, and overall were behavioral health, physical therapy, hip injection, and acupuncture. Supplemental Table <xref rid="acr25671-supitem-0002" ref-type="supplementary-material">4</xref> repeats Table <xref rid="acr25671-tbl-0002" ref-type="table">2</xref> and Supplemental Table <xref rid="acr25671-supitem-0002" ref-type="supplementary-material">2</xref> analyses with ABC group restricted to participants that were highly compliant with treatment recommended by the ABC provider (assessed by the ABC provider at the final study visit), showing a strengthening of the magnitudes of intervention effect.</p><p>Supplemental Table <xref rid="acr25671-supitem-0002" ref-type="supplementary-material">5</xref> displays data on the frequency of various treatments received during the course of the study and participants perceived value of these treatments. For the majority of treatments queried, more participants in the ABC group received treatment than those in the UC group. For shots in the spine/muscle and massage, more participants in the UC group received these treatments than those in the ABC group. Although a similar percentage of participants were taking opioids in the ABC group (19.3%) and the UC group (17.4%), their perceived value was greater in the UC group (mean rating 6.6) as compared with the ABC group (mean rating 5.3). For the acupuncture and two education treatments, their perceived value was more than one point greater in the ABC group (6.3, 4.9, 5.2) than in the UC group (4.4, 3.5, 3.4). For yoga, its perceived value was greater in the UC group (6.8) than in the ABC group (4.5). For each of the other treatments, their perceived value was similar in both groups.</p></sec><sec sec-type="discussion" id="acr25671-sec-0016"><title>DISCUSSION</title><p>Older veterans with CLBP who were treated using a personalized, algorithm‐guided approach did not show confirmatory evidence of greater improvement in CLBP‐associated disability as compared with those who received UC. Several secondary outcomes including at‐the‐moment and prior week pain and physical health demonstrated statistically significant evidence of greater improvement, and physical health improvement was also clinically significant based on a two‐point change, the lower end of the published range.<xref rid="acr25671-bib-0041" ref-type="bibr">
+<sup>41</sup>
+</xref> Also, the fall rate demonstrated somewhat weaker evidence of greater improvement in the ABC group compared to the UC group.</p><p>We did not demonstrate evidence of a greater improvement in our primary outcome, the ODI, in contrast to other clinical trials that have focused on older adults with CLBP. One trial tested the efficacy of 12 weeks versus 36 weeks of chiropractic spinal manipulation and exercise in 182 older adults with back pain for an average of 18 weeks and demonstrated significant reduction in ODI scores in both groups.<xref rid="acr25671-bib-0042" ref-type="bibr">
+<sup>42</sup>
+</xref> A small study (n = 31) conducted in older women with low back pain for at least 3 months of the prior 12 (mean low back pain duration ~8 years) demonstrated efficacy of core stability training with significant improvement in the ODI.<xref rid="acr25671-bib-0043" ref-type="bibr">
+<sup>43</sup>
+</xref> Another small study (n = 20) that compared two types of physical therapy in older adults with a mean low back pain duration of 12 to 16 months also demonstrated significant ODI improvement immediately after an eight‐week intervention.<xref rid="acr25671-bib-0044" ref-type="bibr">
+<sup>44</sup>
+</xref> However, we do also note the preliminary evidence of efficacy with respect to other secondary outcomes and strengthening of the intervention effects in the per‐protocol post hoc analysis as aspects of consistency with prior studies.</p><p>The reason for difference between our findings and those of others is likely multifaceted. In each of the above studies, the frequency and content of the interventions were standardized, but ours were not. Although our algorithms recommend a specific triage path for participants with contributing conditions, the content, frequency, and duration of the treatments themselves were left to the discretion of treating clinicians and collaborative discussions with participants with a view toward pragmatism. In addition, participants were referred to different clinicians and therapists with variable skill sets. Participant compliance (eg, with treatment session attendance and/or follow‐through with a home program) also was very likely quite variable.</p><p>Approximately 80% of our participants reported back pain duration of at least five years. In two of the three studies referenced above, low back pain duration was significantly shorter, and it may have influenced treatment response.<xref rid="acr25671-bib-0042" ref-type="bibr">
+<sup>42</sup>
+</xref>, <xref rid="acr25671-bib-0044" ref-type="bibr">
+<sup>44</sup>
+</xref> Although one of the pilot studies included participants with a mean back pain duration of eight years, its small sample size (n = 31) and restriction to only female participants prevent a direct comparison with our study. Another study had 63 participants, women with CLBP randomized to Pilates twice a week for 10 weeks or to a home exercise program. This study demonstrated significant improvement in the well‐validated Roland Morris Disability Questionnaire (RMDQ), but only 3 of 63 participants reported a back pain duration of at least 12 months.<xref rid="acr25671-bib-0045" ref-type="bibr">
+<sup>45</sup>
+</xref>
+</p><p>Participants’ duration of back pain in two fully powered efficacy trials was similar to ours, thus permitting more direct comparison of study findings. Morone and colleagues conducted a study of mindfulness meditation in 282 older adults with CLBP and demonstrated significant improvement in pain, but not in the RMDQ.<xref rid="acr25671-bib-0040" ref-type="bibr">
+<sup>40</sup>
+</xref> Karp and colleagues conducted a randomized controlled trial of older adults with comorbid CLBP and depression in which participants were randomized to either pharmacotherapy and supportive therapy or pharmacotherapy and problem‐solving therapy.<xref rid="acr25671-bib-0046" ref-type="bibr">
+<sup>46</sup>
+</xref> Although there was no between‐groups difference in outcomes, both groups improved significantly on the RMDQ.<xref rid="acr25671-bib-0046" ref-type="bibr">
+<sup>46</sup>
+</xref> The findings highlight the importance of treating key nonphysical factors in ameliorating CLBP‐associated disability in older adults and the value of delivering structured, intensive treatment toward demonstrating an impact on outcomes.</p><p>Another factor that potentially threatened our ability to demonstrate a significant impact of ABC care on pain‐associated disability was that UC was our control group. Because pain initiatives have been implemented in the VA health care system nationally, usual pain care in the VA is likely distinct from that in general community settings. In 2009 the Veterans Health Administration (VHA) published a directive (2009‐053) that included a stepped‐care model for managing pain in veterans, spanning from foundational services (ie, pain self‐management) to primary care services (step 1), to specialty pain care services (step 2), to tertiary pain care services (step 3). Subsequent research in veterans with chronic pain demonstrated the efficacy of this model in reducing pain‐related disability, pain interference, and pain severity compared with UC as it existed at the time, that is, care not guided by stepped‐care management.<xref rid="acr25671-bib-0047" ref-type="bibr">
+<sup>47</sup>
+</xref> In 2013 the VHA launched another major pain initiative, the Opioid Safety Initiative, that was designed to mitigate high risk prescribing behavior. Because of such initiatives, it is likely that UC in our clinical trial incorporated more robust pain management strategies than that in non‐VA settings.</p><p>The impact of ABC care on pain intensity and falls is worth highlighting. Participants in the ABC group reported less present and average pain over the prior week at 6 and 12 months, and marginally fewer falls over the 12 months. The link between pain and falls has been demonstrated by others.<xref rid="acr25671-bib-0048" ref-type="bibr">
+<sup>48</sup>
+</xref> It has been previously demonstrated that a decline in the PROMIS‐Global physical health summary score is associated with increased falls,<xref rid="acr25671-bib-0049" ref-type="bibr">
+<sup>49</sup>
+</xref> and it is noteworthy that our study participants randomized to ABC care had greater improvement in the PROMIS‐Global physical health summary score than those randomized to UC.</p><p>The only difference between groups in health care utilization were more office visits in the ABC group than the UC group. This was likely related to the multiple visits associated with many pain interventions in the ABC group, such as acupuncture, chiropractic, physical therapy, and behavioral therapy. It should be highlighted that utilization of health care services was determined by self‐report, which may be less accurate than direct query of electronic medical records, an assessment modality that was not employed in our study. Future studies should consider including more distal measurement of health care utilization (eg, emergency room visits, performance of invasive procedures, opioid prescriptions) as a way to assess an intervention's ultimate impact.</p><p>Our findings regarding the prevalence and perceived value of various treatments received are worth highlighting. The prevalence of referral to many pain treatments was greater in the ABC group than the UC group. A key aspect of providing care for patients with chronic pain is active self‐management. It is noteworthy that participants randomized to UC received passive intervention modalities (ie, spinal injections and massage) more often than did those in the ABC group. In addition, it is noteworthy that participants in the UC group rated the perceived value of opioids higher (mean 6.6 on a 10‐point scale) than those randomized to ABC care (mean 5.3 on a 10‐point scale). As we only queried participants about the perceived value of various treatments at the end of the study, we cannot determine the impact of ABC care itself on modifying the perceived value of opioids. It is conceivable that exposure of the ABC participants to more education on the limited role of opioids and the value of nonopioid treatments (per Supplemental Table <xref rid="acr25671-supitem-0002" ref-type="supplementary-material">5</xref>) played a role and should be taken into consideration in future studies.</p><p>ABC participants rated the perceived value of two educational components more highly than UC participants—education about causes of their back pain by the doctor (4.9 in ABCs versus 3.5 in UC), and the educational booklet on how to think about pain differently (5.2 in ABCs versus 3.4 in UC). Ample evidence supports the value of education in treating patients with CLBP,<xref rid="acr25671-bib-0050" ref-type="bibr">
+<sup>50</sup>
+</xref> and practitioners should evaluate the quality of educational materials provided before their distribution.</p><p>Although our study's sample size, geographic diversity, and incorporation of a comprehensive biopsychosocial approach were strengths, its limitations also should be highlighted. Conducting a study exclusively in veterans naturally limits potential for generalizability to nonveterans. Also, even though ours was the first substantial randomized controlled trial conducted using our algorithms, we used a pragmatic approach. Typically, initial efficacy trials test an intervention that is administered using a rigorous protocol, often overtreating to demonstrate an effect. The nature of our multifaceted intervention, however, did not allow for such an approach. Although beneficial in terms of ease of implementation and application of study findings to the care of veterans in real‐world settings, our intervention's pragmatic nature likely required a significantly larger sample size as well as strategies to promote and measure compliance to demonstrate a significant effect on ODI. As noted above, however, others who have implemented protocolized interventions also have been unable to demonstrate an impact on CLBP‐associated disability.</p><p>Given the value of pragmatism as well as protocolization, perhaps future clinical trials might consider implementing elements of both, for example, a structured physical activity program and/or protocolized treatment of key conditions (eg, depression, per the study of Karp et al) in addition to algorithm‐guided care.<xref rid="acr25671-bib-0046" ref-type="bibr">
+<sup>46</sup>
+</xref> Investigators may also wish to consider restricting participants to those with only one or two key disability‐causing conditions. Another limitation of our study is the subjective measure of treatment adherence (ie, provider assessed). A future large study may wish to consider an objective assessment of adherence (eg, attendance of visits to referred providers through collection of electronic medical record data). Additionally, we had a large number of secondary outcomes, and the efficacy with respect to those should be interpreted with caution and as preliminary findings. Given the burgeoning of older adults worldwide, additional research targeting this vulnerable population with CLBP is needed.</p></sec><sec id="acr25671-sec-0017"><title>AUTHOR CONTRIBUTIONS</title><p>All authors contributed to at least one of the following manuscript preparation roles: conceptualization AND/OR methodology, software, investigation, formal analysis, data curation, visualization, and validation AND drafting or reviewing/editing the final draft. As corresponding author, Dr Fang confirms that all authors have provided the final approval of the version to be published, and takes responsibility for the affirmations regarding article submission (eg, not under consideration by another journal), the integrity of the data presented, and the statements regarding compliance with institutional review board/Declaration of Helsinki requirements.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="acr25671-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Disclosure Form</bold>:</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ACR-78-609-s002.pdf" position="float" orientation="portrait"><?suppdata-name ACR-78-609-s002.pdf?><?suppdata-size 914278?><?suppdata-md5 fe661c1320ef4223ae5ed42fe3af25d1?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type pdf?><?suppdata-cloudpmc-urn urn:app:f562/13116040/fe661c1320ef/ACR-78-609-s002.pdf?></media></supplementary-material><supplementary-material id="acr25671-supitem-0002" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Supplemental Table 1.</bold> Reasons for exclusions (N=91).</p><p>
+<bold>Supplemental Table 2:</bold> Continuous non‐primary outcome changes from baseline by intervention group.</p><p>
+<bold>Supplemental Table 3:</bold> Conditions identified at baseline and referrals any time during follow‐up in the ABC group (N=150).</p><p>
+<bold>Supplemental Table 4:</bold> Outcome changes from baseline by intervention group with ABC group restricted to highly compliant cases with participants compliant with treatment for all conditions. Non‐compliance was defined as having a condition and participant refusal of a treatment or having travel or other prohibitive barriers.</p><p>
+<bold>Supplemental Table 5:</bold> Perceived value of received treatment components (0=not helpful; 10=extremely helpful).</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ACR-78-609-s001.docx" position="float" orientation="portrait"><?suppdata-name ACR-78-609-s001.docx?><?suppdata-size 46295?><?suppdata-md5 ab8e1dbbd56ca9d1af80d931274424e7?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.wordprocessingml.document?><?suppdata-cloudpmc-urn urn:app:f562/13116040/ab8e1dbbd56c/ACR-78-609-s001.docx?></media></supplementary-material></sec></body><back><ref-list id="acr25671-bibl-0001" content-type="cited-references"><title>References</title><ref id="acr25671-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="acr25671-cit-0001">
+<string-name name-style="western">
+<surname>Kerns</surname>
+<given-names>RD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Otis</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rosenberg</surname>
+<given-names>R</given-names>
+</string-name>, et al. <article-title>Veterans’ reports of pain and associations with ratings of health, health‐risk behaviors, affective distress, and use of the healthcare system</article-title>. <source>J Rehabil Res Dev</source>
+<year>2003</year>;<volume>40</volume>(<issue>5</issue>):<fpage>371</fpage>–<lpage>379</lpage>.<pub-id pub-id-type="pmid">15080222</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1682/jrrd.2003.09.0371</pub-id></mixed-citation></ref><ref id="acr25671-bib-0002"><label>2</label><mixed-citation publication-type="miscellaneous" id="acr25671-cit-0002">
+<collab collab-type="authors">National Center for Veterans Analysis and Statistics</collab>
+. <article-title>U.S. Department of Veterans Affairs</article-title>. Accessed June 1, 2016. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.va.gov/vetdata/Veteran_Population.asp" ext-link-type="uri">https://www.va.gov/vetdata/Veteran_Population.asp</ext-link>
+</mixed-citation></ref><ref id="acr25671-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="acr25671-cit-0003">
+<string-name name-style="western">
+<surname>Selim</surname>
+<given-names>AJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fincke</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Berlowitz</surname>
+<given-names>DR</given-names>
+</string-name>, et al. <article-title>Comprehensive health status assessment of centenarians: results from the 1999 large health survey of veteran enrollees</article-title>. <source>J Gerontol A Biol Sci Med Sci</source>
+<year>2005</year>;<volume>60</volume>(<issue>4</issue>):<fpage>515</fpage>–<lpage>519</lpage>.<pub-id pub-id-type="pmid">15933394</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/gerona/60.4.515</pub-id></mixed-citation></ref><ref id="acr25671-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="acr25671-cit-0004">
+<string-name name-style="western">
+<surname>Deyo</surname>
+<given-names>RA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dworkin</surname>
+<given-names>SF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Amtmann</surname>
+<given-names>D</given-names>
+</string-name>, et al. <article-title>Report of the NIH Task Force on research standards for chronic low back pain</article-title>. <source>J Pain</source>
+<year>2014</year>;<volume>15</volume>(<issue>6</issue>):<fpage>569</fpage>–<lpage>585</lpage>.<pub-id pub-id-type="pmid">24787228</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jpain.2014.03.005</pub-id><pub-id pub-id-type="pmcid">PMC4128347</pub-id></mixed-citation></ref><ref id="acr25671-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="acr25671-cit-0005">
+<string-name name-style="western">
+<surname>Rundell</surname>
+<given-names>SD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sherman</surname>
+<given-names>KJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Heagerty</surname>
+<given-names>PJ</given-names>
+</string-name>, et al. <article-title>Predictors of persistent disability and back pain in older adults with a new episode of care for back pain</article-title>. <source>Pain Med</source>
+<year>2017</year>;<volume>18</volume>(<issue>6</issue>):<fpage>1049</fpage>–<lpage>1062</lpage>.<pub-id pub-id-type="pmid">27688311</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/pm/pnw236</pub-id></mixed-citation></ref><ref id="acr25671-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="acr25671-cit-0006">
+<string-name name-style="western">
+<surname>Weiner</surname>
+<given-names>DK</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rudy</surname>
+<given-names>TE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Morrow</surname>
+<given-names>L</given-names>
+</string-name>, et al. <article-title>The relationship between pain, neuropsychological performance, and physical function in community‐dwelling older adults with chronic low back pain</article-title>. <source>Pain Med</source>
+<year>2006</year>;<volume>7</volume>(<issue>1</issue>):<fpage>60</fpage>–<lpage>70</lpage>.<pub-id pub-id-type="pmid">16533199</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/j.1526-4637.2006.00091.x</pub-id></mixed-citation></ref><ref id="acr25671-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="acr25671-cit-0007">
+<string-name name-style="western">
+<surname>Finan</surname>
+<given-names>PH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Goodin</surname>
+<given-names>BR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Smith</surname>
+<given-names>MT</given-names>
+</string-name>. <article-title>The association of sleep and pain: an update and a path forward</article-title>. <source>J Pain</source>
+<year>2013</year>;<volume>14</volume>(<issue>12</issue>):<fpage>1539</fpage>–<lpage>1552</lpage>.<pub-id pub-id-type="pmid">24290442</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jpain.2013.08.007</pub-id><pub-id pub-id-type="pmcid">PMC4046588</pub-id></mixed-citation></ref><ref id="acr25671-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="acr25671-cit-0008">
+<collab collab-type="authors">By the 2023 American Geriatrics Society Beers Criteria® Update Expert Panel</collab>
+. <article-title>American Geriatrics Society 2023 updated AGS Beers Criteria® for potentially inappropriate medication use in older adults</article-title>. <source>J Am Geriatr Soc</source>
+<year>2023</year>;<volume>71</volume>(<issue>7</issue>):<fpage>2052</fpage>–<lpage>2081</lpage>.<pub-id pub-id-type="pmid">37139824</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/jgs.18372</pub-id><pub-id pub-id-type="pmcid">PMC12478568</pub-id></mixed-citation></ref><ref id="acr25671-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="acr25671-cit-0009">
+<string-name name-style="western">
+<surname>Martin</surname>
+<given-names>BI</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Deyo</surname>
+<given-names>RA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mirza</surname>
+<given-names>SK</given-names>
+</string-name>, et al. <article-title>Expenditures and health status among adults with back and neck problems</article-title>. <source>JAMA</source>
+<year>2008</year>;<volume>299</volume>(<issue>6</issue>):<fpage>656</fpage>–<lpage>664</lpage>.<pub-id pub-id-type="pmid">18270354</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jama.299.6.656</pub-id></mixed-citation></ref><ref id="acr25671-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="acr25671-cit-0010">
+<string-name name-style="western">
+<surname>Hicks</surname>
+<given-names>GE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Morone</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Weiner</surname>
+<given-names>DK</given-names>
+</string-name>. <article-title>Degenerative lumbar disc and facet disease in older adults: prevalence and clinical correlates</article-title>. <source>Spine</source>
+<year>2009</year>;<volume>34</volume>(<issue>12</issue>):<fpage>1301</fpage>–<lpage>1306</lpage>.<pub-id pub-id-type="pmid">19455005</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1097/BRS.0b013e3181a18263</pub-id><pub-id pub-id-type="pmcid">PMC2867597</pub-id></mixed-citation></ref><ref id="acr25671-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="acr25671-cit-0011">
+<string-name name-style="western">
+<surname>Jarvik</surname>
+<given-names>JJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hollingworth</surname>
+<given-names>W</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Heagerty</surname>
+<given-names>P</given-names>
+</string-name>, et al. <article-title>The longitudinal assessment of imaging and disability of the back (LAIDBack) study: baseline data</article-title>. <source>Spine</source>
+<year>2001</year>;<volume>26</volume>(<issue>10</issue>):<fpage>1158</fpage>–<lpage>1166</lpage>.<pub-id pub-id-type="pmid">11413431</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1097/00007632-200105150-00014</pub-id></mixed-citation></ref><ref id="acr25671-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="acr25671-cit-0012">
+<string-name name-style="western">
+<surname>Qaseem</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wilt</surname>
+<given-names>TJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McLean</surname>
+<given-names>RM</given-names>
+</string-name>, et al; <collab collab-type="authors">Clinical Guidelines Committee of the American College of Physicians</collab>
+. <article-title>Noninvasive treatments for acute, subacute, and chronic low back pain: a clinical practice guideline from the American College of Physicians</article-title>. <source>Ann Intern Med</source>
+<year>2017</year>;<volume>166</volume>(<issue>7</issue>):<fpage>514</fpage>–<lpage>530</lpage>.<pub-id pub-id-type="pmid">28192789</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.7326/M16-2367</pub-id></mixed-citation></ref><ref id="acr25671-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="acr25671-cit-0013">
+<string-name name-style="western">
+<surname>Karayannis</surname>
+<given-names>NV</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sturgeon</surname>
+<given-names>JA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chih‐Kao</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Pain interference and physical function demonstrate poor longitudinal association in people living with pain: a PROMIS investigation</article-title>. <source>Pain</source>
+<year>2017</year>;<volume>158</volume>(<issue>6</issue>):<fpage>1063</fpage>–<lpage>1068</lpage>.<pub-id pub-id-type="pmid">28221284</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1097/j.pain.0000000000000881</pub-id><pub-id pub-id-type="pmcid">PMC5427986</pub-id></mixed-citation></ref><ref id="acr25671-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="acr25671-cit-0014">
+<string-name name-style="western">
+<surname>Inouye</surname>
+<given-names>SK</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Studenski</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tinetti</surname>
+<given-names>ME</given-names>
+</string-name>, et al. <article-title>Geriatric syndromes: clinical, research, and policy implications of a core geriatric concept</article-title>. <source>J Am Geriatr Soc</source>
+<year>2007</year>;<volume>55</volume>(<issue>5</issue>):<fpage>780</fpage>–<lpage>791</lpage>.<pub-id pub-id-type="pmid">17493201</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/j.1532-5415.2007.01156.x</pub-id><pub-id pub-id-type="pmcid">PMC2409147</pub-id></mixed-citation></ref><ref id="acr25671-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="acr25671-cit-0015">
+<string-name name-style="western">
+<surname>Resnick</surname>
+<given-names>NM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Marcantonio</surname>
+<given-names>ER</given-names>
+</string-name>. <article-title>How should clinical care of the aged differ?</article-title> <source>Lancet</source>
+<year>1997</year>;<volume>350</volume>(<issue>9085</issue>):<fpage>1157</fpage>–<lpage>1158</lpage>.<pub-id pub-id-type="pmid">9343515</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S0140-6736(05)63817-2</pub-id></mixed-citation></ref><ref id="acr25671-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="acr25671-cit-0016">
+<string-name name-style="western">
+<surname>Weiner</surname>
+<given-names>DK</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fang</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gentili</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>Deconstructing chronic low back pain in the older adult‐‐step by step evidence and expert‐based recommendations for evaluation and treatment: part I: Hip osteoarthritis</article-title>. <source>Pain Med</source>
+<year>2015</year>;<volume>16</volume>(<issue>5</issue>):<fpage>886</fpage>–<lpage>897</lpage>.<pub-id pub-id-type="pmid">25846648</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/pme.12757</pub-id></mixed-citation></ref><ref id="acr25671-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="acr25671-cit-0017">
+<string-name name-style="western">
+<surname>Polsunas</surname>
+<given-names>PJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sowa</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fritz</surname>
+<given-names>JM</given-names>
+</string-name>, et al. <article-title>Deconstructing chronic low back pain in the older adult – step by step evidence and expert‐based recommendations for evaluation and treatment: part X: sacroiliac Joint Syndrome</article-title>. <source>Pain Med</source>
+<year>2016</year>;<volume>17</volume>(<issue>9</issue>):<fpage>1638</fpage>–<lpage>1647</lpage>.<pub-id pub-id-type="pmid">27605679</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/pm/pnw151</pub-id></mixed-citation></ref><ref id="acr25671-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="acr25671-cit-0018">
+<string-name name-style="western">
+<surname>Karp</surname>
+<given-names>JF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>DiNapoli</surname>
+<given-names>EA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wetherell</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Deconstructing chronic low back pain in the older adult – step by step evidence and expert‐based recommendations for evaluation and treatment: part IX: anxiety</article-title>. <source>Pain Med</source>
+<year>2016</year>;<volume>17</volume>(<issue>8</issue>):<fpage>1423</fpage>–<lpage>1435</lpage>.<pub-id pub-id-type="pmid">27346887</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/pm/pnw135</pub-id></mixed-citation></ref><ref id="acr25671-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="acr25671-cit-0019">
+<string-name name-style="western">
+<surname>DiNapoli</surname>
+<given-names>EA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Craine</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dougherty</surname>
+<given-names>P</given-names>
+</string-name>, et al. <article-title>Deconstructing chronic low back pain in the older adult—step by step evidence and expert‐based recommendations for evaluation and treatment. Part V: maladaptive coping</article-title>. <source>Pain Med</source>
+<year>2016</year>;<volume>17</volume>(<issue>1</issue>):<fpage>64</fpage>–<lpage>73</lpage>.<pub-id pub-id-type="pmid">26768183</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/pm/pnv055</pub-id><pub-id pub-id-type="pmcid">PMC6281001</pub-id></mixed-citation></ref><ref id="acr25671-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="acr25671-cit-0020">
+<string-name name-style="western">
+<surname>Lisi</surname>
+<given-names>AJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Breuer</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gallagher</surname>
+<given-names>RM</given-names>
+</string-name>, et al. <article-title>Deconstructing chronic low back pain in the older adult ‐ step by step evidence and expert‐based recommendations for evaluation and treatment: part II: myofascial pain</article-title>. <source>Pain Med</source>
+<year>2015</year>;<volume>16</volume>(<issue>7</issue>):<fpage>1282</fpage>–<lpage>1289</lpage>.<pub-id pub-id-type="pmid">26087225</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/pme.12821</pub-id></mixed-citation></ref><ref id="acr25671-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="acr25671-cit-0021">
+<string-name name-style="western">
+<surname>Carley</surname>
+<given-names>JA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Karp</surname>
+<given-names>JF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gentili</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>Deconstructing chronic low back pain in the older adult ‐ step by step evidence and expert‐based recommendations for evaluation and treatment</article-title>. <source>Part IV: depression. Pain Med</source>
+<year>2015</year>;<volume>16</volume>(<issue>11</issue>):<fpage>2098</fpage>–<lpage>2108</lpage>.<pub-id pub-id-type="pmid">26539754</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/pme.12935</pub-id><pub-id pub-id-type="pmcid">PMC4821461</pub-id></mixed-citation></ref><ref id="acr25671-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="acr25671-cit-0022">
+<string-name name-style="western">
+<surname>Fatemi</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fang</surname>
+<given-names>MA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Breuer</surname>
+<given-names>P</given-names>
+</string-name>, et al. <article-title>Deconstructing chronic low back pain in the older adult‐‐Step by step evidence and expert‐based recommendations for evaluation and treatment part III: fibromyalgia syndrome</article-title>. <source>Pain Med</source>
+<year>2015</year>;<volume>16</volume>(<issue>9</issue>):<fpage>1709</fpage>–<lpage>1719</lpage>.<pub-id pub-id-type="pmid">26272644</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/pme.12863</pub-id><pub-id pub-id-type="pmcid">PMC5066871</pub-id></mixed-citation></ref><ref id="acr25671-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="acr25671-cit-0023">
+<string-name name-style="western">
+<surname>Rho</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Camacho‐Soto</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cheng</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>Deconstructing chronic low back pain in the older adult – step by step evidence and expert‐based recommendations for evaluation and treatment: part VIII: lateral hip and thigh pain</article-title>. <source>Pain Med</source>
+<year>2016</year>;<volume>17</volume>(<issue>7</issue>):<fpage>1249</fpage>–<lpage>1260</lpage>.<pub-id pub-id-type="pmid">27330155</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/pm/pnw111</pub-id><pub-id pub-id-type="pmcid">PMC7289330</pub-id></mixed-citation></ref><ref id="acr25671-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="acr25671-cit-0024">
+<string-name name-style="western">
+<surname>Bramoweth</surname>
+<given-names>AD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Renqvist</surname>
+<given-names>JG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Germain</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>Deconstructing chronic low back pain in the older adult ‐ step by step evidence and expert‐based recommendations for evaluation and treatment. Part VII: insomnia</article-title>. <source>Pain Med</source>
+<year>2016</year>;<volume>17</volume>(<issue>5</issue>):<fpage>851</fpage>–<lpage>863</lpage>.<pub-id pub-id-type="pmid">27173512</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/pm/pnw063</pub-id></mixed-citation></ref><ref id="acr25671-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="acr25671-cit-0025">
+<string-name name-style="western">
+<surname>Weiner</surname>
+<given-names>DK</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gentili</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Coffey‐Vega</surname>
+<given-names>K</given-names>
+</string-name>, et al. <article-title>Biopsychosocial profiles and functional correlates in older adults with chronic low back pain: a preliminary study</article-title>. <source>Pain Med</source>
+<year>2019</year>;<volume>20</volume>(<issue>7</issue>):<fpage>1300</fpage>–<lpage>1310</lpage>.<pub-id pub-id-type="pmid">29672748</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/pm/pny065</pub-id></mixed-citation></ref><ref id="acr25671-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="acr25671-cit-0026">
+<string-name name-style="western">
+<surname>Weiner</surname>
+<given-names>DK</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gentili</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rossi</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Aging Back Clinics ‐ a geriatric syndrome approach to treating chronic low back pain in older adults: results of a preliminary randomized controlled trial</article-title>. <source>Pain Med</source>
+<year>2020</year>;<volume>21</volume>(<issue>2</issue>):<fpage>274</fpage>–<lpage>290</lpage>.<pub-id pub-id-type="pmid">31503275</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/pm/pnz179</pub-id></mixed-citation></ref><ref id="acr25671-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="acr25671-cit-0027">
+<string-name name-style="western">
+<surname>Weiner</surname>
+<given-names>DK</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gentili</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fang</surname>
+<given-names>MA</given-names>
+</string-name>, et al. <article-title>Caring for older veterans with chronic low back pain using a geriatric syndrome approach: rationale and methods for the aging back clinics (ABC) trial</article-title>. <source>Contemp Clin Trials</source>
+<year>2020</year>;<volume>95</volume>:<elocation-id>106077</elocation-id>.<pub-id pub-id-type="pmid">32593717</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cct.2020.106077</pub-id></mixed-citation></ref><ref id="acr25671-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="acr25671-cit-0028">
+<string-name name-style="western">
+<surname>Folstein</surname>
+<given-names>MF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Folstein</surname>
+<given-names>SE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McHugh</surname>
+<given-names>PR</given-names>
+</string-name>. “<article-title>Mini‐mental state”. A practical method for grading the cognitive state of patients for the clinician</article-title>. <source>J Psychiatr Res</source>
+<year>1975</year>;<volume>12</volume>(<issue>3</issue>):<fpage>189</fpage>–<lpage>198</lpage>.<pub-id pub-id-type="pmid">1202204</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/0022-3956(75)90026-6</pub-id></mixed-citation></ref><ref id="acr25671-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="acr25671-cit-0029">
+<string-name name-style="western">
+<surname>Fairbank</surname>
+<given-names>JC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pynsent</surname>
+<given-names>PB</given-names>
+</string-name>. <article-title>The Oswestry Disability Index</article-title>. <source>Spine</source>
+<year>2000</year>;<volume>25</volume>(<issue>22</issue>):<fpage>2940</fpage>–<lpage>2952</lpage>.<pub-id pub-id-type="pmid">11074683</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1097/00007632-200011150-00017</pub-id></mixed-citation></ref><ref id="acr25671-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="acr25671-cit-0030">
+<string-name name-style="western">
+<surname>Deyo</surname>
+<given-names>RA</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Katrina</given-names>
+<surname>Ramsey</surname>
+</string-name>, <string-name name-style="western">
+<surname>Buckley</surname>
+<given-names>DI</given-names>
+</string-name>, et al. <article-title>Performance of a Patient Reported Outcomes Measurement Information System (PROMIS) short form in older adults with chronic musculoskeletal pain</article-title>. <source>Pain Med</source>
+<year>2016</year>;<volume>17</volume>(<issue>2</issue>):<fpage>314</fpage>–<lpage>324</lpage>.<pub-id pub-id-type="pmid">26814279</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/pm/pnv046</pub-id><pub-id pub-id-type="pmcid">PMC6281027</pub-id></mixed-citation></ref><ref id="acr25671-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="acr25671-cit-0031">
+<string-name name-style="western">
+<surname>Rigler</surname>
+<given-names>SK</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Studenski</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wallace</surname>
+<given-names>D</given-names>
+</string-name>, et al. <article-title>Co‐morbidity adjustment for functional outcomes in community‐dwelling older adults</article-title>. <source>Clin Rehabil</source>
+<year>2002</year>;<volume>16</volume>(<issue>4</issue>):<fpage>420</fpage>–<lpage>428</lpage>.<pub-id pub-id-type="pmid">12061477</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1191/0269215502cr515oa</pub-id></mixed-citation></ref><ref id="acr25671-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="acr25671-cit-0032">
+<string-name name-style="western">
+<surname>Sherbourne</surname>
+<given-names>CD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Stewart</surname>
+<given-names>AL</given-names>
+</string-name>. <article-title>The MOS social support survey</article-title>. <source>Soc Sci Med</source>
+<year>1991</year>;<volume>32</volume>(<issue>6</issue>):<fpage>705</fpage>–<lpage>714</lpage>.<pub-id pub-id-type="pmid">2035047</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/0277-9536(91)90150-b</pub-id></mixed-citation></ref><ref id="acr25671-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="acr25671-cit-0033">
+<string-name name-style="western">
+<surname>Banta‐Green</surname>
+<given-names>CJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Von Korff</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sullivan</surname>
+<given-names>MD</given-names>
+</string-name>, et al. <article-title>The prescribed opioids difficulties scale: a patient‐centered assessment of problems and concerns</article-title>. <source>Clin J Pain</source>
+<year>2010</year>;<volume>26</volume>(<issue>6</issue>):<fpage>489</fpage>–<lpage>497</lpage>.<pub-id pub-id-type="pmid">20551723</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1097/AJP.0b013e3181e103d9</pub-id><pub-id pub-id-type="pmcid">PMC3286631</pub-id></mixed-citation></ref><ref id="acr25671-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="acr25671-cit-0034">
+<string-name name-style="western">
+<surname>Nicholas</surname>
+<given-names>MK</given-names>
+</string-name>. <article-title>The pain self‐efficacy questionnaire: taking pain into account</article-title>. <source>Eur J Pain</source>
+<year>2007</year>;<volume>11</volume>(<issue>2</issue>):<fpage>153</fpage>–<lpage>163</lpage>.<pub-id pub-id-type="pmid">16446108</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ejpain.2005.12.008</pub-id></mixed-citation></ref><ref id="acr25671-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="acr25671-cit-0035">
+<string-name name-style="western">
+<surname>O'Caoimh</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gao</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McGlade</surname>
+<given-names>C</given-names>
+</string-name>, et al. <article-title>Comparison of the quick mild cognitive impairment (Qmci) screen and the SMMSE in screening for mild cognitive impairment</article-title>. <source>Age Ageing</source>
+<year>2012</year>;<volume>41</volume>(<issue>5</issue>):<fpage>624</fpage>–<lpage>629</lpage>.<pub-id pub-id-type="pmid">22610464</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/ageing/afs059</pub-id><pub-id pub-id-type="pmcid">PMC3424052</pub-id></mixed-citation></ref><ref id="acr25671-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="acr25671-cit-0036">
+<string-name name-style="western">
+<surname>Kempen</surname>
+<given-names>GI</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yardley</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>van Haastregt</surname>
+<given-names>JC</given-names>
+</string-name>, et al. <article-title>The Short FES‐I: a shortened version of the falls efficacy scale‐international to assess fear of falling</article-title>. <source>Age Ageing</source>
+<year>2008</year>;<volume>37</volume>(<issue>1</issue>):<fpage>45</fpage>–<lpage>50</lpage>.<pub-id pub-id-type="pmid">18032400</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/ageing/afm157</pub-id></mixed-citation></ref><ref id="acr25671-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="acr25671-cit-0037">
+<string-name name-style="western">
+<surname>Peel</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sawyer Baker</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Roth</surname>
+<given-names>DL</given-names>
+</string-name>, et al. <article-title>Assessing mobility in older adults: the UAB Study of Aging Life‐Space Assessment</article-title>. <source>Phys Ther</source>
+<year>2005</year>;<volume>85</volume>(<issue>10</issue>):<fpage>1008</fpage>–<lpage>1119</lpage>.<pub-id pub-id-type="pmid">16180950</pub-id>
+</mixed-citation></ref><ref id="acr25671-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="acr25671-cit-0038">
+<string-name name-style="western">
+<surname>Madill</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Samuels</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Newman</surname>
+<given-names>D</given-names>
+</string-name>, et al. <article-title>Development of an evaluative, educational, and communication‐facilitating app for older adults with chronic low back pain: patient perceptions of usability and utility</article-title>. <source>Pain Med</source>
+<year>2019</year>;<volume>20</volume>(<issue>11</issue>):<fpage>2120</fpage>–<lpage>2128</lpage>.<pub-id pub-id-type="pmid">31329964</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/pm/pnz088</pub-id></mixed-citation></ref><ref id="acr25671-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="acr25671-cit-0039">
+<string-name name-style="western">
+<surname>Delitto</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Piva</surname>
+<given-names>SR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Moore</surname>
+<given-names>CG</given-names>
+</string-name>, et al. <article-title>Surgery versus nonsurgical treatment of lumbar spinal stenosis: a randomized trial</article-title>. <source>Ann Intern Med</source>
+<year>2015</year>;<volume>162</volume>(<issue>7</issue>):<fpage>465</fpage>–<lpage>473</lpage>.<pub-id pub-id-type="pmid">25844995</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.7326/M14-1420</pub-id><pub-id pub-id-type="pmcid">PMC6252248</pub-id></mixed-citation></ref><ref id="acr25671-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="acr25671-cit-0040">
+<string-name name-style="western">
+<surname>Morone</surname>
+<given-names>NE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Greco</surname>
+<given-names>CM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Moore</surname>
+<given-names>CG</given-names>
+</string-name>, et al. <article-title>A mind body program for older adults with chronic low back pain: a randomized clinical trial</article-title>. <source>JAMA Intern Med</source>
+<year>2016</year>;<volume>176</volume>(<issue>3</issue>):<fpage>329</fpage>–<lpage>337</lpage>.<pub-id pub-id-type="pmid">26903081</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jamainternmed.2015.8033</pub-id><pub-id pub-id-type="pmcid">PMC6361386</pub-id></mixed-citation></ref><ref id="acr25671-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="acr25671-cit-0041">
+<string-name name-style="western">
+<surname>Terwee</surname>
+<given-names>CB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Peipert</surname>
+<given-names>JD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chapman</surname>
+<given-names>R</given-names>
+</string-name>, et al. <article-title>Minimal important change (MIC): a conceptual clarification and systematic review of MIC estimates of PROMIS measures</article-title>. <source>Qual Life Res</source>
+<year>2021</year>;<volume>30</volume>(<issue>10</issue>):<fpage>2729</fpage>–<lpage>2754</lpage>.<pub-id pub-id-type="pmid">34247326</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s11136-021-02925-y</pub-id><pub-id pub-id-type="pmcid">PMC8481206</pub-id></mixed-citation></ref><ref id="acr25671-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="acr25671-cit-0042">
+<string-name name-style="western">
+<surname>Maiers</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hartvigsen</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Evans</surname>
+<given-names>R</given-names>
+</string-name>, et al. <article-title>Short‐or long‐term treatment of spinal disability in older adults with manipulation and exercise</article-title>. <source>Arthritis Care Res (Hoboken)</source>
+<year>2019</year>;<volume>71</volume>(<issue>11</issue>):<fpage>1516</fpage>–<lpage>1524</lpage>.<pub-id pub-id-type="pmid">30354023</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/acr.23798</pub-id><pub-id pub-id-type="pmcid">PMC6800817</pub-id></mixed-citation></ref><ref id="acr25671-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="acr25671-cit-0043">
+<string-name name-style="western">
+<surname>Ge</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Huang</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yu</surname>
+<given-names>Q</given-names>
+</string-name>, et al. <article-title>Effects of core stability training on older women with low back pain: a randomized controlled trial</article-title>. <source>Eur Rev Aging Phys Act</source>
+<year>2022</year>;<volume>19</volume>(<issue>1</issue>):<fpage>10</fpage>.<pub-id pub-id-type="pmid">35428169</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s11556-022-00289-x</pub-id><pub-id pub-id-type="pmcid">PMC9011968</pub-id></mixed-citation></ref><ref id="acr25671-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="acr25671-cit-0044">
+<string-name name-style="western">
+<surname>Kim</surname>
+<given-names>J‐H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Park</surname>
+<given-names>H‐Y</given-names>
+</string-name>. <article-title>Effects of combined hip exercise and passive stretching on muscle stiffness, pain perception and pain related disability, and physical function in older adults with low back pain</article-title>. <source>Phys Act Nutr</source> <year>2022</year>;<volume>26</volume>(<issue>3</issue>):<fpage>16</fpage>–<lpage>24</lpage>.<pub-id pub-id-type="pmid">36353826</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.20463/pan.2022.0014</pub-id><pub-id pub-id-type="pmcid">PMC9663255</pub-id></mixed-citation></ref><ref id="acr25671-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="acr25671-cit-0045">
+<string-name name-style="western">
+<surname>Lytras</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Iakovidis</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sykaras</surname>
+<given-names>E</given-names>
+</string-name>, et al. <article-title>Effects of a tailored mat‐Pilates exercise program for older adults on pain, functioning, and balance in women with chronic non‐specific low back pain: a randomized controlled trial</article-title>. <source>Aging Clin Exp Res</source>
+<year>2023</year>;<volume>35</volume>(<issue>12</issue>):<fpage>3059</fpage>–<lpage>3071</lpage>.<pub-id pub-id-type="pmid">37934400</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s40520-023-02604-7</pub-id></mixed-citation></ref><ref id="acr25671-bib-0046"><label>46</label><mixed-citation publication-type="journal" id="acr25671-cit-0046">
+<string-name name-style="western">
+<surname>Karp</surname>
+<given-names>JF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gao</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wahed</surname>
+<given-names>AS</given-names>
+</string-name>, et al. <article-title>Effect of problem‐solving therapy versus supportive management in older adults with low back pain and depression while on antidepressant pharmacotherapy</article-title>. <source>Am J Geriatr Psychiatry</source>
+<year>2018</year>;<volume>26</volume>(<issue>7</issue>):<fpage>765</fpage>–<lpage>777</lpage>.<pub-id pub-id-type="pmid">29724663</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jagp.2018.01.004</pub-id></mixed-citation></ref><ref id="acr25671-bib-0047"><label>47</label><mixed-citation publication-type="journal" id="acr25671-cit-0047">
+<string-name name-style="western">
+<surname>Bair</surname>
+<given-names>MJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ang</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wu</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Evaluation of stepped care for chronic pain (ESCAPE) in veterans of Iraq and Afghanistan conflicts: a randoized clinical trial</article-title>. <source>JAMA Intern Med</source>
+<year>2015</year>;<volume>175</volume>(<issue>5</issue>):<fpage>682</fpage>–<lpage>689</lpage>.<pub-id pub-id-type="pmid">25751701</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jamainternmed.2015.97</pub-id></mixed-citation></ref><ref id="acr25671-bib-0048"><label>48</label><mixed-citation publication-type="journal" id="acr25671-cit-0048">
+<string-name name-style="western">
+<surname>Leveille</surname>
+<given-names>SG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jones</surname>
+<given-names>RN</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kiely</surname>
+<given-names>DK</given-names>
+</string-name>, et al. <article-title>Chronic musculoskeletal pain and the occurrence of falls in an older population</article-title>. <source>JAMA</source>
+<year>2009</year>;<volume>302</volume>(<issue>20</issue>):<fpage>2214</fpage>–<lpage>2221</lpage>.<pub-id pub-id-type="pmid">19934422</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jama.2009.1738</pub-id><pub-id pub-id-type="pmcid">PMC2927855</pub-id></mixed-citation></ref><ref id="acr25671-bib-0049"><label>49</label><mixed-citation publication-type="journal" id="acr25671-cit-0049">
+<string-name name-style="western">
+<surname>Allen</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Alpass</surname>
+<given-names>FM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Stephens</surname>
+<given-names>CV</given-names>
+</string-name>. <article-title>The sensitivity of the MOS SF‐12 and PROMIS® global summary scores to adverse health events in an older cohort</article-title>. <source>Qual Life Res</source>
+<year>2018</year>;<volume>27</volume>(<issue>8</issue>):<fpage>2207</fpage>–<lpage>2215</lpage>.<pub-id pub-id-type="pmid">29725968</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s11136-018-1871-y</pub-id></mixed-citation></ref><ref id="acr25671-bib-0050"><label>50</label><mixed-citation publication-type="journal" id="acr25671-cit-0050">
+<string-name name-style="western">
+<surname>Piano</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Audasso</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Benzi</surname>
+<given-names>L</given-names>
+</string-name>, et al. <article-title>Individual education for patients with chronic low back pain: likely a clinically relevant effect for long‐term disability compared to noneducational interventions. A systematic review with meta‐analysis</article-title>. <source>J Orthop Sports Phys Ther</source>
+<year>2025</year>;<volume>55</volume>(<issue>5</issue>):<fpage>331</fpage>–<lpage>343</lpage>.<pub-id pub-id-type="pmid">40266700</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.2519/jospt.2025.12794</pub-id></mixed-citation></ref></ref-list></back></article>

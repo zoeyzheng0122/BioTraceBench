@@ -1,0 +1,373 @@
+{
+  "basic": {
+    "sample": {
+      "sheet": "Samples",
+      "fields": [
+        {
+          "key": "sample_id",
+          "label": "Sample ID",
+          "type": "id",
+          "definition": "Unique local sample identifier; arbitrary renaming preserves identity.",
+          "example": "S001"
+        },
+        {
+          "key": "sample_name",
+          "label": "Sample Name",
+          "type": "text",
+          "definition": "Native label of an identifiable target preparation/pool; never infer individuals.",
+          "example": "Preparation alpha"
+        },
+        {
+          "key": "biological_source",
+          "label": "Biological Source",
+          "type": "text",
+          "definition": "Source cells/tissues/organisms; distinguish cellular origin from matrix/reagent origin. Include supported source identifiers.",
+          "example": "Source tissue identified in the supplied study"
+        },
+        {
+          "key": "species",
+          "label": "Species",
+          "type": "text",
+          "definition": "Species of assayed biological material; retain distinct origins in mixed-species preparations.",
+          "example": "Reported source species"
+        },
+        {
+          "key": "biological_model",
+          "label": "Biological Model",
+          "type": "text",
+          "definition": "Reported cell line, genotype/disease or experimental model.",
+          "example": "Reported experimental model"
+        },
+        {
+          "key": "sample_material",
+          "label": "Sample Material",
+          "type": "text",
+          "definition": "Actual assayed material, preparation history and physical pooling. State unresolved pool size/members; never reconstruct them.",
+          "example": "Assayed preparation; source-supported preparation history."
+        },
+        {
+          "key": "sample_accession",
+          "label": "Sample Accession",
+          "type": "text",
+          "definition": "Source-supported sample-level accessions in the format Database:Identifier (sample), for example GEO:GSM9564434 (sample); BioSample:SAMN56344589 (sample). Use canonical database capitalization, no spaces around the colon, one space before the parenthesis, and semicolon-space between entries. Preserve identifier versions and order. Project/study identifiers do not identify samples and are not allowed here. Use null when unreported.",
+          "example": null,
+          "pattern": "^[A-Za-z][A-Za-z0-9 ._-]*:[^;\\s]+ \\([a-z]+\\)(?:; [A-Za-z][A-Za-z0-9 ._-]*:[^;\\s]+ \\([a-z]+\\))*$"
+        }
+      ],
+      "identifier": "sample_id",
+      "prefix": "S"
+    },
+    "condition": {
+      "sheet": "Experimental Conditions",
+      "fields": [
+        {
+          "key": "condition_id",
+          "label": "Condition ID",
+          "type": "id",
+          "definition": "Unique local condition identifier.",
+          "example": "C001"
+        },
+        {
+          "key": "sample_id",
+          "label": "Sample ID",
+          "type": "id",
+          "definition": "Submitted target sample receiving this condition.",
+          "example": "S001"
+        },
+        {
+          "key": "condition_target",
+          "label": "Condition Target",
+          "type": "text",
+          "definition": "Receiving material/component; identify source-cell pretreatment when applicable to target preparation.",
+          "example": "Source receiving preparation"
+        },
+        {
+          "key": "experimental_factor",
+          "label": "Experimental Factor",
+          "type": "text",
+          "definition": "One requested identifiable factor; retain dose with its anchored timing.",
+          "example": "Exposure duration"
+        },
+        {
+          "key": "factor_value",
+          "label": "Factor Value",
+          "type": "numeric_expression",
+          "definition": "A finite JSON number or a compact source-reported numeric expression such as <0.22, 2–4, 350–400, 1:2 or 5±1. Keep units in factor_unit. Do not put categories, explanatory words, units, NR/NE or null in factor_value. Create a condition row only when the requested numerical value is reported. Otherwise omit that condition row and describe the missing requested value in the corresponding sample.sample_material. Preserve genuine zeros and reported bounds; never substitute an invented midpoint. A reported factor_value remains valid when its factor_unit or time is null because that attribute is unreported or inapplicable.",
+          "example": 2,
+          "pattern": "^(?:(?:<=|>=|<|>|≤|≥|~|≈)\\s*[+-]?(?:\\d+(?:\\.\\d+)?|\\.\\d+)(?:[eE][+-]?\\d+)?|[+-]?(?:\\d+(?:\\.\\d+)?|\\.\\d+)(?:[eE][+-]?\\d+)?\\s*(?:–|—|-|:|/|±|\\+/-)\\s*[+-]?(?:\\d+(?:\\.\\d+)?|\\.\\d+)(?:[eE][+-]?\\d+)?)$"
+        },
+        {
+          "key": "factor_unit",
+          "label": "Unit",
+          "type": "text",
+          "definition": "Reported factor unit; null if inapplicable or unsupported.",
+          "example": "hour"
+        },
+        {
+          "key": "time",
+          "label": "Time",
+          "type": "text",
+          "definition": "Plain anchored time/interval; no nested time object.",
+          "example": "Collected 2 hours after exposure started"
+        }
+      ],
+      "identifier": "condition_id",
+      "prefix": "C",
+      "references": {
+        "sample_id": "sample"
+      }
+    },
+    "assay_run": {
+      "sheet": "Assays",
+      "fields": [
+        {
+          "key": "assay_id",
+          "label": "Assay ID",
+          "type": "id",
+          "definition": "Unique actual acquisition/library or labelled aggregate identifier.",
+          "example": "A001"
+        },
+        {
+          "key": "sample_ids",
+          "label": "Sample ID",
+          "type": "ids",
+          "definition": "Submitted sample IDs actually associated with this assay; multiple IDs do not imply pooling.",
+          "example": [
+            "S001"
+          ]
+        },
+        {
+          "key": "assay_type",
+          "label": "Assay Type",
+          "type": "text",
+          "definition": "Biomedical assay technique for selected experiment.",
+          "example": "Reported assay technique"
+        },
+        {
+          "key": "platform",
+          "label": "Platform",
+          "type": "text",
+          "definition": "Reported assay instrument/platform.",
+          "example": "Reported instrument"
+        },
+        {
+          "key": "method",
+          "label": "Method",
+          "type": "text",
+          "definition": "Procedure, native library label and unresolved run/multiplex mapping. Do not infer physical runs.",
+          "example": "Reported preparation and acquisition method."
+        },
+        {
+          "key": "experiment_run_accession",
+          "label": "Experiment/Run Accession",
+          "type": "text",
+          "definition": "Prefer source-supported experiment/library/run accessions, formatted Database:Identifier (level/type), for example SRA:SRX32380739 (experiment) or SRA:SRR28740494 (run). If these are not reported, use an associated source-supported project/study accession or repository record with its actual level/type, for example PRIDE:PXD057572 (project), GEO:GSE311704 (study), Figshare:10.6084/m9.figshare.29955509.v3 (dataset), or Zenodo:10.5281/zenodo.17874586 (software). Use canonical database capitalization, no spaces around the colon, one space before the parenthesis, and semicolon-space between entries. Preserve identifier versions and order. Put content descriptions in Method or separate review records. A shared higher-level record does not identify an individual acquisition or establish pooling. Use null when unreported.",
+          "example": null,
+          "pattern": "^[A-Za-z][A-Za-z0-9 ._-]*:[^;\\s]+ \\([a-z]+\\)(?:; [A-Za-z][A-Za-z0-9 ._-]*:[^;\\s]+ \\([a-z]+\\))*$"
+        }
+      ],
+      "identifier": "assay_id",
+      "prefix": "A",
+      "references": {
+        "sample_ids": "sample"
+      }
+    }
+  },
+  "clinical": {
+    "population": {
+      "sheet": "Study Populations",
+      "fields": [
+        {
+          "key": "population_id",
+          "label": "Population ID",
+          "type": "id",
+          "definition": "Unique local population identifier.",
+          "example": "P001"
+        },
+        {
+          "key": "population_name",
+          "label": "Population Name",
+          "type": "text",
+          "definition": "Source-supported group/cohort/subgroup label.",
+          "example": "Source-defined study population"
+        },
+        {
+          "key": "population_definition",
+          "label": "Population Definition",
+          "type": "text",
+          "definition": "Member eligibility and relevant randomized/evaluable/analysis context; distinguish members from method.",
+          "example": "Eligibility and analysis-set definition reported for the selected study."
+        },
+        {
+          "key": "population_size",
+          "label": "Population Size",
+          "type": "integer",
+          "definition": "Reported member count, not an assumed endpoint denominator or model sample size.",
+          "example": null
+        },
+        {
+          "key": "intervention",
+          "label": "Intervention",
+          "type": "text",
+          "definition": "Drug/device/behavioral intervention or comparison actually assigned/received.",
+          "example": "Source-reported intervention"
+        },
+        {
+          "key": "intervention_regimen",
+          "label": "Intervention Regimen",
+          "type": "text",
+          "definition": "Dose, route, frequency, duration and common care needed to interpret comparison.",
+          "example": "Reported dose, route, frequency and duration."
+        },
+        {
+          "key": "population_time_frame",
+          "label": "Population Time Frame",
+          "type": "text",
+          "definition": "Recruitment/treatment/follow-up periods defining population; each result has its own assessment time.",
+          "example": "Source-reported recruitment or treatment interval."
+        }
+      ],
+      "identifier": "population_id",
+      "prefix": "P"
+    },
+    "measure": {
+      "sheet": "Study Measures",
+      "fields": [
+        {
+          "key": "measure_id",
+          "label": "Measure ID",
+          "type": "id",
+          "definition": "Unique local measure identifier.",
+          "example": "M001"
+        },
+        {
+          "key": "measure_name",
+          "label": "Measure Name",
+          "type": "text",
+          "definition": "Clinical quantity or criterion; a statistical summary is not a separate measure.",
+          "example": "Clinical quantity alpha"
+        },
+        {
+          "key": "measure_definition",
+          "label": "Measure Definition",
+          "type": "text",
+          "definition": "Instrument, response criterion, assessment basis and supported scale needed to distinguish measures.",
+          "example": "Source-reported measurement method and criterion."
+        }
+      ],
+      "identifier": "measure_id",
+      "prefix": "M"
+    },
+    "result": {
+      "sheet": "Study Results",
+      "fields": [
+        {
+          "key": "result_id",
+          "label": "Result ID",
+          "type": "id",
+          "definition": "Unique local principal-statistic identifier.",
+          "example": "R001"
+        },
+        {
+          "key": "population_id",
+          "label": "Population ID",
+          "type": "id",
+          "definition": "Submitted population for this result; do not infer endpoint/model n.",
+          "example": "P001"
+        },
+        {
+          "key": "measure_id",
+          "label": "Measure ID",
+          "type": "id",
+          "definition": "Submitted measure actually quantified.",
+          "example": "M001"
+        },
+        {
+          "key": "assessment_time",
+          "label": "Assessment Time",
+          "type": "text",
+          "definition": "Assessment point or change interval anchored to correct reference.",
+          "example": "At the source-defined assessment"
+        },
+        {
+          "key": "statistic_type",
+          "label": "Statistic Type",
+          "type": "text",
+          "definition": "Reported principal statistic: mean, count, difference, HR, ES etc. Never infer unspecified ES formula.",
+          "example": "Reported principal statistic"
+        },
+        {
+          "key": "statistical_method",
+          "label": "Statistical Method",
+          "type": "text",
+          "definition": "Reported method, adjustment, missing-data handling and analysis version; state relevant missing details.",
+          "example": "Source-reported analysis method."
+        },
+        {
+          "key": "result_value",
+          "label": "Result Value",
+          "type": "value",
+          "definition": "Source principal value or compact count/category summary; retain precision, inequalities, NR/NE. Do not calculate absent statistics.",
+          "example": null
+        },
+        {
+          "key": "result_unit",
+          "label": "Unit",
+          "type": "text",
+          "definition": "Source-supported unit/scale; do not assign score points to unspecified ES.",
+          "example": null
+        },
+        {
+          "key": "comparison",
+          "label": "Comparison",
+          "type": "text",
+          "definition": "Actual submitted population IDs and explicit formula/direction; state when unreported. Null for ordinary arm summaries.",
+          "example": null
+        },
+        {
+          "key": "supplementary_statistics",
+          "label": "Supplementary Statistics",
+          "type": "text",
+          "definition": "Own CI (level/bounds), SD/SE, P, percentage and applicable denominator with meaning; never copy population totals to unreported endpoint/model n.",
+          "example": null
+        }
+      ],
+      "identifier": "result_id",
+      "prefix": "R",
+      "references": {
+        "population_id": "population",
+        "measure_id": "measure"
+      }
+    },
+    "population_relation": {
+      "sheet": "Population Relationships",
+      "fields": [
+        {
+          "key": "population_a_id",
+          "label": "Population A ID",
+          "type": "id",
+          "definition": "First submitted population.",
+          "example": "P002"
+        },
+        {
+          "key": "relationship",
+          "label": "Relationship",
+          "type": "text",
+          "definition": "Direct source-supported membership relation. subset of is directional; disjoint from and overlaps with are symmetric.",
+          "example": "subset of"
+        },
+        {
+          "key": "population_b_id",
+          "label": "Population B ID",
+          "type": "id",
+          "definition": "Second population; parent for subset of.",
+          "example": "P001"
+        }
+      ],
+      "references": {
+        "population_a_id": "population",
+        "population_b_id": "population"
+      }
+    }
+  }
+}

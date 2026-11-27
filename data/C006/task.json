@@ -1,0 +1,30 @@
+{
+  "case_id": "C006",
+  "task_id": "C006",
+  "title": "Effects of a Psycho‐Behavioural Intervention on Cancer‐Related Fatigue Among Patients With Colorectal Cancer: A Pilot Randomised Controlled Trial",
+  "doi": "10.1002/pon.70570",
+  "comparison_or_design": "The six-week psycho-behavioural pilot trial in post-treatment colorectal cancer.",
+  "observations_or_assays": [
+    "Cancer Fatigue Scale total score",
+    "HPLP-II physical-activity subscale score",
+    "PROMIS Sleep Disturbance Short Form 4a score"
+  ],
+  "time_scope": "Baseline T0 and within one week after the 6-week intervention (T1).",
+  "excluded": [
+    "Fatigue subscales, dietary behavior, anxiety and depression",
+    "Feasibility, acceptability, qualitative interviews and attendance/recruitment metrics"
+  ],
+  "population_or_material": "Post-treatment colorectal cancer patients in the pilot randomized comparison, retaining the reported outcome-analysis denominators.",
+  "requested_items": [
+    "For the three domains: arm-level T0/T1 means, group-by-time interaction F with its P, and Hedges g with CI. Exclude whole-cohort summaries, separate group/time main effects and duplicated P-only rows."
+  ],
+  "resources": [],
+  "case_specific_rules": [],
+  "domain": "clinical",
+  "pipeline": "clinical-trials",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/clinical-trials.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

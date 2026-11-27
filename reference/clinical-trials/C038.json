@@ -1,0 +1,175 @@
+{
+  "measure": [
+    {
+      "measure_definition": "Occurrence: participant meets clinical remission per Adapted Mayo score at Week 8.; Participants; Adapted Mayo score ranges 0 to 9 with higher scores representing more severe disease; it includes stool frequency subscore (SFS), rectal bleeding subscore (RBS), and endoscopic subscore. Non-responder imputation incorporating multiple imputation to handle missing data due to COVID-19 was used.; Clinical remission is defined as an Adapted Mayo score ≤ 2, with SFS ≤ 1 and not higher than Baseline, RBS of 0, and endoscopic subscore ≤ 1.",
+      "measure_id": "M0",
+      "measure_name": "Clinical remission per Adapted Mayo score"
+    },
+    {
+      "measure_definition": "Occurrence: participant meets clinical response per Adapted Mayo score at Week 8.; Participants; Adapted Mayo score ranges 0 to 9, composed of SFS (0-3), RBS (0-3), and endoscopic subscore (0-3); higher scores represent more severe disease. Non-responder imputation incorporating multiple imputation to handle missing data due to COVID-19 was used.; Clinical response per the Adapted Mayo Score is defined as a decrease in Adapted Mayo score ≥ 2 points and ≥ 30% from Baseline, plus a decrease in RBS ≥ 1 or an absolute RBS ≤ 1.",
+      "measure_id": "M1",
+      "measure_name": "Clinical response per Adapted Mayo score"
+    },
+    {
+      "measure_definition": "Occurrence: participant meets endoscopic improvement at Week 8.; Participants; Endoscopies were assessed by a blinded central reader and scored according to the endoscopic subscore: 0 = normal or inactive disease; 1 = mild disease (erythema, decreased vascular pattern); 2 = moderate disease (marked erythema, lack of vascular pattern, any friability, erosions); 3 = severe disease (spontaneous bleeding, ulceration). Non-responder imputation incorporating multiple imputation to handle missing data due to COVID-19 was used.; Endoscopic improvement is defined as an endoscopic subscore of 0 or 1.",
+      "measure_id": "M2",
+      "measure_name": "Endoscopic improvement"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "Upadacitinib",
+      "intervention_regimen": "45 mg; Once daily, orally, for 8 weeks in UC1 induction.",
+      "population_definition": "Randomized treatment assignment to upadacitinib 45 mg in UC1 induction.; East Asian patients with moderately to severely active ulcerative colitis in the UC1 induction study; randomized 2:1 to once-daily upadacitinib 45 mg or placebo; randomized to upadacitinib 45 mg and received ≥1 dose of study drug. Moderately to severely active UC was defined by adapted Mayo score 5–9 and endoscopy subscore 2–3 confirmed by a central reader.",
+      "population_id": "P3",
+      "population_name": "East Asian UC1 upadacitinib 45 mg arm",
+      "population_size": 86,
+      "population_time_frame": "UC1 induction Week 8 efficacy assessment; calendar dates not reported."
+    },
+    {
+      "intervention": "Placebo matching to upadacitinib 45 mg",
+      "intervention_regimen": "Once daily, orally, for 8 weeks in UC1 induction.",
+      "population_definition": "Randomized treatment assignment to placebo in UC1 induction.; East Asian patients with moderately to severely active ulcerative colitis in the UC1 induction study; randomized 2:1 to once-daily upadacitinib 45 mg or placebo; randomized to placebo and received ≥1 dose of study drug. Moderately to severely active UC was defined by adapted Mayo score 5–9 and endoscopy subscore 2–3 confirmed by a central reader.",
+      "population_id": "P4",
+      "population_name": "East Asian UC1 placebo arm",
+      "population_size": 41,
+      "population_time_frame": "UC1 induction Week 8 efficacy assessment; calendar dates not reported."
+    },
+    {
+      "intervention": "Upadacitinib 45 mg or matching placebo",
+      "intervention_regimen": "Upadacitinib 45 mg; placebo: —; Once daily, orally, for 8 weeks in UC1 induction.",
+      "population_definition": "Analysis set combining both treatment arms in UC1 induction.; East Asian patients with moderately to severely active ulcerative colitis in the UC1 induction study; randomized 2:1 to once-daily upadacitinib 45 mg or placebo and received ≥1 dose of study drug (ITT efficacy population).",
+      "population_id": "P5",
+      "population_name": "East Asian UC1 induction ITT population",
+      "population_size": 127,
+      "population_time_frame": "UC1 induction Week 8 efficacy assessment; calendar dates not reported."
+    }
+  ],
+  "population_relation": [
+    {
+      "population_a_id": "P3",
+      "population_b_id": "P5",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P4",
+      "population_b_id": "P5",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P3",
+      "population_b_id": "P4",
+      "relationship": "disjoint from"
+    }
+  ],
+  "result": [
+    {
+      "assessment_time": "Week 8",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P3",
+      "result_id": "R10",
+      "result_unit": "%",
+      "result_value": 31.4,
+      "statistic_type": "Percentage of participants with clinical remission",
+      "statistical_method": "Post hoc descriptive ITT, nonresponder imputation incorporating multiple imputation for COVID-related missing data.",
+      "supplementary_statistics": "95% CI 21.6 to 41.2; n = 86; Reported denominator: 86"
+    },
+    {
+      "assessment_time": "Week 8",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P4",
+      "result_id": "R11",
+      "result_unit": "%",
+      "result_value": 7.3,
+      "statistic_type": "Percentage of participants with clinical remission",
+      "statistical_method": "Post hoc descriptive ITT, nonresponder imputation incorporating multiple imputation for COVID-related missing data.",
+      "supplementary_statistics": "95% CI 0 to 15.3; n = 41; Reported denominator: 41"
+    },
+    {
+      "assessment_time": "Week 8",
+      "comparison": "P3 minus P4 (East Asian UC1 upadacitinib minus placebo)",
+      "measure_id": "M0",
+      "population_id": "P5",
+      "result_id": "R12",
+      "result_unit": "percentage points",
+      "result_value": 24.1,
+      "statistic_type": "Unadjusted difference (upadacitinib 45 mg minus placebo) in the reported percentage achieving clinical remission, as printed in the Difference column",
+      "statistical_method": "Post hoc descriptive ITT, nonresponder imputation incorporating multiple imputation for COVID-related missing data.",
+      "supplementary_statistics": null
+    },
+    {
+      "assessment_time": "Week 8",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P3",
+      "result_id": "R13",
+      "result_unit": "%",
+      "result_value": 79.1,
+      "statistic_type": "Percentage of participants with clinical response",
+      "statistical_method": "Post hoc descriptive ITT, nonresponder imputation incorporating multiple imputation for COVID-related missing data.",
+      "supplementary_statistics": "95% CI 70.5 to 87.7; n = 86; Reported denominator: 86"
+    },
+    {
+      "assessment_time": "Week 8",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P4",
+      "result_id": "R14",
+      "result_unit": "%",
+      "result_value": 31.7,
+      "statistic_type": "Percentage of participants with clinical response",
+      "statistical_method": "Post hoc descriptive ITT, nonresponder imputation incorporating multiple imputation for COVID-related missing data.",
+      "supplementary_statistics": "95% CI 17.5 to 46.0; n = 41; Reported denominator: 41"
+    },
+    {
+      "assessment_time": "Week 8",
+      "comparison": "P3 minus P4 (East Asian UC1 upadacitinib minus placebo)",
+      "measure_id": "M1",
+      "population_id": "P5",
+      "result_id": "R15",
+      "result_unit": "percentage points",
+      "result_value": 47.4,
+      "statistic_type": "Unadjusted difference (upadacitinib 45 mg minus placebo) in the reported percentage achieving clinical response, as printed in the Difference column",
+      "statistical_method": "Post hoc descriptive ITT, nonresponder imputation incorporating multiple imputation for COVID-related missing data.",
+      "supplementary_statistics": null
+    },
+    {
+      "assessment_time": "Week 8",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P3",
+      "result_id": "R16",
+      "result_unit": "%",
+      "result_value": 37.2,
+      "statistic_type": "Percentage of participants with endoscopic improvement",
+      "statistical_method": "Post hoc descriptive ITT, nonresponder imputation incorporating multiple imputation for COVID-related missing data.",
+      "supplementary_statistics": "95% CI 27.0 to 47.4; n = 86; Reported denominator: 86"
+    },
+    {
+      "assessment_time": "Week 8",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P4",
+      "result_id": "R17",
+      "result_unit": "%",
+      "result_value": 7.3,
+      "statistic_type": "Percentage of participants with endoscopic improvement",
+      "statistical_method": "Post hoc descriptive ITT, nonresponder imputation incorporating multiple imputation for COVID-related missing data.",
+      "supplementary_statistics": "95% CI 0 to 15.3; n = 41; Reported denominator: 41"
+    },
+    {
+      "assessment_time": "Week 8",
+      "comparison": "P3 minus P4 (East Asian UC1 upadacitinib minus placebo)",
+      "measure_id": "M2",
+      "population_id": "P5",
+      "result_id": "R18",
+      "result_unit": "percentage points",
+      "result_value": 29.9,
+      "statistic_type": "Unadjusted difference (upadacitinib 45 mg minus placebo) in the reported percentage achieving endoscopic improvement, as printed in the Difference column",
+      "statistical_method": "Post hoc descriptive ITT, nonresponder imputation incorporating multiple imputation for COVID-related missing data.",
+      "supplementary_statistics": null
+    }
+  ]
+}

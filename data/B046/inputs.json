@@ -1,0 +1,216 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "B046",
+    "domain": "basic",
+    "title": "Anti-Inflammatory and Metabolic Effects of Fresh Versus Freeze-Dried Platelet-Rich Plasma on Equine Osteoarthritis in an Ex Vivo Cartilage-Synovium Explant Co-Culture System: A Pilot Study",
+    "doi": "10.3390/vetsci13070654",
+    "pipeline": "basic-research",
+    "pmid": "42514664",
+    "pmcid": "PMC13431378",
+    "registry": "10.6084/m9.figshare.27753327.v1"
+  },
+  "files": [
+    {
+      "path": "records/Figshare-27753327.txt",
+      "sha256": "3f70d6d729777d861df7fc4848f9b54ffbb14d3fc3b8ae425dd2cee5c3d4cbc7",
+      "bytes": 4086,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://api.figshare.com/v2/articles/27753327"
+      ],
+      "derived_from": "7b559718b202c4e3034b39b03a29e6dd325d32d09eda7d6567fd123e7c483ee1",
+      "representation": "readable_repository_record",
+      "association": "exact data record linked in article; metadata only; readable official record text",
+      "original_filename": "Figshare-27753327.txt",
+      "retrieved_at": "2026-10-17T23:54:47+08:00"
+    },
+    {
+      "path": "sources/article.xml",
+      "sha256": "241268a6c6dea5ef963337269b66e7d628ead2be38bbb4f3d66de66f1a20ea30",
+      "bytes": 152358,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13431378/fullTextXML"
+      ],
+      "association": "exact PMCID from case identity"
+    },
+    {
+      "path": "figures/vetsci-13-00654-g001.jpg",
+      "sha256": "5dc11ef84d2f38ff341be94718383d9aabd16a9165c97f77dbc6b9f3955afbd0",
+      "bytes": 37147,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13431378/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package"
+    },
+    {
+      "path": "figures/vetsci-13-00654-g002.jpg",
+      "sha256": "8b619630cf0bd09f57a78aa80c903744fd5722432119c13fdacec8d8b1082cdc",
+      "bytes": 43896,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13431378/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package"
+    },
+    {
+      "path": "figures/vetsci-13-00654-g003.jpg",
+      "sha256": "487dbcd1d5653d5cebca0cf754a8fc6709100294cb656b873b2ffa3a27f6c4d0",
+      "bytes": 51834,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13431378/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package"
+    },
+    {
+      "path": "figures/vetsci-13-00654-g004.jpg",
+      "sha256": "1f76e5744f5ab9525232eb07243571053525b1c4f3e34ead95f5b2b361f1f463",
+      "bytes": 50824,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13431378/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package"
+    },
+    {
+      "path": "figures/vetsci-13-00654-g005.jpg",
+      "sha256": "2c5b51b5ea65dcb428e82b8ddea7268a4626f5352f37a5581755f2ece2a43e6a",
+      "bytes": 111226,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13431378/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package"
+    },
+    {
+      "path": "figures/vetsci-13-00654-g006.jpg",
+      "sha256": "11a2e6601c3dca0a14d53afe04b7a15fd756ab3ae7ecf8cb593dd7c36f30ca06",
+      "bytes": 35429,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13431378/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package"
+    },
+    {
+      "path": "figures/vetsci-13-00654-g007.jpg",
+      "sha256": "44d5182133913077d75ac633eb70d328e752e818f5767752330a0f77c903e470",
+      "bytes": 44099,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13431378/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package"
+    },
+    {
+      "path": "figures/vetsci-13-00654-g008.jpg",
+      "sha256": "e1ffc90272836dd693fc717da4b6161fadff1167dbf343ac56200b7ba106c24f",
+      "bytes": 61890,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13431378/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package"
+    },
+    {
+      "path": "records/Figshare-27753327/Figshare_project_file_inventory.csv",
+      "sha256": "c55e726e598985aaee3eb05a9922e250160b69a343419723503b01a3b287c5db",
+      "bytes": 565,
+      "role": "design_metadata",
+      "roles": [
+        "design_metadata"
+      ],
+      "input_use": "model",
+      "source_urls": [],
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "original_filename": "Figshare_project_file_inventory.csv"
+    },
+    {
+      "path": "records/Figshare-27753327/Figshare_archive_entry_inventory.csv",
+      "sha256": "d73dbb1f70653f345974cb21ac8ca511e9b56e9814880cabefb87001f907ba8e",
+      "bytes": 12917,
+      "role": "design_metadata",
+      "roles": [
+        "design_metadata"
+      ],
+      "input_use": "model",
+      "source_urls": [],
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "original_filename": "Figshare_archive_entry_inventory.csv"
+    },
+    {
+      "path": "records/Figshare-27753327/figshare-zip-directory.json",
+      "sha256": "05642976da2baabcd15154f9d109108207c3bd1ad43c2a8ca667cff5ccb20cdd",
+      "bytes": 32559,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [],
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "original_filename": "figshare-zip-directory.json"
+    },
+    {
+      "path": "records/Figshare-27753327/figshare-project.json",
+      "sha256": "ebd4a8d4cf97201a45e243313b1c115a1774c4e39af64eea85f0086908325ac6",
+      "bytes": 4045,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [],
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "original_filename": "figshare-project.json",
+      "retrieved_at": "2026-10-17T23:54:47+08:00"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

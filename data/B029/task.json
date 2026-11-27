@@ -1,0 +1,32 @@
+{
+  "case_id": "B029",
+  "task_id": "B029",
+  "title": "PTBP1 inhibition reprograms myogenesis to rescue impaired muscle regeneration in mdx mice through correcting E2A splicing",
+  "doi": "10.1038/s41467-026-70669-9",
+  "comparison_or_design": "PTBP1 knockdown versus its matched negative control during differentiation.",
+  "observations_or_assays": [
+    "Myotube immunofluorescence imaging"
+  ],
+  "time_scope": "The differentiated-myotube imaging endpoint of this comparison; record source-defined intervals from transfection initiation, including the differentiation-medium switch and imaging collection.",
+  "excluded": [
+    "PTBP1 overexpression, proliferation-phase and E12/E47 rescue/co-intervention branches",
+    "Western blot, in vivo AAV/mdx, protein-degradation and other assays"
+  ],
+  "population_or_material": "C2C12 preparations undergoing differentiation in the PTBP1 knockdown experiment.",
+  "requested_items": [
+    "PTBP1 knockdown versus negative control, differentiation regimen and imaging collection interval"
+  ],
+  "resources": [
+    {
+      "accession": "10.6084/m9.figshare.29153381",
+      "url": "https://doi.org/10.6084/m9.figshare.29153381"
+    }
+  ],
+  "domain": "basic",
+  "pipeline": "basic-research",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/basic-research.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

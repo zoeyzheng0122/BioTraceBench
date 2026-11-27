@@ -1,0 +1,119 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "B043",
+    "domain": "basic",
+    "title": "Transcriptomic profiling of chlorogenic acid and taurine treatment in human skin cells provides insights into cellular senescence mechanisms",
+    "doi": "10.3389/fmolb.2026.1748185",
+    "pipeline": "basic-research",
+    "pmid": "41938013",
+    "pmcid": "PMC13047320",
+    "registry": "GSE302932"
+  },
+  "files": [
+    {
+      "path": "records/GEO-GSE302932-project.txt",
+      "sha256": "97692abc4cc094fe790443a72faf7c5bea9ad09677c1d0c4717ffc74f22a4945",
+      "bytes": 4384,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE302932&targ=self&form=text&view=brief"
+      ],
+      "association": "exact accession reported in Data Availability; metadata only; relation not yet verified",
+      "original_filename": "GEO-GSE302932-project.txt"
+    },
+    {
+      "path": "records/GEO-GSE302932-samples.txt",
+      "sha256": "6ff587de327df7a1d91b5840eb29188c82f55d53827bb60aa8d3fcc1d6def445",
+      "bytes": 161172,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE302932&targ=gsm&form=text&view=brief"
+      ],
+      "association": "exact accession reported in Data Availability; metadata only; relation not yet verified",
+      "original_filename": "GEO-GSE302932-samples.txt"
+    },
+    {
+      "path": "sources/article.xml",
+      "sha256": "23598cea710a3c58f734c1a20474fce4abf3904d3470a6a9051d761258551336",
+      "bytes": 173981,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13047320/fullTextXML"
+      ],
+      "association": "exact public PMCID candidate"
+    },
+    {
+      "path": "figures/captions.txt",
+      "sha256": "18d1a40928241a711ecbfe4430ba5e26858885f6cdb2886d08dcef13a4a3802b",
+      "bytes": 4139,
+      "role": "figure_captions",
+      "roles": [
+        "figure_captions"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13047320/"
+      ],
+      "derived_from": "10d48768c591cdde8820149a7b7b52964effd40da6237aa630b68f0872db6c9a"
+    },
+    {
+      "path": "figures/fmolb-13-1748185-g001.jpg",
+      "sha256": "a1a324bbff82f83c1de5be6233d0dfc63a1046d3e251b5ae2b83b10200bd41c7",
+      "bytes": 84643,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13047320.1/fmolb-13-1748185-g001.jpg?md5=7aa789795ee56e3ecfc9acf4dbb7beac"
+      ],
+      "association": "Exact JATS paper asset and official version MD5; downloaded in local Chrome"
+    },
+    {
+      "path": "figures/fmolb-13-1748185-g002.jpg",
+      "sha256": "b518f014e36ea84892d27cbe708fd4ae3690e3d4dd946322fae17f73c18085ec",
+      "bytes": 179697,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13047320.1/fmolb-13-1748185-g002.jpg?md5=dbea7490755ab68c8a53a9363016c402"
+      ],
+      "association": "Exact JATS paper asset and official version MD5; downloaded in local Chrome"
+    },
+    {
+      "path": "figures/fmolb-13-1748185-g003.jpg",
+      "sha256": "69b01217de56d81814648a24ad3ca3abec55f07f14adedcc5ccea5d2517d1614",
+      "bytes": 105466,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13047320.1/fmolb-13-1748185-g003.jpg?md5=68b06f1486d50b65bb7734a00bfcfc3e"
+      ],
+      "association": "exact JATS F3 in verified PMC version; article source only"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

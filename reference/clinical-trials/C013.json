@@ -1,0 +1,223 @@
+{
+  "measure": [
+    {
+      "measure_definition": "Occurrence: participants with improvement of target organ damage (composite primary endpoint) from randomisation to last follow-up; Participants; Target organ damage reassessed at months 3, 6, 9, and 12. baPWV measured with Omron Vascular Profiler-1000/2000; urinary ACR measured in mid-morning urine samples; electrocardiographic left ventricular hypertrophy assessed by Sokolow-Lyon index or Cornell product. Composite endpoint assessed from randomisation to last follow-up.; Improvement defined as one or more of: baPWV decrease by ≥20% or to <1400 cm/s; ACR reduction by ≥20% or to <3.5 mg/mmol in women and <2.5 mg/mmol in men; or normalisation of Sokolow-Lyon index or Cornell product, over the 48-week follow-up. Primary ITT analysis included all randomised patients; missing values handled by multiple imputation in the primary ITT analysis.",
+      "measure_id": "M0",
+      "measure_name": "Improvement of target organ damage (composite primary endpoint)"
+    },
+    {
+      "measure_definition": "Measured value: brachial-ankle pulse wave velocity (baPWV); Participants; baPWV measured after at least 5 minutes of supine rest using the Omron Vascular Profiler-1000/2000; left- and right-sided baPWV averaged. Assessed before treatment and at follow-up.; Continuous baPWV in cm/s. A baPWV of ≥1400 cm/s was a sign of arterial stiffening used for eligibility.",
+      "measure_id": "M1",
+      "measure_name": "Brachial-ankle pulse wave velocity (baPWV)"
+    },
+    {
+      "measure_definition": "Measured value: urinary albumin-to-creatinine ratio (ACR); Participants; ACR measured in two mid-morning urine samples collected on different days. Table 3 presents baseline ACR as geometric mean (IQR). ACR expressed in mg/mmol.; Continuous ACR in mg/mmol. Microalbuminuria threshold was ACR ≥3.5 mg/mmol in women and ≥2.5 mg/mmol in men.",
+      "measure_id": "M3",
+      "measure_name": "Urinary albumin-to-creatinine ratio (ACR)"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "Allisartan isoproxil; amlodipine could be added if ambulatory blood pressure remained uncontrolled.",
+      "intervention_regimen": "Allisartan 80 mg/day initially; allisartan 160 mg/day from month 2 if ambulatory blood pressure remained uncontrolled; amlodipine 2.5 mg/day added at month 4 if still uncontrolled.; Once daily; planned titration at month 2 and month 4; 12-month treatment period.",
+      "population_definition": "Randomised to active antihypertensive treatment; all randomised patients included in the intention-to-treat analysis.; Adults aged 30–70 years with masked hypertension confirmed at two screening visits 1 month apart (office BP <140/<90 mm Hg and 24-h, daytime or nighttime ambulatory BP ≥130/≥80, ≥135/≥85, or ≥120/≥70 mm Hg), at least one sign of target organ damage (electrocardiographic left ventricular hypertrophy, baPWV ≥1400 cm/s, or urinary albumin-to-creatinine ratio ≥3.5 mg/mmol in women and ≥2.5 mg/mmol in men), untreated or off antihypertensive treatment for at least 2 weeks; randomised 1:1 and included in the intention-to-treat analysis.",
+      "population_id": "P0",
+      "population_name": "Active treatment intention-to-treat population",
+      "population_size": 153,
+      "population_time_frame": "Recruited/randomised between February 14, 2017 and October 31, 2020; follow-up to 48 weeks/1 year."
+    },
+    {
+      "intervention": "Matching placebo for allisartan and amlodipine.",
+      "intervention_regimen": "Matching placebo tablets corresponding to allisartan 80 mg, allisartan 160 mg, and amlodipine 2.5 mg.; Once daily; matching placebo titration mirrored active treatment at month 2 and month 4; 12-month treatment period.",
+      "population_definition": "Randomised to matching placebo; all randomised patients included in the intention-to-treat analysis.; Adults aged 30–70 years with masked hypertension confirmed at two screening visits 1 month apart (office BP <140/<90 mm Hg and 24-h, daytime or nighttime ambulatory BP ≥130/≥80, ≥135/≥85, or ≥120/≥70 mm Hg), at least one sign of target organ damage (electrocardiographic left ventricular hypertrophy, baPWV ≥1400 cm/s, or urinary albumin-to-creatinine ratio ≥3.5 mg/mmol in women and ≥2.5 mg/mmol in men), untreated or off antihypertensive treatment for at least 2 weeks; randomised 1:1 and included in the intention-to-treat analysis.",
+      "population_id": "P1",
+      "population_name": "Placebo intention-to-treat population",
+      "population_size": 167,
+      "population_time_frame": "Recruited/randomised between February 14, 2017 and October 31, 2020; follow-up to 48 weeks/1 year."
+    },
+    {
+      "intervention": "Allisartan isoproxil-based antihypertensive strategy or matching placebo strategy.",
+      "intervention_regimen": "As randomised; active and placebo strategies followed the same planned titration schedule.",
+      "population_definition": "All randomised participants, irrespective of treatment assignment.; Adults aged 30–70 years with masked hypertension confirmed at two screening visits 1 month apart and at least one sign of target organ damage; randomised 1:1 to active treatment or matching placebo and included in the intention-to-treat analysis.",
+      "population_id": "P2",
+      "population_name": "Overall ANTI-MASK intention-to-treat population",
+      "population_size": 320,
+      "population_time_frame": "Recruited/randomised between February 14, 2017 and October 31, 2020; follow-up to 48 weeks/1 year."
+    }
+  ],
+  "population_relation": [
+    {
+      "population_a_id": "P0",
+      "population_b_id": "P2",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P2",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P0",
+      "population_b_id": "P1",
+      "relationship": "disjoint from"
+    }
+  ],
+  "result": [
+    {
+      "assessment_time": "From randomisation to last follow-up (48 weeks/1 year)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R01",
+      "result_unit": "participants",
+      "result_value": 79,
+      "statistic_type": "Number of participants with improvement of target organ damage (composite primary endpoint)",
+      "statistical_method": "Primary intention-to-treat analysis with multiple imputation for missing values (50 runs, pooled using SAS MIANALYZE). The 95% CI of the proportion used the reported normal approximation. Derivation of the reported integer count across imputations was unspecified.",
+      "supplementary_statistics": "51.6% (95% CI 43.7%, 59.5%); Reported denominator: 153"
+    },
+    {
+      "assessment_time": "From randomisation to last follow-up (48 weeks/1 year)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R02",
+      "result_unit": "participants",
+      "result_value": 49,
+      "statistic_type": "Number of participants with improvement of target organ damage (composite primary endpoint)",
+      "statistical_method": "Primary intention-to-treat analysis with multiple imputation for missing values (50 runs, pooled using SAS MIANALYZE). The 95% CI of the proportion used the reported normal approximation. Derivation of the reported integer count across imputations was unspecified.",
+      "supplementary_statistics": "29.3% (95% CI 22.1%, 36.5%); Reported denominator: 167"
+    },
+    {
+      "assessment_time": "From randomisation to last follow-up (48 weeks/1 year)",
+      "comparison": "P0 vs P1; subtraction/sign direction not explicitly established",
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R03",
+      "result_unit": null,
+      "result_value": "<0.0001",
+      "statistic_type": "P value for between-group difference (active treatment versus placebo)",
+      "statistical_method": "Fisher exact test for between-group proportions, as specified in the published statistical methods. Primary intention-to-treat analysis used multiple imputation for missing values. The report did not specify how the final composite P value was combined across imputations.",
+      "supplementary_statistics": null
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P0",
+      "result_id": "R04",
+      "result_unit": "cm/s",
+      "result_value": 1622.1,
+      "statistic_type": "Mean",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 180.9 cm/s"
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R05",
+      "result_unit": "cm/s",
+      "result_value": 1610.0,
+      "statistic_type": "Mean",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 199.7 cm/s"
+    },
+    {
+      "assessment_time": "Baseline to last follow-up (48 weeks/1 year)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P0",
+      "result_id": "R06",
+      "result_unit": "cm/s",
+      "result_value": -152.8,
+      "statistic_type": "Adjusted mean change from baseline",
+      "statistical_method": "Primary intention-to-treat analysis with multiple imputation (50 runs, pooled using SAS MIANALYZE); MIXED model for continuous outcomes, with baseline outcome, sex and age as fixed effects and patient as random effect; randomization group included for between-group comparisons. Table 3 least-squares changes and their corresponding contrasts.",
+      "supplementary_statistics": "Parenthetical dispersion (type unlabeled in Table 3): 14.8 cm/s; within-group p ≤ 0.001"
+    },
+    {
+      "assessment_time": "Baseline to last follow-up (48 weeks/1 year)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R07",
+      "result_unit": "cm/s",
+      "result_value": -27.7,
+      "statistic_type": "Adjusted mean change from baseline",
+      "statistical_method": "Primary intention-to-treat analysis with multiple imputation (50 runs, pooled using SAS MIANALYZE); MIXED model for continuous outcomes, with baseline outcome, sex and age as fixed effects and patient as random effect; randomization group included for between-group comparisons. Table 3 least-squares changes and their corresponding contrasts.",
+      "supplementary_statistics": "Parenthetical dispersion (type unlabeled in Table 3): 14.8 cm/s"
+    },
+    {
+      "assessment_time": "Baseline to last follow-up (48 weeks/1 year)",
+      "comparison": "P0 minus P1 (active minus placebo)",
+      "measure_id": "M1",
+      "population_id": "P0",
+      "result_id": "R08",
+      "result_unit": "cm/s",
+      "result_value": -125.1,
+      "statistic_type": "Between-group difference in adjusted mean change (active minus placebo)",
+      "statistical_method": "Primary intention-to-treat analysis with multiple imputation (50 runs, pooled using SAS MIANALYZE); MIXED model for continuous outcomes, with baseline outcome, sex and age as fixed effects and patient as random effect; randomization group included for between-group comparisons. Table 3 least-squares changes and their corresponding contrasts.",
+      "supplementary_statistics": "95% CI −166.0 to −84.2 cm/s; p < 0.0001"
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M3",
+      "population_id": "P0",
+      "result_id": "R09",
+      "result_unit": "mg/mmol",
+      "result_value": 1.27,
+      "statistic_type": "Geometric mean",
+      "statistical_method": null,
+      "supplementary_statistics": "IQR 0.79–1.97 mg/mmol"
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M3",
+      "population_id": "P1",
+      "result_id": "R10",
+      "result_unit": "mg/mmol",
+      "result_value": 1.2,
+      "statistic_type": "Geometric mean",
+      "statistical_method": null,
+      "supplementary_statistics": "IQR 0.67–1.90 mg/mmol"
+    },
+    {
+      "assessment_time": "Baseline to last follow-up (48 weeks/1 year)",
+      "comparison": null,
+      "measure_id": "M3",
+      "population_id": "P0",
+      "result_id": "R11",
+      "result_unit": "mg/mmol",
+      "result_value": -0.18,
+      "statistic_type": "Adjusted mean change from baseline",
+      "statistical_method": "Primary intention-to-treat analysis with multiple imputation (50 runs, pooled using SAS MIANALYZE); MIXED model for continuous outcomes, with baseline outcome, sex and age as fixed effects and patient as random effect; randomization group included for between-group comparisons. Table 3 least-squares changes and their corresponding contrasts.",
+      "supplementary_statistics": "Parenthetical dispersion (type unlabeled in Table 3): 0.09 mg/mmol; within-group p ≤ 0.05"
+    },
+    {
+      "assessment_time": "Baseline to last follow-up (48 weeks/1 year)",
+      "comparison": null,
+      "measure_id": "M3",
+      "population_id": "P1",
+      "result_id": "R12",
+      "result_unit": "mg/mmol",
+      "result_value": 0.16,
+      "statistic_type": "Adjusted mean change from baseline",
+      "statistical_method": "Primary intention-to-treat analysis with multiple imputation (50 runs, pooled using SAS MIANALYZE); MIXED model for continuous outcomes, with baseline outcome, sex and age as fixed effects and patient as random effect; randomization group included for between-group comparisons. Table 3 least-squares changes and their corresponding contrasts.",
+      "supplementary_statistics": "Parenthetical dispersion (type unlabeled in Table 3): 0.08 mg/mmol"
+    },
+    {
+      "assessment_time": "Baseline to last follow-up (48 weeks/1 year)",
+      "comparison": "P0 minus P1 (active minus placebo)",
+      "measure_id": "M3",
+      "population_id": "P0",
+      "result_id": "R13",
+      "result_unit": "mg/mmol",
+      "result_value": -0.3,
+      "statistic_type": "Between-group difference in adjusted mean change (active minus placebo)",
+      "statistical_method": "Primary intention-to-treat analysis with multiple imputation (50 runs, pooled using SAS MIANALYZE); MIXED model for continuous outcomes, with baseline outcome, sex and age as fixed effects and patient as random effect; randomization group included for between-group comparisons. Table 3 least-squares changes and their corresponding contrasts.",
+      "supplementary_statistics": "95% CI −0.38 to −0.23 mg/mmol; p = 0.0025"
+    }
+  ]
+}

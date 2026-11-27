@@ -1,0 +1,32 @@
+{
+  "case_id": "C012",
+  "task_id": "C012",
+  "title": "Tirzepatide in Adults With Type 1 Diabetes: A Phase 2 Randomized Placebo-Controlled Clinical Trial",
+  "doi": "10.2337/dc25-2379",
+  "comparison_or_design": "The primary tirzepatide trial comparison in adults with type 1 diabetes and obesity.",
+  "observations_or_assays": [
+    "Body weight",
+    "HbA1c",
+    "Total daily insulin dose"
+  ],
+  "time_scope": "Baseline to week 12.",
+  "excluded": [
+    "Weight-responder categories, basal/bolus insulin breakdowns and per-kg dose variants",
+    "Body composition, vascular/metabolic assays, other glycemic endpoints and safety"
+  ],
+  "population_or_material": "Adults with type 1 diabetes and obesity in the trial’s primary ITT weight analysis.",
+  "requested_items": [
+    "Main Table 2 analysis baseline/week-12 values, arm changes and adjusted contrasts for weight, HbA1c and total insulin units/day; also explicitly reported weight-percentage difference and relative insulin percentage difference. Preserve ratio of geometric means as a ratio. Exclude Table 1 observational baseline descriptives and insulin subtypes/units-per-kg."
+  ],
+  "resources": [],
+  "case_specific_rules": [
+    "Use the published report for actual randomization, treatment received and efficacy analysis; distinguish any differing planned protocol populations or regimens. Retain directly reported weight-change confidence intervals literally."
+  ],
+  "domain": "clinical",
+  "pipeline": "clinical-trials",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/clinical-trials.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

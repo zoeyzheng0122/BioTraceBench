@@ -1,0 +1,290 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "ENA:ERX15203090 (experiment); ENA:ERR15803474 (run)",
+      "method": "NEBNext Ultra II RNA Library Prep Kit for Illumina; paired-end 150-bp sequencing. Native sample: iPSC-1, replicate 1.",
+      "platform": "Illumina NovaSeq",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0002",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "ENA:ERX15203091 (experiment); ENA:ERR15803475 (run)",
+      "method": "NEBNext Ultra II RNA Library Prep Kit for Illumina; paired-end 150-bp sequencing. Native sample: iPSC-1, replicate 2.",
+      "platform": "Illumina NovaSeq",
+      "sample_ids": [
+        "S0002"
+      ]
+    },
+    {
+      "assay_id": "A0003",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "ENA:ERX15203092 (experiment); ENA:ERR15803476 (run)",
+      "method": "NEBNext Ultra II RNA Library Prep Kit for Illumina; paired-end 150-bp sequencing. Native sample: iPSC-1, replicate 3.",
+      "platform": "Illumina NovaSeq",
+      "sample_ids": [
+        "S0003"
+      ]
+    },
+    {
+      "assay_id": "A0004",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "ENA:ERX15203093 (experiment); ENA:ERR15803477 (run)",
+      "method": "NEBNext Ultra II RNA Library Prep Kit for Illumina; paired-end 150-bp sequencing. Native sample: iPSC-2, replicate 1.",
+      "platform": "Illumina NovaSeq",
+      "sample_ids": [
+        "S0004"
+      ]
+    },
+    {
+      "assay_id": "A0005",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "ENA:ERX15203094 (experiment); ENA:ERR15803478 (run)",
+      "method": "NEBNext Ultra II RNA Library Prep Kit for Illumina; paired-end 150-bp sequencing. Native sample: iPSC-2, replicate 2.",
+      "platform": "Illumina NovaSeq",
+      "sample_ids": [
+        "S0005"
+      ]
+    },
+    {
+      "assay_id": "A0006",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "ENA:ERX15203095 (experiment); ENA:ERR15803479 (run)",
+      "method": "NEBNext Ultra II RNA Library Prep Kit for Illumina; paired-end 150-bp sequencing. Native sample: iPSC-2, replicate 3.",
+      "platform": "Illumina NovaSeq",
+      "sample_ids": [
+        "S0006"
+      ]
+    },
+    {
+      "assay_id": "A0007",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "ENA:ERX15203096 (experiment); ENA:ERR15803480 (run)",
+      "method": "NEBNext Ultra II RNA Library Prep Kit for Illumina; paired-end 150-bp sequencing. Native sample: ORG-1-WK6, replicate 1.",
+      "platform": "Illumina NovaSeq",
+      "sample_ids": [
+        "S0007"
+      ]
+    },
+    {
+      "assay_id": "A0008",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "ENA:ERX15203097 (experiment); ENA:ERR15803481 (run)",
+      "method": "NEBNext Ultra II RNA Library Prep Kit for Illumina; paired-end 150-bp sequencing. Native sample: ORG-1-WK6, replicate 2.",
+      "platform": "Illumina NovaSeq",
+      "sample_ids": [
+        "S0008"
+      ]
+    },
+    {
+      "assay_id": "A0009",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "ENA:ERX15203098 (experiment); ENA:ERR15803482 (run)",
+      "method": "NEBNext Ultra II RNA Library Prep Kit for Illumina; paired-end 150-bp sequencing. Native sample: ORG-1-WK6, replicate 3.",
+      "platform": "Illumina NovaSeq",
+      "sample_ids": [
+        "S0009"
+      ]
+    },
+    {
+      "assay_id": "A0010",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "ENA:ERX15203102 (experiment); ENA:ERR15803486 (run)",
+      "method": "NEBNext Ultra II RNA Library Prep Kit for Illumina; paired-end 150-bp sequencing. Native sample: ORG-2-WK6, replicate 1.",
+      "platform": "Illumina NovaSeq",
+      "sample_ids": [
+        "S0010"
+      ]
+    },
+    {
+      "assay_id": "A0011",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "ENA:ERX15203103 (experiment); ENA:ERR15803487 (run)",
+      "method": "NEBNext Ultra II RNA Library Prep Kit for Illumina; paired-end 150-bp sequencing. Native sample: ORG-2-WK6, replicate 2.",
+      "platform": "Illumina NovaSeq",
+      "sample_ids": [
+        "S0011"
+      ]
+    },
+    {
+      "assay_id": "A0012",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "ENA:ERX15203104 (experiment); ENA:ERR15803488 (run)",
+      "method": "NEBNext Ultra II RNA Library Prep Kit for Illumina; paired-end 150-bp sequencing. Native sample: ORG-2-WK6, replicate 3.",
+      "platform": "Illumina NovaSeq",
+      "sample_ids": [
+        "S0012"
+      ]
+    }
+  ],
+  "condition": [
+    {
+      "condition_id": "C0001",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Monoculture differentiation duration",
+      "factor_unit": "week",
+      "factor_value": 6,
+      "sample_id": "S0007",
+      "time": "From monoculture differentiation initiation to RNA collection"
+    },
+    {
+      "condition_id": "C0002",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Monoculture differentiation duration",
+      "factor_unit": "week",
+      "factor_value": 6,
+      "sample_id": "S0008",
+      "time": "From monoculture differentiation initiation to RNA collection"
+    },
+    {
+      "condition_id": "C0003",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Monoculture differentiation duration",
+      "factor_unit": "week",
+      "factor_value": 6,
+      "sample_id": "S0009",
+      "time": "From monoculture differentiation initiation to RNA collection"
+    },
+    {
+      "condition_id": "C0004",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Monoculture differentiation duration",
+      "factor_unit": "week",
+      "factor_value": 6,
+      "sample_id": "S0010",
+      "time": "From monoculture differentiation initiation to RNA collection"
+    },
+    {
+      "condition_id": "C0005",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Monoculture differentiation duration",
+      "factor_unit": "week",
+      "factor_value": 6,
+      "sample_id": "S0011",
+      "time": "From monoculture differentiation initiation to RNA collection"
+    },
+    {
+      "condition_id": "C0006",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Monoculture differentiation duration",
+      "factor_unit": "week",
+      "factor_value": 6,
+      "sample_id": "S0012",
+      "time": "From monoculture differentiation initiation to RNA collection"
+    }
+  ],
+  "sample": [
+    {
+      "biological_model": "Undifferentiated human induced pluripotent stem cell model",
+      "biological_source": "Human iPSC line iPSC1 generated from healthy human prostate tissue obtained during cystoprostatectomy for bladder cancer.",
+      "sample_accession": "ENA:SAMEA120440265 (sample)",
+      "sample_id": "S0001",
+      "sample_material": "RNA from an undifferentiated iPSC1 reference preparation.",
+      "sample_name": "iPSC-1, replicate 1",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Undifferentiated human induced pluripotent stem cell model",
+      "biological_source": "Human iPSC line iPSC1 generated from healthy human prostate tissue obtained during cystoprostatectomy for bladder cancer.",
+      "sample_accession": "ENA:SAMEA120440266 (sample)",
+      "sample_id": "S0002",
+      "sample_material": "RNA from an undifferentiated iPSC1 reference preparation.",
+      "sample_name": "iPSC-1, replicate 2",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Undifferentiated human induced pluripotent stem cell model",
+      "biological_source": "Human iPSC line iPSC1 generated from healthy human prostate tissue obtained during cystoprostatectomy for bladder cancer.",
+      "sample_accession": "ENA:SAMEA120440267 (sample)",
+      "sample_id": "S0003",
+      "sample_material": "RNA from an undifferentiated iPSC1 reference preparation.",
+      "sample_name": "iPSC-1, replicate 3",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Undifferentiated human induced pluripotent stem cell model",
+      "biological_source": "Human iPSC line iPSC2 generated from healthy human prostate tissue obtained during cystoprostatectomy for bladder cancer.",
+      "sample_accession": "ENA:SAMEA120440268 (sample)",
+      "sample_id": "S0004",
+      "sample_material": "RNA from an undifferentiated iPSC2 reference preparation.",
+      "sample_name": "iPSC-2, replicate 1",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Undifferentiated human induced pluripotent stem cell model",
+      "biological_source": "Human iPSC line iPSC2 generated from healthy human prostate tissue obtained during cystoprostatectomy for bladder cancer.",
+      "sample_accession": "ENA:SAMEA120440269 (sample)",
+      "sample_id": "S0005",
+      "sample_material": "RNA from an undifferentiated iPSC2 reference preparation.",
+      "sample_name": "iPSC-2, replicate 2",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Undifferentiated human induced pluripotent stem cell model",
+      "biological_source": "Human iPSC line iPSC2 generated from healthy human prostate tissue obtained during cystoprostatectomy for bladder cancer.",
+      "sample_accession": "ENA:SAMEA120440270 (sample)",
+      "sample_id": "S0006",
+      "sample_material": "RNA from an undifferentiated iPSC2 reference preparation.",
+      "sample_name": "iPSC-2, replicate 3",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "iPSC-derived prostate organoid monoculture model",
+      "biological_source": "Human iPSC line iPSC1 generated from healthy human prostate tissue obtained during cystoprostatectomy for bladder cancer.",
+      "sample_accession": "ENA:SAMEA120440271 (sample)",
+      "sample_id": "S0007",
+      "sample_material": "RNA from week-6, xeno-free, scaffold-free monoculture prostate organoids derived from iPSC1. The number of organoids contributing to this RNA preparation is not reported.",
+      "sample_name": "ORG-1-WK6, replicate 1",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "iPSC-derived prostate organoid monoculture model",
+      "biological_source": "Human iPSC line iPSC1 generated from healthy human prostate tissue obtained during cystoprostatectomy for bladder cancer.",
+      "sample_accession": "ENA:SAMEA120440272 (sample)",
+      "sample_id": "S0008",
+      "sample_material": "RNA from week-6, xeno-free, scaffold-free monoculture prostate organoids derived from iPSC1. The number of organoids contributing to this RNA preparation is not reported.",
+      "sample_name": "ORG-1-WK6, replicate 2",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "iPSC-derived prostate organoid monoculture model",
+      "biological_source": "Human iPSC line iPSC1 generated from healthy human prostate tissue obtained during cystoprostatectomy for bladder cancer.",
+      "sample_accession": "ENA:SAMEA120440273 (sample)",
+      "sample_id": "S0009",
+      "sample_material": "RNA from week-6, xeno-free, scaffold-free monoculture prostate organoids derived from iPSC1. The number of organoids contributing to this RNA preparation is not reported.",
+      "sample_name": "ORG-1-WK6, replicate 3",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "iPSC-derived prostate organoid monoculture model",
+      "biological_source": "Human iPSC line iPSC2 generated from healthy human prostate tissue obtained during cystoprostatectomy for bladder cancer.",
+      "sample_accession": "ENA:SAMEA120440277 (sample)",
+      "sample_id": "S0010",
+      "sample_material": "RNA from week-6, xeno-free, scaffold-free monoculture prostate organoids derived from iPSC2. The number of organoids contributing to this RNA preparation is not reported.",
+      "sample_name": "ORG-2-WK6, replicate 1",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "iPSC-derived prostate organoid monoculture model",
+      "biological_source": "Human iPSC line iPSC2 generated from healthy human prostate tissue obtained during cystoprostatectomy for bladder cancer.",
+      "sample_accession": "ENA:SAMEA120440278 (sample)",
+      "sample_id": "S0011",
+      "sample_material": "RNA from week-6, xeno-free, scaffold-free monoculture prostate organoids derived from iPSC2. The number of organoids contributing to this RNA preparation is not reported.",
+      "sample_name": "ORG-2-WK6, replicate 2",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "iPSC-derived prostate organoid monoculture model",
+      "biological_source": "Human iPSC line iPSC2 generated from healthy human prostate tissue obtained during cystoprostatectomy for bladder cancer.",
+      "sample_accession": "ENA:SAMEA120440279 (sample)",
+      "sample_id": "S0012",
+      "sample_material": "RNA from week-6, xeno-free, scaffold-free monoculture prostate organoids derived from iPSC2. The number of organoids contributing to this RNA preparation is not reported.",
+      "sample_name": "ORG-2-WK6, replicate 3",
+      "species": "Homo sapiens"
+    }
+  ]
+}

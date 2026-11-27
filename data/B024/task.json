@@ -1,0 +1,33 @@
+{
+  "case_id": "B024",
+  "task_id": "B024",
+  "title": "Extracellular C1qbp inhibits myogenesis by suppressing NFATc1",
+  "doi": "10.1038/s41598-024-66549-1",
+  "comparison_or_design": "The gastrocnemius proteomics comparison in the young-mouse activity-loading experiment.",
+  "observations_or_assays": [
+    "Mass-spectrometry proteomics"
+  ],
+  "time_scope": "The terminal collection after the 3-week loading/unloading regimens.",
+  "excluded": [
+    "The separate old-versus-young mouse cohort",
+    "Histology and recombinant-C1qbp/NFATc1 cell intervention/functional assays"
+  ],
+  "population_or_material": "Gastrocnemius preparations in the young male C57BL/6 activity-loading experiment.",
+  "requested_items": [
+    "Treadmill running speed, incline, daily exercise duration and total regimen duration, and tail-suspension hindlimb unloading duration through terminal collection.",
+    "Represent quantitative conditions with numeric Factor Value and a separate Unit. Retain intervention identity in the factor name and sample descriptions. Do not infer an unreported number of exercise days per week."
+  ],
+  "resources": [
+    {
+      "accession": "PXD043715",
+      "url": "https://www.ebi.ac.uk/pride/archive/projects/PXD043715"
+    }
+  ],
+  "domain": "basic",
+  "pipeline": "basic-research",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/basic-research.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

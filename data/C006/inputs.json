@@ -1,0 +1,112 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "C006",
+    "domain": "clinical",
+    "title": "Effects of a Psycho‐Behavioural Intervention on Cancer‐Related Fatigue Among Patients With Colorectal Cancer: A Pilot Randomised Controlled Trial",
+    "doi": "10.1002/pon.70570",
+    "pipeline": "clinical-trials",
+    "pmid": "42568201",
+    "pmcid": "PMC13451782",
+    "registry": "ChiCTR2500104303"
+  },
+  "files": [
+    {
+      "path": "sources/article.xml",
+      "sha256": "a53bb65a0af48bcd5491bfa9e139db6537b7c33d2eeb7faaba1a01157160ff86",
+      "bytes": 136124,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13451782/fullTextXML"
+      ],
+      "association": "exact public PMCID candidate"
+    },
+    {
+      "path": "figures/PON-35-e70570-g001.jpg",
+      "sha256": "b85526048006f401625e497b2c966bcac59cfb713201539880c0961902d3cf73",
+      "bytes": 84535,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13451782.1/PON-35-e70570-g001.jpg?md5=11be4e8e1bafdf64bb8da628176fbda8"
+      ],
+      "association": "exact JATS pon70570-fig-0002 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/PON-35-e70570-g002.jpg",
+      "sha256": "83dca896b4f7f0df7bda1bb76d95c710d437af6a70f89bb5753993936f0a2e34",
+      "bytes": 49531,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13451782.1/PON-35-e70570-g002.jpg?md5=915b504f78e73c6351a67103ed88b933"
+      ],
+      "association": "exact JATS pon70570-fig-0001 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/captions.txt",
+      "sha256": "86788e70e34db1dd9645cce50912f5b9c8f1e322daec34ec7a14fc445dfad207",
+      "bytes": 164,
+      "role": "figure_captions",
+      "roles": [
+        "figure_captions"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13451782/"
+      ],
+      "derived_from": "f66d8ab3e3d787a4c1894b8d0d6704583c69f62e7bed8f071a13b0eade9b5a1e"
+    },
+    {
+      "path": "records/ChiCTR2500104303.txt",
+      "sha256": "d378f85c99bdda6cdd15add583ba7c7dfbe1c406f1f452d6605ba748a1ba2206",
+      "bytes": 12851,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.chictr.org.cn/hvshowproject.html?id=278746&v=1.0"
+      ],
+      "derived_from": "994eba008b73edf9f8bcc853a5e36e742b27e195a5e38f0506e07d06e9b25090",
+      "representation": "readable_repository_page",
+      "association": "own trial registration; pilot and planned main-study arms explicitly separated",
+      "original_filename": "ChiCTR2500104303.txt",
+      "retrieved_at": "2026-10-18T01:30:41+08:00"
+    },
+    {
+      "path": "supplements/PON-35-e70570-s001__refine/content.md",
+      "sha256": "9e7d3e858a4bda8dc0ee8d867adef272d127d1d05a96ac5e59f04b777cbebe2b",
+      "bytes": 38448,
+      "role": "supplement",
+      "roles": [
+        "supplement"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13451782.1/PON-35-e70570-s001.docx?md5=0794e478eb1509620d1ea43bbe279b26"
+      ],
+      "association": "exact JATS pon70570-sup-0001 in verified PMC version; article source only",
+      "derived_from": "6758a4a3b7eb4634569d9bf5620e95c25979cc205d31a0adbff7b52185d86de2",
+      "original_sha256": "6758a4a3b7eb4634569d9bf5620e95c25979cc205d31a0adbff7b52185d86de2",
+      "original_filename": "PON-35-e70570-s001.docx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "office_text_tables"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

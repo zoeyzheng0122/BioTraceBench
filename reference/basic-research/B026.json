@@ -1,0 +1,84 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "Single-cell RNA-seq",
+      "experiment_run_accession": "CNSA:CNP0007007 (project)",
+      "method": "DNBelab C series single-cell RNA-seq; native library: cDNA-9498-1-221202; read lengths: 41 bp (R1) and 100 bp (R2). Gene-expression FASTQ pairs (R1 / R2): FP200008212_L01_35_1.fq.gz / FP200008212_L01_35_2.fq.gz; FP200008213_L01_35_1.fq.gz / FP200008213_L01_35_2.fq.gz. Companion oligo library: oligo-9498-1-221202.",
+      "platform": "MGI DNBSEQ-T7",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0002",
+      "assay_type": "Single-cell RNA-seq",
+      "experiment_run_accession": "CNSA:CNP0007007 (project)",
+      "method": "DNBelab C series single-cell RNA-seq; native library: cDNA-9498-2-221202; read lengths: 41 bp (R1) and 100 bp (R2). Gene-expression FASTQ pairs (R1 / R2): FP200008212_L01_36_1.fq.gz / FP200008212_L01_36_2.fq.gz; FP200008213_L01_36_1.fq.gz / FP200008213_L01_36_2.fq.gz. Companion oligo library: oligo-9498-2-221202.",
+      "platform": "MGI DNBSEQ-T7",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0003",
+      "assay_type": "Single-cell RNA-seq",
+      "experiment_run_accession": "CNSA:CNP0007007 (project)",
+      "method": "DNBelab C series single-cell RNA-seq; native library: cDNA-9501-1-221202; read lengths: 41 bp (R1) and 100 bp (R2). Gene-expression FASTQ pairs (R1 / R2): FP200008212_L01_37_1.fq.gz / FP200008212_L01_37_2.fq.gz; FP200008213_L01_37_1.fq.gz / FP200008213_L01_37_2.fq.gz. Companion oligo library: oligo-9501-1-221202.",
+      "platform": "MGI DNBSEQ-T7",
+      "sample_ids": [
+        "S0002"
+      ]
+    },
+    {
+      "assay_id": "A0004",
+      "assay_type": "Single-cell RNA-seq",
+      "experiment_run_accession": "CNSA:CNP0007007 (project)",
+      "method": "DNBelab C series single-cell RNA-seq; native library: cDNA-9501-2-221202; read lengths: 41 bp (R1) and 100 bp (R2). Gene-expression FASTQ pairs (R1 / R2): FP200008212_L01_38_1.fq.gz / FP200008212_L01_38_2.fq.gz; FP200008213_L01_38_1.fq.gz / FP200008213_L01_38_2.fq.gz. Companion oligo library: oligo-9501-2-221202.",
+      "platform": "MGI DNBSEQ-T7",
+      "sample_ids": [
+        "S0002"
+      ]
+    }
+  ],
+  "condition": [
+    {
+      "condition_id": "C0001",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Embryonic age at collection",
+      "factor_unit": "day",
+      "factor_value": 12.5,
+      "sample_id": "S0001",
+      "time": "At embryonic heart collection (E12.5)"
+    },
+    {
+      "condition_id": "C0002",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Embryonic age at collection",
+      "factor_unit": "day",
+      "factor_value": 12.5,
+      "sample_id": "S0002",
+      "time": "At embryonic heart collection (E12.5)"
+    }
+  ],
+  "sample": [
+    {
+      "biological_model": "Wild-type embryonic heart development model",
+      "biological_source": "Embryonic hearts from C57BL/6J mice",
+      "sample_accession": null,
+      "sample_id": "S0001",
+      "sample_material": "Single-cell suspension from pooled E12.5 wild-type embryonic hearts; three source hearts reported. The allocation of the pooled material to the two listed cDNA libraries is not specified.",
+      "sample_name": "WT_E12.5",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Cyp26b1 global knockout embryonic heart development model",
+      "biological_source": "Embryonic hearts from C57BL/6J mice",
+      "sample_accession": null,
+      "sample_id": "S0002",
+      "sample_material": "Single-cell suspension from pooled E12.5 Cyp26b1−/− embryonic hearts; three source hearts reported. The allocation of the pooled material to the two listed cDNA libraries is not specified.",
+      "sample_name": "Cyp26b1_KO_E12.5",
+      "species": "Mus musculus"
+    }
+  ]
+}

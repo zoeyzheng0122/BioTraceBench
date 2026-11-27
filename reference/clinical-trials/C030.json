@@ -1,0 +1,295 @@
+{
+  "measure": [
+    {
+      "measure_definition": "Measured value: disability-related physical functioning score; Participants; Oswestry Disability Index version 2.1a (Dutch version) completed at baseline and 3-month follow-up. Adjusted means and between-group differences estimated with a linear mixed model including repeated measurements within patients and patients nested within physiotherapy practices, adjusted for age, education level, and comorbidities; intention-to-treat with all available observations.; ODI version 2.1a score; lower scores indicate better physical functioning (ODI ↓ in Appendix Table 6). Time origin: baseline; assessment at 3 months.",
+      "measure_id": "M0",
+      "measure_name": "Oswestry Disability Index (ODI) score"
+    },
+    {
+      "measure_definition": "Measured value: pain intensity score; Participants; Numeric Pain Rating Scale (Dutch version) completed at baseline and 3-month follow-up. Adjusted means and between-group differences estimated with a linear mixed model including repeated measurements within patients and patients nested within physiotherapy practices, adjusted for age, education level, and comorbidities; intention-to-treat with all available observations.; NPRS pain intensity score; lower scores indicate less pain intensity (NPRS ↓ in Appendix Table 6). Time origin: baseline; assessment at 3 months.",
+      "measure_id": "M1",
+      "measure_name": "Numeric Pain Rating Scale (NPRS) pain intensity score"
+    },
+    {
+      "measure_definition": "Measured value: pain catastrophizing total score; Participants; Pain Catastrophizing Scale (Dutch version) total score completed at baseline and 3-month follow-up. Adjusted means and between-group differences estimated with a linear mixed model including repeated measurements within patients and patients nested within physiotherapy practices, adjusted for age, education level, and comorbidities; intention-to-treat with all available observations.; PCS total score (distinct from PCS rumination, magnification, and helplessness subscale scores); lower scores indicate less pain catastrophizing (PCS ↓ in Appendix Table 6). Time origin: baseline; assessment at 3 months.",
+      "measure_id": "M2",
+      "measure_name": "Pain Catastrophizing Scale (PCS) total score"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "Guideline-based physiotherapy plus integrated home-based virtual reality (Pico Neo 3 head-mounted display; Reducept, SyncVR Relax & Distract, and SyncVR Fit modules; pain education, exercise therapy, and relaxation).",
+      "intervention_regimen": "VR advised 10–30 min per session, five times a week, unsupervised at home; physiotherapy dose per usual care.; 12-week intervention period; VR integrated as an adjunct to usual physiotherapy, not a replacement.",
+      "population_definition": "Randomized allocation to physiotherapy with integrated home VR in the VARIETY cluster-RCT; Adults aged 18–80 years with chronic low back pain ≥3 months, ODI score ≥30 and NPRS ≥5, no physiotherapy consultation for CLBP in the past six months, absence of red flags or specific CLBP, no severe comorbidity precluding physiotherapy, no planned diagnostic or invasive treatment for CLBP within three months, able to understand Dutch and use VR, and provided informed consent; allocated to the VARIETY intervention arm.",
+      "population_id": "P0",
+      "population_name": "VARIETY intervention group",
+      "population_size": 25,
+      "population_time_frame": "Recruited March 2023 to March 2025; baseline to 3-month follow-up."
+    },
+    {
+      "intervention": "Guideline-based usual-care physiotherapy for chronic low back pain; no virtual reality intervention.",
+      "intervention_regimen": "12 weeks of usual care following Dutch physiotherapy guidelines.",
+      "population_definition": "Randomized allocation to guideline-based usual-care physiotherapy in the VARIETY cluster-RCT; Adults aged 18–80 years with chronic low back pain ≥3 months, ODI score ≥30 and NPRS ≥5, no physiotherapy consultation for CLBP in the past six months, absence of red flags or specific CLBP, no severe comorbidity precluding physiotherapy, no planned diagnostic or invasive treatment for CLBP within three months, able to understand Dutch and use VR, and provided informed consent; allocated to the VARIETY usual-care control arm.",
+      "population_id": "P1",
+      "population_name": "VARIETY usual-care control group",
+      "population_size": 7,
+      "population_time_frame": "Recruited March 2023 to March 2025; baseline to 3-month follow-up."
+    },
+    {
+      "intervention": "Randomized to physiotherapy with integrated home VR or guideline-based usual-care physiotherapy.",
+      "intervention_regimen": null,
+      "population_definition": "Randomization in the VARIETY cluster-RCT, across all allocated arms; Adults screened and randomized in VARIETY after meeting trial eligibility; includes participants allocated to the intervention or usual-care control; one randomized participant did not start treatment.",
+      "population_id": "P2",
+      "population_name": "VARIETY randomized participants",
+      "population_size": 33,
+      "population_time_frame": "Recruited March 2023 to March 2025; randomization phase."
+    },
+    {
+      "intervention": "Allocated intervention (physiotherapy plus integrated home VR) or usual-care physiotherapy.",
+      "intervention_regimen": null,
+      "population_definition": "Started allocated treatment after randomization; Randomized VARIETY participants who started treatment; the report states 33 randomized and 32 started treatment, with intervention group n=25 and VARIETY control group n=7.",
+      "population_id": "P3",
+      "population_name": "VARIETY participants who started treatment",
+      "population_size": 32,
+      "population_time_frame": "Recruited March 2023 to March 2025; treatment start after randomization."
+    }
+  ],
+  "population_relation": [
+    {
+      "population_a_id": "P0",
+      "population_b_id": "P3",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P3",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P3",
+      "population_b_id": "P2",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P0",
+      "population_b_id": "P2",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P2",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P0",
+      "population_b_id": "P1",
+      "relationship": "disjoint from"
+    }
+  ],
+  "result": [
+    {
+      "assessment_time": "Baseline (T0)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R01",
+      "result_unit": "score points",
+      "result_value": 39.6,
+      "statistic_type": "Observed mean",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 6.8; intervention group n = 25"
+    },
+    {
+      "assessment_time": "Baseline (T0)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R02",
+      "result_unit": "score points",
+      "result_value": 37.1,
+      "statistic_type": "Observed mean",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 5.5; VARIETY control group n = 7"
+    },
+    {
+      "assessment_time": "3 months",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R03",
+      "result_unit": "score points",
+      "result_value": 22.9,
+      "statistic_type": "Observed mean at T3",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 13.8; observed T3 n=21; Table 6. Main Table 3 presentation differs; task explicitly prioritizes Table 6 for observed visit summaries."
+    },
+    {
+      "assessment_time": "3 months",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R04",
+      "result_unit": "score points",
+      "result_value": 25.0,
+      "statistic_type": "Observed mean at T3",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 13.3; observed T3 n=6; Table 6. Main Table 3 presentation differs; task explicitly prioritizes Table 6 for observed visit summaries."
+    },
+    {
+      "assessment_time": "3 months",
+      "comparison": "P0 versus P1 (VR intervention versus contemporaneous VARIETY control). Subtraction order unreported.",
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R05",
+      "result_unit": "points",
+      "result_value": -4.8,
+      "statistic_type": "Adjusted between-group mean difference",
+      "statistical_method": "Mixed-effects model",
+      "supplementary_statistics": "95% CI −17.78;8.18; p = 0.44; linear mixed model accounting for clustering by practice and adjusted for age, education level, and comorbidities"
+    },
+    {
+      "assessment_time": "Baseline to 3 months",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R06",
+      "result_unit": "points",
+      "result_value": 16.7,
+      "statistic_type": "Reported within-group mean improvement from baseline",
+      "statistical_method": null,
+      "supplementary_statistics": "42% improvement"
+    },
+    {
+      "assessment_time": "Baseline to 3 months",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R07",
+      "result_unit": "points",
+      "result_value": 9.7,
+      "statistic_type": "Reported within-group mean improvement from baseline",
+      "statistical_method": null,
+      "supplementary_statistics": "26% improvement"
+    },
+    {
+      "assessment_time": "Baseline (T0)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P0",
+      "result_id": "R08",
+      "result_unit": "score points",
+      "result_value": 7.0,
+      "statistic_type": "Observed mean",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 1.0; intervention group n = 25"
+    },
+    {
+      "assessment_time": "Baseline (T0)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R09",
+      "result_unit": "score points",
+      "result_value": 6.6,
+      "statistic_type": "Observed mean",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 1.0; VARIETY control group n = 7"
+    },
+    {
+      "assessment_time": "3 months",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P0",
+      "result_id": "R10",
+      "result_unit": "score points",
+      "result_value": 4.2,
+      "statistic_type": "Observed mean at T3",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 2.3; observed T3 n=21; Table 6. Main Table 3 presentation differs; task explicitly prioritizes Table 6 for observed visit summaries."
+    },
+    {
+      "assessment_time": "3 months",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R11",
+      "result_unit": "score points",
+      "result_value": 4.7,
+      "statistic_type": "Observed mean at T3",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 2.5; observed T3 n=6; Table 6. Main Table 3 presentation differs; task explicitly prioritizes Table 6 for observed visit summaries."
+    },
+    {
+      "assessment_time": "3 months",
+      "comparison": "P0 versus P1 (VR intervention versus contemporaneous VARIETY control). Subtraction order unreported.",
+      "measure_id": "M1",
+      "population_id": "P0",
+      "result_id": "R12",
+      "result_unit": "points",
+      "result_value": -0.43,
+      "statistic_type": "Adjusted between-group mean difference",
+      "statistical_method": "Mixed-effects model",
+      "supplementary_statistics": "95% CI −2.68;1.82; p = 0.70; linear mixed model accounting for clustering by practice and adjusted for age, education level, and comorbidities"
+    },
+    {
+      "assessment_time": "Baseline (T0)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P0",
+      "result_id": "R13",
+      "result_unit": "score points",
+      "result_value": 23.8,
+      "statistic_type": "Observed mean",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 10.5; intervention group n = 25"
+    },
+    {
+      "assessment_time": "Baseline (T0)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R14",
+      "result_unit": "score points",
+      "result_value": 19.4,
+      "statistic_type": "Observed mean",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 9.8; VARIETY control group n = 7"
+    },
+    {
+      "assessment_time": "3 months",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P0",
+      "result_id": "R15",
+      "result_unit": "score points",
+      "result_value": 14.2,
+      "statistic_type": "Observed mean at T3",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 12.9; observed T3 n=21; Table 6. Main Table 3 presentation differs; task explicitly prioritizes Table 6 for observed visit summaries."
+    },
+    {
+      "assessment_time": "3 months",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R16",
+      "result_unit": "score points",
+      "result_value": 18.8,
+      "statistic_type": "Observed mean at T3",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 12.6; observed T3 n=6; Table 6. Main Table 3 presentation differs; task explicitly prioritizes Table 6 for observed visit summaries."
+    },
+    {
+      "assessment_time": "3 months",
+      "comparison": "P0 versus P1 (VR intervention versus contemporaneous VARIETY control). Subtraction order unreported.",
+      "measure_id": "M2",
+      "population_id": "P0",
+      "result_id": "R17",
+      "result_unit": "points",
+      "result_value": -4.65,
+      "statistic_type": "Adjusted between-group mean difference",
+      "statistical_method": "Mixed-effects model",
+      "supplementary_statistics": "95% CI −16.89;7.60; p = 0.44; linear mixed model accounting for clustering by practice and adjusted for age, education level, and comorbidities"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "case_id": "B035",
+  "task_id": "B035",
+  "title": "Early differential impact of MeCP2 mutations on functional networks in Rett syndrome patient-derived human cortical organoids",
+  "doi": "10.1038/s41467-026-71458-0",
+  "comparison_or_design": "R306C versus its isogenic control in the global CAG-driven GCaMP6f calcium-imaging branch.",
+  "observations_or_assays": [
+    "Three-photon calcium imaging"
+  ],
+  "time_scope": "The 3-month cortical-organoid imaging experiment.",
+  "excluded": [
+    "V247X and its controls, DLX-marked cell-specific imaging and other organoid ages",
+    "RNA-seq, WES, EEG comparisons and independent functional validation",
+    "Drug-rescue, acute blocker, CAY10683/Baclofen and CNQX/AP5/bicuculline challenge branches; reporter-specific GAD2/DLX alternatives"
+  ],
+  "population_or_material": "Patient-derived MECP2 R306C cortical organoids and their matched isogenic-control preparations.",
+  "requested_items": [
+    "MECP2 R306C versus isogenic genotype, organoid age and CAG-driven GCaMP6f reporter context"
+  ],
+  "resources": [
+    {
+      "accession": "10.5281/zenodo.18487289",
+      "url": "https://doi.org/10.5281/zenodo.18487289"
+    },
+    {
+      "accession": "B035-published-source-data",
+      "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC13260836.1/41467_2026_71458_MOESM4_ESM.xlsx"
+    }
+  ],
+  "domain": "basic",
+  "pipeline": "basic-research",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/basic-research.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

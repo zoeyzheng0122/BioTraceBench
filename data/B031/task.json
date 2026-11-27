@@ -1,0 +1,40 @@
+{
+  "case_id": "B031",
+  "task_id": "B031",
+  "title": "9-cis-Retinoic Acid Improves Disease Modelling in iPSC-Derived Liver Organoids",
+  "doi": "10.3390/cells14130983",
+  "comparison_or_design": "Archived iPSC-derived hepatocyte preparations versus HepaRG references.",
+  "observations_or_assays": [
+    "Bulk RNA sequencing"
+  ],
+  "time_scope": "The collection stage of the registered iHEP_P2/HepaRG comparison; do not equate a title suffix with differentiation day or assume a Day-21 mapping without explicit support.",
+  "excluded": [
+    "Earlier iPSC/iHepatocyte differentiation points and primary human hepatocyte reference samples",
+    "Stellate-cell, 9CRA, fibrosis, mixed-organoid and independent functional assays"
+  ],
+  "population_or_material": "The source-registered iHEP_P2 preparations and HepaRG reference preparations in GSE292959; exclude iHSC stellate-cell preparations.",
+  "requested_items": [
+    "Preparation identity and source-reported differentiation/collection stage; do not transfer 9CRA status from a separate functional branch."
+  ],
+  "resources": [
+    {
+      "accession": "GSE292959",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE292959"
+    },
+    {
+      "accession": "GEO-GSE292959-family.soft.txt",
+      "url": "related/GEO-GSE292959-family.soft.txt"
+    },
+    {
+      "accession": "ENA-PRJNA1242238-run-metadata.tsv",
+      "url": "related/ENA-PRJNA1242238-run-metadata.tsv"
+    }
+  ],
+  "domain": "basic",
+  "pipeline": "basic-research",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/basic-research.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

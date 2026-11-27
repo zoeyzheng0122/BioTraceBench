@@ -1,0 +1,525 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "C007",
+    "domain": "clinical",
+    "title": "Electronic Patient-Reported Outcome Monitoring With Alert-Based Interventions in Metastatic Breast Cancer",
+    "doi": "10.1001/jamaoncol.2026.2661",
+    "pipeline": "clinical-trials",
+    "pmid": "42560727",
+    "pmcid": "PMC13448833",
+    "registry": "DRKS00024015（PRO B）"
+  },
+  "files": [
+    {
+      "path": "sources/article.xml",
+      "sha256": "48804731457fb5cece0ddc3fc5a1898c6caed4e6e906bc6b4ecc22988b1a6188",
+      "bytes": 117430,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13448833/fullTextXML"
+      ],
+      "association": "official full text for exact PMCID"
+    },
+    {
+      "path": "figures/jamaoncol-e262661-g001.jpg",
+      "sha256": "b0f73065bc7339bf3262f170f99863f68ea7f11272c0945f7de4e9a1adbb970c",
+      "bytes": 99172,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13448833/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package"
+    },
+    {
+      "path": "figures/jamaoncol-e262661-g002-tile-1-1.png",
+      "sha256": "8200115cc3a728c4a60d58c7637392d4b1a768433da5636d83c44415fcfbd49a",
+      "bytes": 641584,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13448833/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package",
+      "derived_from": "95463bf06d14942b8f1d8e510fa519ab3dccb11bb235b96d5d658c896abd1848",
+      "original_sha256": "95463bf06d14942b8f1d8e510fa519ab3dccb11bb235b96d5d658c896abd1848",
+      "original_filename": "jamaoncol-e262661-g002.jpg",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "figures/jamaoncol-e262661-g002-tile-1-2.png",
+      "sha256": "71fcab94550dcb3ec03d279a8b8e3fbf9fc14027545a82ec75cfaf09da623be1",
+      "bytes": 454381,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13448833/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package",
+      "derived_from": "95463bf06d14942b8f1d8e510fa519ab3dccb11bb235b96d5d658c896abd1848",
+      "original_sha256": "95463bf06d14942b8f1d8e510fa519ab3dccb11bb235b96d5d658c896abd1848",
+      "original_filename": "jamaoncol-e262661-g002.jpg",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "figures/jamaoncol-e262661-g002-tile-2-1.png",
+      "sha256": "ce26cee91839e52a50799a575167f9cd5ea2170b29964d23e78f3e78875dc51f",
+      "bytes": 62886,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13448833/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package",
+      "derived_from": "95463bf06d14942b8f1d8e510fa519ab3dccb11bb235b96d5d658c896abd1848",
+      "original_sha256": "95463bf06d14942b8f1d8e510fa519ab3dccb11bb235b96d5d658c896abd1848",
+      "original_filename": "jamaoncol-e262661-g002.jpg",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "figures/jamaoncol-e262661-g002-tile-2-2.png",
+      "sha256": "7aad3176a27ecf72083e666017d448edd45f75aad27a01637ec5003843a85531",
+      "bytes": 677,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13448833/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package",
+      "derived_from": "95463bf06d14942b8f1d8e510fa519ab3dccb11bb235b96d5d658c896abd1848",
+      "original_sha256": "95463bf06d14942b8f1d8e510fa519ab3dccb11bb235b96d5d658c896abd1848",
+      "original_filename": "jamaoncol-e262661-g002.jpg",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_grayscale"
+    },
+    {
+      "path": "figures/jamaoncol-e262661-g003.jpg",
+      "sha256": "33f6211a974268d1ad7539d5a69412364cded7e08f80b62c406994c1b7263678",
+      "bytes": 155247,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13448833/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package"
+    },
+    {
+      "path": "figures/jamaoncol-e262661-g004-tile-1-1.png",
+      "sha256": "783994b52bcc6ce3e21d6bc85a404fc6e886989242d962d68538f5553313205e",
+      "bytes": 220436,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13448833/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package",
+      "derived_from": "d12580b84282d8d3506d7028a8b2a8de6d0dbc9c2ba90643828c1375e84d5270",
+      "original_sha256": "d12580b84282d8d3506d7028a8b2a8de6d0dbc9c2ba90643828c1375e84d5270",
+      "original_filename": "jamaoncol-e262661-g004.jpg",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "figures/jamaoncol-e262661-g004-tile-1-2.png",
+      "sha256": "e51b3a4d78f9f2804a8d177fcfb61ea57ff6f303f8db95a8e82f29d6ab2b993a",
+      "bytes": 220159,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13448833/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package",
+      "derived_from": "d12580b84282d8d3506d7028a8b2a8de6d0dbc9c2ba90643828c1375e84d5270",
+      "original_sha256": "d12580b84282d8d3506d7028a8b2a8de6d0dbc9c2ba90643828c1375e84d5270",
+      "original_filename": "jamaoncol-e262661-g004.jpg",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "records/Registry-DRKS00024015.txt",
+      "sha256": "9defcf6e305ad033cdd2c698c64848d974246d553cfc40b83b547bb755174e1e",
+      "bytes": 14969,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://drks.de/search/en/trial/DRKS00024015"
+      ],
+      "derived_from": "716db3b6cc1c0fc8e588e59c01101cff07155a938d6b01bd89dd898b0cbb69fd",
+      "representation": "readable_repository_page",
+      "original_filename": "Registry-DRKS00024015.txt",
+      "retrieved_at": "2026-10-18T02:16:13+08:00"
+    },
+    {
+      "path": "supplements/jamaoncol-e262661-s001__refine/content.md",
+      "sha256": "89f44caf7ca8bddb2f70f55b88e5fe5dddc3627f7690046f656f469e5ec2d666",
+      "bytes": 348976,
+      "role": "supplement",
+      "roles": [
+        "supplement"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13448833/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package",
+      "derived_from": "f95103eb90d13145919f0a3600195f528a96b23a8cb57f41dcb746fd5ed31a80",
+      "original_sha256": "f95103eb90d13145919f0a3600195f528a96b23a8cb57f41dcb746fd5ed31a80",
+      "original_filename": "jamaoncol-e262661-s001.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "pdf_text_visual",
+      "prior_sha256": "3e548ffc81664b2e44ba21b08b09ebb49c9a06ef2b2c3927c1122c3b9934b272",
+      "compatibility_transform": "remove_task_excluded_image_reference_lines"
+    },
+    {
+      "path": "supplements/jamaoncol-e262661-s002__refine/page-0010-region-01.png",
+      "sha256": "df4ce7dcc6ef9368c1f7f719587b621a6167a3a1e9987dc8067cb66ee584afa7",
+      "bytes": 280405,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13448833/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package",
+      "derived_from": "13c59967d8654457d183ea37f7523ef88c592b371a11ebdc48ae70d4a50239ea",
+      "original_sha256": "13c59967d8654457d183ea37f7523ef88c592b371a11ebdc48ae70d4a50239ea",
+      "original_filename": "jamaoncol-e262661-s002.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_grayscale"
+    },
+    {
+      "path": "supplements/jamaoncol-e262661-s002__refine/page-0011-region-01.png",
+      "sha256": "78a41446151dc950cc5debb65270b7b5ce894ca75172d66702659f26dbd4ba63",
+      "bytes": 48910,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13448833/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package",
+      "derived_from": "13c59967d8654457d183ea37f7523ef88c592b371a11ebdc48ae70d4a50239ea",
+      "original_sha256": "13c59967d8654457d183ea37f7523ef88c592b371a11ebdc48ae70d4a50239ea",
+      "original_filename": "jamaoncol-e262661-s002.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_grayscale"
+    },
+    {
+      "path": "supplements/jamaoncol-e262661-s002__refine/page-0012-region-01.png",
+      "sha256": "3eaf2d5de832408a5e2be4b1993e5514e54103d0bfc3c3729a5f5c9c322a78ba",
+      "bytes": 206770,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13448833/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package",
+      "derived_from": "13c59967d8654457d183ea37f7523ef88c592b371a11ebdc48ae70d4a50239ea",
+      "original_sha256": "13c59967d8654457d183ea37f7523ef88c592b371a11ebdc48ae70d4a50239ea",
+      "original_filename": "jamaoncol-e262661-s002.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_grayscale"
+    },
+    {
+      "path": "supplements/jamaoncol-e262661-s002__refine/page-0013-region-01.png",
+      "sha256": "01e930c375815d62404bd56eff22a48310d508746a05ebfa0492c19694bce5cd",
+      "bytes": 247430,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13448833/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package",
+      "derived_from": "13c59967d8654457d183ea37f7523ef88c592b371a11ebdc48ae70d4a50239ea",
+      "original_sha256": "13c59967d8654457d183ea37f7523ef88c592b371a11ebdc48ae70d4a50239ea",
+      "original_filename": "jamaoncol-e262661-s002.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_grayscale"
+    },
+    {
+      "path": "supplements/jamaoncol-e262661-s002__refine/page-0014-region-01.png",
+      "sha256": "d58131546a52d233ece1e6d4bd2290621e75ccb7958b52258ff6d00f101ed131",
+      "bytes": 56901,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13448833/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package",
+      "derived_from": "13c59967d8654457d183ea37f7523ef88c592b371a11ebdc48ae70d4a50239ea",
+      "original_sha256": "13c59967d8654457d183ea37f7523ef88c592b371a11ebdc48ae70d4a50239ea",
+      "original_filename": "jamaoncol-e262661-s002.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_grayscale"
+    },
+    {
+      "path": "supplements/jamaoncol-e262661-s002__refine/page-0015-region-01.png",
+      "sha256": "e13d10b98a79b8975856399fe647a7c3a7a6ce73920352a4b386dd38269e65d9",
+      "bytes": 123036,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13448833/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package",
+      "derived_from": "13c59967d8654457d183ea37f7523ef88c592b371a11ebdc48ae70d4a50239ea",
+      "original_sha256": "13c59967d8654457d183ea37f7523ef88c592b371a11ebdc48ae70d4a50239ea",
+      "original_filename": "jamaoncol-e262661-s002.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_grayscale"
+    },
+    {
+      "path": "supplements/jamaoncol-e262661-s002__refine/page-0020-region-01.png",
+      "sha256": "3fb35941ead6356a9631103e02e5f0a1a42d379530a067605f1216871d81c7e2",
+      "bytes": 93365,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13448833/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package",
+      "derived_from": "13c59967d8654457d183ea37f7523ef88c592b371a11ebdc48ae70d4a50239ea",
+      "original_sha256": "13c59967d8654457d183ea37f7523ef88c592b371a11ebdc48ae70d4a50239ea",
+      "original_filename": "jamaoncol-e262661-s002.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_grayscale"
+    },
+    {
+      "path": "supplements/jamaoncol-e262661-s002__refine/page-0021-region-01.png",
+      "sha256": "34c0b4f79964d7ebfa78a1095d1a0e802d4cdd1aadeff848ba77d9fadb1493c7",
+      "bytes": 137257,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13448833/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package",
+      "derived_from": "13c59967d8654457d183ea37f7523ef88c592b371a11ebdc48ae70d4a50239ea",
+      "original_sha256": "13c59967d8654457d183ea37f7523ef88c592b371a11ebdc48ae70d4a50239ea",
+      "original_filename": "jamaoncol-e262661-s002.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/jamaoncol-e262661-s002__refine/page-0021-region-02.png",
+      "sha256": "d36eb4809b3a6b6632b2e1e2a407639d0c5a4422c009111d7f35ff3bd3b0f8aa",
+      "bytes": 100008,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13448833/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package",
+      "derived_from": "13c59967d8654457d183ea37f7523ef88c592b371a11ebdc48ae70d4a50239ea",
+      "original_sha256": "13c59967d8654457d183ea37f7523ef88c592b371a11ebdc48ae70d4a50239ea",
+      "original_filename": "jamaoncol-e262661-s002.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/jamaoncol-e262661-s002__refine/page-0022-region-01.png",
+      "sha256": "5d76333c0da2f2da99566329d0d8f624218c42f49affe84489adf0eb9732ad40",
+      "bytes": 380066,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13448833/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package",
+      "derived_from": "13c59967d8654457d183ea37f7523ef88c592b371a11ebdc48ae70d4a50239ea",
+      "original_sha256": "13c59967d8654457d183ea37f7523ef88c592b371a11ebdc48ae70d4a50239ea",
+      "original_filename": "jamaoncol-e262661-s002.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/jamaoncol-e262661-s002__refine/page-0023-region-01.png",
+      "sha256": "088cc374d0b883ca3ddc1f15addf3ce5dbe3dd2ae782abae465d5fefd66f69ac",
+      "bytes": 385206,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13448833/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package",
+      "derived_from": "13c59967d8654457d183ea37f7523ef88c592b371a11ebdc48ae70d4a50239ea",
+      "original_sha256": "13c59967d8654457d183ea37f7523ef88c592b371a11ebdc48ae70d4a50239ea",
+      "original_filename": "jamaoncol-e262661-s002.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/jamaoncol-e262661-s002__refine/page-0024-region-01.png",
+      "sha256": "431bf70c801582ee993d3b033d9b96cc21a3f0b61a96481af4fc685acd87e8f1",
+      "bytes": 157944,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13448833/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package",
+      "derived_from": "13c59967d8654457d183ea37f7523ef88c592b371a11ebdc48ae70d4a50239ea",
+      "original_sha256": "13c59967d8654457d183ea37f7523ef88c592b371a11ebdc48ae70d4a50239ea",
+      "original_filename": "jamaoncol-e262661-s002.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/jamaoncol-e262661-s002__refine/page-0024-region-02.png",
+      "sha256": "734a1e9b558cadc757df95ee2a25ab65b118621f5acb68760f367c51ae00a0df",
+      "bytes": 154805,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13448833/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package",
+      "derived_from": "13c59967d8654457d183ea37f7523ef88c592b371a11ebdc48ae70d4a50239ea",
+      "original_sha256": "13c59967d8654457d183ea37f7523ef88c592b371a11ebdc48ae70d4a50239ea",
+      "original_filename": "jamaoncol-e262661-s002.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/jamaoncol-e262661-s002__refine/page-0025-region-01.png",
+      "sha256": "e58042e401cf10bcdfbc40569555dc9dc48a1b2bfd66dc81fddb019fbdd6bf7b",
+      "bytes": 341761,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13448833/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package",
+      "derived_from": "13c59967d8654457d183ea37f7523ef88c592b371a11ebdc48ae70d4a50239ea",
+      "original_sha256": "13c59967d8654457d183ea37f7523ef88c592b371a11ebdc48ae70d4a50239ea",
+      "original_filename": "jamaoncol-e262661-s002.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/jamaoncol-e262661-s002__refine/page-0026-region-01.png",
+      "sha256": "1942450403e149aa1c707d95cc3135b77ecb571e5b555de6d5dc5e058f876b4d",
+      "bytes": 213310,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13448833/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package",
+      "derived_from": "13c59967d8654457d183ea37f7523ef88c592b371a11ebdc48ae70d4a50239ea",
+      "original_sha256": "13c59967d8654457d183ea37f7523ef88c592b371a11ebdc48ae70d4a50239ea",
+      "original_filename": "jamaoncol-e262661-s002.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/jamaoncol-e262661-s002__refine/content.md",
+      "sha256": "0064a48aa58d85fa2b878e4c2fe1c927220cab2e4c334bd684e1145156958896",
+      "bytes": 49609,
+      "role": "supplement",
+      "roles": [
+        "supplement"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13448833/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package",
+      "derived_from": "13c59967d8654457d183ea37f7523ef88c592b371a11ebdc48ae70d4a50239ea",
+      "original_sha256": "13c59967d8654457d183ea37f7523ef88c592b371a11ebdc48ae70d4a50239ea",
+      "original_filename": "jamaoncol-e262661-s002.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "pdf_text_visual"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

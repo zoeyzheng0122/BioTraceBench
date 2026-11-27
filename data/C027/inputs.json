@@ -1,0 +1,80 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "C027",
+    "domain": "clinical",
+    "title": "Testing a Personalized Approach to Chronic Low Back Pain: A Randomized Controlled Trial in Older Veterans",
+    "doi": "10.1002/acr.25671",
+    "pipeline": "clinical-trials",
+    "pmid": "41120228",
+    "pmcid": "PMC13116040",
+    "registry": null
+  },
+  "files": [
+    {
+      "path": "sources/article.xml",
+      "sha256": "c58a6b9e600c8057c1ffbb1e379b7a744dee18f33b96cb697b9af9a52efb9439",
+      "bytes": 143012,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13116040/fullTextXML"
+      ],
+      "association": "exact PMCID from case identity"
+    },
+    {
+      "path": "figures/ACR-78-609-g001.jpg",
+      "sha256": "e7b6e4a7891c9c27155451c21002b5cdd67295033df1d54bc2a7b07cc5ea2f15",
+      "bytes": 141062,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13116040/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/ACR-78-609-g002.jpg",
+      "sha256": "62abd2b69dd56c1e2e8b6ad29c6ca70fa1493ee9708365ab1315b173636b9cdf",
+      "bytes": 109782,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13116040/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "supplements/ACR-78-609-s001__refine/content.md",
+      "sha256": "262db8b60a7499c2acfb5af105117e1f02a3629f461f7928b54dc90118353c88",
+      "bytes": 31945,
+      "role": "supplement",
+      "roles": [
+        "supplement"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13116040/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package",
+      "derived_from": "10129f99954d4afb298c3c0a8ce8bfc09c460d6708b71257d6afa3f992d18145",
+      "original_sha256": "10129f99954d4afb298c3c0a8ce8bfc09c460d6708b71257d6afa3f992d18145",
+      "original_filename": "ACR-78-609-s001.docx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "office_text_tables"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

@@ -1,0 +1,32 @@
+{
+  "case_id": "B013",
+  "task_id": "B013",
+  "title": "Anti-resonance in developmental signaling regulates cell fate decisions",
+  "doi": "10.7554/eLife.107794",
+  "comparison_or_design": "The frequency series at a fixed 55% duty cycle, retaining all explicitly registered frequencies and their replicates within that series.",
+  "observations_or_assays": [
+    "End-point fluorescence imaging of the Wnt reporter screen"
+  ],
+  "time_scope": "The 48-hour HEK293T LITOS stimulation experiment.",
+  "excluded": [
+    "All other duty cycles in the 96-condition screen and H9 differentiation experiments",
+    "Separate live-cell stimulation experiments, simulations, re-running analysis code and fluorescence response values"
+  ],
+  "population_or_material": "HEK293T Wnt input/output reporter-cell preparations in the LITOS screen. Represent each explicitly labelled frequency at the selected duty cycle as a separate condition-level preparation. Screen-repeat summaries alone do not establish individual biological sample IDs.",
+  "requested_items": [
+    "Light-stimulation frequency, duty cycle and total stimulation duration"
+  ],
+  "resources": [
+    {
+      "accession": "10.5281/zenodo.17874586",
+      "url": "https://doi.org/10.5281/zenodo.17874586"
+    }
+  ],
+  "domain": "basic",
+  "pipeline": "basic-research",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/basic-research.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

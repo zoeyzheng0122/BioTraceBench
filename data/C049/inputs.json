@@ -1,0 +1,83 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "C049",
+    "domain": "clinical",
+    "title": "The Effect of Digital Cognitive Behavioural Therapy for Insomnia in People With Co‐Morbid Insomnia and Sleep Apnoea (COMISA): A Pilot Randomised Controlled Trial",
+    "doi": "10.1111/jsr.70114",
+    "pipeline": "clinical-trials",
+    "pmid": "40557787",
+    "pmcid": "PMC12856122",
+    "registry": "ACTRN12622001218785"
+  },
+  "files": [
+    {
+      "path": "sources/article.xml",
+      "sha256": "2ae4c9a4199396246b7b5654ecf650534b6dde23ddb568472017ab3a2451bb3e",
+      "bytes": 81573,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12856122/fullTextXML"
+      ],
+      "association": "exact PMCID from case identity"
+    },
+    {
+      "path": "figures/JSR-35-e70114-g001.jpg",
+      "sha256": "29ee675ef642d04f2396eec15b25031cf0142ec3fe8891cbcf94399b784f030d",
+      "bytes": 121561,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12856122/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "records/Registry-ACTRN12622001218785.txt",
+      "sha256": "d358a976884294819b4bf16b21cf488b99d14f2eb091e152dc601b9fd32a7699",
+      "bytes": 15714,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.anzctr.org.au/Trial/Registration/TrialReview.aspx?ACTRN=12622001218785"
+      ],
+      "derived_from": "2e0f3949076defe0758eb2d0c0cba2efa9888f5d43dd31e7f4ba3b731ef5e2a9",
+      "representation": "readable_repository_page",
+      "original_filename": "Registry-ACTRN12622001218785.txt",
+      "retrieved_at": "2026-10-18T02:08:41+08:00"
+    },
+    {
+      "path": "supplements/JSR-35-e70114-s001__refine/content.md",
+      "sha256": "e57a74ae27eb7cb855043b5c44c8ca2e84e6c8328efc4dfc3d9a97a4dcb8846c",
+      "bytes": 11269,
+      "role": "supplement",
+      "roles": [
+        "supplement"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12856122/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package",
+      "derived_from": "d4dbc783e51d845ff3eca9158afa38c21fb2dc9b21bc29bdda9c972fe0ad4e8a",
+      "original_sha256": "d4dbc783e51d845ff3eca9158afa38c21fb2dc9b21bc29bdda9c972fe0ad4e8a",
+      "original_filename": "JSR-35-e70114-s001.docx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "office_text_tables"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

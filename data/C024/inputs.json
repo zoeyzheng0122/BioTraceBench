@@ -1,0 +1,183 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "C024",
+    "domain": "clinical",
+    "title": "Comparative Effects of Minodronate and Alendronate on Low Back Pain in Postmenopausal Osteoporosis and Age Influence: A Head-to-Head, Randomized Clinical Trial",
+    "doi": "10.2147/CIA.S541940",
+    "pipeline": "clinical-trials",
+    "pmid": "41341143",
+    "pmcid": "PMC12669058"
+  },
+  "files": [
+    {
+      "path": "sources/article.xml",
+      "sha256": "b810ef26ecf519622a766fd9ad1ccdd2453577f94c531d186214394da7e6297d",
+      "bytes": 87376,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12669058/fullTextXML"
+      ],
+      "association": "exact public PMCID candidate"
+    },
+    {
+      "path": "figures/CIA-20-2219-g0001.jpg",
+      "sha256": "2589821e6de1f2750419de1cf7ff37bb4c672fd7f3e161dc7b240531a2fcdf8d",
+      "bytes": 156904,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12669058.1/CIA-20-2219-g0001.jpg?md5=012bb18e5daae66e55184631f0f89888"
+      ],
+      "association": "exact JATS f0001 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/CIA-20-2219-g0002.jpg",
+      "sha256": "55f377482ef75a8b572312a6dfbbb0d755e181a36fede856470a5e4f5200c91c",
+      "bytes": 135061,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12669058.1/CIA-20-2219-g0002.jpg?md5=3a17b77d868c595fa44aa05ec495377e"
+      ],
+      "association": "exact JATS f0002 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/CIA-20-2219-g0003.jpg",
+      "sha256": "d9481861e5c50f835d8292d9c2a6b2de98c57616685594a08f67f85ff8319484",
+      "bytes": 124087,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12669058.1/CIA-20-2219-g0003.jpg?md5=66647423604cbad036df3f03adab4be7"
+      ],
+      "association": "exact JATS f0003 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/captions.txt",
+      "sha256": "74f17cc71d4cb52ca2c85d91a8bca9e2fc821cd3be86a84c5b423cf2b02ebbec",
+      "bytes": 1059,
+      "role": "figure_captions",
+      "roles": [
+        "figure_captions"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12669058/"
+      ],
+      "derived_from": "97bd7252dcba471e9eeb336d68371f472ca2b6376d6fd873da2392fb17a69297"
+    },
+    {
+      "path": "supplements/Supplementary_Files0909_1__refine/asset-image1.png",
+      "sha256": "c2faa7353e4e3996944d6a307d65eccf623b5feea4978c69db12a88a0dc6d269",
+      "bytes": 86361,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.dovepress.com/article/supplementary_file/541940/Supplementary%20Files0909_1.docx"
+      ],
+      "association": "Explicit Table S1-S3 and Figure S1-S4 link in article XML for DOI 10.2147/CIA.S541940",
+      "derived_from": "edd939dc317022b35f523bcca1c63505afa7f35236ad1114e49e055fe0172d36",
+      "original_sha256": "edd939dc317022b35f523bcca1c63505afa7f35236ad1114e49e055fe0172d36",
+      "original_filename": "Supplementary_Files0909_1.docx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/Supplementary_Files0909_1__refine/asset-image2.png",
+      "sha256": "b413378189452a73e77edce08a2a07deee12c8bd7187524a247688ec3b8bc164",
+      "bytes": 91775,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.dovepress.com/article/supplementary_file/541940/Supplementary%20Files0909_1.docx"
+      ],
+      "association": "Explicit Table S1-S3 and Figure S1-S4 link in article XML for DOI 10.2147/CIA.S541940",
+      "derived_from": "edd939dc317022b35f523bcca1c63505afa7f35236ad1114e49e055fe0172d36",
+      "original_sha256": "edd939dc317022b35f523bcca1c63505afa7f35236ad1114e49e055fe0172d36",
+      "original_filename": "Supplementary_Files0909_1.docx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/Supplementary_Files0909_1__refine/asset-image3.png",
+      "sha256": "6eb69ad70d3e4b54d75ee185fe84ae7d1aab8eecef5aba1b2a2d8161e3b8a851",
+      "bytes": 159669,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.dovepress.com/article/supplementary_file/541940/Supplementary%20Files0909_1.docx"
+      ],
+      "association": "Explicit Table S1-S3 and Figure S1-S4 link in article XML for DOI 10.2147/CIA.S541940",
+      "derived_from": "edd939dc317022b35f523bcca1c63505afa7f35236ad1114e49e055fe0172d36",
+      "original_sha256": "edd939dc317022b35f523bcca1c63505afa7f35236ad1114e49e055fe0172d36",
+      "original_filename": "Supplementary_Files0909_1.docx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/Supplementary_Files0909_1__refine/asset-image4.png",
+      "sha256": "c8052f8fc5c0bbc7f04c77cd264a15870c35a02a3484edcb80f0f55f457db04d",
+      "bytes": 175273,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.dovepress.com/article/supplementary_file/541940/Supplementary%20Files0909_1.docx"
+      ],
+      "association": "Explicit Table S1-S3 and Figure S1-S4 link in article XML for DOI 10.2147/CIA.S541940",
+      "derived_from": "edd939dc317022b35f523bcca1c63505afa7f35236ad1114e49e055fe0172d36",
+      "original_sha256": "edd939dc317022b35f523bcca1c63505afa7f35236ad1114e49e055fe0172d36",
+      "original_filename": "Supplementary_Files0909_1.docx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/Supplementary_Files0909_1__refine/content.md",
+      "sha256": "23b56df4b921add125dffe119e4e9d69764bc8f00a2df82f093e79b7ae6fa319",
+      "bytes": 6852,
+      "role": "supplement",
+      "roles": [
+        "supplement"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.dovepress.com/article/supplementary_file/541940/Supplementary%20Files0909_1.docx"
+      ],
+      "association": "Explicit Table S1-S3 and Figure S1-S4 link in article XML for DOI 10.2147/CIA.S541940",
+      "derived_from": "edd939dc317022b35f523bcca1c63505afa7f35236ad1114e49e055fe0172d36",
+      "original_sha256": "edd939dc317022b35f523bcca1c63505afa7f35236ad1114e49e055fe0172d36",
+      "original_filename": "Supplementary_Files0909_1.docx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "office_text_tables"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

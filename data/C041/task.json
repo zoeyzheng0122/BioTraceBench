@@ -1,0 +1,30 @@
+{
+  "case_id": "C041",
+  "task_id": "C041",
+  "title": "Longitudinal Outcomes of Bilateral and Unilateral Proximal Greater Occipital Nerve Pulsed Radiofrequency in Migraine: A Prospective Randomized Controlled Trial",
+  "doi": "10.3390/medicina62081554",
+  "comparison_or_design": "The proximal GON-PRF treatment-side comparison.",
+  "observations_or_assays": [
+    "Monthly headache days",
+    "Monthly-headache-day responder criterion",
+    "Acute medication days"
+  ],
+  "time_scope": "Baseline to month 6.",
+  "excluded": [
+    "Months 1/3 and overall longitudinal effects not specific to month 6",
+    "VAS, HIT-6, MIDAS, GPE and safety"
+  ],
+  "population_or_material": "The article-defined per-protocol population completing follow-up in the migraine GON-PRF trial.",
+  "requested_items": [
+    "Baseline/month-six arm MHD/AMD medians/IQR, month-six responder proportions/test, month-six absolute-score comparisons and explicitly reported month-six between-group MHD-reduction comparison. Attach within-arm tests to summaries; exclude baseline hypothesis tests, other visits and other migraine outcomes."
+  ],
+  "resources": [],
+  "case_specific_rules": [],
+  "domain": "clinical",
+  "pipeline": "clinical-trials",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/clinical-trials.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

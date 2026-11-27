@@ -1,0 +1,296 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD057572 (project)",
+      "method": "LC-MS/MS comparison aggregate for the nine labelled differentiated SH-SY5Y preparations, three per treatment. Samples were analyzed in technical triplicate and processed using Proteome Discoverer 2.5.0.400. Individual acquisition identities and links are unreported.",
+      "platform": "RSLCnano MS system coupled to Orbitrap Exploris 480",
+      "sample_ids": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F6",
+        "F7",
+        "F8",
+        "F9"
+      ]
+    }
+  ],
+  "condition": [
+    {
+      "condition_id": "F1-C1",
+      "condition_target": "Differentiated SH-SY5Y cells",
+      "experimental_factor": "DMSO",
+      "factor_unit": "%",
+      "factor_value": 0.01,
+      "sample_id": "F1",
+      "time": "Started on differentiation day 5, 24 h exposure, then collected."
+    },
+    {
+      "condition_id": "F1-T",
+      "condition_target": "Differentiated SH-SY5Y cells",
+      "experimental_factor": "Exposure duration",
+      "factor_unit": "h",
+      "factor_value": 24,
+      "sample_id": "F1",
+      "time": "From treatment on differentiation day 5 to collection."
+    },
+    {
+      "condition_id": "F2-C1",
+      "condition_target": "Differentiated SH-SY5Y cells",
+      "experimental_factor": "DMSO",
+      "factor_unit": "%",
+      "factor_value": 0.01,
+      "sample_id": "F2",
+      "time": "Started on differentiation day 5, 24 h exposure, then collected."
+    },
+    {
+      "condition_id": "F2-T",
+      "condition_target": "Differentiated SH-SY5Y cells",
+      "experimental_factor": "Exposure duration",
+      "factor_unit": "h",
+      "factor_value": 24,
+      "sample_id": "F2",
+      "time": "From treatment on differentiation day 5 to collection."
+    },
+    {
+      "condition_id": "F3-C1",
+      "condition_target": "Differentiated SH-SY5Y cells",
+      "experimental_factor": "DMSO",
+      "factor_unit": "%",
+      "factor_value": 0.01,
+      "sample_id": "F3",
+      "time": "Started on differentiation day 5, 24 h exposure, then collected."
+    },
+    {
+      "condition_id": "F3-T",
+      "condition_target": "Differentiated SH-SY5Y cells",
+      "experimental_factor": "Exposure duration",
+      "factor_unit": "h",
+      "factor_value": 24,
+      "sample_id": "F3",
+      "time": "From treatment on differentiation day 5 to collection."
+    },
+    {
+      "condition_id": "F4-C1",
+      "condition_target": "Differentiated SH-SY5Y cells",
+      "experimental_factor": "ECa 233",
+      "factor_unit": "µg/mL",
+      "factor_value": 10,
+      "sample_id": "F4",
+      "time": "Started on differentiation day 5, 24 h exposure, then collected."
+    },
+    {
+      "condition_id": "F4-T",
+      "condition_target": "Differentiated SH-SY5Y cells",
+      "experimental_factor": "Exposure duration",
+      "factor_unit": "h",
+      "factor_value": 24,
+      "sample_id": "F4",
+      "time": "From treatment on differentiation day 5 to collection."
+    },
+    {
+      "condition_id": "F5-C1",
+      "condition_target": "Differentiated SH-SY5Y cells",
+      "experimental_factor": "ECa 233",
+      "factor_unit": "µg/mL",
+      "factor_value": 10,
+      "sample_id": "F5",
+      "time": "Started on differentiation day 5, 24 h exposure, then collected."
+    },
+    {
+      "condition_id": "F5-T",
+      "condition_target": "Differentiated SH-SY5Y cells",
+      "experimental_factor": "Exposure duration",
+      "factor_unit": "h",
+      "factor_value": 24,
+      "sample_id": "F5",
+      "time": "From treatment on differentiation day 5 to collection."
+    },
+    {
+      "condition_id": "F6-C1",
+      "condition_target": "Differentiated SH-SY5Y cells",
+      "experimental_factor": "ECa 233",
+      "factor_unit": "µg/mL",
+      "factor_value": 10,
+      "sample_id": "F6",
+      "time": "Started on differentiation day 5, 24 h exposure, then collected."
+    },
+    {
+      "condition_id": "F6-T",
+      "condition_target": "Differentiated SH-SY5Y cells",
+      "experimental_factor": "Exposure duration",
+      "factor_unit": "h",
+      "factor_value": 24,
+      "sample_id": "F6",
+      "time": "From treatment on differentiation day 5 to collection."
+    },
+    {
+      "condition_id": "F7-C1",
+      "condition_target": "Differentiated SH-SY5Y cells",
+      "experimental_factor": "Madecassoside (MDS)",
+      "factor_unit": "µg/mL",
+      "factor_value": 5,
+      "sample_id": "F7",
+      "time": "Started on differentiation day 5, 24 h exposure, then collected."
+    },
+    {
+      "condition_id": "F7-C2",
+      "condition_target": "Differentiated SH-SY5Y cells",
+      "experimental_factor": "Asiaticoside (ASS)",
+      "factor_unit": "µg/mL",
+      "factor_value": 3.6,
+      "sample_id": "F7",
+      "time": "Started on differentiation day 5, 24 h exposure, then collected."
+    },
+    {
+      "condition_id": "F7-T",
+      "condition_target": "Differentiated SH-SY5Y cells",
+      "experimental_factor": "Exposure duration",
+      "factor_unit": "h",
+      "factor_value": 24,
+      "sample_id": "F7",
+      "time": "From treatment on differentiation day 5 to collection."
+    },
+    {
+      "condition_id": "F8-C1",
+      "condition_target": "Differentiated SH-SY5Y cells",
+      "experimental_factor": "Madecassoside (MDS)",
+      "factor_unit": "µg/mL",
+      "factor_value": 5,
+      "sample_id": "F8",
+      "time": "Started on differentiation day 5, 24 h exposure, then collected."
+    },
+    {
+      "condition_id": "F8-C2",
+      "condition_target": "Differentiated SH-SY5Y cells",
+      "experimental_factor": "Asiaticoside (ASS)",
+      "factor_unit": "µg/mL",
+      "factor_value": 3.6,
+      "sample_id": "F8",
+      "time": "Started on differentiation day 5, 24 h exposure, then collected."
+    },
+    {
+      "condition_id": "F8-T",
+      "condition_target": "Differentiated SH-SY5Y cells",
+      "experimental_factor": "Exposure duration",
+      "factor_unit": "h",
+      "factor_value": 24,
+      "sample_id": "F8",
+      "time": "From treatment on differentiation day 5 to collection."
+    },
+    {
+      "condition_id": "F9-C1",
+      "condition_target": "Differentiated SH-SY5Y cells",
+      "experimental_factor": "Madecassoside (MDS)",
+      "factor_unit": "µg/mL",
+      "factor_value": 5,
+      "sample_id": "F9",
+      "time": "Started on differentiation day 5, 24 h exposure, then collected."
+    },
+    {
+      "condition_id": "F9-C2",
+      "condition_target": "Differentiated SH-SY5Y cells",
+      "experimental_factor": "Asiaticoside (ASS)",
+      "factor_unit": "µg/mL",
+      "factor_value": 3.6,
+      "sample_id": "F9",
+      "time": "Started on differentiation day 5, 24 h exposure, then collected."
+    },
+    {
+      "condition_id": "F9-T",
+      "condition_target": "Differentiated SH-SY5Y cells",
+      "experimental_factor": "Exposure duration",
+      "factor_unit": "h",
+      "factor_value": 24,
+      "sample_id": "F9",
+      "time": "From treatment on differentiation day 5 to collection."
+    }
+  ],
+  "sample": [
+    {
+      "biological_model": "Retinoic-acid-differentiated SH-SY5Y",
+      "biological_source": "Human neuroblastoma SH-SY5Y (ATCC CRL-2266)",
+      "sample_accession": null,
+      "sample_id": "F1",
+      "sample_material": "Differentiated cells treated with DMSO 0.01 % on differentiation day 5 for 24 h and then collected. Cell lysate was processed to trypsin/Lys-C peptides. One of three biological replicates for Control, each analyzed in technical triplicate.",
+      "sample_name": "F1, Control",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Retinoic-acid-differentiated SH-SY5Y",
+      "biological_source": "Human neuroblastoma SH-SY5Y (ATCC CRL-2266)",
+      "sample_accession": null,
+      "sample_id": "F2",
+      "sample_material": "Differentiated cells treated with DMSO 0.01 % on differentiation day 5 for 24 h and then collected. Cell lysate was processed to trypsin/Lys-C peptides. One of three biological replicates for Control, each analyzed in technical triplicate.",
+      "sample_name": "F2, Control",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Retinoic-acid-differentiated SH-SY5Y",
+      "biological_source": "Human neuroblastoma SH-SY5Y (ATCC CRL-2266)",
+      "sample_accession": null,
+      "sample_id": "F3",
+      "sample_material": "Differentiated cells treated with DMSO 0.01 % on differentiation day 5 for 24 h and then collected. Cell lysate was processed to trypsin/Lys-C peptides. One of three biological replicates for Control, each analyzed in technical triplicate.",
+      "sample_name": "F3, Control",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Retinoic-acid-differentiated SH-SY5Y",
+      "biological_source": "Human neuroblastoma SH-SY5Y (ATCC CRL-2266)",
+      "sample_accession": null,
+      "sample_id": "F4",
+      "sample_material": "Differentiated cells treated with ECa 233 10 µg/mL on differentiation day 5 for 24 h and then collected. Cell lysate was processed to trypsin/Lys-C peptides. One of three biological replicates for ECa_233, each analyzed in technical triplicate.",
+      "sample_name": "F4, ECa_233",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Retinoic-acid-differentiated SH-SY5Y",
+      "biological_source": "Human neuroblastoma SH-SY5Y (ATCC CRL-2266)",
+      "sample_accession": null,
+      "sample_id": "F5",
+      "sample_material": "Differentiated cells treated with ECa 233 10 µg/mL on differentiation day 5 for 24 h and then collected. Cell lysate was processed to trypsin/Lys-C peptides. One of three biological replicates for ECa_233, each analyzed in technical triplicate.",
+      "sample_name": "F5, ECa_233",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Retinoic-acid-differentiated SH-SY5Y",
+      "biological_source": "Human neuroblastoma SH-SY5Y (ATCC CRL-2266)",
+      "sample_accession": null,
+      "sample_id": "F6",
+      "sample_material": "Differentiated cells treated with ECa 233 10 µg/mL on differentiation day 5 for 24 h and then collected. Cell lysate was processed to trypsin/Lys-C peptides. One of three biological replicates for ECa_233, each analyzed in technical triplicate.",
+      "sample_name": "F6, ECa_233",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Retinoic-acid-differentiated SH-SY5Y",
+      "biological_source": "Human neuroblastoma SH-SY5Y (ATCC CRL-2266)",
+      "sample_accession": null,
+      "sample_id": "F7",
+      "sample_material": "Differentiated cells treated with Madecassoside (MDS) 5 µg/mL + Asiaticoside (ASS) 3.6 µg/mL on differentiation day 5 for 24 h and then collected. Cell lysate was processed to trypsin/Lys-C peptides. One of three biological replicates for MDS_ASS, each analyzed in technical triplicate.",
+      "sample_name": "F7, MDS_ASS",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Retinoic-acid-differentiated SH-SY5Y",
+      "biological_source": "Human neuroblastoma SH-SY5Y (ATCC CRL-2266)",
+      "sample_accession": null,
+      "sample_id": "F8",
+      "sample_material": "Differentiated cells treated with Madecassoside (MDS) 5 µg/mL + Asiaticoside (ASS) 3.6 µg/mL on differentiation day 5 for 24 h and then collected. Cell lysate was processed to trypsin/Lys-C peptides. One of three biological replicates for MDS_ASS, each analyzed in technical triplicate.",
+      "sample_name": "F8, MDS_ASS",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Retinoic-acid-differentiated SH-SY5Y",
+      "biological_source": "Human neuroblastoma SH-SY5Y (ATCC CRL-2266)",
+      "sample_accession": null,
+      "sample_id": "F9",
+      "sample_material": "Differentiated cells treated with Madecassoside (MDS) 5 µg/mL + Asiaticoside (ASS) 3.6 µg/mL on differentiation day 5 for 24 h and then collected. Cell lysate was processed to trypsin/Lys-C peptides. One of three biological replicates for MDS_ASS, each analyzed in technical triplicate.",
+      "sample_name": "F9, MDS_ASS",
+      "species": "Homo sapiens"
+    }
+  ]
+}

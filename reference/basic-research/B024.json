@@ -1,0 +1,391 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "Label-free LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD043715 (project)",
+      "method": "S-Trap trypsin/LysC digestion followed by data-dependent LC-MS/MS and label-free quantification of exercised gastrocnemius preparations. Native RAW acquisition: 20170720_Exercise_1st_F01.raw; deposited File ID: F1. The native filename labels do not establish individual animal identity, physical pooling, fractions or biological replicates. Sequest HT searched the SwissProt mouse database. Digestion time and Proteome Discoverer version differ between the article (12 h, v2.3) and the archived PRIDE protocol (16 h, v2.4).",
+      "platform": "Dionex UltiMate 3000 RSLCnano; Thermo Scientific Q Exactive",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0002",
+      "assay_type": "Label-free LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD043715 (project)",
+      "method": "S-Trap trypsin/LysC digestion followed by data-dependent LC-MS/MS and label-free quantification of exercised gastrocnemius preparations. Native RAW acquisition: 20170720_Exercise_1st_F02.raw; deposited File ID: F2. The native filename labels do not establish individual animal identity, physical pooling, fractions or biological replicates. Sequest HT searched the SwissProt mouse database. Digestion time and Proteome Discoverer version differ between the article (12 h, v2.3) and the archived PRIDE protocol (16 h, v2.4).",
+      "platform": "Dionex UltiMate 3000 RSLCnano; Thermo Scientific Q Exactive",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0003",
+      "assay_type": "Label-free LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD043715 (project)",
+      "method": "S-Trap trypsin/LysC digestion followed by data-dependent LC-MS/MS and label-free quantification of exercised gastrocnemius preparations. Native RAW acquisition: 20170720_Exercise_1st_F03.raw; deposited File ID: F3. The native filename labels do not establish individual animal identity, physical pooling, fractions or biological replicates. Sequest HT searched the SwissProt mouse database. Digestion time and Proteome Discoverer version differ between the article (12 h, v2.3) and the archived PRIDE protocol (16 h, v2.4).",
+      "platform": "Dionex UltiMate 3000 RSLCnano; Thermo Scientific Q Exactive",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0004",
+      "assay_type": "Label-free LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD043715 (project)",
+      "method": "S-Trap trypsin/LysC digestion followed by data-dependent LC-MS/MS and label-free quantification of exercised gastrocnemius preparations. Native RAW acquisition: 20170720_Exercise_1st_F04.raw; deposited File ID: F4. The native filename labels do not establish individual animal identity, physical pooling, fractions or biological replicates. Sequest HT searched the SwissProt mouse database. Digestion time and Proteome Discoverer version differ between the article (12 h, v2.3) and the archived PRIDE protocol (16 h, v2.4).",
+      "platform": "Dionex UltiMate 3000 RSLCnano; Thermo Scientific Q Exactive",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0005",
+      "assay_type": "Label-free LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD043715 (project)",
+      "method": "S-Trap trypsin/LysC digestion followed by data-dependent LC-MS/MS and label-free quantification of exercised gastrocnemius preparations. Native RAW acquisition: 20170720_Exercise_1st_F05.raw; deposited File ID: F5. The native filename labels do not establish individual animal identity, physical pooling, fractions or biological replicates. Sequest HT searched the SwissProt mouse database. Digestion time and Proteome Discoverer version differ between the article (12 h, v2.3) and the archived PRIDE protocol (16 h, v2.4).",
+      "platform": "Dionex UltiMate 3000 RSLCnano; Thermo Scientific Q Exactive",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0006",
+      "assay_type": "Label-free LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD043715 (project)",
+      "method": "S-Trap trypsin/LysC digestion followed by data-dependent LC-MS/MS and label-free quantification of exercised gastrocnemius preparations. Native RAW acquisition: 20170720_Exercise_1st_F06.raw; deposited File ID: F6. The native filename labels do not establish individual animal identity, physical pooling, fractions or biological replicates. Sequest HT searched the SwissProt mouse database. Digestion time and Proteome Discoverer version differ between the article (12 h, v2.3) and the archived PRIDE protocol (16 h, v2.4).",
+      "platform": "Dionex UltiMate 3000 RSLCnano; Thermo Scientific Q Exactive",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0007",
+      "assay_type": "Label-free LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD043715 (project)",
+      "method": "S-Trap trypsin/LysC digestion followed by data-dependent LC-MS/MS and label-free quantification of exercised gastrocnemius preparations. Native RAW acquisition: 20170720_Exercise_1st_F07.raw; deposited File ID: F7. The native filename labels do not establish individual animal identity, physical pooling, fractions or biological replicates. Sequest HT searched the SwissProt mouse database. Digestion time and Proteome Discoverer version differ between the article (12 h, v2.3) and the archived PRIDE protocol (16 h, v2.4).",
+      "platform": "Dionex UltiMate 3000 RSLCnano; Thermo Scientific Q Exactive",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0008",
+      "assay_type": "Label-free LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD043715 (project)",
+      "method": "S-Trap trypsin/LysC digestion followed by data-dependent LC-MS/MS and label-free quantification of exercised gastrocnemius preparations. Native RAW acquisition: 20170720_Exercise_1st_F08.raw; deposited File ID: F8. The native filename labels do not establish individual animal identity, physical pooling, fractions or biological replicates. Sequest HT searched the SwissProt mouse database. Digestion time and Proteome Discoverer version differ between the article (12 h, v2.3) and the archived PRIDE protocol (16 h, v2.4).",
+      "platform": "Dionex UltiMate 3000 RSLCnano; Thermo Scientific Q Exactive",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0009",
+      "assay_type": "Label-free LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD043715 (project)",
+      "method": "S-Trap trypsin/LysC digestion followed by data-dependent LC-MS/MS and label-free quantification of exercised gastrocnemius preparations. Native RAW acquisition: 20170720_Exercise_2nd_F01.raw; deposited File ID: F9. The native filename labels do not establish individual animal identity, physical pooling, fractions or biological replicates. Sequest HT searched the SwissProt mouse database. Digestion time and Proteome Discoverer version differ between the article (12 h, v2.3) and the archived PRIDE protocol (16 h, v2.4).",
+      "platform": "Dionex UltiMate 3000 RSLCnano; Thermo Scientific Q Exactive",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0010",
+      "assay_type": "Label-free LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD043715 (project)",
+      "method": "S-Trap trypsin/LysC digestion followed by data-dependent LC-MS/MS and label-free quantification of exercised gastrocnemius preparations. Native RAW acquisition: 20170720_Exercise_2nd_F02.raw; deposited File ID: F10. The native filename labels do not establish individual animal identity, physical pooling, fractions or biological replicates. Sequest HT searched the SwissProt mouse database. Digestion time and Proteome Discoverer version differ between the article (12 h, v2.3) and the archived PRIDE protocol (16 h, v2.4).",
+      "platform": "Dionex UltiMate 3000 RSLCnano; Thermo Scientific Q Exactive",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0011",
+      "assay_type": "Label-free LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD043715 (project)",
+      "method": "S-Trap trypsin/LysC digestion followed by data-dependent LC-MS/MS and label-free quantification of exercised gastrocnemius preparations. Native RAW acquisition: 20170720_Exercise_2nd_F03.raw; deposited File ID: F11. The native filename labels do not establish individual animal identity, physical pooling, fractions or biological replicates. Sequest HT searched the SwissProt mouse database. Digestion time and Proteome Discoverer version differ between the article (12 h, v2.3) and the archived PRIDE protocol (16 h, v2.4).",
+      "platform": "Dionex UltiMate 3000 RSLCnano; Thermo Scientific Q Exactive",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0012",
+      "assay_type": "Label-free LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD043715 (project)",
+      "method": "S-Trap trypsin/LysC digestion followed by data-dependent LC-MS/MS and label-free quantification of exercised gastrocnemius preparations. Native RAW acquisition: 20170720_Exercise_2nd_F04.raw; deposited File ID: F12. The native filename labels do not establish individual animal identity, physical pooling, fractions or biological replicates. Sequest HT searched the SwissProt mouse database. Digestion time and Proteome Discoverer version differ between the article (12 h, v2.3) and the archived PRIDE protocol (16 h, v2.4).",
+      "platform": "Dionex UltiMate 3000 RSLCnano; Thermo Scientific Q Exactive",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0013",
+      "assay_type": "Label-free LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD043715 (project)",
+      "method": "S-Trap trypsin/LysC digestion followed by data-dependent LC-MS/MS and label-free quantification of exercised gastrocnemius preparations. Native RAW acquisition: 20170720_Exercise_2nd_F05.raw; deposited File ID: F13. The native filename labels do not establish individual animal identity, physical pooling, fractions or biological replicates. Sequest HT searched the SwissProt mouse database. Digestion time and Proteome Discoverer version differ between the article (12 h, v2.3) and the archived PRIDE protocol (16 h, v2.4).",
+      "platform": "Dionex UltiMate 3000 RSLCnano; Thermo Scientific Q Exactive",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0014",
+      "assay_type": "Label-free LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD043715 (project)",
+      "method": "S-Trap trypsin/LysC digestion followed by data-dependent LC-MS/MS and label-free quantification of exercised gastrocnemius preparations. Native RAW acquisition: 20170720_Exercise_2nd_F06.raw; deposited File ID: F14. The native filename labels do not establish individual animal identity, physical pooling, fractions or biological replicates. Sequest HT searched the SwissProt mouse database. Digestion time and Proteome Discoverer version differ between the article (12 h, v2.3) and the archived PRIDE protocol (16 h, v2.4).",
+      "platform": "Dionex UltiMate 3000 RSLCnano; Thermo Scientific Q Exactive",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0015",
+      "assay_type": "Label-free LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD043715 (project)",
+      "method": "S-Trap trypsin/LysC digestion followed by data-dependent LC-MS/MS and label-free quantification of exercised gastrocnemius preparations. Native RAW acquisition: 20170720_Exercise_2nd_F07.raw; deposited File ID: F15. The native filename labels do not establish individual animal identity, physical pooling, fractions or biological replicates. Sequest HT searched the SwissProt mouse database. Digestion time and Proteome Discoverer version differ between the article (12 h, v2.3) and the archived PRIDE protocol (16 h, v2.4).",
+      "platform": "Dionex UltiMate 3000 RSLCnano; Thermo Scientific Q Exactive",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0016",
+      "assay_type": "Label-free LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD043715 (project)",
+      "method": "S-Trap trypsin/LysC digestion followed by data-dependent LC-MS/MS and label-free quantification of exercised gastrocnemius preparations. Native RAW acquisition: 20170720_Exercise_2nd_F08.raw; deposited File ID: F16. The native filename labels do not establish individual animal identity, physical pooling, fractions or biological replicates. Sequest HT searched the SwissProt mouse database. Digestion time and Proteome Discoverer version differ between the article (12 h, v2.3) and the archived PRIDE protocol (16 h, v2.4).",
+      "platform": "Dionex UltiMate 3000 RSLCnano; Thermo Scientific Q Exactive",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0017",
+      "assay_type": "Label-free LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD043715 (project)",
+      "method": "S-Trap trypsin/LysC digestion followed by data-dependent LC-MS/MS and label-free quantification of hindlimb-unloaded gastrocnemius preparations. Native RAW acquisition: 20170720_Unloading_1st_F01.raw; deposited File ID: F33. The native filename labels do not establish individual animal identity, physical pooling, fractions or biological replicates. Sequest HT searched the SwissProt mouse database. Digestion time and Proteome Discoverer version differ between the article (12 h, v2.3) and the archived PRIDE protocol (16 h, v2.4).",
+      "platform": "Dionex UltiMate 3000 RSLCnano; Thermo Scientific Q Exactive",
+      "sample_ids": [
+        "S0002"
+      ]
+    },
+    {
+      "assay_id": "A0018",
+      "assay_type": "Label-free LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD043715 (project)",
+      "method": "S-Trap trypsin/LysC digestion followed by data-dependent LC-MS/MS and label-free quantification of hindlimb-unloaded gastrocnemius preparations. Native RAW acquisition: 20170720_Unloading_1st_F02.raw; deposited File ID: F34. The native filename labels do not establish individual animal identity, physical pooling, fractions or biological replicates. Sequest HT searched the SwissProt mouse database. Digestion time and Proteome Discoverer version differ between the article (12 h, v2.3) and the archived PRIDE protocol (16 h, v2.4).",
+      "platform": "Dionex UltiMate 3000 RSLCnano; Thermo Scientific Q Exactive",
+      "sample_ids": [
+        "S0002"
+      ]
+    },
+    {
+      "assay_id": "A0019",
+      "assay_type": "Label-free LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD043715 (project)",
+      "method": "S-Trap trypsin/LysC digestion followed by data-dependent LC-MS/MS and label-free quantification of hindlimb-unloaded gastrocnemius preparations. Native RAW acquisition: 20170720_Unloading_1st_F03.raw; deposited File ID: F35. The native filename labels do not establish individual animal identity, physical pooling, fractions or biological replicates. Sequest HT searched the SwissProt mouse database. Digestion time and Proteome Discoverer version differ between the article (12 h, v2.3) and the archived PRIDE protocol (16 h, v2.4).",
+      "platform": "Dionex UltiMate 3000 RSLCnano; Thermo Scientific Q Exactive",
+      "sample_ids": [
+        "S0002"
+      ]
+    },
+    {
+      "assay_id": "A0020",
+      "assay_type": "Label-free LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD043715 (project)",
+      "method": "S-Trap trypsin/LysC digestion followed by data-dependent LC-MS/MS and label-free quantification of hindlimb-unloaded gastrocnemius preparations. Native RAW acquisition: 20170720_Unloading_1st_F04.raw; deposited File ID: F36. The native filename labels do not establish individual animal identity, physical pooling, fractions or biological replicates. Sequest HT searched the SwissProt mouse database. Digestion time and Proteome Discoverer version differ between the article (12 h, v2.3) and the archived PRIDE protocol (16 h, v2.4).",
+      "platform": "Dionex UltiMate 3000 RSLCnano; Thermo Scientific Q Exactive",
+      "sample_ids": [
+        "S0002"
+      ]
+    },
+    {
+      "assay_id": "A0021",
+      "assay_type": "Label-free LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD043715 (project)",
+      "method": "S-Trap trypsin/LysC digestion followed by data-dependent LC-MS/MS and label-free quantification of hindlimb-unloaded gastrocnemius preparations. Native RAW acquisition: 20170720_Unloading_1st_F05.raw; deposited File ID: F37. The native filename labels do not establish individual animal identity, physical pooling, fractions or biological replicates. Sequest HT searched the SwissProt mouse database. Digestion time and Proteome Discoverer version differ between the article (12 h, v2.3) and the archived PRIDE protocol (16 h, v2.4).",
+      "platform": "Dionex UltiMate 3000 RSLCnano; Thermo Scientific Q Exactive",
+      "sample_ids": [
+        "S0002"
+      ]
+    },
+    {
+      "assay_id": "A0022",
+      "assay_type": "Label-free LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD043715 (project)",
+      "method": "S-Trap trypsin/LysC digestion followed by data-dependent LC-MS/MS and label-free quantification of hindlimb-unloaded gastrocnemius preparations. Native RAW acquisition: 20170720_Unloading_1st_F06.raw; deposited File ID: F38. The native filename labels do not establish individual animal identity, physical pooling, fractions or biological replicates. Sequest HT searched the SwissProt mouse database. Digestion time and Proteome Discoverer version differ between the article (12 h, v2.3) and the archived PRIDE protocol (16 h, v2.4).",
+      "platform": "Dionex UltiMate 3000 RSLCnano; Thermo Scientific Q Exactive",
+      "sample_ids": [
+        "S0002"
+      ]
+    },
+    {
+      "assay_id": "A0023",
+      "assay_type": "Label-free LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD043715 (project)",
+      "method": "S-Trap trypsin/LysC digestion followed by data-dependent LC-MS/MS and label-free quantification of hindlimb-unloaded gastrocnemius preparations. Native RAW acquisition: 20170720_Unloading_1st_F07.raw; deposited File ID: F39. The native filename labels do not establish individual animal identity, physical pooling, fractions or biological replicates. Sequest HT searched the SwissProt mouse database. Digestion time and Proteome Discoverer version differ between the article (12 h, v2.3) and the archived PRIDE protocol (16 h, v2.4).",
+      "platform": "Dionex UltiMate 3000 RSLCnano; Thermo Scientific Q Exactive",
+      "sample_ids": [
+        "S0002"
+      ]
+    },
+    {
+      "assay_id": "A0024",
+      "assay_type": "Label-free LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD043715 (project)",
+      "method": "S-Trap trypsin/LysC digestion followed by data-dependent LC-MS/MS and label-free quantification of hindlimb-unloaded gastrocnemius preparations. Native RAW acquisition: 20170720_Unloading_1st_F08.raw; deposited File ID: F40. The native filename labels do not establish individual animal identity, physical pooling, fractions or biological replicates. Sequest HT searched the SwissProt mouse database. Digestion time and Proteome Discoverer version differ between the article (12 h, v2.3) and the archived PRIDE protocol (16 h, v2.4).",
+      "platform": "Dionex UltiMate 3000 RSLCnano; Thermo Scientific Q Exactive",
+      "sample_ids": [
+        "S0002"
+      ]
+    },
+    {
+      "assay_id": "A0025",
+      "assay_type": "Label-free LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD043715 (project)",
+      "method": "S-Trap trypsin/LysC digestion followed by data-dependent LC-MS/MS and label-free quantification of hindlimb-unloaded gastrocnemius preparations. Native RAW acquisition: 20170720_Unloading_2nd_F01.raw; deposited File ID: F41. The native filename labels do not establish individual animal identity, physical pooling, fractions or biological replicates. Sequest HT searched the SwissProt mouse database. Digestion time and Proteome Discoverer version differ between the article (12 h, v2.3) and the archived PRIDE protocol (16 h, v2.4).",
+      "platform": "Dionex UltiMate 3000 RSLCnano; Thermo Scientific Q Exactive",
+      "sample_ids": [
+        "S0002"
+      ]
+    },
+    {
+      "assay_id": "A0026",
+      "assay_type": "Label-free LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD043715 (project)",
+      "method": "S-Trap trypsin/LysC digestion followed by data-dependent LC-MS/MS and label-free quantification of hindlimb-unloaded gastrocnemius preparations. Native RAW acquisition: 20170720_Unloading_2nd_F02.raw; deposited File ID: F42. The native filename labels do not establish individual animal identity, physical pooling, fractions or biological replicates. Sequest HT searched the SwissProt mouse database. Digestion time and Proteome Discoverer version differ between the article (12 h, v2.3) and the archived PRIDE protocol (16 h, v2.4).",
+      "platform": "Dionex UltiMate 3000 RSLCnano; Thermo Scientific Q Exactive",
+      "sample_ids": [
+        "S0002"
+      ]
+    },
+    {
+      "assay_id": "A0027",
+      "assay_type": "Label-free LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD043715 (project)",
+      "method": "S-Trap trypsin/LysC digestion followed by data-dependent LC-MS/MS and label-free quantification of hindlimb-unloaded gastrocnemius preparations. Native RAW acquisition: 20170720_Unloading_2nd_F03.raw; deposited File ID: F43. The native filename labels do not establish individual animal identity, physical pooling, fractions or biological replicates. Sequest HT searched the SwissProt mouse database. Digestion time and Proteome Discoverer version differ between the article (12 h, v2.3) and the archived PRIDE protocol (16 h, v2.4).",
+      "platform": "Dionex UltiMate 3000 RSLCnano; Thermo Scientific Q Exactive",
+      "sample_ids": [
+        "S0002"
+      ]
+    },
+    {
+      "assay_id": "A0028",
+      "assay_type": "Label-free LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD043715 (project)",
+      "method": "S-Trap trypsin/LysC digestion followed by data-dependent LC-MS/MS and label-free quantification of hindlimb-unloaded gastrocnemius preparations. Native RAW acquisition: 20170720_Unloading_2nd_F04.raw; deposited File ID: F44. The native filename labels do not establish individual animal identity, physical pooling, fractions or biological replicates. Sequest HT searched the SwissProt mouse database. Digestion time and Proteome Discoverer version differ between the article (12 h, v2.3) and the archived PRIDE protocol (16 h, v2.4).",
+      "platform": "Dionex UltiMate 3000 RSLCnano; Thermo Scientific Q Exactive",
+      "sample_ids": [
+        "S0002"
+      ]
+    },
+    {
+      "assay_id": "A0029",
+      "assay_type": "Label-free LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD043715 (project)",
+      "method": "S-Trap trypsin/LysC digestion followed by data-dependent LC-MS/MS and label-free quantification of hindlimb-unloaded gastrocnemius preparations. Native RAW acquisition: 20170720_Unloading_2nd_F05.raw; deposited File ID: F45. The native filename labels do not establish individual animal identity, physical pooling, fractions or biological replicates. Sequest HT searched the SwissProt mouse database. Digestion time and Proteome Discoverer version differ between the article (12 h, v2.3) and the archived PRIDE protocol (16 h, v2.4).",
+      "platform": "Dionex UltiMate 3000 RSLCnano; Thermo Scientific Q Exactive",
+      "sample_ids": [
+        "S0002"
+      ]
+    },
+    {
+      "assay_id": "A0030",
+      "assay_type": "Label-free LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD043715 (project)",
+      "method": "S-Trap trypsin/LysC digestion followed by data-dependent LC-MS/MS and label-free quantification of hindlimb-unloaded gastrocnemius preparations. Native RAW acquisition: 20170720_Unloading_2nd_F06.raw; deposited File ID: F46. The native filename labels do not establish individual animal identity, physical pooling, fractions or biological replicates. Sequest HT searched the SwissProt mouse database. Digestion time and Proteome Discoverer version differ between the article (12 h, v2.3) and the archived PRIDE protocol (16 h, v2.4).",
+      "platform": "Dionex UltiMate 3000 RSLCnano; Thermo Scientific Q Exactive",
+      "sample_ids": [
+        "S0002"
+      ]
+    },
+    {
+      "assay_id": "A0031",
+      "assay_type": "Label-free LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD043715 (project)",
+      "method": "S-Trap trypsin/LysC digestion followed by data-dependent LC-MS/MS and label-free quantification of hindlimb-unloaded gastrocnemius preparations. Native RAW acquisition: 20170720_Unloading_2nd_F07.raw; deposited File ID: F47. The native filename labels do not establish individual animal identity, physical pooling, fractions or biological replicates. Sequest HT searched the SwissProt mouse database. Digestion time and Proteome Discoverer version differ between the article (12 h, v2.3) and the archived PRIDE protocol (16 h, v2.4).",
+      "platform": "Dionex UltiMate 3000 RSLCnano; Thermo Scientific Q Exactive",
+      "sample_ids": [
+        "S0002"
+      ]
+    },
+    {
+      "assay_id": "A0032",
+      "assay_type": "Label-free LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD043715 (project)",
+      "method": "S-Trap trypsin/LysC digestion followed by data-dependent LC-MS/MS and label-free quantification of hindlimb-unloaded gastrocnemius preparations. Native RAW acquisition: 20170720_Unloading_2nd_F08.raw; deposited File ID: F48. The native filename labels do not establish individual animal identity, physical pooling, fractions or biological replicates. Sequest HT searched the SwissProt mouse database. Digestion time and Proteome Discoverer version differ between the article (12 h, v2.3) and the archived PRIDE protocol (16 h, v2.4).",
+      "platform": "Dionex UltiMate 3000 RSLCnano; Thermo Scientific Q Exactive",
+      "sample_ids": [
+        "S0002"
+      ]
+    }
+  ],
+  "condition": [
+    {
+      "condition_id": "C0001",
+      "condition_target": "Source mice",
+      "experimental_factor": "Treadmill running speed",
+      "factor_unit": "m/min",
+      "factor_value": 15,
+      "sample_id": "S0001",
+      "time": "During the 3-week exercise regimen before collection"
+    },
+    {
+      "condition_id": "C0002",
+      "condition_target": "Source mice",
+      "experimental_factor": "Treadmill incline",
+      "factor_unit": "°",
+      "factor_value": 10,
+      "sample_id": "S0001",
+      "time": "During the 3-week exercise regimen before collection"
+    },
+    {
+      "condition_id": "C0003",
+      "condition_target": "Source mice",
+      "experimental_factor": "Daily treadmill exercise duration",
+      "factor_unit": "min/day",
+      "factor_value": 30,
+      "sample_id": "S0001",
+      "time": "During the 3-week exercise regimen before collection"
+    },
+    {
+      "condition_id": "C0004",
+      "condition_target": "Source mice",
+      "experimental_factor": "Treadmill exercise regimen duration",
+      "factor_unit": "weeks",
+      "factor_value": 3,
+      "sample_id": "S0001",
+      "time": "From exercise initiation to terminal collection"
+    },
+    {
+      "condition_id": "C0005",
+      "condition_target": "Source mice",
+      "experimental_factor": "Tail-suspension hindlimb unloading duration",
+      "factor_unit": "weeks",
+      "factor_value": 3,
+      "sample_id": "S0002",
+      "time": "From unloading initiation to terminal collection"
+    }
+  ],
+  "sample": [
+    {
+      "biological_model": "Treadmill exercise mouse model",
+      "biological_source": "Gastrocnemius muscle from male C57BL/6 mice; intervention started at 7 weeks of age and collection occurred at 10 weeks.",
+      "sample_accession": null,
+      "sample_id": "S0001",
+      "sample_material": "S-Trap-prepared trypsin/LysC peptide digest of gastrocnemius muscle collected after 3 weeks of treadmill exercise. The cohort comprised five mice; individual animal-to-preparation mapping and physical pooling are not reported. Deposited F01-F08 labels do not establish individual animals or confirmed fractions.",
+      "sample_name": "Exercised gastrocnemius preparation",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Hindlimb unloading-induced muscle atrophy mouse model",
+      "biological_source": "Gastrocnemius muscle from male C57BL/6 mice; intervention started at 7 weeks of age and collection occurred at 10 weeks.",
+      "sample_accession": null,
+      "sample_id": "S0002",
+      "sample_material": "S-Trap-prepared trypsin/LysC peptide digest of gastrocnemius muscle collected after 3 weeks of tail-suspension hindlimb unloading. The cohort comprised five mice; individual animal-to-preparation mapping and physical pooling are not reported. Deposited F01-F08 labels do not establish individual animals or confirmed fractions.",
+      "sample_name": "Hindlimb-unloaded gastrocnemius preparation",
+      "species": "Mus musculus"
+    }
+  ]
+}

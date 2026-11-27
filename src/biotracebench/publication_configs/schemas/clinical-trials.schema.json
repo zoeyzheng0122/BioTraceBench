@@ -1,0 +1,229 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "clinical-trials.schema.json",
+  "type": "object",
+  "properties": {
+    "population": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "population_id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Unique local population identifier."
+          },
+          "population_name": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Source-supported group/cohort/subgroup label."
+          },
+          "population_definition": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Member eligibility and relevant randomized/evaluable/analysis context; distinguish members from method."
+          },
+          "population_size": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "description": "Reported member count, not an assumed endpoint denominator or model sample size."
+          },
+          "intervention": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Drug/device/behavioral intervention or comparison actually assigned/received."
+          },
+          "intervention_regimen": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Dose, route, frequency, duration and common care needed to interpret comparison."
+          },
+          "population_time_frame": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Recruitment/treatment/follow-up periods defining population; each result has its own assessment time."
+          }
+        },
+        "required": [
+          "population_id",
+          "population_name",
+          "population_definition",
+          "population_size",
+          "intervention",
+          "intervention_regimen",
+          "population_time_frame"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "measure": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "measure_id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Unique local measure identifier."
+          },
+          "measure_name": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Clinical quantity or criterion; a statistical summary is not a separate measure."
+          },
+          "measure_definition": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Instrument, response criterion, assessment basis and supported scale needed to distinguish measures."
+          }
+        },
+        "required": [
+          "measure_id",
+          "measure_name",
+          "measure_definition"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "result": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "result_id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Unique local principal-statistic identifier."
+          },
+          "population_id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Submitted population for this result; do not infer endpoint/model n."
+          },
+          "measure_id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Submitted measure actually quantified."
+          },
+          "assessment_time": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Assessment point or change interval anchored to correct reference."
+          },
+          "statistic_type": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Reported principal statistic: mean, count, difference, HR, ES etc. Never infer unspecified ES formula."
+          },
+          "statistical_method": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Reported method, adjustment, missing-data handling and analysis version; state relevant missing details."
+          },
+          "result_value": {
+            "type": [
+              "number",
+              "string",
+              "null"
+            ],
+            "description": "Source principal value or compact count/category summary; retain precision, inequalities, NR/NE. Do not calculate absent statistics."
+          },
+          "result_unit": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Source-supported unit/scale; do not assign score points to unspecified ES."
+          },
+          "comparison": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Actual submitted population IDs and explicit formula/direction; state when unreported. Null for ordinary arm summaries."
+          },
+          "supplementary_statistics": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Own CI (level/bounds), SD/SE, P, percentage and applicable denominator with meaning; never copy population totals to unreported endpoint/model n."
+          }
+        },
+        "required": [
+          "result_id",
+          "population_id",
+          "measure_id",
+          "assessment_time",
+          "statistic_type",
+          "statistical_method",
+          "result_value",
+          "result_unit",
+          "comparison",
+          "supplementary_statistics"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "population_relation": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "population_a_id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "First submitted population."
+          },
+          "relationship": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Direct source-supported membership relation. subset of is directional; disjoint from and overlaps with are symmetric."
+          },
+          "population_b_id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Second population; parent for subset of."
+          }
+        },
+        "required": [
+          "population_a_id",
+          "relationship",
+          "population_b_id"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "population",
+    "measure",
+    "result",
+    "population_relation"
+  ],
+  "additionalProperties": false
+}

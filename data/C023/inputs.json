@@ -1,0 +1,95 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "C023",
+    "domain": "clinical",
+    "title": "Pamidronate is ineffective for inflammatory-like low back pain associated with Modic type 1 changes: A double-blind, randomised controlled trial",
+    "doi": "10.1016/j.ocarto.2026.100851",
+    "pipeline": "clinical-trials",
+    "pmid": "42569384",
+    "pmcid": "PMC13449653",
+    "registry": "NCT01799616"
+  },
+  "files": [
+    {
+      "path": "sources/article.xml",
+      "sha256": "2780e5ac94cfe2a0fc31ede34d506b28345985a777f24184ed3fb0ee092861f5",
+      "bytes": 97642,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13449653/fullTextXML"
+      ],
+      "association": "exact public PMCID candidate"
+    },
+    {
+      "path": "records/ClinicalTrials-NCT01799616.json",
+      "sha256": "4a005a82e7e5b184bdf80cf7da14dcddc015ae5c6717650f1ba7af587aeeb1f4",
+      "bytes": 8407,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://clinicaltrials.gov/api/v2/studies/NCT01799616"
+      ],
+      "association": "exact study registration explicitly identified in paper; public protocol metadata",
+      "original_filename": "registry.json",
+      "retrieved_at": "2026-10-18T02:01:13+08:00",
+      "derived_from": "694f27d3430ff84787429f7f0f3ea204aac84a0897d061ef1a06ea077ac96a02",
+      "original_sha256": "694f27d3430ff84787429f7f0f3ea204aac84a0897d061ef1a06ea077ac96a02",
+      "representation": "refine-lexical-json-1",
+      "provenance_transform": "exact_json_whitespace_compaction"
+    },
+    {
+      "path": "figures/captions.txt",
+      "sha256": "403a230c0be926edc82b05c956442c40c0d8d1eb7906decb15a2c79142259ac3",
+      "bytes": 170,
+      "role": "figure_captions",
+      "roles": [
+        "figure_captions"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13449653/"
+      ],
+      "derived_from": "70204d63533a6e9a97be32c09d9307979315b9ff30568c3e9df19e68f3005f2a"
+    },
+    {
+      "path": "figures/gr1.jpg",
+      "sha256": "c776ff47b92de7836fe6b708ec8223a8ba93f963a799be84953648fb93e49410",
+      "bytes": 189527,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13449653.1/gr1.jpg?md5=851b70b8dbaaf251e19bc41e184686d1"
+      ],
+      "association": "exact JATS fig1 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/gr2.jpg",
+      "sha256": "1fec5e7b2d3783c0d4bc4b9fd26e9aa038fbffeb0aa6620bf23c3b609b5ce2fd",
+      "bytes": 142525,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13449653.1/gr2.jpg?md5=9077893d96cd1bffe38893087eb959c9"
+      ],
+      "association": "exact JATS fig2 in verified PMC version; article source only"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

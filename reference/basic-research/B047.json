@@ -1,0 +1,128 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "ELISA of secreted IL-6, IL-8 and CCL2",
+      "experiment_run_accession": "Dryad:10.5061/dryad.xksn02vw6 (dataset)",
+      "method": "Aggregate Figure 3C comparison across three hydrogel stiffness groups. Culture supernatants were assayed using BioLegend IL-6, IL-8 and CCL2 ELISA kits; cytokine measurements were normalized to total protein measured by BCA. Plate-reader model and individual acquisition/aliquot identities are not reported.",
+      "platform": null,
+      "sample_ids": [
+        "S0001",
+        "S0002",
+        "S0003"
+      ]
+    }
+  ],
+  "condition": [
+    {
+      "condition_id": "C0001",
+      "condition_target": "Source GF-containing hydrogel culture",
+      "experimental_factor": "Matrix storage modulus (G′)",
+      "factor_unit": "kPa",
+      "factor_value": 0.75,
+      "sample_id": "S0001",
+      "time": "Nominal hydrogel stiffness during culture before and during TLR2 stimulation"
+    },
+    {
+      "condition_id": "C0002",
+      "condition_target": "Source GF-containing hydrogel culture",
+      "experimental_factor": "Pam3CSK4 concentration",
+      "factor_unit": "µM",
+      "factor_value": 1,
+      "sample_id": "S0001",
+      "time": "During the 24-h stimulation period after four days of hydrogel culture"
+    },
+    {
+      "condition_id": "C0003",
+      "condition_target": "Source GF-containing hydrogel culture",
+      "experimental_factor": "TLR2 stimulation duration",
+      "factor_unit": "h",
+      "factor_value": 24,
+      "sample_id": "S0001",
+      "time": "From Pam3CSK4 addition to culture-supernatant collection"
+    },
+    {
+      "condition_id": "C0004",
+      "condition_target": "Source GF-containing hydrogel culture",
+      "experimental_factor": "Matrix storage modulus (G′)",
+      "factor_unit": "kPa",
+      "factor_value": 1.5,
+      "sample_id": "S0002",
+      "time": "Nominal hydrogel stiffness during culture before and during TLR2 stimulation"
+    },
+    {
+      "condition_id": "C0005",
+      "condition_target": "Source GF-containing hydrogel culture",
+      "experimental_factor": "Pam3CSK4 concentration",
+      "factor_unit": "µM",
+      "factor_value": 1,
+      "sample_id": "S0002",
+      "time": "During the 24-h stimulation period after four days of hydrogel culture"
+    },
+    {
+      "condition_id": "C0006",
+      "condition_target": "Source GF-containing hydrogel culture",
+      "experimental_factor": "TLR2 stimulation duration",
+      "factor_unit": "h",
+      "factor_value": 24,
+      "sample_id": "S0002",
+      "time": "From Pam3CSK4 addition to culture-supernatant collection"
+    },
+    {
+      "condition_id": "C0007",
+      "condition_target": "Source GF-containing hydrogel culture",
+      "experimental_factor": "Matrix storage modulus (G′)",
+      "factor_unit": "kPa",
+      "factor_value": 2,
+      "sample_id": "S0003",
+      "time": "Nominal hydrogel stiffness during culture before and during TLR2 stimulation"
+    },
+    {
+      "condition_id": "C0008",
+      "condition_target": "Source GF-containing hydrogel culture",
+      "experimental_factor": "Pam3CSK4 concentration",
+      "factor_unit": "µM",
+      "factor_value": 1,
+      "sample_id": "S0003",
+      "time": "During the 24-h stimulation period after four days of hydrogel culture"
+    },
+    {
+      "condition_id": "C0009",
+      "condition_target": "Source GF-containing hydrogel culture",
+      "experimental_factor": "TLR2 stimulation duration",
+      "factor_unit": "h",
+      "factor_value": 24,
+      "sample_id": "S0003",
+      "time": "From Pam3CSK4 addition to culture-supernatant collection"
+    }
+  ],
+  "sample": [
+    {
+      "biological_model": "Three-dimensional gingival fibroblast culture in collagen–alginate ECM hydrogel",
+      "biological_source": "Primary human gingival fibroblasts isolated from healthy donor gingiva",
+      "sample_accession": null,
+      "sample_id": "S0001",
+      "sample_material": "Culture supernatant collected after 24 h stimulation with 1 µM Pam3CSK4 following four days of hydrogel culture (nominal storage modulus G′ ≈ 0.75 kPa). Figure 3C reports n = 4; individual donor/preparation identities and aliquot crosswalks are not supplied. Collagen is a matrix reagent, not the human cell source.",
+      "sample_name": "TLR2-stimulated GF supernatant, 0.75 kPa",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Three-dimensional gingival fibroblast culture in collagen–alginate ECM hydrogel",
+      "biological_source": "Primary human gingival fibroblasts isolated from healthy donor gingiva",
+      "sample_accession": null,
+      "sample_id": "S0002",
+      "sample_material": "Culture supernatant collected after 24 h stimulation with 1 µM Pam3CSK4 following four days of hydrogel culture (nominal storage modulus G′ ≈ 1.5 kPa). Figure 3C reports n = 4; individual donor/preparation identities and aliquot crosswalks are not supplied. Collagen is a matrix reagent, not the human cell source.",
+      "sample_name": "TLR2-stimulated GF supernatant, 1.5 kPa",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Three-dimensional gingival fibroblast culture in collagen–alginate ECM hydrogel",
+      "biological_source": "Primary human gingival fibroblasts isolated from healthy donor gingiva",
+      "sample_accession": null,
+      "sample_id": "S0003",
+      "sample_material": "Culture supernatant collected after 24 h stimulation with 1 µM Pam3CSK4 following four days of hydrogel culture (nominal storage modulus G′ ≈ 2 kPa). Figure 3C reports n = 4; individual donor/preparation identities and aliquot crosswalks are not supplied. Collagen is a matrix reagent, not the human cell source.",
+      "sample_name": "TLR2-stimulated GF supernatant, 2 kPa",
+      "species": "Homo sapiens"
+    }
+  ]
+}

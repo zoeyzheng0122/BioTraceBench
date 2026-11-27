@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite BioTraceBench when using this software."
+type: software
+title: "BioTraceBench"
+version: "1.1.1"
+date-released: 2026-11-23
+license: MIT
+repository-code: "https://github.com/zoeyzheng0122/BioTraceBench"
+authors:
+  - name: "BioTraceBench contributors"

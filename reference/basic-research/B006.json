@@ -1,0 +1,230 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX32380739 (experiment)",
+      "method": "Library 0.2 kPa_12h_rep1; total RNA extracted using E.Z.N.A. Total RNA Kit I; library preparation using Illumina TruSeq RNA Sample Prep Kit.",
+      "platform": "Illumina NovaSeq 6000",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0002",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX32380740 (experiment)",
+      "method": "Library 0.2 kPa_12h_rep2; total RNA extracted using E.Z.N.A. Total RNA Kit I; library preparation using Illumina TruSeq RNA Sample Prep Kit.",
+      "platform": "Illumina NovaSeq 6000",
+      "sample_ids": [
+        "S0002"
+      ]
+    },
+    {
+      "assay_id": "A0003",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX32380741 (experiment)",
+      "method": "Library 0.2 kPa_12h_rep3; total RNA extracted using E.Z.N.A. Total RNA Kit I; library preparation using Illumina TruSeq RNA Sample Prep Kit.",
+      "platform": "Illumina NovaSeq 6000",
+      "sample_ids": [
+        "S0003"
+      ]
+    },
+    {
+      "assay_id": "A0004",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX32380742 (experiment)",
+      "method": "Library 10 kPa_12h_rep1; total RNA extracted using E.Z.N.A. Total RNA Kit I; library preparation using Illumina TruSeq RNA Sample Prep Kit.",
+      "platform": "Illumina NovaSeq 6000",
+      "sample_ids": [
+        "S0004"
+      ]
+    },
+    {
+      "assay_id": "A0005",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX32380743 (experiment)",
+      "method": "Library 10 kPa_12h_rep2; total RNA extracted using E.Z.N.A. Total RNA Kit I; library preparation using Illumina TruSeq RNA Sample Prep Kit.",
+      "platform": "Illumina NovaSeq 6000",
+      "sample_ids": [
+        "S0005"
+      ]
+    },
+    {
+      "assay_id": "A0006",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX32380744 (experiment)",
+      "method": "Library 10 kPa_12h_rep3; total RNA extracted using E.Z.N.A. Total RNA Kit I; library preparation using Illumina TruSeq RNA Sample Prep Kit.",
+      "platform": "Illumina NovaSeq 6000",
+      "sample_ids": [
+        "S0006"
+      ]
+    }
+  ],
+  "condition": [
+    {
+      "condition_id": "C0001",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Matrix stiffness",
+      "factor_unit": "kPa",
+      "factor_value": 0.2,
+      "sample_id": "S0001",
+      "time": "During the 12-h culture period on PAA gel"
+    },
+    {
+      "condition_id": "C0002",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Matrix exposure duration",
+      "factor_unit": "h",
+      "factor_value": 12,
+      "sample_id": "S0001",
+      "time": "From seeding on PAA gel to RNA collection"
+    },
+    {
+      "condition_id": "C0004",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Matrix stiffness",
+      "factor_unit": "kPa",
+      "factor_value": 0.2,
+      "sample_id": "S0002",
+      "time": "During the 12-h culture period on PAA gel"
+    },
+    {
+      "condition_id": "C0005",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Matrix exposure duration",
+      "factor_unit": "h",
+      "factor_value": 12,
+      "sample_id": "S0002",
+      "time": "From seeding on PAA gel to RNA collection"
+    },
+    {
+      "condition_id": "C0007",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Matrix stiffness",
+      "factor_unit": "kPa",
+      "factor_value": 0.2,
+      "sample_id": "S0003",
+      "time": "During the 12-h culture period on PAA gel"
+    },
+    {
+      "condition_id": "C0008",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Matrix exposure duration",
+      "factor_unit": "h",
+      "factor_value": 12,
+      "sample_id": "S0003",
+      "time": "From seeding on PAA gel to RNA collection"
+    },
+    {
+      "condition_id": "C0010",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Matrix stiffness",
+      "factor_unit": "kPa",
+      "factor_value": 10,
+      "sample_id": "S0004",
+      "time": "During the 12-h culture period on PAA gel"
+    },
+    {
+      "condition_id": "C0011",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Matrix exposure duration",
+      "factor_unit": "h",
+      "factor_value": 12,
+      "sample_id": "S0004",
+      "time": "From seeding on PAA gel to RNA collection"
+    },
+    {
+      "condition_id": "C0013",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Matrix stiffness",
+      "factor_unit": "kPa",
+      "factor_value": 10,
+      "sample_id": "S0005",
+      "time": "During the 12-h culture period on PAA gel"
+    },
+    {
+      "condition_id": "C0014",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Matrix exposure duration",
+      "factor_unit": "h",
+      "factor_value": 12,
+      "sample_id": "S0005",
+      "time": "From seeding on PAA gel to RNA collection"
+    },
+    {
+      "condition_id": "C0016",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Matrix stiffness",
+      "factor_unit": "kPa",
+      "factor_value": 10,
+      "sample_id": "S0006",
+      "time": "During the 12-h culture period on PAA gel"
+    },
+    {
+      "condition_id": "C0017",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Matrix exposure duration",
+      "factor_unit": "h",
+      "factor_value": 12,
+      "sample_id": "S0006",
+      "time": "From seeding on PAA gel to RNA collection"
+    }
+  ],
+  "sample": [
+    {
+      "biological_model": "Wild-type C2C12 myoblasts",
+      "biological_source": "C2C12 (ATCC CRL-1772)",
+      "sample_accession": "GEO:GSM9564434 (sample); BioSample:SAMN56344589 (sample)",
+      "sample_id": "S0001",
+      "sample_material": "Total RNA extracted from C2C12 cells after 12 h on 0.2 kPa polyacrylamide gel. Source condition/preparation descriptor: Matrix coating — Fibronectin and gelatin (RNA-seq-specific Figure 3B–C caption).",
+      "sample_name": "C2C12 cells, 0.2 kPa, 12h, rep1",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Wild-type C2C12 myoblasts",
+      "biological_source": "C2C12 (ATCC CRL-1772)",
+      "sample_accession": "GEO:GSM9564435 (sample); BioSample:SAMN56344588 (sample)",
+      "sample_id": "S0002",
+      "sample_material": "Total RNA extracted from C2C12 cells after 12 h on 0.2 kPa polyacrylamide gel. Source condition/preparation descriptor: Matrix coating — Fibronectin and gelatin (RNA-seq-specific Figure 3B–C caption).",
+      "sample_name": "C2C12 cells, 0.2 kPa, 12h, rep2",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Wild-type C2C12 myoblasts",
+      "biological_source": "C2C12 (ATCC CRL-1772)",
+      "sample_accession": "GEO:GSM9564436 (sample); BioSample:SAMN56344587 (sample)",
+      "sample_id": "S0003",
+      "sample_material": "Total RNA extracted from C2C12 cells after 12 h on 0.2 kPa polyacrylamide gel. Source condition/preparation descriptor: Matrix coating — Fibronectin and gelatin (RNA-seq-specific Figure 3B–C caption).",
+      "sample_name": "C2C12 cells, 0.2 kPa, 12h, rep3",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Wild-type C2C12 myoblasts",
+      "biological_source": "C2C12 (ATCC CRL-1772)",
+      "sample_accession": "GEO:GSM9564437 (sample); BioSample:SAMN56344586 (sample)",
+      "sample_id": "S0004",
+      "sample_material": "Total RNA extracted from C2C12 cells after 12 h on 10 kPa polyacrylamide gel. Source condition/preparation descriptor: Matrix coating — Fibronectin and gelatin (RNA-seq-specific Figure 3B–C caption).",
+      "sample_name": "C2C12 cells, 10 kPa, 12h, rep1",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Wild-type C2C12 myoblasts",
+      "biological_source": "C2C12 (ATCC CRL-1772)",
+      "sample_accession": "GEO:GSM9564438 (sample); BioSample:SAMN56344585 (sample)",
+      "sample_id": "S0005",
+      "sample_material": "Total RNA extracted from C2C12 cells after 12 h on 10 kPa polyacrylamide gel. Source condition/preparation descriptor: Matrix coating — Fibronectin and gelatin (RNA-seq-specific Figure 3B–C caption).",
+      "sample_name": "C2C12 cells, 10 kPa, 12h, rep2",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Wild-type C2C12 myoblasts",
+      "biological_source": "C2C12 (ATCC CRL-1772)",
+      "sample_accession": "GEO:GSM9564439 (sample); BioSample:SAMN56344584 (sample)",
+      "sample_id": "S0006",
+      "sample_material": "Total RNA extracted from C2C12 cells after 12 h on 10 kPa polyacrylamide gel. Source condition/preparation descriptor: Matrix coating — Fibronectin and gelatin (RNA-seq-specific Figure 3B–C caption).",
+      "sample_name": "C2C12 cells, 10 kPa, 12h, rep3",
+      "species": "Mus musculus"
+    }
+  ]
+}

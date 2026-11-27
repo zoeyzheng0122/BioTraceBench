@@ -1,0 +1,624 @@
+{
+  "measure": [
+    {
+      "measure_definition": "Measured value: SRQ-E external regulation subscale score (1–7); Participants; 16-item Exercise Self-Regulation Questionnaire (SRQ-E); self-reported paper-and-pencil questionnaire; 7-point Likert scale from 1 (not true at all) to 7 (very true); assessed at baseline and week 6.; SRQ-E external regulation subscale score; range 1–7; higher scores indicate better outcome as reported; no total motivation score used.",
+      "measure_id": "M0",
+      "measure_name": "SRQ-E external regulation score"
+    },
+    {
+      "measure_definition": "Measured value: SRQ-E introjected regulation subscale score (1–7); Participants; 16-item Exercise Self-Regulation Questionnaire (SRQ-E); self-reported paper-and-pencil questionnaire; 7-point Likert scale from 1 (not true at all) to 7 (very true); assessed at baseline and week 6.; SRQ-E introjected regulation subscale score; range 1–7; higher scores indicate better outcome as reported; no total motivation score used.",
+      "measure_id": "M1",
+      "measure_name": "SRQ-E introjected regulation score"
+    },
+    {
+      "measure_definition": "Measured value: SRQ-E identified regulation subscale score (1–7); Participants; 16-item Exercise Self-Regulation Questionnaire (SRQ-E); self-reported paper-and-pencil questionnaire; 7-point Likert scale from 1 (not true at all) to 7 (very true); assessed at baseline and week 6.; SRQ-E identified regulation subscale score; range 1–7; higher scores indicate better outcome as reported; no total motivation score used.",
+      "measure_id": "M2",
+      "measure_name": "SRQ-E identified regulation score"
+    },
+    {
+      "measure_definition": "Measured value: SRQ-E intrinsic motivation subscale score (1–7); Participants; 16-item Exercise Self-Regulation Questionnaire (SRQ-E); self-reported paper-and-pencil questionnaire; 7-point Likert scale from 1 (not true at all) to 7 (very true); assessed at baseline and week 6.; SRQ-E intrinsic motivation subscale score; range 1–7; higher scores indicate better outcome as reported; no total motivation score used.",
+      "measure_id": "M3",
+      "measure_name": "SRQ-E intrinsic motivation score"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "Physiotherapy informed by Acceptance and Commitment Therapy (PACT) combined with dynamic neuromuscular stabilization (DNS)-based graded exercise.",
+      "intervention_regimen": "Six once-weekly 45 min sessions over six weeks (planned); structured PACT treatment manual with ACT processes and graded DNS-based exercise.",
+      "population_definition": "Randomized allocation to PACT; final analyzed sample.; Adults aged ≥18 years with non-specific chronic low back pain (duration longer than 12 weeks), recruited at University Hospital Brno between September 2022 and April 2024, randomized to PACT, and included in the final analyzed sample (n=25). Exclusions: specific lumbar spine pathology (e.g., fracture, cancer), deteriorating neurological signs, injection therapy within 3 months, current alcohol or drug misuse, prior cognitive-behavioral therapy or pain management at any time, other physiotherapy treatment in the previous 6 months, and current psychiatric illness.",
+      "population_id": "P0",
+      "population_name": "PACT analyzed group",
+      "population_size": 25,
+      "population_time_frame": "Recruitment September 2022–April 2024; baseline before the first therapy session; post-intervention at week 6."
+    },
+    {
+      "intervention": "Usual physiotherapy care: individualized graded therapeutic exercise based on the DNS concept plus manual therapy consisting of post-isometric relaxation (PIR) and myofascial release.",
+      "intervention_regimen": "Six once-weekly 45 min sessions over six weeks (planned); each session included a brief functional assessment (~5–10 min), main exercise segment (~25–30 min), and manual therapy (~10 min).",
+      "population_definition": "Randomized allocation to usual care; final analyzed sample.; Adults aged ≥18 years with non-specific chronic low back pain (duration longer than 12 weeks), recruited at University Hospital Brno between September 2022 and April 2024, randomized to usual physiotherapy care, and included in the final analyzed sample (n=25). Exclusions: specific lumbar spine pathology (e.g., fracture, cancer), deteriorating neurological signs, injection therapy within 3 months, current alcohol or drug misuse, prior cognitive-behavioral therapy or pain management at any time, other physiotherapy treatment in the previous 6 months, and current psychiatric illness.",
+      "population_id": "P1",
+      "population_name": "UC analyzed group",
+      "population_size": 25,
+      "population_time_frame": "Recruitment September 2022–April 2024; baseline before the first therapy session; post-intervention at week 6."
+    },
+    {
+      "intervention": "Physiotherapy informed by Acceptance and Commitment Therapy (PACT) combined with dynamic neuromuscular stabilization (DNS)-based graded exercise; or usual care (UC) with individualized DNS-based graded exercise and manual therapy. Both trial interventions are represented.",
+      "intervention_regimen": "Both groups planned six once-weekly 45 min sessions over six weeks; this population describes the initial sample before the four post-first-session exclusions.",
+      "population_definition": "Enrolment and treatment initiation before exclusion; combined across both trial intervention groups.; Adults aged ≥18 years with non-specific chronic low back pain lasting longer than 12 weeks, under physician care at Brno University Hospital and enrolled in the trial; exclusions include specific lumbar spine pathology (e.g. fracture, cancer), deteriorating neurological signs, injection therapy within 3 months, current alcohol or drug misuse, prior cognitive-behavioral therapy or pain-management treatment at any time, other physiotherapy in the previous 6 months, and current psychiatric illness. Includes the four participants excluded after the first session.",
+      "population_id": "P2",
+      "population_name": "Initial enrolled sample (before post-first-session exclusion)",
+      "population_size": 54,
+      "population_time_frame": "Recruitment September 2022–April 2024; baseline before the first therapy session."
+    },
+    {
+      "intervention": "Physiotherapy informed by Acceptance and Commitment Therapy (PACT) combined with DNS-based graded exercise, or usual physiotherapy care with DNS-based graded exercise and manual therapy (post-isometric relaxation and myofascial release).",
+      "intervention_regimen": "Both groups: six once-weekly 45 min sessions over six weeks (planned).",
+      "population_definition": "Final analysis set after post-first-session exclusions; combined across randomized PACT and UC groups.; Adults aged ≥18 years with non-specific chronic low back pain lasting >12 weeks; randomized to PACT or UC; retained in the final analyzed sample after four participants were excluded after the first session for difficulties comprehending/engaging with the intervention.",
+      "population_id": "P3",
+      "population_name": "Final analyzed sample (both groups)",
+      "population_size": 50,
+      "population_time_frame": "Recruitment September 2022–April 2024; baseline before the first therapy session; post-intervention at week 6."
+    }
+  ],
+  "population_relation": [
+    {
+      "population_a_id": "P0",
+      "population_b_id": "P1",
+      "relationship": "disjoint from"
+    },
+    {
+      "population_a_id": "P0",
+      "population_b_id": "P2",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P2",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P0",
+      "population_b_id": "P3",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P3",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P3",
+      "population_b_id": "P2",
+      "relationship": "subset of"
+    }
+  ],
+  "result": [
+    {
+      "assessment_time": "Baseline (pre-intervention)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R01",
+      "result_unit": "points",
+      "result_value": 2.19,
+      "statistic_type": "Mean score",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 1.24; analysis n=25"
+    },
+    {
+      "assessment_time": "Baseline (pre-intervention)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R02",
+      "result_unit": "points",
+      "result_value": 1.88,
+      "statistic_type": "Mean score",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 0.98; analysis n=25"
+    },
+    {
+      "assessment_time": "Baseline (pre-intervention)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P0",
+      "result_id": "R03",
+      "result_unit": "points",
+      "result_value": 4.15,
+      "statistic_type": "Mean score",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 1.56; analysis n=25"
+    },
+    {
+      "assessment_time": "Baseline (pre-intervention)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R04",
+      "result_unit": "points",
+      "result_value": 3.19,
+      "statistic_type": "Mean score",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 1.38; analysis n=25"
+    },
+    {
+      "assessment_time": "Baseline (pre-intervention)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P0",
+      "result_id": "R05",
+      "result_unit": "points",
+      "result_value": 5.8,
+      "statistic_type": "Mean score",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 1.28; analysis n=25"
+    },
+    {
+      "assessment_time": "Baseline (pre-intervention)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R06",
+      "result_unit": "points",
+      "result_value": 5.0,
+      "statistic_type": "Mean score",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 1.49; analysis n=25"
+    },
+    {
+      "assessment_time": "Baseline (pre-intervention)",
+      "comparison": null,
+      "measure_id": "M3",
+      "population_id": "P0",
+      "result_id": "R07",
+      "result_unit": "points",
+      "result_value": 4.44,
+      "statistic_type": "Mean score",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 1.54; analysis n=25"
+    },
+    {
+      "assessment_time": "Baseline (pre-intervention)",
+      "comparison": null,
+      "measure_id": "M3",
+      "population_id": "P1",
+      "result_id": "R08",
+      "result_unit": "points",
+      "result_value": 4.91,
+      "statistic_type": "Mean score",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 1.65; analysis n=25"
+    },
+    {
+      "assessment_time": "Week 6 (post-intervention)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R09",
+      "result_unit": "points",
+      "result_value": 1.79,
+      "statistic_type": "Mean score",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 0.98; analysis n=25"
+    },
+    {
+      "assessment_time": "Week 6 (post-intervention)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R10",
+      "result_unit": "points",
+      "result_value": 1.89,
+      "statistic_type": "Mean score",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 1.18; analysis n=25"
+    },
+    {
+      "assessment_time": "Week 6 (post-intervention)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P0",
+      "result_id": "R11",
+      "result_unit": "points",
+      "result_value": 4.49,
+      "statistic_type": "Mean score",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 1.05; analysis n=25"
+    },
+    {
+      "assessment_time": "Week 6 (post-intervention)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R12",
+      "result_unit": "points",
+      "result_value": 3.27,
+      "statistic_type": "Mean score",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 1.43; analysis n=25"
+    },
+    {
+      "assessment_time": "Week 6 (post-intervention)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P0",
+      "result_id": "R13",
+      "result_unit": "points",
+      "result_value": 6.25,
+      "statistic_type": "Mean score",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 0.76; analysis n=25"
+    },
+    {
+      "assessment_time": "Week 6 (post-intervention)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R14",
+      "result_unit": "points",
+      "result_value": 5.35,
+      "statistic_type": "Mean score",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 1.31; analysis n=25"
+    },
+    {
+      "assessment_time": "Week 6 (post-intervention)",
+      "comparison": null,
+      "measure_id": "M3",
+      "population_id": "P0",
+      "result_id": "R15",
+      "result_unit": "points",
+      "result_value": 5.24,
+      "statistic_type": "Mean score",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 1.51; analysis n=25"
+    },
+    {
+      "assessment_time": "Week 6 (post-intervention)",
+      "comparison": null,
+      "measure_id": "M3",
+      "population_id": "P1",
+      "result_id": "R16",
+      "result_unit": "points",
+      "result_value": 5.07,
+      "statistic_type": "Mean score",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 1.62; analysis n=25"
+    },
+    {
+      "assessment_time": "Baseline (pre-intervention)",
+      "comparison": "P1 versus P0 (UC versus PACT); signed effect direction not specified",
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R21",
+      "result_unit": null,
+      "result_value": 0.13,
+      "statistic_type": "Between-group effect size (Mann–Whitney test; metric r per table footnote)",
+      "statistical_method": "Mann–Whitney U test",
+      "supplementary_statistics": "qualitative: small; analysis n=25 per group; P = 0.372"
+    },
+    {
+      "assessment_time": "Baseline (pre-intervention)",
+      "comparison": "P1 versus P0 (UC versus PACT); signed effect direction not specified",
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R22",
+      "result_unit": null,
+      "result_value": 0.31,
+      "statistic_type": "Between-group effect size (Mann–Whitney test; metric r per table footnote)",
+      "statistical_method": "Mann–Whitney U test",
+      "supplementary_statistics": "qualitative: moderate; analysis n=25 per group; P = 0.029"
+    },
+    {
+      "assessment_time": "Baseline (pre-intervention)",
+      "comparison": "P1 versus P0 (UC versus PACT); signed effect direction not specified",
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R23",
+      "result_unit": null,
+      "result_value": 0.27,
+      "statistic_type": "Between-group effect size (Mann–Whitney test; metric r per table footnote)",
+      "statistical_method": "Mann–Whitney U test",
+      "supplementary_statistics": "qualitative: small; analysis n=25 per group; P = 0.059"
+    },
+    {
+      "assessment_time": "Baseline (pre-intervention)",
+      "comparison": "P1 versus P0 (UC versus PACT); signed effect direction not specified",
+      "measure_id": "M3",
+      "population_id": "P1",
+      "result_id": "R24",
+      "result_unit": null,
+      "result_value": 0.12,
+      "statistic_type": "Between-group effect size (Mann–Whitney test; metric r per table footnote)",
+      "statistical_method": "Mann–Whitney U test",
+      "supplementary_statistics": "qualitative: small; analysis n=25 per group; P = 0.397"
+    },
+    {
+      "assessment_time": "Week 6 (post-intervention)",
+      "comparison": "P1 versus P0 (UC versus PACT); signed effect direction not specified",
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R29",
+      "result_unit": null,
+      "result_value": 0.03,
+      "statistic_type": "Between-group effect size (Mann–Whitney test; metric r per table footnote)",
+      "statistical_method": "Mann–Whitney U test",
+      "supplementary_statistics": "qualitative: negligible; analysis n=25 per group; P = 0.864"
+    },
+    {
+      "assessment_time": "Week 6 (post-intervention)",
+      "comparison": "P1 versus P0 (UC versus PACT); signed effect direction not specified",
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R30",
+      "result_unit": null,
+      "result_value": 0.97,
+      "statistic_type": "Reported between-group effect size (metric unresolved)",
+      "statistical_method": "Mann–Whitney U test in Table 2. The methods associate this test with r, while the abstract labels the matching effect d; the effect-size metric remains unresolved.",
+      "supplementary_statistics": "Source-reported qualitative label: large; analyzed n=25 per group; P=0.001."
+    },
+    {
+      "assessment_time": "Week 6 (post-intervention)",
+      "comparison": "P1 versus P0 (UC versus PACT); signed effect direction not specified",
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R31",
+      "result_unit": null,
+      "result_value": 0.35,
+      "statistic_type": "Between-group effect size (Mann–Whitney test; metric r per table footnote)",
+      "statistical_method": "Mann–Whitney U test",
+      "supplementary_statistics": "qualitative: moderate; analysis n=25 per group; P = 0.015"
+    },
+    {
+      "assessment_time": "Week 6 (post-intervention)",
+      "comparison": "P1 versus P0 (UC versus PACT); signed effect direction not specified",
+      "measure_id": "M3",
+      "population_id": "P1",
+      "result_id": "R32",
+      "result_unit": null,
+      "result_value": 0.06,
+      "statistic_type": "Between-group effect size (Mann–Whitney test; metric r per table footnote)",
+      "statistical_method": "Mann–Whitney U test",
+      "supplementary_statistics": "qualitative: negligible; analysis n=25 per group; P = 0.667"
+    },
+    {
+      "assessment_time": "Baseline to week 6 (post-intervention)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R33",
+      "result_unit": "points",
+      "result_value": -0.4,
+      "statistic_type": "Mean within-group change from baseline",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 0.74; analysis n=25; within-group P = 0.027"
+    },
+    {
+      "assessment_time": "Baseline to week 6 (post-intervention)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R34",
+      "result_unit": "points",
+      "result_value": 0.01,
+      "statistic_type": "Mean within-group change from baseline",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 0.65; analysis n=25; within-group P = 0.975"
+    },
+    {
+      "assessment_time": "Baseline to week 6 (post-intervention)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P0",
+      "result_id": "R35",
+      "result_unit": "points",
+      "result_value": 0.34,
+      "statistic_type": "Mean within-group change from baseline",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 1.23; analysis n=25; within-group P = 0.18"
+    },
+    {
+      "assessment_time": "Baseline to week 6 (post-intervention)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R36",
+      "result_unit": "points",
+      "result_value": 0.08,
+      "statistic_type": "Mean within-group change from baseline",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 0.79; analysis n=25; within-group P = 1.0"
+    },
+    {
+      "assessment_time": "Baseline to week 6 (post-intervention)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P0",
+      "result_id": "R37",
+      "result_unit": "points",
+      "result_value": 0.45,
+      "statistic_type": "Mean within-group change from baseline",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 0.95; analysis n=25; within-group P = 0.034"
+    },
+    {
+      "assessment_time": "Baseline to week 6 (post-intervention)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R38",
+      "result_unit": "points",
+      "result_value": 0.35,
+      "statistic_type": "Mean within-group change from baseline",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 0.91; analysis n=25; within-group P = 0.083"
+    },
+    {
+      "assessment_time": "Baseline to week 6 (post-intervention)",
+      "comparison": null,
+      "measure_id": "M3",
+      "population_id": "P0",
+      "result_id": "R39",
+      "result_unit": "points",
+      "result_value": 0.8,
+      "statistic_type": "Mean within-group change from baseline",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 1.13; analysis n=25; within-group P = <0.001"
+    },
+    {
+      "assessment_time": "Baseline to week 6 (post-intervention)",
+      "comparison": null,
+      "measure_id": "M3",
+      "population_id": "P1",
+      "result_id": "R40",
+      "result_unit": "points",
+      "result_value": 0.16,
+      "statistic_type": "Mean within-group change from baseline",
+      "statistical_method": null,
+      "supplementary_statistics": "SD 0.74; analysis n=25; within-group P = 0.342"
+    },
+    {
+      "assessment_time": "Baseline to week 6 (change scores)",
+      "comparison": "P1 versus P0 (UC versus PACT); signed effect direction not specified",
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R61",
+      "result_unit": null,
+      "result_value": 0.36,
+      "statistic_type": "Between-group effect size (Mann–Whitney test; metric r per table footnote)",
+      "statistical_method": "Mann–Whitney U test",
+      "supplementary_statistics": "qualitative: moderate; analysis n=25 per group; P = 0.012"
+    },
+    {
+      "assessment_time": "Baseline to week 6 (change scores)",
+      "comparison": "P1 versus P0 (UC versus PACT); signed effect direction not specified",
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R62",
+      "result_unit": null,
+      "result_value": 0.28,
+      "statistic_type": "Between-group effect size (Kolmogorov–Smirnov test; metric D per table footnote)",
+      "statistical_method": "Kolmogorov–Smirnov test; metric D according to the stated test-to-metric convention. The table qualitative grade conflicts with the stated D cutoffs; the printed grade is retained as source-reported.",
+      "supplementary_statistics": "Source-reported qualitative label: small; analyzed n=25 per group; P=0.140."
+    },
+    {
+      "assessment_time": "Baseline to week 6 (change scores)",
+      "comparison": "P1 versus P0 (UC versus PACT); signed effect direction not specified",
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R63",
+      "result_unit": null,
+      "result_value": 0.02,
+      "statistic_type": "Between-group effect size (Mann–Whitney test; metric r per table footnote)",
+      "statistical_method": "Mann–Whitney U test",
+      "supplementary_statistics": "qualitative: negligible; analysis n=25 per group; P = 0.912"
+    },
+    {
+      "assessment_time": "Baseline to week 6 (change scores)",
+      "comparison": "P1 versus P0 (UC versus PACT); signed effect direction not specified",
+      "measure_id": "M3",
+      "population_id": "P1",
+      "result_id": "R64",
+      "result_unit": null,
+      "result_value": 0.44,
+      "statistic_type": "Between-group effect size (Mann–Whitney test; metric r per table footnote)",
+      "statistical_method": "Mann–Whitney U test",
+      "supplementary_statistics": "qualitative: moderate; analysis n=25 per group; P = 0.002"
+    },
+    {
+      "assessment_time": "Baseline to week 6 (post-intervention)",
+      "comparison": "Within P0: baseline versus post-intervention; effect-size sign convention not explicitly reported",
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R65",
+      "result_unit": null,
+      "result_value": 0.55,
+      "statistic_type": "Within-group effect size (r)",
+      "statistical_method": "Table 3 explicitly labels the paired Wilcoxon test; the Statistical analysis section specifies r for this test. The reported effect-size value is retained.",
+      "supplementary_statistics": "Qualitative interpretation: large; analyzed group n=25"
+    },
+    {
+      "assessment_time": "Baseline to week 6 (post-intervention)",
+      "comparison": "Within P1: baseline versus post-intervention; effect-size sign convention not explicitly reported",
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R66",
+      "result_unit": null,
+      "result_value": 0.02,
+      "statistic_type": "Reported within-group effect size",
+      "statistical_method": "Reported within-group effect size from Table 3; exact metric is not inferred where the test is unlabelled.",
+      "supplementary_statistics": "Qualitative interpretation: negligible; analyzed group n=25"
+    },
+    {
+      "assessment_time": "Baseline to week 6 (post-intervention)",
+      "comparison": "Within P0: baseline versus post-intervention; effect-size sign convention not explicitly reported",
+      "measure_id": "M1",
+      "population_id": "P0",
+      "result_id": "R67",
+      "result_unit": null,
+      "result_value": 0.28,
+      "statistic_type": "Within-group effect size (Cohen’s d)",
+      "statistical_method": "Table 3 explicitly labels the paired t-test; the Statistical analysis section specifies Cohen’s d for this test. The reported effect-size value is retained. Table 3 prints the value as '0.28f'; the trailing f is undefined in the supplied material and is preserved as a source-text uncertainty.",
+      "supplementary_statistics": "Source-reported qualitative label: small; analyzed group n=25."
+    },
+    {
+      "assessment_time": "Baseline to week 6 (post-intervention)",
+      "comparison": "Within P1: baseline versus post-intervention; effect-size sign convention not explicitly reported",
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R68",
+      "result_unit": null,
+      "result_value": 0.01,
+      "statistic_type": "Reported within-group effect size",
+      "statistical_method": "Reported within-group effect size from Table 3; exact metric is not inferred where the test is unlabelled.",
+      "supplementary_statistics": "Qualitative interpretation: negligible; analyzed group n=25"
+    },
+    {
+      "assessment_time": "Baseline to week 6 (post-intervention)",
+      "comparison": "Within P0: baseline versus post-intervention; effect-size sign convention not explicitly reported",
+      "measure_id": "M2",
+      "population_id": "P0",
+      "result_id": "R69",
+      "result_unit": null,
+      "result_value": 0.54,
+      "statistic_type": "Within-group effect size (r)",
+      "statistical_method": "Table 3 explicitly labels the paired Wilcoxon test; the Statistical analysis section specifies r for this test. The reported effect-size value is retained.",
+      "supplementary_statistics": "Qualitative interpretation: large; analyzed group n=25"
+    },
+    {
+      "assessment_time": "Baseline to week 6 (post-intervention)",
+      "comparison": "Within P1: baseline versus post-intervention; effect-size sign convention not explicitly reported",
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R70",
+      "result_unit": null,
+      "result_value": 0.5,
+      "statistic_type": "Reported within-group effect size",
+      "statistical_method": "Reported within-group effect size from Table 3; exact metric is not inferred where the test is unlabelled.",
+      "supplementary_statistics": "Qualitative interpretation: moderate; analyzed group n=25"
+    },
+    {
+      "assessment_time": "Baseline to week 6 (post-intervention)",
+      "comparison": "Within P0: baseline versus post-intervention; effect-size sign convention not explicitly reported",
+      "measure_id": "M3",
+      "population_id": "P0",
+      "result_id": "R71",
+      "result_unit": null,
+      "result_value": 0.76,
+      "statistic_type": "Within-group effect size (r)",
+      "statistical_method": "Table 3 explicitly labels the paired Wilcoxon test; the Statistical analysis section specifies r for this test. The reported effect-size value is retained.",
+      "supplementary_statistics": "Qualitative interpretation: large; analyzed group n=25"
+    },
+    {
+      "assessment_time": "Baseline to week 6 (post-intervention)",
+      "comparison": "Within P1: baseline versus post-intervention; effect-size sign convention not explicitly reported",
+      "measure_id": "M3",
+      "population_id": "P1",
+      "result_id": "R72",
+      "result_unit": null,
+      "result_value": 0.34,
+      "statistic_type": "Reported within-group effect size",
+      "statistical_method": "Reported within-group effect size from Table 3; exact metric is not inferred where the test is unlabelled.",
+      "supplementary_statistics": "Qualitative interpretation: moderate; analyzed group n=25"
+    }
+  ]
+}

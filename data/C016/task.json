@@ -1,0 +1,30 @@
+{
+  "case_id": "C016",
+  "task_id": "C016",
+  "title": "The NPR1 agonist antibody XXB750 in heart failure: a phase 2 randomized trial",
+  "doi": "10.1038/s41591-026-04313-w",
+  "comparison_or_design": "The XXB750 120-mg comparison with matching placebo within the ACEi/ARB background stratum.",
+  "observations_or_assays": [
+    "NT-proBNP",
+    "Plasma cGMP",
+    "Occurrence of worsening heart failure"
+  ],
+  "time_scope": "Biomarkers at baseline/week 16; worsening-HF occurrence over the article-defined safety observation period, recorded separately.",
+  "excluded": [
+    "Other background strata, the 60-mg/pooled-dose groups and open-label sacubitril/valsartan",
+    "Urinary biomarkers, other safety endpoints and interim biomarker visits"
+  ],
+  "population_or_material": "Participants on background ACE inhibitor or ARB therapy in the XXB750 trial, preserving the actual biomarker and safety analysis populations for the specified arms.",
+  "requested_items": [
+    "Table 3 selected background-therapy stratum: baseline/week-16 biomarker levels and week-16-to-baseline ratios; worsening-HF patient counts/proportions. Exclude other strata/doses, weeks 4/8, episodes, hospital-only events, death composite and protocol-planned populations."
+  ],
+  "resources": [],
+  "case_specific_rules": [],
+  "domain": "clinical",
+  "pipeline": "clinical-trials",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/clinical-trials.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

@@ -1,0 +1,30 @@
+{
+  "case_id": "C040",
+  "task_id": "C040",
+  "title": "Outcomes of tofacitinib dose reduction in patients with ulcerative colitis in stable remission: a long-term follow-up of the randomized RIVETING trial",
+  "doi": "10.1093/crocol/otag093",
+  "comparison_or_design": "The RIVETING comparison of dose reduction to tofacitinib 5 mg twice daily and continuation of 10 mg twice daily.",
+  "observations_or_assays": [
+    "Modified Mayo score remission",
+    "Endoscopic improvement",
+    "Clinical response based on total Mayo score"
+  ],
+  "time_scope": "Month 30 only, with the original source-defined reference for clinical response.",
+  "excluded": [
+    "Total-Mayo remission as a separate variant, months 6/18, subgroups and alternative Dose Group analyses",
+    "Dose-escalation remission recapture, biomarkers, time-to-event and safety"
+  ],
+  "population_or_material": "The full analysis set under original randomized dose assignment in RIVETING, using the reported non-responder-imputation strategy.",
+  "requested_items": [
+    "Month-30 primary-imputed responder count/proportion and one CMH-weighted treatment difference/CI for each criterion. State dose direction; do not invent P values. Exclude dose-escalation response analyses and other visits."
+  ],
+  "resources": [],
+  "case_specific_rules": [],
+  "domain": "clinical",
+  "pipeline": "clinical-trials",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/clinical-trials.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

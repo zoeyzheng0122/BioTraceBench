@@ -1,0 +1,2636 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "Gene expression microarray",
+      "experiment_run_accession": "GEO:GSE311704 (study)",
+      "method": "Total RNA extracted using the QIAGEN RNeasy Fibrous Tissue Midi Kit; biotin labeling using the Affymetrix Sense Target Labeling protocol; array scanning with GeneChip 3000 and feature extraction using Affymetrix Command Console. Raw array file: GSM9329993_Voss_7188RG.CEL.gz.",
+      "platform": "Affymetrix Mouse Gene 1.0 ST Array (GPL6246); GeneChip 3000 scanner",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0002",
+      "assay_type": "Gene expression microarray",
+      "experiment_run_accession": "GEO:GSE311704 (study)",
+      "method": "Total RNA extracted using the QIAGEN RNeasy Fibrous Tissue Midi Kit; biotin labeling using the Affymetrix Sense Target Labeling protocol; array scanning with GeneChip 3000 and feature extraction using Affymetrix Command Console. Raw array file: GSM9329994_Voss_7189RG.CEL.gz.",
+      "platform": "Affymetrix Mouse Gene 1.0 ST Array (GPL6246); GeneChip 3000 scanner",
+      "sample_ids": [
+        "S0002"
+      ]
+    },
+    {
+      "assay_id": "A0003",
+      "assay_type": "Gene expression microarray",
+      "experiment_run_accession": "GEO:GSE311704 (study)",
+      "method": "Total RNA extracted using the QIAGEN RNeasy Fibrous Tissue Midi Kit; biotin labeling using the Affymetrix Sense Target Labeling protocol; array scanning with GeneChip 3000 and feature extraction using Affymetrix Command Console. Raw array file: GSM9329995_Voss_7028RG.CEL.gz.",
+      "platform": "Affymetrix Mouse Gene 1.0 ST Array (GPL6246); GeneChip 3000 scanner",
+      "sample_ids": [
+        "S0003"
+      ]
+    },
+    {
+      "assay_id": "A0004",
+      "assay_type": "Gene expression microarray",
+      "experiment_run_accession": "GEO:GSE311704 (study)",
+      "method": "Total RNA extracted using the QIAGEN RNeasy Fibrous Tissue Midi Kit; biotin labeling using the Affymetrix Sense Target Labeling protocol; array scanning with GeneChip 3000 and feature extraction using Affymetrix Command Console. Raw array file: GSM9329996_Voss_7169RG.CEL.gz.",
+      "platform": "Affymetrix Mouse Gene 1.0 ST Array (GPL6246); GeneChip 3000 scanner",
+      "sample_ids": [
+        "S0004"
+      ]
+    },
+    {
+      "assay_id": "A0005",
+      "assay_type": "Gene expression microarray",
+      "experiment_run_accession": "GEO:GSE311704 (study)",
+      "method": "Total RNA extracted using the QIAGEN RNeasy Fibrous Tissue Midi Kit; biotin labeling using the Affymetrix Sense Target Labeling protocol; array scanning with GeneChip 3000 and feature extraction using Affymetrix Command Console. Raw array file: GSM9329997_Voss_7030RG.CEL.gz.",
+      "platform": "Affymetrix Mouse Gene 1.0 ST Array (GPL6246); GeneChip 3000 scanner",
+      "sample_ids": [
+        "S0005"
+      ]
+    },
+    {
+      "assay_id": "A0006",
+      "assay_type": "Gene expression microarray",
+      "experiment_run_accession": "GEO:GSE311704 (study)",
+      "method": "Total RNA extracted using the QIAGEN RNeasy Fibrous Tissue Midi Kit; biotin labeling using the Affymetrix Sense Target Labeling protocol; array scanning with GeneChip 3000 and feature extraction using Affymetrix Command Console. Raw array file: GSM9329998_Voss_7184RG.CEL.gz.",
+      "platform": "Affymetrix Mouse Gene 1.0 ST Array (GPL6246); GeneChip 3000 scanner",
+      "sample_ids": [
+        "S0006"
+      ]
+    },
+    {
+      "assay_id": "A0007",
+      "assay_type": "Gene expression microarray",
+      "experiment_run_accession": "GEO:GSE311704 (study)",
+      "method": "Total RNA extracted using the QIAGEN RNeasy Fibrous Tissue Midi Kit; biotin labeling using the Affymetrix Sense Target Labeling protocol; array scanning with GeneChip 3000 and feature extraction using Affymetrix Command Console. Raw array file: GSM9329999_Voss_7194RG.CEL.gz.",
+      "platform": "Affymetrix Mouse Gene 1.0 ST Array (GPL6246); GeneChip 3000 scanner",
+      "sample_ids": [
+        "S0007"
+      ]
+    },
+    {
+      "assay_id": "A0008",
+      "assay_type": "Gene expression microarray",
+      "experiment_run_accession": "GEO:GSE311704 (study)",
+      "method": "Total RNA extracted using the QIAGEN RNeasy Fibrous Tissue Midi Kit; biotin labeling using the Affymetrix Sense Target Labeling protocol; array scanning with GeneChip 3000 and feature extraction using Affymetrix Command Console. Raw array file: GSM9330000_Voss_7191RG.CEL.gz.",
+      "platform": "Affymetrix Mouse Gene 1.0 ST Array (GPL6246); GeneChip 3000 scanner",
+      "sample_ids": [
+        "S0008"
+      ]
+    },
+    {
+      "assay_id": "A0009",
+      "assay_type": "Gene expression microarray",
+      "experiment_run_accession": "GEO:GSE311704 (study)",
+      "method": "Total RNA extracted using the QIAGEN RNeasy Fibrous Tissue Midi Kit; biotin labeling using the Affymetrix Sense Target Labeling protocol; array scanning with GeneChip 3000 and feature extraction using Affymetrix Command Console. Raw array file: GSM9330001_Voss_7036RG.CEL.gz.",
+      "platform": "Affymetrix Mouse Gene 1.0 ST Array (GPL6246); GeneChip 3000 scanner",
+      "sample_ids": [
+        "S0009"
+      ]
+    },
+    {
+      "assay_id": "A0010",
+      "assay_type": "Gene expression microarray",
+      "experiment_run_accession": "GEO:GSE311704 (study)",
+      "method": "Total RNA extracted using the QIAGEN RNeasy Fibrous Tissue Midi Kit; biotin labeling using the Affymetrix Sense Target Labeling protocol; array scanning with GeneChip 3000 and feature extraction using Affymetrix Command Console. Raw array file: GSM9330002_Voss_7171RG.CEL.gz.",
+      "platform": "Affymetrix Mouse Gene 1.0 ST Array (GPL6246); GeneChip 3000 scanner",
+      "sample_ids": [
+        "S0010"
+      ]
+    },
+    {
+      "assay_id": "A0011",
+      "assay_type": "Gene expression microarray",
+      "experiment_run_accession": "GEO:GSE311704 (study)",
+      "method": "Total RNA extracted using the QIAGEN RNeasy Fibrous Tissue Midi Kit; biotin labeling using the Affymetrix Sense Target Labeling protocol; array scanning with GeneChip 3000 and feature extraction using Affymetrix Command Console. Raw array file: GSM9330003_Voss_7046RG.CEL.gz.",
+      "platform": "Affymetrix Mouse Gene 1.0 ST Array (GPL6246); GeneChip 3000 scanner",
+      "sample_ids": [
+        "S0011"
+      ]
+    },
+    {
+      "assay_id": "A0012",
+      "assay_type": "Gene expression microarray",
+      "experiment_run_accession": "GEO:GSE311704 (study)",
+      "method": "Total RNA extracted using the QIAGEN RNeasy Fibrous Tissue Midi Kit; biotin labeling using the Affymetrix Sense Target Labeling protocol; array scanning with GeneChip 3000 and feature extraction using Affymetrix Command Console. Raw array file: GSM9330004_Voss_7175RG.CEL.gz.",
+      "platform": "Affymetrix Mouse Gene 1.0 ST Array (GPL6246); GeneChip 3000 scanner",
+      "sample_ids": [
+        "S0012"
+      ]
+    },
+    {
+      "assay_id": "A0013",
+      "assay_type": "Gene expression microarray",
+      "experiment_run_accession": "GEO:GSE311704 (study)",
+      "method": "Total RNA extracted using the QIAGEN RNeasy Fibrous Tissue Midi Kit; biotin labeling using the Affymetrix Sense Target Labeling protocol; array scanning with GeneChip 3000 and feature extraction using Affymetrix Command Console. Raw array file: GSM9330005_Voss_7198RG.CEL.gz.",
+      "platform": "Affymetrix Mouse Gene 1.0 ST Array (GPL6246); GeneChip 3000 scanner",
+      "sample_ids": [
+        "S0013"
+      ]
+    },
+    {
+      "assay_id": "A0014",
+      "assay_type": "Gene expression microarray",
+      "experiment_run_accession": "GEO:GSE311704 (study)",
+      "method": "Total RNA extracted using the QIAGEN RNeasy Fibrous Tissue Midi Kit; biotin labeling using the Affymetrix Sense Target Labeling protocol; array scanning with GeneChip 3000 and feature extraction using Affymetrix Command Console. Raw array file: GSM9330006_Voss_7199RG.CEL.gz.",
+      "platform": "Affymetrix Mouse Gene 1.0 ST Array (GPL6246); GeneChip 3000 scanner",
+      "sample_ids": [
+        "S0014"
+      ]
+    },
+    {
+      "assay_id": "A0015",
+      "assay_type": "Gene expression microarray",
+      "experiment_run_accession": "GEO:GSE311704 (study)",
+      "method": "Total RNA extracted using the QIAGEN RNeasy Fibrous Tissue Midi Kit; biotin labeling using the Affymetrix Sense Target Labeling protocol; array scanning with GeneChip 3000 and feature extraction using Affymetrix Command Console. Raw array file: GSM9330007_Voss_7170RG.CEL.gz.",
+      "platform": "Affymetrix Mouse Gene 1.0 ST Array (GPL6246); GeneChip 3000 scanner",
+      "sample_ids": [
+        "S0015"
+      ]
+    },
+    {
+      "assay_id": "A0016",
+      "assay_type": "Gene expression microarray",
+      "experiment_run_accession": "GEO:GSE311704 (study)",
+      "method": "Total RNA extracted using the QIAGEN RNeasy Fibrous Tissue Midi Kit; biotin labeling using the Affymetrix Sense Target Labeling protocol; array scanning with GeneChip 3000 and feature extraction using Affymetrix Command Console. Raw array file: GSM9330008_Voss_7179RG.CEL.gz.",
+      "platform": "Affymetrix Mouse Gene 1.0 ST Array (GPL6246); GeneChip 3000 scanner",
+      "sample_ids": [
+        "S0016"
+      ]
+    },
+    {
+      "assay_id": "A0017",
+      "assay_type": "Gene expression microarray",
+      "experiment_run_accession": "GEO:GSE311704 (study)",
+      "method": "Total RNA extracted using the QIAGEN RNeasy Fibrous Tissue Midi Kit; biotin labeling using the Affymetrix Sense Target Labeling protocol; array scanning with GeneChip 3000 and feature extraction using Affymetrix Command Console. Raw array file: GSM9330009_Voss_7174RG.CEL.gz.",
+      "platform": "Affymetrix Mouse Gene 1.0 ST Array (GPL6246); GeneChip 3000 scanner",
+      "sample_ids": [
+        "S0017"
+      ]
+    },
+    {
+      "assay_id": "A0018",
+      "assay_type": "Gene expression microarray",
+      "experiment_run_accession": "GEO:GSE311704 (study)",
+      "method": "Total RNA extracted using the QIAGEN RNeasy Fibrous Tissue Midi Kit; biotin labeling using the Affymetrix Sense Target Labeling protocol; array scanning with GeneChip 3000 and feature extraction using Affymetrix Command Console. Raw array file: GSM9330010_Voss_7177RG.CEL.gz.",
+      "platform": "Affymetrix Mouse Gene 1.0 ST Array (GPL6246); GeneChip 3000 scanner",
+      "sample_ids": [
+        "S0018"
+      ]
+    },
+    {
+      "assay_id": "A0019",
+      "assay_type": "Gene expression microarray",
+      "experiment_run_accession": "GEO:GSE311704 (study)",
+      "method": "Total RNA extracted using the QIAGEN RNeasy Fibrous Tissue Midi Kit; biotin labeling using the Affymetrix Sense Target Labeling protocol; array scanning with GeneChip 3000 and feature extraction using Affymetrix Command Console. Raw array file: GSM9330011_Voss_7200RG.CEL.gz.",
+      "platform": "Affymetrix Mouse Gene 1.0 ST Array (GPL6246); GeneChip 3000 scanner",
+      "sample_ids": [
+        "S0019"
+      ]
+    },
+    {
+      "assay_id": "A0020",
+      "assay_type": "Gene expression microarray",
+      "experiment_run_accession": "GEO:GSE311704 (study)",
+      "method": "Total RNA extracted using the QIAGEN RNeasy Fibrous Tissue Midi Kit; biotin labeling using the Affymetrix Sense Target Labeling protocol; array scanning with GeneChip 3000 and feature extraction using Affymetrix Command Console. Raw array file: GSM9330012_Voss_7203RG.CEL.gz.",
+      "platform": "Affymetrix Mouse Gene 1.0 ST Array (GPL6246); GeneChip 3000 scanner",
+      "sample_ids": [
+        "S0020"
+      ]
+    },
+    {
+      "assay_id": "A0021",
+      "assay_type": "Gene expression microarray",
+      "experiment_run_accession": "GEO:GSE311704 (study)",
+      "method": "Total RNA extracted using the QIAGEN RNeasy Fibrous Tissue Midi Kit; biotin labeling using the Affymetrix Sense Target Labeling protocol; array scanning with GeneChip 3000 and feature extraction using Affymetrix Command Console. Raw array file: GSM9330013_Voss_7229RG.CEL.gz.",
+      "platform": "Affymetrix Mouse Gene 1.0 ST Array (GPL6246); GeneChip 3000 scanner",
+      "sample_ids": [
+        "S0021"
+      ]
+    },
+    {
+      "assay_id": "A0022",
+      "assay_type": "Gene expression microarray",
+      "experiment_run_accession": "GEO:GSE311704 (study)",
+      "method": "Total RNA extracted using the QIAGEN RNeasy Fibrous Tissue Midi Kit; biotin labeling using the Affymetrix Sense Target Labeling protocol; array scanning with GeneChip 3000 and feature extraction using Affymetrix Command Console. Raw array file: GSM9330014_Voss_7180RG.CEL.gz.",
+      "platform": "Affymetrix Mouse Gene 1.0 ST Array (GPL6246); GeneChip 3000 scanner",
+      "sample_ids": [
+        "S0022"
+      ]
+    },
+    {
+      "assay_id": "A0023",
+      "assay_type": "Gene expression microarray",
+      "experiment_run_accession": "GEO:GSE311704 (study)",
+      "method": "Total RNA extracted using the QIAGEN RNeasy Fibrous Tissue Midi Kit; biotin labeling using the Affymetrix Sense Target Labeling protocol; array scanning with GeneChip 3000 and feature extraction using Affymetrix Command Console. Raw array file: GSM9330015_Voss_7176RG.CEL.gz.",
+      "platform": "Affymetrix Mouse Gene 1.0 ST Array (GPL6246); GeneChip 3000 scanner",
+      "sample_ids": [
+        "S0023"
+      ]
+    },
+    {
+      "assay_id": "A0024",
+      "assay_type": "Gene expression microarray",
+      "experiment_run_accession": "GEO:GSE311704 (study)",
+      "method": "Total RNA extracted using the QIAGEN RNeasy Fibrous Tissue Midi Kit; biotin labeling using the Affymetrix Sense Target Labeling protocol; array scanning with GeneChip 3000 and feature extraction using Affymetrix Command Console. Raw array file: GSM9330016_Voss_7181RG.CEL.gz.",
+      "platform": "Affymetrix Mouse Gene 1.0 ST Array (GPL6246); GeneChip 3000 scanner",
+      "sample_ids": [
+        "S0024"
+      ]
+    },
+    {
+      "assay_id": "A0025",
+      "assay_type": "Gene expression microarray",
+      "experiment_run_accession": "GEO:GSE311704 (study)",
+      "method": "Total RNA extracted using the QIAGEN RNeasy Fibrous Tissue Midi Kit; biotin labeling using the Affymetrix Sense Target Labeling protocol; array scanning with GeneChip 3000 and feature extraction using Affymetrix Command Console. Raw array file: GSM9330017_Voss_7204RG.CEL.gz.",
+      "platform": "Affymetrix Mouse Gene 1.0 ST Array (GPL6246); GeneChip 3000 scanner",
+      "sample_ids": [
+        "S0025"
+      ]
+    },
+    {
+      "assay_id": "A0026",
+      "assay_type": "Gene expression microarray",
+      "experiment_run_accession": "GEO:GSE311704 (study)",
+      "method": "Total RNA extracted using the QIAGEN RNeasy Fibrous Tissue Midi Kit; biotin labeling using the Affymetrix Sense Target Labeling protocol; array scanning with GeneChip 3000 and feature extraction using Affymetrix Command Console. Raw array file: GSM9330018_Voss_7205RG.CEL.gz.",
+      "platform": "Affymetrix Mouse Gene 1.0 ST Array (GPL6246); GeneChip 3000 scanner",
+      "sample_ids": [
+        "S0026"
+      ]
+    },
+    {
+      "assay_id": "A0027",
+      "assay_type": "Gene expression microarray",
+      "experiment_run_accession": "GEO:GSE311704 (study)",
+      "method": "Total RNA extracted using the QIAGEN RNeasy Fibrous Tissue Midi Kit; biotin labeling using the Affymetrix Sense Target Labeling protocol; array scanning with GeneChip 3000 and feature extraction using Affymetrix Command Console. Raw array file: GSM9330019_Voss_7032RG.CEL.gz.",
+      "platform": "Affymetrix Mouse Gene 1.0 ST Array (GPL6246); GeneChip 3000 scanner",
+      "sample_ids": [
+        "S0027"
+      ]
+    },
+    {
+      "assay_id": "A0028",
+      "assay_type": "Gene expression microarray",
+      "experiment_run_accession": "GEO:GSE311704 (study)",
+      "method": "Total RNA extracted using the QIAGEN RNeasy Fibrous Tissue Midi Kit; biotin labeling using the Affymetrix Sense Target Labeling protocol; array scanning with GeneChip 3000 and feature extraction using Affymetrix Command Console. Raw array file: GSM9330020_Voss_7182RG.CEL.gz.",
+      "platform": "Affymetrix Mouse Gene 1.0 ST Array (GPL6246); GeneChip 3000 scanner",
+      "sample_ids": [
+        "S0028"
+      ]
+    },
+    {
+      "assay_id": "A0029",
+      "assay_type": "Gene expression microarray",
+      "experiment_run_accession": "GEO:GSE311704 (study)",
+      "method": "Total RNA extracted using the QIAGEN RNeasy Fibrous Tissue Midi Kit; biotin labeling using the Affymetrix Sense Target Labeling protocol; array scanning with GeneChip 3000 and feature extraction using Affymetrix Command Console. Raw array file: GSM9330021_Voss_7185RG.CEL.gz.",
+      "platform": "Affymetrix Mouse Gene 1.0 ST Array (GPL6246); GeneChip 3000 scanner",
+      "sample_ids": [
+        "S0029"
+      ]
+    },
+    {
+      "assay_id": "A0030",
+      "assay_type": "Gene expression microarray",
+      "experiment_run_accession": "GEO:GSE311704 (study)",
+      "method": "Total RNA extracted using the QIAGEN RNeasy Fibrous Tissue Midi Kit; biotin labeling using the Affymetrix Sense Target Labeling protocol; array scanning with GeneChip 3000 and feature extraction using Affymetrix Command Console. Raw array file: GSM9330022_Voss_7186RG.CEL.gz.",
+      "platform": "Affymetrix Mouse Gene 1.0 ST Array (GPL6246); GeneChip 3000 scanner",
+      "sample_ids": [
+        "S0030"
+      ]
+    },
+    {
+      "assay_id": "A0031",
+      "assay_type": "Gene expression microarray",
+      "experiment_run_accession": "GEO:GSE311704 (study)",
+      "method": "Total RNA extracted using the QIAGEN RNeasy Fibrous Tissue Midi Kit; biotin labeling using the Affymetrix Sense Target Labeling protocol; array scanning with GeneChip 3000 and feature extraction using Affymetrix Command Console. Raw array file: GSM9330023_Voss_7206RG.CEL.gz.",
+      "platform": "Affymetrix Mouse Gene 1.0 ST Array (GPL6246); GeneChip 3000 scanner",
+      "sample_ids": [
+        "S0031"
+      ]
+    },
+    {
+      "assay_id": "A0032",
+      "assay_type": "Gene expression microarray",
+      "experiment_run_accession": "GEO:GSE311704 (study)",
+      "method": "Total RNA extracted using the QIAGEN RNeasy Fibrous Tissue Midi Kit; biotin labeling using the Affymetrix Sense Target Labeling protocol; array scanning with GeneChip 3000 and feature extraction using Affymetrix Command Console. Raw array file: GSM9330024_Voss_7207RG.CEL.gz.",
+      "platform": "Affymetrix Mouse Gene 1.0 ST Array (GPL6246); GeneChip 3000 scanner",
+      "sample_ids": [
+        "S0032"
+      ]
+    },
+    {
+      "assay_id": "A0033",
+      "assay_type": "Gene expression microarray",
+      "experiment_run_accession": "GEO:GSE311704 (study)",
+      "method": "Total RNA extracted using the QIAGEN RNeasy Fibrous Tissue Midi Kit; biotin labeling using the Affymetrix Sense Target Labeling protocol; array scanning with GeneChip 3000 and feature extraction using Affymetrix Command Console. Raw array file: GSM9330025_Voss_7023RG.CEL.gz.",
+      "platform": "Affymetrix Mouse Gene 1.0 ST Array (GPL6246); GeneChip 3000 scanner",
+      "sample_ids": [
+        "S0033"
+      ]
+    },
+    {
+      "assay_id": "A0034",
+      "assay_type": "Gene expression microarray",
+      "experiment_run_accession": "GEO:GSE311704 (study)",
+      "method": "Total RNA extracted using the QIAGEN RNeasy Fibrous Tissue Midi Kit; biotin labeling using the Affymetrix Sense Target Labeling protocol; array scanning with GeneChip 3000 and feature extraction using Affymetrix Command Console. Raw array file: GSM9330026_Voss_7183RG.CEL.gz.",
+      "platform": "Affymetrix Mouse Gene 1.0 ST Array (GPL6246); GeneChip 3000 scanner",
+      "sample_ids": [
+        "S0034"
+      ]
+    },
+    {
+      "assay_id": "A0035",
+      "assay_type": "Gene expression microarray",
+      "experiment_run_accession": "GEO:GSE311704 (study)",
+      "method": "Total RNA extracted using the QIAGEN RNeasy Fibrous Tissue Midi Kit; biotin labeling using the Affymetrix Sense Target Labeling protocol; array scanning with GeneChip 3000 and feature extraction using Affymetrix Command Console. Raw array file: GSM9330027_Voss_7187RG.CEL.gz.",
+      "platform": "Affymetrix Mouse Gene 1.0 ST Array (GPL6246); GeneChip 3000 scanner",
+      "sample_ids": [
+        "S0035"
+      ]
+    },
+    {
+      "assay_id": "A0036",
+      "assay_type": "Gene expression microarray",
+      "experiment_run_accession": "GEO:GSE311704 (study)",
+      "method": "Total RNA extracted using the QIAGEN RNeasy Fibrous Tissue Midi Kit; biotin labeling using the Affymetrix Sense Target Labeling protocol; array scanning with GeneChip 3000 and feature extraction using Affymetrix Command Console. Raw array file: GSM9330028_Voss_7209RG.CEL.gz.",
+      "platform": "Affymetrix Mouse Gene 1.0 ST Array (GPL6246); GeneChip 3000 scanner",
+      "sample_ids": [
+        "S0036"
+      ]
+    }
+  ],
+  "condition": [
+    {
+      "condition_id": "C0001",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush-injury pressure",
+      "factor_unit": "psi",
+      "factor_value": 45,
+      "sample_id": "S0001",
+      "time": "During right hindlimb muscle crush injury, 7 days after pellet implantation"
+    },
+    {
+      "condition_id": "C0002",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Duration per crush application",
+      "factor_unit": "s",
+      "factor_value": 30,
+      "sample_id": "S0001",
+      "time": "Per application during crush injury"
+    },
+    {
+      "condition_id": "C0003",
+      "condition_target": "Source right lateral gastrocnemius",
+      "experimental_factor": "Post-injury collection interval",
+      "factor_unit": "h",
+      "factor_value": 192,
+      "sample_id": "S0001",
+      "time": "After crush injury"
+    },
+    {
+      "condition_id": "C0004",
+      "condition_target": "Source ovariectomized mice",
+      "experimental_factor": "17β-estradiol pellet dose",
+      "factor_unit": "mg",
+      "factor_value": 0.18,
+      "sample_id": "S0002",
+      "time": "Subcutaneous 60-day-release pellet implanted 7 days before crush injury"
+    },
+    {
+      "condition_id": "C0005",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush-injury pressure",
+      "factor_unit": "psi",
+      "factor_value": 45,
+      "sample_id": "S0002",
+      "time": "During right hindlimb muscle crush injury, 7 days after pellet implantation"
+    },
+    {
+      "condition_id": "C0006",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Duration per crush application",
+      "factor_unit": "s",
+      "factor_value": 30,
+      "sample_id": "S0002",
+      "time": "Per application during crush injury"
+    },
+    {
+      "condition_id": "C0007",
+      "condition_target": "Source right lateral gastrocnemius",
+      "experimental_factor": "Post-injury collection interval",
+      "factor_unit": "h",
+      "factor_value": 192,
+      "sample_id": "S0002",
+      "time": "After crush injury"
+    },
+    {
+      "condition_id": "C0008",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush-injury pressure",
+      "factor_unit": "psi",
+      "factor_value": 45,
+      "sample_id": "S0003",
+      "time": "During right hindlimb muscle crush injury, 7 days after pellet implantation"
+    },
+    {
+      "condition_id": "C0009",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Duration per crush application",
+      "factor_unit": "s",
+      "factor_value": 30,
+      "sample_id": "S0003",
+      "time": "Per application during crush injury"
+    },
+    {
+      "condition_id": "C0010",
+      "condition_target": "Source right lateral gastrocnemius",
+      "experimental_factor": "Post-injury collection interval",
+      "factor_unit": "h",
+      "factor_value": 96,
+      "sample_id": "S0003",
+      "time": "After crush injury"
+    },
+    {
+      "condition_id": "C0011",
+      "condition_target": "Source ovariectomized mice",
+      "experimental_factor": "17β-estradiol pellet dose",
+      "factor_unit": "mg",
+      "factor_value": 0.18,
+      "sample_id": "S0004",
+      "time": "Subcutaneous 60-day-release pellet implanted 7 days before crush injury"
+    },
+    {
+      "condition_id": "C0012",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush-injury pressure",
+      "factor_unit": "psi",
+      "factor_value": 45,
+      "sample_id": "S0004",
+      "time": "During right hindlimb muscle crush injury, 7 days after pellet implantation"
+    },
+    {
+      "condition_id": "C0013",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Duration per crush application",
+      "factor_unit": "s",
+      "factor_value": 30,
+      "sample_id": "S0004",
+      "time": "Per application during crush injury"
+    },
+    {
+      "condition_id": "C0014",
+      "condition_target": "Source right lateral gastrocnemius",
+      "experimental_factor": "Post-injury collection interval",
+      "factor_unit": "h",
+      "factor_value": 96,
+      "sample_id": "S0004",
+      "time": "After crush injury"
+    },
+    {
+      "condition_id": "C0015",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush-injury pressure",
+      "factor_unit": "psi",
+      "factor_value": 45,
+      "sample_id": "S0005",
+      "time": "During right hindlimb muscle crush injury, 7 days after pellet implantation"
+    },
+    {
+      "condition_id": "C0016",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Duration per crush application",
+      "factor_unit": "s",
+      "factor_value": 30,
+      "sample_id": "S0005",
+      "time": "Per application during crush injury"
+    },
+    {
+      "condition_id": "C0017",
+      "condition_target": "Source right lateral gastrocnemius",
+      "experimental_factor": "Post-injury collection interval",
+      "factor_unit": "h",
+      "factor_value": 32,
+      "sample_id": "S0005",
+      "time": "After crush injury"
+    },
+    {
+      "condition_id": "C0018",
+      "condition_target": "Source ovariectomized mice",
+      "experimental_factor": "17β-estradiol pellet dose",
+      "factor_unit": "mg",
+      "factor_value": 0.18,
+      "sample_id": "S0006",
+      "time": "Subcutaneous 60-day-release pellet implanted 7 days before crush injury"
+    },
+    {
+      "condition_id": "C0019",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush-injury pressure",
+      "factor_unit": "psi",
+      "factor_value": 45,
+      "sample_id": "S0006",
+      "time": "During right hindlimb muscle crush injury, 7 days after pellet implantation"
+    },
+    {
+      "condition_id": "C0020",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Duration per crush application",
+      "factor_unit": "s",
+      "factor_value": 30,
+      "sample_id": "S0006",
+      "time": "Per application during crush injury"
+    },
+    {
+      "condition_id": "C0021",
+      "condition_target": "Source right lateral gastrocnemius",
+      "experimental_factor": "Post-injury collection interval",
+      "factor_unit": "h",
+      "factor_value": 32,
+      "sample_id": "S0006",
+      "time": "After crush injury"
+    },
+    {
+      "condition_id": "C0022",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush-injury pressure",
+      "factor_unit": "psi",
+      "factor_value": 45,
+      "sample_id": "S0007",
+      "time": "During right hindlimb muscle crush injury, 7 days after pellet implantation"
+    },
+    {
+      "condition_id": "C0023",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Duration per crush application",
+      "factor_unit": "s",
+      "factor_value": 30,
+      "sample_id": "S0007",
+      "time": "Per application during crush injury"
+    },
+    {
+      "condition_id": "C0024",
+      "condition_target": "Source right lateral gastrocnemius",
+      "experimental_factor": "Post-injury collection interval",
+      "factor_unit": "h",
+      "factor_value": 192,
+      "sample_id": "S0007",
+      "time": "After crush injury"
+    },
+    {
+      "condition_id": "C0025",
+      "condition_target": "Source ovariectomized mice",
+      "experimental_factor": "17β-estradiol pellet dose",
+      "factor_unit": "mg",
+      "factor_value": 0.18,
+      "sample_id": "S0008",
+      "time": "Subcutaneous 60-day-release pellet implanted 7 days before crush injury"
+    },
+    {
+      "condition_id": "C0026",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush-injury pressure",
+      "factor_unit": "psi",
+      "factor_value": 45,
+      "sample_id": "S0008",
+      "time": "During right hindlimb muscle crush injury, 7 days after pellet implantation"
+    },
+    {
+      "condition_id": "C0027",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Duration per crush application",
+      "factor_unit": "s",
+      "factor_value": 30,
+      "sample_id": "S0008",
+      "time": "Per application during crush injury"
+    },
+    {
+      "condition_id": "C0028",
+      "condition_target": "Source right lateral gastrocnemius",
+      "experimental_factor": "Post-injury collection interval",
+      "factor_unit": "h",
+      "factor_value": 192,
+      "sample_id": "S0008",
+      "time": "After crush injury"
+    },
+    {
+      "condition_id": "C0029",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush-injury pressure",
+      "factor_unit": "psi",
+      "factor_value": 45,
+      "sample_id": "S0009",
+      "time": "During right hindlimb muscle crush injury, 7 days after pellet implantation"
+    },
+    {
+      "condition_id": "C0030",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Duration per crush application",
+      "factor_unit": "s",
+      "factor_value": 30,
+      "sample_id": "S0009",
+      "time": "Per application during crush injury"
+    },
+    {
+      "condition_id": "C0031",
+      "condition_target": "Source right lateral gastrocnemius",
+      "experimental_factor": "Post-injury collection interval",
+      "factor_unit": "h",
+      "factor_value": 96,
+      "sample_id": "S0009",
+      "time": "After crush injury"
+    },
+    {
+      "condition_id": "C0032",
+      "condition_target": "Source ovariectomized mice",
+      "experimental_factor": "17β-estradiol pellet dose",
+      "factor_unit": "mg",
+      "factor_value": 0.18,
+      "sample_id": "S0010",
+      "time": "Subcutaneous 60-day-release pellet implanted 7 days before crush injury"
+    },
+    {
+      "condition_id": "C0033",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush-injury pressure",
+      "factor_unit": "psi",
+      "factor_value": 45,
+      "sample_id": "S0010",
+      "time": "During right hindlimb muscle crush injury, 7 days after pellet implantation"
+    },
+    {
+      "condition_id": "C0034",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Duration per crush application",
+      "factor_unit": "s",
+      "factor_value": 30,
+      "sample_id": "S0010",
+      "time": "Per application during crush injury"
+    },
+    {
+      "condition_id": "C0035",
+      "condition_target": "Source right lateral gastrocnemius",
+      "experimental_factor": "Post-injury collection interval",
+      "factor_unit": "h",
+      "factor_value": 96,
+      "sample_id": "S0010",
+      "time": "After crush injury"
+    },
+    {
+      "condition_id": "C0036",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush-injury pressure",
+      "factor_unit": "psi",
+      "factor_value": 45,
+      "sample_id": "S0011",
+      "time": "During right hindlimb muscle crush injury, 7 days after pellet implantation"
+    },
+    {
+      "condition_id": "C0037",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Duration per crush application",
+      "factor_unit": "s",
+      "factor_value": 30,
+      "sample_id": "S0011",
+      "time": "Per application during crush injury"
+    },
+    {
+      "condition_id": "C0038",
+      "condition_target": "Source right lateral gastrocnemius",
+      "experimental_factor": "Post-injury collection interval",
+      "factor_unit": "h",
+      "factor_value": 32,
+      "sample_id": "S0011",
+      "time": "After crush injury"
+    },
+    {
+      "condition_id": "C0039",
+      "condition_target": "Source ovariectomized mice",
+      "experimental_factor": "17β-estradiol pellet dose",
+      "factor_unit": "mg",
+      "factor_value": 0.18,
+      "sample_id": "S0012",
+      "time": "Subcutaneous 60-day-release pellet implanted 7 days before crush injury"
+    },
+    {
+      "condition_id": "C0040",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush-injury pressure",
+      "factor_unit": "psi",
+      "factor_value": 45,
+      "sample_id": "S0012",
+      "time": "During right hindlimb muscle crush injury, 7 days after pellet implantation"
+    },
+    {
+      "condition_id": "C0041",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Duration per crush application",
+      "factor_unit": "s",
+      "factor_value": 30,
+      "sample_id": "S0012",
+      "time": "Per application during crush injury"
+    },
+    {
+      "condition_id": "C0042",
+      "condition_target": "Source right lateral gastrocnemius",
+      "experimental_factor": "Post-injury collection interval",
+      "factor_unit": "h",
+      "factor_value": 32,
+      "sample_id": "S0012",
+      "time": "After crush injury"
+    },
+    {
+      "condition_id": "C0043",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush-injury pressure",
+      "factor_unit": "psi",
+      "factor_value": 45,
+      "sample_id": "S0013",
+      "time": "During right hindlimb muscle crush injury, 7 days after pellet implantation"
+    },
+    {
+      "condition_id": "C0044",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Duration per crush application",
+      "factor_unit": "s",
+      "factor_value": 30,
+      "sample_id": "S0013",
+      "time": "Per application during crush injury"
+    },
+    {
+      "condition_id": "C0045",
+      "condition_target": "Source right lateral gastrocnemius",
+      "experimental_factor": "Post-injury collection interval",
+      "factor_unit": "h",
+      "factor_value": 192,
+      "sample_id": "S0013",
+      "time": "After crush injury"
+    },
+    {
+      "condition_id": "C0046",
+      "condition_target": "Source ovariectomized mice",
+      "experimental_factor": "17β-estradiol pellet dose",
+      "factor_unit": "mg",
+      "factor_value": 0.18,
+      "sample_id": "S0014",
+      "time": "Subcutaneous 60-day-release pellet implanted 7 days before crush injury"
+    },
+    {
+      "condition_id": "C0047",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush-injury pressure",
+      "factor_unit": "psi",
+      "factor_value": 45,
+      "sample_id": "S0014",
+      "time": "During right hindlimb muscle crush injury, 7 days after pellet implantation"
+    },
+    {
+      "condition_id": "C0048",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Duration per crush application",
+      "factor_unit": "s",
+      "factor_value": 30,
+      "sample_id": "S0014",
+      "time": "Per application during crush injury"
+    },
+    {
+      "condition_id": "C0049",
+      "condition_target": "Source right lateral gastrocnemius",
+      "experimental_factor": "Post-injury collection interval",
+      "factor_unit": "h",
+      "factor_value": 192,
+      "sample_id": "S0014",
+      "time": "After crush injury"
+    },
+    {
+      "condition_id": "C0050",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush-injury pressure",
+      "factor_unit": "psi",
+      "factor_value": 45,
+      "sample_id": "S0015",
+      "time": "During right hindlimb muscle crush injury, 7 days after pellet implantation"
+    },
+    {
+      "condition_id": "C0051",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Duration per crush application",
+      "factor_unit": "s",
+      "factor_value": 30,
+      "sample_id": "S0015",
+      "time": "Per application during crush injury"
+    },
+    {
+      "condition_id": "C0052",
+      "condition_target": "Source right lateral gastrocnemius",
+      "experimental_factor": "Post-injury collection interval",
+      "factor_unit": "h",
+      "factor_value": 96,
+      "sample_id": "S0015",
+      "time": "After crush injury"
+    },
+    {
+      "condition_id": "C0053",
+      "condition_target": "Source ovariectomized mice",
+      "experimental_factor": "17β-estradiol pellet dose",
+      "factor_unit": "mg",
+      "factor_value": 0.18,
+      "sample_id": "S0016",
+      "time": "Subcutaneous 60-day-release pellet implanted 7 days before crush injury"
+    },
+    {
+      "condition_id": "C0054",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush-injury pressure",
+      "factor_unit": "psi",
+      "factor_value": 45,
+      "sample_id": "S0016",
+      "time": "During right hindlimb muscle crush injury, 7 days after pellet implantation"
+    },
+    {
+      "condition_id": "C0055",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Duration per crush application",
+      "factor_unit": "s",
+      "factor_value": 30,
+      "sample_id": "S0016",
+      "time": "Per application during crush injury"
+    },
+    {
+      "condition_id": "C0056",
+      "condition_target": "Source right lateral gastrocnemius",
+      "experimental_factor": "Post-injury collection interval",
+      "factor_unit": "h",
+      "factor_value": 96,
+      "sample_id": "S0016",
+      "time": "After crush injury"
+    },
+    {
+      "condition_id": "C0057",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush-injury pressure",
+      "factor_unit": "psi",
+      "factor_value": 45,
+      "sample_id": "S0017",
+      "time": "During right hindlimb muscle crush injury, 7 days after pellet implantation"
+    },
+    {
+      "condition_id": "C0058",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Duration per crush application",
+      "factor_unit": "s",
+      "factor_value": 30,
+      "sample_id": "S0017",
+      "time": "Per application during crush injury"
+    },
+    {
+      "condition_id": "C0059",
+      "condition_target": "Source right lateral gastrocnemius",
+      "experimental_factor": "Post-injury collection interval",
+      "factor_unit": "h",
+      "factor_value": 32,
+      "sample_id": "S0017",
+      "time": "After crush injury"
+    },
+    {
+      "condition_id": "C0060",
+      "condition_target": "Source ovariectomized mice",
+      "experimental_factor": "17β-estradiol pellet dose",
+      "factor_unit": "mg",
+      "factor_value": 0.18,
+      "sample_id": "S0018",
+      "time": "Subcutaneous 60-day-release pellet implanted 7 days before crush injury"
+    },
+    {
+      "condition_id": "C0061",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush-injury pressure",
+      "factor_unit": "psi",
+      "factor_value": 45,
+      "sample_id": "S0018",
+      "time": "During right hindlimb muscle crush injury, 7 days after pellet implantation"
+    },
+    {
+      "condition_id": "C0062",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Duration per crush application",
+      "factor_unit": "s",
+      "factor_value": 30,
+      "sample_id": "S0018",
+      "time": "Per application during crush injury"
+    },
+    {
+      "condition_id": "C0063",
+      "condition_target": "Source right lateral gastrocnemius",
+      "experimental_factor": "Post-injury collection interval",
+      "factor_unit": "h",
+      "factor_value": 32,
+      "sample_id": "S0018",
+      "time": "After crush injury"
+    },
+    {
+      "condition_id": "C0064",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush-injury pressure",
+      "factor_unit": "psi",
+      "factor_value": 45,
+      "sample_id": "S0019",
+      "time": "During right hindlimb muscle crush injury, 7 days after pellet implantation"
+    },
+    {
+      "condition_id": "C0065",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Duration per crush application",
+      "factor_unit": "s",
+      "factor_value": 30,
+      "sample_id": "S0019",
+      "time": "Per application during crush injury"
+    },
+    {
+      "condition_id": "C0066",
+      "condition_target": "Source right lateral gastrocnemius",
+      "experimental_factor": "Post-injury collection interval",
+      "factor_unit": "h",
+      "factor_value": 192,
+      "sample_id": "S0019",
+      "time": "After crush injury"
+    },
+    {
+      "condition_id": "C0067",
+      "condition_target": "Source ovariectomized mice",
+      "experimental_factor": "17β-estradiol pellet dose",
+      "factor_unit": "mg",
+      "factor_value": 0.18,
+      "sample_id": "S0020",
+      "time": "Subcutaneous 60-day-release pellet implanted 7 days before crush injury"
+    },
+    {
+      "condition_id": "C0068",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush-injury pressure",
+      "factor_unit": "psi",
+      "factor_value": 45,
+      "sample_id": "S0020",
+      "time": "During right hindlimb muscle crush injury, 7 days after pellet implantation"
+    },
+    {
+      "condition_id": "C0069",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Duration per crush application",
+      "factor_unit": "s",
+      "factor_value": 30,
+      "sample_id": "S0020",
+      "time": "Per application during crush injury"
+    },
+    {
+      "condition_id": "C0070",
+      "condition_target": "Source right lateral gastrocnemius",
+      "experimental_factor": "Post-injury collection interval",
+      "factor_unit": "h",
+      "factor_value": 192,
+      "sample_id": "S0020",
+      "time": "After crush injury"
+    },
+    {
+      "condition_id": "C0071",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush-injury pressure",
+      "factor_unit": "psi",
+      "factor_value": 45,
+      "sample_id": "S0021",
+      "time": "During right hindlimb muscle crush injury, 7 days after pellet implantation"
+    },
+    {
+      "condition_id": "C0072",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Duration per crush application",
+      "factor_unit": "s",
+      "factor_value": 30,
+      "sample_id": "S0021",
+      "time": "Per application during crush injury"
+    },
+    {
+      "condition_id": "C0073",
+      "condition_target": "Source right lateral gastrocnemius",
+      "experimental_factor": "Post-injury collection interval",
+      "factor_unit": "h",
+      "factor_value": 96,
+      "sample_id": "S0021",
+      "time": "After crush injury"
+    },
+    {
+      "condition_id": "C0074",
+      "condition_target": "Source ovariectomized mice",
+      "experimental_factor": "17β-estradiol pellet dose",
+      "factor_unit": "mg",
+      "factor_value": 0.18,
+      "sample_id": "S0022",
+      "time": "Subcutaneous 60-day-release pellet implanted 7 days before crush injury"
+    },
+    {
+      "condition_id": "C0075",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush-injury pressure",
+      "factor_unit": "psi",
+      "factor_value": 45,
+      "sample_id": "S0022",
+      "time": "During right hindlimb muscle crush injury, 7 days after pellet implantation"
+    },
+    {
+      "condition_id": "C0076",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Duration per crush application",
+      "factor_unit": "s",
+      "factor_value": 30,
+      "sample_id": "S0022",
+      "time": "Per application during crush injury"
+    },
+    {
+      "condition_id": "C0077",
+      "condition_target": "Source right lateral gastrocnemius",
+      "experimental_factor": "Post-injury collection interval",
+      "factor_unit": "h",
+      "factor_value": 96,
+      "sample_id": "S0022",
+      "time": "After crush injury"
+    },
+    {
+      "condition_id": "C0078",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush-injury pressure",
+      "factor_unit": "psi",
+      "factor_value": 45,
+      "sample_id": "S0023",
+      "time": "During right hindlimb muscle crush injury, 7 days after pellet implantation"
+    },
+    {
+      "condition_id": "C0079",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Duration per crush application",
+      "factor_unit": "s",
+      "factor_value": 30,
+      "sample_id": "S0023",
+      "time": "Per application during crush injury"
+    },
+    {
+      "condition_id": "C0080",
+      "condition_target": "Source right lateral gastrocnemius",
+      "experimental_factor": "Post-injury collection interval",
+      "factor_unit": "h",
+      "factor_value": 32,
+      "sample_id": "S0023",
+      "time": "After crush injury"
+    },
+    {
+      "condition_id": "C0081",
+      "condition_target": "Source ovariectomized mice",
+      "experimental_factor": "17β-estradiol pellet dose",
+      "factor_unit": "mg",
+      "factor_value": 0.18,
+      "sample_id": "S0024",
+      "time": "Subcutaneous 60-day-release pellet implanted 7 days before crush injury"
+    },
+    {
+      "condition_id": "C0082",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush-injury pressure",
+      "factor_unit": "psi",
+      "factor_value": 45,
+      "sample_id": "S0024",
+      "time": "During right hindlimb muscle crush injury, 7 days after pellet implantation"
+    },
+    {
+      "condition_id": "C0083",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Duration per crush application",
+      "factor_unit": "s",
+      "factor_value": 30,
+      "sample_id": "S0024",
+      "time": "Per application during crush injury"
+    },
+    {
+      "condition_id": "C0084",
+      "condition_target": "Source right lateral gastrocnemius",
+      "experimental_factor": "Post-injury collection interval",
+      "factor_unit": "h",
+      "factor_value": 32,
+      "sample_id": "S0024",
+      "time": "After crush injury"
+    },
+    {
+      "condition_id": "C0085",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush-injury pressure",
+      "factor_unit": "psi",
+      "factor_value": 45,
+      "sample_id": "S0025",
+      "time": "During right hindlimb muscle crush injury, 7 days after pellet implantation"
+    },
+    {
+      "condition_id": "C0086",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Duration per crush application",
+      "factor_unit": "s",
+      "factor_value": 30,
+      "sample_id": "S0025",
+      "time": "Per application during crush injury"
+    },
+    {
+      "condition_id": "C0087",
+      "condition_target": "Source right lateral gastrocnemius",
+      "experimental_factor": "Post-injury collection interval",
+      "factor_unit": "h",
+      "factor_value": 192,
+      "sample_id": "S0025",
+      "time": "After crush injury"
+    },
+    {
+      "condition_id": "C0088",
+      "condition_target": "Source ovariectomized mice",
+      "experimental_factor": "17β-estradiol pellet dose",
+      "factor_unit": "mg",
+      "factor_value": 0.18,
+      "sample_id": "S0026",
+      "time": "Subcutaneous 60-day-release pellet implanted 7 days before crush injury"
+    },
+    {
+      "condition_id": "C0089",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush-injury pressure",
+      "factor_unit": "psi",
+      "factor_value": 45,
+      "sample_id": "S0026",
+      "time": "During right hindlimb muscle crush injury, 7 days after pellet implantation"
+    },
+    {
+      "condition_id": "C0090",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Duration per crush application",
+      "factor_unit": "s",
+      "factor_value": 30,
+      "sample_id": "S0026",
+      "time": "Per application during crush injury"
+    },
+    {
+      "condition_id": "C0091",
+      "condition_target": "Source right lateral gastrocnemius",
+      "experimental_factor": "Post-injury collection interval",
+      "factor_unit": "h",
+      "factor_value": 192,
+      "sample_id": "S0026",
+      "time": "After crush injury"
+    },
+    {
+      "condition_id": "C0092",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush-injury pressure",
+      "factor_unit": "psi",
+      "factor_value": 45,
+      "sample_id": "S0027",
+      "time": "During right hindlimb muscle crush injury, 7 days after pellet implantation"
+    },
+    {
+      "condition_id": "C0093",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Duration per crush application",
+      "factor_unit": "s",
+      "factor_value": 30,
+      "sample_id": "S0027",
+      "time": "Per application during crush injury"
+    },
+    {
+      "condition_id": "C0094",
+      "condition_target": "Source right lateral gastrocnemius",
+      "experimental_factor": "Post-injury collection interval",
+      "factor_unit": "h",
+      "factor_value": 96,
+      "sample_id": "S0027",
+      "time": "After crush injury"
+    },
+    {
+      "condition_id": "C0095",
+      "condition_target": "Source ovariectomized mice",
+      "experimental_factor": "17β-estradiol pellet dose",
+      "factor_unit": "mg",
+      "factor_value": 0.18,
+      "sample_id": "S0028",
+      "time": "Subcutaneous 60-day-release pellet implanted 7 days before crush injury"
+    },
+    {
+      "condition_id": "C0096",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush-injury pressure",
+      "factor_unit": "psi",
+      "factor_value": 45,
+      "sample_id": "S0028",
+      "time": "During right hindlimb muscle crush injury, 7 days after pellet implantation"
+    },
+    {
+      "condition_id": "C0097",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Duration per crush application",
+      "factor_unit": "s",
+      "factor_value": 30,
+      "sample_id": "S0028",
+      "time": "Per application during crush injury"
+    },
+    {
+      "condition_id": "C0098",
+      "condition_target": "Source right lateral gastrocnemius",
+      "experimental_factor": "Post-injury collection interval",
+      "factor_unit": "h",
+      "factor_value": 96,
+      "sample_id": "S0028",
+      "time": "After crush injury"
+    },
+    {
+      "condition_id": "C0099",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush-injury pressure",
+      "factor_unit": "psi",
+      "factor_value": 45,
+      "sample_id": "S0029",
+      "time": "During right hindlimb muscle crush injury, 7 days after pellet implantation"
+    },
+    {
+      "condition_id": "C0100",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Duration per crush application",
+      "factor_unit": "s",
+      "factor_value": 30,
+      "sample_id": "S0029",
+      "time": "Per application during crush injury"
+    },
+    {
+      "condition_id": "C0101",
+      "condition_target": "Source right lateral gastrocnemius",
+      "experimental_factor": "Post-injury collection interval",
+      "factor_unit": "h",
+      "factor_value": 32,
+      "sample_id": "S0029",
+      "time": "After crush injury"
+    },
+    {
+      "condition_id": "C0102",
+      "condition_target": "Source ovariectomized mice",
+      "experimental_factor": "17β-estradiol pellet dose",
+      "factor_unit": "mg",
+      "factor_value": 0.18,
+      "sample_id": "S0030",
+      "time": "Subcutaneous 60-day-release pellet implanted 7 days before crush injury"
+    },
+    {
+      "condition_id": "C0103",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush-injury pressure",
+      "factor_unit": "psi",
+      "factor_value": 45,
+      "sample_id": "S0030",
+      "time": "During right hindlimb muscle crush injury, 7 days after pellet implantation"
+    },
+    {
+      "condition_id": "C0104",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Duration per crush application",
+      "factor_unit": "s",
+      "factor_value": 30,
+      "sample_id": "S0030",
+      "time": "Per application during crush injury"
+    },
+    {
+      "condition_id": "C0105",
+      "condition_target": "Source right lateral gastrocnemius",
+      "experimental_factor": "Post-injury collection interval",
+      "factor_unit": "h",
+      "factor_value": 32,
+      "sample_id": "S0030",
+      "time": "After crush injury"
+    },
+    {
+      "condition_id": "C0106",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush-injury pressure",
+      "factor_unit": "psi",
+      "factor_value": 45,
+      "sample_id": "S0031",
+      "time": "During right hindlimb muscle crush injury, 7 days after pellet implantation"
+    },
+    {
+      "condition_id": "C0107",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Duration per crush application",
+      "factor_unit": "s",
+      "factor_value": 30,
+      "sample_id": "S0031",
+      "time": "Per application during crush injury"
+    },
+    {
+      "condition_id": "C0108",
+      "condition_target": "Source right lateral gastrocnemius",
+      "experimental_factor": "Post-injury collection interval",
+      "factor_unit": "h",
+      "factor_value": 192,
+      "sample_id": "S0031",
+      "time": "After crush injury"
+    },
+    {
+      "condition_id": "C0109",
+      "condition_target": "Source ovariectomized mice",
+      "experimental_factor": "17β-estradiol pellet dose",
+      "factor_unit": "mg",
+      "factor_value": 0.18,
+      "sample_id": "S0032",
+      "time": "Subcutaneous 60-day-release pellet implanted 7 days before crush injury"
+    },
+    {
+      "condition_id": "C0110",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush-injury pressure",
+      "factor_unit": "psi",
+      "factor_value": 45,
+      "sample_id": "S0032",
+      "time": "During right hindlimb muscle crush injury, 7 days after pellet implantation"
+    },
+    {
+      "condition_id": "C0111",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Duration per crush application",
+      "factor_unit": "s",
+      "factor_value": 30,
+      "sample_id": "S0032",
+      "time": "Per application during crush injury"
+    },
+    {
+      "condition_id": "C0112",
+      "condition_target": "Source right lateral gastrocnemius",
+      "experimental_factor": "Post-injury collection interval",
+      "factor_unit": "h",
+      "factor_value": 192,
+      "sample_id": "S0032",
+      "time": "After crush injury"
+    },
+    {
+      "condition_id": "C0113",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush-injury pressure",
+      "factor_unit": "psi",
+      "factor_value": 45,
+      "sample_id": "S0033",
+      "time": "During right hindlimb muscle crush injury, 7 days after pellet implantation"
+    },
+    {
+      "condition_id": "C0114",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Duration per crush application",
+      "factor_unit": "s",
+      "factor_value": 30,
+      "sample_id": "S0033",
+      "time": "Per application during crush injury"
+    },
+    {
+      "condition_id": "C0115",
+      "condition_target": "Source right lateral gastrocnemius",
+      "experimental_factor": "Post-injury collection interval",
+      "factor_unit": "h",
+      "factor_value": 96,
+      "sample_id": "S0033",
+      "time": "After crush injury"
+    },
+    {
+      "condition_id": "C0116",
+      "condition_target": "Source ovariectomized mice",
+      "experimental_factor": "17β-estradiol pellet dose",
+      "factor_unit": "mg",
+      "factor_value": 0.18,
+      "sample_id": "S0034",
+      "time": "Subcutaneous 60-day-release pellet implanted 7 days before crush injury"
+    },
+    {
+      "condition_id": "C0117",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush-injury pressure",
+      "factor_unit": "psi",
+      "factor_value": 45,
+      "sample_id": "S0034",
+      "time": "During right hindlimb muscle crush injury, 7 days after pellet implantation"
+    },
+    {
+      "condition_id": "C0118",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Duration per crush application",
+      "factor_unit": "s",
+      "factor_value": 30,
+      "sample_id": "S0034",
+      "time": "Per application during crush injury"
+    },
+    {
+      "condition_id": "C0119",
+      "condition_target": "Source right lateral gastrocnemius",
+      "experimental_factor": "Post-injury collection interval",
+      "factor_unit": "h",
+      "factor_value": 96,
+      "sample_id": "S0034",
+      "time": "After crush injury"
+    },
+    {
+      "condition_id": "C0120",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush-injury pressure",
+      "factor_unit": "psi",
+      "factor_value": 45,
+      "sample_id": "S0035",
+      "time": "During right hindlimb muscle crush injury, 7 days after pellet implantation"
+    },
+    {
+      "condition_id": "C0121",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Duration per crush application",
+      "factor_unit": "s",
+      "factor_value": 30,
+      "sample_id": "S0035",
+      "time": "Per application during crush injury"
+    },
+    {
+      "condition_id": "C0122",
+      "condition_target": "Source right lateral gastrocnemius",
+      "experimental_factor": "Post-injury collection interval",
+      "factor_unit": "h",
+      "factor_value": 32,
+      "sample_id": "S0035",
+      "time": "After crush injury"
+    },
+    {
+      "condition_id": "C0123",
+      "condition_target": "Source ovariectomized mice",
+      "experimental_factor": "17β-estradiol pellet dose",
+      "factor_unit": "mg",
+      "factor_value": 0.18,
+      "sample_id": "S0036",
+      "time": "Subcutaneous 60-day-release pellet implanted 7 days before crush injury"
+    },
+    {
+      "condition_id": "C0124",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush-injury pressure",
+      "factor_unit": "psi",
+      "factor_value": 45,
+      "sample_id": "S0036",
+      "time": "During right hindlimb muscle crush injury, 7 days after pellet implantation"
+    },
+    {
+      "condition_id": "C0125",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Duration per crush application",
+      "factor_unit": "s",
+      "factor_value": 30,
+      "sample_id": "S0036",
+      "time": "Per application during crush injury"
+    },
+    {
+      "condition_id": "C0126",
+      "condition_target": "Source right lateral gastrocnemius",
+      "experimental_factor": "Post-injury collection interval",
+      "factor_unit": "h",
+      "factor_value": 32,
+      "sample_id": "S0036",
+      "time": "After crush injury"
+    },
+    {
+      "condition_id": "C0127",
+      "condition_target": "Source ovariectomized mice",
+      "experimental_factor": "17β-estradiol pellet dose",
+      "factor_unit": "mg",
+      "factor_value": 0,
+      "sample_id": "S0001",
+      "time": "Subcutaneous 60-day-release pellet implanted 7 days before crush injury"
+    },
+    {
+      "condition_id": "C0128",
+      "condition_target": "Source ovariectomized mouse",
+      "experimental_factor": "Pellet treatment interval before injury",
+      "factor_unit": "days",
+      "factor_value": 7,
+      "sample_id": "S0001",
+      "time": "From subcutaneous pellet implantation to closed-crush injury"
+    },
+    {
+      "condition_id": "C0129",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush applications (protocol range)",
+      "factor_unit": "applications",
+      "factor_value": "2–4",
+      "sample_id": "S0001",
+      "time": "During closed-crush injury; individual repetition count unreported"
+    },
+    {
+      "condition_id": "C0130",
+      "condition_target": "Source ovariectomized mouse",
+      "experimental_factor": "Pellet treatment interval before injury",
+      "factor_unit": "days",
+      "factor_value": 7,
+      "sample_id": "S0002",
+      "time": "From subcutaneous pellet implantation to closed-crush injury"
+    },
+    {
+      "condition_id": "C0131",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush applications (protocol range)",
+      "factor_unit": "applications",
+      "factor_value": "2–4",
+      "sample_id": "S0002",
+      "time": "During closed-crush injury; individual repetition count unreported"
+    },
+    {
+      "condition_id": "C0132",
+      "condition_target": "Source ovariectomized mice",
+      "experimental_factor": "17β-estradiol pellet dose",
+      "factor_unit": "mg",
+      "factor_value": 0,
+      "sample_id": "S0003",
+      "time": "Subcutaneous 60-day-release pellet implanted 7 days before crush injury"
+    },
+    {
+      "condition_id": "C0133",
+      "condition_target": "Source ovariectomized mouse",
+      "experimental_factor": "Pellet treatment interval before injury",
+      "factor_unit": "days",
+      "factor_value": 7,
+      "sample_id": "S0003",
+      "time": "From subcutaneous pellet implantation to closed-crush injury"
+    },
+    {
+      "condition_id": "C0134",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush applications (protocol range)",
+      "factor_unit": "applications",
+      "factor_value": "2–4",
+      "sample_id": "S0003",
+      "time": "During closed-crush injury; individual repetition count unreported"
+    },
+    {
+      "condition_id": "C0135",
+      "condition_target": "Source ovariectomized mouse",
+      "experimental_factor": "Pellet treatment interval before injury",
+      "factor_unit": "days",
+      "factor_value": 7,
+      "sample_id": "S0004",
+      "time": "From subcutaneous pellet implantation to closed-crush injury"
+    },
+    {
+      "condition_id": "C0136",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush applications (protocol range)",
+      "factor_unit": "applications",
+      "factor_value": "2–4",
+      "sample_id": "S0004",
+      "time": "During closed-crush injury; individual repetition count unreported"
+    },
+    {
+      "condition_id": "C0137",
+      "condition_target": "Source ovariectomized mice",
+      "experimental_factor": "17β-estradiol pellet dose",
+      "factor_unit": "mg",
+      "factor_value": 0,
+      "sample_id": "S0005",
+      "time": "Subcutaneous 60-day-release pellet implanted 7 days before crush injury"
+    },
+    {
+      "condition_id": "C0138",
+      "condition_target": "Source ovariectomized mouse",
+      "experimental_factor": "Pellet treatment interval before injury",
+      "factor_unit": "days",
+      "factor_value": 7,
+      "sample_id": "S0005",
+      "time": "From subcutaneous pellet implantation to closed-crush injury"
+    },
+    {
+      "condition_id": "C0139",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush applications (protocol range)",
+      "factor_unit": "applications",
+      "factor_value": "2–4",
+      "sample_id": "S0005",
+      "time": "During closed-crush injury; individual repetition count unreported"
+    },
+    {
+      "condition_id": "C0140",
+      "condition_target": "Source ovariectomized mouse",
+      "experimental_factor": "Pellet treatment interval before injury",
+      "factor_unit": "days",
+      "factor_value": 7,
+      "sample_id": "S0006",
+      "time": "From subcutaneous pellet implantation to closed-crush injury"
+    },
+    {
+      "condition_id": "C0141",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush applications (protocol range)",
+      "factor_unit": "applications",
+      "factor_value": "2–4",
+      "sample_id": "S0006",
+      "time": "During closed-crush injury; individual repetition count unreported"
+    },
+    {
+      "condition_id": "C0142",
+      "condition_target": "Source ovariectomized mice",
+      "experimental_factor": "17β-estradiol pellet dose",
+      "factor_unit": "mg",
+      "factor_value": 0,
+      "sample_id": "S0007",
+      "time": "Subcutaneous 60-day-release pellet implanted 7 days before crush injury"
+    },
+    {
+      "condition_id": "C0143",
+      "condition_target": "Source ovariectomized mouse",
+      "experimental_factor": "Pellet treatment interval before injury",
+      "factor_unit": "days",
+      "factor_value": 7,
+      "sample_id": "S0007",
+      "time": "From subcutaneous pellet implantation to closed-crush injury"
+    },
+    {
+      "condition_id": "C0144",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush applications (protocol range)",
+      "factor_unit": "applications",
+      "factor_value": "2–4",
+      "sample_id": "S0007",
+      "time": "During closed-crush injury; individual repetition count unreported"
+    },
+    {
+      "condition_id": "C0145",
+      "condition_target": "Source ovariectomized mouse",
+      "experimental_factor": "Pellet treatment interval before injury",
+      "factor_unit": "days",
+      "factor_value": 7,
+      "sample_id": "S0008",
+      "time": "From subcutaneous pellet implantation to closed-crush injury"
+    },
+    {
+      "condition_id": "C0146",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush applications (protocol range)",
+      "factor_unit": "applications",
+      "factor_value": "2–4",
+      "sample_id": "S0008",
+      "time": "During closed-crush injury; individual repetition count unreported"
+    },
+    {
+      "condition_id": "C0147",
+      "condition_target": "Source ovariectomized mice",
+      "experimental_factor": "17β-estradiol pellet dose",
+      "factor_unit": "mg",
+      "factor_value": 0,
+      "sample_id": "S0009",
+      "time": "Subcutaneous 60-day-release pellet implanted 7 days before crush injury"
+    },
+    {
+      "condition_id": "C0148",
+      "condition_target": "Source ovariectomized mouse",
+      "experimental_factor": "Pellet treatment interval before injury",
+      "factor_unit": "days",
+      "factor_value": 7,
+      "sample_id": "S0009",
+      "time": "From subcutaneous pellet implantation to closed-crush injury"
+    },
+    {
+      "condition_id": "C0149",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush applications (protocol range)",
+      "factor_unit": "applications",
+      "factor_value": "2–4",
+      "sample_id": "S0009",
+      "time": "During closed-crush injury; individual repetition count unreported"
+    },
+    {
+      "condition_id": "C0150",
+      "condition_target": "Source ovariectomized mouse",
+      "experimental_factor": "Pellet treatment interval before injury",
+      "factor_unit": "days",
+      "factor_value": 7,
+      "sample_id": "S0010",
+      "time": "From subcutaneous pellet implantation to closed-crush injury"
+    },
+    {
+      "condition_id": "C0151",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush applications (protocol range)",
+      "factor_unit": "applications",
+      "factor_value": "2–4",
+      "sample_id": "S0010",
+      "time": "During closed-crush injury; individual repetition count unreported"
+    },
+    {
+      "condition_id": "C0152",
+      "condition_target": "Source ovariectomized mice",
+      "experimental_factor": "17β-estradiol pellet dose",
+      "factor_unit": "mg",
+      "factor_value": 0,
+      "sample_id": "S0011",
+      "time": "Subcutaneous 60-day-release pellet implanted 7 days before crush injury"
+    },
+    {
+      "condition_id": "C0153",
+      "condition_target": "Source ovariectomized mouse",
+      "experimental_factor": "Pellet treatment interval before injury",
+      "factor_unit": "days",
+      "factor_value": 7,
+      "sample_id": "S0011",
+      "time": "From subcutaneous pellet implantation to closed-crush injury"
+    },
+    {
+      "condition_id": "C0154",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush applications (protocol range)",
+      "factor_unit": "applications",
+      "factor_value": "2–4",
+      "sample_id": "S0011",
+      "time": "During closed-crush injury; individual repetition count unreported"
+    },
+    {
+      "condition_id": "C0155",
+      "condition_target": "Source ovariectomized mouse",
+      "experimental_factor": "Pellet treatment interval before injury",
+      "factor_unit": "days",
+      "factor_value": 7,
+      "sample_id": "S0012",
+      "time": "From subcutaneous pellet implantation to closed-crush injury"
+    },
+    {
+      "condition_id": "C0156",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush applications (protocol range)",
+      "factor_unit": "applications",
+      "factor_value": "2–4",
+      "sample_id": "S0012",
+      "time": "During closed-crush injury; individual repetition count unreported"
+    },
+    {
+      "condition_id": "C0157",
+      "condition_target": "Source ovariectomized mice",
+      "experimental_factor": "17β-estradiol pellet dose",
+      "factor_unit": "mg",
+      "factor_value": 0,
+      "sample_id": "S0013",
+      "time": "Subcutaneous 60-day-release pellet implanted 7 days before crush injury"
+    },
+    {
+      "condition_id": "C0158",
+      "condition_target": "Source ovariectomized mouse",
+      "experimental_factor": "Pellet treatment interval before injury",
+      "factor_unit": "days",
+      "factor_value": 7,
+      "sample_id": "S0013",
+      "time": "From subcutaneous pellet implantation to closed-crush injury"
+    },
+    {
+      "condition_id": "C0159",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush applications (protocol range)",
+      "factor_unit": "applications",
+      "factor_value": "2–4",
+      "sample_id": "S0013",
+      "time": "During closed-crush injury; individual repetition count unreported"
+    },
+    {
+      "condition_id": "C0160",
+      "condition_target": "Source ovariectomized mouse",
+      "experimental_factor": "Pellet treatment interval before injury",
+      "factor_unit": "days",
+      "factor_value": 7,
+      "sample_id": "S0014",
+      "time": "From subcutaneous pellet implantation to closed-crush injury"
+    },
+    {
+      "condition_id": "C0161",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush applications (protocol range)",
+      "factor_unit": "applications",
+      "factor_value": "2–4",
+      "sample_id": "S0014",
+      "time": "During closed-crush injury; individual repetition count unreported"
+    },
+    {
+      "condition_id": "C0162",
+      "condition_target": "Source ovariectomized mice",
+      "experimental_factor": "17β-estradiol pellet dose",
+      "factor_unit": "mg",
+      "factor_value": 0,
+      "sample_id": "S0015",
+      "time": "Subcutaneous 60-day-release pellet implanted 7 days before crush injury"
+    },
+    {
+      "condition_id": "C0163",
+      "condition_target": "Source ovariectomized mouse",
+      "experimental_factor": "Pellet treatment interval before injury",
+      "factor_unit": "days",
+      "factor_value": 7,
+      "sample_id": "S0015",
+      "time": "From subcutaneous pellet implantation to closed-crush injury"
+    },
+    {
+      "condition_id": "C0164",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush applications (protocol range)",
+      "factor_unit": "applications",
+      "factor_value": "2–4",
+      "sample_id": "S0015",
+      "time": "During closed-crush injury; individual repetition count unreported"
+    },
+    {
+      "condition_id": "C0165",
+      "condition_target": "Source ovariectomized mouse",
+      "experimental_factor": "Pellet treatment interval before injury",
+      "factor_unit": "days",
+      "factor_value": 7,
+      "sample_id": "S0016",
+      "time": "From subcutaneous pellet implantation to closed-crush injury"
+    },
+    {
+      "condition_id": "C0166",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush applications (protocol range)",
+      "factor_unit": "applications",
+      "factor_value": "2–4",
+      "sample_id": "S0016",
+      "time": "During closed-crush injury; individual repetition count unreported"
+    },
+    {
+      "condition_id": "C0167",
+      "condition_target": "Source ovariectomized mice",
+      "experimental_factor": "17β-estradiol pellet dose",
+      "factor_unit": "mg",
+      "factor_value": 0,
+      "sample_id": "S0017",
+      "time": "Subcutaneous 60-day-release pellet implanted 7 days before crush injury"
+    },
+    {
+      "condition_id": "C0168",
+      "condition_target": "Source ovariectomized mouse",
+      "experimental_factor": "Pellet treatment interval before injury",
+      "factor_unit": "days",
+      "factor_value": 7,
+      "sample_id": "S0017",
+      "time": "From subcutaneous pellet implantation to closed-crush injury"
+    },
+    {
+      "condition_id": "C0169",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush applications (protocol range)",
+      "factor_unit": "applications",
+      "factor_value": "2–4",
+      "sample_id": "S0017",
+      "time": "During closed-crush injury; individual repetition count unreported"
+    },
+    {
+      "condition_id": "C0170",
+      "condition_target": "Source ovariectomized mouse",
+      "experimental_factor": "Pellet treatment interval before injury",
+      "factor_unit": "days",
+      "factor_value": 7,
+      "sample_id": "S0018",
+      "time": "From subcutaneous pellet implantation to closed-crush injury"
+    },
+    {
+      "condition_id": "C0171",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush applications (protocol range)",
+      "factor_unit": "applications",
+      "factor_value": "2–4",
+      "sample_id": "S0018",
+      "time": "During closed-crush injury; individual repetition count unreported"
+    },
+    {
+      "condition_id": "C0172",
+      "condition_target": "Source ovariectomized mice",
+      "experimental_factor": "17β-estradiol pellet dose",
+      "factor_unit": "mg",
+      "factor_value": 0,
+      "sample_id": "S0019",
+      "time": "Subcutaneous 60-day-release pellet implanted 7 days before crush injury"
+    },
+    {
+      "condition_id": "C0173",
+      "condition_target": "Source ovariectomized mouse",
+      "experimental_factor": "Pellet treatment interval before injury",
+      "factor_unit": "days",
+      "factor_value": 7,
+      "sample_id": "S0019",
+      "time": "From subcutaneous pellet implantation to closed-crush injury"
+    },
+    {
+      "condition_id": "C0174",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush applications (protocol range)",
+      "factor_unit": "applications",
+      "factor_value": "2–4",
+      "sample_id": "S0019",
+      "time": "During closed-crush injury; individual repetition count unreported"
+    },
+    {
+      "condition_id": "C0175",
+      "condition_target": "Source ovariectomized mouse",
+      "experimental_factor": "Pellet treatment interval before injury",
+      "factor_unit": "days",
+      "factor_value": 7,
+      "sample_id": "S0020",
+      "time": "From subcutaneous pellet implantation to closed-crush injury"
+    },
+    {
+      "condition_id": "C0176",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush applications (protocol range)",
+      "factor_unit": "applications",
+      "factor_value": "2–4",
+      "sample_id": "S0020",
+      "time": "During closed-crush injury; individual repetition count unreported"
+    },
+    {
+      "condition_id": "C0177",
+      "condition_target": "Source ovariectomized mice",
+      "experimental_factor": "17β-estradiol pellet dose",
+      "factor_unit": "mg",
+      "factor_value": 0,
+      "sample_id": "S0021",
+      "time": "Subcutaneous 60-day-release pellet implanted 7 days before crush injury"
+    },
+    {
+      "condition_id": "C0178",
+      "condition_target": "Source ovariectomized mouse",
+      "experimental_factor": "Pellet treatment interval before injury",
+      "factor_unit": "days",
+      "factor_value": 7,
+      "sample_id": "S0021",
+      "time": "From subcutaneous pellet implantation to closed-crush injury"
+    },
+    {
+      "condition_id": "C0179",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush applications (protocol range)",
+      "factor_unit": "applications",
+      "factor_value": "2–4",
+      "sample_id": "S0021",
+      "time": "During closed-crush injury; individual repetition count unreported"
+    },
+    {
+      "condition_id": "C0180",
+      "condition_target": "Source ovariectomized mouse",
+      "experimental_factor": "Pellet treatment interval before injury",
+      "factor_unit": "days",
+      "factor_value": 7,
+      "sample_id": "S0022",
+      "time": "From subcutaneous pellet implantation to closed-crush injury"
+    },
+    {
+      "condition_id": "C0181",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush applications (protocol range)",
+      "factor_unit": "applications",
+      "factor_value": "2–4",
+      "sample_id": "S0022",
+      "time": "During closed-crush injury; individual repetition count unreported"
+    },
+    {
+      "condition_id": "C0182",
+      "condition_target": "Source ovariectomized mice",
+      "experimental_factor": "17β-estradiol pellet dose",
+      "factor_unit": "mg",
+      "factor_value": 0,
+      "sample_id": "S0023",
+      "time": "Subcutaneous 60-day-release pellet implanted 7 days before crush injury"
+    },
+    {
+      "condition_id": "C0183",
+      "condition_target": "Source ovariectomized mouse",
+      "experimental_factor": "Pellet treatment interval before injury",
+      "factor_unit": "days",
+      "factor_value": 7,
+      "sample_id": "S0023",
+      "time": "From subcutaneous pellet implantation to closed-crush injury"
+    },
+    {
+      "condition_id": "C0184",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush applications (protocol range)",
+      "factor_unit": "applications",
+      "factor_value": "2–4",
+      "sample_id": "S0023",
+      "time": "During closed-crush injury; individual repetition count unreported"
+    },
+    {
+      "condition_id": "C0185",
+      "condition_target": "Source ovariectomized mouse",
+      "experimental_factor": "Pellet treatment interval before injury",
+      "factor_unit": "days",
+      "factor_value": 7,
+      "sample_id": "S0024",
+      "time": "From subcutaneous pellet implantation to closed-crush injury"
+    },
+    {
+      "condition_id": "C0186",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush applications (protocol range)",
+      "factor_unit": "applications",
+      "factor_value": "2–4",
+      "sample_id": "S0024",
+      "time": "During closed-crush injury; individual repetition count unreported"
+    },
+    {
+      "condition_id": "C0187",
+      "condition_target": "Source ovariectomized mice",
+      "experimental_factor": "17β-estradiol pellet dose",
+      "factor_unit": "mg",
+      "factor_value": 0,
+      "sample_id": "S0025",
+      "time": "Subcutaneous 60-day-release pellet implanted 7 days before crush injury"
+    },
+    {
+      "condition_id": "C0188",
+      "condition_target": "Source ovariectomized mouse",
+      "experimental_factor": "Pellet treatment interval before injury",
+      "factor_unit": "days",
+      "factor_value": 7,
+      "sample_id": "S0025",
+      "time": "From subcutaneous pellet implantation to closed-crush injury"
+    },
+    {
+      "condition_id": "C0189",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush applications (protocol range)",
+      "factor_unit": "applications",
+      "factor_value": "2–4",
+      "sample_id": "S0025",
+      "time": "During closed-crush injury; individual repetition count unreported"
+    },
+    {
+      "condition_id": "C0190",
+      "condition_target": "Source ovariectomized mouse",
+      "experimental_factor": "Pellet treatment interval before injury",
+      "factor_unit": "days",
+      "factor_value": 7,
+      "sample_id": "S0026",
+      "time": "From subcutaneous pellet implantation to closed-crush injury"
+    },
+    {
+      "condition_id": "C0191",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush applications (protocol range)",
+      "factor_unit": "applications",
+      "factor_value": "2–4",
+      "sample_id": "S0026",
+      "time": "During closed-crush injury; individual repetition count unreported"
+    },
+    {
+      "condition_id": "C0192",
+      "condition_target": "Source ovariectomized mice",
+      "experimental_factor": "17β-estradiol pellet dose",
+      "factor_unit": "mg",
+      "factor_value": 0,
+      "sample_id": "S0027",
+      "time": "Subcutaneous 60-day-release pellet implanted 7 days before crush injury"
+    },
+    {
+      "condition_id": "C0193",
+      "condition_target": "Source ovariectomized mouse",
+      "experimental_factor": "Pellet treatment interval before injury",
+      "factor_unit": "days",
+      "factor_value": 7,
+      "sample_id": "S0027",
+      "time": "From subcutaneous pellet implantation to closed-crush injury"
+    },
+    {
+      "condition_id": "C0194",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush applications (protocol range)",
+      "factor_unit": "applications",
+      "factor_value": "2–4",
+      "sample_id": "S0027",
+      "time": "During closed-crush injury; individual repetition count unreported"
+    },
+    {
+      "condition_id": "C0195",
+      "condition_target": "Source ovariectomized mouse",
+      "experimental_factor": "Pellet treatment interval before injury",
+      "factor_unit": "days",
+      "factor_value": 7,
+      "sample_id": "S0028",
+      "time": "From subcutaneous pellet implantation to closed-crush injury"
+    },
+    {
+      "condition_id": "C0196",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush applications (protocol range)",
+      "factor_unit": "applications",
+      "factor_value": "2–4",
+      "sample_id": "S0028",
+      "time": "During closed-crush injury; individual repetition count unreported"
+    },
+    {
+      "condition_id": "C0197",
+      "condition_target": "Source ovariectomized mice",
+      "experimental_factor": "17β-estradiol pellet dose",
+      "factor_unit": "mg",
+      "factor_value": 0,
+      "sample_id": "S0029",
+      "time": "Subcutaneous 60-day-release pellet implanted 7 days before crush injury"
+    },
+    {
+      "condition_id": "C0198",
+      "condition_target": "Source ovariectomized mouse",
+      "experimental_factor": "Pellet treatment interval before injury",
+      "factor_unit": "days",
+      "factor_value": 7,
+      "sample_id": "S0029",
+      "time": "From subcutaneous pellet implantation to closed-crush injury"
+    },
+    {
+      "condition_id": "C0199",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush applications (protocol range)",
+      "factor_unit": "applications",
+      "factor_value": "2–4",
+      "sample_id": "S0029",
+      "time": "During closed-crush injury; individual repetition count unreported"
+    },
+    {
+      "condition_id": "C0200",
+      "condition_target": "Source ovariectomized mouse",
+      "experimental_factor": "Pellet treatment interval before injury",
+      "factor_unit": "days",
+      "factor_value": 7,
+      "sample_id": "S0030",
+      "time": "From subcutaneous pellet implantation to closed-crush injury"
+    },
+    {
+      "condition_id": "C0201",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush applications (protocol range)",
+      "factor_unit": "applications",
+      "factor_value": "2–4",
+      "sample_id": "S0030",
+      "time": "During closed-crush injury; individual repetition count unreported"
+    },
+    {
+      "condition_id": "C0202",
+      "condition_target": "Source ovariectomized mice",
+      "experimental_factor": "17β-estradiol pellet dose",
+      "factor_unit": "mg",
+      "factor_value": 0,
+      "sample_id": "S0031",
+      "time": "Subcutaneous 60-day-release pellet implanted 7 days before crush injury"
+    },
+    {
+      "condition_id": "C0203",
+      "condition_target": "Source ovariectomized mouse",
+      "experimental_factor": "Pellet treatment interval before injury",
+      "factor_unit": "days",
+      "factor_value": 7,
+      "sample_id": "S0031",
+      "time": "From subcutaneous pellet implantation to closed-crush injury"
+    },
+    {
+      "condition_id": "C0204",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush applications (protocol range)",
+      "factor_unit": "applications",
+      "factor_value": "2–4",
+      "sample_id": "S0031",
+      "time": "During closed-crush injury; individual repetition count unreported"
+    },
+    {
+      "condition_id": "C0205",
+      "condition_target": "Source ovariectomized mouse",
+      "experimental_factor": "Pellet treatment interval before injury",
+      "factor_unit": "days",
+      "factor_value": 7,
+      "sample_id": "S0032",
+      "time": "From subcutaneous pellet implantation to closed-crush injury"
+    },
+    {
+      "condition_id": "C0206",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush applications (protocol range)",
+      "factor_unit": "applications",
+      "factor_value": "2–4",
+      "sample_id": "S0032",
+      "time": "During closed-crush injury; individual repetition count unreported"
+    },
+    {
+      "condition_id": "C0207",
+      "condition_target": "Source ovariectomized mice",
+      "experimental_factor": "17β-estradiol pellet dose",
+      "factor_unit": "mg",
+      "factor_value": 0,
+      "sample_id": "S0033",
+      "time": "Subcutaneous 60-day-release pellet implanted 7 days before crush injury"
+    },
+    {
+      "condition_id": "C0208",
+      "condition_target": "Source ovariectomized mouse",
+      "experimental_factor": "Pellet treatment interval before injury",
+      "factor_unit": "days",
+      "factor_value": 7,
+      "sample_id": "S0033",
+      "time": "From subcutaneous pellet implantation to closed-crush injury"
+    },
+    {
+      "condition_id": "C0209",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush applications (protocol range)",
+      "factor_unit": "applications",
+      "factor_value": "2–4",
+      "sample_id": "S0033",
+      "time": "During closed-crush injury; individual repetition count unreported"
+    },
+    {
+      "condition_id": "C0210",
+      "condition_target": "Source ovariectomized mouse",
+      "experimental_factor": "Pellet treatment interval before injury",
+      "factor_unit": "days",
+      "factor_value": 7,
+      "sample_id": "S0034",
+      "time": "From subcutaneous pellet implantation to closed-crush injury"
+    },
+    {
+      "condition_id": "C0211",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush applications (protocol range)",
+      "factor_unit": "applications",
+      "factor_value": "2–4",
+      "sample_id": "S0034",
+      "time": "During closed-crush injury; individual repetition count unreported"
+    },
+    {
+      "condition_id": "C0212",
+      "condition_target": "Source ovariectomized mice",
+      "experimental_factor": "17β-estradiol pellet dose",
+      "factor_unit": "mg",
+      "factor_value": 0,
+      "sample_id": "S0035",
+      "time": "Subcutaneous 60-day-release pellet implanted 7 days before crush injury"
+    },
+    {
+      "condition_id": "C0213",
+      "condition_target": "Source ovariectomized mouse",
+      "experimental_factor": "Pellet treatment interval before injury",
+      "factor_unit": "days",
+      "factor_value": 7,
+      "sample_id": "S0035",
+      "time": "From subcutaneous pellet implantation to closed-crush injury"
+    },
+    {
+      "condition_id": "C0214",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush applications (protocol range)",
+      "factor_unit": "applications",
+      "factor_value": "2–4",
+      "sample_id": "S0035",
+      "time": "During closed-crush injury; individual repetition count unreported"
+    },
+    {
+      "condition_id": "C0215",
+      "condition_target": "Source ovariectomized mouse",
+      "experimental_factor": "Pellet treatment interval before injury",
+      "factor_unit": "days",
+      "factor_value": 7,
+      "sample_id": "S0036",
+      "time": "From subcutaneous pellet implantation to closed-crush injury"
+    },
+    {
+      "condition_id": "C0216",
+      "condition_target": "Source right hindlimb muscles",
+      "experimental_factor": "Crush applications (protocol range)",
+      "factor_unit": "applications",
+      "factor_value": "2–4",
+      "sample_id": "S0036",
+      "time": "During closed-crush injury; individual repetition count unreported"
+    }
+  ],
+  "sample": [
+    {
+      "biological_model": "OVX mouse muscle crush-injury model under simulated aeromedical transport with placebo treatment",
+      "biological_source": "Right lateral gastrocnemius from female C57BL/6NHsd mice",
+      "sample_accession": "GEO:GSM9329993 (sample)",
+      "sample_id": "S0001",
+      "sample_material": "Total RNA extracted from the injured right lateral gastrocnemius, collected 192 h after crush injury. A subcutaneous placebo 60-day-release pellet was implanted 7 days before injury. Right gastrocnemius and quadriceps muscle groups underwent closed-crush injury at 45 psi for 30 s per application, repeated 2–4 times; individual repetition counts are not assigned. All mice underwent mild hypobaria at 565 ± 5 torr for 8 h starting 22–24 h after injury to simulate medical air transport.",
+      "sample_name": "Mm at 192H Placebo [Pla_192h.1]",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "OVX mouse muscle crush-injury model under simulated aeromedical transport with 17β-estradiol replacement",
+      "biological_source": "Right lateral gastrocnemius from female C57BL/6NHsd mice",
+      "sample_accession": "GEO:GSM9329994 (sample)",
+      "sample_id": "S0002",
+      "sample_material": "Total RNA extracted from the injured right lateral gastrocnemius, collected 192 h after crush injury. A subcutaneous 0.18-mg 17β-estradiol 60-day-release pellet was implanted 7 days before injury. Right gastrocnemius and quadriceps muscle groups underwent closed-crush injury at 45 psi for 30 s per application, repeated 2–4 times; individual repetition counts are not assigned. All mice underwent mild hypobaria at 565 ± 5 torr for 8 h starting 22–24 h after injury to simulate medical air transport.",
+      "sample_name": "Mm at 192H Estrogen [Est_192h.1]",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "OVX mouse muscle crush-injury model under simulated aeromedical transport with placebo treatment",
+      "biological_source": "Right lateral gastrocnemius from female C57BL/6NHsd mice",
+      "sample_accession": "GEO:GSM9329995 (sample)",
+      "sample_id": "S0003",
+      "sample_material": "Total RNA extracted from the injured right lateral gastrocnemius, collected 96 h after crush injury. A subcutaneous placebo 60-day-release pellet was implanted 7 days before injury. Right gastrocnemius and quadriceps muscle groups underwent closed-crush injury at 45 psi for 30 s per application, repeated 2–4 times; individual repetition counts are not assigned. All mice underwent mild hypobaria at 565 ± 5 torr for 8 h starting 22–24 h after injury to simulate medical air transport.",
+      "sample_name": "Mm at 96H Placebo [Pla_096h.1]",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "OVX mouse muscle crush-injury model under simulated aeromedical transport with 17β-estradiol replacement",
+      "biological_source": "Right lateral gastrocnemius from female C57BL/6NHsd mice",
+      "sample_accession": "GEO:GSM9329996 (sample)",
+      "sample_id": "S0004",
+      "sample_material": "Total RNA extracted from the injured right lateral gastrocnemius, collected 96 h after crush injury. A subcutaneous 0.18-mg 17β-estradiol 60-day-release pellet was implanted 7 days before injury. Right gastrocnemius and quadriceps muscle groups underwent closed-crush injury at 45 psi for 30 s per application, repeated 2–4 times; individual repetition counts are not assigned. All mice underwent mild hypobaria at 565 ± 5 torr for 8 h starting 22–24 h after injury to simulate medical air transport.",
+      "sample_name": "Mm at 96H Estrogen [Est_096h.1]",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "OVX mouse muscle crush-injury model under simulated aeromedical transport with placebo treatment",
+      "biological_source": "Right lateral gastrocnemius from female C57BL/6NHsd mice",
+      "sample_accession": "GEO:GSM9329997 (sample)",
+      "sample_id": "S0005",
+      "sample_material": "Total RNA extracted from the injured right lateral gastrocnemius, collected 32 h after crush injury. A subcutaneous placebo 60-day-release pellet was implanted 7 days before injury. Right gastrocnemius and quadriceps muscle groups underwent closed-crush injury at 45 psi for 30 s per application, repeated 2–4 times; individual repetition counts are not assigned. All mice underwent mild hypobaria at 565 ± 5 torr for 8 h starting 22–24 h after injury to simulate medical air transport.",
+      "sample_name": "Mm at 32H Placebo [Pla_032h.1]",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "OVX mouse muscle crush-injury model under simulated aeromedical transport with 17β-estradiol replacement",
+      "biological_source": "Right lateral gastrocnemius from female C57BL/6NHsd mice",
+      "sample_accession": "GEO:GSM9329998 (sample)",
+      "sample_id": "S0006",
+      "sample_material": "Total RNA extracted from the injured right lateral gastrocnemius, collected 32 h after crush injury. A subcutaneous 0.18-mg 17β-estradiol 60-day-release pellet was implanted 7 days before injury. Right gastrocnemius and quadriceps muscle groups underwent closed-crush injury at 45 psi for 30 s per application, repeated 2–4 times; individual repetition counts are not assigned. All mice underwent mild hypobaria at 565 ± 5 torr for 8 h starting 22–24 h after injury to simulate medical air transport.",
+      "sample_name": "Mm at 32Hr Estrogen [Est_032h.1]",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "OVX mouse muscle crush-injury model under simulated aeromedical transport with placebo treatment",
+      "biological_source": "Right lateral gastrocnemius from female C57BL/6NHsd mice",
+      "sample_accession": "GEO:GSM9329999 (sample)",
+      "sample_id": "S0007",
+      "sample_material": "Total RNA extracted from the injured right lateral gastrocnemius, collected 192 h after crush injury. A subcutaneous placebo 60-day-release pellet was implanted 7 days before injury. Right gastrocnemius and quadriceps muscle groups underwent closed-crush injury at 45 psi for 30 s per application, repeated 2–4 times; individual repetition counts are not assigned. All mice underwent mild hypobaria at 565 ± 5 torr for 8 h starting 22–24 h after injury to simulate medical air transport.",
+      "sample_name": "Mm at 192H Placebo [Pla_192h.2]",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "OVX mouse muscle crush-injury model under simulated aeromedical transport with 17β-estradiol replacement",
+      "biological_source": "Right lateral gastrocnemius from female C57BL/6NHsd mice",
+      "sample_accession": "GEO:GSM9330000 (sample)",
+      "sample_id": "S0008",
+      "sample_material": "Total RNA extracted from the injured right lateral gastrocnemius, collected 192 h after crush injury. A subcutaneous 0.18-mg 17β-estradiol 60-day-release pellet was implanted 7 days before injury. Right gastrocnemius and quadriceps muscle groups underwent closed-crush injury at 45 psi for 30 s per application, repeated 2–4 times; individual repetition counts are not assigned. All mice underwent mild hypobaria at 565 ± 5 torr for 8 h starting 22–24 h after injury to simulate medical air transport.",
+      "sample_name": "Mm at 192H Estrogen [Est_192h.2]",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "OVX mouse muscle crush-injury model under simulated aeromedical transport with placebo treatment",
+      "biological_source": "Right lateral gastrocnemius from female C57BL/6NHsd mice",
+      "sample_accession": "GEO:GSM9330001 (sample)",
+      "sample_id": "S0009",
+      "sample_material": "Total RNA extracted from the injured right lateral gastrocnemius, collected 96 h after crush injury. A subcutaneous placebo 60-day-release pellet was implanted 7 days before injury. Right gastrocnemius and quadriceps muscle groups underwent closed-crush injury at 45 psi for 30 s per application, repeated 2–4 times; individual repetition counts are not assigned. All mice underwent mild hypobaria at 565 ± 5 torr for 8 h starting 22–24 h after injury to simulate medical air transport.",
+      "sample_name": "Mm at 96H Placebo [Pla_096h.2]",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "OVX mouse muscle crush-injury model under simulated aeromedical transport with 17β-estradiol replacement",
+      "biological_source": "Right lateral gastrocnemius from female C57BL/6NHsd mice",
+      "sample_accession": "GEO:GSM9330002 (sample)",
+      "sample_id": "S0010",
+      "sample_material": "Total RNA extracted from the injured right lateral gastrocnemius, collected 96 h after crush injury. A subcutaneous 0.18-mg 17β-estradiol 60-day-release pellet was implanted 7 days before injury. Right gastrocnemius and quadriceps muscle groups underwent closed-crush injury at 45 psi for 30 s per application, repeated 2–4 times; individual repetition counts are not assigned. All mice underwent mild hypobaria at 565 ± 5 torr for 8 h starting 22–24 h after injury to simulate medical air transport.",
+      "sample_name": "Mm at 96H Estrogen [Est_096h.2]",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "OVX mouse muscle crush-injury model under simulated aeromedical transport with placebo treatment",
+      "biological_source": "Right lateral gastrocnemius from female C57BL/6NHsd mice",
+      "sample_accession": "GEO:GSM9330003 (sample)",
+      "sample_id": "S0011",
+      "sample_material": "Total RNA extracted from the injured right lateral gastrocnemius, collected 32 h after crush injury. A subcutaneous placebo 60-day-release pellet was implanted 7 days before injury. Right gastrocnemius and quadriceps muscle groups underwent closed-crush injury at 45 psi for 30 s per application, repeated 2–4 times; individual repetition counts are not assigned. All mice underwent mild hypobaria at 565 ± 5 torr for 8 h starting 22–24 h after injury to simulate medical air transport.",
+      "sample_name": "Mm at 32H Placebo [Pla_032h.2]",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "OVX mouse muscle crush-injury model under simulated aeromedical transport with 17β-estradiol replacement",
+      "biological_source": "Right lateral gastrocnemius from female C57BL/6NHsd mice",
+      "sample_accession": "GEO:GSM9330004 (sample)",
+      "sample_id": "S0012",
+      "sample_material": "Total RNA extracted from the injured right lateral gastrocnemius, collected 32 h after crush injury. A subcutaneous 0.18-mg 17β-estradiol 60-day-release pellet was implanted 7 days before injury. Right gastrocnemius and quadriceps muscle groups underwent closed-crush injury at 45 psi for 30 s per application, repeated 2–4 times; individual repetition counts are not assigned. All mice underwent mild hypobaria at 565 ± 5 torr for 8 h starting 22–24 h after injury to simulate medical air transport.",
+      "sample_name": "Mm at 32Hr Estrogen [Est_032h.2]",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "OVX mouse muscle crush-injury model under simulated aeromedical transport with placebo treatment",
+      "biological_source": "Right lateral gastrocnemius from female C57BL/6NHsd mice",
+      "sample_accession": "GEO:GSM9330005 (sample)",
+      "sample_id": "S0013",
+      "sample_material": "Total RNA extracted from the injured right lateral gastrocnemius, collected 192 h after crush injury. A subcutaneous placebo 60-day-release pellet was implanted 7 days before injury. Right gastrocnemius and quadriceps muscle groups underwent closed-crush injury at 45 psi for 30 s per application, repeated 2–4 times; individual repetition counts are not assigned. All mice underwent mild hypobaria at 565 ± 5 torr for 8 h starting 22–24 h after injury to simulate medical air transport.",
+      "sample_name": "Mm at 192H Placebo [Pla_192h.3]",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "OVX mouse muscle crush-injury model under simulated aeromedical transport with 17β-estradiol replacement",
+      "biological_source": "Right lateral gastrocnemius from female C57BL/6NHsd mice",
+      "sample_accession": "GEO:GSM9330006 (sample)",
+      "sample_id": "S0014",
+      "sample_material": "Total RNA extracted from the injured right lateral gastrocnemius, collected 192 h after crush injury. A subcutaneous 0.18-mg 17β-estradiol 60-day-release pellet was implanted 7 days before injury. Right gastrocnemius and quadriceps muscle groups underwent closed-crush injury at 45 psi for 30 s per application, repeated 2–4 times; individual repetition counts are not assigned. All mice underwent mild hypobaria at 565 ± 5 torr for 8 h starting 22–24 h after injury to simulate medical air transport.",
+      "sample_name": "Mm at 192H Estrogen [Est_192h.3]",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "OVX mouse muscle crush-injury model under simulated aeromedical transport with placebo treatment",
+      "biological_source": "Right lateral gastrocnemius from female C57BL/6NHsd mice",
+      "sample_accession": "GEO:GSM9330007 (sample)",
+      "sample_id": "S0015",
+      "sample_material": "Total RNA extracted from the injured right lateral gastrocnemius, collected 96 h after crush injury. A subcutaneous placebo 60-day-release pellet was implanted 7 days before injury. Right gastrocnemius and quadriceps muscle groups underwent closed-crush injury at 45 psi for 30 s per application, repeated 2–4 times; individual repetition counts are not assigned. All mice underwent mild hypobaria at 565 ± 5 torr for 8 h starting 22–24 h after injury to simulate medical air transport.",
+      "sample_name": "Mm at 96H Placebo [Pla_096h.3]",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "OVX mouse muscle crush-injury model under simulated aeromedical transport with 17β-estradiol replacement",
+      "biological_source": "Right lateral gastrocnemius from female C57BL/6NHsd mice",
+      "sample_accession": "GEO:GSM9330008 (sample)",
+      "sample_id": "S0016",
+      "sample_material": "Total RNA extracted from the injured right lateral gastrocnemius, collected 96 h after crush injury. A subcutaneous 0.18-mg 17β-estradiol 60-day-release pellet was implanted 7 days before injury. Right gastrocnemius and quadriceps muscle groups underwent closed-crush injury at 45 psi for 30 s per application, repeated 2–4 times; individual repetition counts are not assigned. All mice underwent mild hypobaria at 565 ± 5 torr for 8 h starting 22–24 h after injury to simulate medical air transport.",
+      "sample_name": "Mm at 96H Estrogen [Est_096h.3]",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "OVX mouse muscle crush-injury model under simulated aeromedical transport with placebo treatment",
+      "biological_source": "Right lateral gastrocnemius from female C57BL/6NHsd mice",
+      "sample_accession": "GEO:GSM9330009 (sample)",
+      "sample_id": "S0017",
+      "sample_material": "Total RNA extracted from the injured right lateral gastrocnemius, collected 32 h after crush injury. A subcutaneous placebo 60-day-release pellet was implanted 7 days before injury. Right gastrocnemius and quadriceps muscle groups underwent closed-crush injury at 45 psi for 30 s per application, repeated 2–4 times; individual repetition counts are not assigned. All mice underwent mild hypobaria at 565 ± 5 torr for 8 h starting 22–24 h after injury to simulate medical air transport.",
+      "sample_name": "Mm at 32H Placebo [Pla_032h.3]",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "OVX mouse muscle crush-injury model under simulated aeromedical transport with 17β-estradiol replacement",
+      "biological_source": "Right lateral gastrocnemius from female C57BL/6NHsd mice",
+      "sample_accession": "GEO:GSM9330010 (sample)",
+      "sample_id": "S0018",
+      "sample_material": "Total RNA extracted from the injured right lateral gastrocnemius, collected 32 h after crush injury. A subcutaneous 0.18-mg 17β-estradiol 60-day-release pellet was implanted 7 days before injury. Right gastrocnemius and quadriceps muscle groups underwent closed-crush injury at 45 psi for 30 s per application, repeated 2–4 times; individual repetition counts are not assigned. All mice underwent mild hypobaria at 565 ± 5 torr for 8 h starting 22–24 h after injury to simulate medical air transport.",
+      "sample_name": "Mm at 32Hr Estrogen [Est_032h.3]",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "OVX mouse muscle crush-injury model under simulated aeromedical transport with placebo treatment",
+      "biological_source": "Right lateral gastrocnemius from female C57BL/6NHsd mice",
+      "sample_accession": "GEO:GSM9330011 (sample)",
+      "sample_id": "S0019",
+      "sample_material": "Total RNA extracted from the injured right lateral gastrocnemius, collected 192 h after crush injury. A subcutaneous placebo 60-day-release pellet was implanted 7 days before injury. Right gastrocnemius and quadriceps muscle groups underwent closed-crush injury at 45 psi for 30 s per application, repeated 2–4 times; individual repetition counts are not assigned. All mice underwent mild hypobaria at 565 ± 5 torr for 8 h starting 22–24 h after injury to simulate medical air transport.",
+      "sample_name": "Mm at 192H Placebo [Pla_192h.4]",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "OVX mouse muscle crush-injury model under simulated aeromedical transport with 17β-estradiol replacement",
+      "biological_source": "Right lateral gastrocnemius from female C57BL/6NHsd mice",
+      "sample_accession": "GEO:GSM9330012 (sample)",
+      "sample_id": "S0020",
+      "sample_material": "Total RNA extracted from the injured right lateral gastrocnemius, collected 192 h after crush injury. A subcutaneous 0.18-mg 17β-estradiol 60-day-release pellet was implanted 7 days before injury. Right gastrocnemius and quadriceps muscle groups underwent closed-crush injury at 45 psi for 30 s per application, repeated 2–4 times; individual repetition counts are not assigned. All mice underwent mild hypobaria at 565 ± 5 torr for 8 h starting 22–24 h after injury to simulate medical air transport.",
+      "sample_name": "Mm at 192H Estrogen [Est_192h.4]",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "OVX mouse muscle crush-injury model under simulated aeromedical transport with placebo treatment",
+      "biological_source": "Right lateral gastrocnemius from female C57BL/6NHsd mice",
+      "sample_accession": "GEO:GSM9330013 (sample)",
+      "sample_id": "S0021",
+      "sample_material": "Total RNA extracted from the injured right lateral gastrocnemius, collected 96 h after crush injury. A subcutaneous placebo 60-day-release pellet was implanted 7 days before injury. Right gastrocnemius and quadriceps muscle groups underwent closed-crush injury at 45 psi for 30 s per application, repeated 2–4 times; individual repetition counts are not assigned. All mice underwent mild hypobaria at 565 ± 5 torr for 8 h starting 22–24 h after injury to simulate medical air transport.",
+      "sample_name": "Mm at 96H Placebo [Pla_096h.4]",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "OVX mouse muscle crush-injury model under simulated aeromedical transport with 17β-estradiol replacement",
+      "biological_source": "Right lateral gastrocnemius from female C57BL/6NHsd mice",
+      "sample_accession": "GEO:GSM9330014 (sample)",
+      "sample_id": "S0022",
+      "sample_material": "Total RNA extracted from the injured right lateral gastrocnemius, collected 96 h after crush injury. A subcutaneous 0.18-mg 17β-estradiol 60-day-release pellet was implanted 7 days before injury. Right gastrocnemius and quadriceps muscle groups underwent closed-crush injury at 45 psi for 30 s per application, repeated 2–4 times; individual repetition counts are not assigned. All mice underwent mild hypobaria at 565 ± 5 torr for 8 h starting 22–24 h after injury to simulate medical air transport.",
+      "sample_name": "Mm at 96H Estrogen [Est_096h.4]",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "OVX mouse muscle crush-injury model under simulated aeromedical transport with placebo treatment",
+      "biological_source": "Right lateral gastrocnemius from female C57BL/6NHsd mice",
+      "sample_accession": "GEO:GSM9330015 (sample)",
+      "sample_id": "S0023",
+      "sample_material": "Total RNA extracted from the injured right lateral gastrocnemius, collected 32 h after crush injury. A subcutaneous placebo 60-day-release pellet was implanted 7 days before injury. Right gastrocnemius and quadriceps muscle groups underwent closed-crush injury at 45 psi for 30 s per application, repeated 2–4 times; individual repetition counts are not assigned. All mice underwent mild hypobaria at 565 ± 5 torr for 8 h starting 22–24 h after injury to simulate medical air transport.",
+      "sample_name": "Mm at 32H Placebo [Pla_032h.4]",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "OVX mouse muscle crush-injury model under simulated aeromedical transport with 17β-estradiol replacement",
+      "biological_source": "Right lateral gastrocnemius from female C57BL/6NHsd mice",
+      "sample_accession": "GEO:GSM9330016 (sample)",
+      "sample_id": "S0024",
+      "sample_material": "Total RNA extracted from the injured right lateral gastrocnemius, collected 32 h after crush injury. A subcutaneous 0.18-mg 17β-estradiol 60-day-release pellet was implanted 7 days before injury. Right gastrocnemius and quadriceps muscle groups underwent closed-crush injury at 45 psi for 30 s per application, repeated 2–4 times; individual repetition counts are not assigned. All mice underwent mild hypobaria at 565 ± 5 torr for 8 h starting 22–24 h after injury to simulate medical air transport.",
+      "sample_name": "Mm at 32Hr Estrogen [Est_032h.4]",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "OVX mouse muscle crush-injury model under simulated aeromedical transport with placebo treatment",
+      "biological_source": "Right lateral gastrocnemius from female C57BL/6NHsd mice",
+      "sample_accession": "GEO:GSM9330017 (sample)",
+      "sample_id": "S0025",
+      "sample_material": "Total RNA extracted from the injured right lateral gastrocnemius, collected 192 h after crush injury. A subcutaneous placebo 60-day-release pellet was implanted 7 days before injury. Right gastrocnemius and quadriceps muscle groups underwent closed-crush injury at 45 psi for 30 s per application, repeated 2–4 times; individual repetition counts are not assigned. All mice underwent mild hypobaria at 565 ± 5 torr for 8 h starting 22–24 h after injury to simulate medical air transport.",
+      "sample_name": "Mm at 192H Placebo [Pla_192h.5]",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "OVX mouse muscle crush-injury model under simulated aeromedical transport with 17β-estradiol replacement",
+      "biological_source": "Right lateral gastrocnemius from female C57BL/6NHsd mice",
+      "sample_accession": "GEO:GSM9330018 (sample)",
+      "sample_id": "S0026",
+      "sample_material": "Total RNA extracted from the injured right lateral gastrocnemius, collected 192 h after crush injury. A subcutaneous 0.18-mg 17β-estradiol 60-day-release pellet was implanted 7 days before injury. Right gastrocnemius and quadriceps muscle groups underwent closed-crush injury at 45 psi for 30 s per application, repeated 2–4 times; individual repetition counts are not assigned. All mice underwent mild hypobaria at 565 ± 5 torr for 8 h starting 22–24 h after injury to simulate medical air transport.",
+      "sample_name": "Mm at 192H Estrogen [Est_192h.5]",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "OVX mouse muscle crush-injury model under simulated aeromedical transport with placebo treatment",
+      "biological_source": "Right lateral gastrocnemius from female C57BL/6NHsd mice",
+      "sample_accession": "GEO:GSM9330019 (sample)",
+      "sample_id": "S0027",
+      "sample_material": "Total RNA extracted from the injured right lateral gastrocnemius, collected 96 h after crush injury. A subcutaneous placebo 60-day-release pellet was implanted 7 days before injury. Right gastrocnemius and quadriceps muscle groups underwent closed-crush injury at 45 psi for 30 s per application, repeated 2–4 times; individual repetition counts are not assigned. All mice underwent mild hypobaria at 565 ± 5 torr for 8 h starting 22–24 h after injury to simulate medical air transport.",
+      "sample_name": "Mm at 96H Placebo [Pla_096h.5]",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "OVX mouse muscle crush-injury model under simulated aeromedical transport with 17β-estradiol replacement",
+      "biological_source": "Right lateral gastrocnemius from female C57BL/6NHsd mice",
+      "sample_accession": "GEO:GSM9330020 (sample)",
+      "sample_id": "S0028",
+      "sample_material": "Total RNA extracted from the injured right lateral gastrocnemius, collected 96 h after crush injury. A subcutaneous 0.18-mg 17β-estradiol 60-day-release pellet was implanted 7 days before injury. Right gastrocnemius and quadriceps muscle groups underwent closed-crush injury at 45 psi for 30 s per application, repeated 2–4 times; individual repetition counts are not assigned. All mice underwent mild hypobaria at 565 ± 5 torr for 8 h starting 22–24 h after injury to simulate medical air transport.",
+      "sample_name": "Mm at 96H Estrogen [Est_096h.5]",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "OVX mouse muscle crush-injury model under simulated aeromedical transport with placebo treatment",
+      "biological_source": "Right lateral gastrocnemius from female C57BL/6NHsd mice",
+      "sample_accession": "GEO:GSM9330021 (sample)",
+      "sample_id": "S0029",
+      "sample_material": "Total RNA extracted from the injured right lateral gastrocnemius, collected 32 h after crush injury. A subcutaneous placebo 60-day-release pellet was implanted 7 days before injury. Right gastrocnemius and quadriceps muscle groups underwent closed-crush injury at 45 psi for 30 s per application, repeated 2–4 times; individual repetition counts are not assigned. All mice underwent mild hypobaria at 565 ± 5 torr for 8 h starting 22–24 h after injury to simulate medical air transport.",
+      "sample_name": "Mm at 32H Placebo [Pla_032h.5]",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "OVX mouse muscle crush-injury model under simulated aeromedical transport with 17β-estradiol replacement",
+      "biological_source": "Right lateral gastrocnemius from female C57BL/6NHsd mice",
+      "sample_accession": "GEO:GSM9330022 (sample)",
+      "sample_id": "S0030",
+      "sample_material": "Total RNA extracted from the injured right lateral gastrocnemius, collected 32 h after crush injury. A subcutaneous 0.18-mg 17β-estradiol 60-day-release pellet was implanted 7 days before injury. Right gastrocnemius and quadriceps muscle groups underwent closed-crush injury at 45 psi for 30 s per application, repeated 2–4 times; individual repetition counts are not assigned. All mice underwent mild hypobaria at 565 ± 5 torr for 8 h starting 22–24 h after injury to simulate medical air transport.",
+      "sample_name": "Mm at 32Hr Estrogen [Est_032h.5]",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "OVX mouse muscle crush-injury model under simulated aeromedical transport with placebo treatment",
+      "biological_source": "Right lateral gastrocnemius from female C57BL/6NHsd mice",
+      "sample_accession": "GEO:GSM9330023 (sample)",
+      "sample_id": "S0031",
+      "sample_material": "Total RNA extracted from the injured right lateral gastrocnemius, collected 192 h after crush injury. A subcutaneous placebo 60-day-release pellet was implanted 7 days before injury. Right gastrocnemius and quadriceps muscle groups underwent closed-crush injury at 45 psi for 30 s per application, repeated 2–4 times; individual repetition counts are not assigned. All mice underwent mild hypobaria at 565 ± 5 torr for 8 h starting 22–24 h after injury to simulate medical air transport.",
+      "sample_name": "Mm at 192H Placebo [Pla_192h.6]",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "OVX mouse muscle crush-injury model under simulated aeromedical transport with 17β-estradiol replacement",
+      "biological_source": "Right lateral gastrocnemius from female C57BL/6NHsd mice",
+      "sample_accession": "GEO:GSM9330024 (sample)",
+      "sample_id": "S0032",
+      "sample_material": "Total RNA extracted from the injured right lateral gastrocnemius, collected 192 h after crush injury. A subcutaneous 0.18-mg 17β-estradiol 60-day-release pellet was implanted 7 days before injury. Right gastrocnemius and quadriceps muscle groups underwent closed-crush injury at 45 psi for 30 s per application, repeated 2–4 times; individual repetition counts are not assigned. All mice underwent mild hypobaria at 565 ± 5 torr for 8 h starting 22–24 h after injury to simulate medical air transport.",
+      "sample_name": "Mm at 192H Estrogen [Est_192h.6]",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "OVX mouse muscle crush-injury model under simulated aeromedical transport with placebo treatment",
+      "biological_source": "Right lateral gastrocnemius from female C57BL/6NHsd mice",
+      "sample_accession": "GEO:GSM9330025 (sample)",
+      "sample_id": "S0033",
+      "sample_material": "Total RNA extracted from the injured right lateral gastrocnemius, collected 96 h after crush injury. A subcutaneous placebo 60-day-release pellet was implanted 7 days before injury. Right gastrocnemius and quadriceps muscle groups underwent closed-crush injury at 45 psi for 30 s per application, repeated 2–4 times; individual repetition counts are not assigned. All mice underwent mild hypobaria at 565 ± 5 torr for 8 h starting 22–24 h after injury to simulate medical air transport.",
+      "sample_name": "Mm at 96H Placebo [Pla_096h.6]",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "OVX mouse muscle crush-injury model under simulated aeromedical transport with 17β-estradiol replacement",
+      "biological_source": "Right lateral gastrocnemius from female C57BL/6NHsd mice",
+      "sample_accession": "GEO:GSM9330026 (sample)",
+      "sample_id": "S0034",
+      "sample_material": "Total RNA extracted from the injured right lateral gastrocnemius, collected 96 h after crush injury. A subcutaneous 0.18-mg 17β-estradiol 60-day-release pellet was implanted 7 days before injury. Right gastrocnemius and quadriceps muscle groups underwent closed-crush injury at 45 psi for 30 s per application, repeated 2–4 times; individual repetition counts are not assigned. All mice underwent mild hypobaria at 565 ± 5 torr for 8 h starting 22–24 h after injury to simulate medical air transport.",
+      "sample_name": "Mm at 96H Estrogen [Est_096h.6]",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "OVX mouse muscle crush-injury model under simulated aeromedical transport with placebo treatment",
+      "biological_source": "Right lateral gastrocnemius from female C57BL/6NHsd mice",
+      "sample_accession": "GEO:GSM9330027 (sample)",
+      "sample_id": "S0035",
+      "sample_material": "Total RNA extracted from the injured right lateral gastrocnemius, collected 32 h after crush injury. A subcutaneous placebo 60-day-release pellet was implanted 7 days before injury. Right gastrocnemius and quadriceps muscle groups underwent closed-crush injury at 45 psi for 30 s per application, repeated 2–4 times; individual repetition counts are not assigned. All mice underwent mild hypobaria at 565 ± 5 torr for 8 h starting 22–24 h after injury to simulate medical air transport.",
+      "sample_name": "Mm at 32H Placebo [Pla_032h.6]",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "OVX mouse muscle crush-injury model under simulated aeromedical transport with 17β-estradiol replacement",
+      "biological_source": "Right lateral gastrocnemius from female C57BL/6NHsd mice",
+      "sample_accession": "GEO:GSM9330028 (sample)",
+      "sample_id": "S0036",
+      "sample_material": "Total RNA extracted from the injured right lateral gastrocnemius, collected 32 h after crush injury. A subcutaneous 0.18-mg 17β-estradiol 60-day-release pellet was implanted 7 days before injury. Right gastrocnemius and quadriceps muscle groups underwent closed-crush injury at 45 psi for 30 s per application, repeated 2–4 times; individual repetition counts are not assigned. All mice underwent mild hypobaria at 565 ± 5 torr for 8 h starting 22–24 h after injury to simulate medical air transport.",
+      "sample_name": "Mm at 32Hr Estrogen [Est_032h.6]",
+      "species": "Mus musculus"
+    }
+  ]
+}

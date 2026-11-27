@@ -1,0 +1,32 @@
+{
+  "case_id": "B028",
+  "task_id": "B028",
+  "title": "Loss of calcium‐dependent phospholipase A2 contributes to multi‐omic changes in mouse denervated skeletal muscle",
+  "doi": "10.14814/phy2.70906",
+  "comparison_or_design": "The gastrocnemius RNA-seq experiment testing cPLA2 status and the denervation procedure, including matched sham comparisons.",
+  "observations_or_assays": [
+    "Bulk RNA sequencing"
+  ],
+  "time_scope": "The terminal RNA-seq collection after the article-defined denervation/sham schedule.",
+  "excluded": [
+    "Lipidomics, metabolomics, respiration, GPCR and independent functional assays",
+    "Expression values and differential-expression/pathway conclusions"
+  ],
+  "population_or_material": "Mouse gastrocnemius preparations in the cPLA2 loss-of-function RNA-seq experiment.",
+  "requested_items": [
+    "cPLA2 genotype, denervation versus sham and post-procedure collection interval"
+  ],
+  "resources": [
+    {
+      "accession": "10.6084/m9.figshare.32125855",
+      "url": "https://doi.org/10.6084/m9.figshare.32125855"
+    }
+  ],
+  "domain": "basic",
+  "pipeline": "basic-research",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/basic-research.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

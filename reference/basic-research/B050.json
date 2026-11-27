@@ -1,0 +1,183 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "Fluorometric generic MMP activity assay",
+      "experiment_run_accession": "Zenodo:10.5281/zenodo.18173753 (dataset)",
+      "method": "Aggregate Figure 4B assay of Day-3 cartilage-side supernatants. SensoLyte 520 Generic MMP Activity Kit; undiluted samples activated with 1 mM APMA for 40 min at 37 °C, then incubated with substrate for 45 min. Fluorescence excitation/emission: 490/520 nm. The figure reports n = 13; no individual donor-to-supernatant/plate crosswalk is supplied.",
+      "platform": "Wallac Victor II microplate reader",
+      "sample_ids": [
+        "S0001",
+        "S0002",
+        "S0003",
+        "S0004"
+      ]
+    }
+  ],
+  "condition": [
+    {
+      "condition_id": "C0001",
+      "condition_target": "Cartilage-side source explant culture",
+      "experimental_factor": "Treatment-to-supernatant-collection interval",
+      "factor_unit": "day",
+      "factor_value": 3,
+      "sample_id": "S0001",
+      "time": "From treatment allocation on Day 0 to Day-3 supernatant collection, after 1 week of acclimatization"
+    },
+    {
+      "condition_id": "C0002",
+      "condition_target": "Cartilage-side source explant culture",
+      "experimental_factor": "TNFα concentration",
+      "factor_unit": "ng/mL",
+      "factor_value": 10,
+      "sample_id": "S0002",
+      "time": "During the Day-0 to Day-3 treatment period before supernatant collection"
+    },
+    {
+      "condition_id": "C0003",
+      "condition_target": "Cartilage-side source explant culture",
+      "experimental_factor": "IL-1β concentration",
+      "factor_unit": "ng/mL",
+      "factor_value": 1,
+      "sample_id": "S0002",
+      "time": "During the Day-0 to Day-3 treatment period before supernatant collection"
+    },
+    {
+      "condition_id": "C0004",
+      "condition_target": "Cartilage-side source explant culture",
+      "experimental_factor": "Treatment-to-supernatant-collection interval",
+      "factor_unit": "day",
+      "factor_value": 3,
+      "sample_id": "S0002",
+      "time": "From treatment allocation on Day 0 to Day-3 supernatant collection, after 1 week of acclimatization"
+    },
+    {
+      "condition_id": "C0005",
+      "condition_target": "Cartilage-side source explant culture",
+      "experimental_factor": "TNFα concentration",
+      "factor_unit": "ng/mL",
+      "factor_value": 10,
+      "sample_id": "S0003",
+      "time": "During the Day-0 to Day-3 treatment period before supernatant collection"
+    },
+    {
+      "condition_id": "C0006",
+      "condition_target": "Cartilage-side source explant culture",
+      "experimental_factor": "IL-1β concentration",
+      "factor_unit": "ng/mL",
+      "factor_value": 1,
+      "sample_id": "S0003",
+      "time": "During the Day-0 to Day-3 treatment period before supernatant collection"
+    },
+    {
+      "condition_id": "C0007",
+      "condition_target": "Cartilage-side source explant culture",
+      "experimental_factor": "CM administered volume",
+      "factor_unit": "µL",
+      "factor_value": 67.1,
+      "sample_id": "S0003",
+      "time": "Administered at treatment initiation on Day 0; supernatant collected on Day 3"
+    },
+    {
+      "condition_id": "C0008",
+      "condition_target": "Cartilage-side source explant culture",
+      "experimental_factor": "Treatment-to-supernatant-collection interval",
+      "factor_unit": "day",
+      "factor_value": 3,
+      "sample_id": "S0003",
+      "time": "From treatment allocation on Day 0 to Day-3 supernatant collection, after 1 week of acclimatization"
+    },
+    {
+      "condition_id": "C0009",
+      "condition_target": "Cartilage-side source explant culture",
+      "experimental_factor": "TNFα concentration",
+      "factor_unit": "ng/mL",
+      "factor_value": 10,
+      "sample_id": "S0004",
+      "time": "During the Day-0 to Day-3 treatment period before supernatant collection"
+    },
+    {
+      "condition_id": "C0010",
+      "condition_target": "Cartilage-side source explant culture",
+      "experimental_factor": "IL-1β concentration",
+      "factor_unit": "ng/mL",
+      "factor_value": 1,
+      "sample_id": "S0004",
+      "time": "During the Day-0 to Day-3 treatment period before supernatant collection"
+    },
+    {
+      "condition_id": "C0011",
+      "condition_target": "Cartilage-side source explant culture",
+      "experimental_factor": "pCM administered volume",
+      "factor_unit": "µL",
+      "factor_value": 64.8,
+      "sample_id": "S0004",
+      "time": "Administered at treatment initiation on Day 0; supernatant collected on Day 3"
+    },
+    {
+      "condition_id": "C0012",
+      "condition_target": "Cartilage-side source explant culture",
+      "experimental_factor": "Treatment-to-supernatant-collection interval",
+      "factor_unit": "day",
+      "factor_value": 3,
+      "sample_id": "S0004",
+      "time": "From treatment allocation on Day 0 to Day-3 supernatant collection, after 1 week of acclimatization"
+    },
+    {
+      "condition_id": "C0013",
+      "condition_target": "Cartilage-side source explant culture",
+      "experimental_factor": "CM producer-cell-equivalent dose",
+      "factor_unit": "ASC equivalents",
+      "factor_value": 500000,
+      "sample_id": "S0003",
+      "time": "Administered at treatment initiation on Day 0; supernatant collected on Day 3"
+    },
+    {
+      "condition_id": "C0014",
+      "condition_target": "Cartilage-side source explant culture",
+      "experimental_factor": "pCM producer-cell-equivalent dose",
+      "factor_unit": "ASC equivalents",
+      "factor_value": 500000,
+      "sample_id": "S0004",
+      "time": "Administered at treatment initiation on Day 0; supernatant collected on Day 3"
+    }
+  ],
+  "sample": [
+    {
+      "biological_model": "Compartmentalized ex vivo human osteochondral osteoarthritis model",
+      "biological_source": "Human knee osteochondral tissue from arthroplasty patients with Kellgren–Lawrence grade III osteoarthritis",
+      "sample_accession": null,
+      "sample_id": "S0001",
+      "sample_material": "Day-3 cartilage-side culture supernatant collected 3 days after treatment allocation, following 1 week of explant acclimatization. Matched control cartilage compartment without the inflammatory cytokine challenge or added CM/pCM. Explant-level donor/aliquot pairing is not mapped in the supplied annotations; pooling of explant supernatants is not established.",
+      "sample_name": "CTR cartilage-side supernatant, Day 3",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Compartmentalized ex vivo human osteochondral osteoarthritis model",
+      "biological_source": "Human knee osteochondral tissue from arthroplasty patients with Kellgren–Lawrence grade III osteoarthritis",
+      "sample_accession": null,
+      "sample_id": "S0002",
+      "sample_material": "Day-3 cartilage-side culture supernatant collected 3 days after treatment allocation, following 1 week of explant acclimatization. Source cartilage compartment exposed to TNFα 10 ng/mL and IL-1β 1 ng/mL. Explant-level donor/aliquot pairing is not mapped in the supplied annotations; pooling of explant supernatants is not established.",
+      "sample_name": "TNF + IL cartilage-side supernatant, Day 3",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Compartmentalized ex vivo human osteochondral osteoarthritis model",
+      "biological_source": "Human knee osteochondral tissue from arthroplasty patients with Kellgren–Lawrence grade III osteoarthritis",
+      "sample_accession": null,
+      "sample_id": "S0003",
+      "sample_material": "Day-3 cartilage-side culture supernatant collected 3 days after treatment allocation, following 1 week of explant acclimatization. Source cartilage compartment exposed to TNFα 10 ng/mL and IL-1β 1 ng/mL. Added 67.1 µL pooled CM from five unprimed ASC preparations. Explant-level donor/aliquot pairing is not mapped in the supplied annotations; pooling of explant supernatants is not established.",
+      "sample_name": "TNF + IL + CM cartilage-side supernatant, Day 3",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Compartmentalized ex vivo human osteochondral osteoarthritis model",
+      "biological_source": "Human knee osteochondral tissue from arthroplasty patients with Kellgren–Lawrence grade III osteoarthritis",
+      "sample_accession": null,
+      "sample_id": "S0004",
+      "sample_material": "Day-3 cartilage-side culture supernatant collected 3 days after treatment allocation, following 1 week of explant acclimatization. Source cartilage compartment exposed to TNFα 10 ng/mL and IL-1β 1 ng/mL. Added 64.8 µL pooled pCM from five cytokine-primed ASC preparations. Explant-level donor/aliquot pairing is not mapped in the supplied annotations; pooling of explant supernatants is not established.",
+      "sample_name": "TNF + IL + pCM cartilage-side supernatant, Day 3",
+      "species": "Homo sapiens"
+    }
+  ]
+}

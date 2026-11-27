@@ -1,0 +1,263 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "B027",
+    "domain": "basic",
+    "title": "Mouse skeletal muscle satellite cells co-opt the tenogenic gene Scleraxis to instruct regeneration",
+    "doi": "10.7554/eLife.95854",
+    "pipeline": "basic-research",
+    "pmid": "41660703",
+    "pmcid": "PMC12885478",
+    "registry": "10.6084/m9.figshare.24783750"
+  },
+  "files": [
+    {
+      "path": "records/Figshare-24783750.txt",
+      "sha256": "6c96a94df74fbdce1bfd62474a6465299390ee2fb0cd1c9f86525866ca162750",
+      "bytes": 3514,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://api.figshare.com/v2/articles/24783750"
+      ],
+      "derived_from": "d675189bc6245c027bcf55f3d086249e97a1853bc5a4f10640f688d0479a2975",
+      "representation": "readable_repository_record",
+      "association": "exact dataset identifier in article Data Availability; webpage text only; selected-module relation awaits review; readable official record text",
+      "original_filename": "Figshare-24783750.txt",
+      "retrieved_at": "2026-10-18T00:32:27+08:00"
+    },
+    {
+      "path": "sources/article.xml",
+      "sha256": "6b9a6ebeef65826b235d9c1086d242705233cbd4e2025f76461c9ac32e1588fd",
+      "bytes": 238462,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12885478/fullTextXML"
+      ],
+      "association": "exact public PMCID candidate"
+    },
+    {
+      "path": "records/Figshare-24783750.json",
+      "sha256": "022770bb1b97556a9af1c4c50f9a92c135af2a525c65458e803e9f7650e55c9b",
+      "bytes": 3513,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://api.figshare.com/v2/articles/24783750"
+      ],
+      "association": "exact dataset identifier in article Data Availability; webpage text only; selected-module relation awaits review",
+      "original_filename": "Figshare-24783750.json",
+      "retrieved_at": "2026-10-18T00:32:27+08:00"
+    },
+    {
+      "path": "figures/captions.txt",
+      "sha256": "ef97429162f8b939452ec8729ac3fb6b42ce01c73a7037f749d4265256768616",
+      "bytes": 28676,
+      "role": "figure_captions",
+      "roles": [
+        "figure_captions"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12885478/"
+      ],
+      "derived_from": "3b4345836062b8e46c6707dd7e247756b9d26cec2eea46b90c0d8cc2c6285eb2"
+    },
+    {
+      "path": "figures/elife-95854-fig1-figsupp1.jpg",
+      "sha256": "6c82eabca68a28f7f646077face209b0c963c67ec97c9a4ac10f191afe95fcfd",
+      "bytes": 387746,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12885478.1/elife-95854-fig1-figsupp1.jpg?md5=5bf042fd5fde315beafba2745e16a721"
+      ],
+      "association": "exact JATS fig1 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/elife-95854-fig1.jpg",
+      "sha256": "261c9f8b12472ec678429cd67d749f4df07f5a957f5f51d0cf223aedd23253f6",
+      "bytes": 221547,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12885478.1/elife-95854-fig1.jpg?md5=1ac2214fe2379aa12d61ba52456189ea"
+      ],
+      "association": "exact JATS fig1 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/elife-95854-fig2-figsupp1.jpg",
+      "sha256": "5e0eaefbbc65cf7238fc62a00034c3a1dd0925886dd0452dac1d0989301122ec",
+      "bytes": 43826,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12885478.1/elife-95854-fig2-figsupp1.jpg?md5=452c481699ec35dd5f0eaefc05ac98bd"
+      ],
+      "association": "exact JATS fig2 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/elife-95854-fig2.jpg",
+      "sha256": "bcf854f6d157a2f653b755e8081ebabb929f53b28b5170b2d594e49994cb1c05",
+      "bytes": 206225,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12885478.1/elife-95854-fig2.jpg?md5=acefacfdb2283e091d8b133e5bfd02bc"
+      ],
+      "association": "exact JATS fig2 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/elife-95854-fig3-figsupp1.jpg",
+      "sha256": "727e6d31347e9cee083a19721074b63680ecac8886104fa5c7004c33e95cd480",
+      "bytes": 342352,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12885478.1/elife-95854-fig3-figsupp1.jpg?md5=d1c72d21427f3b3ff5781637ee0789bc"
+      ],
+      "association": "exact JATS fig3 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/elife-95854-fig3.jpg",
+      "sha256": "513e307a094fcfd6fdaf589902553362f9ca877ad18dac08ed3c0ef7ee545c33",
+      "bytes": 185684,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12885478.1/elife-95854-fig3.jpg?md5=746cbf5e4f42c120d801093da57ba167"
+      ],
+      "association": "exact JATS fig3 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/elife-95854-fig4-figsupp1.jpg",
+      "sha256": "dc1934bb454f1b71429bb426f8369a57267145008ebcf082da072ad9bf91dd9c",
+      "bytes": 264756,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12885478.1/elife-95854-fig4-figsupp1.jpg?md5=8880b0447dad4f12e492d1a3cc17959c"
+      ],
+      "association": "exact JATS fig4 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/elife-95854-fig4.jpg",
+      "sha256": "a227aa8ed3acfb3ff0a68f707368504b78aa2ce266ba0e41447ca4d8d9a9358a",
+      "bytes": 144848,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12885478.1/elife-95854-fig4.jpg?md5=8e0267a0482018f342e34a8d13dc30db"
+      ],
+      "association": "exact JATS fig4 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/elife-95854-fig5-figsupp1.jpg",
+      "sha256": "4024c80ff7b0e33fd18b6fe668e12ca141add68398177bf5db89cfc3b22b5eac",
+      "bytes": 229734,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12885478.1/elife-95854-fig5-figsupp1.jpg?md5=343ac870b8230c5e87a962bdb9d6c7df"
+      ],
+      "association": "exact JATS fig5 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/elife-95854-fig5-figsupp2.jpg",
+      "sha256": "993d77fcd98cffc40f2910ba725aee6b772440799ae512ed96397b1c6a4e2bae",
+      "bytes": 88228,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12885478.1/elife-95854-fig5-figsupp2.jpg?md5=70f4e27c25048ff29b614f3da006d33e"
+      ],
+      "association": "exact JATS fig5 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/elife-95854-fig5.jpg",
+      "sha256": "131cf660234f6684a0f073f1b74db17b22f501fcf7f06ae76589ad8e22313613",
+      "bytes": 240364,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12885478.1/elife-95854-fig5.jpg?md5=18ea4ee165e191a84eeb59b9d978c449"
+      ],
+      "association": "exact JATS fig5 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/elife-95854-fig6-figsupp1.jpg",
+      "sha256": "f81cb8d2b450521bb7680352d63e541c1bcc4a2404391361c3b7b040d349b684",
+      "bytes": 122295,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12885478.1/elife-95854-fig6-figsupp1.jpg?md5=94679c1a00bbd083eb011dfa3ae20085"
+      ],
+      "association": "Exact JATS main figure or individually declared PDF/DOCX paper supplement"
+    },
+    {
+      "path": "figures/elife-95854-fig6.jpg",
+      "sha256": "ba9119f313f0ce9f9bf3036acddc7aef95a02231d680953e48105e3ee4de99b2",
+      "bytes": 208147,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12885478.1/elife-95854-fig6.jpg?md5=c3d8b7ce1bd090b9ddf6dddce55435f6"
+      ],
+      "association": "Exact JATS main figure or individually declared PDF/DOCX paper supplement"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

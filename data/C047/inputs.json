@@ -1,0 +1,81 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "C047",
+    "domain": "clinical",
+    "title": "The impact of home-based telerehabilitation pranayama on sleep quality and wellbeing in mild to moderate obstructive sleep apnea syndrome. A randomized controlled trial",
+    "doi": "10.1186/s13030-026-00359-x",
+    "pipeline": "clinical-trials",
+    "pmid": "41992331",
+    "pmcid": "PMC13188614",
+    "registry": "NCT04632147"
+  },
+  "files": [
+    {
+      "path": "sources/article.xml",
+      "sha256": "b077327eb5f3fa31d7459cfd6faba45be3658237e0021a385db6729d47ca4592",
+      "bytes": 105912,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13188614/fullTextXML"
+      ],
+      "association": "exact PMCID from case identity"
+    },
+    {
+      "path": "records/ClinicalTrials-NCT04632147.json",
+      "sha256": "714070cf676ea92c64778b403e34b91752545b5f03184e1a64defed7d5449e44",
+      "bytes": 11398,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://clinicaltrials.gov/api/v2/studies/NCT04632147"
+      ],
+      "association": "exact trial registration linked by article; verify in source projection",
+      "original_filename": "registry.json",
+      "retrieved_at": "2026-10-17T21:28:54+08:00",
+      "derived_from": "8fd7930e3acf27b913c304444c29e5b3ca9dc2476db9a667890415c8c6dc3785",
+      "original_sha256": "8fd7930e3acf27b913c304444c29e5b3ca9dc2476db9a667890415c8c6dc3785",
+      "representation": "refine-lexical-json-1",
+      "provenance_transform": "exact_json_whitespace_compaction"
+    },
+    {
+      "path": "figures/13030_2026_359_Fig1_HTML.jpg",
+      "sha256": "83de0305d3ea0e215f2356b53f8638bd910c08978c34e372c0226c839299b24e",
+      "bytes": 192004,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13188614/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/13030_2026_359_Fig2_HTML.jpg",
+      "sha256": "6badf2791c73d55ee7c4856d40e33962958a29dbf796add81b59abb615cef8dd",
+      "bytes": 95278,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13188614/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

@@ -1,0 +1,1776 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "B044",
+    "domain": "basic",
+    "title": "Optimizing DCD donor liver function with resveratrol during machine perfusion",
+    "doi": "10.1038/s41598-025-26147-1",
+    "pipeline": "basic-research",
+    "pmid": "41298644",
+    "pmcid": "PMC12658267",
+    "registry": "PRJNA1309769"
+  },
+  "files": [
+    {
+      "path": "records/PRJNA1309769-record.txt",
+      "sha256": "1349c944d1b00851e9c2ab3d8eea66ee6b2c1fc0cbef78e51a56a87b8caf39d6",
+      "bytes": 2954,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1309769&result=read_run&fields=study_accession%2Csecondary_study_accession%2Csample_accession%2Cexperiment_accession%2Crun_accession%2Csample_title%2Cscientific_name%2Clibrary_strategy&format=json"
+      ],
+      "derived_from": "b43fb6770514462281b5871f95ee6f0c53363914995031670d28efae115d7e02",
+      "representation": "readable_repository_record",
+      "association": "public data accession explicitly reported in this article; module eligibility not yet asserted; readable official record text",
+      "original_filename": "PRJNA1309769-record.txt",
+      "retrieved_at": "2026-10-18T01:13:50+08:00"
+    },
+    {
+      "path": "sources/article.xml",
+      "sha256": "48a88750ef6fd93b2738d3494d77a0e86fe716669e78d4121d341908614adaaf",
+      "bytes": 93668,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/PMC12658267.1.xml?md5=8f4b3d0d7c6b509a5d34f17cd50d1525"
+      ],
+      "association": "official published article XML for exact DOI"
+    },
+    {
+      "path": "records/PRJNA1309769-record.json",
+      "sha256": "b9e663c248aad65f39e5b017e535f55ff1aba04b26ad083e167b4d055ecc85a6",
+      "bytes": 2855,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1309769&result=read_run&fields=study_accession%2Csecondary_study_accession%2Csample_accession%2Cexperiment_accession%2Crun_accession%2Csample_title%2Cscientific_name%2Clibrary_strategy&format=json"
+      ],
+      "association": "public data accession explicitly reported in this article; module eligibility not yet asserted",
+      "original_filename": "PRJNA1309769-record.json",
+      "retrieved_at": "2026-10-18T01:13:50+08:00"
+    },
+    {
+      "path": "figures/41598_2025_26147_Fig1_HTML.jpg",
+      "sha256": "3876d61363ba428104cdea68e54d59da0d7c5e90b0dde4e5ec5b45bfb840dd25",
+      "bytes": 95127,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_Fig1_HTML.jpg?md5=c4eeabd70c4f5f5a009437965b8930e8"
+      ],
+      "association": "exact JATS Fig1 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41598_2025_26147_Fig2a_HTML.jpg",
+      "sha256": "af9d8476930152843987d2c082e4e47932616631583c18f36169132f3333a6a3",
+      "bytes": 87587,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_Fig2a_HTML.jpg?md5=acc875bb0e0bf09d75d0d17885fbd6dc"
+      ],
+      "association": "Exact JATS main figure or individually declared PDF/DOCX paper supplement"
+    },
+    {
+      "path": "figures/41598_2025_26147_Fig2b_HTML.jpg",
+      "sha256": "b63f1a732bc700e1a264101b4f077fcf340c36230261ebb26aac1a6363578001",
+      "bytes": 323799,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_Fig2b_HTML.jpg?md5=862fee723b7c397c9c2fc0129626c851"
+      ],
+      "association": "exact JATS Fig2 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41598_2025_26147_Fig3a_HTML.jpg",
+      "sha256": "c7a8df4b2ca90c3f0f614f3d04d64651283ae64e34a99afc8c16c75fd9cf4876",
+      "bytes": 97281,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_Fig3a_HTML.jpg?md5=d9b8b4912e0a3692dbfdab6f0fe3c486"
+      ],
+      "association": "exact JATS Fig3 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41598_2025_26147_Fig3b_HTML.jpg",
+      "sha256": "a005ddb12dcd42179415690b87543df0c08225ebe8aaf671a46070eb9f4e41e2",
+      "bytes": 227715,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_Fig3b_HTML.jpg?md5=d0ac48815f864faf5d04bb6328b2e144"
+      ],
+      "association": "Exact JATS main figure or individually declared PDF/DOCX paper supplement"
+    },
+    {
+      "path": "figures/41598_2025_26147_Fig4_HTML.jpg",
+      "sha256": "25367ac05f270d94482153183dc1b57315e732a27225b18b6634a563c1ac7e24",
+      "bytes": 111046,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_Fig4_HTML.jpg?md5=6b97b2e886401bf708f4f88f91a0944a"
+      ],
+      "association": "Exact JATS main figure or individually declared PDF/DOCX paper supplement"
+    },
+    {
+      "path": "figures/41598_2025_26147_Fig5_HTML.jpg",
+      "sha256": "7967118143b0e4024b01eb11742c3f5f1b8d88842e72dc1c241f7d307d3fae66",
+      "bytes": 108792,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_Fig5_HTML.jpg?md5=a4b6c430fe0d84394288d2451d508a8f"
+      ],
+      "association": "exact JATS Fig5 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/captions.txt",
+      "sha256": "fec4d662de48650ccc944adfa5b10f20a4108c3b1451d115c30c9347f0d746b7",
+      "bytes": 4541,
+      "role": "figure_captions",
+      "roles": [
+        "figure_captions"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12658267/"
+      ],
+      "derived_from": "7fea055fe30f737de200bdc49e995fec89165bcdc02391bfec09a20d62bf7693"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM1_ESM__refine/content.md",
+      "sha256": "ce4349479b795bd6c83a126bf86bc6463c8a28b94c858589c3bc1535239bd243",
+      "bytes": 8174,
+      "role": "supplement",
+      "roles": [
+        "supplement"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM1_ESM.docx?md5=b41cb0032484423c86bebf6dfd8cbc25"
+      ],
+      "association": "Exact JATS main figure or individually declared PDF/DOCX paper supplement",
+      "derived_from": "add0be2f46fbcb70d2c28e8f3fd36dda0a7c1e726bf41da54abd641567476698",
+      "original_sha256": "add0be2f46fbcb70d2c28e8f3fd36dda0a7c1e726bf41da54abd641567476698",
+      "original_filename": "41598_2025_26147_MOESM1_ESM.docx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "office_text_tables"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image1.png",
+      "sha256": "87cd4dca09b8ceb804127183efb9b629d0ca4550110dbe268de221dcbdbf8576",
+      "bytes": 91480,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_grayscale"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image2.png",
+      "sha256": "c3dbf54c74d303c95223c40ed0c2043a9689b597c7f3b576e2bdbdd1f81deb41",
+      "bytes": 95385,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_grayscale"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image3.png",
+      "sha256": "164081fc059faf9effaae3edbfd8bb4450a699a51d17defff4cd2d9186e27f67",
+      "bytes": 98613,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_grayscale"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image4.png",
+      "sha256": "31bfa668b0d56b7e45e82f50c5313c9fccfe5bff7030d432fdbda99a9c5c7621",
+      "bytes": 145879,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image5.png",
+      "sha256": "2b48b727c939f63f3031a48ba834a49f3d00c14f006361d09e57b8d7e022428f",
+      "bytes": 119562,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image6.png",
+      "sha256": "21371eda57b200e4e3a2af135d0b774a15e47cabd29b20061db5c8b7d01974e3",
+      "bytes": 50903,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image7.png",
+      "sha256": "1bd2ac6cf9582a4599f2ad04bc9942bb8e551889dd33c00dc992bf63ea005caf",
+      "bytes": 64464,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image8.png",
+      "sha256": "99b975d34e97d28ccdaf3cd1fc8756ab88f003871edb27be079588680ca710f3",
+      "bytes": 58957,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image9.png",
+      "sha256": "8599f509da83f32426d99245c6dd48d68e0d2ea0ec1a6de7818592b06f02ef3f",
+      "bytes": 76415,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image10.png",
+      "sha256": "295f01aa436f329a4f42beb68fe8cef6155a33a9e2f738da03cec540c83cf08c",
+      "bytes": 76207,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image11.png",
+      "sha256": "38fe6e8a1bfbdf8af25c0fed07d502a7f466c4db5bb60ffb6cf76a9a8a00759f",
+      "bytes": 59274,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image12.png",
+      "sha256": "1d3eab4c34346ed4cde02cd4f45870cff5c9127920c7baf76347bbbb2c602ef8",
+      "bytes": 157375,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image13.png",
+      "sha256": "38061234c7b5f27a46d5c9ab30cd59530a0689db64af5ccd1aae4ba25282f013",
+      "bytes": 146740,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image14.png",
+      "sha256": "35a4ccdbe63c1184b0b06687101bfc2d5ddb8ca9b1eac04e23a6fc1837592eab",
+      "bytes": 169502,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image15.png",
+      "sha256": "15c3cb8f394d65105257d04cafd5a6e1d60d4ba2df1751e25db1e4886a061fda",
+      "bytes": 177723,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image16.png",
+      "sha256": "528770a3d2f35e81c016b2a2d3752c11c8d32d889d030c2b4de9b72bedb9b5dd",
+      "bytes": 168791,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image17.png",
+      "sha256": "100aa02ca64cac5e2896ace3fb5d0dab182afa70bd03850f54dce19a5bf59d3b",
+      "bytes": 175330,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image18.png",
+      "sha256": "6761a0c7d0f67a353be9cf9bafcfde2ba27a31f7ff3cde51998d68d10cc5e401",
+      "bytes": 186386,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image19.png",
+      "sha256": "e9e9cd69abe6009670c1994b10d739c626088b209bb748d021282b99833606a1",
+      "bytes": 177922,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image20.png",
+      "sha256": "0875f8e4504c6576a1ddd16d03725b8c85db0f551a858b11ed4319d7d395ce53",
+      "bytes": 135721,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image21-tile-1-1.png",
+      "sha256": "99aafea5032edc746faeedd7c15855ad4cc8bb4f5fc4590dc50ca14b7ad7bd41",
+      "bytes": 130734,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image21-tile-1-2.png",
+      "sha256": "257b45020b6968503d3bab337d03fe1a2303e8cbe8e0d36bb3d5c4c52c177faf",
+      "bytes": 28388,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image22.png",
+      "sha256": "a61df53cd1b54c3a48c9ddedf9e134db275d83ef2bc0131dc7e86ffb06ae1507",
+      "bytes": 83869,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image23.png",
+      "sha256": "fb940314ae546201b512adf02ab63b9fae97319582f11c31646373810ec6baa5",
+      "bytes": 138820,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image24.png",
+      "sha256": "3ebdcec40fc20b43628768544675597e705965f707b0136906994366e7734d27",
+      "bytes": 77959,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image25.png",
+      "sha256": "851acdf9fe65a6cbf609176d29b8dff23e0c76e66158c939bceb6dc9d8d3ec5e",
+      "bytes": 84072,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image26.png",
+      "sha256": "fbefb54c6abf6f8d1d76a57520e92a1e647ac68639e25291b66d35a05c305701",
+      "bytes": 105027,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image27.png",
+      "sha256": "7880e109904d6cc53902e1c0830cbaccba6c02d11b19f448a024efe5fdc51b8c",
+      "bytes": 94273,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image28.png",
+      "sha256": "7165032befb666868802cd37c2944581c14d3a8a67b1b21b1130bccec2ef2992",
+      "bytes": 90724,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image29.png",
+      "sha256": "9c83a36850ee7d19e9d7def3e1efc7aa828176acb5928758d6ede50e072b1801",
+      "bytes": 88678,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image30.png",
+      "sha256": "27567d704cea775bd4a011742600289f8cf888ef284dcdd616c9fc045d3c31a5",
+      "bytes": 85571,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image31.png",
+      "sha256": "0911f1b945ee3ef08c8c961a96bd31418ba37d118af8a94a367f46f6b28bcc38",
+      "bytes": 81441,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image32.png",
+      "sha256": "adc6cef2c8b7e7a1a5ea405cb0e81a7551aca6dafaf64c056b97c314c98ba3d1",
+      "bytes": 84175,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image33.png",
+      "sha256": "5f9243fb8bd6e6b835fb397a30d3fbc89eff40a5e4869c0e4f059098c0f0e9e5",
+      "bytes": 79557,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image34.png",
+      "sha256": "39519e4251ae9416f1628d9f02f3d3aa5f8df2b53b18e8539fb190e5a2e40b0f",
+      "bytes": 71206,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image35.png",
+      "sha256": "9ccc38d1df57adc844f08f2c751b5f933ef98a4ce5db7e6d01679275f5ad0305",
+      "bytes": 85236,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image36.png",
+      "sha256": "e7e6ba2953d353a83105ae1d852bfb8043fa348244bc88d2b631692eb5918a6b",
+      "bytes": 126173,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image37.png",
+      "sha256": "782a2b59ce041e52c86af1ea20d3185ce9eeba1ca3eb2ff6fe3118fac2289c65",
+      "bytes": 74806,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image38.png",
+      "sha256": "c61d771117bb58792836f8208f25052f04dbedb66c8997701bea530d9b56fce2",
+      "bytes": 129075,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image39-tile-1-1.png",
+      "sha256": "dad218e24339c9d0a43844a1780f9b3e03396d5d9b89a4b236678be67eeb1e57",
+      "bytes": 233807,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image39-tile-1-2.png",
+      "sha256": "6fcb560333b570f6a1918199abd57912e7e126ad015fd6396c6ea8f4c50b07aa",
+      "bytes": 205727,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image40.png",
+      "sha256": "13afcaa66c106ffcc0f1496f63b4d57930c9566a4967445af43192f2c914f67b",
+      "bytes": 30167,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image41.png",
+      "sha256": "d78bf6d3411d22d7f474f614e1429a4d18d2f3865f92d8c9536d39ecc89fc133",
+      "bytes": 18031,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image42.png",
+      "sha256": "9766e127dce7255920b708a61d9e8582d9de6ab1a93b2183463eb95133f29db9",
+      "bytes": 22232,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image43.png",
+      "sha256": "f61b2bba0d0fa83bca3f55f35590dd906307c8207a2334e03ec3ae6ce5db4e73",
+      "bytes": 39791,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image44.png",
+      "sha256": "34636d612458f496dd2006e7dc41f928f7e2b85227f956180264f75974e3551b",
+      "bytes": 20154,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image45.png",
+      "sha256": "f1e0d684ad07904d1fe56df7f148de981fc442b376d4f1eb1a0b3cb6f8c41472",
+      "bytes": 17133,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image46.png",
+      "sha256": "13da8a437ebb6f74d46bdd07920862eb3af11fb897f155f8ab6d7aff0ff0017a",
+      "bytes": 106423,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image47.png",
+      "sha256": "c5d2aabfb321516275ca37f5199254135bb095b98eeba675f564923d445ed494",
+      "bytes": 94711,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image48.png",
+      "sha256": "df3c92616226afdb7ef01a06d9b06b0f65bc37bad95950c02e86cb85947f281c",
+      "bytes": 109297,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image49.png",
+      "sha256": "ca4575fa48aeb5b4a6c9e0082f2c2d1aa4dcfd1f0dc387028a202525625d059f",
+      "bytes": 116709,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image50.png",
+      "sha256": "b70b43e2d2284531540191e208dd3e858f0d801bba986bd4c62abf213a420541",
+      "bytes": 161764,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image51.png",
+      "sha256": "a858758d0fb8146964c5dbda109f72120d11af4a8fa86a9c3455369cad378de9",
+      "bytes": 102597,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image52.png",
+      "sha256": "0b2f93221da3304a3bd6ddfc4549478a4b41b8ff411018d45293a309a0557661",
+      "bytes": 113200,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image53.png",
+      "sha256": "8256eea3bcc11c091525f640096feb7927a0ae3a697218468b5eab8974df9e21",
+      "bytes": 103234,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image54.png",
+      "sha256": "2d22ffc4dd5693a178f9a2206552c4e6d807c155c5ad2d09aaceccdaea148fa3",
+      "bytes": 105317,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image55.png",
+      "sha256": "f861f5d63513c596b2eb9cd989e89aa1b3552e673d3584fa620bf41d53874215",
+      "bytes": 114498,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image56.png",
+      "sha256": "6fb303427db1ee1e9f2301fc868d5ef57a32eadc0599dd1ed3fbd54e2c043128",
+      "bytes": 99109,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image57.png",
+      "sha256": "bc8e3f7b118c341932047047a5357321a61892544d198199b43d5f747b645bfe",
+      "bytes": 89049,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image58.png",
+      "sha256": "0fdcee12a114192ce117c49c97d5e498165dca6bd55a2c966d29d67ea5e77d4d",
+      "bytes": 140446,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image59.png",
+      "sha256": "0ab03e4f22a18e153985a4b248201432148664a78fe1f90482021aaf171b73f3",
+      "bytes": 96191,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image60.png",
+      "sha256": "4fc8d4d06a81caa80d0f2c4c390d35fa319040386d0e060ff07f0fe383139c4a",
+      "bytes": 95781,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image61.png",
+      "sha256": "cac40cc86b01ddd750c128ce2baf4df5646e8329c2c369d8fe9c068d5eae4cfc",
+      "bytes": 79842,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image62.png",
+      "sha256": "d90f6a116639bf71e9180994683e119b8f0f49d67b226c094b109b2c9c21f30b",
+      "bytes": 54652,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image63.png",
+      "sha256": "6997316008f2a1891dc6dd213b593b3b99a0b982898495532ce9abca045489e3",
+      "bytes": 55940,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image64.png",
+      "sha256": "47479a7d2488eeeb40f38522d410a5d4ef17b5f31b18c9a0bd3b2c33fbd934ca",
+      "bytes": 60768,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image65.png",
+      "sha256": "082d5fe91bc855be178d0f334e524b5cc9211b3f8312b87a1ec532dc3cee66ad",
+      "bytes": 64780,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image66.png",
+      "sha256": "7fb32a480a253ba08245ec94b8dcb7dd8208dc26df6e7403ce03334ab36ff204",
+      "bytes": 67726,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image67.png",
+      "sha256": "a46382e031f9e400fa5cf4ab44f9045f5cadac070df9ed023c2f560fab160ba9",
+      "bytes": 54423,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image68.png",
+      "sha256": "86101e7a58044d40e4e7efef1aa628f341cac73e0ec4810cf6377019b602ff79",
+      "bytes": 67921,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image69.png",
+      "sha256": "dedd46f8d2388702f996a9aa1ae9bcf9e3d0571b57d36bf8c33d0fcc5be628f7",
+      "bytes": 63433,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image70.png",
+      "sha256": "69aea9d6292bdbb822c753ad4fef6608e5a9338ed28794e9e30d5bc613ef9a78",
+      "bytes": 82337,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/asset-image71.png",
+      "sha256": "847d9cd55e30580b08b8aa41c00ccc836ced78bc44772ed6c986215e5ccde946",
+      "bytes": 75103,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41598_2025_26147_MOESM2_ESM__refine/content.md",
+      "sha256": "beece4a8f718e1a5b1bf520982e1b5660b6cb875a3d36243b9a93a640a76ecb5",
+      "bytes": 11466,
+      "role": "supplement",
+      "roles": [
+        "supplement"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12658267.1/41598_2025_26147_MOESM2_ESM.pptx?md5=e21811dd47fc588e71667066684e11a3"
+      ],
+      "association": "Individually reviewed paper supplementary result table, figure deck, or supporting data values; no repository data files",
+      "derived_from": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_sha256": "bbeb97481badc42259eb66a1860ade724f93facb0b8f802ca31f99a1f1549563",
+      "original_filename": "41598_2025_26147_MOESM2_ESM.pptx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "office_text_images"
+    },
+    {
+      "path": "records/ENA-PRJNA1309769/SAMN50757488.xml",
+      "sha256": "2357dc08f0b6d5d71f4aa60930dae732698dd3b9163e8f506e345a47e438db27",
+      "bytes": 3787,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [],
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "original_filename": "SAMN50757488.xml"
+    },
+    {
+      "path": "records/ENA-PRJNA1309769/SAMN50757489.xml",
+      "sha256": "9e0e74b6eea60aa598d3a8a16e622ecba2f21b61f43853fd249c344bcd5b3e1d",
+      "bytes": 3790,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [],
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "original_filename": "SAMN50757489.xml"
+    },
+    {
+      "path": "records/ENA-PRJNA1309769/SRX30208684.xml",
+      "sha256": "3e9928339c56c4aa496f79ddb743988d371ebf8a8209b9051fb5f2b616364959",
+      "bytes": 2913,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [],
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "original_filename": "SRX30208684.xml"
+    },
+    {
+      "path": "records/ENA-PRJNA1309769/SRX30208688.xml",
+      "sha256": "1f7de47fdf33797e4e8f0e957c0932b62dfbab6729478e19019da674699e00e9",
+      "bytes": 2909,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [],
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "original_filename": "SRX30208688.xml"
+    },
+    {
+      "path": "records/ENA-PRJNA1309769/SAMN50757483.xml",
+      "sha256": "b69c1a92b8cd40754bccd1a7cdf9e7e66f9ff2ddbff8caaeba9dec99297c0024",
+      "bytes": 3790,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [],
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "original_filename": "SAMN50757483.xml"
+    },
+    {
+      "path": "records/ENA-PRJNA1309769/SAMN50757487.xml",
+      "sha256": "ba672cf7dde8eb76b0da77899ce1a8ebaad18e23732dc2a14a21875085c27c45",
+      "bytes": 3787,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [],
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "original_filename": "SAMN50757487.xml"
+    },
+    {
+      "path": "records/ENA-PRJNA1309769/SAMN50757486.xml",
+      "sha256": "852bee9f5aaaf6a49e1e3905517ebbcfc8983053e7dd122ed57df318e52e2c6d",
+      "bytes": 3787,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [],
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "original_filename": "SAMN50757486.xml"
+    },
+    {
+      "path": "records/ENA-PRJNA1309769/SAMN50757484.xml",
+      "sha256": "d346160c8f10e12a90a4c09677262f7ed34d2aa4af6219454622f5ca13959d2c",
+      "bytes": 3790,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [],
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "original_filename": "SAMN50757484.xml"
+    },
+    {
+      "path": "records/ENA-PRJNA1309769/SAMN50757490.xml",
+      "sha256": "6dcb6d1d893edeb4a9412f2bf9840e0fcd21f468dd33e1dacb924bd0dc8fa11d",
+      "bytes": 3790,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [],
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "original_filename": "SAMN50757490.xml"
+    },
+    {
+      "path": "records/ENA-PRJNA1309769/SAMN50757491.xml",
+      "sha256": "d03509700fa506522bd731dd740ac0314abb3522a0e9a2e569cd69a016eed1f3",
+      "bytes": 3790,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [],
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "original_filename": "SAMN50757491.xml"
+    },
+    {
+      "path": "records/ENA-PRJNA1309769/SAMN50757485.xml",
+      "sha256": "d79c8cbcb549822b1506ab49086bae41cf6697aa9817836a839efaa8d16d1fa6",
+      "bytes": 3790,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [],
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "original_filename": "SAMN50757485.xml"
+    },
+    {
+      "path": "records/ENA-PRJNA1309769/ENA_source_annotations.csv",
+      "sha256": "cfeb17f3c0168236e30e99186f53f57b09eec91eb7911d21083cf9e2a6b29fce",
+      "bytes": 1972,
+      "role": "design_metadata",
+      "roles": [
+        "design_metadata"
+      ],
+      "input_use": "model",
+      "source_urls": [],
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "original_filename": "ENA_source_annotations.csv"
+    },
+    {
+      "path": "records/ENA-PRJNA1309769/ena-run-annotations.json",
+      "sha256": "19c50e425ea8603135403aaedc4f0acf4905ce98b1c89d2536ba81566011bd16",
+      "bytes": 4148,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [],
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "original_filename": "ena-run-annotations.json"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

@@ -1,0 +1,37 @@
+{
+  "case_id": "C024",
+  "task_id": "C024",
+  "title": "Comparative Effects of Minodronate and Alendronate on Low Back Pain in Postmenopausal Osteoporosis and Age Influence: A Head-to-Head, Randomized Clinical Trial",
+  "doi": "10.2147/CIA.S541940",
+  "comparison_or_design": "The ITT minodronate–alendronate efficacy comparison.",
+  "observations_or_assays": [
+    "VAS low-back-pain score",
+    "Lumbar-spine bone mineral density",
+    "Total-hip bone mineral density"
+  ],
+  "time_scope": "VAS baseline to week 12; BMD baseline to week 24.",
+  "excluded": [
+    "Per-protocol (PP) and other sensitivity-analysis populations/results",
+    "Age-stratified analyses, other VAS visits and bone-turnover markers",
+    "Safety and other outcomes",
+    "Registry records whose population and interventions do not match this osteoporosis trial"
+  ],
+  "population_or_material": "Postmenopausal participants with osteoporosis-related low back pain in the intention-to-treat (ITT) efficacy population only, retaining the source-reported endpoint-specific analysis denominators.",
+  "requested_items": [
+    "For week-12 VAS, extract the mean reductions and 95% CIs stated in the main Results VAS paragraph and the abstract-reported endpoint between-group P value. Use the main Results week-12 time label; do not add the differently labelled serial visits from Table S2.",
+    "For lumbar-spine and total-hip BMD, use only the W24 column of Supplementary Table S3: extract each treatment arm's mean percentage change, its SD, and the between-group P value. Table S3 time-specific cells take precedence over BMD prose, abstract summaries and figures. Do not import abstract-only BMD CIs or repeat W12 values as W24.",
+    "Keep each between-group P value in a separate result row because no between-group difference estimate is requested."
+  ],
+  "resources": [],
+  "case_specific_rules": [
+    "For requested VAS reductions use the main Results week-12 report, with the requested abstract endpoint P. Recover units from the adopted source; retain conflicting presentations in separate review records.",
+    "For BMD use only Supplementary Table S3 W24 cells and their own SD/P; exclude W12 and abstract-only CI alternatives. Apply the shared denominator rules."
+  ],
+  "domain": "clinical",
+  "pipeline": "clinical-trials",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/clinical-trials.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

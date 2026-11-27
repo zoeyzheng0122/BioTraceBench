@@ -1,0 +1,32 @@
+{
+  "case_id": "C028",
+  "task_id": "C028",
+  "title": "Responsiveness of Outcome Measures in Chronic Non-Specific Low Back Pain: A Secondary Analysis of a Randomized Controlled Trial",
+  "doi": "10.3390/jpm16070338",
+  "comparison_or_design": "The pooled T0–T1 measurement-responsiveness analysis.",
+  "observations_or_assays": [
+    "NRS pain intensity",
+    "ODI disability score",
+    "Roland–Morris Disability Questionnaire score"
+  ],
+  "time_scope": "T0 to T1, after the 2-week intervention.",
+  "excluded": [
+    "T0–T2, Bournemouth, EQ-5D, AUC/ROC and anchor correlations",
+    "Responder classification and arm-specific treatment-effect estimates"
+  ],
+  "population_or_material": "The pooled analysis cohort reported for the T0–T1 responsiveness estimates in this secondary analysis.",
+  "requested_items": [
+    "Table 2 T0–T1 mean change/SD and SMD/CI for NRS/ODI/RMDQ only. Do not recalculate SMD or infer its sign convention from the mean change. Exclude AUC and later T2 follow-up."
+  ],
+  "resources": [],
+  "case_specific_rules": [
+    "Raw mean changes and reported SMDs are different principal statistics. Preserve each reported sign independently; do not reverse an SMD to match a raw change or reconstruct an unspecified standardization/sign convention."
+  ],
+  "domain": "clinical",
+  "pipeline": "clinical-trials",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/clinical-trials.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

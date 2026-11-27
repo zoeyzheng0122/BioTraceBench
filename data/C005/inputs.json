@@ -1,0 +1,191 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "C005",
+    "domain": "clinical",
+    "title": "Polatuzumab Vedotin Plus Rituximab, Gemcitabine, and Oxaliplatin in Relapsed or Refractory Diffuse Large B-Cell Lymphoma: Results From the Phase III, Randomized POLARGO Trial",
+    "doi": "10.1200/JCO-25-02849",
+    "pipeline": "clinical-trials",
+    "pmid": "42407012",
+    "pmcid": "PMC13528845",
+    "registry": "NCT04182204"
+  },
+  "files": [
+    {
+      "path": "sources/article.xml",
+      "sha256": "94605b40655458b90677e7319b1e0688cdb8508ad0a71296a292e2496e0152a3",
+      "bytes": 111444,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13528845/fullTextXML"
+      ],
+      "association": "official full text for exact PMCID"
+    },
+    {
+      "path": "records/ClinicalTrials-NCT04182204.json",
+      "sha256": "3a4ddad615f0217d618ee347f3c1b70942fec0e557eea1440f5d37bbaad26870",
+      "bytes": 210936,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://clinicaltrials.gov/api/v2/studies/NCT04182204"
+      ],
+      "association": "exact trial accession reported in article",
+      "original_filename": "registry.json",
+      "retrieved_at": "2026-10-17T21:51:24+08:00",
+      "derived_from": "bc7d461225518035afdcdf54ac4388f3fc713ce62121a64493a53080c1d4acf5",
+      "original_sha256": "bc7d461225518035afdcdf54ac4388f3fc713ce62121a64493a53080c1d4acf5",
+      "representation": "refine-lexical-json-1",
+      "provenance_transform": "exact_json_whitespace_compaction"
+    },
+    {
+      "path": "figures/jco-44-2435-g001.png",
+      "sha256": "43068787d9c94ebf4fb335f50c0eb8593ebeb231d5ec73296e534ba1e60d63b5",
+      "bytes": 645867,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13528845/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package",
+      "derived_from": "3401cbf43238e7c03ce69165bce8607784e9e82fb8f8cbee7f1d12e42a941eae",
+      "original_sha256": "3401cbf43238e7c03ce69165bce8607784e9e82fb8f8cbee7f1d12e42a941eae",
+      "original_filename": "jco-44-2435-g001.webp",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "figures/jco-44-2435-g002.png",
+      "sha256": "e5a37313e14a086480d006352196c1f76e0c1ebb0315acc23df1dbbe1fb8cc62",
+      "bytes": 523161,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13528845/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package",
+      "derived_from": "44da92a162dfce6bdf2c25894b4fb821cdc760a58714a3320a6764df1a806f70",
+      "original_sha256": "44da92a162dfce6bdf2c25894b4fb821cdc760a58714a3320a6764df1a806f70",
+      "original_filename": "jco-44-2435-g002.webp",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/jco-44-2435-s002__refine/page-0017-region-01.png",
+      "sha256": "94cf8f4658258f2fe8c56e0d7ab8109a67497c6f447c31f8596875426addfb12",
+      "bytes": 87484,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13528845/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package",
+      "derived_from": "c1c8e176a8af2ab61c8ce8c874651cadf3cfe3e10302ede404e444f53a1eb8cf",
+      "original_sha256": "c1c8e176a8af2ab61c8ce8c874651cadf3cfe3e10302ede404e444f53a1eb8cf",
+      "original_filename": "jco-44-2435-s002.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_grayscale"
+    },
+    {
+      "path": "supplements/jco-44-2435-s002__refine/page-0024-region-01.png",
+      "sha256": "effc57a6f00a95530936b4d0a23d9fe765f2c94ef733c3d61a2c1724f12e8474",
+      "bytes": 177044,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13528845/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package",
+      "derived_from": "c1c8e176a8af2ab61c8ce8c874651cadf3cfe3e10302ede404e444f53a1eb8cf",
+      "original_sha256": "c1c8e176a8af2ab61c8ce8c874651cadf3cfe3e10302ede404e444f53a1eb8cf",
+      "original_filename": "jco-44-2435-s002.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/jco-44-2435-s002__refine/content.md",
+      "sha256": "76293d757bf4e0f0ec3910bb14b2617762b1aa1c6775b9a8feb9d8859a1f81cd",
+      "bytes": 29872,
+      "role": "supplement",
+      "roles": [
+        "supplement"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13528845/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package",
+      "derived_from": "c1c8e176a8af2ab61c8ce8c874651cadf3cfe3e10302ede404e444f53a1eb8cf",
+      "original_sha256": "c1c8e176a8af2ab61c8ce8c874651cadf3cfe3e10302ede404e444f53a1eb8cf",
+      "original_filename": "jco-44-2435-s002.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "pdf_text_visual"
+    },
+    {
+      "path": "supplements/jco-44-2435-s003__refine/content.md",
+      "sha256": "65b69f74ad11ef9626e6f72a56ce0613fe95a233cc6bfd1cd7fd9a3c18a83693",
+      "bytes": 1163,
+      "role": "supplement",
+      "roles": [
+        "supplement"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13528845/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package",
+      "derived_from": "f1f0c0e8aec5f4c204742a6d61c32d8e2414e1a5d1b65891fb0bb95ce2f93110",
+      "original_sha256": "f1f0c0e8aec5f4c204742a6d61c32d8e2414e1a5d1b65891fb0bb95ce2f93110",
+      "original_filename": "jco-44-2435-s003.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "pdf_text_visual",
+      "prior_sha256": "0e5e268d5f5f5585b919fc189d869d89baecea13542c224d4d4df41bcaa13150",
+      "compatibility_transform": "remove_task_excluded_image_reference_lines"
+    },
+    {
+      "path": "supplements/jco-44-2435-s003__refine/Protocol_MO40598_Version_8_Redacted.pdf/content.md",
+      "sha256": "8ec67b15c7fe09acb37493ad183e81fede15bf491486bcaed6dbe58b9dc58a23",
+      "bytes": 346688,
+      "role": "supplement",
+      "roles": [
+        "supplement"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13528845/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package",
+      "derived_from": "f1f0c0e8aec5f4c204742a6d61c32d8e2414e1a5d1b65891fb0bb95ce2f93110",
+      "original_sha256": "f1f0c0e8aec5f4c204742a6d61c32d8e2414e1a5d1b65891fb0bb95ce2f93110",
+      "original_filename": "jco-44-2435-s003.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "pdf_text_visual",
+      "prior_sha256": "55cee5556c289834f167b31e9eed0d8670ef8a57d0cd2aeda46cf5fbdf01245a",
+      "compatibility_transform": "remove_task_excluded_image_reference_lines"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

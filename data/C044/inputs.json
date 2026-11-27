@@ -1,0 +1,81 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "C044",
+    "domain": "clinical",
+    "title": "Cognitive Behavioral Therapy Alone or in Combination with Eszopiclone in Comorbid Insomnia and Obstructive Sleep Apnea in Veterans with Posttraumatic Stress Disorder: A Randomized Trial",
+    "doi": "10.1007/s11126-025-10143-9",
+    "pipeline": "clinical-trials",
+    "pmid": "40202618",
+    "pmcid": "PMC12647318",
+    "registry": "NCT03937713"
+  },
+  "files": [
+    {
+      "path": "sources/article.xml",
+      "sha256": "d7bdc43e82d1896d3660b0dd4b3e28a3716c6013a1b7c69c4c267d316fd117b2",
+      "bytes": 137417,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12647318/fullTextXML"
+      ],
+      "association": "official full text for exact PMCID"
+    },
+    {
+      "path": "records/ClinicalTrials-NCT03937713.json",
+      "sha256": "81da95c781ea6409973b91a1b0ccee2887fec5b3b0491dca69358f9ab8b9f40d",
+      "bytes": 38756,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://clinicaltrials.gov/api/v2/studies/NCT03937713"
+      ],
+      "association": "exact trial accession reported in article",
+      "original_filename": "registry.json",
+      "retrieved_at": "2026-10-17T21:53:43+08:00",
+      "derived_from": "4afe23df62574d9bb82b4f09fdb6833568b0f612df78cacf06a05a4a38a3ee43",
+      "original_sha256": "4afe23df62574d9bb82b4f09fdb6833568b0f612df78cacf06a05a4a38a3ee43",
+      "representation": "refine-lexical-json-1",
+      "provenance_transform": "exact_json_whitespace_compaction"
+    },
+    {
+      "path": "figures/11126_2025_10143_Fig1_HTML.jpg",
+      "sha256": "cb263cc24ae00293ea5d2215f25de49ab0e979b7cd0e4b7cb03ecb7aceee9061",
+      "bytes": 77575,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12647318/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package"
+    },
+    {
+      "path": "figures/11126_2025_10143_Fig2_HTML.jpg",
+      "sha256": "a0dcc81c55727fe4405f42ce21b0d0f544c0bfbf1856510179a2c3591d75c319",
+      "bytes": 23263,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12647318/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID supplementary package"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

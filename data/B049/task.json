@@ -1,0 +1,32 @@
+{
+  "case_id": "B049",
+  "task_id": "B049",
+  "title": "Matrix Stiffness Induces Endothelial Network Senescence",
+  "doi": "10.1002/advs.76304",
+  "comparison_or_design": "Soft versus Stiff hydrogel conditions after the initial network-formation period.",
+  "observations_or_assays": [
+    "qRT-PCR for CDKN1A/CDKN2A"
+  ],
+  "time_scope": "48 hours of initial network formation followed by 48 hours in the assigned stiffness condition (day 4).",
+  "excluded": [
+    "Intermediate-stiffness conditions, Notch/JNK drug interventions and implant-capsule cohorts",
+    "Western blot, immunofluorescence, dsDNA, SA-β-gal, sequencing and other assays"
+  ],
+  "population_or_material": "Human endothelial-network preparations used for the day-4 senescence-marker qRT-PCR comparison.",
+  "requested_items": [
+    "Soft versus dynamically stiffened hydrogel, stiffness-switch schedule and qRT-PCR collection interval"
+  ],
+  "resources": [
+    {
+      "accession": "10.7924/r4r535",
+      "url": "https://doi.org/10.7924/r4r535"
+    }
+  ],
+  "domain": "basic",
+  "pipeline": "basic-research",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/basic-research.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

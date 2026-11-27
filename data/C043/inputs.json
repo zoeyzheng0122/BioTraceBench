@@ -1,0 +1,274 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "C043",
+    "domain": "clinical",
+    "title": "Cognition and obstructive sleep apnea in Parkinson’s disease: randomized controlled trial of positive airway pressure",
+    "doi": "10.1093/sleep/zsaf038",
+    "pipeline": "clinical-trials",
+    "pmid": "39945727",
+    "pmcid": "PMC12246369",
+    "registry": "NCT02209363（COPE-PAP）"
+  },
+  "files": [
+    {
+      "path": "sources/article.xml",
+      "sha256": "20d359c74f77ddc0930a26e0c185d60062744f2f8db29758dd7c30559ff208ed",
+      "bytes": 124300,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12246369/fullTextXML"
+      ],
+      "association": "exact PMCID from case identity"
+    },
+    {
+      "path": "records/NCT02209363.json",
+      "sha256": "4e7a2816d0bb2728c62ca82f67121fc4ce62892be425816f52e28acbb479ed04",
+      "bytes": 9072,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://clinicaltrials.gov/api/v2/studies/NCT02209363"
+      ],
+      "association": "own study registration explicitly reported in article; public record text only",
+      "original_filename": "NCT02209363.json",
+      "retrieved_at": "2026-10-18T01:08:57+08:00",
+      "derived_from": "4c0c9f721568eb09df1c165f3a741aabf5f049f2c98ca5a1d76fa7c201031d66",
+      "original_sha256": "4c0c9f721568eb09df1c165f3a741aabf5f049f2c98ca5a1d76fa7c201031d66",
+      "representation": "refine-lexical-json-1",
+      "provenance_transform": "exact_json_whitespace_compaction"
+    },
+    {
+      "path": "figures/zsaf038_fig1.jpg",
+      "sha256": "77e256cc9dbb2dcaaaa801683558f4bd9b8a8df9799500068ea4db72c86e9305",
+      "bytes": 122136,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12246369/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/zsaf038_fig2.jpg",
+      "sha256": "bdb4a958da7dcb1fde3d5a5e8ae8396adfc4b1e3c7a10d96fc8c9b4355da8c33",
+      "bytes": 11359,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12246369/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/zsaf038_fig3.jpg",
+      "sha256": "50375020d8c5433517082951a7e73b0b7c4174af7bef3bcc5733900f3e67e762",
+      "bytes": 95053,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12246369/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "supplements/zsaf038_suppl_supplementary_materials__refine/page-0003-region-01.png",
+      "sha256": "2e126d5758085a4c33e9bf9b4ee9b8ef1efa885ea8bcd762d4a608a89c63aa44",
+      "bytes": 211339,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12246369/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package",
+      "derived_from": "8e857b44a29be8028904720d3ad1ec2cf04b8a602268564e5c7e6095ab0870e0",
+      "original_sha256": "8e857b44a29be8028904720d3ad1ec2cf04b8a602268564e5c7e6095ab0870e0",
+      "original_filename": "zsaf038_suppl_supplementary_materials.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_grayscale"
+    },
+    {
+      "path": "supplements/zsaf038_suppl_supplementary_materials__refine/page-0004-region-01.png",
+      "sha256": "654fd53b41eb0cc3208cf93e394190a3128ce13d66268ad288f0516a3b568121",
+      "bytes": 186935,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12246369/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package",
+      "derived_from": "8e857b44a29be8028904720d3ad1ec2cf04b8a602268564e5c7e6095ab0870e0",
+      "original_sha256": "8e857b44a29be8028904720d3ad1ec2cf04b8a602268564e5c7e6095ab0870e0",
+      "original_filename": "zsaf038_suppl_supplementary_materials.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_grayscale"
+    },
+    {
+      "path": "supplements/zsaf038_suppl_supplementary_materials__refine/page-0005-region-01.png",
+      "sha256": "4191c5a05f7dba58fb01f056bda1653c1d169ba5ba5d6e69b7da1ae189290af5",
+      "bytes": 73979,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12246369/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package",
+      "derived_from": "8e857b44a29be8028904720d3ad1ec2cf04b8a602268564e5c7e6095ab0870e0",
+      "original_sha256": "8e857b44a29be8028904720d3ad1ec2cf04b8a602268564e5c7e6095ab0870e0",
+      "original_filename": "zsaf038_suppl_supplementary_materials.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_grayscale"
+    },
+    {
+      "path": "supplements/zsaf038_suppl_supplementary_materials__refine/page-0006-region-01.png",
+      "sha256": "0628cb77fdc25c49c4ec2d67ab3942c77b899f16eabf741bc503d6c02dec32bb",
+      "bytes": 8330,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12246369/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package",
+      "derived_from": "8e857b44a29be8028904720d3ad1ec2cf04b8a602268564e5c7e6095ab0870e0",
+      "original_sha256": "8e857b44a29be8028904720d3ad1ec2cf04b8a602268564e5c7e6095ab0870e0",
+      "original_filename": "zsaf038_suppl_supplementary_materials.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_grayscale"
+    },
+    {
+      "path": "supplements/zsaf038_suppl_supplementary_materials__refine/page-0007-region-01.png",
+      "sha256": "fa187ec46a620b3ca55b67bd31210377b0907adc8fd57514a6940b8ab6ae868a",
+      "bytes": 1664,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12246369/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package",
+      "derived_from": "8e857b44a29be8028904720d3ad1ec2cf04b8a602268564e5c7e6095ab0870e0",
+      "original_sha256": "8e857b44a29be8028904720d3ad1ec2cf04b8a602268564e5c7e6095ab0870e0",
+      "original_filename": "zsaf038_suppl_supplementary_materials.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_grayscale"
+    },
+    {
+      "path": "supplements/zsaf038_suppl_supplementary_materials__refine/page-0008-region-01.png",
+      "sha256": "673aa748652931ab3c80c771b607db9c3789c31af8c9f2fc2766fa83e5017679",
+      "bytes": 5652,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12246369/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package",
+      "derived_from": "8e857b44a29be8028904720d3ad1ec2cf04b8a602268564e5c7e6095ab0870e0",
+      "original_sha256": "8e857b44a29be8028904720d3ad1ec2cf04b8a602268564e5c7e6095ab0870e0",
+      "original_filename": "zsaf038_suppl_supplementary_materials.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_grayscale"
+    },
+    {
+      "path": "supplements/zsaf038_suppl_supplementary_materials__refine/page-0009-region-01.png",
+      "sha256": "08eb00300fabc3349866845ad7125dacb3dd6e7713bf566cb72b31672ea58883",
+      "bytes": 1639,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12246369/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package",
+      "derived_from": "8e857b44a29be8028904720d3ad1ec2cf04b8a602268564e5c7e6095ab0870e0",
+      "original_sha256": "8e857b44a29be8028904720d3ad1ec2cf04b8a602268564e5c7e6095ab0870e0",
+      "original_filename": "zsaf038_suppl_supplementary_materials.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_grayscale"
+    },
+    {
+      "path": "supplements/zsaf038_suppl_supplementary_materials__refine/page-0010-region-01.png",
+      "sha256": "6bbb9db8e0b0a4397c7ad2fe42709eb65d5ae9a73b99b0cd4df3227b6c321ad0",
+      "bytes": 53160,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12246369/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package",
+      "derived_from": "8e857b44a29be8028904720d3ad1ec2cf04b8a602268564e5c7e6095ab0870e0",
+      "original_sha256": "8e857b44a29be8028904720d3ad1ec2cf04b8a602268564e5c7e6095ab0870e0",
+      "original_filename": "zsaf038_suppl_supplementary_materials.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_palette"
+    },
+    {
+      "path": "supplements/zsaf038_suppl_supplementary_materials__refine/content.md",
+      "sha256": "c1fd93859a5a9981bea4791a5f238b68b459293b1f340b16a14ba9d8995a7364",
+      "bytes": 21085,
+      "role": "supplement",
+      "roles": [
+        "supplement"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12246369/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package",
+      "derived_from": "8e857b44a29be8028904720d3ad1ec2cf04b8a602268564e5c7e6095ab0870e0",
+      "original_sha256": "8e857b44a29be8028904720d3ad1ec2cf04b8a602268564e5c7e6095ab0870e0",
+      "original_filename": "zsaf038_suppl_supplementary_materials.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "pdf_text_visual"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

@@ -1,0 +1,178 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX25127887 (experiment)",
+      "method": "Novogene mRNA library C13NEP from Qiagen RNeasy Micro Kit total RNA. The protocol reports 40 million 150 bp paired-end reads per library, FastQC quality checks, Salmon against hg38 and DESeq2 analysis.",
+      "platform": "Illumina HiSeq 2500",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0002",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX25127888 (experiment)",
+      "method": "Novogene mRNA library C14NEP from Qiagen RNeasy Micro Kit total RNA. The protocol reports 40 million 150 bp paired-end reads per library, FastQC quality checks, Salmon against hg38 and DESeq2 analysis.",
+      "platform": "Illumina HiSeq 2500",
+      "sample_ids": [
+        "S0002"
+      ]
+    },
+    {
+      "assay_id": "A0003",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX25127889 (experiment)",
+      "method": "Novogene mRNA library C15NEP from Qiagen RNeasy Micro Kit total RNA. The protocol reports 40 million 150 bp paired-end reads per library, FastQC quality checks, Salmon against hg38 and DESeq2 analysis.",
+      "platform": "Illumina HiSeq 2500",
+      "sample_ids": [
+        "S0003"
+      ]
+    },
+    {
+      "assay_id": "A0004",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX25127884 (experiment)",
+      "method": "Novogene mRNA library D10NEP from Qiagen RNeasy Micro Kit total RNA. The protocol reports 40 million 150 bp paired-end reads per library, FastQC quality checks, Salmon against hg38 and DESeq2 analysis.",
+      "platform": "Illumina HiSeq 2500",
+      "sample_ids": [
+        "S0004"
+      ]
+    },
+    {
+      "assay_id": "A0005",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX25127885 (experiment)",
+      "method": "Novogene mRNA library D11NEP from Qiagen RNeasy Micro Kit total RNA. The protocol reports 40 million 150 bp paired-end reads per library, FastQC quality checks, Salmon against hg38 and DESeq2 analysis.",
+      "platform": "Illumina HiSeq 2500",
+      "sample_ids": [
+        "S0005"
+      ]
+    },
+    {
+      "assay_id": "A0006",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX25127886 (experiment)",
+      "method": "Novogene mRNA library D12NEP from Qiagen RNeasy Micro Kit total RNA. The protocol reports 40 million 150 bp paired-end reads per library, FastQC quality checks, Salmon against hg38 and DESeq2 analysis.",
+      "platform": "Illumina HiSeq 2500",
+      "sample_ids": [
+        "S0006"
+      ]
+    },
+    {
+      "assay_id": "A0007",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX25127890 (experiment)",
+      "method": "Novogene mRNA library K16NEP from Qiagen RNeasy Micro Kit total RNA. The protocol reports 40 million 150 bp paired-end reads per library, FastQC quality checks, Salmon against hg38 and DESeq2 analysis.",
+      "platform": "Illumina HiSeq 2500",
+      "sample_ids": [
+        "S0007"
+      ]
+    },
+    {
+      "assay_id": "A0008",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX25127891 (experiment)",
+      "method": "Novogene mRNA library K17NEP from Qiagen RNeasy Micro Kit total RNA. The protocol reports 40 million 150 bp paired-end reads per library, FastQC quality checks, Salmon against hg38 and DESeq2 analysis.",
+      "platform": "Illumina HiSeq 2500",
+      "sample_ids": [
+        "S0008"
+      ]
+    },
+    {
+      "assay_id": "A0009",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX25127892 (experiment)",
+      "method": "Novogene mRNA library K18NEP from Qiagen RNeasy Micro Kit total RNA. The protocol reports 40 million 150 bp paired-end reads per library, FastQC quality checks, Salmon against hg38 and DESeq2 analysis.",
+      "platform": "Illumina HiSeq 2500",
+      "sample_ids": [
+        "S0009"
+      ]
+    }
+  ],
+  "condition": [],
+  "sample": [
+    {
+      "biological_model": "Mutation-corrected isogenic forebrain neural progenitor cells",
+      "biological_source": "Pair III Ctrl_III iPSC line",
+      "sample_accession": "GEO:GSM8365526 (sample); BioSample:SAMN42143712 (sample)",
+      "sample_id": "S0001",
+      "sample_material": "Total RNA extracted from NPCs differentiated from the Pair III Ctrl_III iPSC line. Biological replicate 1. Requested NPC collection time after neural induction: numerical value not reported; no quantitative condition row created.",
+      "sample_name": "Correctted iPSCs derived NPCs, bio rep1",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Mutation-corrected isogenic forebrain neural progenitor cells",
+      "biological_source": "Pair III Ctrl_III iPSC line",
+      "sample_accession": "GEO:GSM8365527 (sample); BioSample:SAMN42143711 (sample)",
+      "sample_id": "S0002",
+      "sample_material": "Total RNA extracted from NPCs differentiated from the Pair III Ctrl_III iPSC line. Biological replicate 2. Requested NPC collection time after neural induction: numerical value not reported; no quantitative condition row created.",
+      "sample_name": "Correctted iPSCs derived NPCs, bio rep2",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Mutation-corrected isogenic forebrain neural progenitor cells",
+      "biological_source": "Pair III Ctrl_III iPSC line",
+      "sample_accession": "GEO:GSM8365528 (sample); BioSample:SAMN42143710 (sample)",
+      "sample_id": "S0003",
+      "sample_material": "Total RNA extracted from NPCs differentiated from the Pair III Ctrl_III iPSC line. Biological replicate 3. Requested NPC collection time after neural induction: numerical value not reported; no quantitative condition row created.",
+      "sample_name": "Correctted iPSCs derived NPCs, bio rep3",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "IVNS1ABP F253C/F253C isogenic forebrain neural progenitor cells",
+      "biological_source": "Pair III MT_III iPSC line",
+      "sample_accession": "GEO:GSM8365523 (sample); BioSample:SAMN42143715 (sample)",
+      "sample_id": "S0004",
+      "sample_material": "Total RNA extracted from NPCs differentiated from the Pair III MT_III iPSC line. Biological replicate 1. Requested NPC collection time after neural induction: numerical value not reported; no quantitative condition row created.",
+      "sample_name": "MT iPSCs derived NPCs, bio rep1",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "IVNS1ABP F253C/F253C isogenic forebrain neural progenitor cells",
+      "biological_source": "Pair III MT_III iPSC line",
+      "sample_accession": "GEO:GSM8365524 (sample); BioSample:SAMN42143714 (sample)",
+      "sample_id": "S0005",
+      "sample_material": "Total RNA extracted from NPCs differentiated from the Pair III MT_III iPSC line. Biological replicate 2. Requested NPC collection time after neural induction: numerical value not reported; no quantitative condition row created.",
+      "sample_name": "MT iPSCs derived NPCs, bio rep2",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "IVNS1ABP F253C/F253C isogenic forebrain neural progenitor cells",
+      "biological_source": "Pair III MT_III iPSC line",
+      "sample_accession": "GEO:GSM8365525 (sample); BioSample:SAMN42143713 (sample)",
+      "sample_id": "S0006",
+      "sample_material": "Total RNA extracted from NPCs differentiated from the Pair III MT_III iPSC line. Biological replicate 3. Requested NPC collection time after neural induction: numerical value not reported; no quantitative condition row created.",
+      "sample_name": "MT iPSCs derived NPCs, bio rep3",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "IVNS1ABP-knockout isogenic forebrain neural progenitor cells",
+      "biological_source": "Pair III IVNS1ABP-knockout iPSC line",
+      "sample_accession": "GEO:GSM8365529 (sample); BioSample:SAMN42143709 (sample)",
+      "sample_id": "S0007",
+      "sample_material": "Total RNA extracted from NPCs differentiated from the Pair III IVNS1ABP-knockout iPSC line. Biological replicate 1. Requested NPC collection time after neural induction: numerical value not reported; no quantitative condition row created.",
+      "sample_name": "KO iPSCs derived NPCs, bio rep1",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "IVNS1ABP-knockout isogenic forebrain neural progenitor cells",
+      "biological_source": "Pair III IVNS1ABP-knockout iPSC line",
+      "sample_accession": "GEO:GSM8365530 (sample); BioSample:SAMN42143708 (sample)",
+      "sample_id": "S0008",
+      "sample_material": "Total RNA extracted from NPCs differentiated from the Pair III IVNS1ABP-knockout iPSC line. Biological replicate 2. Requested NPC collection time after neural induction: numerical value not reported; no quantitative condition row created.",
+      "sample_name": "KO iPSCs derived NPCs, bio rep2",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "IVNS1ABP-knockout isogenic forebrain neural progenitor cells",
+      "biological_source": "Pair III IVNS1ABP-knockout iPSC line",
+      "sample_accession": "GEO:GSM8365531 (sample); BioSample:SAMN42143707 (sample)",
+      "sample_id": "S0009",
+      "sample_material": "Total RNA extracted from NPCs differentiated from the Pair III IVNS1ABP-knockout iPSC line. Biological replicate 3. Requested NPC collection time after neural induction: numerical value not reported; no quantitative condition row created.",
+      "sample_name": "KO iPSCs derived NPCs, bio rep3",
+      "species": "Homo sapiens"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "case_id": "C029",
+  "task_id": "C029",
+  "title": "The feasibility of delivering and evaluating stratified care integrated with telehealth (‘Rapid Stratified Telehealth’) for patients with low back pain: a feasibility and pilot randomised controlled trial",
+  "doi": "10.1007/s10067-026-07955-w",
+  "comparison_or_design": "The randomized Rapid Stratified Telehealth pilot comparison.",
+  "observations_or_assays": [
+    "Waiting time from randomization to first rheumatologist appointment",
+    "Pain in the past 7 days",
+    "Roland–Morris disability score"
+  ],
+  "time_scope": "Waiting time to the first appointment; baseline to month 3 for pain and RMDQ.",
+  "excluded": [
+    "Other visits, appointment counts, other feasibility outcomes and PROMIS domains",
+    "Qualitative interviews, utilization and safety"
+  ],
+  "population_or_material": "The randomized pilot trial groups, retaining the actual denominator used for appointment waiting-time summaries.",
+  "requested_items": [
+    "Reported waiting-time medians/IQR and explicit qualitative waiting-time comparison; baseline/month-three observed pain/RMDQ medians/IQR with actual assessed denominators. Do not calculate missing contrasts or significance."
+  ],
+  "resources": [],
+  "case_specific_rules": [],
+  "domain": "clinical",
+  "pipeline": "clinical-trials",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/clinical-trials.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

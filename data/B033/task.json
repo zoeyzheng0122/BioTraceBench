@@ -1,0 +1,32 @@
+{
+  "case_id": "B033",
+  "task_id": "B033",
+  "title": "Human meibomian gland organoids to study epithelial homeostasis and dysfunction",
+  "doi": "10.1093/procel/pwaf095",
+  "comparison_or_design": "The native tissue versus matching cultured organoids, retaining donor-to-derived-material links only where supported.",
+  "observations_or_assays": [
+    "10x single-cell RNA sequencing"
+  ],
+  "time_scope": "The collection/culture stage used for the paired tissue/organoid sequencing experiment.",
+  "excluded": [
+    "Mouse cultures, lipidomics, drug treatments and MAPK-inhibitor branches",
+    "Cell-type proportions, clustering/marker results and independent functional assays"
+  ],
+  "population_or_material": "Human meibomian-gland tissue preparations and their matching organoid preparations in the parallel scRNA-seq experiment.",
+  "requested_items": [
+    "Native tissue versus matched organoid preparation and reported collection/culture stage"
+  ],
+  "resources": [
+    {
+      "accession": "SRP497138",
+      "url": "https://www.ncbi.nlm.nih.gov/sra?term=SRP497138"
+    }
+  ],
+  "domain": "basic",
+  "pipeline": "basic-research",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/basic-research.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

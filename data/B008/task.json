@@ -1,0 +1,32 @@
+{
+  "case_id": "B008",
+  "task_id": "B008",
+  "title": "Activation of TP53 target genes in the primary response of triple-negative breast cancer cells to doxorubicin treatment",
+  "doi": "10.1038/s41598-025-31087-x",
+  "comparison_or_design": "The initial doxorubicin exposure versus its corresponding DMSO vehicle controls; curate the reused dataset as reused data.",
+  "observations_or_assays": [
+    "Bulk RNA sequencing"
+  ],
+  "time_scope": "The article-defined initial 24-hour doxorubicin comparison.",
+  "excluded": [
+    "CAL51, other GEO accessions, resistant-cell and TP53-deletion branches",
+    "Etoposide, qPCR, viability and other independent validation assays"
+  ],
+  "population_or_material": "HCC1806 cells represented in the GSE174692 transcriptomic comparison used by this article.",
+  "requested_items": [
+    "Initial doxorubicin versus DMSO vehicle-control exposure, dose and collection interval\n\nInclude only the control-siRNA (siNT) samples used in the article’s Table 2. Exclude the MLK4-targeting siRNA (siMLK4) branch of GSE174692."
+  ],
+  "resources": [
+    {
+      "accession": "GSE174692",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE174692"
+    }
+  ],
+  "domain": "basic",
+  "pipeline": "basic-research",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/basic-research.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

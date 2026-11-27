@@ -1,0 +1,1412 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "Replication-coupled ATAC-seq",
+      "experiment_run_accession": "SRA:SRX28629978 (experiment)",
+      "method": "Library ESC_0h_nascent_repliATAC_rep1; Tn5 tagmentation followed by capture of biotinylated EdU-positive DNA; paired-end sequencing, 2 × 75 bp.",
+      "platform": "Illumina NextSeq 500",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0002",
+      "assay_type": "Replication-coupled ATAC-seq",
+      "experiment_run_accession": "SRA:SRX28629979 (experiment)",
+      "method": "Library ESC_0h_mature_repliATAC_rep1; Tn5 tagmentation followed by capture of biotinylated EdU-positive DNA after thymidine chase; paired-end sequencing, 2 × 75 bp.",
+      "platform": "Illumina NextSeq 500",
+      "sample_ids": [
+        "S0002"
+      ]
+    },
+    {
+      "assay_id": "A0003",
+      "assay_type": "ATAC-seq (unreplicated/bulk fraction)",
+      "experiment_run_accession": "SRA:SRX28629980 (experiment)",
+      "method": "Library ESC_0h_bulk_ATAC_rep1; unbound EdU-negative DNA from the matched nascent preparation; paired-end sequencing, 2 × 75 bp.",
+      "platform": "Illumina NextSeq 500",
+      "sample_ids": [
+        "S0003"
+      ]
+    },
+    {
+      "assay_id": "A0004",
+      "assay_type": "Replication-coupled ATAC-seq",
+      "experiment_run_accession": "SRA:SRX28629981 (experiment)",
+      "method": "Library ESC_9h_nascent_repliATAC_rep1; Tn5 tagmentation followed by capture of biotinylated EdU-positive DNA; paired-end sequencing, 2 × 75 bp.",
+      "platform": "Illumina NextSeq 500",
+      "sample_ids": [
+        "S0004"
+      ]
+    },
+    {
+      "assay_id": "A0005",
+      "assay_type": "Replication-coupled ATAC-seq",
+      "experiment_run_accession": "SRA:SRX28629982 (experiment)",
+      "method": "Library ESC_9h_mature_repliATAC_rep1; Tn5 tagmentation followed by capture of biotinylated EdU-positive DNA after thymidine chase; paired-end sequencing, 2 × 75 bp.",
+      "platform": "Illumina NextSeq 500",
+      "sample_ids": [
+        "S0005"
+      ]
+    },
+    {
+      "assay_id": "A0006",
+      "assay_type": "ATAC-seq (unreplicated/bulk fraction)",
+      "experiment_run_accession": "SRA:SRX28629983 (experiment)",
+      "method": "Library ESC_9h_bulk_ATAC_rep1; unbound EdU-negative DNA from the matched nascent preparation; paired-end sequencing, 2 × 75 bp.",
+      "platform": "Illumina NextSeq 500",
+      "sample_ids": [
+        "S0006"
+      ]
+    },
+    {
+      "assay_id": "A0007",
+      "assay_type": "Replication-coupled ATAC-seq",
+      "experiment_run_accession": "SRA:SRX28629984 (experiment)",
+      "method": "Library EpiLC_48h_nascent_repliATAC_rep1; Tn5 tagmentation followed by capture of biotinylated EdU-positive DNA; paired-end sequencing, 2 × 75 bp.",
+      "platform": "Illumina NextSeq 500",
+      "sample_ids": [
+        "S0007"
+      ]
+    },
+    {
+      "assay_id": "A0008",
+      "assay_type": "Replication-coupled ATAC-seq",
+      "experiment_run_accession": "SRA:SRX28629985 (experiment)",
+      "method": "Library EpiLC_48h_mature_repliATAC_rep1; Tn5 tagmentation followed by capture of biotinylated EdU-positive DNA after thymidine chase; paired-end sequencing, 2 × 75 bp.",
+      "platform": "Illumina NextSeq 500",
+      "sample_ids": [
+        "S0008"
+      ]
+    },
+    {
+      "assay_id": "A0009",
+      "assay_type": "ATAC-seq (unreplicated/bulk fraction)",
+      "experiment_run_accession": "SRA:SRX28629986 (experiment)",
+      "method": "Library EpiLC_48h_bulk_ATAC_rep1; unbound EdU-negative DNA from the matched nascent preparation; paired-end sequencing, 2 × 75 bp.",
+      "platform": "Illumina NextSeq 500",
+      "sample_ids": [
+        "S0009"
+      ]
+    },
+    {
+      "assay_id": "A0010",
+      "assay_type": "Replication-coupled ATAC-seq",
+      "experiment_run_accession": "SRA:SRX28629987 (experiment)",
+      "method": "Library ESC_0h_nascent_repliATAC_rep2; Tn5 tagmentation followed by capture of biotinylated EdU-positive DNA; paired-end sequencing, 2 × 75 bp.",
+      "platform": "Illumina NextSeq 500",
+      "sample_ids": [
+        "S0010"
+      ]
+    },
+    {
+      "assay_id": "A0011",
+      "assay_type": "Replication-coupled ATAC-seq",
+      "experiment_run_accession": "SRA:SRX28629988 (experiment)",
+      "method": "Library ESC_0h_mature_repliATAC_rep2; Tn5 tagmentation followed by capture of biotinylated EdU-positive DNA after thymidine chase; paired-end sequencing, 2 × 75 bp.",
+      "platform": "Illumina NextSeq 500",
+      "sample_ids": [
+        "S0011"
+      ]
+    },
+    {
+      "assay_id": "A0012",
+      "assay_type": "ATAC-seq (unreplicated/bulk fraction)",
+      "experiment_run_accession": "SRA:SRX28629989 (experiment)",
+      "method": "Library ESC_0h_bulk_ATAC_rep2; unbound EdU-negative DNA from the matched nascent preparation; paired-end sequencing, 2 × 75 bp.",
+      "platform": "Illumina NextSeq 500",
+      "sample_ids": [
+        "S0012"
+      ]
+    },
+    {
+      "assay_id": "A0013",
+      "assay_type": "Replication-coupled ATAC-seq",
+      "experiment_run_accession": "SRA:SRX28629990 (experiment)",
+      "method": "Library ESC_9h_nascent_repliATAC_rep2; Tn5 tagmentation followed by capture of biotinylated EdU-positive DNA; paired-end sequencing, 2 × 75 bp.",
+      "platform": "Illumina NextSeq 500",
+      "sample_ids": [
+        "S0013"
+      ]
+    },
+    {
+      "assay_id": "A0014",
+      "assay_type": "Replication-coupled ATAC-seq",
+      "experiment_run_accession": "SRA:SRX28629991 (experiment)",
+      "method": "Library ESC_9h_mature_repliATAC_rep2; Tn5 tagmentation followed by capture of biotinylated EdU-positive DNA after thymidine chase; paired-end sequencing, 2 × 75 bp.",
+      "platform": "Illumina NextSeq 500",
+      "sample_ids": [
+        "S0014"
+      ]
+    },
+    {
+      "assay_id": "A0015",
+      "assay_type": "ATAC-seq (unreplicated/bulk fraction)",
+      "experiment_run_accession": "SRA:SRX28629992 (experiment)",
+      "method": "Library ESC_9h_bulk_ATAC_rep2; unbound EdU-negative DNA from the matched nascent preparation; paired-end sequencing, 2 × 75 bp.",
+      "platform": "Illumina NextSeq 500",
+      "sample_ids": [
+        "S0015"
+      ]
+    },
+    {
+      "assay_id": "A0016",
+      "assay_type": "Replication-coupled ATAC-seq",
+      "experiment_run_accession": "SRA:SRX28629993 (experiment)",
+      "method": "Library EpiLC_48h_nascent_repliATAC_rep2; Tn5 tagmentation followed by capture of biotinylated EdU-positive DNA; paired-end sequencing, 2 × 75 bp.",
+      "platform": "Illumina NextSeq 500",
+      "sample_ids": [
+        "S0016"
+      ]
+    },
+    {
+      "assay_id": "A0017",
+      "assay_type": "Replication-coupled ATAC-seq",
+      "experiment_run_accession": "SRA:SRX28629994 (experiment)",
+      "method": "Library EpiLC_48h_mature_repliATAC_rep2; Tn5 tagmentation followed by capture of biotinylated EdU-positive DNA after thymidine chase; paired-end sequencing, 2 × 75 bp.",
+      "platform": "Illumina NextSeq 500",
+      "sample_ids": [
+        "S0017"
+      ]
+    },
+    {
+      "assay_id": "A0018",
+      "assay_type": "ATAC-seq (unreplicated/bulk fraction)",
+      "experiment_run_accession": "SRA:SRX28629995 (experiment)",
+      "method": "Library EpiLC_48h_bulk_ATAC_rep2; unbound EdU-negative DNA from the matched nascent preparation; paired-end sequencing, 2 × 75 bp.",
+      "platform": "Illumina NextSeq 500",
+      "sample_ids": [
+        "S0018"
+      ]
+    },
+    {
+      "assay_id": "A0019",
+      "assay_type": "Replication-coupled ATAC-seq",
+      "experiment_run_accession": "SRA:SRX28629996 (experiment)",
+      "method": "Library ESC_0h_nascent_repliATAC_rep3; Tn5 tagmentation followed by capture of biotinylated EdU-positive DNA; paired-end sequencing, 2 × 75 bp.",
+      "platform": "Illumina NextSeq 500",
+      "sample_ids": [
+        "S0019"
+      ]
+    },
+    {
+      "assay_id": "A0020",
+      "assay_type": "Replication-coupled ATAC-seq",
+      "experiment_run_accession": "SRA:SRX28629997 (experiment)",
+      "method": "Library ESC_0h_mature_repliATAC_rep3; Tn5 tagmentation followed by capture of biotinylated EdU-positive DNA after thymidine chase; paired-end sequencing, 2 × 75 bp.",
+      "platform": "Illumina NextSeq 500",
+      "sample_ids": [
+        "S0020"
+      ]
+    },
+    {
+      "assay_id": "A0021",
+      "assay_type": "ATAC-seq (unreplicated/bulk fraction)",
+      "experiment_run_accession": "SRA:SRX28629998 (experiment)",
+      "method": "Library ESC_0h_bulk_ATAC_rep3; unbound EdU-negative DNA from the matched nascent preparation; paired-end sequencing, 2 × 75 bp.",
+      "platform": "Illumina NextSeq 500",
+      "sample_ids": [
+        "S0021"
+      ]
+    },
+    {
+      "assay_id": "A0022",
+      "assay_type": "Replication-coupled ATAC-seq",
+      "experiment_run_accession": "SRA:SRX28629999 (experiment)",
+      "method": "Library ESC_9h_nascent_repliATAC_rep3; Tn5 tagmentation followed by capture of biotinylated EdU-positive DNA; paired-end sequencing, 2 × 75 bp.",
+      "platform": "Illumina NextSeq 500",
+      "sample_ids": [
+        "S0022"
+      ]
+    },
+    {
+      "assay_id": "A0023",
+      "assay_type": "Replication-coupled ATAC-seq",
+      "experiment_run_accession": "SRA:SRX28630000 (experiment)",
+      "method": "Library ESC_9h_mature_repliATAC_rep3; Tn5 tagmentation followed by capture of biotinylated EdU-positive DNA after thymidine chase; paired-end sequencing, 2 × 75 bp.",
+      "platform": "Illumina NextSeq 500",
+      "sample_ids": [
+        "S0023"
+      ]
+    },
+    {
+      "assay_id": "A0024",
+      "assay_type": "ATAC-seq (unreplicated/bulk fraction)",
+      "experiment_run_accession": "SRA:SRX28630001 (experiment)",
+      "method": "Library ESC_9h_bulk_ATAC_rep3; unbound EdU-negative DNA from the matched nascent preparation; paired-end sequencing, 2 × 75 bp.",
+      "platform": "Illumina NextSeq 500",
+      "sample_ids": [
+        "S0024"
+      ]
+    },
+    {
+      "assay_id": "A0025",
+      "assay_type": "Replication-coupled ATAC-seq",
+      "experiment_run_accession": "SRA:SRX28630002 (experiment)",
+      "method": "Library EpiLC_48h_nascent_repliATAC_rep3; Tn5 tagmentation followed by capture of biotinylated EdU-positive DNA; paired-end sequencing, 2 × 75 bp.",
+      "platform": "Illumina NextSeq 500",
+      "sample_ids": [
+        "S0025"
+      ]
+    },
+    {
+      "assay_id": "A0026",
+      "assay_type": "Replication-coupled ATAC-seq",
+      "experiment_run_accession": "SRA:SRX28630003 (experiment)",
+      "method": "Library EpiLC_48h_mature_repliATAC_rep3; Tn5 tagmentation followed by capture of biotinylated EdU-positive DNA after thymidine chase; paired-end sequencing, 2 × 75 bp.",
+      "platform": "Illumina NextSeq 500",
+      "sample_ids": [
+        "S0026"
+      ]
+    },
+    {
+      "assay_id": "A0027",
+      "assay_type": "ATAC-seq (unreplicated/bulk fraction)",
+      "experiment_run_accession": "SRA:SRX28630004 (experiment)",
+      "method": "Library EpiLC_48h_bulk_ATAC_rep3; unbound EdU-negative DNA from the matched nascent preparation; paired-end sequencing, 2 × 75 bp.",
+      "platform": "Illumina NextSeq 500",
+      "sample_ids": [
+        "S0027"
+      ]
+    }
+  ],
+  "condition": [
+    {
+      "condition_id": "C0001",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EpiLC induction time",
+      "factor_unit": "h",
+      "factor_value": 0,
+      "sample_id": "S0001",
+      "time": "Relative to the switch from naive ESC culture to EpiLC induction conditions"
+    },
+    {
+      "condition_id": "C0003",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EdU labelling concentration",
+      "factor_unit": "µM",
+      "factor_value": 20,
+      "sample_id": "S0001",
+      "time": "10-min pulse immediately before cell collection"
+    },
+    {
+      "condition_id": "C0004",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EpiLC induction time",
+      "factor_unit": "h",
+      "factor_value": 0,
+      "sample_id": "S0002",
+      "time": "Relative to the switch from naive ESC culture to EpiLC induction conditions"
+    },
+    {
+      "condition_id": "C0006",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EdU labelling concentration",
+      "factor_unit": "µM",
+      "factor_value": 20,
+      "sample_id": "S0002",
+      "time": "10-min pulse immediately before the thymidine chase"
+    },
+    {
+      "condition_id": "C0007",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "Thymidine chase concentration",
+      "factor_unit": "µM",
+      "factor_value": 10,
+      "sample_id": "S0002",
+      "time": "For 1 h 50 min after the EdU pulse, before cell collection; 2 h from EdU pulse initiation to collection"
+    },
+    {
+      "condition_id": "C0008",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EpiLC induction time",
+      "factor_unit": "h",
+      "factor_value": 0,
+      "sample_id": "S0003",
+      "time": "Relative to the switch from naive ESC culture to EpiLC induction conditions"
+    },
+    {
+      "condition_id": "C0010",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EdU labelling of source cells",
+      "factor_unit": "µM",
+      "factor_value": 20,
+      "sample_id": "S0003",
+      "time": "10-min pulse before collection of the source nascent preparation; assayed DNA is the EdU-negative fraction"
+    },
+    {
+      "condition_id": "C0011",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EpiLC induction time",
+      "factor_unit": "h",
+      "factor_value": 9,
+      "sample_id": "S0004",
+      "time": "Relative to the switch from naive ESC culture to EpiLC induction conditions"
+    },
+    {
+      "condition_id": "C0013",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EdU labelling concentration",
+      "factor_unit": "µM",
+      "factor_value": 20,
+      "sample_id": "S0004",
+      "time": "10-min pulse immediately before cell collection"
+    },
+    {
+      "condition_id": "C0014",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EpiLC induction time",
+      "factor_unit": "h",
+      "factor_value": 9,
+      "sample_id": "S0005",
+      "time": "Relative to the switch from naive ESC culture to EpiLC induction conditions"
+    },
+    {
+      "condition_id": "C0016",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EdU labelling concentration",
+      "factor_unit": "µM",
+      "factor_value": 20,
+      "sample_id": "S0005",
+      "time": "10-min pulse immediately before the thymidine chase"
+    },
+    {
+      "condition_id": "C0017",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "Thymidine chase concentration",
+      "factor_unit": "µM",
+      "factor_value": 10,
+      "sample_id": "S0005",
+      "time": "For 1 h 50 min after the EdU pulse, before cell collection; 2 h from EdU pulse initiation to collection"
+    },
+    {
+      "condition_id": "C0018",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EpiLC induction time",
+      "factor_unit": "h",
+      "factor_value": 9,
+      "sample_id": "S0006",
+      "time": "Relative to the switch from naive ESC culture to EpiLC induction conditions"
+    },
+    {
+      "condition_id": "C0020",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EdU labelling of source cells",
+      "factor_unit": "µM",
+      "factor_value": 20,
+      "sample_id": "S0006",
+      "time": "10-min pulse before collection of the source nascent preparation; assayed DNA is the EdU-negative fraction"
+    },
+    {
+      "condition_id": "C0021",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EpiLC induction time",
+      "factor_unit": "h",
+      "factor_value": 48,
+      "sample_id": "S0007",
+      "time": "Relative to the switch from naive ESC culture to EpiLC induction conditions"
+    },
+    {
+      "condition_id": "C0023",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EdU labelling concentration",
+      "factor_unit": "µM",
+      "factor_value": 20,
+      "sample_id": "S0007",
+      "time": "10-min pulse immediately before cell collection"
+    },
+    {
+      "condition_id": "C0024",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EpiLC induction time",
+      "factor_unit": "h",
+      "factor_value": 48,
+      "sample_id": "S0008",
+      "time": "Relative to the switch from naive ESC culture to EpiLC induction conditions"
+    },
+    {
+      "condition_id": "C0026",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EdU labelling concentration",
+      "factor_unit": "µM",
+      "factor_value": 20,
+      "sample_id": "S0008",
+      "time": "10-min pulse immediately before the thymidine chase"
+    },
+    {
+      "condition_id": "C0027",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "Thymidine chase concentration",
+      "factor_unit": "µM",
+      "factor_value": 10,
+      "sample_id": "S0008",
+      "time": "For 1 h 50 min after the EdU pulse, before cell collection; 2 h from EdU pulse initiation to collection"
+    },
+    {
+      "condition_id": "C0028",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EpiLC induction time",
+      "factor_unit": "h",
+      "factor_value": 48,
+      "sample_id": "S0009",
+      "time": "Relative to the switch from naive ESC culture to EpiLC induction conditions"
+    },
+    {
+      "condition_id": "C0030",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EdU labelling of source cells",
+      "factor_unit": "µM",
+      "factor_value": 20,
+      "sample_id": "S0009",
+      "time": "10-min pulse before collection of the source nascent preparation; assayed DNA is the EdU-negative fraction"
+    },
+    {
+      "condition_id": "C0031",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EpiLC induction time",
+      "factor_unit": "h",
+      "factor_value": 0,
+      "sample_id": "S0010",
+      "time": "Relative to the switch from naive ESC culture to EpiLC induction conditions"
+    },
+    {
+      "condition_id": "C0033",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EdU labelling concentration",
+      "factor_unit": "µM",
+      "factor_value": 20,
+      "sample_id": "S0010",
+      "time": "10-min pulse immediately before cell collection"
+    },
+    {
+      "condition_id": "C0034",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EpiLC induction time",
+      "factor_unit": "h",
+      "factor_value": 0,
+      "sample_id": "S0011",
+      "time": "Relative to the switch from naive ESC culture to EpiLC induction conditions"
+    },
+    {
+      "condition_id": "C0036",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EdU labelling concentration",
+      "factor_unit": "µM",
+      "factor_value": 20,
+      "sample_id": "S0011",
+      "time": "10-min pulse immediately before the thymidine chase"
+    },
+    {
+      "condition_id": "C0037",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "Thymidine chase concentration",
+      "factor_unit": "µM",
+      "factor_value": 10,
+      "sample_id": "S0011",
+      "time": "For 1 h 50 min after the EdU pulse, before cell collection; 2 h from EdU pulse initiation to collection"
+    },
+    {
+      "condition_id": "C0038",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EpiLC induction time",
+      "factor_unit": "h",
+      "factor_value": 0,
+      "sample_id": "S0012",
+      "time": "Relative to the switch from naive ESC culture to EpiLC induction conditions"
+    },
+    {
+      "condition_id": "C0040",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EdU labelling of source cells",
+      "factor_unit": "µM",
+      "factor_value": 20,
+      "sample_id": "S0012",
+      "time": "10-min pulse before collection of the source nascent preparation; assayed DNA is the EdU-negative fraction"
+    },
+    {
+      "condition_id": "C0041",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EpiLC induction time",
+      "factor_unit": "h",
+      "factor_value": 9,
+      "sample_id": "S0013",
+      "time": "Relative to the switch from naive ESC culture to EpiLC induction conditions"
+    },
+    {
+      "condition_id": "C0043",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EdU labelling concentration",
+      "factor_unit": "µM",
+      "factor_value": 20,
+      "sample_id": "S0013",
+      "time": "10-min pulse immediately before cell collection"
+    },
+    {
+      "condition_id": "C0044",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EpiLC induction time",
+      "factor_unit": "h",
+      "factor_value": 9,
+      "sample_id": "S0014",
+      "time": "Relative to the switch from naive ESC culture to EpiLC induction conditions"
+    },
+    {
+      "condition_id": "C0046",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EdU labelling concentration",
+      "factor_unit": "µM",
+      "factor_value": 20,
+      "sample_id": "S0014",
+      "time": "10-min pulse immediately before the thymidine chase"
+    },
+    {
+      "condition_id": "C0047",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "Thymidine chase concentration",
+      "factor_unit": "µM",
+      "factor_value": 10,
+      "sample_id": "S0014",
+      "time": "For 1 h 50 min after the EdU pulse, before cell collection; 2 h from EdU pulse initiation to collection"
+    },
+    {
+      "condition_id": "C0048",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EpiLC induction time",
+      "factor_unit": "h",
+      "factor_value": 9,
+      "sample_id": "S0015",
+      "time": "Relative to the switch from naive ESC culture to EpiLC induction conditions"
+    },
+    {
+      "condition_id": "C0050",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EdU labelling of source cells",
+      "factor_unit": "µM",
+      "factor_value": 20,
+      "sample_id": "S0015",
+      "time": "10-min pulse before collection of the source nascent preparation; assayed DNA is the EdU-negative fraction"
+    },
+    {
+      "condition_id": "C0051",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EpiLC induction time",
+      "factor_unit": "h",
+      "factor_value": 48,
+      "sample_id": "S0016",
+      "time": "Relative to the switch from naive ESC culture to EpiLC induction conditions"
+    },
+    {
+      "condition_id": "C0053",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EdU labelling concentration",
+      "factor_unit": "µM",
+      "factor_value": 20,
+      "sample_id": "S0016",
+      "time": "10-min pulse immediately before cell collection"
+    },
+    {
+      "condition_id": "C0054",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EpiLC induction time",
+      "factor_unit": "h",
+      "factor_value": 48,
+      "sample_id": "S0017",
+      "time": "Relative to the switch from naive ESC culture to EpiLC induction conditions"
+    },
+    {
+      "condition_id": "C0056",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EdU labelling concentration",
+      "factor_unit": "µM",
+      "factor_value": 20,
+      "sample_id": "S0017",
+      "time": "10-min pulse immediately before the thymidine chase"
+    },
+    {
+      "condition_id": "C0057",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "Thymidine chase concentration",
+      "factor_unit": "µM",
+      "factor_value": 10,
+      "sample_id": "S0017",
+      "time": "For 1 h 50 min after the EdU pulse, before cell collection; 2 h from EdU pulse initiation to collection"
+    },
+    {
+      "condition_id": "C0058",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EpiLC induction time",
+      "factor_unit": "h",
+      "factor_value": 48,
+      "sample_id": "S0018",
+      "time": "Relative to the switch from naive ESC culture to EpiLC induction conditions"
+    },
+    {
+      "condition_id": "C0060",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EdU labelling of source cells",
+      "factor_unit": "µM",
+      "factor_value": 20,
+      "sample_id": "S0018",
+      "time": "10-min pulse before collection of the source nascent preparation; assayed DNA is the EdU-negative fraction"
+    },
+    {
+      "condition_id": "C0061",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EpiLC induction time",
+      "factor_unit": "h",
+      "factor_value": 0,
+      "sample_id": "S0019",
+      "time": "Relative to the switch from naive ESC culture to EpiLC induction conditions"
+    },
+    {
+      "condition_id": "C0063",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EdU labelling concentration",
+      "factor_unit": "µM",
+      "factor_value": 20,
+      "sample_id": "S0019",
+      "time": "10-min pulse immediately before cell collection"
+    },
+    {
+      "condition_id": "C0064",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EpiLC induction time",
+      "factor_unit": "h",
+      "factor_value": 0,
+      "sample_id": "S0020",
+      "time": "Relative to the switch from naive ESC culture to EpiLC induction conditions"
+    },
+    {
+      "condition_id": "C0066",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EdU labelling concentration",
+      "factor_unit": "µM",
+      "factor_value": 20,
+      "sample_id": "S0020",
+      "time": "10-min pulse immediately before the thymidine chase"
+    },
+    {
+      "condition_id": "C0067",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "Thymidine chase concentration",
+      "factor_unit": "µM",
+      "factor_value": 10,
+      "sample_id": "S0020",
+      "time": "For 1 h 50 min after the EdU pulse, before cell collection; 2 h from EdU pulse initiation to collection"
+    },
+    {
+      "condition_id": "C0068",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EpiLC induction time",
+      "factor_unit": "h",
+      "factor_value": 0,
+      "sample_id": "S0021",
+      "time": "Relative to the switch from naive ESC culture to EpiLC induction conditions"
+    },
+    {
+      "condition_id": "C0070",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EdU labelling of source cells",
+      "factor_unit": "µM",
+      "factor_value": 20,
+      "sample_id": "S0021",
+      "time": "10-min pulse before collection of the source nascent preparation; assayed DNA is the EdU-negative fraction"
+    },
+    {
+      "condition_id": "C0071",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EpiLC induction time",
+      "factor_unit": "h",
+      "factor_value": 9,
+      "sample_id": "S0022",
+      "time": "Relative to the switch from naive ESC culture to EpiLC induction conditions"
+    },
+    {
+      "condition_id": "C0073",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EdU labelling concentration",
+      "factor_unit": "µM",
+      "factor_value": 20,
+      "sample_id": "S0022",
+      "time": "10-min pulse immediately before cell collection"
+    },
+    {
+      "condition_id": "C0074",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EpiLC induction time",
+      "factor_unit": "h",
+      "factor_value": 9,
+      "sample_id": "S0023",
+      "time": "Relative to the switch from naive ESC culture to EpiLC induction conditions"
+    },
+    {
+      "condition_id": "C0076",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EdU labelling concentration",
+      "factor_unit": "µM",
+      "factor_value": 20,
+      "sample_id": "S0023",
+      "time": "10-min pulse immediately before the thymidine chase"
+    },
+    {
+      "condition_id": "C0077",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "Thymidine chase concentration",
+      "factor_unit": "µM",
+      "factor_value": 10,
+      "sample_id": "S0023",
+      "time": "For 1 h 50 min after the EdU pulse, before cell collection; 2 h from EdU pulse initiation to collection"
+    },
+    {
+      "condition_id": "C0078",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EpiLC induction time",
+      "factor_unit": "h",
+      "factor_value": 9,
+      "sample_id": "S0024",
+      "time": "Relative to the switch from naive ESC culture to EpiLC induction conditions"
+    },
+    {
+      "condition_id": "C0080",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EdU labelling of source cells",
+      "factor_unit": "µM",
+      "factor_value": 20,
+      "sample_id": "S0024",
+      "time": "10-min pulse before collection of the source nascent preparation; assayed DNA is the EdU-negative fraction"
+    },
+    {
+      "condition_id": "C0081",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EpiLC induction time",
+      "factor_unit": "h",
+      "factor_value": 48,
+      "sample_id": "S0025",
+      "time": "Relative to the switch from naive ESC culture to EpiLC induction conditions"
+    },
+    {
+      "condition_id": "C0083",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EdU labelling concentration",
+      "factor_unit": "µM",
+      "factor_value": 20,
+      "sample_id": "S0025",
+      "time": "10-min pulse immediately before cell collection"
+    },
+    {
+      "condition_id": "C0084",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EpiLC induction time",
+      "factor_unit": "h",
+      "factor_value": 48,
+      "sample_id": "S0026",
+      "time": "Relative to the switch from naive ESC culture to EpiLC induction conditions"
+    },
+    {
+      "condition_id": "C0086",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EdU labelling concentration",
+      "factor_unit": "µM",
+      "factor_value": 20,
+      "sample_id": "S0026",
+      "time": "10-min pulse immediately before the thymidine chase"
+    },
+    {
+      "condition_id": "C0087",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "Thymidine chase concentration",
+      "factor_unit": "µM",
+      "factor_value": 10,
+      "sample_id": "S0026",
+      "time": "For 1 h 50 min after the EdU pulse, before cell collection; 2 h from EdU pulse initiation to collection"
+    },
+    {
+      "condition_id": "C0088",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EpiLC induction time",
+      "factor_unit": "h",
+      "factor_value": 48,
+      "sample_id": "S0027",
+      "time": "Relative to the switch from naive ESC culture to EpiLC induction conditions"
+    },
+    {
+      "condition_id": "C0090",
+      "condition_target": "Source ESC/EpiLC cells",
+      "experimental_factor": "EdU labelling of source cells",
+      "factor_unit": "µM",
+      "factor_value": 20,
+      "sample_id": "S0027",
+      "time": "10-min pulse before collection of the source nascent preparation; assayed DNA is the EdU-negative fraction"
+    },
+    {
+      "condition_id": "C0002",
+      "condition_target": "Source ESC/EpiLC cells before chromatin fractionation",
+      "experimental_factor": "EdU pulse duration",
+      "factor_unit": "min",
+      "factor_value": 10,
+      "sample_id": "S0001",
+      "time": "From EdU addition to immediate harvest."
+    },
+    {
+      "condition_id": "C0005",
+      "condition_target": "Source ESC/EpiLC cells before chromatin fractionation",
+      "experimental_factor": "Thymidine chase duration",
+      "factor_unit": "min",
+      "factor_value": 110,
+      "sample_id": "S0002",
+      "time": "From the end of the 10 min EdU pulse to harvest."
+    },
+    {
+      "condition_id": "C0009",
+      "condition_target": "Source ESC/EpiLC cells before chromatin fractionation",
+      "experimental_factor": "EdU pulse duration",
+      "factor_unit": "min",
+      "factor_value": 10,
+      "sample_id": "S0002",
+      "time": "From EdU addition to the start of the thymidine chase."
+    },
+    {
+      "condition_id": "C0012",
+      "condition_target": "Source ESC/EpiLC cells before chromatin fractionation",
+      "experimental_factor": "EdU pulse duration",
+      "factor_unit": "min",
+      "factor_value": 10,
+      "sample_id": "S0003",
+      "time": "From EdU addition to harvest of the matched nascent source preparation."
+    },
+    {
+      "condition_id": "C0015",
+      "condition_target": "Source ESC/EpiLC cells before chromatin fractionation",
+      "experimental_factor": "EdU pulse duration",
+      "factor_unit": "min",
+      "factor_value": 10,
+      "sample_id": "S0004",
+      "time": "From EdU addition to immediate harvest."
+    },
+    {
+      "condition_id": "C0019",
+      "condition_target": "Source ESC/EpiLC cells before chromatin fractionation",
+      "experimental_factor": "Thymidine chase duration",
+      "factor_unit": "min",
+      "factor_value": 110,
+      "sample_id": "S0005",
+      "time": "From the end of the 10 min EdU pulse to harvest."
+    },
+    {
+      "condition_id": "C0022",
+      "condition_target": "Source ESC/EpiLC cells before chromatin fractionation",
+      "experimental_factor": "EdU pulse duration",
+      "factor_unit": "min",
+      "factor_value": 10,
+      "sample_id": "S0005",
+      "time": "From EdU addition to the start of the thymidine chase."
+    },
+    {
+      "condition_id": "C0025",
+      "condition_target": "Source ESC/EpiLC cells before chromatin fractionation",
+      "experimental_factor": "EdU pulse duration",
+      "factor_unit": "min",
+      "factor_value": 10,
+      "sample_id": "S0006",
+      "time": "From EdU addition to harvest of the matched nascent source preparation."
+    },
+    {
+      "condition_id": "C0029",
+      "condition_target": "Source ESC/EpiLC cells before chromatin fractionation",
+      "experimental_factor": "EdU pulse duration",
+      "factor_unit": "min",
+      "factor_value": 10,
+      "sample_id": "S0007",
+      "time": "From EdU addition to immediate harvest."
+    },
+    {
+      "condition_id": "C0032",
+      "condition_target": "Source ESC/EpiLC cells before chromatin fractionation",
+      "experimental_factor": "Thymidine chase duration",
+      "factor_unit": "min",
+      "factor_value": 110,
+      "sample_id": "S0008",
+      "time": "From the end of the 10 min EdU pulse to harvest."
+    },
+    {
+      "condition_id": "C0035",
+      "condition_target": "Source ESC/EpiLC cells before chromatin fractionation",
+      "experimental_factor": "EdU pulse duration",
+      "factor_unit": "min",
+      "factor_value": 10,
+      "sample_id": "S0008",
+      "time": "From EdU addition to the start of the thymidine chase."
+    },
+    {
+      "condition_id": "C0039",
+      "condition_target": "Source ESC/EpiLC cells before chromatin fractionation",
+      "experimental_factor": "EdU pulse duration",
+      "factor_unit": "min",
+      "factor_value": 10,
+      "sample_id": "S0009",
+      "time": "From EdU addition to harvest of the matched nascent source preparation."
+    },
+    {
+      "condition_id": "C0042",
+      "condition_target": "Source ESC/EpiLC cells before chromatin fractionation",
+      "experimental_factor": "EdU pulse duration",
+      "factor_unit": "min",
+      "factor_value": 10,
+      "sample_id": "S0010",
+      "time": "From EdU addition to immediate harvest."
+    },
+    {
+      "condition_id": "C0045",
+      "condition_target": "Source ESC/EpiLC cells before chromatin fractionation",
+      "experimental_factor": "Thymidine chase duration",
+      "factor_unit": "min",
+      "factor_value": 110,
+      "sample_id": "S0011",
+      "time": "From the end of the 10 min EdU pulse to harvest."
+    },
+    {
+      "condition_id": "C0049",
+      "condition_target": "Source ESC/EpiLC cells before chromatin fractionation",
+      "experimental_factor": "EdU pulse duration",
+      "factor_unit": "min",
+      "factor_value": 10,
+      "sample_id": "S0011",
+      "time": "From EdU addition to the start of the thymidine chase."
+    },
+    {
+      "condition_id": "C0052",
+      "condition_target": "Source ESC/EpiLC cells before chromatin fractionation",
+      "experimental_factor": "EdU pulse duration",
+      "factor_unit": "min",
+      "factor_value": 10,
+      "sample_id": "S0012",
+      "time": "From EdU addition to harvest of the matched nascent source preparation."
+    },
+    {
+      "condition_id": "C0055",
+      "condition_target": "Source ESC/EpiLC cells before chromatin fractionation",
+      "experimental_factor": "EdU pulse duration",
+      "factor_unit": "min",
+      "factor_value": 10,
+      "sample_id": "S0013",
+      "time": "From EdU addition to immediate harvest."
+    },
+    {
+      "condition_id": "C0059",
+      "condition_target": "Source ESC/EpiLC cells before chromatin fractionation",
+      "experimental_factor": "Thymidine chase duration",
+      "factor_unit": "min",
+      "factor_value": 110,
+      "sample_id": "S0014",
+      "time": "From the end of the 10 min EdU pulse to harvest."
+    },
+    {
+      "condition_id": "C0062",
+      "condition_target": "Source ESC/EpiLC cells before chromatin fractionation",
+      "experimental_factor": "EdU pulse duration",
+      "factor_unit": "min",
+      "factor_value": 10,
+      "sample_id": "S0014",
+      "time": "From EdU addition to the start of the thymidine chase."
+    },
+    {
+      "condition_id": "C0065",
+      "condition_target": "Source ESC/EpiLC cells before chromatin fractionation",
+      "experimental_factor": "EdU pulse duration",
+      "factor_unit": "min",
+      "factor_value": 10,
+      "sample_id": "S0015",
+      "time": "From EdU addition to harvest of the matched nascent source preparation."
+    },
+    {
+      "condition_id": "C0069",
+      "condition_target": "Source ESC/EpiLC cells before chromatin fractionation",
+      "experimental_factor": "EdU pulse duration",
+      "factor_unit": "min",
+      "factor_value": 10,
+      "sample_id": "S0016",
+      "time": "From EdU addition to immediate harvest."
+    },
+    {
+      "condition_id": "C0072",
+      "condition_target": "Source ESC/EpiLC cells before chromatin fractionation",
+      "experimental_factor": "Thymidine chase duration",
+      "factor_unit": "min",
+      "factor_value": 110,
+      "sample_id": "S0017",
+      "time": "From the end of the 10 min EdU pulse to harvest."
+    },
+    {
+      "condition_id": "C0075",
+      "condition_target": "Source ESC/EpiLC cells before chromatin fractionation",
+      "experimental_factor": "EdU pulse duration",
+      "factor_unit": "min",
+      "factor_value": 10,
+      "sample_id": "S0017",
+      "time": "From EdU addition to the start of the thymidine chase."
+    },
+    {
+      "condition_id": "C0079",
+      "condition_target": "Source ESC/EpiLC cells before chromatin fractionation",
+      "experimental_factor": "EdU pulse duration",
+      "factor_unit": "min",
+      "factor_value": 10,
+      "sample_id": "S0018",
+      "time": "From EdU addition to harvest of the matched nascent source preparation."
+    },
+    {
+      "condition_id": "C0082",
+      "condition_target": "Source ESC/EpiLC cells before chromatin fractionation",
+      "experimental_factor": "EdU pulse duration",
+      "factor_unit": "min",
+      "factor_value": 10,
+      "sample_id": "S0019",
+      "time": "From EdU addition to immediate harvest."
+    },
+    {
+      "condition_id": "C0085",
+      "condition_target": "Source ESC/EpiLC cells before chromatin fractionation",
+      "experimental_factor": "Thymidine chase duration",
+      "factor_unit": "min",
+      "factor_value": 110,
+      "sample_id": "S0020",
+      "time": "From the end of the 10 min EdU pulse to harvest."
+    },
+    {
+      "condition_id": "C0089",
+      "condition_target": "Source ESC/EpiLC cells before chromatin fractionation",
+      "experimental_factor": "EdU pulse duration",
+      "factor_unit": "min",
+      "factor_value": 10,
+      "sample_id": "S0020",
+      "time": "From EdU addition to the start of the thymidine chase."
+    },
+    {
+      "condition_id": "C0091",
+      "condition_target": "Source ESC/EpiLC cells before chromatin fractionation",
+      "experimental_factor": "EdU pulse duration",
+      "factor_unit": "min",
+      "factor_value": 10,
+      "sample_id": "S0021",
+      "time": "From EdU addition to harvest of the matched nascent source preparation."
+    },
+    {
+      "condition_id": "C0092",
+      "condition_target": "Source ESC/EpiLC cells before chromatin fractionation",
+      "experimental_factor": "EdU pulse duration",
+      "factor_unit": "min",
+      "factor_value": 10,
+      "sample_id": "S0022",
+      "time": "From EdU addition to immediate harvest."
+    },
+    {
+      "condition_id": "C0093",
+      "condition_target": "Source ESC/EpiLC cells before chromatin fractionation",
+      "experimental_factor": "Thymidine chase duration",
+      "factor_unit": "min",
+      "factor_value": 110,
+      "sample_id": "S0023",
+      "time": "From the end of the 10 min EdU pulse to harvest."
+    },
+    {
+      "condition_id": "C0094",
+      "condition_target": "Source ESC/EpiLC cells before chromatin fractionation",
+      "experimental_factor": "EdU pulse duration",
+      "factor_unit": "min",
+      "factor_value": 10,
+      "sample_id": "S0023",
+      "time": "From EdU addition to the start of the thymidine chase."
+    },
+    {
+      "condition_id": "C0095",
+      "condition_target": "Source ESC/EpiLC cells before chromatin fractionation",
+      "experimental_factor": "EdU pulse duration",
+      "factor_unit": "min",
+      "factor_value": 10,
+      "sample_id": "S0024",
+      "time": "From EdU addition to harvest of the matched nascent source preparation."
+    },
+    {
+      "condition_id": "C0096",
+      "condition_target": "Source ESC/EpiLC cells before chromatin fractionation",
+      "experimental_factor": "EdU pulse duration",
+      "factor_unit": "min",
+      "factor_value": 10,
+      "sample_id": "S0025",
+      "time": "From EdU addition to immediate harvest."
+    },
+    {
+      "condition_id": "C0097",
+      "condition_target": "Source ESC/EpiLC cells before chromatin fractionation",
+      "experimental_factor": "Thymidine chase duration",
+      "factor_unit": "min",
+      "factor_value": 110,
+      "sample_id": "S0026",
+      "time": "From the end of the 10 min EdU pulse to harvest."
+    },
+    {
+      "condition_id": "C0098",
+      "condition_target": "Source ESC/EpiLC cells before chromatin fractionation",
+      "experimental_factor": "EdU pulse duration",
+      "factor_unit": "min",
+      "factor_value": 10,
+      "sample_id": "S0026",
+      "time": "From EdU addition to the start of the thymidine chase."
+    },
+    {
+      "condition_id": "C0099",
+      "condition_target": "Source ESC/EpiLC cells before chromatin fractionation",
+      "experimental_factor": "EdU pulse duration",
+      "factor_unit": "min",
+      "factor_value": 10,
+      "sample_id": "S0027",
+      "time": "From EdU addition to harvest of the matched nascent source preparation."
+    }
+  ],
+  "sample": [
+    {
+      "biological_model": "Naive-to-primed ESC/EpiLC differentiation",
+      "biological_source": "Hex-redStart:Hnf4α-GFP reporter ESC clone 44_7 (E14Tg2a subclone; 129/Ola background)",
+      "sample_accession": "GEO:GSM8963432 (sample); BioSample:SAMN48251413 (sample)",
+      "sample_id": "S0001",
+      "sample_material": "Accessible genomic DNA fragments from nascent EdU-labelled chromatin, isolated immediately after a 10-min EdU pulse by biotin-streptavidin capture. Source condition/preparation descriptor: Chromatin preparation — Nascent replicated chromatin.",
+      "sample_name": "ESC_0h_nascent_repliATAC_rep1",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Naive-to-primed ESC/EpiLC differentiation",
+      "biological_source": "Hex-redStart:Hnf4α-GFP reporter ESC clone 44_7 (E14Tg2a subclone; 129/Ola background)",
+      "sample_accession": "GEO:GSM8963433 (sample); BioSample:SAMN48251411 (sample)",
+      "sample_id": "S0002",
+      "sample_material": "Accessible genomic DNA fragments from EdU-labelled chromatin after a 10-min EdU pulse followed by a 1 h 50 min thymidine chase, isolated by biotin-streptavidin capture. Source condition/preparation descriptor: Chromatin preparation — Mature replicated chromatin.",
+      "sample_name": "ESC_0h_mature_repliATAC_rep1",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Naive-to-primed ESC/EpiLC differentiation",
+      "biological_source": "Hex-redStart:Hnf4α-GFP reporter ESC clone 44_7 (E14Tg2a subclone; 129/Ola background)",
+      "sample_accession": "GEO:GSM8963434 (sample); BioSample:SAMN48251410 (sample)",
+      "sample_id": "S0003",
+      "sample_material": "Accessible genomic DNA fragments from the unbound, EdU-negative fraction of the matched nascent repli-ATAC preparation. Source condition/preparation descriptor: Chromatin preparation — EdU-negative unbound fraction from the matched nascent preparation.",
+      "sample_name": "ESC_0h_bulk_ATAC_rep1",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Naive-to-primed ESC/EpiLC differentiation",
+      "biological_source": "Hex-redStart:Hnf4α-GFP reporter ESC clone 44_7 (E14Tg2a subclone; 129/Ola background)",
+      "sample_accession": "GEO:GSM8963435 (sample); BioSample:SAMN48251409 (sample)",
+      "sample_id": "S0004",
+      "sample_material": "Accessible genomic DNA fragments from nascent EdU-labelled chromatin, isolated immediately after a 10-min EdU pulse by biotin-streptavidin capture. Source condition/preparation descriptor: Chromatin preparation — Nascent replicated chromatin.",
+      "sample_name": "ESC_9h_nascent_repliATAC_rep1",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Naive-to-primed ESC/EpiLC differentiation",
+      "biological_source": "Hex-redStart:Hnf4α-GFP reporter ESC clone 44_7 (E14Tg2a subclone; 129/Ola background)",
+      "sample_accession": "GEO:GSM8963436 (sample); BioSample:SAMN48251408 (sample)",
+      "sample_id": "S0005",
+      "sample_material": "Accessible genomic DNA fragments from EdU-labelled chromatin after a 10-min EdU pulse followed by a 1 h 50 min thymidine chase, isolated by biotin-streptavidin capture. Source condition/preparation descriptor: Chromatin preparation — Mature replicated chromatin.",
+      "sample_name": "ESC_9h_mature_repliATAC_rep1",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Naive-to-primed ESC/EpiLC differentiation",
+      "biological_source": "Hex-redStart:Hnf4α-GFP reporter ESC clone 44_7 (E14Tg2a subclone; 129/Ola background)",
+      "sample_accession": "GEO:GSM8963437 (sample); BioSample:SAMN48251406 (sample)",
+      "sample_id": "S0006",
+      "sample_material": "Accessible genomic DNA fragments from the unbound, EdU-negative fraction of the matched nascent repli-ATAC preparation. Source condition/preparation descriptor: Chromatin preparation — EdU-negative unbound fraction from the matched nascent preparation.",
+      "sample_name": "ESC_9h_bulk_ATAC_rep1",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Naive-to-primed ESC/EpiLC differentiation",
+      "biological_source": "Hex-redStart:Hnf4α-GFP reporter ESC clone 44_7 (E14Tg2a subclone; 129/Ola background)",
+      "sample_accession": "GEO:GSM8963438 (sample); BioSample:SAMN48251405 (sample)",
+      "sample_id": "S0007",
+      "sample_material": "Accessible genomic DNA fragments from nascent EdU-labelled chromatin, isolated immediately after a 10-min EdU pulse by biotin-streptavidin capture. Source condition/preparation descriptor: Chromatin preparation — Nascent replicated chromatin.",
+      "sample_name": "EpiLC_48h_nascent_repliATAC_rep1",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Naive-to-primed ESC/EpiLC differentiation",
+      "biological_source": "Hex-redStart:Hnf4α-GFP reporter ESC clone 44_7 (E14Tg2a subclone; 129/Ola background)",
+      "sample_accession": "GEO:GSM8963439 (sample); BioSample:SAMN48251404 (sample)",
+      "sample_id": "S0008",
+      "sample_material": "Accessible genomic DNA fragments from EdU-labelled chromatin after a 10-min EdU pulse followed by a 1 h 50 min thymidine chase, isolated by biotin-streptavidin capture. Source condition/preparation descriptor: Chromatin preparation — Mature replicated chromatin.",
+      "sample_name": "EpiLC_48h_mature_repliATAC_rep1",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Naive-to-primed ESC/EpiLC differentiation",
+      "biological_source": "Hex-redStart:Hnf4α-GFP reporter ESC clone 44_7 (E14Tg2a subclone; 129/Ola background)",
+      "sample_accession": "GEO:GSM8963440 (sample); BioSample:SAMN48251403 (sample)",
+      "sample_id": "S0009",
+      "sample_material": "Accessible genomic DNA fragments from the unbound, EdU-negative fraction of the matched nascent repli-ATAC preparation. Source condition/preparation descriptor: Chromatin preparation — EdU-negative unbound fraction from the matched nascent preparation.",
+      "sample_name": "EpiLC_48h_bulk_ATAC_rep1",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Naive-to-primed ESC/EpiLC differentiation",
+      "biological_source": "Hex-redStart:Hnf4α-GFP reporter ESC clone 44_7 (E14Tg2a subclone; 129/Ola background)",
+      "sample_accession": "GEO:GSM8963441 (sample); BioSample:SAMN48251401 (sample)",
+      "sample_id": "S0010",
+      "sample_material": "Accessible genomic DNA fragments from nascent EdU-labelled chromatin, isolated immediately after a 10-min EdU pulse by biotin-streptavidin capture. Source condition/preparation descriptor: Chromatin preparation — Nascent replicated chromatin.",
+      "sample_name": "ESC_0h_nascent_repliATAC_rep2",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Naive-to-primed ESC/EpiLC differentiation",
+      "biological_source": "Hex-redStart:Hnf4α-GFP reporter ESC clone 44_7 (E14Tg2a subclone; 129/Ola background)",
+      "sample_accession": "GEO:GSM8963442 (sample); BioSample:SAMN48251400 (sample)",
+      "sample_id": "S0011",
+      "sample_material": "Accessible genomic DNA fragments from EdU-labelled chromatin after a 10-min EdU pulse followed by a 1 h 50 min thymidine chase, isolated by biotin-streptavidin capture. Source condition/preparation descriptor: Chromatin preparation — Mature replicated chromatin.",
+      "sample_name": "ESC_0h_mature_repliATAC_rep2",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Naive-to-primed ESC/EpiLC differentiation",
+      "biological_source": "Hex-redStart:Hnf4α-GFP reporter ESC clone 44_7 (E14Tg2a subclone; 129/Ola background)",
+      "sample_accession": "GEO:GSM8963443 (sample); BioSample:SAMN48251399 (sample)",
+      "sample_id": "S0012",
+      "sample_material": "Accessible genomic DNA fragments from the unbound, EdU-negative fraction of the matched nascent repli-ATAC preparation. Source condition/preparation descriptor: Chromatin preparation — EdU-negative unbound fraction from the matched nascent preparation.",
+      "sample_name": "ESC_0h_bulk_ATAC_rep2",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Naive-to-primed ESC/EpiLC differentiation",
+      "biological_source": "Hex-redStart:Hnf4α-GFP reporter ESC clone 44_7 (E14Tg2a subclone; 129/Ola background)",
+      "sample_accession": "GEO:GSM8963444 (sample); BioSample:SAMN48251398 (sample)",
+      "sample_id": "S0013",
+      "sample_material": "Accessible genomic DNA fragments from nascent EdU-labelled chromatin, isolated immediately after a 10-min EdU pulse by biotin-streptavidin capture. Source condition/preparation descriptor: Chromatin preparation — Nascent replicated chromatin.",
+      "sample_name": "ESC_9h_nascent_repliATAC_rep2",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Naive-to-primed ESC/EpiLC differentiation",
+      "biological_source": "Hex-redStart:Hnf4α-GFP reporter ESC clone 44_7 (E14Tg2a subclone; 129/Ola background)",
+      "sample_accession": "GEO:GSM8963445 (sample); BioSample:SAMN48251396 (sample)",
+      "sample_id": "S0014",
+      "sample_material": "Accessible genomic DNA fragments from EdU-labelled chromatin after a 10-min EdU pulse followed by a 1 h 50 min thymidine chase, isolated by biotin-streptavidin capture. Source condition/preparation descriptor: Chromatin preparation — Mature replicated chromatin.",
+      "sample_name": "ESC_9h_mature_repliATAC_rep2",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Naive-to-primed ESC/EpiLC differentiation",
+      "biological_source": "Hex-redStart:Hnf4α-GFP reporter ESC clone 44_7 (E14Tg2a subclone; 129/Ola background)",
+      "sample_accession": "GEO:GSM8963446 (sample); BioSample:SAMN48251395 (sample)",
+      "sample_id": "S0015",
+      "sample_material": "Accessible genomic DNA fragments from the unbound, EdU-negative fraction of the matched nascent repli-ATAC preparation. Source condition/preparation descriptor: Chromatin preparation — EdU-negative unbound fraction from the matched nascent preparation.",
+      "sample_name": "ESC_9h_bulk_ATAC_rep2",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Naive-to-primed ESC/EpiLC differentiation",
+      "biological_source": "Hex-redStart:Hnf4α-GFP reporter ESC clone 44_7 (E14Tg2a subclone; 129/Ola background)",
+      "sample_accession": "GEO:GSM8963447 (sample); BioSample:SAMN48251394 (sample)",
+      "sample_id": "S0016",
+      "sample_material": "Accessible genomic DNA fragments from nascent EdU-labelled chromatin, isolated immediately after a 10-min EdU pulse by biotin-streptavidin capture. Source condition/preparation descriptor: Chromatin preparation — Nascent replicated chromatin.",
+      "sample_name": "EpiLC_48h_nascent_repliATAC_rep2",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Naive-to-primed ESC/EpiLC differentiation",
+      "biological_source": "Hex-redStart:Hnf4α-GFP reporter ESC clone 44_7 (E14Tg2a subclone; 129/Ola background)",
+      "sample_accession": "GEO:GSM8963448 (sample); BioSample:SAMN48251393 (sample)",
+      "sample_id": "S0017",
+      "sample_material": "Accessible genomic DNA fragments from EdU-labelled chromatin after a 10-min EdU pulse followed by a 1 h 50 min thymidine chase, isolated by biotin-streptavidin capture. Source condition/preparation descriptor: Chromatin preparation — Mature replicated chromatin.",
+      "sample_name": "EpiLC_48h_mature_repliATAC_rep2",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Naive-to-primed ESC/EpiLC differentiation",
+      "biological_source": "Hex-redStart:Hnf4α-GFP reporter ESC clone 44_7 (E14Tg2a subclone; 129/Ola background)",
+      "sample_accession": "GEO:GSM8963449 (sample); BioSample:SAMN48251391 (sample)",
+      "sample_id": "S0018",
+      "sample_material": "Accessible genomic DNA fragments from the unbound, EdU-negative fraction of the matched nascent repli-ATAC preparation. Source condition/preparation descriptor: Chromatin preparation — EdU-negative unbound fraction from the matched nascent preparation.",
+      "sample_name": "EpiLC_48h_bulk_ATAC_rep2",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Naive-to-primed ESC/EpiLC differentiation",
+      "biological_source": "Hex-redStart:Hnf4α-GFP reporter ESC clone 44_7 (E14Tg2a subclone; 129/Ola background)",
+      "sample_accession": "GEO:GSM8963450 (sample); BioSample:SAMN48251390 (sample)",
+      "sample_id": "S0019",
+      "sample_material": "Accessible genomic DNA fragments from nascent EdU-labelled chromatin, isolated immediately after a 10-min EdU pulse by biotin-streptavidin capture. Source condition/preparation descriptor: Chromatin preparation — Nascent replicated chromatin.",
+      "sample_name": "ESC_0h_nascent_repliATAC_rep3",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Naive-to-primed ESC/EpiLC differentiation",
+      "biological_source": "Hex-redStart:Hnf4α-GFP reporter ESC clone 44_7 (E14Tg2a subclone; 129/Ola background)",
+      "sample_accession": "GEO:GSM8963451 (sample); BioSample:SAMN48251389 (sample)",
+      "sample_id": "S0020",
+      "sample_material": "Accessible genomic DNA fragments from EdU-labelled chromatin after a 10-min EdU pulse followed by a 1 h 50 min thymidine chase, isolated by biotin-streptavidin capture. Source condition/preparation descriptor: Chromatin preparation — Mature replicated chromatin.",
+      "sample_name": "ESC_0h_mature_repliATAC_rep3",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Naive-to-primed ESC/EpiLC differentiation",
+      "biological_source": "Hex-redStart:Hnf4α-GFP reporter ESC clone 44_7 (E14Tg2a subclone; 129/Ola background)",
+      "sample_accession": "GEO:GSM8963452 (sample); BioSample:SAMN48251388 (sample)",
+      "sample_id": "S0021",
+      "sample_material": "Accessible genomic DNA fragments from the unbound, EdU-negative fraction of the matched nascent repli-ATAC preparation. Source condition/preparation descriptor: Chromatin preparation — EdU-negative unbound fraction from the matched nascent preparation.",
+      "sample_name": "ESC_0h_bulk_ATAC_rep3",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Naive-to-primed ESC/EpiLC differentiation",
+      "biological_source": "Hex-redStart:Hnf4α-GFP reporter ESC clone 44_7 (E14Tg2a subclone; 129/Ola background)",
+      "sample_accession": "GEO:GSM8963453 (sample); BioSample:SAMN48251386 (sample)",
+      "sample_id": "S0022",
+      "sample_material": "Accessible genomic DNA fragments from nascent EdU-labelled chromatin, isolated immediately after a 10-min EdU pulse by biotin-streptavidin capture. Source condition/preparation descriptor: Chromatin preparation — Nascent replicated chromatin.",
+      "sample_name": "ESC_9h_nascent_repliATAC_rep3",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Naive-to-primed ESC/EpiLC differentiation",
+      "biological_source": "Hex-redStart:Hnf4α-GFP reporter ESC clone 44_7 (E14Tg2a subclone; 129/Ola background)",
+      "sample_accession": "GEO:GSM8963454 (sample); BioSample:SAMN48251385 (sample)",
+      "sample_id": "S0023",
+      "sample_material": "Accessible genomic DNA fragments from EdU-labelled chromatin after a 10-min EdU pulse followed by a 1 h 50 min thymidine chase, isolated by biotin-streptavidin capture. Source condition/preparation descriptor: Chromatin preparation — Mature replicated chromatin.",
+      "sample_name": "ESC_9h_mature_repliATAC_rep3",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Naive-to-primed ESC/EpiLC differentiation",
+      "biological_source": "Hex-redStart:Hnf4α-GFP reporter ESC clone 44_7 (E14Tg2a subclone; 129/Ola background)",
+      "sample_accession": "GEO:GSM8963455 (sample); BioSample:SAMN48251384 (sample)",
+      "sample_id": "S0024",
+      "sample_material": "Accessible genomic DNA fragments from the unbound, EdU-negative fraction of the matched nascent repli-ATAC preparation. Source condition/preparation descriptor: Chromatin preparation — EdU-negative unbound fraction from the matched nascent preparation.",
+      "sample_name": "ESC_9h_bulk_ATAC_rep3",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Naive-to-primed ESC/EpiLC differentiation",
+      "biological_source": "Hex-redStart:Hnf4α-GFP reporter ESC clone 44_7 (E14Tg2a subclone; 129/Ola background)",
+      "sample_accession": "GEO:GSM8963456 (sample); BioSample:SAMN48251383 (sample)",
+      "sample_id": "S0025",
+      "sample_material": "Accessible genomic DNA fragments from nascent EdU-labelled chromatin, isolated immediately after a 10-min EdU pulse by biotin-streptavidin capture. Source condition/preparation descriptor: Chromatin preparation — Nascent replicated chromatin.",
+      "sample_name": "EpiLC_48h_nascent_repliATAC_rep3",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Naive-to-primed ESC/EpiLC differentiation",
+      "biological_source": "Hex-redStart:Hnf4α-GFP reporter ESC clone 44_7 (E14Tg2a subclone; 129/Ola background)",
+      "sample_accession": "GEO:GSM8963457 (sample); BioSample:SAMN48251381 (sample)",
+      "sample_id": "S0026",
+      "sample_material": "Accessible genomic DNA fragments from EdU-labelled chromatin after a 10-min EdU pulse followed by a 1 h 50 min thymidine chase, isolated by biotin-streptavidin capture. Source condition/preparation descriptor: Chromatin preparation — Mature replicated chromatin.",
+      "sample_name": "EpiLC_48h_mature_repliATAC_rep3",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Naive-to-primed ESC/EpiLC differentiation",
+      "biological_source": "Hex-redStart:Hnf4α-GFP reporter ESC clone 44_7 (E14Tg2a subclone; 129/Ola background)",
+      "sample_accession": "GEO:GSM8963458 (sample); BioSample:SAMN48251380 (sample)",
+      "sample_id": "S0027",
+      "sample_material": "Accessible genomic DNA fragments from the unbound, EdU-negative fraction of the matched nascent repli-ATAC preparation. Source condition/preparation descriptor: Chromatin preparation — EdU-negative unbound fraction from the matched nascent preparation.",
+      "sample_name": "EpiLC_48h_bulk_ATAC_rep3",
+      "species": "Mus musculus"
+    }
+  ]
+}

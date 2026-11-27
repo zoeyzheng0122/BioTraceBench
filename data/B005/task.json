@@ -1,0 +1,32 @@
+{
+  "case_id": "B005",
+  "task_id": "B005",
+  "title": "Proteomic analysis of 7-octenoic acid antifibrotic effects in TGF-β1 activated hepatic stellate cells",
+  "doi": "10.1038/s41598-025-29722-8",
+  "comparison_or_design": "TGF-β1 alone versus TGF-β1 plus 7-OCT.",
+  "observations_or_assays": [
+    "Label-free LC–MS/MS proteomics"
+  ],
+  "time_scope": "The stimulation/co-treatment and harvest schedule of the proteomics comparison.",
+  "excluded": [
+    "Huh-7 viability assays, molecular docking, migration and qPCR validation",
+    "Any unactivated-control proteomics arm not explicitly present in this comparison"
+  ],
+  "population_or_material": "LX-2 hepatic-stellate-cell preparations submitted to the selected label-free proteomics experiment.",
+  "requested_items": [
+    "TGF-beta1 stimulation and 7-OCT co-treatment, their doses and treatment/collection interval"
+  ],
+  "resources": [
+    {
+      "accession": "PXD063183",
+      "url": "https://www.ebi.ac.uk/pride/archive/projects/PXD063183"
+    }
+  ],
+  "domain": "basic",
+  "pipeline": "basic-research",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/basic-research.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

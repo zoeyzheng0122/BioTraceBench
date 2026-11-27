@@ -1,0 +1,201 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "B025",
+    "domain": "basic",
+    "title": "Exercise Training Stimulates the Release of Glutathione Peroxidase 1 ( GPX1 )‐Enriched Extracellular Vesicles That Promote Angiogenesis",
+    "doi": "10.1096/fj.202505096RR",
+    "pipeline": "basic-research",
+    "pmid": "42313915",
+    "pmcid": "PMC13278521",
+    "registry": "PXD064533"
+  },
+  "files": [
+    {
+      "path": "sources/article.xml",
+      "sha256": "e119a6d11701c1065921128334c42383bd5e84cfbd75dcb519cd9685898b28df",
+      "bytes": 161403,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13278521/fullTextXML"
+      ],
+      "association": "exact PMCID from case identity"
+    },
+    {
+      "path": "records/PRIDE-PXD064533.json",
+      "sha256": "702334421840456c15f675cc36c29f2674fa981a43700aa91955b4dcf80e17fc",
+      "bytes": 4836,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/pride/ws/archive/v2/projects/PXD064533"
+      ],
+      "association": "ProteomeXchange accession explicitly reported; project metadata only",
+      "original_filename": "PRIDE-PXD064533.json",
+      "retrieved_at": "2026-10-17T23:54:34+08:00",
+      "derived_from": "3ba716fe4404f36ec5037354a632c7c0ab727ae015c898dba8ddc6aab85f1eca",
+      "original_sha256": "3ba716fe4404f36ec5037354a632c7c0ab727ae015c898dba8ddc6aab85f1eca",
+      "representation": "refine-lexical-json-1",
+      "provenance_transform": "exact_json_whitespace_compaction"
+    },
+    {
+      "path": "figures/FSB2-40-e72052-g001.jpg",
+      "sha256": "13078f3c925fdb5f1e5c19e4b2f1927cc17a84a94229f1564124c10518984eba",
+      "bytes": 104580,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13278521/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/FSB2-40-e72052-g002.jpg",
+      "sha256": "2d4b3355095b6f355b31d378a6d12383f2bbf0b15ff53bb5f72d5e70d066f137",
+      "bytes": 102878,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13278521/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/FSB2-40-e72052-g003.jpg",
+      "sha256": "1cec14df1a30cc0a3e9e591f67a524f2aff81e35011d951889b57a06893a8c72",
+      "bytes": 98105,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13278521/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/FSB2-40-e72052-g004.jpg",
+      "sha256": "7b64e7b6975f4b34b096c4185dbfd8d5eb8dd1c1857666897aab98d9c0e37ba9",
+      "bytes": 39984,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13278521/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/FSB2-40-e72052-g005.jpg",
+      "sha256": "cfd520f7fd7b2592f56547985043d7c37b3b296fc926c2a02c2bda66905e30de",
+      "bytes": 68181,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13278521/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/FSB2-40-e72052-g006.jpg",
+      "sha256": "1501e29136ced7f8af6fbc093b6b016f0942de1541a6b1375ad1719fb801ce6b",
+      "bytes": 80357,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13278521/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/FSB2-40-e72052-s002.png",
+      "sha256": "301fc0bb670766811ae52c84bd0cf90a5c24457a80d0575d382005a26a5d5716",
+      "bytes": 264213,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13278521/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package",
+      "derived_from": "0eb941cb829e5b0c316b5b5d2ae47510555a7188d3fb905709558a847c954bdd",
+      "original_sha256": "0eb941cb829e5b0c316b5b5d2ae47510555a7188d3fb905709558a847c954bdd",
+      "original_filename": "FSB2-40-e72052-s002.tif",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "figures/FSB2-40-e72052-s003.png",
+      "sha256": "9b54b2ccfb98c36b3c08993f6cbbfe1b42bf6a496f8cdfb64947d3212eb753da",
+      "bytes": 158592,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13278521/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package",
+      "derived_from": "9d651128d9ea0670959c38dace55b97c24bfc44d8f231b37c2d70eadb091d4aa",
+      "original_sha256": "9d651128d9ea0670959c38dace55b97c24bfc44d8f231b37c2d70eadb091d4aa",
+      "original_filename": "FSB2-40-e72052-s003.tif",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "records/PRIDE-PXD064533-files.csv",
+      "sha256": "1e361e295c709e7a93d67896280aaba6048d8130651643dc4c84149e173384d0",
+      "bytes": 2236,
+      "role": "design_metadata",
+      "roles": [
+        "design_metadata"
+      ],
+      "input_use": "model",
+      "source_urls": [],
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "original_filename": "PRIDE-PXD064533-files.csv"
+    },
+    {
+      "path": "records/PRIDE-PXD064533-files.json",
+      "sha256": "e9cff361b6984929174ee9f25b9bec05c5b0d0249976e4877216faef9f4b62ae",
+      "bytes": 14276,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [],
+      "association": "Same-study public metadata or preserved supplementary member; registered after benchmark source audit.",
+      "original_filename": "PRIDE-PXD064533-files.json"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

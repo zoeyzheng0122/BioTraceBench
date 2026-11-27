@@ -1,0 +1,36 @@
+{
+  "case_id": "B006",
+  "task_id": "B006",
+  "title": "Matrix stiffness induces midnolin-dependent lamin B1 degradation to control myoblast differentiation",
+  "doi": "10.1038/s44319-026-00753-0",
+  "comparison_or_design": "The matrix-stiffness RNA-seq branch represented in the supplied GSE323368 sample records.",
+  "observations_or_assays": [
+    "Bulk RNA sequencing"
+  ],
+  "time_scope": "The 12-hour matrix-exposure point registered for this RNA-seq branch.",
+  "excluded": [
+    "The separate differentiation time series within the same accession",
+    "Early protein-degradation inhibitor, imaging and Western-blot experiments"
+  ],
+  "population_or_material": "C2C12 RNA-seq materials in the matrix-stiffness branch represented in the archived GSE323368 metadata.",
+  "requested_items": [
+    "Matrix/coating identity and stiffness, and RNA collection interval"
+  ],
+  "resources": [
+    {
+      "accession": "GSE323368",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE323368"
+    },
+    {
+      "accession": "B006-published-source-data",
+      "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC13172543.1/44319_2026_753_MOESM5_ESM.zip"
+    }
+  ],
+  "domain": "basic",
+  "pipeline": "basic-research",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/basic-research.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

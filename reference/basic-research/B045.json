@@ -1,0 +1,311 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX26753616 (experiment); SRA:SRR31380131 (run)",
+      "method": "SMARTSeq v2 cDNA preparation from 1 ng total RNA with ERCC spike-in, followed by Nextera XT library preparation and paired-end sequencing. Platform follows sample-specific GEO/SRA registration; the article/extraction protocol instead reports HiSeq 2000 and 2 × 51 cycles, while GEO processing text reports 2 × 150 bp. Read length is unresolved.",
+      "platform": "Illumina HiSeq 4000",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0002",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX26753617 (experiment); SRA:SRR31380130 (run)",
+      "method": "SMARTSeq v2 cDNA preparation from 1 ng total RNA with ERCC spike-in, followed by Nextera XT library preparation and paired-end sequencing. Platform follows sample-specific GEO/SRA registration; the article/extraction protocol instead reports HiSeq 2000 and 2 × 51 cycles, while GEO processing text reports 2 × 150 bp. Read length is unresolved.",
+      "platform": "Illumina HiSeq 4000",
+      "sample_ids": [
+        "S0002"
+      ]
+    },
+    {
+      "assay_id": "A0003",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX26753622 (experiment); SRA:SRR31380125 (run)",
+      "method": "SMARTSeq v2 cDNA preparation from 1 ng total RNA with ERCC spike-in, followed by Nextera XT library preparation and paired-end sequencing. Platform follows sample-specific GEO/SRA registration; the article/extraction protocol instead reports HiSeq 2000 and 2 × 51 cycles, while GEO processing text reports 2 × 150 bp. Read length is unresolved.",
+      "platform": "Illumina HiSeq 4000",
+      "sample_ids": [
+        "S0003"
+      ]
+    },
+    {
+      "assay_id": "A0004",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX26753623 (experiment); SRA:SRR31380124 (run)",
+      "method": "SMARTSeq v2 cDNA preparation from 1 ng total RNA with ERCC spike-in, followed by Nextera XT library preparation and paired-end sequencing. Platform follows sample-specific GEO/SRA registration; the article/extraction protocol instead reports HiSeq 2000 and 2 × 51 cycles, while GEO processing text reports 2 × 150 bp. Read length is unresolved.",
+      "platform": "Illumina HiSeq 4000",
+      "sample_ids": [
+        "S0004"
+      ]
+    },
+    {
+      "assay_id": "A0005",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX26753624 (experiment); SRA:SRR31380123 (run)",
+      "method": "SMARTSeq v2 cDNA preparation from 1 ng total RNA with ERCC spike-in, followed by Nextera XT library preparation and paired-end sequencing. Platform follows sample-specific GEO/SRA registration; the article/extraction protocol instead reports HiSeq 2000 and 2 × 51 cycles, while GEO processing text reports 2 × 150 bp. Read length is unresolved.",
+      "platform": "Illumina HiSeq 4000",
+      "sample_ids": [
+        "S0005"
+      ]
+    },
+    {
+      "assay_id": "A0006",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX26753625 (experiment); SRA:SRR31380122 (run)",
+      "method": "SMARTSeq v2 cDNA preparation from 1 ng total RNA with ERCC spike-in, followed by Nextera XT library preparation and paired-end sequencing. Platform follows sample-specific GEO/SRA registration; the article/extraction protocol instead reports HiSeq 2000 and 2 × 51 cycles, while GEO processing text reports 2 × 150 bp. Read length is unresolved.",
+      "platform": "Illumina HiSeq 4000",
+      "sample_ids": [
+        "S0006"
+      ]
+    },
+    {
+      "assay_id": "A0007",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX26753628 (experiment); SRA:SRR31380119 (run)",
+      "method": "SMARTSeq v2 cDNA preparation from 1 ng total RNA with ERCC spike-in, followed by Nextera XT library preparation and paired-end sequencing. Platform follows sample-specific GEO/SRA registration; the article/extraction protocol instead reports HiSeq 2000 and 2 × 51 cycles, while GEO processing text reports 2 × 150 bp. Read length is unresolved.",
+      "platform": "Illumina HiSeq 4000",
+      "sample_ids": [
+        "S0007"
+      ]
+    },
+    {
+      "assay_id": "A0008",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX26753644 (experiment); SRA:SRR31380103 (run)",
+      "method": "SMARTSeq v2 cDNA preparation from 1 ng total RNA with ERCC spike-in, followed by Nextera XT library preparation and paired-end sequencing. Platform follows sample-specific GEO/SRA registration; the article/extraction protocol instead reports HiSeq 2000 and 2 × 51 cycles, while GEO processing text reports 2 × 150 bp. Read length is unresolved.",
+      "platform": "Illumina HiSeq 4000",
+      "sample_ids": [
+        "S0008"
+      ]
+    },
+    {
+      "assay_id": "A0009",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX26753647 (experiment); SRA:SRR31380100 (run)",
+      "method": "SMARTSeq v2 cDNA preparation from 1 ng total RNA with ERCC spike-in, followed by Nextera XT library preparation and paired-end sequencing. Platform follows sample-specific GEO/SRA registration; the article/extraction protocol instead reports HiSeq 2000 and 2 × 51 cycles, while GEO processing text reports 2 × 150 bp. Read length is unresolved.",
+      "platform": "Illumina HiSeq 4000",
+      "sample_ids": [
+        "S0009"
+      ]
+    },
+    {
+      "assay_id": "A0010",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX26753651 (experiment); SRA:SRR31380096 (run)",
+      "method": "SMARTSeq v2 cDNA preparation from 1 ng total RNA with ERCC spike-in, followed by Nextera XT library preparation and paired-end sequencing. Platform follows sample-specific GEO/SRA registration; the article/extraction protocol instead reports HiSeq 2000 and 2 × 51 cycles, while GEO processing text reports 2 × 150 bp. Read length is unresolved.",
+      "platform": "Illumina HiSeq 4000",
+      "sample_ids": [
+        "S0010"
+      ]
+    },
+    {
+      "assay_id": "A0011",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX26753655 (experiment); SRA:SRR31380092 (run)",
+      "method": "SMARTSeq v2 cDNA preparation from 1 ng total RNA with ERCC spike-in, followed by Nextera XT library preparation and paired-end sequencing. Platform follows sample-specific GEO/SRA registration; the article/extraction protocol instead reports HiSeq 2000 and 2 × 51 cycles, while GEO processing text reports 2 × 150 bp. Read length is unresolved.",
+      "platform": "Illumina HiSeq 4000",
+      "sample_ids": [
+        "S0011"
+      ]
+    },
+    {
+      "assay_id": "A0012",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX26753658 (experiment); SRA:SRR31380089 (run)",
+      "method": "SMARTSeq v2 cDNA preparation from 1 ng total RNA with ERCC spike-in, followed by Nextera XT library preparation and paired-end sequencing. Platform follows sample-specific GEO/SRA registration; the article/extraction protocol instead reports HiSeq 2000 and 2 × 51 cycles, while GEO processing text reports 2 × 150 bp. Read length is unresolved.",
+      "platform": "Illumina HiSeq 4000",
+      "sample_ids": [
+        "S0012"
+      ]
+    },
+    {
+      "assay_id": "A0013",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX26753659 (experiment); SRA:SRR31380088 (run)",
+      "method": "SMARTSeq v2 cDNA preparation from 1 ng total RNA with ERCC spike-in, followed by Nextera XT library preparation and paired-end sequencing. Platform follows sample-specific GEO/SRA registration; the article/extraction protocol instead reports HiSeq 2000 and 2 × 51 cycles, while GEO processing text reports 2 × 150 bp. Read length is unresolved.",
+      "platform": "Illumina HiSeq 4000",
+      "sample_ids": [
+        "S0013"
+      ]
+    },
+    {
+      "assay_id": "A0014",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX26753660 (experiment); SRA:SRR31380087 (run)",
+      "method": "SMARTSeq v2 cDNA preparation from 1 ng total RNA with ERCC spike-in, followed by Nextera XT library preparation and paired-end sequencing. Platform follows sample-specific GEO/SRA registration; the article/extraction protocol instead reports HiSeq 2000 and 2 × 51 cycles, while GEO processing text reports 2 × 150 bp. Read length is unresolved.",
+      "platform": "Illumina HiSeq 4000",
+      "sample_ids": [
+        "S0014"
+      ]
+    },
+    {
+      "assay_id": "A0015",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX26753664 (experiment); SRA:SRR31380083 (run)",
+      "method": "SMARTSeq v2 cDNA preparation from 1 ng total RNA with ERCC spike-in, followed by Nextera XT library preparation and paired-end sequencing. Platform follows sample-specific GEO/SRA registration; the article/extraction protocol instead reports HiSeq 2000 and 2 × 51 cycles, while GEO processing text reports 2 × 150 bp. Read length is unresolved.",
+      "platform": "Illumina HiSeq 4000",
+      "sample_ids": [
+        "S0015"
+      ]
+    },
+    {
+      "assay_id": "A0016",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX26753667 (experiment); SRA:SRR31380080 (run)",
+      "method": "SMARTSeq v2 cDNA preparation from 1 ng total RNA with ERCC spike-in, followed by Nextera XT library preparation and paired-end sequencing. Platform follows sample-specific GEO/SRA registration; the article/extraction protocol instead reports HiSeq 2000 and 2 × 51 cycles, while GEO processing text reports 2 × 150 bp. Read length is unresolved.",
+      "platform": "Illumina HiSeq 4000",
+      "sample_ids": [
+        "S0016"
+      ]
+    }
+  ],
+  "condition": [],
+  "sample": [
+    {
+      "biological_model": "Ex vivo CMV-specific CD8 T-cell population",
+      "biological_source": "Human PBMC-derived CMV-specific CD8 T cells; donor age group not mapped",
+      "sample_accession": "GEO:GSM8637437 (sample); BioSample:SAMN44795456 (sample); SRA:SRS23242222 (sample)",
+      "sample_id": "S0001",
+      "sample_material": "Total RNA from the ex vivo CMV-specific CD8 T-cell preparation labelled RHP5785_CMV NLP. The native library title specifies no CD27/CD45RA fraction; donor identity and age-group linkage are unavailable.",
+      "sample_name": "RHP5785_CMV NLP",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Ex vivo CMV-specific CD8 T-cell population",
+      "biological_source": "Human PBMC-derived CMV-specific CD8 T cells; donor age group not mapped",
+      "sample_accession": "GEO:GSM8637438 (sample); BioSample:SAMN44795455 (sample); SRA:SRS23242223 (sample)",
+      "sample_id": "S0002",
+      "sample_material": "Total RNA from the ex vivo CMV-specific CD8 T-cell preparation labelled RHP5786_CMV #13. The native library title specifies no CD27/CD45RA fraction; donor identity and age-group linkage are unavailable.",
+      "sample_name": "RHP5786_CMV #13",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Ex vivo CMV-specific CD8 T-cell population",
+      "biological_source": "Human PBMC-derived CMV-specific CD8 T cells; donor age group not mapped",
+      "sample_accession": "GEO:GSM8637443 (sample); BioSample:SAMN44795450 (sample); SRA:SRS23242229 (sample)",
+      "sample_id": "S0003",
+      "sample_material": "Total RNA from the ex vivo CMV-specific CD8 T-cell preparation labelled RHP5791_CMV NLP. The native library title specifies no CD27/CD45RA fraction; donor identity and age-group linkage are unavailable.",
+      "sample_name": "RHP5791_CMV NLP",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Ex vivo CMV-specific CD8 T-cell population",
+      "biological_source": "Human PBMC-derived CMV-specific CD8 T cells; donor age group not mapped",
+      "sample_accession": "GEO:GSM8637444 (sample); BioSample:SAMN44795449 (sample); SRA:SRS23242228 (sample)",
+      "sample_id": "S0004",
+      "sample_material": "Total RNA from the ex vivo CMV-specific CD8 T-cell preparation labelled RHP5792_CMV NLP. The native library title specifies no CD27/CD45RA fraction; donor identity and age-group linkage are unavailable.",
+      "sample_name": "RHP5792_CMV NLP",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Ex vivo CMV-specific CD8 T-cell population",
+      "biological_source": "Human PBMC-derived CMV-specific CD8 T cells; donor age group not mapped",
+      "sample_accession": "GEO:GSM8637445 (sample); BioSample:SAMN44795448 (sample); SRA:SRS23242230 (sample)",
+      "sample_id": "S0005",
+      "sample_material": "Total RNA from the ex vivo CMV-specific CD8 T-cell preparation labelled RHP5793_CMV NLP. The native library title specifies no CD27/CD45RA fraction; donor identity and age-group linkage are unavailable.",
+      "sample_name": "RHP5793_CMV NLP",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Ex vivo CMV-specific CD8 T-cell population",
+      "biological_source": "Human PBMC-derived CMV-specific CD8 T cells; donor age group not mapped",
+      "sample_accession": "GEO:GSM8637446 (sample); BioSample:SAMN44795447 (sample); SRA:SRS23242232 (sample)",
+      "sample_id": "S0006",
+      "sample_material": "Total RNA from the ex vivo CMV-specific CD8 T-cell preparation labelled RHP5794_CMV NLP. The native library title specifies no CD27/CD45RA fraction; donor identity and age-group linkage are unavailable.",
+      "sample_name": "RHP5794_CMV NLP",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Ex vivo CMV-specific CD8 T-cell population",
+      "biological_source": "Human PBMC-derived CMV-specific CD8 T cells; donor age group not mapped",
+      "sample_accession": "GEO:GSM8637449 (sample); BioSample:SAMN44795444 (sample); SRA:SRS23242234 (sample)",
+      "sample_id": "S0007",
+      "sample_material": "Total RNA from the ex vivo CMV-specific CD8 T-cell preparation labelled RHP5797_CMV #73. The native library title specifies no CD27/CD45RA fraction; donor identity and age-group linkage are unavailable.",
+      "sample_name": "RHP5797_CMV #73",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Ex vivo CMV-specific CD8 T-cell population",
+      "biological_source": "Human PBMC-derived CMV-specific CD8 T cells; donor age group not mapped",
+      "sample_accession": "GEO:GSM8637461 (sample); BioSample:SAMN44795432 (sample); SRA:SRS23242250 (sample)",
+      "sample_id": "S0008",
+      "sample_material": "Total RNA from the ex vivo CMV-specific CD8 T-cell preparation labelled RHP5809_CMV NLPV Mix. The native library title specifies no CD27/CD45RA fraction; donor identity and age-group linkage are unavailable. The native Mix label does not establish donor pooling or pool membership.",
+      "sample_name": "RHP5809_CMV NLPV Mix",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Ex vivo CMV-specific CD8 T-cell population",
+      "biological_source": "Human PBMC-derived CMV-specific CD8 T cells; donor age group not mapped",
+      "sample_accession": "GEO:GSM8637464 (sample); BioSample:SAMN44795429 (sample); SRA:SRS23242253 (sample)",
+      "sample_id": "S0009",
+      "sample_material": "Total RNA from the ex vivo CMV-specific CD8 T-cell preparation labelled RHP5812_CMV NLPV Mix. The native library title specifies no CD27/CD45RA fraction; donor identity and age-group linkage are unavailable. The native Mix label does not establish donor pooling or pool membership.",
+      "sample_name": "RHP5812_CMV NLPV Mix",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Ex vivo CMV-specific CD8 T-cell population",
+      "biological_source": "Human PBMC-derived CMV-specific CD8 T cells; donor age group not mapped",
+      "sample_accession": "GEO:GSM8637468 (sample); BioSample:SAMN44795425 (sample); SRA:SRS23242257 (sample)",
+      "sample_id": "S0010",
+      "sample_material": "Total RNA from the ex vivo CMV-specific CD8 T-cell preparation labelled RHP5816_CMV NLPV Mix. The native library title specifies no CD27/CD45RA fraction; donor identity and age-group linkage are unavailable. The native Mix label does not establish donor pooling or pool membership.",
+      "sample_name": "RHP5816_CMV NLPV Mix",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Ex vivo CMV-specific CD8 T-cell population",
+      "biological_source": "Human PBMC-derived CMV-specific CD8 T cells; donor age group not mapped",
+      "sample_accession": "GEO:GSM8637472 (sample); BioSample:SAMN44795421 (sample); SRA:SRS23242260 (sample)",
+      "sample_id": "S0011",
+      "sample_material": "Total RNA from the ex vivo CMV-specific CD8 T-cell preparation labelled RHP5820_CMV NLPV_1. The native library title specifies no CD27/CD45RA fraction; donor identity and age-group linkage are unavailable.",
+      "sample_name": "RHP5820_CMV NLPV_1",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Ex vivo CMV-specific CD8 T-cell population",
+      "biological_source": "Human PBMC-derived CMV-specific CD8 T cells; donor age group not mapped",
+      "sample_accession": "GEO:GSM8637475 (sample); BioSample:SAMN44795418 (sample); SRA:SRS23242264 (sample)",
+      "sample_id": "S0012",
+      "sample_material": "Total RNA from the ex vivo CMV-specific CD8 T-cell preparation labelled RHP5823_CMV #73. The native library title specifies no CD27/CD45RA fraction; donor identity and age-group linkage are unavailable.",
+      "sample_name": "RHP5823_CMV #73",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Ex vivo CMV-specific CD8 T-cell population",
+      "biological_source": "Human PBMC-derived CMV-specific CD8 T cells; donor age group not mapped",
+      "sample_accession": "GEO:GSM8637476 (sample); BioSample:SAMN44795417 (sample); SRA:SRS23242266 (sample)",
+      "sample_id": "S0013",
+      "sample_material": "Total RNA from the ex vivo CMV-specific CD8 T-cell preparation labelled RHP5824_CMV NLPV_2. The native library title specifies no CD27/CD45RA fraction; donor identity and age-group linkage are unavailable.",
+      "sample_name": "RHP5824_CMV NLPV_2",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Ex vivo CMV-specific CD8 T-cell population",
+      "biological_source": "Human PBMC-derived CMV-specific CD8 T cells; donor age group not mapped",
+      "sample_accession": "GEO:GSM8637477 (sample); BioSample:SAMN44795416 (sample); SRA:SRS23242265 (sample)",
+      "sample_id": "S0014",
+      "sample_material": "Total RNA from the ex vivo CMV-specific CD8 T-cell preparation labelled RHP5825_CMV NLPV_3. The native library title specifies no CD27/CD45RA fraction; donor identity and age-group linkage are unavailable.",
+      "sample_name": "RHP5825_CMV NLPV_3",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Ex vivo CMV-specific CD8 T-cell population",
+      "biological_source": "Human PBMC-derived CMV-specific CD8 T cells; donor age group not mapped",
+      "sample_accession": "GEO:GSM8637481 (sample); BioSample:SAMN44795412 (sample); SRA:SRS23242270 (sample)",
+      "sample_id": "S0015",
+      "sample_material": "Total RNA from the ex vivo CMV-specific CD8 T-cell preparation labelled RHP5829_CMV NLPV_4. The native library title specifies no CD27/CD45RA fraction; donor identity and age-group linkage are unavailable.",
+      "sample_name": "RHP5829_CMV NLPV_4",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Ex vivo CMV-specific CD8 T-cell population",
+      "biological_source": "Human PBMC-derived CMV-specific CD8 T cells; donor age group not mapped",
+      "sample_accession": "GEO:GSM8637484 (sample); BioSample:SAMN44795409 (sample); SRA:SRS23242273 (sample)",
+      "sample_id": "S0016",
+      "sample_material": "Total RNA from the ex vivo CMV-specific CD8 T-cell preparation labelled RHP5832_CMV NLPV. The native library title specifies no CD27/CD45RA fraction; donor identity and age-group linkage are unavailable.",
+      "sample_name": "RHP5832_CMV NLPV",
+      "species": "Homo sapiens"
+    }
+  ]
+}

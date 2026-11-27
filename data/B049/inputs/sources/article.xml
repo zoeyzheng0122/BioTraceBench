@@ -1,0 +1,981 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="advs76304" xml:lang="en" article-type="research-article" dtd-version="1.4"><?da-xref-anchor-style superscripted?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Adv Sci (Weinh)</journal-id><journal-id journal-id-type="iso-abbrev">Adv Sci (Weinh)</journal-id><journal-id journal-id-type="pmc-domain-id">2933</journal-id><journal-id journal-id-type="pmc-domain">advsci</journal-id><journal-id journal-id-type="nlm-id">101664569</journal-id><journal-id journal-id-type="publisher-id">ADVS</journal-id><journal-title-group><journal-title>Advanced Science</journal-title></journal-title-group><issn pub-type="epub">2198-3844</issn><?publisher_abbrev blackwell?><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC13337105</article-id><article-id pub-id-type="pmcid-ver">PMC13337105.2</article-id><article-id pub-id-type="pmcaid">13337105</article-id><article-id pub-id-type="pmcaiid">13587995</article-id><article-id pub-id-type="pmid">42389866</article-id><article-id pub-id-type="doi">10.1002/advs.76304</article-id><article-id pub-id-type="publisher-id">ADVS76304</article-id><article-version article-version-type="pmc-version">2</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Matrix Stiffness Induces Endothelial Network Senescence</article-title></title-group><contrib-group><contrib id="advs76304-cr-0001" contrib-type="author"><name name-style="western"><surname>Song</surname><given-names initials="J">Jiyeon</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0009-0003-5636-6757</contrib-id><xref rid="advs76304-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="advs76304-cr-0002" contrib-type="author"><name name-style="western"><surname>Rindone</surname><given-names initials="AN">Alexandra N.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-2291-5933</contrib-id><xref rid="advs76304-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="advs76304-cr-0003" contrib-type="author"><name name-style="western"><surname>Guan</surname><given-names initials="Y">Ya</given-names></name><xref rid="advs76304-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="advs76304-cr-0004" contrib-type="author"><name name-style="western"><surname>Amelung</surname><given-names initials="CD">Connor D.</given-names></name><xref rid="advs76304-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="advs76304-cr-0005" contrib-type="author"><name name-style="western"><surname>Daswani</surname><given-names initials="PS">Prarthana Sanjay</given-names></name><xref rid="advs76304-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="advs76304-cr-0006" contrib-type="author"><name name-style="western"><surname>Elisseeff</surname><given-names initials="JH">Jennifer H.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-5066-1996</contrib-id><xref rid="advs76304-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="advs76304-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="advs76304-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="advs76304-cr-0007" contrib-type="author" corresp="yes"><name name-style="western"><surname>Gerecht</surname><given-names initials="S">Sharon</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-8542-4835</contrib-id><xref rid="advs76304-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address><email>sharon.gerecht@duke.edu</email></address></contrib></contrib-group><aff id="advs76304-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Department of Biomedical Engineering</named-content>
+<institution>Duke University</institution>
+<city>Durham</city>
+<named-content content-type="country-part">North Carolina</named-content>
+<country country="US">USA</country>
+</aff><aff id="advs76304-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Translational Tissue Engineering Center</named-content>
+<named-content content-type="organisation-division">Wilmer Eye Institute and Department of Biomedical Engineering</named-content>
+<institution>Johns Hopkins University</institution>
+<city>Baltimore</city>
+<named-content content-type="country-part">Maryland</named-content>
+<country country="US">USA</country>
+</aff><aff id="advs76304-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Bloomberg–Kimmel Institute for Cancer Immunotherapy</named-content>
+<named-content content-type="organisation-division">Sidney Kimmel Comprehensive Cancer Center</named-content>
+<named-content content-type="organisation-division">School of Medicine</named-content>
+<institution>Johns Hopkins University</institution>
+<city>Baltimore</city>
+<named-content content-type="country-part">Maryland</named-content>
+<country country="US">USA</country>
+</aff><aff id="advs76304-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">Department of Chemical and Biomolecular Engineering</named-content>
+<institution>Johns Hopkins University</institution>
+<city>Baltimore</city>
+<named-content content-type="country-part">Maryland</named-content>
+<country country="US">USA</country>
+</aff><pub-date pub-type="epub"><day>02</day><month>7</month><year>2026</year></pub-date><pub-date pub-type="collection"><month>9</month><year>2026</year></pub-date><volume>13</volume><issue seq="820">52</issue><issue-id pub-id-type="pmc-issue-id">521807</issue-id><issue-id pub-id-type="doi">10.1002/advs.v13.52</issue-id><elocation-id>e76304</elocation-id><history>
+<date date-type="rev-recd"><day>12</day><month>5</month><year>2026</year></date>
+<date date-type="received"><day>23</day><month>3</month><year>2026</year></date>
+<date date-type="accepted"><day>12</day><month>6</month><year>2026</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>02</day><month>07</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>19</day><month>09</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-09-19 09:53:04.987"><day>19</day><month>09</month><year>2026</year></date></event><event event-type="pmc-version" specific-use="live"><article-id pub-id-type="pmcaiid">13337105</article-id><article-id pub-id-type="doi">10.1002/advs.76304</article-id><article-version>1</article-version><pub-date><day>02</day><month>07</month><year>2026</year></pub-date></event><event event-type="pmc-version" specific-use="live"><article-id pub-id-type="pmcaiid">13587995</article-id><article-id pub-id-type="doi">10.1002/advs.76304</article-id><article-version>2</article-version><pub-date><day>02</day><month>07</month><year>2026</year></pub-date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2026 The Author(s). <italic toggle="yes">Advanced Science</italic> published by Wiley‐VCH GmbH.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="ADVS-13-e76304.pdf"><?pdf-name ADVS-13-e76304.pdf?><?pdf-size 2835057?><?pdf-md5 9c060a818cf38ae3372db83d2826918a?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:59af/13587995/9c060a818cf3/ADVS-13-e76304.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:ADVS-13-e76304.pdf"/><related-article xmlns:xlink="http://www.w3.org/1999/xlink" related-article-type="preprint" xml:lang="en" xlink:title="research-article" journal-id="bioRxiv" journal-id-type="nlm-ta" ext-link-type="pmc" xlink:href="PMC12632338"><article-title>Matrix stiffness induces endothelial network senescence</article-title><date><day>6</day><month>10</month><year>2025</year></date><elocation-id>2025.10.05.680536</elocation-id><source>bioRxiv</source><pub-id pub-id-type="doi">10.1101/2025.10.05.680536</pub-id><pub-id pub-id-type="pmcid">PMC12632338</pub-id><pub-id pub-id-type="pmid">41278992</pub-id></related-article><abstract><title>ABSTRACT</title><p>Identifying the drivers of cellular senescence that contribute to the decline in vascular function with age and disease is critical for developing restorative interventions. Here, we investigated how increased mechanical stress from extracellular matrix (ECM) stiffening shapes endothelial cell (EC) senescence. We developed a 3D human in vitro model that decouples mechanical stress from inflammatory or biochemical signals, enabling the study of senescence responses to tissue stiffening alone. We found that matrix stiffening induces an EC senescence phenotype with elevated p16/p21 and an immunomodulatory senescence‐associated secretory phenotype (SASP), in the absence of inflammatory signals. This mechano‐induced senescence activates Notch signaling, and treatment with an FDA‐approved γ‐secretase inhibitor attenuates stiffness‐induced senescence. Analysis of fibrotic capsule tissue from patients with synthetic breast implants, a model of localized, mechanically driven fibrosis, validated an increase in p16<sup>+</sup>Notch1<sup>+</sup> endothelial populations. Complementary single‐cell RNA sequencing data further confirmed enrichment of Notch‐ and SASP‐related gene programs. Our work provides a human‐relevant platform for studying targetable stages of endothelial mechanoaging and identifies potential therapeutic targets associated with stiffness‐induced endothelial senescence for mechanically remodeled tissues.</p></abstract><abstract id="advs76304-abs-0001" abstract-type="graphical"><p>Using a 3D human in vitro model that decouples mechanical stress from inflammatory or biochemical signals, matrix stiffening induces a senescence phenotype in endothelial networks. This mechano‐induced senescence activates Notch signaling, and pharmacologic Notch inhibition attenuates this stiffness‐induced senescence.
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="ADVS-13-e76304-g002.webp"><?image-name ADVS-13-e76304-g002.webp?><?image-size 8858?><?image-md5 536966e8ca2422af2f94149af8183d8d?><?image-image-server-status NEVER_LOAD?><?image-original-height 184?><?image-original-width 237?><?image-scaled-height 184?><?image-scaled-width 237?><?image-cloudpmc-urn urn:cdn:blobs/59af/13587995/536966e8ca24/ADVS-13-e76304-g002.webp?></graphic></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="advs76304-kwd-0001">biomaterial</kwd><kwd id="advs76304-kwd-0002">cell biology</kwd><kwd id="advs76304-kwd-0003">endothelial stem cell</kwd><kwd id="advs76304-kwd-0004">engineered tissue</kwd><kwd id="advs76304-kwd-0005">extracellular matrix</kwd><kwd id="advs76304-kwd-0006">fibrosis</kwd><kwd id="advs76304-kwd-0007">hydrogel scaffold</kwd><kwd id="advs76304-kwd-0008">notch signaling pathway</kwd><kwd id="advs76304-kwd-0009">phenotype</kwd><kwd id="advs76304-kwd-0010">senescence</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>American Heart Association</institution><institution-id institution-id-type="doi">10.13039/100000968</institution-id></institution-wrap>
+</funding-source></award-group><award-group id="funding-0002"><funding-source>
+<institution-wrap><institution>National Science Foundation Graduate Research Fellowship Program</institution><institution-id institution-id-type="doi">10.13039/100023581</institution-id></institution-wrap>
+</funding-source><award-id>NSF GRFP</award-id></award-group><award-group id="funding-0003"><funding-source>
+<institution-wrap><institution>Mandel Foundation, Duke Regeneration Center (DRC)</institution></institution-wrap>
+</funding-source></award-group><award-group id="funding-0004"><funding-source>
+<institution-wrap><institution>Duke Science and Technology National Institute of Health</institution></institution-wrap>
+</funding-source><award-id>R01EY035853</award-id><award-id>NIH U54AG079779</award-id><award-id>R01AG082965</award-id></award-group><award-group id="funding-0005"><funding-source>
+<institution-wrap><institution>Bloomberg ∼ Kimmel Institute</institution></institution-wrap>
+</funding-source></award-group></funding-group><counts><fig-count count="5"/><table-count count="0"/><page-count count="16"/><word-count count="11164"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>18 September 2026</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.8.7 mode:remove_FC converted:18.09.2026</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="advs76304-sec-0010"><label>1</label><title>Introduction</title><p>Endothelial cell (EC) senescence has been recognized as a contributor to vascular aging and dysfunction, including impaired barrier integrity, chronic inflammation, and tissue remodeling [<xref rid="advs76304-bib-0001" ref-type="bibr">1</xref>]. Senescent ECs undergo persistent cell‐cycle arrest and develop a senescence‐associated secretory phenotype (SASP) that disrupts vascular homeostasis and influences surrounding stromal and immune cell behavior [<xref rid="advs76304-bib-0002" ref-type="bibr">2</xref>, <xref rid="advs76304-bib-0003" ref-type="bibr">3</xref>]. While biochemical stressors, including oxidative stress, DNA damage, and inflammatory mediators, are established inducers of EC senescence, mechanical changes in the extracellular microenvironment have also emerged as important regulators of endothelial behavior through mechanosensing and mechanotransduction pathways.</p><p>Progressive matrix stiffening is a characteristic feature of aging and fibrotic tissue, arising from increased matrix deposition and cross‐linking that alter the mechanical cues perceived by surrounding cells [<xref rid="advs76304-bib-0004" ref-type="bibr">4</xref>]. In the microvasculature, ECs directly interface with the vascular basement membrane and perivascular matrix, placing them in immediate contact with these biomechanical cues [<xref rid="advs76304-bib-0005" ref-type="bibr">5</xref>]. Matrix stiffness is therefore an important component of the endothelial niche [<xref rid="advs76304-bib-0006" ref-type="bibr">6</xref>, <xref rid="advs76304-bib-0007" ref-type="bibr">7</xref>, <xref rid="advs76304-bib-0008" ref-type="bibr">8</xref>]. However, its role in regulating EC senescence in a 3D microvascular network remains incompletely understood.</p><p>A key enabler of this work is a hydrogel system designed to exert mechanical control over extracellular matrix (ECM) stiffening around 3D lumenized vascular networks. We developed a tunable hydrogel platform that simulates the dynamic increase in ECM stiffness to investigate how mechanical forces regulate EC network senescence. This hydrogel system decouples mechanical stimuli from inflammatory or biochemical signals, which are known to regulate cellular senescence. Unlike the adherent culture system, this approach offers a physiologically relevant framework for examining how dynamic matrix stiffening regulates endothelial senescence in a 3D microvascular context.</p><p>The engineered system captured a mechanically induced senescence state in endothelial networks, marked by elevated senescence marker expression and a non‐canonical, immunomodulatory SASP distinct from the classical IL‐6/IL‐8‐enriched profile. In these stiffened conditions, Notch signaling was associated with the senescent endothelial response. Pharmacological inhibition of Notch signaling reduced endothelial network senescence. Validation of the model with fibrotic capsule tissue from human breast implants and accompanying single‐cell RNA sequencing data revealed an enrichment of Notch1<sup>+</sup> senescent EC populations in stiffened environments, supporting the translational relevance of our in vitro findings. This work establishes a mechanosensitive platform to dissect biomechanical inputs and identify targetable drivers of endothelial senescence.</p></sec><sec id="advs76304-sec-0020"><label>2</label><title>Results</title><sec id="advs76304-sec-0030"><label>2.1</label><title>Hydrogel Platform to Study Stiffness‐Induced Endothelial Network Senescence In Vitro</title><p>To examine the role of matrix stiffness in EC network senescence, we established a physiologically relevant 3D model that supports the formation of lumenized endothelial networks in a soft collagen‐rich matrix, followed by on‐demand stiffening during cell culture under controlled conditions. This two‐step cross‐linking strategy recapitulates the increase in ECM stiffness, while holding biochemical cues constant, thereby isolating mechanics as the independent variable [<xref rid="advs76304-bib-0008" ref-type="bibr">8</xref>]. Unlike in vivo, where stiffness changes coincide with shifts in pathological soluble factors, our system enables selective interrogation of mechanical effects on EC network senescence.</p><p>We previously established a methacrylated collagen (Col‐MA) and hyaluronic acid (HA‐MA) platform in which collagen first forms a physically cross‐linked gel at 37°C, followed by ruthenium‐mediated, light‐induced polymerization of methacrylate groups [<xref rid="advs76304-bib-0008" ref-type="bibr">8</xref>]. In this first‐generation system [<xref rid="advs76304-bib-0008" ref-type="bibr">8</xref>], increasing visible light exposure to tune gel stiffness also elevated the flux of photogenerated radicals and reactive oxygen species (ROS) byproduct, confounding mechanical effects with ROS‐driven senescence [<xref rid="advs76304-bib-0009" ref-type="bibr">9</xref>]. To overcome this limitation, we developed a second‐generation Col‐MA/HA‐MA system that exhibits different stiffness levels under the same photochemical conditions. Collagen I was retained as the bioactive scaffold for structural and mechanotransducive cues [<xref rid="advs76304-bib-0010" ref-type="bibr">10</xref>, <xref rid="advs76304-bib-0011" ref-type="bibr">11</xref>]. Hydrogel stiffness was modulated by varying the degree of HA methacrylation (14 and 64 mol%; Figure <xref rid="advs76304-supinfo-0001" ref-type="">S1</xref>) while holding light intensity, duration, and photoinitiator constant. Importantly, all hydrogel formulations were prepared with identical concentrations of collagen I and hyaluronic acid, thereby maintaining consistent ligand density while modulating stiffness through differences in HA methacrylation. Under these matched conditions, 14 mol% HA‐MA yielded an intermediate (IM) stiffness, whereas 64 mol% produced a stiffer matrix, while the Soft low and high formulations prepared with different HA‐MA variants had comparable moduli (Figure <xref rid="advs76304-fig-0001" ref-type="fig">1A</xref>; Figure <xref rid="advs76304-supinfo-0001" ref-type="">S2A</xref>).</p><fig position="float" fig-type="FIGURE" id="advs76304-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>In vitro hydrogel system to model endothelial network senescence. (A) Schematic of the Col‐MA/HA‐MA hydrogel system using two different degrees of methacrylate incorporation on HA. (B) Young's modulus of Soft (high), Intermediate (IM), and Stiff hydrogels. N = 3. (C) Representative reflective confocal images of collagen fiber structures at varying stiffness levels. Scale bar = 20 µm. (D) Quantification of collagen fibril average diameter and total fiber area. N = 5 with 5 fields of images in each. (E) Microscale viscoelastic characterization measured by AFM‐based microrheology, including shear modulus and loss modulus, in Soft, IM, and stiff hydrogels. (F) Schematic of the 3D stiffening hydrogel system. ECs were encapsulated in Col‐HA hydrogels and allowed to form networks for 48 h, followed by photo‐crosslinking using a ruthenium photoinitiator for 1 min. Both soft control and stiffened hydrogels were subsequently cultured for an additional 48 h prior to analysis. (G) Representative maximum intensity projections of confocal z‐stack showing microvascular networks and orthogonal cross‐sections of 3D lumina (asterisks) in Soft, IM, and stiff hydrogels. Increased stiffness reduced vessel formation, as quantified in (H) by total vessel length, surface area, and volume. Each biological replicate (N = 3) included two independent hydrogel samples, with ≥ 2 fields of view per sample analyzed. DAPI in blue, VE‐Cad in green, F‐actin in red. The scale bars: 100 µm (networks) and 25 µm (lumen cross‐sections). (I) Schematic of control experiment assessing the effect of radical exposure in the absence of matrix stiffening. ECs were encapsulated in unmodified collagen hydrogels lacking MA functional groups and incubated for 48 h. On Day 2, 3D cell‐laden hydrogel constructs were then exposed to white LED light (0–120 s) in the presence of photoinitiator, followed by continued culture to Day 4. (J) Western blot analysis and (K) quantifications of p21 levels in ECs encapsulated in unmodified collagen hydrogels (no stiffening) to evaluate the effect of radical exposure on cellular senescence. p21 levels were normalized to GAPDH. N = 3 with two technical replicates per biological replicate. Statistical analysis was performed using one‐way ANOVA followed by Tukey's multiple comparisons test. Data are presented as mean ± SEM. Significance levels were set at *<italic toggle="yes">p</italic> ≤ 0.05, **<italic toggle="yes">p</italic> ≤ 0.01, ***<italic toggle="yes">p</italic> ≤ 0.001, and ****<italic toggle="yes">p</italic> ≤ 0.0001.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="ADVS-13-e76304-g003.webp"><?image-name ADVS-13-e76304-g003.webp?><?image-size 105326?><?image-md5 57f717c0243d3aa35eed518e0bc9979c?><?image-image-server-status NEED_LOADING?><?image-original-height 1000?><?image-original-width 648?><?image-scaled-height 1000?><?image-scaled-width 648?><?image-cloudpmc-urn urn:cdn:blobs/59af/13587995/57f717c0243d/ADVS-13-e76304-g003.webp?><?thumb-name ADVS-13-e76304-g003.gif?><?thumb-size 14161?><?thumb-md5 7975af5d2e930fe09f9fae54d56386a8?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 200?><?thumb-scaled-width 130?><?thumb-cloudpmc-urn urn:cdn:blobs/59af/13587995/7975af5d2e93/ADVS-13-e76304-g003.gif?></graphic></fig><p>Oscillatory rheometry measurements confirmed effective stiffness separation, with Young's modulus ∼2.28 fold higher in Stiff and ∼1.43 fold higher in IM relative to Soft (Figure <xref rid="advs76304-fig-0001" ref-type="fig">1B</xref>), closely mimicking the change in ECM stiffening in aging mouse tissue compared to young [<xref rid="advs76304-bib-0008" ref-type="bibr">8</xref>]. Equilibrium swelling ratios were 397.01 ± 47.68, 254.62 ± 46.92, and 184.19 ± 7.62 for Soft, IM, and Stiff, respectively (Figure <xref rid="advs76304-supinfo-0001" ref-type="">S2B</xref>). Reflective confocal imaging revealed unchanged collagen fibril width across groups (263–264 nm) but increased total collagen fiber area with stiffness (Figure <xref rid="advs76304-fig-0001" ref-type="fig">1C,D</xref>), consistent with higher cross‐link density rather than changes to the intrinsic collagen/HA network structure. The two Soft formulations also exhibited comparable swelling ratios, fibril widths, and fiber areas, indicating differences in HA methacrylation did not alter hydrogel properties prior to matrix stiffening (Figure <xref rid="advs76304-supinfo-0001" ref-type="">S2B–E</xref>).</p><p>To further evaluate whether stiffness modulation introduced microscale alterations in the collagen‐based fibrillar network, we performed viscoelastic measurements using oscillatory atomic force microscopy (AFM)‐based microrheology [<xref rid="advs76304-bib-0012" ref-type="bibr">12</xref>]. The storage modulus (E′) showed trends consistent with bulk stiffness measurement, while the loss modulus (E″) remained comparable across Soft, IM, and Stiff conditions (Figure <xref rid="advs76304-fig-0001" ref-type="fig">1E</xref>). These results indicate that stiffness was selectively tuned, while viscous dissipation and microscale fiber rearrangement were preserved. The two Soft hydrogel formulations also showed comparable storage and loss moduli (Figure <xref rid="advs76304-supinfo-0001" ref-type="">S2F,G</xref>).</p><p>We next encapsulated endothelial colony‐forming cells (ECFCs) in the hydrogels and allowed them to form microvascular networks for 48 h. Matrix stiffening was then induced in situ with a photoinitiator and LED illumination, followed by an additional 48 h of culture (Figure <xref rid="advs76304-fig-0001" ref-type="fig">1F</xref>). Quantitative Live/Dead analysis found over 88% cell viability across all hydrogel conditions, confirming the cytocompatibility of the dynamic stiffening platform (Figure <xref rid="advs76304-supinfo-0001" ref-type="">S2H,I</xref>). During the post‐stiffening period, hydrogels exhibited around 10% mass loss over 48 h with no significant differences across conditions (Figure <xref rid="advs76304-supinfo-0001" ref-type="">S2K</xref>).</p><p>To determine whether matrix stiffening induces microvascular regression with aging [<xref rid="advs76304-bib-0008" ref-type="bibr">8</xref>], we evaluated microvascular network morphology and luminal structure. In both the IM and Stiff conditions, lumenized endothelial networks exhibited disrupted morphology, characterized by constricted and disorganized luminal structures, along with significantly reduced total vessel length, surface area, and volume (Figure <xref rid="advs76304-fig-0001" ref-type="fig">1G,H</xref>). This indicates that matrix stiffening impairs the structural integrity of microvascular networks. By contrast, networks in Soft gels remained intact and continued to mature, highlighting stiffness‐dependent effects on vascular phenotype and aligning with our previous observation [<xref rid="advs76304-bib-0008" ref-type="bibr">8</xref>]. Consistently, both Soft formulations without light exposure exhibited comparable microvessel formation, confirming that different levels of methacrylate functionalization did not affect microvasculature formation capacity (Figure <xref rid="advs76304-supinfo-0001" ref-type="">S2L,M</xref>). Overall, no differences were detected in the material properties and EC network assembly between the two soft hydrogel formulations (Table <xref rid="advs76304-supinfo-0001" ref-type="">S1</xref>). Consequently, we used the soft gel with higher MA modification in the HA as the control in all our experiments. Additionally, since both IM and Stiff hydrogels are polymerized under the same photoinitiation conditions and precursor concentrations (Table <xref rid="advs76304-supinfo-0001" ref-type="">S1</xref>), any variations in cellular responses can be attributed to matrix stiffness rather than radical exposure or ligand density. This dynamic stiffening system effectively isolates matrix stiffness as the only variable, allowing us to study EC senescence due to mechanics rather than ROS generated during photopolymerization.</p><p>To further ensure that senescence outcomes reflected mechanics rather than radical exposure, we tested whether LED illumination and photoinitiator‐derived radicals alone induce EC senescence in the absence of matrix stiffening. We encapsulated ECs in unmodified collagen hydrogels lacking methacrylate functional groups, which therefore do not undergo stiffening upon light exposure even in the presence of photoinitiator, and the 3D EC‐laden constructs were exposed to light for 0–120 s, spanning durations both shorter and longer than our standard stiffening condition (Figure <xref rid="advs76304-fig-0001" ref-type="fig">1I</xref>). p21 senescence marker expression was unchanged across all exposure times (Figure <xref rid="advs76304-fig-0001" ref-type="fig">1J,K</xref>), indicating that neither light exposure nor photoinitiator‐derived radical generation alone induces p21 expression in the absence of matrix stiffening. These findings support the use of the non‐illuminated Soft hydrogel condition as the control group and indicate that any subsequent senescence‐associated responses observed in the stiffened hydrogel system can be attributed to matrix stiffening rather than photochemical exposure.</p></sec><sec id="advs76304-sec-0040"><label>2.2</label><title>Stiffening Matrix Induces Endothelial Network Senescence</title><p>Next, we tested whether dynamic matrix stiffening drives endothelial network senescence. Following 48 h of microvascular network formation, lumenized endothelial networks were exposed to dynamically stiffened matrix environments corresponding to IM and Stiff conditions for an additional 48 h (Figure <xref rid="advs76304-supinfo-0001" ref-type="">S3</xref>). At the transcriptional level, the senescence markers <italic toggle="yes">CDKN1A</italic> (p21) and <italic toggle="yes">CDKN2A</italic> (p16) were significantly upregulated with increasing matrix stiffness, with the highest expression level observed in Stiff gels (Figure <xref rid="advs76304-fig-0002" ref-type="fig">2A</xref>). In line with upregulation of <italic toggle="yes">CDKN1A</italic> and <italic toggle="yes">CDKN2A</italic>, Day 4 dsDNA content and Hoechst<sup>+</sup> nuclei counts were significantly reduced in IM and Stiff conditions compared to Soft gels (Figure <xref rid="advs76304-fig-0002" ref-type="fig">2B</xref>, Figure <xref rid="advs76304-supinfo-0001" ref-type="">S1J</xref>), indicating fewer cells at the experimental endpoint despite identical initial seeding densities. This reduction in cell number, combined with maintained overall viability as assessed by Live/Dead analysis (Figure <xref rid="advs76304-supinfo-0001" ref-type="">S2H,I</xref>), suggests reduced proliferative expansion rather than increased cell death under stiffened conditions. Western blot analysis further showed a stiffness‐dependent increase in p21 protein expression (Figure <xref rid="advs76304-fig-0002" ref-type="fig">2C,D</xref>). Consistent with these findings, immunofluorescence analysis revealed elevated p16 expression and increased SA‐β‐gal activity in Stiff matrices (Figure <xref rid="advs76304-fig-0002" ref-type="fig">2E–H</xref>).</p><fig position="float" fig-type="FIGURE" id="advs76304-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>Matrix stiffness‐induced endothelial network senescence. Endothelial networks cultured in hydrogels of increasing stiffness show elevated expression of senescence markers: (A) <italic toggle="yes">CDKN1A</italic> and <italic toggle="yes">CDKN2A</italic> mRNA levels measured by qRT‐PCR. (B) Day 4 dsDNA content quantified by PicoGreen assay, showing reduced cell number under stiffened conditions. Each biological replicate (N = 2) included three to four independent hydrogel samples, with one data point representing a single hydrogel sample. (C, D) p21 protein levels assessed by Western blot, and (E, F) p16 protein expression visualized by immunofluorescence staining. Representative confocal images show microvascular networks stained for VE‐Cadherin in green, p16 in white, and nuclei in blue. Scale bar is 100 µm. (G, H) SA‐β‐gal activity increased with matrix stiffening. Representative confocal images show networks stained for F‐actin (red), SA‐β‐gal (green), and nuclei (blue). Scale bar: 100 µm. For all immunofluorescence‐based analyses (E–H), each biological replicate (N = 3) included two independent hydrogel samples, with ≥ 3 fields of view per sample. (I–K) Senescence‐associated secretory phenotype (SASP) factors, including cytokines, chemokines, and MMPs, analyzed using a Luminex assay. Values were normalized to the dsDNA content reported in (B). Each biological replicate (N = 2) included two to three independent hydrogel samples. The complete dataset of all analytes measured in the panel is provided in Tables <xref rid="advs76304-supinfo-0001" ref-type="">S2</xref> and <xref rid="advs76304-supinfo-0001" ref-type="">S3</xref>. Statistical analysis was performed using one‐way ANOVA followed by Tukey's multiple comparisons test. Data are presented as mean ± SEM. Significance levels were set at ns = not significant (<italic toggle="yes">p</italic> &gt; 0.05), *<italic toggle="yes">p</italic> ≤ 0.05, **<italic toggle="yes">p</italic> ≤ 0.01, ***<italic toggle="yes">p</italic> ≤ 0.001, and ****<italic toggle="yes">p</italic> ≤ 0.0001.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="ADVS-13-e76304-g004.webp"><?image-name ADVS-13-e76304-g004.webp?><?image-size 76438?><?image-md5 fa06c0263d4d36f3acfb8b0150f0e51a?><?image-image-server-status NEED_LOADING?><?image-original-height 887?><?image-original-width 820?><?image-scaled-height 887?><?image-scaled-width 820?><?image-cloudpmc-urn urn:cdn:blobs/59af/13587995/fa06c0263d4d/ADVS-13-e76304-g004.webp?><?thumb-name ADVS-13-e76304-g004.gif?><?thumb-size 16424?><?thumb-md5 d0472242b096b5e185a51ee55a96b733?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 200?><?thumb-scaled-width 185?><?thumb-cloudpmc-urn urn:cdn:blobs/59af/13587995/d0472242b096/ADVS-13-e76304-g004.gif?></graphic></fig><p>In addition to upregulating senescence markers, dynamic matrix stiffening induced a distinct senescence‐associated secretory phenotype (SASP). To characterize this mechanoaging‐associated SASP, we analyzed culture supernatants for cytokines, chemokines, and proteases secreted by senescent ECs in the absence of exogenous inflammatory stimulation using a multiplex Luminex panel (full dataset provided in Tables <xref rid="advs76304-supinfo-0001" ref-type="">S2</xref> and <xref rid="advs76304-supinfo-0001" ref-type="">S3</xref>). Matrix stiffening significantly increased secretion of several immunomodulatory alarmins and stress‐associated factors, including IL‐33, IL‐1α, IFN‐γ, CCL3, CCL26, MMP1, and MMP3 (Figure <xref rid="advs76304-fig-0002" ref-type="fig">2I</xref>). Notably, IL‐1α is an EC‐senescence cue that coordinates cytokine signaling networks [<xref rid="advs76304-bib-0013" ref-type="bibr">13</xref>]. Stiffened conditions also elevated RAGE, OPN, and GDF‐15, senescence‐associated biomarkers linked to vascular aging and cellular stress responses (Figure <xref rid="advs76304-fig-0002" ref-type="fig">2I</xref>) [<xref rid="advs76304-bib-0014" ref-type="bibr">14</xref>, <xref rid="advs76304-bib-0015" ref-type="bibr">15</xref>, <xref rid="advs76304-bib-0016" ref-type="bibr">16</xref>]. In contrast, canonical pro‐inflammatory SASP cytokines such as IL‐6, IL‐8, and CXCL1 were significantly suppressed under stiffened conditions (Figure <xref rid="advs76304-fig-0002" ref-type="fig">2J</xref>), while IL‐11, CCL2, and ICAM‐1 levels remained unchanged across varying matrix stiffness (Figure <xref rid="advs76304-fig-0002" ref-type="fig">2K</xref>). Furthermore, several classical inflammatory mediators, including TNF‐α, IL‐17, IL‐13, VCAM‐1, and TGF‐α, were consistently below the assay detection limit across all conditions, while IL‐1β, CXCL2, and CCL8 showed inconsistent detection across replicates (Tables <xref rid="advs76304-supinfo-0001" ref-type="">S2</xref> and <xref rid="advs76304-supinfo-0001" ref-type="">S3</xref>). These findings suggest that matrix stiffening induces a selective endothelial SASP enriched in alarmin‐ and stress‐associated factors, accompanied by suppression of canonical pro‐inflammatory cytokines.</p><p>To further characterize remodeling‐associated responses in stiffness‐induced senescent ECs, we examined the expression of matrix remodeling enzymes and ECM‐related genes by qPCR (Figure <xref rid="advs76304-supinfo-0001" ref-type="">S4</xref>). <italic toggle="yes">MMP9</italic> was downregulated under stiffened conditions, suggesting reduced MMP9‐dependent angiogenic remodeling capacity [<xref rid="advs76304-bib-0017" ref-type="bibr">17</xref>]. In contrast, <italic toggle="yes">CYR61</italic> expression, which contributes to endothelial survival signaling [<xref rid="advs76304-bib-0018" ref-type="bibr">18</xref>], remained relatively stable despite vascular network regression observed under stiffened conditions. Matrix stiffening increased expression of the basement membrane‐associated genes <italic toggle="yes">MMP2</italic> and <italic toggle="yes">COL4A1</italic> while reducing expression of fibrotic ECM‐related genes, including <italic toggle="yes">CTGF</italic>, <italic toggle="yes">COL3A1</italic>, <italic toggle="yes">FN1</italic>, and <italic toggle="yes">LOX</italic>, during the early response to mechanical stimulation.</p><p>Collectively, these findings demonstrate that matrix stiffening drives a senescence program in microvascular networks, accompanied by an alarmin‐ and stress‐associated SASP and basement membrane remodeling alterations [<xref rid="advs76304-bib-0019" ref-type="bibr">19</xref>, <xref rid="advs76304-bib-0020" ref-type="bibr">20</xref>]. Given these coordinated responses following matrix stiffening, we next investigated whether mechanosensitive signaling pathways contribute to stiffness‐induced EC senescence.</p></sec><sec id="advs76304-sec-0050"><label>2.3</label><title>Matrix Stiffening Activates Notch Signaling, Leading to Endothelial Network Senescence</title><p>To investigate signaling pathways underlying our stiffness‐induced senescence program, we next examined Notch signaling, a pathway that regulates endothelial cell fate, adherens junction organization, and vascular homeostasis in response to microenvironmental cues [<xref rid="advs76304-bib-0021" ref-type="bibr">21</xref>]. Matrix stiffness has been shown to directly modulate ligand‐dependent Notch signaling activity in ECs [<xref rid="advs76304-bib-0022" ref-type="bibr">22</xref>], while matrix rigidity and cytoskeletal tension regulate Notch ligand expression through mechanotransduction pathways [<xref rid="advs76304-bib-0023" ref-type="bibr">23</xref>]. Furthermore, Notch activation has been associated with EC senescence, characterized by p21, p16, and SA‐β‐gal induction, in both replicative aging and pathological vascular contexts [<xref rid="advs76304-bib-0024" ref-type="bibr">24</xref>, <xref rid="advs76304-bib-0025" ref-type="bibr">25</xref>]. Building on our previous finding that dynamic matrix stiffening induces focal adhesion kinase activation and junctional restructuring in 3D endothelial networks [<xref rid="advs76304-bib-0008" ref-type="bibr">8</xref>], we hypothesized that matrix stiffening may engage Notch signaling as part of the mechanotransductive response driving EC senescence.</p><p>To test this hypothesis, we examined the Notch receptor, ligands, and a downstream target gene across varying stiffness conditions. A previous study demonstrated stiffness‐dependent regulation of Notch signaling, with increased Notch activity and Dll4 expression on softer substrates [<xref rid="advs76304-bib-0022" ref-type="bibr">22</xref>]. In our 3D model, however, matrix stiffening elevated mRNA expression of <italic toggle="yes">Notch1</italic>, <italic toggle="yes">JAG1, JAG2</italic>, and the downstream target <italic toggle="yes">HEY1</italic>, with no significant change in <italic toggle="yes">Dll4</italic> ligand transcripts (Figure <xref rid="advs76304-fig-0003" ref-type="fig">3A</xref>). Protein analyses further confirmed increased NICD, JAG1, and JAG2 expression under matrix stiffening (Figure <xref rid="advs76304-fig-0003" ref-type="fig">3C–F</xref>), supporting activation of a Notch1‐JAG signaling under stiffened conditions. However, together with the selective induction of noncanonical alarmin‐ and stress‐associated secretory factors observed under matrix stiffening (Figure <xref rid="advs76304-fig-0002" ref-type="fig">2I–K</xref>), these findings suggest that additional stress‐responsive signaling pathways may also be engaged downstream of matrix stiffening [<xref rid="advs76304-bib-0026" ref-type="bibr">26</xref>].</p><fig position="float" fig-type="FIGURE" id="advs76304-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>Matrix stiffening activates Notch to drive JNK‐FOS signaling and endothelial senescence. (A) qRT‐PCR analysis revealed significant upregulation of <italic toggle="yes">Notch1</italic> receptor, ligands <italic toggle="yes">JAG1</italic> and <italic toggle="yes">JAG2</italic>, and downstream target <italic toggle="yes">HEY1</italic> under stiff conditions. <italic toggle="yes">Dll4</italic> ligand gene expression remained unchanged upon matrix stiffening. N = 3. (B) Matrix stiffening also induced <italic toggle="yes">MAPK8</italic> (encoding JNK1), <italic toggle="yes">FOS</italic>, and <italic toggle="yes">JUN</italic> gene expression, key components of the JNK‐AP‐1 signaling axis, as measured by qRT‐PCR. N = 3. (C–F) Western blot analysis confirmed increased protein levels of cleaved‐Notch1 (NICD), JAG1, and JAG2 in stiffened matrices. GAPDH was used as a protein loading control. N = 3. (G–K) Matrix stiffening increased phosphorylation of JNK (p‐JNK) in both cytoplasmic and nuclear fractions (N = 4), while phosphorylation of c‐JUN (p‐c‐JUN) was elevated only in the cytoplasm (N = 3). This suggests that nuclear p‐c‐JUN activation is independent of stiffness‐mediated Notch signaling. GAPDH and PCNA were used as protein loading controls for the cytoplasm and nucleus, respectively. (L) Treatment with nirogacestat (Niro), a γ‐secretase inhibitor, reduced stiffness‐induced expression of <italic toggle="yes">Notch1</italic>, <italic toggle="yes">MAPK8</italic>, <italic toggle="yes">FOS</italic>, <italic toggle="yes">CDKN1A</italic>, and <italic toggle="yes">CDKN2A</italic> (N = 3), suggesting that Notch signaling contributes to JNK‐AP‐1 activation and senescence‐associated cell cycle arrest under matrix stiffening. (M, N) Immunofluorescence staining exhibited reduced p16 expression in nirogacestat‐treated microvascular networks compared to untreated stiff controls. Representative confocal images show endothelial networks stained for VE‐Cadherin in green, p16 in white, nuclei in blue. (O, P) Nirogacestat treatment suppressed SA‐β‐gal activity under matrix stiffening. Representative confocal images show networks stained for F‐actin (red), SA‐β‐gal (green), and nuclei (blue). For all immunofluorescence‐based analyses (M–P), each biological replicate (N = 3) included two independent hydrogel samples, with ≥ 3 fields of view per sample. Scale bars: 100 µm. Statistical analysis was performed using one‐way ANOVA followed by Tukey's multiple comparisons test. Data are presented as mean ± SEM. Significance levels were set at ns = not significant (<italic toggle="yes">p</italic> &gt; 0.05), *<italic toggle="yes">p</italic> ≤ 0.05, **<italic toggle="yes">p</italic> ≤ 0.01, ***<italic toggle="yes">p</italic> ≤ 0.001, and ****<italic toggle="yes">p</italic> ≤ 0.0001.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="ADVS-13-e76304-g005.webp"><?image-name ADVS-13-e76304-g005.webp?><?image-size 77800?><?image-md5 399b391b0d19d8951afff8ae4d488981?><?image-image-server-status NEED_LOADING?><?image-original-height 979?><?image-original-width 690?><?image-scaled-height 979?><?image-scaled-width 690?><?image-cloudpmc-urn urn:cdn:blobs/59af/13587995/399b391b0d19/ADVS-13-e76304-g005.webp?><?thumb-name ADVS-13-e76304-g005.gif?><?thumb-size 13533?><?thumb-md5 edfd3d35d4ccf0dbc7d5c90aa4c81288?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 200?><?thumb-scaled-width 141?><?thumb-cloudpmc-urn urn:cdn:blobs/59af/13587995/edfd3d35d4cc/ADVS-13-e76304-g005.gif?></graphic></fig><p>Beyond its mechanosensitive role, Notch signaling has been linked to MAPK/JNK [<xref rid="advs76304-bib-0027" ref-type="bibr">27</xref>, <xref rid="advs76304-bib-0028" ref-type="bibr">28</xref>] and NF‐κB [<xref rid="advs76304-bib-0029" ref-type="bibr">29</xref>] signaling under stress conditions. Since the stiffness‐induced secretory profile lacked canonical NF‐kB‐associated cytokines, including IL‐6, IL‐8, and CXCL1, we next examined JNK signaling and its downstream AP‐1 transcriptional program. Matrix stiffening significantly increased expression of <italic toggle="yes">MAPK8</italic> (encoding JNK1) and the AP‐1 components <italic toggle="yes">FOS</italic> and <italic toggle="yes">JUN</italic> (Figure <xref rid="advs76304-fig-0003" ref-type="fig">3B</xref>), consistent with activation of a JNK‐AP‐1‐associated stress‐response program alongside Notch signaling. At the protein level, phosphorylated JNK (p‐JNK) significantly increased in both cytoplasmic and nuclear fractions (Figure <xref rid="advs76304-fig-0003" ref-type="fig">3G–I</xref>). In contrast, phosphorylated c‐JUN (p‐c‐JUN) increased only in the cytoplasmic fraction, with no significant accumulation in the nucleus (Figure <xref rid="advs76304-fig-0003" ref-type="fig">3G,J,K</xref>). The observed JNK activation is consistent with a JNK‐AP‐1‐associated secretory remodeling program, as evidenced by the induction of MMP1 [<xref rid="advs76304-bib-0030" ref-type="bibr">30</xref>], MMP3 [<xref rid="advs76304-bib-0030" ref-type="bibr">30</xref>], and IL33 [<xref rid="advs76304-bib-0031" ref-type="bibr">31</xref>] under stiffened conditions.</p><p>To determine whether Notch signaling contributes to stiffness‐induced EC senescence, microvascular networks were pretreated with nirogacestat, an FDA‐approved γ‐secretase inhibitor that blocks NICD release and downstream Notch activation [<xref rid="advs76304-bib-0032" ref-type="bibr">32</xref>], for 3 h prior to matrix stiffening (Figure <xref rid="advs76304-supinfo-0001" ref-type="">S3</xref>). Nirogacestat treatment reduced stiffness‐induced expression in <italic toggle="yes">Notch1</italic>, <italic toggle="yes">MAPK8</italic>, and <italic toggle="yes">FOS</italic> transcripts, whereas <italic toggle="yes">JUN</italic> expression remained elevated (Figure <xref rid="advs76304-fig-0003" ref-type="fig">3L</xref>). This suggests that Notch signaling contributes to the stiffness‐induced JNK/AP‐1 response, but does not fully account for it under our experimental conditions. Functionally, nirogacestat treatment reduced <italic toggle="yes">CDKN1A</italic> and <italic toggle="yes">CDKN2A</italic> gene expression (Figure <xref rid="advs76304-fig-0003" ref-type="fig">3L</xref>) and decreased both p16 staining intensity and SA‐β‐gal activity compared to untreated Stiff controls (Figure <xref rid="advs76304-fig-0003" ref-type="fig">3M–P</xref>), indicating attenuation of stiffness‐driven senescence. Together, these findings support a model in which matrix stiffening promotes endothelial senescence in part through a Notch‐associated stress‐response program.</p></sec><sec id="advs76304-sec-0060"><label>2.4</label><title>Human Biospecimens Analysis Reveals Stiffness‐Induced Endothelial Senescence</title><p>To examine whether the stiffness‐associated endothelial senescence phenotype observed in our in vitro model is also present in humans, we analyzed fibrotic capsule specimens from patients with synthetic breast implants, which reproducibly develop localized fibrosis enriched with senescent cells [<xref rid="advs76304-bib-0033" ref-type="bibr">33</xref>, <xref rid="advs76304-bib-0034" ref-type="bibr">34</xref>]. Oscillatory AFM‐based microrheology measurements showed increased relative stiffness in fibrotic capsule regions compared to adjacent non‐fibrotic tissues (Figure <xref rid="advs76304-supinfo-0001" ref-type="">S5A</xref>).</p><p>To assess EC senescence and Notch‐associated phenotypes in vivo, we performed triple immunofluorescence staining for CD31 (endothelial marker), p16 (senescence marker), and Notch1 (Notch signaling marker) in both fibrotic and adjacent soft control tissues (muscle and fat). The proportion of CD31<sup>+</sup>p16<sup>+</sup> double‐positive cells was significantly higher in fibrotic capsules, indicating increased accumulation of senescent ECs in stiffened microenvironments (Figure <xref rid="advs76304-fig-0004" ref-type="fig">4A,B</xref>). While the percentage of CD31<sup>+</sup>Notch1<sup>+</sup> double‐positive cells, representing Notch1 expression in non‐senescent ECs, remained similar between soft and fibrotic tissues (Figure <xref rid="advs76304-fig-0004" ref-type="fig">4C</xref>), the fraction of triple‐positive (CD31<sup>+</sup>p16<sup>+</sup>Notch1<sup>+</sup>) cells was significantly higher in fibrotic capsules (Figure <xref rid="advs76304-fig-0004" ref-type="fig">4D</xref>). This suggests that Notch1 receptor expression is preferentially increased in senescent ECs in vivo under fibrotic stiffening. Quantification of vessel area distribution showed no significant differences between soft control and fibrotic tissues (Figure <xref rid="advs76304-supinfo-0001" ref-type="">S5C</xref>).</p><fig position="float" fig-type="FIGURE" id="advs76304-fig-0004" orientation="portrait"><label>FIGURE 4</label><caption><p>Human breast implant fibrotic capsule tissue confirms Notch‐driven endothelial senescence under stiffened environment. (A) Immunofluorescence staining of fibrotic capsules surrounding surgically explanted synthetic breast implants and adjacent fat tissue showed ECs (CD31) in green, senescence marker (p16<sup>INK4a</sup>) in orange, Notch1 receptor in magenta, and nuclei in blue. Representative images of both soft and fibrotic tissues were obtained from the same patient. Scale bar  =  100 µm (left), 20 µm (right). (B) Increased p16 expression was observed in ECs within fibrotic capsule regions compared to soft control tissues, including fat and muscle. (C) The proportion of non‐senescent ECs expressing Notch1 (CD31<sup>+</sup>Notch1<sup>+</sup>) was comparable between soft control and fibrotic tissues, suggesting Notch1 expression in non‐senescent ECs is not altered by stiffness. (D) A significantly higher frequency of triple‐positive (CD31<sup>+</sup>p16<sup>+</sup>Notch1<sup>+</sup>) cells in fibrotic regions indicates that Notch1 expression is enriched specifically within senescent ECs in stiffened environments. (E) Violin plots confirm EC identity through expression of standard EC markers VE‐Cadherin (CDH5), PECAM1, and von Willebrand factor (vWF). (F) UMAP projection identifies 132 <italic toggle="yes">CDKN2A</italic>
+<sup>+</sup> ECs out of 1836 total ECs. (G) Volcano plot showing differentially expressed genes between <italic toggle="yes">CDKN2A</italic>
+<sup>+</sup> and <italic toggle="yes">CDKN2A</italic>
+<sup>−</sup> ECs. Genes meeting adjusted <italic toggle="yes">p</italic> &lt; 0.05 and log<sub>2</sub> fold change &gt; 0.5 are highlighted. (H) Dot plot displays enrichment of Notch‐ and JNK‐associated genes in senescent ECs. (I) <italic toggle="yes">CDKN2A</italic>
+<sup>+</sup> ECs show increased expression of genes related to cell cycle arrest (e.g., CDKN2A/B/C, CCNG1), SASP and inflammatory signaling (e.g., BCL2, BAX, CXCL12/14/16, IL11RA), and ECM remodeling (e.g., MMP3/11/14, PLAUR, SERPINE2, CCN1), supporting their active role in fibrosis‐associated tissue remodeling.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="ADVS-13-e76304-g001.webp"><?image-name ADVS-13-e76304-g001.webp?><?image-size 80604?><?image-md5 c1f12b4228c85e5c0cb23cf1c354a01c?><?image-image-server-status NEED_LOADING?><?image-original-height 813?><?image-original-width 820?><?image-scaled-height 813?><?image-scaled-width 820?><?image-cloudpmc-urn urn:cdn:blobs/59af/13587995/c1f12b4228c8/ADVS-13-e76304-g001.webp?><?thumb-name ADVS-13-e76304-g001.gif?><?thumb-size 15398?><?thumb-md5 a9a6bc23c7850c5d8850645b5fc436be?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 198?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/59af/13587995/a9a6bc23c785/ADVS-13-e76304-g001.gif?></graphic></fig><p>We next analyzed the endothelial subset from a previously published single‐cell RNA sequencing dataset of human fibrotic capsules surrounding synthetic breast implants [<xref rid="advs76304-bib-0033" ref-type="bibr">33</xref>]. Senescent ECs were identified based on expression of the cell cycle inhibitor <italic toggle="yes">CDKN2A</italic> (which encodes <italic toggle="yes">16</italic>
+<sup>Ink4a</sup>), alongside standard EC markers, including <italic toggle="yes">Cadherin‐5</italic> (<italic toggle="yes">VE‐C</italic>ad), <italic toggle="yes">PECAM‐1</italic>, and <italic toggle="yes">vWF</italic> (Figure <xref rid="advs76304-fig-0004" ref-type="fig">4E</xref>) [<xref rid="advs76304-bib-0035" ref-type="bibr">35</xref>, <xref rid="advs76304-bib-0036" ref-type="bibr">36</xref>]. Across the Uniform Manifold Approximation and Projection (UMAP) space, 132 of the total 1,836 ECs (∼7%) expressed p16 (Figure <xref rid="advs76304-fig-0004" ref-type="fig">4F</xref>), consistent with the expected low frequency of senescent cells in vivo [<xref rid="advs76304-bib-0033" ref-type="bibr">33</xref>]. This proportion is comparable to our immunofluorescence‐based quantification, which identified ∼12% of CD31<sup>+</sup> cells as p16<sup>+</sup>, supporting the consistency of senescent EC detection across experimental modalities.</p><p>To confirm that <italic toggle="yes">CDKN2A</italic>
+<sup>+</sup> ECs represent a non‐proliferating population, we verified the absence of co‐expression with the proliferation marker MKI67. Given the known dropout rates of <italic toggle="yes">CDKN2A</italic> in single‐cell datasets, we further evaluated the robustness of our classification using multiple senescence gene signatures, including SenSig [<xref rid="advs76304-bib-0033" ref-type="bibr">33</xref>], SenMayo [<xref rid="advs76304-bib-0037" ref-type="bibr">37</xref>], CellAge [<xref rid="advs76304-bib-0038" ref-type="bibr">38</xref>, <xref rid="advs76304-bib-0039" ref-type="bibr">39</xref>], and EC.SENESCENCE.SIG [<xref rid="advs76304-bib-0040" ref-type="bibr">40</xref>] (Figure <xref rid="advs76304-supinfo-0001" ref-type="">S6A</xref>). <italic toggle="yes">CDKN2A</italic>
+<sup>+</sup> cells exhibited significantly higher module scores for SenSig, SenMayo, and CellAge compared to <italic toggle="yes">CDKN2A</italic>
+<sup>−</sup> cells, while EC.SENESCENCE.SIG was lower in <italic toggle="yes">CDKN2A</italic>
+<sup>+</sup> cells. When independently classifying senescent ECs based on the top 12% of signature scores, consistent with our immunofluorescence‐based prevalence, SenSig and SenMayo, most robustly enriched for cells expressing canonical senescence markers, including <italic toggle="yes">CDKN2A</italic> (p16) and <italic toggle="yes">CDKN2B</italic> (p15) (Figure <xref rid="advs76304-supinfo-0001" ref-type="">S6B,C</xref>). Notably, 87% of differentially upregulated genes identified using <italic toggle="yes">CDKN2A</italic>‐based classification were also detected using SenSig and/or Sen Mayo scoring (Figure <xref rid="advs76304-supinfo-0001" ref-type="">S6D</xref>). These results suggest that <italic toggle="yes">CDKN2A</italic>‐based classification captures similar senescent EC phenotypes as these signature‐based methods.</p><p>Differential gene expression analysis between <italic toggle="yes">CDKN2A</italic>
+<sup>+</sup> and <italic toggle="yes">CDKN2A</italic>
+<sup>−</sup> ECs identified 1487 genes with significant changes (adjusted <italic toggle="yes">p</italic> &lt; 0.05). These genes were enriched in functional categories related to inflammatory signaling, ECM remodeling, and chromatin regulation (Figure <xref rid="advs76304-fig-0004" ref-type="fig">4G</xref>). While the volcano plot displays all genes detected in the analysis, only those meeting both statistical significance (adjusted <italic toggle="yes">p</italic> &lt; 0.05) and a log<sub>2</sub> fold change &gt; 0.5 are highlighted as robustly regulated targets.</p><p>We next asked whether the transcriptomic features of <italic toggle="yes">CDKN2A</italic>
+<sup>+</sup> ECs were consistent with the pathway‐level changes observed in vitro. Analysis showed that <italic toggle="yes">CDKN2A</italic>
+<sup>+</sup> ECs expressed several key Notch pathway components (<italic toggle="yes">Notch1/2, B4GALT1, HDAC2</italic>, and <italic toggle="yes">MIB2</italic>) and JNK‐associated components (<italic toggle="yes">ARRB2</italic>, <italic toggle="yes">CEBPB</italic>, <italic toggle="yes">DUSP10</italic>, <italic toggle="yes">JUND</italic>, and <italic toggle="yes">LPAR1</italic>) (Figure <xref rid="advs76304-fig-0004" ref-type="fig">4H</xref>). Although Notch1 was expressed in a greater proportion of <italic toggle="yes">CDKN2A</italic>
+<sup>+</sup> cells, its expression level was comparable between the <italic toggle="yes">CDKN2A</italic>
+<sup>+</sup> and <italic toggle="yes">CDKN2A</italic>
+<sup>−</sup> groups.</p><p>Senescence‐associated genes were further profiled (Figure <xref rid="advs76304-fig-0004" ref-type="fig">4I</xref>). Genes involved in cell cycle regulation (<italic toggle="yes">ANAPC11</italic>, <italic toggle="yes">CCNG1</italic>, <italic toggle="yes">CDC16</italic>, <italic toggle="yes">CDKN2A</italic>, <italic toggle="yes">CDKN2B</italic>, and <italic toggle="yes">CDKN2C</italic>) were differentially expressed in <italic toggle="yes">CDKN2A</italic>
+<sup>+</sup> cells, consistent with a senescent phenotype. SASP‐related genes, including <italic toggle="yes">BCL2</italic> and <italic toggle="yes">BAX</italic> genes, as well as chromatin regulators such as <italic toggle="yes">CEBPB</italic> and <italic toggle="yes">KDM1B</italic>, were also enriched in the <italic toggle="yes">CDKN2A</italic>
+<sup>+</sup> population. Moreover, immune signaling molecules such as <italic toggle="yes">CXCL12</italic>, <italic toggle="yes">CXCL14</italic>, <italic toggle="yes">CXCL16</italic>, and <italic toggle="yes">IL11RA</italic> showed elevated expression, suggesting an immunomodulatory and pro‐inflammatory profile in senescent ECs. Importantly, genes identified from our in vitro Luminex analysis, including <italic toggle="yes">CCL3</italic>, <italic toggle="yes">CCL26</italic>, and <italic toggle="yes">IL33</italic>, were expressed by a higher proportion of <italic toggle="yes">CDKN2A</italic>
+<sup>+</sup> cells, even though their average expression levels remained similar between groups.</p><p>Lastly, ECM remodeling genes such as <italic toggle="yes">CCN1</italic>, <italic toggle="yes">MMP3</italic>, <italic toggle="yes">MMP11</italic>, <italic toggle="yes">MMP14</italic>, <italic toggle="yes">PLAUR</italic>, and <italic toggle="yes">SERPINE2</italic> were significantly upregulated in the <italic toggle="yes">CDKN2A</italic>
+<sup>+</sup> group (Figure <xref rid="advs76304-fig-0004" ref-type="fig">4I</xref>). Gene Set Enrichment Analysis (GSEA) further demonstrated enrichment of pathways related to collagen fibril organization and collagen metabolism in the senescent EC population (Figure <xref rid="advs76304-supinfo-0001" ref-type="">S7</xref>). Furthermore, ECM organization‐related pathways were consistently enriched across all classification methods (Figure <xref rid="advs76304-supinfo-0001" ref-type="">S7</xref>), indicating that this ECM‐associated signature is robust across classification strategies.</p></sec></sec><sec id="advs76304-sec-0070"><label>3</label><title>Discussion</title><p>This study demonstrates that dynamic matrix stiffening induces senescence in lumenized endothelial microvascular networks and reshapes the endothelial senescence‐associated responses. We developed a tunable 3D hydrogel platform that enables the formation of microvascular networks within a soft, collagen‐rich matrix, followed by controlled, on‐demand stiffening in the absence of exogenous inflammatory stimulation. This system enabled direct assessment of how dynamic mechanical transitions influence EC network senescence in a 3D context. Consistent with previous studies linking matrix stiffness to senescence in vascular smooth muscle cells [<xref rid="advs76304-bib-0041" ref-type="bibr">41</xref>], alveolar epithelial cells [<xref rid="advs76304-bib-0042" ref-type="bibr">42</xref>], and myofibroblasts [<xref rid="advs76304-bib-0043" ref-type="bibr">43</xref>], our findings extend this concept to endothelial networks and show that matrix stiffening alone is sufficient to induce hallmark senescence‐associated phenotypes in ECs. Importantly, these effects were not attributable to radical exposure, as all stiffened groups were subjected to identical photopolymerization parameters and exhibited a gradual increase in senescence marker expression with increasing stiffness.</p><p>While matrix stiffness was the primary biomechanical cue examined in the present study, ECM viscoelasticity and plasticity are additional matrix properties that can independently regulate mechanotransduction and endothelial fate [<xref rid="advs76304-bib-0044" ref-type="bibr">44</xref>, <xref rid="advs76304-bib-0045" ref-type="bibr">45</xref>, <xref rid="advs76304-bib-0046" ref-type="bibr">46</xref>]. As native ECMs are viscoelastic, future versions of this platform could incorporate these features to better capture physiologic matrix mechanics and to determine whether they further modulate endothelial senescence.</p><p>In classical forms of senescence induced by replication stress or DNA damage, the SASP is typically regulated by NF‐κB‐associated pro‐inflammatory cytokine secretion, including IL‐6, IL‐8, and CXCL1 [<xref rid="advs76304-bib-0047" ref-type="bibr">47</xref>, <xref rid="advs76304-bib-0048" ref-type="bibr">48</xref>, <xref rid="advs76304-bib-0049" ref-type="bibr">49</xref>]. In contrast, the SASP induced by matrix stiffening exhibited a distinct immunomodulatory profile, with selective upregulation of IL‐33, IL‐1α, and IFN‐γ, factors associated with alarmin signaling and stress‐responsive inflammatory regulation [<xref rid="advs76304-bib-0050" ref-type="bibr">50</xref>, <xref rid="advs76304-bib-0051" ref-type="bibr">51</xref>, <xref rid="advs76304-bib-0052" ref-type="bibr">52</xref>]. Together with suppression of canonical NF‐κB‐associated cytokines, these findings suggest that mechanical stress may shift endothelial senescence toward a non‐canonical secretory state rather than a broad inflammatory SASP program. Such a phenotype may be particularly relevant in localized fibrotic microenvironments, where senescent ECs may reshape the behavior of adjacent stromal and immune cells through paracrine signaling [<xref rid="advs76304-bib-0053" ref-type="bibr">53</xref>].</p><p>To investigate signaling pathways associated with this response, we focused on Notch signaling due to its established roles in endothelial mechanosensing [<xref rid="advs76304-bib-0022" ref-type="bibr">22</xref>], vascular homeostasis [<xref rid="advs76304-bib-0021" ref-type="bibr">21</xref>], and vascular cell senescence [<xref rid="advs76304-bib-0024" ref-type="bibr">24</xref>]. Previous studies have shown that Notch signaling exhibits both protective and pathological effects in the vasculature, depending on the microenvironmental context and receptor‐ligand pairing [<xref rid="advs76304-bib-0024" ref-type="bibr">24</xref>, <xref rid="advs76304-bib-0025" ref-type="bibr">25</xref>, <xref rid="advs76304-bib-0054" ref-type="bibr">54</xref>, <xref rid="advs76304-bib-0055" ref-type="bibr">55</xref>]. While previous studies reported enhanced Notch1‐Dll4 signaling on softer substrates [<xref rid="advs76304-bib-0022" ref-type="bibr">22</xref>], our 3D model demonstrated that matrix stiffening upregulates Notch1 and JAG ligands at both the transcript and protein levels, supporting activation of a Notch1–JAG signaling under stiffened conditions. Notably, the Notch1‐JAG axis has been implicated in pathological vascular remodeling and inflammatory responses [<xref rid="advs76304-bib-0056" ref-type="bibr">56</xref>], suggesting that targeting Notch1 activation could offer an effective therapeutic strategy for stiffness‐induced endothelial dysfunction.</p><p>Mechanistically, our findings support coordinated activation of Notch signaling and a stress‐responsive JNK‐AP‐1 program under matrix stiffening. Notch inhibition attenuated stiffness‐induced senescence responses, as reflected by reduced p16 expression and SA‐β‐gal activity, indicating that Notch signaling plays a functional role in this process. Given that previous studies have shown that loss of JAG ligands can enhance complementary Notch1–Dll4 signaling [<xref rid="advs76304-bib-0057" ref-type="bibr">57</xref>], use of a pan‐Notch inhibitor in our model enabled broader assessment of the Notch pathway involvement rather than interrogation of individual receptor‐ or ligand‐specific contributions. Future studies using more targeted genetic approaches, such as Notch1 knockdown or receptor‐specific perturbation strategies, will help clarify the relative contributions of individual Notch components in stiffness‐induced endothelial senescence.</p><p>As a demonstration of the physiological relevance of our in vitro findings, we extended our validation to a human tissue model using fibrotic capsules from patients with breast implants. Unlike chronic fibrotic diseases characterized by prolonged systemic inflammation and complex immune pathologies, this foreign body response model reflects localized fibrotic remodeling driven predominantly by mechanical forces and the local microenvironment [<xref rid="advs76304-bib-0058" ref-type="bibr">58</xref>]. Previous studies have shown that fibrotic capsules from human breast implants exhibit 1–30 MPa elastic moduli [<xref rid="advs76304-bib-0059" ref-type="bibr">59</xref>, <xref rid="advs76304-bib-0060" ref-type="bibr">60</xref>, <xref rid="advs76304-bib-0061" ref-type="bibr">61</xref>], whereas adjacent skeletal muscle (10–100 kPa) [<xref rid="advs76304-bib-0062" ref-type="bibr">62</xref>, <xref rid="advs76304-bib-0063" ref-type="bibr">63</xref>, <xref rid="advs76304-bib-0064" ref-type="bibr">64</xref>] and adipose tissues (0.5–30 kPa) [<xref rid="advs76304-bib-0065" ref-type="bibr">65</xref>] are orders of magnitude softer, demonstrating the substantial mechanical changes associated with fibrotic remodeling. Given that our in vitro hydrogel platform recapitulates a mechanically induced EC senescence program without chronic, systemic inflammatory confounders, we leveraged this model as a relevant in vivo system to study mechanically driven fibrosis and senescence.</p><p>Immunofluorescence and scRNA‐seq analyses confirmed the presence of a stiffness‐responsive, senescent endothelial population in fibrotic capsule regions. These cells exhibited enrichment of Notch and JNK signaling components, along with inflammatory and ECM remodeling genes. In contrast, senescent ECs in our short‐term in vitro system exhibited a more limited fibrotic interstitial remodeling signature. This discrepancy likely reflects differences in cellular composition and time scale between the in vitro system and human fibrotic tissue context, where paracrine signaling and longer‐term feedback interactions may further amplify ECM remodeling responses. These findings suggest a potentially bidirectional relationship in which matrix stiffening promotes endothelial senescence, while senescent ECs may subsequently contribute to progressive matrix remodeling through paracrine signaling and sustained tissue remodeling [<xref rid="advs76304-bib-0066" ref-type="bibr">66</xref>, <xref rid="advs76304-bib-0067" ref-type="bibr">67</xref>].</p><p>Nonetheless, several considerations should be noted. While this foreign body response model offers a localized fibrosis environment focused on mechanical remodeling, physiological vascular aging also involves systemic factors [<xref rid="advs76304-bib-0068" ref-type="bibr">68</xref>], such as chronic inflammation, metabolic dysregulation, and cumulative hemodynamic stress, which are not fully captured here. In addition, the relatively low number of senescent ECs identified in this dataset (∼132 cells) limited our ability to resolve heterogeneity within this population or perform robust differential expression analysis across senescent EC subpopulations. Larger datasets enriched for senescent ECs will be important in future studies to define the diversity and functional states of senescent endothelial populations.</p><p>Overall, this work identifies matrix stiffening as a driver of endothelial senescence and supports a mechanosensitive Notch‐associated program linked to stress‐associated secretory and remodeling responses. These findings further support a bidirectional relationship between matrix stiffening and endothelial senescence and highlight potential therapeutic interventions for vascular aging and fibrotic disease.</p></sec><sec id="advs76304-sec-0080"><label>4</label><title>Experimental Methods</title><sec id="advs76304-sec-0090"><label>4.1</label><title>Synthesis of Methacrylated HA (HA–MA)</title><p>HA‐MA was synthesized as previously reported [<xref rid="advs76304-bib-0069" ref-type="bibr">69</xref>]. Approximately 14 or 64% of the primary hydroxyl groups were modified with methacrylate groups. Briefly, 2% (w/v) solution of HA (Lifecore, 60 kDa) was prepared on ice and reacted with methacrylic anhydride (Sigma) at HA/MA molar ratios of 1: 0.5 and 1:3 to achieve ∼14% and ∼64% modification, respectively. The pH was maintained at 8–9 for 4 h. The products were dialyzed against NaCl Solution for 48 h, lyophilized, and the degree of modification was determined with <sup>1</sup>H NMR (Bruker).</p></sec><sec id="advs76304-sec-0100"><label>4.2</label><title>Formation and Characterization of Hydrogels</title><p>Stock solutions of Col‐MA (8 mg/mL, Advanced Biomatrix) and HA‐MA (20 mg/mL in PBS) were prepared separately. To initiate collagen physical cross‐linking, a defined volume of neutralization solution (Advanced Biomatrix) was added to the Col‐MA solution to adjust pH. The pH‐adjusted solution was then mixed with HA‐MA solution and PBS to achieve a final concentration of 2.5 mg/mL Col‐MA and 0.25 mg/mL HA‐MA. The resulting precursor mixture was incubated at 37°C for 30 min to form a physically cross‐linked Col‐HA hydrogel. Following gelation, the photoinitiator was prepared according to the manufacturer's instruction (Advanced Biomatrix). Briefly, Ruthenium (Ru, 28 mg/mL) and Sodium Persulfate (SPS, 119 mg/mL) were diluted in PBS to final concentrations of 0.7 and 2.4 mg/mL, respectively. This solution was added on top of the gels and incubated for 10 min to allow diffusion into the gels. To induce secondary chemical cross‐linking and stiffening, hydrogels were then exposed to white LED light for 1 min.</p><p>Hydrogel bulk stiffness was characterized using a Discovery Hybrid Rheometer (HR20, TA Instruments) equipped with an 8 mm cross‐hatched geometry and a 500 um gap, maintained at 37°C. Premade hydrogel disks (140 µL, 8 mm diameter) were placed on the rheometer stage, and PBS was added around the geometry to ensure the hydrogels remained swollen. An amplitude sweep was performed from 0.01% to 10% strain at a constant frequency of 0.25 Hz. Storage modulus (G’) values were recorded at 0.1% strain within the linear viscoelastic regime. Young's modulus (E) was calculated from the shear modulus using the equation: E = 2G (1 + ν) (E is Young's modulus, G is shear modulus, and ν is Poisson's ratio), assuming a Poisson ratio of 0.5 [<xref rid="advs76304-bib-0070" ref-type="bibr">70</xref>].</p><p>Microscale mechanical properties of hydrogels and human breast implant fibrotic capsule tissues were characterized by atomic force microscopy (AFM)‐based microrheology [<xref rid="advs76304-bib-0012" ref-type="bibr">12</xref>] using a Bruker NanoWizard V instrument. Hydrogel samples were prepared by placing them onto glass coverslips, with all measurements performed while samples were submerged in PBS prior to and during data acquisition. Force spectroscopy measurements were carried out using SAA‐SPH‐1UM cantilevers (nominal spring constant ∼0.15 N/m). For hydrogel characterization, microrheology curves were acquired at a frequency of 1 Hz, with a normal force of 100 pN, an approach distance of 10 µm, and an approach velocity of 2 µm/s. For each sample, measurements were collected over a 5 × 5 grid spanning an area of 10 × 10 µm. A total of three biological replicates (independently prepared hydrogel samples) were analyzed. Curves were processed using the Bruker Data Processing software. Curves were filtered by fit. For human breast implant fibrotic capsule tissue, AFM‐based microrheology measurements were performed under similar conditions, except using a 20 nm amplitude/strain, a 5 µm approach distance, and a normal force of 3 nN at a frequency of 1 Hz. Measurements were acquired across multiple locations in each tissue region to account for tissue heterogeneity. Because measurements were performed on fixed tissue samples, the resulting values were interpreted as relative mechanical properties.</p><p>To assess the equilibrium swelling ratio, premade hydrogels were formed in pre‐weighted cell culture insert wells. After full swelling, the weight of the hydrated hydrogels was measured. The dry hydrogel weight was obtained by incubating the hydrogels at 60°C until completely dehydrated. The swelling ratio (%) was calculated as:
+<disp-formula id="advs76304-disp-0001">
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-1" display="block"><mml:mrow><mml:mrow><mml:mi>S</mml:mi><mml:mi>w</mml:mi><mml:mi>e</mml:mi><mml:mi>l</mml:mi><mml:mi>l</mml:mi><mml:mi>i</mml:mi><mml:mi>n</mml:mi><mml:mi>g</mml:mi><mml:mspace width="0.28em"/><mml:mspace width="0.16em"/><mml:mi>r</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi><mml:mi>i</mml:mi><mml:mi>o</mml:mi><mml:mspace width="0.28em"/><mml:mspace width="0.28em"/><mml:mfenced open="(" close=")"><mml:mo>%</mml:mo></mml:mfenced><mml:mo linebreak="badbreak">=</mml:mo><mml:mfenced separators="" open="(" close=")"><mml:mfrac><mml:mrow><mml:mi>S</mml:mi><mml:mi>w</mml:mi><mml:mi>o</mml:mi><mml:mi>l</mml:mi><mml:mi>l</mml:mi><mml:mi>e</mml:mi><mml:mi>n</mml:mi><mml:mspace width="0.16em"/><mml:mi>w</mml:mi><mml:mi>e</mml:mi><mml:mi>i</mml:mi><mml:mi>g</mml:mi><mml:mi>h</mml:mi><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mi>D</mml:mi><mml:mi>r</mml:mi><mml:mi>y</mml:mi><mml:mspace width="0.16em"/><mml:mi>w</mml:mi><mml:mi>e</mml:mi><mml:mi>i</mml:mi><mml:mi>g</mml:mi><mml:mi>h</mml:mi><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mi>D</mml:mi><mml:mi>r</mml:mi><mml:mi>y</mml:mi><mml:mspace width="0.16em"/><mml:mi>w</mml:mi><mml:mi>e</mml:mi><mml:mi>i</mml:mi><mml:mi>g</mml:mi><mml:mi>h</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac></mml:mfenced><mml:mo linebreak="goodbreak">×</mml:mo><mml:mn>100</mml:mn></mml:mrow></mml:mrow></mml:math>
+</disp-formula>
+</p><p>Collagen‐HA fibers were imaged using reflective microscopy (640 nm, Nikon Eclipse Ti2 microscope). Fiber diameter and coverage area were quantified using Nikon NIS software. A total of 25 images acquired from 4 replicates were analyzed for quantification.</p></sec><sec id="advs76304-sec-0110"><label>4.3</label><title>Cell Culture</title><p>All cells were maintained in a humidified incubator at 37°C with 5% CO<sub>2</sub>. Human umbilical cord blood‐derived ECFCs (provided by the Yoder Lab, Indiana University School of Medicine) were selected for their well‐established proliferative and vasculogenic potential, including their ability to form lumenized microvascular networks in 3D hydrogel environments [<xref rid="advs76304-bib-0071" ref-type="bibr">71</xref>]. ECFCs were cultured in EGM2 (Lonza) supplemented with an additional 10% HyClone FBS, beyond the standard formulation. For 2D expansion, cells were seeded on type I collagen (Corning)‐coated tissue culture plates. For 3D hydrogel cultures, the media were further supplemented with 50 ng/mL of VEGF (PeproTech) and 25 ng/mL of bFGF (PeproTech) to support endothelial network formation.</p></sec><sec id="advs76304-sec-0120"><label>4.4</label><title>3D Cell Encapsulation and Dynamic Matrix Stiffening</title><p>The hydrogel precursor mixture was prepared and neutralized as described above. ECFCs were suspended in EGM2 supplemented with 50 ng/mL VEGF and 25 ng/mL bFGF and mixed with the hydrogel solution to achieve a final cell concentration of 2 million/mL. Cell‐laden hydrogels were initially cultured under soft matrix conditions for 48 h to allow the formation of lumenized endothelial networks. On Day 2, photoinitiator solution was added to all hydrogel conditions, and dynamic matrix stiffening was induced in the IM and Stiff groups by 1‐minute white LED exposure, as described above, while Soft controls remained unstiffened. Following stiffening, constructs were maintained for an additional 48 h prior to endpoint analyses.</p></sec><sec id="advs76304-sec-0130"><label>4.5</label><title>Hydrogel Mass Stability Assessment</title><p>To evaluate hydrogel stability during the post‐stiffening culture period, the wet mass of cell‐laden hydrogels was measured on Days 2, 3, and 4 following photo‐stiffening. Hydrogels were maintained under standard culture conditions, and mass measurements were collected every 24 h. Relative mass change was calculated by normalizing to the Day 2 wet mass.</p></sec><sec id="advs76304-sec-0140"><label>4.6</label><title>Cell Viability</title><p>Cell viability was analyzed by Live/Dead staining using calcein‐AM, ethidium homodimer, and Hoechst 33342 on Day 4. Cell viability was quantified using ImageJ by counting the total number of cells (stained by Hoechst) and dead (stained by ethidium homodimer) cells in each image of maximum intensity projection produced by Nikon NIS analysis software.</p></sec><sec id="advs76304-sec-0150"><label>4.7</label><title>Hydrogel Immunofluorescent Staining, Imaging, and Quantification</title><p>To enable reliable assessment of p16 expression in the 3D hydrogel system, immunofluorescence‐based analysis was used, allowing single‐cell level visualization in the intact matrix. On day 4, cell‐laden hydrogel constructs were fixed with 4% (w/v) paraformaldehyde in PBS for 45 min and then blocked/permeabilized with 5% (w/v) bovine serum albumin and 0.1% (v/v) Triton X‐100 for 4 h at room temperature. The constructs were incubated with primary antibodies, including anti rabbit‐p16 (1:400, Proteintech) and anti mouse‐VE‐CAD (1:400, Santa Cruz), overnight at 4°C. Subsequently, the constructs were incubated with corresponding secondary antibodies or phalloidin (Invitrogen). Nuclei were stained with DAPI. Fluorescent images were taken by Nikon EclipseTi2 microscope using Z‐stack mode. Maximum intensity projection images were generated by Nikon NIS analysis software. Image quantification was conducted using ImageJ and Imaris.</p><p>SA‐β‐Gal staining was performed using CellEvent Senescence Green Detection Kit (Thermo Fisher) according to the manufacturer's instructions with minor modifications. Day 4 cell‐laden hydrogel constructs were fixed and then blocked/permeabilized with 1% (w/v) bovine serum albumin and 0.1% (v/v) Triton X‐100 for 30 min at room temperature. The constructs were subsequently incubated with prewarmed working solution for 3 h at 37°C without CO<sub>2</sub> and protected from light. Phalloidin (Invitrogen) and DAPI were used for counterstaining. Imaging and quantification were performed as described above.</p></sec><sec id="advs76304-sec-0160"><label>4.8</label><title>Luminex Analysis</title><p>Custom Luminex assay kits (Bio‐Techne) were used to quantify soluble factors. Cell culture supernatants were collected on day 4 of culture from hydrogels under Soft, IM, and Stiff conditions (N = 2, n = 5). Fresh cell culture media served as the blank control. All Luminex assays were performed in the Regional Biocontainment Laboratory (RBL) at Duke University, following the manufacturers’ instructions. Analyte concentrations were normalized to dsDNA content, measured using the PicoGreen assay (Invitrogen, N = 2, n = 7), following previously published procedures [<xref rid="advs76304-bib-0072" ref-type="bibr">72</xref>].</p></sec><sec id="advs76304-sec-0170"><label>4.9</label><title>Small‐Molecule Inhibition Studies</title><p>Nirogacestat, a γ‐secretase inhibitor, was used to inhibit Notch receptor cleavage and downstream Notch activation. A 10 mM stock solution of nirogacestat in DMSO was diluted to a final concentration of 750 nM in EGM2 supplemented with 50 ng/mL VEGF and 25 ng/mL bFGF. Cell‐laden hydrogel constructs were pretreated with nirogacestat‐containing media for 3 h prior to matrix stiffening on Day 2 post‐encapsulation. Following light‐induced stiffening, constructs were continuously maintained in nirogacestat‐containing media throughout the subsequent 48‐h culture period until Day 4 endpoint analysis.</p></sec><sec id="advs76304-sec-0180"><label>4.10</label><title>Gene Expression</title><p>After 4 days of culture, cell‐laden constructs were flash‐frozen in liquid nitrogen and stored at −80°C until further processing. Frozen samples were thoroughly homogenized in TRIzol (Invitrogen) and extracted RNA was purified using the RNA Clean &amp; Concentrator‐5 Kit (Zymo Research) according to the manufacturer's protocol. Complementary DNA was synthesized using GoScript Reverse Transcription Mix (Promega). Quantitative real‐time PCR was performed using Maxima SYBR Green/Fluorescein Master Mix (ThermoFisher). Primer sequences are listed in Table <xref rid="advs76304-supinfo-0001" ref-type="">S4</xref>. The <italic toggle="yes">MAPK8</italic>, <italic toggle="yes">FOS, CYR61, CTGF, and MMP9</italic> primers were purchased from Millipore Sigma. GAPDH was used as a reference gene. The fold change was processed by qbase+ software (Biogazelle). A total of three biological repeats were analyzed for each gel composition.</p></sec><sec id="advs76304-sec-0190"><label>4.11</label><title>Western Blotting</title><p>Day 4 frozen constructs were lysed in RIPA buffer (Thermo Fisher) containing 1% (v/v) of Halt protease and phosphatase inhibitor cocktail (Thermo Fisher). For nuclear and cytoplasmic protein separation, the NE‐PER Nuclear and Cytoplasmic Extraction Reagent kit was used following the manufacturer's instructions. Protein concentrations were determined using the BCA assay kit (Thermo Fisher). Samples were denatured by boiling at 95°C for 10 min, and 20–35 µg of protein was loaded per lane on 4%–20% or 7.5% precast polyacrylamide gel (Bio‐Rad). Proteins were transferred to Immun‐Blot PVDF Membrane (Bio‐Rad) overnight at 4°C. Protein transfer was confirmed by Ponceau‐S staining. Membranes were blocked for 1 h with 5% BSA in TBST for the detection of phosphorylated proteins, and 5% milk in TBST for non‐phosphorylated proteins. Membranes were then incubated overnight at 4°C with primary antibodies targeting: p21 (Cell Signaling, rabbit, 1:1000), NICD (Cell Signaling, rabbit, 1:1000), JAG1 (Cell Signaling, rabbit, 1:1000), JAG2 (Cell Signaling, rabbit, 1:1000), phospho‐JNK (Cell Signaling, rabbit, 1:750), JNK (Cell Signaling, rabbit, 1:750), phospho‐c‐JUN (Cell Signaling, rabbit, 1:750), c‐JUN (Cell Signaling, rabbit, 1:750), and PCNA (Proteintech, rabbit, 1:1000). Following primary antibody incubation, blots were washed three times with TBST and incubated with species‐appropriate HRP‐conjugated secondary antibodies or HRP‐conjugated GAPDH (Cell Signaling, rabbit, 1:2500). Immunoblots were detected by an enhanced chemiluminescence western blotting substrate (Thermo Fisher) and imaged using ChemiDoc Imaging System (Bio‐Rad). Quantification was performed using Bio‐Rad Image Lab software. Phosphorylated protein levels were normalized to their total protein counterparts. Original blots were included in Figure <xref rid="advs76304-supinfo-0001" ref-type="">S8</xref>.</p></sec><sec id="advs76304-sec-0200"><label>4.12</label><title>Human Tissue Samples</title><p>Deidentified surgical discards from patients undergoing breast implant exchange or replacement surgeries were collected under Johns Hopkins University Institutional Review Board Exemption IRB00088842. For single‐cell RNA‐sequencing, cells were isolated from the fibrotic capsules from one patient, as previously published [<xref rid="advs76304-bib-0033" ref-type="bibr">33</xref>]. For immunofluorescence staining and imaging, discarded fibrotic capsule tissue and implant‐adjacent muscle and fat tissue were obtained from six patients. All tissues were immediately fixed in 10% formalin for 48 h. Tissues were then rinsed twice in PBS, dehydrated using a graded ethanol series (70%, 80%, 95%, 100%, 100% ethanol for 1 h each), and cleared in xylene for 1–2 h. Tissues were incubated in 4–6 exchanges of melted paraffin wax at 60°C for 24 h to prepare for embedding. Tissues were embedded in wax blocks using metal molds and stored at room temperature until sectioning. Embedded tissues were sectioned at 5 µm using a microtome.</p></sec><sec id="advs76304-sec-0210"><label>4.13</label><title>Single Cell RNA Sequencing</title><p>Single‐cell RNA‐sequencing data were obtained from a previously published dataset of cells isolated from human breast implant fibrotic capsule tissues [<xref rid="advs76304-bib-0033" ref-type="bibr">33</xref>]. The processed scRNA‐seq dataset of the human breast implant fibrotic capsule is available for download on Zenodo using the following DOI: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.5281/zenodo.20017381" ext-link-type="uri">https://doi.org/10.5281/zenodo.20017381</ext-link>. All analyses were performed using the Seurat v5.1 package [<xref rid="advs76304-bib-0073" ref-type="bibr">73</xref>]. Endothelial cells were identified based on their expression of known markers (PECAM1, CDH5, VWF) and were subsetted for downstream analysis. Cells that were positive for CDKN2A (p16) expression were annotated as senescent. All p16<sup>+</sup> cells were negative for the proliferation marker MKI67. Differential expression analysis was performed between senescent (p16<sup>+</sup>) and non‐senescent (p16<sup>−</sup>) cells using a Wilcoxon Rank Sum test via the FindMarkers function in Seurat, with thresholds of logFC ≥ 0.25 and min.pct = 0.1. Genes with an adjusted p‐value below 0.05 were considered differentially expressed. Differentially expressed genes were visualized using the Seurat, EnhancedVolcano v1.22.0 [<xref rid="advs76304-bib-0074" ref-type="bibr">74</xref>], and ggplot2 packages. Gene set enrichment analysis (GSEA) was performed using the FindMarkers function in Seurat, followed by the Fast Gene Set Enrichment Analysis (fgsea) v1.30.0 package [<xref rid="advs76304-bib-0075" ref-type="bibr">75</xref>]. Genes were ranked for GSEA analysis using two steps. First, differential expression was performed using the FindMarkers function with thresholds of logFC ≥ 0, min.pct = 0, minimum.cells.group = 1, and min.cells.feature = 1. Then, genes were ranked in descending order by their values of the following calculation: −log10(<italic toggle="yes">p</italic>‐value) * avg_log2FC. Ranked genes were input into fgsea to identify pathways enriched in senescent endothelial cells. GSEA was performed using the human HALLMARK, REACTOME, KEGG, and GOPB databases. Pathways with a false discovery rate of &lt;0.05 were considered significant.</p><p>Senescence signature scoring was performed using the AddModuleScore function in Seurat v.5.4 [<xref rid="advs76304-bib-0073" ref-type="bibr">73</xref>]. The following publicly available signatures were used for senescence scoring: SenSig [<xref rid="advs76304-bib-0033" ref-type="bibr">33</xref>], SenMayo [<xref rid="advs76304-bib-0037" ref-type="bibr">37</xref>], CellAge [<xref rid="advs76304-bib-0038" ref-type="bibr">38</xref>, <xref rid="advs76304-bib-0039" ref-type="bibr">39</xref>], and EC.SENESCENCE.SIG [<xref rid="advs76304-bib-0040" ref-type="bibr">40</xref>]. For SenSig, the genes were filtered prior to analysis to include only those with a positive logFC and FDR &lt; 0.05. Cells within the top 12% of each signature were classified as senescent. For each senescence scoring method, differential expression analysis and GSEA between senescent and non‐senescent ECs were performed as described in the previous paragraph.</p></sec><sec id="advs76304-sec-0220"><label>4.14</label><title>Immunofluorescence Staining of Human Tissues</title><p>Tissue sections were stained using the PhenoCode Signature platform by Akoya Biosciences. Slides were incubated in an oven at 60°C to remove excess paraffin wax. Then, slides were deparaffinized in xylenes for 3 × 3 min and rehydrated in a graded series of ethanol (100% x 2, 95%, 80%, 70%; 1 min each) and Millipore water (3 × 3 min). Antigen retrieval was performed by incubating slides in pre‐heated 1X AR6 buffer in a vegetable steamer for 15 min. Slides were cooled at RT for 15 min, rinsed in Millipore water, and incubated in 3% H<sub>2</sub>O<sub>2</sub> for 15 min to block endogenous peroxidases. Then, slides were rinsed once in Millipore water and incubated in a blocking buffer of 10% bovine serum albumin and 0.05% Tween‐20 in 1X PBS for 30 min at RT. Slides were stained with the following antibodies in blocking buffer at RT: p16 for 15 min (CINTEC‐Roche, 705–4793, 1:5), Notch1 for 30 min (Cell Signaling, 3608, 1:200), and CD31 for 30 min (Abcam, ab76533, 1:100). Following the primary antibody incubation, slides were washed in 1X TBST for 3 × 3 min and incubated in secondary antibody for 30 min at RT. We used MACH 4 Universal HRP‐Polymer (Biocare Medical, M4U534) to detect p16 and MACH 3 Rabbit HRP Polymer Detection (Biocare Medical, M3R531) to detect Notch1 and CD31. After TBST washes, slides were incubated in Opal dyes diluted in 1X Manual Amplification Diluent for 10 min at RT. Opal dyes 570, 650, and 520 were used to label p16, Notch1, and CD31, respectively. Slides were washed in TBST for 3 × 3 min. Incubations with AR6 buffer, blocking buffer, primary antibodies, secondary antibodies, and Opal dyes were repeated three times to enable co‐staining of p16, Notch1, and CD31. Only one antibody was used for staining in each round. Following the three rounds of antibody staining, slides were rinsed in Millipore water, stained with 1X Spectral DAPI solution for 5 min, rinsed twice in Millipore water, and mounted in DAKO Fluorescence Mounting Medium (Agilent, S302380‐2) using #1.5 coverslips. Slides were dried overnight and stored at 4°C until imaging. Slides were imaged using the Zeiss Axio Observer.Z1/7 with Apotome and processed using ZenBlue software.</p></sec><sec id="advs76304-sec-0230"><label>4.15</label><title>Colocalization and Vessel Area Analysis of Human Tissues</title><p>Images of human breast implant tissues were analyzed for colocalization of senescence and vascular markers (CD31, Notch1, and p16) using HALO v3.6 with the HighPlex FL v3.2 module (Indica Labs). Regions of interest (ROIs) were drawn to select the regions with the fibrotic capsules (stiff) and muscle or fat (soft) in each image. Nuclear detection was performed using the DAPI stain and cytoplasmic detection was used for the antibody stains. Minimum intensity thresholds were set for each stain and were kept consistent across images. Primary delete slides for each antibody stain were used as negative controls to minimize false‐positive signal detection. Colocalization of the antibody stains in each DAPI<sup>+</sup> cell was measured, exported, and analyzed in GraphPad Prism 10.</p><p>Vessel area and density measurements were performed using a custom script in QuPath 0.5.1. ROIs were drawn using the same approach as in the colocalization analysis. Vessel detection was performed using the OpenCVPixelClassifer function. A gaussian blur and minimum intensity threshold were applied to detect areas positive for CD31 (vessel marker). Vessel areas &lt;20 µm<sup>2</sup> or &gt;900 000 000 µm<sup>2</sup> were excluded from the analysis. The resulting vessel annotation in each image was split to enable the analysis of individual vessel fragments. Tissue ROI and vessel area measurements were exported and analyzed using GraphPad Prism 10.</p></sec><sec id="advs76304-sec-0240"><label>4.16</label><title>Statistical Analysis</title><p>The authors performed statistical analysis using GraphPad Prism 10 (GraphPad Software Inc.). This software was also used to perform t‐tests, one‐way ANOVA, and two‐way ANOVA to determine significance. Replicates were indicated throughout the figure captions. Significance levels were set at *<italic toggle="yes">p</italic> &lt; 0.05, **<italic toggle="yes">p</italic> &lt; 0.01, ***<italic toggle="yes">p</italic> &lt; 0.001, and ****<italic toggle="yes">p</italic> &lt; 0.0001.</p></sec></sec><sec id="advs76304-sec-0250"><title>Author Contributions</title><p>
+<bold>Jiyeon Song</bold>: conceptualization, investigation, writing – original draft, methodology, visualization, writing – review and editing, formal analysis, data curation. <bold>Alexandra N. Rindone</bold>: investigation, writing – review and editing, data curation. <bold>Ya Guan</bold>: methodology, writing – review and editing. <bold>Connor D. Amelung</bold>: investigation, methodology, formal analysis. <bold>Prarthana Sanjay Daswani</bold>: formal analysis. <bold>Jennifer H. Elisseeff</bold>: supervision, resources, methodology, writing – review and editing, funding acquisition. <bold>Sharon Gerecht</bold>: conceptualization, funding acquisition, writing – original draft, writing – review and editing, supervision, resources.</p></sec><sec sec-type="COI-statement" id="advs76304-sec-0270"><title>Conflicts of Interest</title><p>The authors declare no conflicts of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="advs76304-supinfo-0001" position="float" content-type="local-data" orientation="portrait"/><supplementary-material id="advs76304-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Supporting File</bold>: advs76304‐sup‐0001‐SuppMat.pdf.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ADVS-13-e76304-s001.pdf" position="float" orientation="portrait"><?suppdata-name ADVS-13-e76304-s001.pdf?><?suppdata-size 2450818?><?suppdata-md5 0a3d374d5a6a328920a5f028f3b33635?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type pdf?><?suppdata-cloudpmc-urn urn:app:59af/13587995/0a3d374d5a6a/ADVS-13-e76304-s001.pdf?></media></supplementary-material></sec></body><back><ack id="advs76304-sec-0260"><title>Acknowledgements</title><p>Luminex assay was performed in the Regional Biocontainment Laboratory (RBL) at Duke University, which received partial support for construction and renovation from the National Institutes of Health (UC6‐AI058607 and G20‐AI167200), and facility support from the National Institutes of Health (UC7‐AI180254). Human fibrotic tissue sections for mechanical measurements were provided by BioRepository &amp; Precision Pathology Center (BRPC) at the Duke Cancer Institute as part of the P30 Cancer Center Support Grant (Grant ID: P30 CA014236), all other tissue sectioning was conducted by the Johns Hopkins University Oncology Tissue and Imaging Service (OTIS) Core Laboratory (NIH P30 CA006973). HALO image analysis was conducted using resources provided by the Johns Hopkins University Tumor Microenvironment (TME) Core. We thank Nicole Hanson for assistance with western blotting, Makenzie Bushold for support with immunofluorescence staining, and Yaqing Huang for helpful discussion regarding single‐cell RNA sequencing. We also thank Yusef Mathkour for his advice on the vessel image analysis. Schematics created using Biorender.com. This work was supported in part by the American Heart Association (AHA, 25POST1359525; <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.58275/AHA.25POST1359525.pc.gr.227448;" ext-link-type="uri">https://doi.org/10.58275/AHA.25POST1359525.pc.gr.227448;</ext-link> to J.S), the National Science Foundation Graduate Research Fellowship Program (NSF GRFP; to C.A). Mandel Foundation, Duke Regeneration Center (DRC), and Duke Science and Technology, and NIH R01EY035853. Additional funding for the human sample study was provided by NIH U54AG079779, R01AG082965) and the Bloomberg ∼ Kimmel Institute.</p></ack><sec sec-type="data-availability" id="advs76304-sec-0290"><title>Data Availability Statement</title><p>The data supporting the findings of this study are publicly available in the Duke University Libraries Research Data Repository (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.7924/r4r535" ext-link-type="uri" specific-use="dataset is-supplemented-by">https://doi.org/10.7924/r4r535</ext-link>). The processed human breast implant fibrotic capsule scRNA‐seq dataset is available on Zenodo (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.5281/zenodo.20017381" ext-link-type="uri" specific-use="dataset is-supplemented-by">https://doi.org/10.5281/zenodo.20017381</ext-link>). Additional human tissue data are available on Zenodo (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://zenodo.org/records/20804465" ext-link-type="uri" specific-use="software is-supplemented-by">https://zenodo.org/records/20804465</ext-link>).</p></sec><ref-list id="advs76304-bibl-0001"><title>References</title><ref id="advs76304-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="advs76304-cite-0001">
+<string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Jia</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. R.</given-names>
+<surname>Aroor</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Jia</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. R.</given-names>
+<surname>Sowers</surname>
+</string-name>, “<article-title>Endothelial Cell Senescence in Aging‐Related Vascular Dysfunction</article-title>,” <source>Biochimica et Biophysica Acta (BBA)—Molecular Basis of Disease</source>
+<volume>1865</volume>, no. <issue>7</issue> (<year>2019</year>): <fpage>1802</fpage>–<lpage>1809</lpage>, <pub-id pub-id-type="doi">10.1016/j.bbadis.2018.08.008</pub-id>.<pub-id pub-id-type="pmid">31109450</pub-id></mixed-citation></ref><ref id="advs76304-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="advs76304-cite-0002">
+<string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Yin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Patten</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Gough</surname>
+</string-name>, et al., “<article-title>Senescence‐Induced Endothelial Phenotypes Underpin Immune‐Mediated Senescence Surveillance</article-title>,” <source>Genes &amp; Development</source>
+<volume>36</volume>, no. <issue>9‐10</issue> (<year>2022</year>): <fpage>533</fpage>–<lpage>549</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1101/gad.349585.122</pub-id><pub-id pub-id-type="pmcid">PMC9186388</pub-id><pub-id pub-id-type="pmid">35618311</pub-id></mixed-citation></ref><ref id="advs76304-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="advs76304-cite-0003">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Han</surname>
+</string-name> and <string-name name-style="western">
+<given-names>S. Y.</given-names>
+<surname>Kim</surname>
+</string-name>, “<article-title>Endothelial Senescence in Vascular Diseases: Current Understanding and Future Opportunities in Senotherapeutics</article-title>,” <source>Experimental &amp; Molecular Medicine</source>
+<volume>55</volume>, no. <issue>1</issue> (<year>2023</year>): <fpage>1</fpage>–<lpage>2</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s12276-022-00906-w</pub-id><pub-id pub-id-type="pmcid">PMC9898542</pub-id><pub-id pub-id-type="pmid">36599934</pub-id></mixed-citation></ref><ref id="advs76304-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="advs76304-cite-0004">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Selman</surname>
+</string-name> and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Pardo</surname>
+</string-name>, “<article-title>Fibroageing: An Ageing Pathological Feature Driven by Dysregulated Extracellular Matrix‐Cell Mechanobiology</article-title>,” <source>Ageing Research Reviews</source>
+<volume>70</volume> (<year>2021</year>): <elocation-id>101393</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.arr.2021.101393</pub-id>.<pub-id pub-id-type="pmid">34139337</pub-id></mixed-citation></ref><ref id="advs76304-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="advs76304-cite-0005">
+<string-name name-style="western">
+<given-names>S. J.</given-names>
+<surname>Liliensiek</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Wood</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Yong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Auerbach</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. F.</given-names>
+<surname>Nealey</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C. J.</given-names>
+<surname>Murphy</surname>
+</string-name>, “<article-title>Modulation of Human Vascular Endothelial Cell Behaviors by Nanotopographic Cues</article-title>,” <source>Biomaterials</source>
+<volume>31</volume>, no. <issue>20</issue> (<year>2010</year>): <fpage>5418</fpage>–<lpage>5426</lpage>, <pub-id pub-id-type="doi">10.1016/j.biomaterials.2010.03.045</pub-id>.<pub-id pub-id-type="pmcid">PMC2907086</pub-id><pub-id pub-id-type="pmid">20400175</pub-id></mixed-citation></ref><ref id="advs76304-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="advs76304-cite-0006">
+<string-name name-style="western">
+<given-names>K. D.</given-names>
+<surname>Brandon</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W. E.</given-names>
+<surname>Frank</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>K. M.</given-names>
+<surname>Stroka</surname>
+</string-name>, “<article-title>Junctions at the Crossroads: The Impact of Mechanical Cues on Endothelial Cell‐Cell Junction Conformations and Vascular Permeability</article-title>,” <source>American Journal of Physiology Cell Physiology</source>
+<volume>327</volume>, no. <issue>4</issue> (<year>2024</year>): <elocation-id>C1073</elocation-id>, <pub-id pub-id-type="doi">10.1152/ajpcell.00605.2023</pub-id>.<pub-id pub-id-type="pmcid">PMC11481987</pub-id><pub-id pub-id-type="pmid">39129490</pub-id></mixed-citation></ref><ref id="advs76304-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="advs76304-cite-0007">
+<string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Brady</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Santhanam</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Gerecht</surname>
+</string-name>, “<article-title>The Extracellular Matrix Mechanics in the Vasculature</article-title>,” <source>Nature Cardiovascular Research</source>
+<volume>2</volume>, no. <issue>8</issue> (<year>2023</year>): <fpage>718</fpage>–<lpage>732</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s44161-023-00311-0</pub-id><pub-id pub-id-type="pmcid">PMC12377059</pub-id><pub-id pub-id-type="pmid">39195965</pub-id></mixed-citation></ref><ref id="advs76304-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="advs76304-cite-0008">
+<string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Schnellmann</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Ntekoumes</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. I.</given-names>
+<surname>Choudhury</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Sun</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Wei</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Gerecht</surname>
+</string-name>, “<article-title>Stiffening Matrix Induces Age‐Mediated Microvascular Phenotype Through Increased Cell Contractility and Destabilization of Adherens Junctions</article-title>,” <source>Advanced Science</source>
+<volume>9</volume>, no. <issue>22</issue> (<year>2022</year>): <elocation-id>2201483</elocation-id>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/advs.202201483</pub-id><pub-id pub-id-type="pmcid">PMC9353494</pub-id><pub-id pub-id-type="pmid">35657074</pub-id></mixed-citation></ref><ref id="advs76304-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="advs76304-cite-0009">
+<string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Lu</surname>
+</string-name> and <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Finkel</surname>
+</string-name>, “<article-title>Free Radicals and Senescence</article-title>,” <source>Experimental Cell Research</source>
+<volume>314</volume>, no. <issue>9</issue> (<year>2008</year>): <fpage>1918</fpage>–<lpage>1922</lpage>, <pub-id pub-id-type="doi">10.1016/j.yexcr.2008.01.011</pub-id>.<pub-id pub-id-type="pmcid">PMC2486428</pub-id><pub-id pub-id-type="pmid">18282568</pub-id></mixed-citation></ref><ref id="advs76304-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="advs76304-cite-0010">
+<string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Manon‐Jensen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Kjeld</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M. A.</given-names>
+<surname>Karsdal</surname>
+</string-name>, “<article-title>Collagen‐Mediated Hemostasis</article-title>,” <source>Journal of Thrombosis and Haemostasis</source>
+<volume>14</volume>, no. <issue>3</issue> (<year>2016</year>): <fpage>438</fpage>–<lpage>448</lpage>, <pub-id pub-id-type="doi">10.1111/jth.13249</pub-id>.<pub-id pub-id-type="pmid">26749406</pub-id></mixed-citation></ref><ref id="advs76304-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="advs76304-cite-0011">
+<string-name name-style="western">
+<given-names>J. M.</given-names>
+<surname>Rhodes</surname>
+</string-name> and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Simons</surname>
+</string-name>, “<article-title>The Extracellular Matrix and Blood Vessel Formation: Not Just a Scaffold</article-title>,” <source>Journal of Cellular and Molecular Medicine</source>
+<volume>11</volume>, no. <issue>2</issue> (<year>2007</year>): <fpage>176</fpage>–<lpage>205</lpage>, <pub-id pub-id-type="doi">10.1111/j.1582-4934.2007.00031.x</pub-id>.<pub-id pub-id-type="pmcid">PMC3822822</pub-id><pub-id pub-id-type="pmid">17488472</pub-id></mixed-citation></ref><ref id="advs76304-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="advs76304-cite-0012">
+<string-name name-style="western">
+<given-names>C. D.</given-names>
+<surname>Amelung</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. E.</given-names>
+<surname>Oroke</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Ramirez</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Gerecht</surname>
+</string-name>, “<article-title>Retina Microrheology via Oscillatory Atomic Force Microscopy</article-title>,” <source>Soft Matter</source>
+<volume>22</volume>, no. <issue>14</issue> (<year>2026</year>): <fpage>2629</fpage>–<lpage>2637</lpage>, <pub-id pub-id-type="doi">10.1039/d5sm01060h</pub-id>.<pub-id pub-id-type="pmid">41705455</pub-id></mixed-citation></ref><ref id="advs76304-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="advs76304-cite-0013">
+<string-name name-style="western">
+<given-names>A. J.</given-names>
+<surname>Barinda</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Ikeda</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. B.</given-names>
+<surname>Nugroho</surname>
+</string-name>, et al., “<article-title>Endothelial Progeria Induces Adipose Tissue Senescence and Impairs Insulin Sensitivity Through Senescence Associated Secretory Phenotype</article-title>,” <source>Nature Communications</source>
+<volume>11</volume>, no. <issue>1</issue> (<year>2020</year>): <fpage>481</fpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41467-020-14387-w</pub-id><pub-id pub-id-type="pmcid">PMC6981212</pub-id><pub-id pub-id-type="pmid">31980643</pub-id></mixed-citation></ref><ref id="advs76304-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="advs76304-cite-0014">
+<string-name name-style="western">
+<given-names>B. I.</given-names>
+<surname>Hudson</surname>
+</string-name> and <string-name name-style="western">
+<given-names>M. E.</given-names>
+<surname>Lippman</surname>
+</string-name>, “<article-title>Targeting RAGE Signaling in Inflammatory Disease</article-title>,” <source>Annual Review of Medicine</source>
+<volume>69</volume> (<year>2018</year>): <fpage>349</fpage>–<lpage>364</lpage>, <pub-id pub-id-type="doi">10.1146/annurev-med-041316-085215</pub-id>.<pub-id pub-id-type="pmid">29106804</pub-id></mixed-citation></ref><ref id="advs76304-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="advs76304-cite-0015">
+<string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Sawaki</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Czibik</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Pini</surname>
+</string-name>, et al., “<article-title>Visceral Adipose Tissue Drives Cardiac Aging Through Modulation of Fibroblast Senescence by Osteopontin Production</article-title>,” <source>Circulation</source>
+<volume>138</volume>, no. <issue>8</issue> (<year>2018</year>): <fpage>809</fpage>–<lpage>822</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1161/CIRCULATIONAHA.117.031358</pub-id><pub-id pub-id-type="pmid">29500246</pub-id></mixed-citation></ref><ref id="advs76304-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="advs76304-cite-0016">
+<string-name name-style="western">
+<given-names>J. S.</given-names>
+<surname>Moon</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. J.</given-names>
+<surname>Goeminne</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. T.</given-names>
+<surname>Kim</surname>
+</string-name>, et al., “<article-title>Growth Differentiation Factor 15 Protects Against the Aging‐Mediated Systemic Inflammatory Response in Humans and Mice</article-title>,” <source>Aging Cell</source>
+<volume>19</volume>, no. <issue>8</issue> (<year>2020</year>): <elocation-id>13195</elocation-id>, <pub-id pub-id-type="doi">10.1111/acel.13195</pub-id>.<pub-id pub-id-type="pmcid">PMC7431835</pub-id><pub-id pub-id-type="pmid">32691494</pub-id></mixed-citation></ref><ref id="advs76304-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="advs76304-cite-0017">
+<string-name name-style="western">
+<given-names>S. N.</given-names>
+<surname>Kehlet</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Willumsen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Armbrecht</surname>
+</string-name>, et al., “<article-title>Age‐Related Collagen Turnover of the Interstitial Matrix and Basement Membrane: Implications of Age‐ and Sex‐Dependent Remodeling of the Extracellular Matrix</article-title>,” <source>PLoS ONE</source>
+<volume>13</volume>, no. <issue>3</issue> (<year>2018</year>): <elocation-id>0194458</elocation-id>, <pub-id pub-id-type="doi">10.1371/journal.pone.0194458</pub-id>.<pub-id pub-id-type="pmcid">PMC5875766</pub-id><pub-id pub-id-type="pmid">29596429</pub-id></mixed-citation></ref><ref id="advs76304-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="advs76304-cite-0018">
+<string-name name-style="western">
+<given-names>S.‐J.</given-names>
+<surname>Leu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. C.‐T.</given-names>
+<surname>Lam</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>L. F.</given-names>
+<surname>Lau</surname>
+</string-name>, “<article-title>Pro‐Angiogenic Activities of CYR61 (CCN1) Mediated Through Integrins αvβ3 and α6β1 in Human Umbilical Vein Endothelial Cells</article-title>,” <source>Journal of Biological Chemistry</source>
+<volume>277</volume>, no. <issue>48</issue> (<year>2002</year>): <fpage>46248</fpage>–<lpage>46255</lpage>, <pub-id pub-id-type="doi">10.1074/jbc.M209288200</pub-id>.<pub-id pub-id-type="pmid">12364323</pub-id></mixed-citation></ref><ref id="advs76304-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="advs76304-cite-0019">
+<string-name name-style="western">
+<given-names>J. M.</given-names>
+<surname>Sand</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Larsen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Hogaboam</surname>
+</string-name>, et al., “<article-title>MMP Mediated Degradation of Type IV Collagen Alpha 1 and Alpha 3 Chains Reflects Basement Membrane Remodeling in Experimental and Clinical Fibrosis—Validation of Two Novel Biomarker Assays</article-title>,” <source>PLoS ONE</source>
+<volume>8</volume>, no. <issue>12</issue> (<year>2013</year>): <elocation-id>84934</elocation-id>, <pub-id pub-id-type="doi">10.1371/journal.pone.0084934</pub-id>.<pub-id pub-id-type="pmcid">PMC3871599</pub-id><pub-id pub-id-type="pmid">24376856</pub-id></mixed-citation></ref><ref id="advs76304-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="advs76304-cite-0020">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Knox</surname>
+</string-name>, “<article-title>Arterial Aging, Metalloproteinase Regulation, and the Potential of Resistance Exercise</article-title>,” <source>Current Cardiology Reviews</source>
+<volume>14</volume>, no. <issue>4</issue> (<year>2018</year>): <fpage>227</fpage>–<lpage>232</lpage>, <pub-id pub-id-type="doi">10.2174/1573403X14666180801153801</pub-id>.<pub-id pub-id-type="pmcid">PMC6300795</pub-id><pub-id pub-id-type="pmid">30068282</pub-id></mixed-citation></ref><ref id="advs76304-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="advs76304-cite-0021">
+<string-name name-style="western">
+<given-names>J. J.</given-names>
+<surname>Mack</surname>
+</string-name> and <string-name name-style="western">
+<given-names>M. L.</given-names>
+<surname>Iruela‐Arispe</surname>
+</string-name>, “<article-title>NOTCH Regulation of the Endothelial Cell Phenotype</article-title>,” <source>Current Opinion in Hematology</source>
+<volume>25</volume>, no. <issue>3</issue> (<year>2018</year>): <fpage>212</fpage>–<lpage>218</lpage>, <pub-id pub-id-type="doi">10.1097/MOH.0000000000000425</pub-id>.<pub-id pub-id-type="pmcid">PMC5902133</pub-id><pub-id pub-id-type="pmid">29547401</pub-id></mixed-citation></ref><ref id="advs76304-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="advs76304-cite-0022">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Kretschmer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Mamistvalov</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Sprinzak</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. M.</given-names>
+<surname>Vollmar</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Zahler</surname>
+</string-name>, “<article-title>Matrix Stiffness Regulates Notch Signaling Activity in Endothelial Cells</article-title>,” <source>Journal of Cell Science</source>
+<volume>136</volume>, no. <issue>2</issue> (<year>2023</year>): <elocation-id>jcs260442</elocation-id>, <pub-id pub-id-type="doi">10.1242/jcs.260442</pub-id>.<pub-id pub-id-type="pmid">36718783</pub-id></mixed-citation></ref><ref id="advs76304-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="advs76304-cite-0023">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Totaro</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Castellan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Battilana</surname>
+</string-name>, et al., “<article-title>YAP/TAZ Link Cell Mechanics to Notch Signalling to Control Epidermal Stem Cell Fate</article-title>,” <source>Nature Communications</source>
+<volume>8</volume>, no. <issue>1</issue> (<year>2017</year>): <elocation-id>15206</elocation-id>, <pub-id pub-id-type="doi">10.1038/ncomms15206</pub-id>.<pub-id pub-id-type="pmcid">PMC5442321</pub-id><pub-id pub-id-type="pmid">28513598</pub-id></mixed-citation></ref><ref id="advs76304-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="advs76304-cite-0024">
+<string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Venkatesh</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Fredette</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Rostama</surname>
+</string-name>, et al., “<article-title>RhoA‐Mediated Signaling in Notch‐Induced Senescence‐Like Growth Arrest and Endothelial Barrier Dysfunction</article-title>,” <source>Arteriosclerosis, Thrombosis, and Vascular Biology</source>
+<volume>31</volume>, no. <issue>4</issue> (<year>2011</year>): <fpage>876</fpage>–<lpage>882</lpage>, <pub-id pub-id-type="doi">10.1161/ATVBAHA.110.221945</pub-id>.<pub-id pub-id-type="pmcid">PMC3252819</pub-id><pub-id pub-id-type="pmid">21273559</pub-id></mixed-citation></ref><ref id="advs76304-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="advs76304-cite-0025">
+<string-name name-style="western">
+<given-names>Z. J.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Tan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G. W.</given-names>
+<surname>Beecham</surname>
+</string-name>, et al., “<article-title>Notch Activation Induces Endothelial Cell Senescence and Pro‐Inflammatory Response: Implication of Notch Signaling in Atherosclerosis</article-title>,” <source>Atherosclerosis</source>
+<volume>225</volume>, no. <issue>2</issue> (<year>2012</year>): <fpage>296</fpage>–<lpage>303</lpage>, <pub-id pub-id-type="doi">10.1016/j.atherosclerosis.2012.04.010</pub-id>.<pub-id pub-id-type="pmcid">PMC3502717</pub-id><pub-id pub-id-type="pmid">23078884</pub-id></mixed-citation></ref><ref id="advs76304-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="advs76304-cite-0026">
+<string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Giroud</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Bouriez</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Paulus</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Pourtier</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Debacq‐Chainiaux</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Pluquet</surname>
+</string-name>, “<article-title>Exploring the Communication of the SASP: Dynamic, Interactive, and Adaptive Effects on the Microenvironment</article-title>,” <source>International Journal of Molecular Sciences</source>
+<volume>24</volume>, no. <issue>13</issue> (<year>2023</year>): <elocation-id>10788</elocation-id>, <pub-id pub-id-type="doi">10.3390/ijms241310788</pub-id>.<pub-id pub-id-type="pmcid">PMC10341516</pub-id><pub-id pub-id-type="pmid">37445973</pub-id></mixed-citation></ref><ref id="advs76304-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="advs76304-cite-0027">
+<string-name name-style="western">
+<given-names>Y.‐L.</given-names>
+<surname>Cheng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Choi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W. L.</given-names>
+<surname>Seow</surname>
+</string-name>, et al., “<article-title>Evidence That Neuronal Notch‐1 Promotes JNK/c‐Jun Activation and Cell Death Following Ischemic Stress</article-title>,” <source>Brain Research</source>
+<volume>1586</volume> (<year>2014</year>): <fpage>193</fpage>–<lpage>202</lpage>, <pub-id pub-id-type="doi">10.1016/j.brainres.2014.08.054</pub-id>.<pub-id pub-id-type="pmid">25168760</pub-id></mixed-citation></ref><ref id="advs76304-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="advs76304-cite-0028">
+<string-name name-style="western">
+<given-names>J.‐S.</given-names>
+<surname>Mo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.‐H.</given-names>
+<surname>Yoon</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.‐J.</given-names>
+<surname>Ann</surname>
+</string-name>, et al., “<article-title>Notch1 Modulates Oxidative Stress Induced Cell Death Through Suppression of Apoptosis Signal‐Regulating Kinase 1</article-title>,” <source>Proceedings of the National Academy of Sciences</source>
+<volume>110</volume>, no. <issue>17</issue> (<year>2013</year>): <fpage>6865</fpage>–<lpage>6870</lpage>, <pub-id pub-id-type="doi">10.1073/pnas.1209078110</pub-id>.<pub-id pub-id-type="pmcid">PMC3637772</pub-id><pub-id pub-id-type="pmid">23569274</pub-id></mixed-citation></ref><ref id="advs76304-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="advs76304-cite-0029">
+<string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Vilimas</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Mascarenhas</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Palomero</surname>
+</string-name>, et al., “<article-title>Targeting the NF‐κB Signaling Pathway in Notch1‐Induced T‐Cell Leukemia</article-title>,” <source>Nature Medicine</source>
+<volume>13</volume>, no. <issue>1</issue> (<year>2007</year>): <fpage>70</fpage>–<lpage>77</lpage>, <pub-id pub-id-type="doi">10.1038/nm1524</pub-id>.<pub-id pub-id-type="pmid">17173050</pub-id></mixed-citation></ref><ref id="advs76304-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="advs76304-cite-0030">
+<string-name name-style="western">
+<given-names>U.</given-names>
+<surname>Benbow</surname>
+</string-name> and <string-name name-style="western">
+<given-names>C. E.</given-names>
+<surname>Brinckerhoff</surname>
+</string-name>, “<article-title>The AP‐1 Site and MMP Gene Regulation: What Is All the Fuss ABOUT?</article-title>,” <source>Matrix Biology</source>
+<volume>15</volume>, no. <issue>8‐9</issue> (<year>1997</year>): <fpage>519</fpage>–<lpage>526</lpage>, <pub-id pub-id-type="doi">10.1016/S0945-053X(97)90026-3</pub-id>.<pub-id pub-id-type="pmid">9138284</pub-id></mixed-citation></ref><ref id="advs76304-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="advs76304-cite-0031">
+<string-name name-style="western">
+<given-names>H. E.</given-names>
+<surname>Raphael</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G. F.</given-names>
+<surname>Hassan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O. A.</given-names>
+<surname>Osorio</surname>
+</string-name>, et al., “<article-title>Activator Protein Transcription Factors Coordinate Human IL‐33 Expression From Noncanonical Promoters in Chronic Airway Disease</article-title>,” <source>JCI Insight</source>
+<volume>9</volume>, no. <issue>5</issue> (<year>2024</year>): <elocation-id>174786</elocation-id>, <pub-id pub-id-type="doi">10.1172/jci.insight.174786</pub-id>.<pub-id pub-id-type="pmcid">PMC10972587</pub-id><pub-id pub-id-type="pmid">38456508</pub-id></mixed-citation></ref><ref id="advs76304-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="advs76304-cite-0032">
+<string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Federman</surname>
+</string-name>, “<article-title>Molecular Pathogenesis of Desmoid Tumor and the Role of γ‐Secretase Inhibition</article-title>,” <source>NPJ Precision Oncology</source>
+<volume>6</volume>, no. <issue>1</issue> (<year>2022</year>): <fpage>62</fpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41698-022-00308-1</pub-id><pub-id pub-id-type="pmcid">PMC9448813</pub-id><pub-id pub-id-type="pmid">36068332</pub-id></mixed-citation></ref><ref id="advs76304-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="advs76304-cite-0033">
+<string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Cherry</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. I.</given-names>
+<surname>Andorko</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Krishnan</surname>
+</string-name>, et al., “<article-title>Transfer Learning in a Biomaterial Fibrosis Model Identifies In Vivo Senescence Heterogeneity and Contributions to Vascularization and Matrix Production Across Species and Diverse Pathologies</article-title>,” <source>Geroscience</source>
+<volume>45</volume>, no. <issue>4</issue> (<year>2023</year>): <fpage>2559</fpage>–<lpage>2587</lpage>, <pub-id pub-id-type="doi">10.1007/s11357-023-00785-7</pub-id>.<pub-id pub-id-type="pmcid">PMC10651581</pub-id><pub-id pub-id-type="pmid">37079217</pub-id></mixed-citation></ref><ref id="advs76304-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="advs76304-cite-0034">
+<string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Chung</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. R.</given-names>
+<surname>Maestas Jr</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Lebid</surname>
+</string-name>, et al., “<article-title>Interleukin 17 and Senescent Cells Regulate the Foreign Body Response to Synthetic Material Implants in Mice and Humans</article-title>,” <source>Science Translational Medicine</source>
+<volume>12</volume>, no. <issue>539</issue> (<year>2020</year>): <elocation-id>aax3799</elocation-id>, <pub-id pub-id-type="doi">10.1126/scitranslmed.aax3799</pub-id>.<pub-id pub-id-type="pmcid">PMC7219543</pub-id><pub-id pub-id-type="pmid">32295900</pub-id></mixed-citation></ref><ref id="advs76304-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="advs76304-cite-0035">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Levenberg</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. S.</given-names>
+<surname>Golub</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Amit</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Itskovitz‐Eldor</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Langer</surname>
+</string-name>, “<article-title>Endothelial Cells Derived From Human Embryonic Stem Cells</article-title>,” <source>Proceedings of the National Academy of Sciences</source>
+<volume>99</volume>, no. <issue>7</issue> (<year>2002</year>): <fpage>4391</fpage>–<lpage>4396</lpage>, <pub-id pub-id-type="doi">10.1073/pnas.032074999</pub-id>.<pub-id pub-id-type="pmcid">PMC123658</pub-id><pub-id pub-id-type="pmid">11917100</pub-id></mixed-citation></ref><ref id="advs76304-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="advs76304-cite-0036">
+<string-name name-style="western">
+<given-names>A. M.</given-names>
+<surname>Müller</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. I.</given-names>
+<surname>Hermanns</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Skrzynski</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Nesslinger</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.‐M.</given-names>
+<surname>Müller</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C. J.</given-names>
+<surname>Kirkpatrick</surname>
+</string-name>, “<article-title>Expression of the Endothelial Markers PECAM‐1, vWf, and CD34 In Vivo and In Vitro</article-title>,” <source>Experimental and Molecular Pathology</source>
+<volume>72</volume>, no. <issue>3</issue> (<year>2002</year>): <fpage>221</fpage>–<lpage>229</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1006/exmp.2002.2424</pub-id><pub-id pub-id-type="pmid">12009786</pub-id></mixed-citation></ref><ref id="advs76304-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="advs76304-cite-0037">
+<string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Saul</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. L.</given-names>
+<surname>Kosinsky</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E. J.</given-names>
+<surname>Atkinson</surname>
+</string-name>, et al., “<article-title>A New Gene Set Identifies Senescent Cells and Predicts Senescence‐Associated Pathways Across Tissues</article-title>,” <source>Nature Communications</source>
+<volume>13</volume>, no. <issue>1</issue> (<year>2022</year>): <fpage>4827</fpage>, <pub-id pub-id-type="doi">10.1038/s41467-022-32552-1</pub-id>.<pub-id pub-id-type="pmcid">PMC9381717</pub-id><pub-id pub-id-type="pmid">35974106</pub-id></mixed-citation></ref><ref id="advs76304-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="advs76304-cite-0038">
+<string-name name-style="western">
+<given-names>R. A.</given-names>
+<surname>Avelar</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. G.</given-names>
+<surname>Ortega</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Tacutu</surname>
+</string-name>, et al., “<article-title>A Multidimensional Systems Biology Analysis of Cellular Senescence in Aging and Disease</article-title>,” <source>Genome biology</source>
+<volume>21</volume>, no. <issue>1</issue> (<year>2020</year>): <fpage>91</fpage>, <pub-id pub-id-type="doi">10.1186/s13059-020-01990-9</pub-id>.<pub-id pub-id-type="pmcid">PMC7333371</pub-id><pub-id pub-id-type="pmid">32264951</pub-id></mixed-citation></ref><ref id="advs76304-bib-0039"><label>39</label><mixed-citation publication-type="miscellaneous" id="advs76304-cite-0039">
+<article-title>H. A. G. Resources, CellAge Database</article-title>, accessed: May 2, <year>2026</year>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://genomics.senescence.info/download.html" ext-link-type="uri">https://genomics.senescence.info/download.html</ext-link>.</mixed-citation></ref><ref id="advs76304-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="advs76304-cite-0040">
+<string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Uhl</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Gires</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C. A.</given-names>
+<surname>Reichel</surname>
+</string-name>, “<article-title>A Transcriptomic Pan‐Cancer Signature for Survival Prognostication and Prediction of Immunotherapy Response Based on Endothelial Senescence</article-title>,” <source>Journal of Biomedical Science</source>
+<volume>30</volume>, no. <issue>1</issue> (<year>2023</year>): <fpage>21</fpage>, <pub-id pub-id-type="doi">10.1186/s12929-023-00915-5</pub-id>.<pub-id pub-id-type="pmcid">PMC10045484</pub-id><pub-id pub-id-type="pmid">36978029</pub-id></mixed-citation></ref><ref id="advs76304-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="advs76304-cite-0041">
+<string-name name-style="western">
+<given-names>H.</given-names>
+<surname>He</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Zeng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Wu</surname>
+</string-name>, et al., “<article-title>Higher Matrix Stiffness Promotes VSMC Senescence by Affecting Mitochondria–ER Contact Sites and Mitochondria/ER Dysfunction</article-title>,” <source>The FASEB Journal</source>
+<volume>37</volume>, no. <issue>12</issue> (<year>2023</year>): <elocation-id>23318</elocation-id>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1096/fj.202301198RR</pub-id><pub-id pub-id-type="pmid">37997545</pub-id></mixed-citation></ref><ref id="advs76304-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="advs76304-cite-0042">
+<string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Ba</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Zheng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Lai</surname>
+</string-name>, et al., “<article-title>High Matrix Stiffness Promotes Senescence of Type II Alveolar Epithelial Cells by Lysosomal Degradation of Lamin A/C in Pulmonary Fibrosis</article-title>,” <source>Respiratory Research</source>
+<volume>26</volume>, no. <issue>1</issue> (<year>2025</year>): <fpage>128</fpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s12931-025-03201-0</pub-id><pub-id pub-id-type="pmcid">PMC11984030</pub-id><pub-id pub-id-type="pmid">40205454</pub-id></mixed-citation></ref><ref id="advs76304-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="advs76304-cite-0043">
+<string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Zeng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Wang</surname>
+</string-name>, et al., “<article-title>Matrix Stiffness Promotes DRP1‐Mediated Myofibroblast Senescence to Drive Silica‐Induced Pulmonary Fibrosis</article-title>,” <source>Aging Cell</source>
+<volume>24</volume> (<year>2025</year>): <elocation-id>70275</elocation-id>, <pub-id pub-id-type="doi">10.1111/acel.70275</pub-id>.<pub-id pub-id-type="pmcid">PMC12686568</pub-id><pub-id pub-id-type="pmid">41104695</pub-id></mixed-citation></ref><ref id="advs76304-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="advs76304-cite-0044">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Hu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Yu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Jia</surname>
+</string-name>, et al., “<article-title>Hyaluronate‐ and Gelatin‐Based Hydrogels Encapsulating Doxycycline as a Wound Dressing for Burn Injury Therapy</article-title>,” <source>Acta Biomaterialia</source>
+<volume>164</volume> (<year>2023</year>): <fpage>151</fpage>–<lpage>158</lpage>, <pub-id pub-id-type="doi">10.1016/j.actbio.2023.04.021</pub-id>.<pub-id pub-id-type="pmid">37088160</pub-id></mixed-citation></ref><ref id="advs76304-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="advs76304-cite-0045">
+<string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Wei</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Lei</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Wang</surname>
+</string-name>, et al., “<article-title>Hydrogels With Tunable Mechanical Plasticity Regulate Endothelial Cell Outgrowth in Vasculogenesis and Angiogenesis</article-title>,” <source>Nature Communications</source>
+<volume>14</volume>, no. <issue>1</issue> (<year>2023</year>): <fpage>8307</fpage>, <pub-id pub-id-type="doi">10.1038/s41467-023-43768-0</pub-id>.<pub-id pub-id-type="pmcid">PMC10721650</pub-id><pub-id pub-id-type="pmid">38097553</pub-id></mixed-citation></ref><ref id="advs76304-bib-0046"><label>46</label><mixed-citation publication-type="journal" id="advs76304-cite-0046">
+<string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Wei</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Schnellmann</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H. C.</given-names>
+<surname>Pruitt</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Gerecht</surname>
+</string-name>, “<article-title>Hydrogel Network Dynamics Regulate Vascular Morphogenesis</article-title>,” <source>Cell Stem Cell</source>
+<volume>27</volume>, no. <issue>5</issue> (<year>2020</year>): <fpage>798</fpage>–<lpage>812.e6</lpage>, <pub-id pub-id-type="doi">10.1016/j.stem.2020.08.005</pub-id>.<pub-id pub-id-type="pmcid">PMC7655724</pub-id><pub-id pub-id-type="pmid">32931729</pub-id></mixed-citation></ref><ref id="advs76304-bib-0047"><label>47</label><mixed-citation publication-type="journal" id="advs76304-cite-0047">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Chien</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Scuoppo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Wang</surname>
+</string-name>, et al., “<article-title>Control of the Senescence‐Associated Secretory Phenotype by NF‐κB Promotes Senescence and Enhances Chemosensitivity</article-title>,” <source>Genes &amp; Development</source>
+<volume>25</volume>, no. <issue>20</issue> (<year>2011</year>): <fpage>2125</fpage>–<lpage>2136</lpage>, <pub-id pub-id-type="doi">10.1101/gad.17276711</pub-id>.<pub-id pub-id-type="pmcid">PMC3205583</pub-id><pub-id pub-id-type="pmid">21979375</pub-id></mixed-citation></ref><ref id="advs76304-bib-0048"><label>48</label><mixed-citation publication-type="journal" id="advs76304-cite-0048">
+<string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Han</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. H.</given-names>
+<surname>Elisseeff</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Demaria</surname>
+</string-name>, “<article-title>The Senescence‐Associated Secretory Phenotype and Its Physiological and Pathological Implications</article-title>,” <source>Nature Reviews Molecular Cell Biology</source>
+<volume>25</volume>, no. <issue>12</issue> (<year>2024</year>): <fpage>958</fpage>–<lpage>978</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41580-024-00727-x</pub-id><pub-id pub-id-type="pmid">38654098</pub-id></mixed-citation></ref><ref id="advs76304-bib-0049"><label>49</label><mixed-citation publication-type="journal" id="advs76304-cite-0049">
+<string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Moiseeva</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Cisneros</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Sica</surname>
+</string-name>, et al., “<article-title>Senescence Atlas Reveals an Aged‐Like Inflamed Niche that Blunts Muscle Regeneration</article-title>,” <source>Nature</source>
+<volume>613</volume>, no. <issue>7942</issue> (<year>2023</year>): <fpage>169</fpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41586-022-05535-x</pub-id><pub-id pub-id-type="pmcid">PMC9812788</pub-id><pub-id pub-id-type="pmid">36544018</pub-id></mixed-citation></ref><ref id="advs76304-bib-0050"><label>50</label><mixed-citation publication-type="journal" id="advs76304-cite-0050">
+<string-name name-style="western">
+<given-names>A. V.</given-names>
+<surname>Orjalo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Bhaumik</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B. K.</given-names>
+<surname>Gengler</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G. K.</given-names>
+<surname>Scott</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Campisi</surname>
+</string-name>, “<article-title>Cell Surface‐Bound IL‐1α Is an Upstream Regulator of the Senescence‐Associated IL‐6/IL‐8 Cytokine Network</article-title>,” <source>Proceedings of the National Academy of Sciences</source>
+<volume>106</volume>, no. <issue>40</issue> (<year>2009</year>): <fpage>17031</fpage>–<lpage>17036</lpage>, <pub-id pub-id-type="doi">10.1073/pnas.0905299106</pub-id>.<pub-id pub-id-type="pmcid">PMC2761322</pub-id><pub-id pub-id-type="pmid">19805069</pub-id></mixed-citation></ref><ref id="advs76304-bib-0051"><label>51</label><mixed-citation publication-type="journal" id="advs76304-cite-0051">
+<string-name name-style="western">
+<given-names>B. C.</given-names>
+<surname>Chan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. W.</given-names>
+<surname>Lam</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.‐S.</given-names>
+<surname>Tam</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C. K.</given-names>
+<surname>Wong</surname>
+</string-name>, “<article-title>IL33: Roles in Allergic Inflammation and Therapeutic Perspectives</article-title>,” <source>Frontiers in Immunology</source>
+<volume>10</volume> (<year>2019</year>): <elocation-id>364</elocation-id>, <pub-id pub-id-type="doi">10.3389/fimmu.2019.00364</pub-id>.<pub-id pub-id-type="pmcid">PMC6409346</pub-id><pub-id pub-id-type="pmid">30886621</pub-id></mixed-citation></ref><ref id="advs76304-bib-0052"><label>52</label><mixed-citation publication-type="journal" id="advs76304-cite-0052">
+<string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Chow</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. K.</given-names>
+<surname>Wong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. F.</given-names>
+<surname>Cheung</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C. W.</given-names>
+<surname>Lam</surname>
+</string-name>, “<article-title>Intracellular Signaling Mechanisms Regulating the Activation of Human Eosinophils by the Novel Th2 Cytokine IL‐33: Implications for Allergic Inflammation</article-title>,” <source>Cellular &amp; Molecular Immunology</source>
+<volume>7</volume>, no. <issue>1</issue> (<year>2010</year>): <fpage>26</fpage>–<lpage>34</lpage>, <pub-id pub-id-type="doi">10.1038/cmi.2009.106</pub-id>.<pub-id pub-id-type="pmcid">PMC4003257</pub-id><pub-id pub-id-type="pmid">20029461</pub-id></mixed-citation></ref><ref id="advs76304-bib-0053"><label>53</label><mixed-citation publication-type="journal" id="advs76304-cite-0053">
+<string-name name-style="western">
+<given-names>T. B.</given-names>
+<surname>Layton</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Williams</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Yang</surname>
+</string-name>, et al., “<article-title>A Vasculature Niche Orchestrates Stromal Cell Phenotype Through PDGF Signaling: Importance in Human Fibrotic Disease</article-title>,” <source>Proceedings of the National Academy of Sciences</source>
+<volume>119</volume>, no. <issue>13</issue> (<year>2022</year>): <elocation-id>2120336119</elocation-id>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.2120336119</pub-id><pub-id pub-id-type="pmcid">PMC9060460</pub-id><pub-id pub-id-type="pmid">35320046</pub-id></mixed-citation></ref><ref id="advs76304-bib-0054"><label>54</label><mixed-citation publication-type="journal" id="advs76304-cite-0054">
+<string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Rostama</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. M.</given-names>
+<surname>Peterson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. P.</given-names>
+<surname>Vary</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Liaw</surname>
+</string-name>, “<article-title>Notch Signal Integration in the Vasculature During Remodeling</article-title>,” <source>Vascular Pharmacology</source>
+<volume>63</volume>, no. <issue>2</issue> (<year>2014</year>): <fpage>97</fpage>–<lpage>104</lpage>, <pub-id pub-id-type="doi">10.1016/j.vph.2014.10.003</pub-id>.<pub-id pub-id-type="pmcid">PMC4304902</pub-id><pub-id pub-id-type="pmid">25464152</pub-id></mixed-citation></ref><ref id="advs76304-bib-0055"><label>55</label><mixed-citation publication-type="journal" id="advs76304-cite-0055">
+<string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Lobov</surname>
+</string-name> and <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Mikhailova</surname>
+</string-name>, “<article-title>The Role of Dll4/Notch Signaling in Normal and Pathological Ocular Angiogenesis: Dll4 Controls Blood Vessel Sprouting and Vessel Remodeling in Normal and Pathological Conditions</article-title>,” <source>Journal of Ophthalmology</source>
+<volume>2018</volume>, no. <issue>1</issue> (<year>2018</year>): <elocation-id>3565292</elocation-id>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1155/2018/3565292</pub-id><pub-id pub-id-type="pmcid">PMC6079472</pub-id><pub-id pub-id-type="pmid">30116629</pub-id></mixed-citation></ref><ref id="advs76304-bib-0056"><label>56</label><mixed-citation publication-type="journal" id="advs76304-cite-0056">
+<string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Dufraine</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Funahashi</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Kitajewski</surname>
+</string-name>, “<article-title>Notch Signaling Regulates Tumor Angiogenesis by Diverse Mechanisms</article-title>,” <source>Oncogene</source>
+<volume>27</volume>, no. <issue>38</issue> (<year>2008</year>): <fpage>5132</fpage>–<lpage>5137</lpage>, <pub-id pub-id-type="doi">10.1038/onc.2008.227</pub-id>.<pub-id pub-id-type="pmcid">PMC3893692</pub-id><pub-id pub-id-type="pmid">18758482</pub-id></mixed-citation></ref><ref id="advs76304-bib-0057"><label>57</label><mixed-citation publication-type="journal" id="advs76304-cite-0057">
+<string-name name-style="western">
+<given-names>A.‐R.</given-names>
+<surname>Pedrosa</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Trindade</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.‐C.</given-names>
+<surname>Fernandes</surname>
+</string-name>, et al., “<article-title>Endothelial Jagged1 Antagonizes Dll4 Regulation of Endothelial Branching and Promotes Vascular Maturation Downstream of Dll4/Notch1</article-title>,” <source>Arteriosclerosis, Thrombosis, and Vascular Biology</source>
+<volume>35</volume>, no. <issue>5</issue> (<year>2015</year>): <fpage>1134</fpage>–<lpage>1146</lpage>, <pub-id pub-id-type="doi">10.1161/ATVBAHA.114.304741</pub-id>.<pub-id pub-id-type="pmid">25767274</pub-id></mixed-citation></ref><ref id="advs76304-bib-0058"><label>58</label><mixed-citation publication-type="book" id="advs76304-cite-0058">
+<string-name name-style="western">
+<given-names>J. M.</given-names>
+<surname>Anderson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Rodriguez</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D. T.</given-names>
+<surname>Chang</surname>
+</string-name>, <source>Seminars in Immunology</source> (<publisher-name>Elsevier</publisher-name>, <year>2008</year>), <fpage>86</fpage>–<lpage>100</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.smim.2007.11.004</pub-id><pub-id pub-id-type="pmcid">PMC2327202</pub-id><pub-id pub-id-type="pmid">18162407</pub-id></mixed-citation></ref><ref id="advs76304-bib-0059"><label>59</label><mixed-citation publication-type="journal" id="advs76304-cite-0059">
+<string-name name-style="western">
+<given-names>P. S. P.</given-names>
+<surname>Poh</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Schmauss</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>McGovern</surname>
+</string-name>, et al., “<article-title>Non‐Linear Optical Microscopy and Histological Analysis of Collagen, Elastin and Lysyl Oxidase Expression in Breast Capsular Contracture</article-title>,” <source>European Journal of Medical Research</source>
+<volume>23</volume>, no. <issue>1</issue> (<year>2018</year>): <fpage>30</fpage>, <pub-id pub-id-type="doi">10.1186/s40001-018-0322-0</pub-id>.<pub-id pub-id-type="pmcid">PMC5987584</pub-id><pub-id pub-id-type="pmid">29866167</pub-id></mixed-citation></ref><ref id="advs76304-bib-0060"><label>60</label><mixed-citation publication-type="journal" id="advs76304-cite-0060">
+<string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Quaglini</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Mantero</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Villa</surname>
+</string-name>, “<article-title>Mechanical Properties of Breast Periprosthetic Capsules and the Correlation to Capsule Contracture</article-title>,” <source>Journal of Applied Biomaterials and Biomechanics</source>
+<volume>3</volume>, no. <issue>3</issue> (<year>2005</year>): <fpage>184</fpage>–<lpage>191</lpage>.<pub-id pub-id-type="pmid">20799224</pub-id></mixed-citation></ref><ref id="advs76304-bib-0061"><label>61</label><mixed-citation publication-type="journal" id="advs76304-cite-0061">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Ben Amar</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Trejo</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Atlan</surname>
+</string-name>, “<article-title>Morpho‐Elasticity of Inflammatory Fibrosis: The Case of Capsular Contracture</article-title>,” <source>Journal of the Royal Society, Interface</source>
+<volume>12</volume>, no. <issue>111</issue> (<year>2015</year>): <elocation-id>20150343</elocation-id>, <pub-id pub-id-type="doi">10.1098/rsif.2015.0343</pub-id>.<pub-id pub-id-type="pmcid">PMC4614484</pub-id><pub-id pub-id-type="pmid">26446558</pub-id></mixed-citation></ref><ref id="advs76304-bib-0062"><label>62</label><mixed-citation publication-type="journal" id="advs76304-cite-0062">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Malakoutian</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Theret</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Yamamoto</surname>
+</string-name>, et al., “<article-title>Larger Muscle Fibers and Fiber Bundles Manifest Smaller Elastic Modulus in Paraspinal Muscles of Rats and Humans</article-title>,” <source>Scientific Reports</source>
+<volume>11</volume>, no. <issue>1</issue> (<year>2021</year>): <elocation-id>18565</elocation-id>, <pub-id pub-id-type="doi">10.1038/s41598-021-97895-z</pub-id>.<pub-id pub-id-type="pmcid">PMC8448745</pub-id><pub-id pub-id-type="pmid">34535711</pub-id></mixed-citation></ref><ref id="advs76304-bib-0063"><label>63</label><mixed-citation publication-type="journal" id="advs76304-cite-0063">
+<string-name name-style="western">
+<given-names>G. J.</given-names>
+<surname>Regev</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. W.</given-names>
+<surname>Kim</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Tomiya</surname>
+</string-name>, et al., “<article-title>Psoas Muscle Architectural Design, In Vivo Sarcomere Length Range, and Passive Tensile Properties Support Its Role as a Lumbar Spine Stabilizer</article-title>,” <source>Spine</source>
+<volume>36</volume>, no. <issue>26</issue> (<year>2011</year>): <fpage>E1666</fpage>–<lpage>E1674</lpage>, <pub-id pub-id-type="doi">10.1097/BRS.0b013e31821847b3</pub-id>.<pub-id pub-id-type="pmid">21415810</pub-id></mixed-citation></ref><ref id="advs76304-bib-0064"><label>64</label><mixed-citation publication-type="journal" id="advs76304-cite-0064">
+<string-name name-style="western">
+<given-names>S. R.</given-names>
+<surname>Ward</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Tomiya</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G. J.</given-names>
+<surname>Regev</surname>
+</string-name>, et al., “<article-title>Passive Mechanical Properties of the Lumbar Multifidus Muscle Support Its Role as a Stabilizer</article-title>,” <source>Journal of Biomechanics</source>
+<volume>42</volume>, no. <issue>10</issue> (<year>2009</year>): <fpage>1384</fpage>–<lpage>1389</lpage>, <pub-id pub-id-type="doi">10.1016/j.jbiomech.2008.09.042</pub-id>.<pub-id pub-id-type="pmcid">PMC2752430</pub-id><pub-id pub-id-type="pmid">19457491</pub-id></mixed-citation></ref><ref id="advs76304-bib-0065"><label>65</label><mixed-citation publication-type="journal" id="advs76304-cite-0065">
+<string-name name-style="western">
+<given-names>A. M.</given-names>
+<surname>Teixeira</surname>
+</string-name> and <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Martins</surname>
+</string-name>, “<article-title>A Review of Bioengineering Techniques Applied to Breast Tissue: Mechanical Properties, Tissue Engineering and Finite Element Analysis</article-title>,” <source>Frontiers in Bioengineering and Biotechnology</source>
+<volume>11</volume> (<year>2023</year>): <elocation-id>1161815</elocation-id>, <pub-id pub-id-type="doi">10.3389/fbioe.2023.1161815</pub-id>.<pub-id pub-id-type="pmcid">PMC10106631</pub-id><pub-id pub-id-type="pmid">37077233</pub-id></mixed-citation></ref><ref id="advs76304-bib-0066"><label>66</label><mixed-citation publication-type="journal" id="advs76304-cite-0066">
+<string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Mavrogonatou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Papadopoulou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Pratsinis</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Kletsas</surname>
+</string-name>, “<article-title>Senescence‐Associated Alterations in the Extracellular Matrix: Deciphering Their Role in the Regulation of Cellular Function</article-title>,” <source>American Journal of Physiology‐Cell Physiology</source>
+<volume>325</volume>, no. <issue>3</issue> (<year>2023</year>): <fpage>C633</fpage>–<lpage>C647</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1152/ajpcell.00178.2023</pub-id><pub-id pub-id-type="pmid">37486063</pub-id></mixed-citation></ref><ref id="advs76304-bib-0067"><label>67</label><mixed-citation publication-type="journal" id="advs76304-cite-0067">
+<string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Młynarska</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Kowalik</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Krajewska</surname>
+</string-name>, et al., “<article-title>Inflammaging and Senescence‐Driven Extracellular Matrix Remodeling in Age‐Associated Cardiovascular Disease</article-title>,” <source>Biomolecules</source>
+<volume>15</volume>, no. <issue>10</issue> (<year>2025</year>): <fpage>1452</fpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/biom15101452</pub-id><pub-id pub-id-type="pmcid">PMC12564436</pub-id><pub-id pub-id-type="pmid">41154680</pub-id></mixed-citation></ref><ref id="advs76304-bib-0068"><label>68</label><mixed-citation publication-type="journal" id="advs76304-cite-0068">
+<string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Ungvari</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Tarantini</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. J.</given-names>
+<surname>Donato</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Galvan</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Csiszar</surname>
+</string-name>, “<article-title>Mechanisms of Vascular Aging</article-title>,” <source>Circulation Research</source>
+<volume>123</volume>, no. <issue>7</issue> (<year>2018</year>): <fpage>849</fpage>–<lpage>867</lpage>, <pub-id pub-id-type="doi">10.1161/CIRCRESAHA.118.311378</pub-id>.<pub-id pub-id-type="pmcid">PMC6248882</pub-id><pub-id pub-id-type="pmid">30355080</pub-id></mixed-citation></ref><ref id="advs76304-bib-0069"><label>69</label><mixed-citation publication-type="journal" id="advs76304-cite-0069">
+<string-name name-style="western">
+<given-names>I. L.</given-names>
+<surname>Kim</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Khetan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B. M.</given-names>
+<surname>Baker</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. S.</given-names>
+<surname>Chen</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Burdick</surname>
+</string-name>, “<article-title>Fibrous Hyaluronic Acid Hydrogels that Direct MSC Chondrogenesis Through Mechanical and Adhesive Cues</article-title>,” <source>Biomaterials</source>
+<volume>34</volume>, no. <issue>22</issue> (<year>2013</year>): <fpage>5571</fpage>–<lpage>5580</lpage>, <pub-id pub-id-type="doi">10.1016/j.biomaterials.2013.04.004</pub-id>.<pub-id pub-id-type="pmcid">PMC3652578</pub-id><pub-id pub-id-type="pmid">23623322</pub-id></mixed-citation></ref><ref id="advs76304-bib-0070"><label>70</label><mixed-citation publication-type="journal" id="advs76304-cite-0070">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Ahearne</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. J.</given-names>
+<surname>El Haj</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. Y.</given-names>
+<surname>Then</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>K.‐K.</given-names>
+<surname>Liu</surname>
+</string-name>, “<article-title>Characterizing the Viscoelastic Properties of Thin Hydrogel‐Based Constructs for Tissue Engineering Applications</article-title>,” <source>Journal of the Royal Society Interface</source>
+<volume>2</volume>, no. <issue>5</issue> (<year>2005</year>): <fpage>455</fpage>–<lpage>463</lpage>, <pub-id pub-id-type="doi">10.1098/rsif.2005.0065</pub-id>.<pub-id pub-id-type="pmcid">PMC1618501</pub-id><pub-id pub-id-type="pmid">16849205</pub-id></mixed-citation></ref><ref id="advs76304-bib-0071"><label>71</label><mixed-citation publication-type="journal" id="advs76304-cite-0071">
+<string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Hanjaya‐Putra</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Bose</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.‐I.</given-names>
+<surname>Shen</surname>
+</string-name>, et al., “<article-title>Blood</article-title>,” <source>The Journal of the American Society of Hematology</source>
+<volume>118</volume>, no. <issue>3</issue> (<year>2011</year>): <fpage>804</fpage>.</mixed-citation></ref><ref id="advs76304-bib-0072"><label>72</label><mixed-citation publication-type="journal" id="advs76304-cite-0072">
+<string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Visser</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. A.</given-names>
+<surname>Levett</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N. C.</given-names>
+<surname>te Moller</surname>
+</string-name>, et al., “<article-title>Crosslinkable Hydrogels Derived From Cartilage, Meniscus, and Tendon Tissue</article-title>,” <source>Tissue Engineering part A</source>
+<volume>21</volume>, no. <issue>7‐8</issue> (<year>2015</year>): <fpage>1195</fpage>–<lpage>1206</lpage>, <pub-id pub-id-type="doi">10.1089/ten.tea.2014.0362</pub-id>.<pub-id pub-id-type="pmcid">PMC4394887</pub-id><pub-id pub-id-type="pmid">25557049</pub-id></mixed-citation></ref><ref id="advs76304-bib-0073"><label>73</label><mixed-citation publication-type="journal" id="advs76304-cite-0073">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Hao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Stuart</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. H.</given-names>
+<surname>Kowalski</surname>
+</string-name>, et al., “<article-title>Dictionary Learning for Integrative, Multimodal and Scalable Single‐Cell Analysis</article-title>,” <source>Nature Biotechnology</source>
+<volume>42</volume>, no. <issue>2</issue> (<year>2024</year>): <fpage>293</fpage>–<lpage>304</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41587-023-01767-y</pub-id><pub-id pub-id-type="pmcid">PMC10928517</pub-id><pub-id pub-id-type="pmid">37231261</pub-id></mixed-citation></ref><ref id="advs76304-bib-0074"><label>74</label><mixed-citation publication-type="miscellaneous" id="advs76304-cite-0074">
+<string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Blighe</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Rana</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Lewis</surname>
+</string-name>, “<article-title>EnhancedVolcano: Publication‐Ready Volcano Plots With Enhanced Colouring and Labeling</article-title>,” <article-title>Bioconductor R package, version 1.22.0</article-title> (<year>2025</year>), <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://github.com/kevinblighe/EnhancedVolcano" ext-link-type="uri">https://github.com/kevinblighe/EnhancedVolcano</ext-link>.</mixed-citation></ref><ref id="advs76304-bib-0075"><label>75</label><mixed-citation publication-type="miscellaneous" id="advs76304-cite-0075">
+<string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Korotkevich</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Sukhov</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Sergushichev</surname>
+</string-name>, “<article-title>Fast Gene Set Enrichment Analysis</article-title>,” <article-title>bioRxiv</article-title> (<year>2016</year>), <pub-id pub-id-type="doi">10.1101/060012</pub-id>.</mixed-citation></ref></ref-list></back></article>

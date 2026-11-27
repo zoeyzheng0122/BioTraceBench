@@ -1,0 +1,165 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "B017",
+    "domain": "basic",
+    "title": "A dataset of spatially resolved transcriptomics of post-natal cardiac development in mice",
+    "doi": "10.1038/s41597-025-05838-4",
+    "pipeline": "basic-research",
+    "pmid": "40890142",
+    "pmcid": "PMC12402441",
+    "registry": "GSE298650"
+  },
+  "files": [
+    {
+      "path": "records/GEO-GSE298650-project.txt",
+      "sha256": "cad34a0e4aa6a812afa477239d02df2f460b1a8026d72476f42ecb5485228a38",
+      "bytes": 2997,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE298650&targ=self&form=text&view=brief"
+      ],
+      "derived_from": "fedc325048feaa62631f908888f43430e33b1eb8dca88b2809e68315c5e74d43",
+      "representation": "readable_repository_record",
+      "original_filename": "GEO-GSE298650-project.txt",
+      "retrieved_at": "2026-10-18T01:48:02+08:00"
+    },
+    {
+      "path": "records/GEO-GSE298650-samples.txt",
+      "sha256": "fa740c989a767f326298c9c45de5a6e9ba281e0270fe41e764816a7f7619bd1a",
+      "bytes": 18263,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE298650&targ=gsm&form=text&view=brief"
+      ],
+      "derived_from": "fb838b406b184609e57a5d25f8ae9eab845d4680feee075efd6b29f5911c6f51",
+      "representation": "readable_repository_record",
+      "original_filename": "GEO-GSE298650-samples.txt",
+      "retrieved_at": "2026-10-18T01:48:02+08:00"
+    },
+    {
+      "path": "sources/article.xml",
+      "sha256": "8739f28ccc9aeb5d304e4fe51643598c36899920f8c5f4b93f85281fa8c1253e",
+      "bytes": 81871,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12402441.1/PMC12402441.1.xml?md5=85ba580a1de1eceac9011b61db5af802"
+      ],
+      "association": "official published article XML for exact DOI"
+    },
+    {
+      "path": "figures/41597_2025_5838_Fig1_HTML.jpg",
+      "sha256": "1d14d107f76fb5c1be5f00cc2f0a7345f9abb062b8912cb139546a2548a35372",
+      "bytes": 100056,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12402441.1/41597_2025_5838_Fig1_HTML.jpg?md5=45670be0dfecb01baa8427940bca793f"
+      ],
+      "association": "exact JATS Fig1 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41597_2025_5838_Fig2_HTML.jpg",
+      "sha256": "825227cae84ed20af9db0bae9631ce11626428e08e6b1eba373b6b0e9808d2c6",
+      "bytes": 168539,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12402441.1/41597_2025_5838_Fig2_HTML.jpg?md5=865fa1e192381fc908bdfd927bc71a69"
+      ],
+      "association": "exact JATS Fig2 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41597_2025_5838_Fig3_HTML.jpg",
+      "sha256": "79679cad948415d99b33d88ad196f4f8b308a9b3c016f7f124447f35321cead0",
+      "bytes": 237887,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12402441.1/41597_2025_5838_Fig3_HTML.jpg?md5=46d3ecd9ddf23f30d89b6230579137d4"
+      ],
+      "association": "exact JATS Fig3 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41597_2025_5838_Fig4_HTML.jpg",
+      "sha256": "deffdd9dd1914a6390b93e44c3c23e3f82975f7dedeb4286e6dd526a39eb5b34",
+      "bytes": 364643,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12402441.1/41597_2025_5838_Fig4_HTML.jpg?md5=c10ceaf87436bbf57034fb896fba1a9e"
+      ],
+      "association": "exact JATS Fig4 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41597_2025_5838_Fig5_HTML.jpg",
+      "sha256": "6e98236d352a16849e40662eb41c2020a6daeec23093f6f7a25a966c54d693ca",
+      "bytes": 203411,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12402441.1/41597_2025_5838_Fig5_HTML.jpg?md5=e072008cf807a62742d295cf6c407ce8"
+      ],
+      "association": "Exact JATS main figure or individually declared PDF/DOCX paper supplement"
+    },
+    {
+      "path": "figures/41597_2025_5838_Fig6_HTML.jpg",
+      "sha256": "1672f0ec92eab483a071a81aa7ad182968467c79ee3bd8dca4ad2eb0d2773a89",
+      "bytes": 282303,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12402441.1/41597_2025_5838_Fig6_HTML.jpg?md5=76231b2b3f57532292d9285b46d9a726"
+      ],
+      "association": "Exact JATS main figure or individually declared PDF/DOCX paper supplement"
+    },
+    {
+      "path": "figures/captions.txt",
+      "sha256": "4de5505a47ddd928b5612c34e21b9b3445eb90b647b37c4e123a0bce03368307",
+      "bytes": 1631,
+      "role": "figure_captions",
+      "roles": [
+        "figure_captions"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12402441/"
+      ],
+      "derived_from": "b10a3fd45b837eb4698721d3f9ec2377b6ef28bf042501644d708614d16a51a8"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

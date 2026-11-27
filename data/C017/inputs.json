@@ -1,0 +1,133 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "C017",
+    "domain": "clinical",
+    "title": "Improved health‐related quality of life with tirzepatide versus semaglutide in adults with obesity or overweight from the SURMOUNT‐5 trial",
+    "doi": "10.1111/dom.70215",
+    "pipeline": "clinical-trials",
+    "pmid": "41187971",
+    "pmcid": "PMC12673425",
+    "registry": "NCT05822830"
+  },
+  "files": [
+    {
+      "path": "sources/article.xml",
+      "sha256": "093b9b6751e86be0b5cd7e5423110c976ff09f632b847ae19a7dceead46fb50a",
+      "bytes": 119268,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12673425/fullTextXML"
+      ],
+      "association": "exact PMCID from case identity"
+    },
+    {
+      "path": "records/ClinicalTrials-NCT05822830.json",
+      "sha256": "f460fc5a2720f1247af6d4a555f4359c9eec273c64f912f5d4ccf7a566ac36a5",
+      "bytes": 52796,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://clinicaltrials.gov/api/v2/studies/NCT05822830"
+      ],
+      "association": "exact trial registration linked by article; verify in source projection",
+      "original_filename": "registry.json",
+      "retrieved_at": "2026-10-17T21:23:37+08:00",
+      "derived_from": "105aee77f09098cf2c14b409572382fb9528e299696dd8d9ce1aa1d08799f54c",
+      "original_sha256": "105aee77f09098cf2c14b409572382fb9528e299696dd8d9ce1aa1d08799f54c",
+      "representation": "refine-lexical-json-1",
+      "provenance_transform": "exact_json_whitespace_compaction"
+    },
+    {
+      "path": "figures/DOM-28-452-g001.jpg",
+      "sha256": "82ea6e2324b53663466aa0658131144f055a876a2ec16eb233f370026f9af109",
+      "bytes": 134080,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12673425/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/DOM-28-452-g002.jpg",
+      "sha256": "b1dd02d0d297e8d636ed24e265e8cc3424934cd17d70f51cc29deae308615e76",
+      "bytes": 117618,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12673425/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/DOM-28-452-g003.jpg",
+      "sha256": "4f35dfce8ff63bc37a7ea8c9ef492865ed86ebf48f6da1b63c4bf50ef1ea4aa3",
+      "bytes": 120173,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12673425/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "supplements/DOM-28-452-s001__refine/asset-image1.png",
+      "sha256": "2006d118bbfcaee29061388cd29ca7607a3fe7db5bd7fb9cc4700fc4a628f75a",
+      "bytes": 247982,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12673425/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package",
+      "derived_from": "5a5666fa9d2492946898d3670f0f2fda6a14db15ca3bfa8d44a90939b89dcbb1",
+      "original_sha256": "5a5666fa9d2492946898d3670f0f2fda6a14db15ca3bfa8d44a90939b89dcbb1",
+      "original_filename": "DOM-28-452-s001.docx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/DOM-28-452-s001__refine/content.md",
+      "sha256": "65cb62658046343f4db3df514159cea890194b78525d4c4bd73ee9ce1cb03fe3",
+      "bytes": 8459,
+      "role": "supplement",
+      "roles": [
+        "supplement"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12673425/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package",
+      "derived_from": "5a5666fa9d2492946898d3670f0f2fda6a14db15ca3bfa8d44a90939b89dcbb1",
+      "original_sha256": "5a5666fa9d2492946898d3670f0f2fda6a14db15ca3bfa8d44a90939b89dcbb1",
+      "original_filename": "DOM-28-452-s001.docx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "office_text_tables"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

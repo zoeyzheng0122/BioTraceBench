@@ -1,0 +1,495 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "B012",
+    "domain": "basic",
+    "title": "Stereotyped Subclones Revealed by High‐Density Single‐Cell Lineage Tracing Support Robust Development",
+    "doi": "10.1002/advs.202406208",
+    "pipeline": "basic-research",
+    "pmid": "40307991",
+    "pmcid": "PMC12376543",
+    "registry": "PRJNA1099925"
+  },
+  "files": [
+    {
+      "path": "records/ENA-PRJNA1099925-runs.txt",
+      "sha256": "d06e1fc60fa4d7f08317181f7c45e31bfc5fa8ced95f3a865f1b46aebbe2ce40",
+      "bytes": 4014,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1099925&result=read_run&fields=study_accession,secondary_study_accession,sample_accession,secondary_sample_accession,experiment_accession,run_accession,scientific_name,sample_title,library_name,library_strategy,library_source,library_selection,instrument_platform,instrument_model&format=json"
+      ],
+      "derived_from": "b34ddddcd6910d5585ccb5a1339904bc8fcfe9d32b45f6441adb16a32aa5df96",
+      "representation": "readable_repository_record",
+      "association": "article explicitly reports project; run metadata without sequence files; readable official record text",
+      "original_filename": "ENA-PRJNA1099925-runs.txt",
+      "retrieved_at": "2026-10-17T23:54:31+08:00"
+    },
+    {
+      "path": "sources/article.xml",
+      "sha256": "d124ba5bc5a3a156c409bfca797c57058a8d2fe861e52655e63e8b149dd36b33",
+      "bytes": 225632,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12376543/fullTextXML"
+      ],
+      "association": "exact PMCID from case identity"
+    },
+    {
+      "path": "records/ENA-PRJNA1099925-runs.json",
+      "sha256": "3b5a282475d9687fbce3e235b4c9768cf7e417163aff20cea6e38e175998bfce",
+      "bytes": 3878,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1099925&result=read_run&fields=study_accession,secondary_study_accession,sample_accession,secondary_sample_accession,experiment_accession,run_accession,scientific_name,sample_title,library_name,library_strategy,library_source,library_selection,instrument_platform,instrument_model&format=json"
+      ],
+      "association": "article explicitly reports project; run metadata without sequence files",
+      "original_filename": "ENA-PRJNA1099925-runs.json",
+      "retrieved_at": "2026-10-17T23:54:31+08:00"
+    },
+    {
+      "path": "figures/ADVS-12-2406208-g001.jpg",
+      "sha256": "fe458a131c4b5a32a87626cee942b29892c6a8f2b344f2d6ae77e37db7ba1f3a",
+      "bytes": 125837,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/bdb4/12376543/9beb1feb9825/ADVS-12-2406208-g001.jpg"
+      ],
+      "association": "exact linked asset in verified same-study XML"
+    },
+    {
+      "path": "figures/ADVS-12-2406208-g002.jpg",
+      "sha256": "8a91177e44f317732f85d7d1b7da88d196c5ae8550ce89e4ce15ab5e9e25aabb",
+      "bytes": 206103,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/bdb4/12376543/0cddc0019b1e/ADVS-12-2406208-g002.jpg"
+      ],
+      "association": "exact linked asset in verified same-study XML"
+    },
+    {
+      "path": "figures/ADVS-12-2406208-g003.jpg",
+      "sha256": "ad90bc58aea174ca38813631584566ea4b40dc5efdd080d047b357768b0242bd",
+      "bytes": 128354,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/bdb4/12376543/774669ab11ef/ADVS-12-2406208-g003.jpg"
+      ],
+      "association": "exact linked asset in verified same-study XML"
+    },
+    {
+      "path": "figures/ADVS-12-2406208-g004.jpg",
+      "sha256": "e97578fcbd6f762ffb53f4387112728eec030b8d171ba291ad4e014b34dc63e3",
+      "bytes": 17413,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/bdb4/12376543/8b1aaf75d5ef/ADVS-12-2406208-g004.jpg"
+      ],
+      "association": "exact linked asset in verified same-study XML"
+    },
+    {
+      "path": "figures/ADVS-12-2406208-g005.jpg",
+      "sha256": "956774f61b2e8e04022130a04124de247b8db59886fb547f390af52d7d3e1b44",
+      "bytes": 248598,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/bdb4/12376543/06e93b74be33/ADVS-12-2406208-g005.jpg"
+      ],
+      "association": "exact linked asset in verified same-study XML"
+    },
+    {
+      "path": "figures/ADVS-12-2406208-g006.jpg",
+      "sha256": "2d89a0fad4599977fc840c58fc6f7c53f0c6a5d86c1c79b5481425f5bb4279c3",
+      "bytes": 168811,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/bdb4/12376543/9c6f6e52905d/ADVS-12-2406208-g006.jpg"
+      ],
+      "association": "exact linked asset in verified same-study XML"
+    },
+    {
+      "path": "supplements/ADVS-12-2406208-s002__refine/page-0001-region-01.png",
+      "sha256": "b8907a563204fbd98d9ba734b3c5e0f59c841d8c0dace70f70cab9f203299897",
+      "bytes": 12021,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12376543.1/ADVS-12-2406208-s002.pdf?md5=b388cdbb0c73551a34e161b67f3e2464"
+      ],
+      "association": "exact JATS Supporting Information PDF, now under authorized 100MiB bound",
+      "derived_from": "9d6fc810cc56be7bc37a9495b800672b7abef37f0e638480e692226b5d4b2848",
+      "original_sha256": "9d6fc810cc56be7bc37a9495b800672b7abef37f0e638480e692226b5d4b2848",
+      "original_filename": "ADVS-12-2406208-s002.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_palette"
+    },
+    {
+      "path": "supplements/ADVS-12-2406208-s002__refine/page-0007-region-01.png",
+      "sha256": "a77f83e7c1e5c831a2bec577fc050111fbabb3c87e08c50f6cfb4565a78c4725",
+      "bytes": 108769,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12376543.1/ADVS-12-2406208-s002.pdf?md5=b388cdbb0c73551a34e161b67f3e2464"
+      ],
+      "association": "exact JATS Supporting Information PDF, now under authorized 100MiB bound",
+      "derived_from": "9d6fc810cc56be7bc37a9495b800672b7abef37f0e638480e692226b5d4b2848",
+      "original_sha256": "9d6fc810cc56be7bc37a9495b800672b7abef37f0e638480e692226b5d4b2848",
+      "original_filename": "ADVS-12-2406208-s002.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/ADVS-12-2406208-s002__refine/page-0009-region-01-tile-1-1.png",
+      "sha256": "ba8cced78677640117b32d6ba5d807f7ff8512d123f151a9d0acf6003eac2e16",
+      "bytes": 1461675,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12376543.1/ADVS-12-2406208-s002.pdf?md5=b388cdbb0c73551a34e161b67f3e2464"
+      ],
+      "association": "exact JATS Supporting Information PDF, now under authorized 100MiB bound",
+      "derived_from": "9d6fc810cc56be7bc37a9495b800672b7abef37f0e638480e692226b5d4b2848",
+      "original_sha256": "9d6fc810cc56be7bc37a9495b800672b7abef37f0e638480e692226b5d4b2848",
+      "original_filename": "ADVS-12-2406208-s002.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/ADVS-12-2406208-s002__refine/page-0009-region-01-tile-2-1.png",
+      "sha256": "03c534360edd39b00c95449117d41852932bc56262c7e88ecd08cdf4ff3db903",
+      "bytes": 58821,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12376543.1/ADVS-12-2406208-s002.pdf?md5=b388cdbb0c73551a34e161b67f3e2464"
+      ],
+      "association": "exact JATS Supporting Information PDF, now under authorized 100MiB bound",
+      "derived_from": "9d6fc810cc56be7bc37a9495b800672b7abef37f0e638480e692226b5d4b2848",
+      "original_sha256": "9d6fc810cc56be7bc37a9495b800672b7abef37f0e638480e692226b5d4b2848",
+      "original_filename": "ADVS-12-2406208-s002.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/ADVS-12-2406208-s002__refine/page-0011-region-01.png",
+      "sha256": "b41f73ddb7417068acc59ab86eebfd2f2962fb2c163d35e512d011f5034a42c8",
+      "bytes": 1296867,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12376543.1/ADVS-12-2406208-s002.pdf?md5=b388cdbb0c73551a34e161b67f3e2464"
+      ],
+      "association": "exact JATS Supporting Information PDF, now under authorized 100MiB bound",
+      "derived_from": "9d6fc810cc56be7bc37a9495b800672b7abef37f0e638480e692226b5d4b2848",
+      "original_sha256": "9d6fc810cc56be7bc37a9495b800672b7abef37f0e638480e692226b5d4b2848",
+      "original_filename": "ADVS-12-2406208-s002.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/ADVS-12-2406208-s002__refine/page-0013-region-01-tile-1-1.png",
+      "sha256": "6f2db304637b0b6ab3c96c127357330e32d2314f9686290b05c9119297f9afbf",
+      "bytes": 886171,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12376543.1/ADVS-12-2406208-s002.pdf?md5=b388cdbb0c73551a34e161b67f3e2464"
+      ],
+      "association": "exact JATS Supporting Information PDF, now under authorized 100MiB bound",
+      "derived_from": "9d6fc810cc56be7bc37a9495b800672b7abef37f0e638480e692226b5d4b2848",
+      "original_sha256": "9d6fc810cc56be7bc37a9495b800672b7abef37f0e638480e692226b5d4b2848",
+      "original_filename": "ADVS-12-2406208-s002.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/ADVS-12-2406208-s002__refine/page-0013-region-01-tile-2-1.png",
+      "sha256": "24c7d3d54edc9db379c0d13e63e68d3d5c79b1ac07886695ce63b17b3858d8b2",
+      "bytes": 4892,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12376543.1/ADVS-12-2406208-s002.pdf?md5=b388cdbb0c73551a34e161b67f3e2464"
+      ],
+      "association": "exact JATS Supporting Information PDF, now under authorized 100MiB bound",
+      "derived_from": "9d6fc810cc56be7bc37a9495b800672b7abef37f0e638480e692226b5d4b2848",
+      "original_sha256": "9d6fc810cc56be7bc37a9495b800672b7abef37f0e638480e692226b5d4b2848",
+      "original_filename": "ADVS-12-2406208-s002.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_grayscale"
+    },
+    {
+      "path": "supplements/ADVS-12-2406208-s002__refine/page-0015-region-01-tile-1-1.png",
+      "sha256": "75ac33f7243f94a1996cda77c12b59900920037a52537bb5f7b057407c3eebda",
+      "bytes": 334094,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12376543.1/ADVS-12-2406208-s002.pdf?md5=b388cdbb0c73551a34e161b67f3e2464"
+      ],
+      "association": "exact JATS Supporting Information PDF, now under authorized 100MiB bound",
+      "derived_from": "9d6fc810cc56be7bc37a9495b800672b7abef37f0e638480e692226b5d4b2848",
+      "original_sha256": "9d6fc810cc56be7bc37a9495b800672b7abef37f0e638480e692226b5d4b2848",
+      "original_filename": "ADVS-12-2406208-s002.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/ADVS-12-2406208-s002__refine/page-0015-region-01-tile-2-1.png",
+      "sha256": "3004d3cc21afa25c5aeca255827f6d82244cad04648b95a65d88a07ca31e5ff9",
+      "bytes": 21432,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12376543.1/ADVS-12-2406208-s002.pdf?md5=b388cdbb0c73551a34e161b67f3e2464"
+      ],
+      "association": "exact JATS Supporting Information PDF, now under authorized 100MiB bound",
+      "derived_from": "9d6fc810cc56be7bc37a9495b800672b7abef37f0e638480e692226b5d4b2848",
+      "original_sha256": "9d6fc810cc56be7bc37a9495b800672b7abef37f0e638480e692226b5d4b2848",
+      "original_filename": "ADVS-12-2406208-s002.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/ADVS-12-2406208-s002__refine/page-0017-region-01.png",
+      "sha256": "ee060099aa868c5e46439192a2b7ba52142cbeebdccd2725a60c6539e9e8fdc3",
+      "bytes": 486746,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12376543.1/ADVS-12-2406208-s002.pdf?md5=b388cdbb0c73551a34e161b67f3e2464"
+      ],
+      "association": "exact JATS Supporting Information PDF, now under authorized 100MiB bound",
+      "derived_from": "9d6fc810cc56be7bc37a9495b800672b7abef37f0e638480e692226b5d4b2848",
+      "original_sha256": "9d6fc810cc56be7bc37a9495b800672b7abef37f0e638480e692226b5d4b2848",
+      "original_filename": "ADVS-12-2406208-s002.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/ADVS-12-2406208-s002__refine/page-0019-region-01-tile-1-1.png",
+      "sha256": "482309ee1e058cfd04268a35783aeb963dde1e9843e0b3cfa3d1de2caba58e07",
+      "bytes": 628220,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12376543.1/ADVS-12-2406208-s002.pdf?md5=b388cdbb0c73551a34e161b67f3e2464"
+      ],
+      "association": "exact JATS Supporting Information PDF, now under authorized 100MiB bound",
+      "derived_from": "9d6fc810cc56be7bc37a9495b800672b7abef37f0e638480e692226b5d4b2848",
+      "original_sha256": "9d6fc810cc56be7bc37a9495b800672b7abef37f0e638480e692226b5d4b2848",
+      "original_filename": "ADVS-12-2406208-s002.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/ADVS-12-2406208-s002__refine/page-0019-region-01-tile-2-1.png",
+      "sha256": "891e394810281877f3537a4b0a20e29f98ed5d44d64403a25b7803ac2b963c45",
+      "bytes": 32605,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12376543.1/ADVS-12-2406208-s002.pdf?md5=b388cdbb0c73551a34e161b67f3e2464"
+      ],
+      "association": "exact JATS Supporting Information PDF, now under authorized 100MiB bound",
+      "derived_from": "9d6fc810cc56be7bc37a9495b800672b7abef37f0e638480e692226b5d4b2848",
+      "original_sha256": "9d6fc810cc56be7bc37a9495b800672b7abef37f0e638480e692226b5d4b2848",
+      "original_filename": "ADVS-12-2406208-s002.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/ADVS-12-2406208-s002__refine/page-0021-region-01.png",
+      "sha256": "a962e5be3ad2c8231fab46811138231e199db686cc774d14dd6ecebba4cfd203",
+      "bytes": 134382,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12376543.1/ADVS-12-2406208-s002.pdf?md5=b388cdbb0c73551a34e161b67f3e2464"
+      ],
+      "association": "exact JATS Supporting Information PDF, now under authorized 100MiB bound",
+      "derived_from": "9d6fc810cc56be7bc37a9495b800672b7abef37f0e638480e692226b5d4b2848",
+      "original_sha256": "9d6fc810cc56be7bc37a9495b800672b7abef37f0e638480e692226b5d4b2848",
+      "original_filename": "ADVS-12-2406208-s002.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/ADVS-12-2406208-s002__refine/page-0023-region-01.png",
+      "sha256": "acc99c05251a221bb56d4c4c7b88d6e991e42f013a812d1474a7488bf887848d",
+      "bytes": 214558,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12376543.1/ADVS-12-2406208-s002.pdf?md5=b388cdbb0c73551a34e161b67f3e2464"
+      ],
+      "association": "exact JATS Supporting Information PDF, now under authorized 100MiB bound",
+      "derived_from": "9d6fc810cc56be7bc37a9495b800672b7abef37f0e638480e692226b5d4b2848",
+      "original_sha256": "9d6fc810cc56be7bc37a9495b800672b7abef37f0e638480e692226b5d4b2848",
+      "original_filename": "ADVS-12-2406208-s002.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/ADVS-12-2406208-s002__refine/content.md",
+      "sha256": "6d6f03f086aa6b0433620109a459c934ee35dbf6e414e34fe24ff122fe3b41b6",
+      "bytes": 23701,
+      "role": "supplement",
+      "roles": [
+        "supplement"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12376543.1/ADVS-12-2406208-s002.pdf?md5=b388cdbb0c73551a34e161b67f3e2464"
+      ],
+      "association": "exact JATS Supporting Information PDF, now under authorized 100MiB bound",
+      "derived_from": "9d6fc810cc56be7bc37a9495b800672b7abef37f0e638480e692226b5d4b2848",
+      "original_sha256": "9d6fc810cc56be7bc37a9495b800672b7abef37f0e638480e692226b5d4b2848",
+      "original_filename": "ADVS-12-2406208-s002.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "pdf_text_visual"
+    },
+    {
+      "path": "supplements/ADVS-12-2406208-s003__refine/Table_S1.tsv",
+      "sha256": "436a9529fcd04a37592a5ba9eef649b46a920f077c43f8a53b4a625478db1642",
+      "bytes": 754,
+      "role": "supplement",
+      "roles": [
+        "supplement"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/instance/12376543/bin/ADVS-12-2406208-s003.xlsx"
+      ],
+      "association": "exact linked asset in verified same-study XML",
+      "derived_from": "ca74992556808bb57402d2b50344e7e0d221f87dfe91bd09d8f990bd22651fbb",
+      "original_sha256": "ca74992556808bb57402d2b50344e7e0d221f87dfe91bd09d8f990bd22651fbb",
+      "original_filename": "ADVS-12-2406208-s003.xlsx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "worksheet_tsv"
+    },
+    {
+      "path": "supplements/ADVS-12-2406208-s003__refine/Table_S2.tsv",
+      "sha256": "9f62b0bcfeb6ae9f2b488007ff5ff71a06b64195816ca58f3ca87e92732dec6a",
+      "bytes": 507,
+      "role": "supplement",
+      "roles": [
+        "supplement"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/instance/12376543/bin/ADVS-12-2406208-s003.xlsx"
+      ],
+      "association": "exact linked asset in verified same-study XML",
+      "derived_from": "ca74992556808bb57402d2b50344e7e0d221f87dfe91bd09d8f990bd22651fbb",
+      "original_sha256": "ca74992556808bb57402d2b50344e7e0d221f87dfe91bd09d8f990bd22651fbb",
+      "original_filename": "ADVS-12-2406208-s003.xlsx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "worksheet_tsv"
+    },
+    {
+      "path": "supplements/ADVS-12-2406208-s003__refine/source-notes.md",
+      "sha256": "f821a0d509072299212f09b812dcde4c803f947147bf404e525d254e060094d3",
+      "bytes": 473,
+      "role": "supplement",
+      "roles": [
+        "supplement"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/instance/12376543/bin/ADVS-12-2406208-s003.xlsx"
+      ],
+      "association": "exact linked asset in verified same-study XML",
+      "derived_from": "ca74992556808bb57402d2b50344e7e0d221f87dfe91bd09d8f990bd22651fbb",
+      "original_sha256": "ca74992556808bb57402d2b50344e7e0d221f87dfe91bd09d8f990bd22651fbb",
+      "original_filename": "ADVS-12-2406208-s003.xlsx",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "worksheet_context"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

@@ -1,0 +1,156 @@
+{
+  "measure": [
+    {
+      "measure_definition": "Measured value: change in HOMA2-S from baseline to week 30; Participants; Fasting blood samples at baseline and week 30; HOMA2-S calculated using HOMA2 (version 2.2.3) from fasting blood glucose and fasting insulin; samples analyzed en bloc after the last patient visit.; Higher HOMA2-S indicates greater insulin sensitivity. Change is week 30 minus baseline. Between-group treatment effect is the mixed-model mean difference (semaglutide minus placebo). Time origin: baseline; assessment at week 30.",
+      "measure_id": "M0",
+      "measure_name": "HOMA2 insulin sensitivity (HOMA2-S)"
+    },
+    {
+      "measure_definition": "Measured value: change in HOMA2-B from baseline to week 30; Participants; Fasting blood samples at baseline and week 30; HOMA2-B calculated using HOMA2 (version 2.2.3) from fasting blood glucose and fasting insulin; samples analyzed en bloc after the last patient visit.; Higher HOMA2-B indicates greater β-cell function. Change is week 30 minus baseline. Between-group treatment effect is the mixed-model mean difference (semaglutide minus placebo). Time origin: baseline; assessment at week 30.",
+      "measure_id": "M1",
+      "measure_name": "HOMA2 beta-cell function (HOMA2-B)"
+    },
+    {
+      "measure_definition": "Measured value: change in HOMA-IR from baseline to week 30; Participants; Fasting blood samples at baseline and week 30; HOMA of insulin resistance based on fasting blood glucose and fasting insulin. A separate HOMA version for HOMA-IR is not reported in the supplied text (HOMA2 version 2.2.3 is specified for HOMA2-S and HOMA2-B).; Higher HOMA-IR indicates greater insulin resistance; a negative change indicates reduction. Change is week 30 minus baseline. Between-group treatment effect is the mixed-model mean difference (semaglutide minus placebo). Time origin: baseline; assessment at week 30. Specific HOMA-IR formula/version: source discrepancy retained.",
+      "measure_id": "M2",
+      "measure_name": "HOMA insulin resistance (HOMA-IR)"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "Semaglutide",
+      "intervention_regimen": "Up to 1.0 mg/week (1.34 mg/mL formulation); Subcutaneous injection once weekly for 30 weeks; uptitrated according to manufacturer recommendations",
+      "population_definition": "Adults aged 18–60 years with schizophrenia-spectrum disorders (ICD-10 F20, F21 or F25), receiving stable second-generation antipsychotic treatment, with prediabetes (HbA1c 39–47 mmol/mol) and overweight/obesity (BMI ≥27 kg/m²). Randomized to semaglutide; received at least one dose and had postbaseline assessments, analyzed according to assigned group. The exact HOMA mixed-model analysis population size is not reported; the complete-data counts are not substituted for the model analysis N.",
+      "population_id": "P3",
+      "population_name": "Semaglutide modified ITT HOMA analysis population",
+      "population_size": null,
+      "population_time_frame": "Trial conduct January 2022 to May 2024; baseline and postbaseline assessments including week 30"
+    },
+    {
+      "intervention": "Placebo",
+      "intervention_regimen": "Matching placebo (similar volume); Subcutaneous injection once weekly for 30 weeks; uptitrated according to manufacturer recommendations",
+      "population_definition": "Adults aged 18–60 years with schizophrenia-spectrum disorders (ICD-10 F20, F21 or F25), receiving stable second-generation antipsychotic treatment, with prediabetes (HbA1c 39–47 mmol/mol) and overweight/obesity (BMI ≥27 kg/m²). Randomized to placebo; received at least one dose and had postbaseline assessments, analyzed according to assigned group. The exact HOMA mixed-model analysis population size is not reported; the complete-data counts are not substituted for the model analysis N.",
+      "population_id": "P4",
+      "population_name": "Placebo modified ITT HOMA analysis population",
+      "population_size": null,
+      "population_time_frame": "Trial conduct January 2022 to May 2024; baseline and postbaseline assessments including week 30"
+    }
+  ],
+  "population_relation": [
+    {
+      "population_a_id": "P3",
+      "population_b_id": "P4",
+      "relationship": "disjoint from"
+    }
+  ],
+  "result": [
+    {
+      "assessment_time": "Week 30 (change from baseline)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P3",
+      "result_id": "R01",
+      "result_unit": "percentage points",
+      "result_value": 10.08,
+      "statistic_type": "Mean change from baseline",
+      "statistical_method": "Mixed-effects model",
+      "supplementary_statistics": "95% CI 5.82, 14.33; mixed-model endpoint-specific analysis n not explicitly established; do not substitute the complete-data subgroup n"
+    },
+    {
+      "assessment_time": "Week 30 (change from baseline)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P4",
+      "result_id": "R02",
+      "result_unit": "percentage points",
+      "result_value": 1.48,
+      "statistic_type": "Mean change from baseline",
+      "statistical_method": "Mixed-effects model",
+      "supplementary_statistics": "95% CI −2.79, 5.75; mixed-model endpoint-specific analysis n not explicitly established; do not substitute the complete-data subgroup n"
+    },
+    {
+      "assessment_time": "Week 30 (change from baseline)",
+      "comparison": "P3 minus P4 (semaglutide minus placebo)",
+      "measure_id": "M0",
+      "population_id": "P3",
+      "result_id": "R03",
+      "result_unit": "percentage points",
+      "result_value": 8.6,
+      "statistic_type": "Mixed-model treatment effect (mean difference, semaglutide minus placebo)",
+      "statistical_method": "Mixed-effects model",
+      "supplementary_statistics": "95% CI 5.82, 13.65; P = 0.001; mixed-model endpoint-specific analysis n not explicitly established; do not substitute the complete-data subgroup n"
+    },
+    {
+      "assessment_time": "Week 30 (change from baseline)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P3",
+      "result_id": "R04",
+      "result_unit": "percentage points",
+      "result_value": 8.0,
+      "statistic_type": "Mean change from baseline",
+      "statistical_method": "Mixed-effects model",
+      "supplementary_statistics": "95% CI −1.66, 17.65; mixed-model endpoint-specific analysis n not explicitly established; do not substitute the complete-data subgroup n"
+    },
+    {
+      "assessment_time": "Week 30 (change from baseline)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P4",
+      "result_id": "R05",
+      "result_unit": "percentage points",
+      "result_value": -0.1,
+      "statistic_type": "Mean change from baseline",
+      "statistical_method": "Mixed-effects model",
+      "supplementary_statistics": "95% CI −8.54, 8.33; mixed-model endpoint-specific analysis n not explicitly established; do not substitute the complete-data subgroup n"
+    },
+    {
+      "assessment_time": "Week 30 (change from baseline)",
+      "comparison": "P3 minus P4 (semaglutide minus placebo)",
+      "measure_id": "M1",
+      "population_id": "P3",
+      "result_id": "R06",
+      "result_unit": "percentage points",
+      "result_value": 8.1,
+      "statistic_type": "Mixed-model treatment effect (mean difference, semaglutide minus placebo)",
+      "statistical_method": "Mixed-effects model",
+      "supplementary_statistics": "95% CI −1.66, 20.22; P = 0.190; mixed-model endpoint-specific analysis n not explicitly established; do not substitute the complete-data subgroup n"
+    },
+    {
+      "assessment_time": "Week 30 (change from baseline)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P3",
+      "result_id": "R07",
+      "result_unit": "HOMA index units",
+      "result_value": -0.68,
+      "statistic_type": "Mean change from baseline",
+      "statistical_method": "Mixed-effects model",
+      "supplementary_statistics": "95% CI −1.00, −0.35; mixed-model endpoint-specific analysis n not explicitly established; do not substitute the complete-data subgroup n"
+    },
+    {
+      "assessment_time": "Week 30 (change from baseline)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P4",
+      "result_id": "R08",
+      "result_unit": "HOMA index units",
+      "result_value": 0.01,
+      "statistic_type": "Mean change from baseline",
+      "statistical_method": "Mixed-effects model",
+      "supplementary_statistics": "95% CI −0.44, 0.46; mixed-model endpoint-specific analysis n not explicitly established; do not substitute the complete-data subgroup n"
+    },
+    {
+      "assessment_time": "Week 30 (change from baseline)",
+      "comparison": "P3 minus P4 (semaglutide minus placebo)",
+      "measure_id": "M2",
+      "population_id": "P3",
+      "result_id": "R09",
+      "result_unit": "HOMA index units",
+      "result_value": -0.686,
+      "statistic_type": "Mixed-model treatment effect (mean difference, semaglutide minus placebo)",
+      "statistical_method": "Mixed-effects model",
+      "supplementary_statistics": "95% CI −1.00, −0.20; P = 0.006; mixed-model endpoint-specific analysis n not explicitly established; do not substitute the complete-data subgroup n"
+    }
+  ]
+}

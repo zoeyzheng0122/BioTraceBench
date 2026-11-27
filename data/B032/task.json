@@ -1,0 +1,36 @@
+{
+  "case_id": "B032",
+  "task_id": "B032",
+  "title": "A xeno-free human iPSC-derived prostate organoid platform for multilineage differentiation and genetic manipulation",
+  "doi": "10.1016/j.crmeth.2026.101538",
+  "comparison_or_design": "Week-6 monoculture organoids versus undifferentiated iPSCs.",
+  "observations_or_assays": [
+    "Bulk RNA sequencing"
+  ],
+  "time_scope": "Week 6 of monoculture differentiation and the undifferentiated reference.",
+  "excluded": [
+    "Week-10 samples, scRNA-seq, co-culture, DHT withdrawal, gene manipulation and earlier-stage imaging experiments",
+    "Independent histology/immunostaining and transcriptional-result extraction"
+  ],
+  "population_or_material": "Monoculture-derived prostate organoids and the undifferentiated iPSC reference materials used in the matched bulk-transcriptomic experiment.",
+  "requested_items": [
+    "Monoculture organoid versus undifferentiated iPSC condition and culture stage"
+  ],
+  "resources": [
+    {
+      "accession": "10.5281/zenodo.20427357",
+      "url": "https://doi.org/10.5281/zenodo.20427357"
+    },
+    {
+      "accession": "PRJEB101277",
+      "url": "https://www.ebi.ac.uk/ena/browser/view/PRJEB101277"
+    }
+  ],
+  "domain": "basic",
+  "pipeline": "basic-research",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/basic-research.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

@@ -1,0 +1,118 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "Single-cell RNA-seq",
+      "experiment_run_accession": "BioProject:PRJNA1050758 (project); Figshare:10.6084/m9.figshare.24783750.v1 (dataset)",
+      "method": "Chromium Next GEM Single Cell 3′ library preparation, reported v3.1 kit/v3 chemistry, followed by paired-end sequencing. Source sample label: YB4 (control).",
+      "platform": "10x Genomics Chromium; Illumina NextSeq 500",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0002",
+      "assay_type": "Single-cell RNA-seq",
+      "experiment_run_accession": "BioProject:PRJNA1050758 (project); Figshare:10.6084/m9.figshare.24783750.v1 (dataset)",
+      "method": "Chromium Next GEM Single Cell 3′ library preparation, reported v3.1 kit/v3 chemistry, followed by paired-end sequencing. Source sample label: YB3 (Scx cKO).",
+      "platform": "10x Genomics Chromium; Illumina NextSeq 500",
+      "sample_ids": [
+        "S0002"
+      ]
+    }
+  ],
+  "condition": [
+    {
+      "condition_id": "C0001",
+      "condition_target": "Source lower-hindlimb muscles",
+      "experimental_factor": "BaCl₂ concentration",
+      "factor_unit": "% w/v",
+      "factor_value": 1.2,
+      "sample_id": "S0001",
+      "time": "At muscle injury"
+    },
+    {
+      "condition_id": "C0002",
+      "condition_target": "Source lower-hindlimb muscles",
+      "experimental_factor": "BaCl₂ injection volume per site",
+      "factor_unit": "μL",
+      "factor_value": "2–4",
+      "sample_id": "S0001",
+      "time": "At muscle injury"
+    },
+    {
+      "condition_id": "C0003",
+      "condition_target": "Source lower-hindlimb muscles",
+      "experimental_factor": "Approximate number of BaCl₂ injection sites",
+      "factor_unit": "sites",
+      "factor_value": 25,
+      "sample_id": "S0001",
+      "time": "At muscle injury"
+    },
+    {
+      "condition_id": "C0004",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Interval from BaCl₂ injury to cell collection",
+      "factor_unit": "day",
+      "factor_value": 2.5,
+      "sample_id": "S0001",
+      "time": "After BaCl₂ injury"
+    },
+    {
+      "condition_id": "C0005",
+      "condition_target": "Source lower-hindlimb muscles",
+      "experimental_factor": "BaCl₂ concentration",
+      "factor_unit": "% w/v",
+      "factor_value": 1.2,
+      "sample_id": "S0002",
+      "time": "At muscle injury"
+    },
+    {
+      "condition_id": "C0006",
+      "condition_target": "Source lower-hindlimb muscles",
+      "experimental_factor": "BaCl₂ injection volume per site",
+      "factor_unit": "μL",
+      "factor_value": "2–4",
+      "sample_id": "S0002",
+      "time": "At muscle injury"
+    },
+    {
+      "condition_id": "C0007",
+      "condition_target": "Source lower-hindlimb muscles",
+      "experimental_factor": "Approximate number of BaCl₂ injection sites",
+      "factor_unit": "sites",
+      "factor_value": 25,
+      "sample_id": "S0002",
+      "time": "At muscle injury"
+    },
+    {
+      "condition_id": "C0008",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Interval from BaCl₂ injury to cell collection",
+      "factor_unit": "day",
+      "factor_value": 2.5,
+      "sample_id": "S0002",
+      "time": "After BaCl₂ injury"
+    }
+  ],
+  "sample": [
+    {
+      "biological_model": "YFP lineage-marked control muscle regeneration model (Pax7CE/+; RYFP/YFP).",
+      "biological_source": "Pax7-lineage cells from tibialis anterior and gastrocnemius muscles of male mice aged 2–4 months; mixed genetic background.",
+      "sample_accession": null,
+      "sample_id": "S0001",
+      "sample_material": "FACS-isolated YFP-positive Pax7-lineage cells collected 2.5 days after BaCl₂ injury of tibialis anterior and gastrocnemius muscles. Individual donor identities and the extent of pooling across mice are not reported. Source-reported BaCl₂ injection volume per site: 2–4 μL; this non-scalar expression is not replaced by an exact scalar value.",
+      "sample_name": "YB4 — control",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "YFP lineage-marked satellite-cell-specific Scx conditional knockout muscle regeneration model (Pax7CE/+; ScxF/F; RYFP/YFP).",
+      "biological_source": "Pax7-lineage cells from tibialis anterior and gastrocnemius muscles of male mice aged 2–4 months; mixed genetic background.",
+      "sample_accession": null,
+      "sample_id": "S0002",
+      "sample_material": "FACS-isolated YFP-positive Pax7-lineage cells collected 2.5 days after BaCl₂ injury of tibialis anterior and gastrocnemius muscles. Individual donor identities and the extent of pooling across mice are not reported. Source-reported BaCl₂ injection volume per site: 2–4 μL; this non-scalar expression is not replaced by an exact scalar value.",
+      "sample_name": "YB3 — Scx cKO",
+      "species": "Mus musculus"
+    }
+  ]
+}

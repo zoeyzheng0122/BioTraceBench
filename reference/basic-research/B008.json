@@ -1,0 +1,203 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX10932829 (experiment)",
+      "method": "Reused GEO GSE174692 library siNT_t0_1_S2. Total RNA isolated with Qiagen RNAeasy kit. KAPA RNA HyperPrep with dual-indexed adapters. cDNA library sequenced for RNA-Seq.",
+      "platform": "Illumina NovaSeq 6000",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0002",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX10932830 (experiment)",
+      "method": "Reused GEO GSE174692 library siNT_t0_2_S3. Total RNA isolated with Qiagen RNAeasy kit. KAPA RNA HyperPrep with dual-indexed adapters. cDNA library sequenced for RNA-Seq.",
+      "platform": "Illumina NovaSeq 6000",
+      "sample_ids": [
+        "S0002"
+      ]
+    },
+    {
+      "assay_id": "A0003",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX10932831 (experiment)",
+      "method": "Reused GEO GSE174692 library siNT_t0_3_S4. Total RNA isolated with Qiagen RNAeasy kit. KAPA RNA HyperPrep with dual-indexed adapters. cDNA library sequenced for RNA-Seq.",
+      "platform": "Illumina NovaSeq 6000",
+      "sample_ids": [
+        "S0003"
+      ]
+    },
+    {
+      "assay_id": "A0004",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX10932832 (experiment)",
+      "method": "Reused GEO GSE174692 library siNT_t24_1_S8. Total RNA isolated with Qiagen RNAeasy kit. KAPA RNA HyperPrep with dual-indexed adapters. cDNA library sequenced for RNA-Seq.",
+      "platform": "Illumina NovaSeq 6000",
+      "sample_ids": [
+        "S0004"
+      ]
+    },
+    {
+      "assay_id": "A0005",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX10932833 (experiment)",
+      "method": "Reused GEO GSE174692 library siNT_t24_2_S9. Total RNA isolated with Qiagen RNAeasy kit. KAPA RNA HyperPrep with dual-indexed adapters. cDNA library sequenced for RNA-Seq.",
+      "platform": "Illumina NovaSeq 6000",
+      "sample_ids": [
+        "S0005"
+      ]
+    },
+    {
+      "assay_id": "A0006",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX10932834 (experiment)",
+      "method": "Reused GEO GSE174692 library siNT_t24_3_S10. Total RNA isolated with Qiagen RNAeasy kit. KAPA RNA HyperPrep with dual-indexed adapters. cDNA library sequenced for RNA-Seq.",
+      "platform": "Illumina NovaSeq 6000",
+      "sample_ids": [
+        "S0006"
+      ]
+    }
+  ],
+  "condition": [
+    {
+      "condition_id": "C0004",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Doxorubicin concentration",
+      "factor_unit": "uM",
+      "factor_value": 1,
+      "sample_id": "S0004",
+      "time": "During the 24-h treatment before RNA collection"
+    },
+    {
+      "condition_id": "C0005",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Doxorubicin concentration",
+      "factor_unit": "uM",
+      "factor_value": 1,
+      "sample_id": "S0005",
+      "time": "During the 24-h treatment before RNA collection"
+    },
+    {
+      "condition_id": "C0006",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Doxorubicin concentration",
+      "factor_unit": "uM",
+      "factor_value": 1,
+      "sample_id": "S0006",
+      "time": "During the 24-h treatment before RNA collection"
+    },
+    {
+      "condition_id": "C0001",
+      "condition_target": "siNT-transfected HCC1806 cells",
+      "experimental_factor": "DMSO exposure duration",
+      "factor_unit": "h",
+      "factor_value": 24,
+      "sample_id": "S0001",
+      "time": "From DMSO exposure start to RNA collection."
+    },
+    {
+      "condition_id": "C0002",
+      "condition_target": "siNT-transfected HCC1806 cells",
+      "experimental_factor": "DMSO exposure duration",
+      "factor_unit": "h",
+      "factor_value": 24,
+      "sample_id": "S0002",
+      "time": "From DMSO exposure start to RNA collection."
+    },
+    {
+      "condition_id": "C0003",
+      "condition_target": "siNT-transfected HCC1806 cells",
+      "experimental_factor": "DMSO exposure duration",
+      "factor_unit": "h",
+      "factor_value": 24,
+      "sample_id": "S0003",
+      "time": "From DMSO exposure start to RNA collection."
+    },
+    {
+      "condition_id": "C0007",
+      "condition_target": "siNT-transfected HCC1806 cells",
+      "experimental_factor": "Doxorubicin exposure duration",
+      "factor_unit": "h",
+      "factor_value": 24,
+      "sample_id": "S0004",
+      "time": "From Doxorubicin exposure start to RNA collection."
+    },
+    {
+      "condition_id": "C0008",
+      "condition_target": "siNT-transfected HCC1806 cells",
+      "experimental_factor": "Doxorubicin exposure duration",
+      "factor_unit": "h",
+      "factor_value": 24,
+      "sample_id": "S0005",
+      "time": "From Doxorubicin exposure start to RNA collection."
+    },
+    {
+      "condition_id": "C0009",
+      "condition_target": "siNT-transfected HCC1806 cells",
+      "experimental_factor": "Doxorubicin exposure duration",
+      "factor_unit": "h",
+      "factor_value": 24,
+      "sample_id": "S0006",
+      "time": "From Doxorubicin exposure start to RNA collection."
+    }
+  ],
+  "sample": [
+    {
+      "biological_model": "Human triple-negative breast cancer cell line",
+      "biological_source": "HCC1806",
+      "sample_accession": "GEO:GSM5322577 (sample); BioSample:SAMN19268910 (sample)",
+      "sample_id": "S0001",
+      "sample_material": "Total RNA from control-siRNA (siNT)-transfected HCC1806 cells treated with DMSO for 24 h. Requested DMSO concentration: numerical value not reported; no quantitative condition row created.",
+      "sample_name": "siNT_t0_1",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Human triple-negative breast cancer cell line",
+      "biological_source": "HCC1806",
+      "sample_accession": "GEO:GSM5322578 (sample); BioSample:SAMN19268909 (sample)",
+      "sample_id": "S0002",
+      "sample_material": "Total RNA from control-siRNA (siNT)-transfected HCC1806 cells treated with DMSO for 24 h. Requested DMSO concentration: numerical value not reported; no quantitative condition row created.",
+      "sample_name": "siNT_t0_2",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Human triple-negative breast cancer cell line",
+      "biological_source": "HCC1806",
+      "sample_accession": "GEO:GSM5322579 (sample); BioSample:SAMN19268908 (sample)",
+      "sample_id": "S0003",
+      "sample_material": "Total RNA from control-siRNA (siNT)-transfected HCC1806 cells treated with DMSO for 24 h. Requested DMSO concentration: numerical value not reported; no quantitative condition row created.",
+      "sample_name": "siNT_t0_3",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Human triple-negative breast cancer cell line",
+      "biological_source": "HCC1806",
+      "sample_accession": "GEO:GSM5322580 (sample); BioSample:SAMN19268907 (sample)",
+      "sample_id": "S0004",
+      "sample_material": "Total RNA from control-siRNA (siNT)-transfected HCC1806 cells treated with 1 µM doxorubicin for 24 h.",
+      "sample_name": "siNT_t24_1",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Human triple-negative breast cancer cell line",
+      "biological_source": "HCC1806",
+      "sample_accession": "GEO:GSM5322581 (sample); BioSample:SAMN19268906 (sample)",
+      "sample_id": "S0005",
+      "sample_material": "Total RNA from control-siRNA (siNT)-transfected HCC1806 cells treated with 1 µM doxorubicin for 24 h.",
+      "sample_name": "siNT_t24_2",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Human triple-negative breast cancer cell line",
+      "biological_source": "HCC1806",
+      "sample_accession": "GEO:GSM5322582 (sample); BioSample:SAMN19268905 (sample)",
+      "sample_id": "S0006",
+      "sample_material": "Total RNA from control-siRNA (siNT)-transfected HCC1806 cells treated with 1 µM doxorubicin for 24 h.",
+      "sample_name": "siNT_t24_3",
+      "species": "Homo sapiens"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "case_id": "B001",
+  "task_id": "B001",
+  "title": "Seco-Duocarmycin SA in Aggressive Glioblastoma Cell Lines",
+  "doi": "10.3390/ijms26062766",
+  "comparison_or_design": "Seco-DSA treatment versus untreated LN18 controls.",
+  "observations_or_assays": [
+    "LC–MS/MS proteomics"
+  ],
+  "time_scope": "The 48-hour treatment and its proteomics sample-collection endpoint.",
+  "excluded": [
+    "T98G, dose-screening and cell-viability experiments",
+    "Independent migration, invasion, apoptosis and other functional assays"
+  ],
+  "population_or_material": "LN18 glioblastoma cells and the actual cell preparations/lysates used for the selected proteomics experiment.",
+  "requested_items": [
+    "Seco-DSA exposure (including the selected untreated condition), concentration and duration"
+  ],
+  "resources": [
+    {
+      "accession": "PXD061023",
+      "url": "https://www.ebi.ac.uk/pride/archive/projects/PXD061023"
+    }
+  ],
+  "domain": "basic",
+  "pipeline": "basic-research",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/basic-research.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

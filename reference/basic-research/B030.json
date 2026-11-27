@@ -1,0 +1,129 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "Alizarin Red S staining and absorbance quantification",
+      "experiment_run_accession": "Figshare:10.6084/m9.figshare.31968258.v1 (dataset)",
+      "method": "Study-level comparison aggregate; this row represents the selected preparation groups rather than an individually identified acquisition. PFA-fixed osteogenic cultures stained with 2% Alizarin Red S. Dye was extracted using 10% acetic acid/20% methanol, followed by absorbance measurement at 450 nm (Figure 4a–b). For each anatomical origin, the BMP-2-treated staining intensity was normalized to the matched no-BMP-2 control. Multiple sample IDs preserve group associations and do not establish physical pooling.",
+      "platform": "Microplate reader; model not reported",
+      "sample_ids": [
+        "S0001",
+        "S0002",
+        "S0003",
+        "S0004"
+      ]
+    }
+  ],
+  "condition": [
+    {
+      "condition_id": "C0001",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Added BMP-2 concentration",
+      "factor_unit": "ng/mL",
+      "factor_value": 0,
+      "sample_id": "S0001",
+      "time": "Throughout the 21-day osteogenic induction"
+    },
+    {
+      "condition_id": "C0002",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Osteogenic differentiation duration",
+      "factor_unit": "day",
+      "factor_value": 21,
+      "sample_id": "S0001",
+      "time": "From osteogenic-medium initiation to fixation"
+    },
+    {
+      "condition_id": "C0003",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Added BMP-2 concentration",
+      "factor_unit": "ng/mL",
+      "factor_value": 100,
+      "sample_id": "S0002",
+      "time": "Throughout the 21-day osteogenic induction"
+    },
+    {
+      "condition_id": "C0004",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Osteogenic differentiation duration",
+      "factor_unit": "day",
+      "factor_value": 21,
+      "sample_id": "S0002",
+      "time": "From osteogenic-medium initiation to fixation"
+    },
+    {
+      "condition_id": "C0005",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Added BMP-2 concentration",
+      "factor_unit": "ng/mL",
+      "factor_value": 0,
+      "sample_id": "S0003",
+      "time": "Throughout the 21-day osteogenic induction"
+    },
+    {
+      "condition_id": "C0006",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Osteogenic differentiation duration",
+      "factor_unit": "day",
+      "factor_value": 21,
+      "sample_id": "S0003",
+      "time": "From osteogenic-medium initiation to fixation"
+    },
+    {
+      "condition_id": "C0007",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Added BMP-2 concentration",
+      "factor_unit": "ng/mL",
+      "factor_value": 100,
+      "sample_id": "S0004",
+      "time": "Throughout the 21-day osteogenic induction"
+    },
+    {
+      "condition_id": "C0008",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Osteogenic differentiation duration",
+      "factor_unit": "day",
+      "factor_value": 21,
+      "sample_id": "S0004",
+      "time": "From osteogenic-medium initiation to fixation"
+    }
+  ],
+  "sample": [
+    {
+      "biological_model": "Nasal SSC osteogenic differentiation model",
+      "biological_source": "Nasal bone-derived SSCs from postnatal day 3 C57BL/Ka-Thy1.1-CD45.1 mice (JAX:000406); both sexes used.",
+      "sample_accession": null,
+      "sample_id": "S0001",
+      "sample_material": "PFA-fixed osteogenic cultures derived from FACS-isolated nasal SSCs, cultured in osteogenic medium for 21 days without added BMP-2.",
+      "sample_name": "Nasal-SSCs — no added BMP-2",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Nasal SSC osteogenic differentiation model",
+      "biological_source": "Nasal bone-derived SSCs from postnatal day 3 C57BL/Ka-Thy1.1-CD45.1 mice (JAX:000406); both sexes used.",
+      "sample_accession": null,
+      "sample_id": "S0002",
+      "sample_material": "PFA-fixed osteogenic cultures derived from FACS-isolated nasal SSCs, cultured in osteogenic medium for 21 days with 100 ng/mL BMP-2 throughout the 21-day induction.",
+      "sample_name": "Nasal-SSCs — BMP-2",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Femoral SSC osteogenic differentiation model",
+      "biological_source": "Distal femur-derived SSCs from postnatal day 3 C57BL/Ka-Thy1.1-CD45.1 mice (JAX:000406); both sexes used.",
+      "sample_accession": null,
+      "sample_id": "S0003",
+      "sample_material": "PFA-fixed osteogenic cultures derived from FACS-isolated femoral SSCs, cultured in osteogenic medium for 21 days without added BMP-2.",
+      "sample_name": "Femoral-SSCs — no added BMP-2",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Femoral SSC osteogenic differentiation model",
+      "biological_source": "Distal femur-derived SSCs from postnatal day 3 C57BL/Ka-Thy1.1-CD45.1 mice (JAX:000406); both sexes used.",
+      "sample_accession": null,
+      "sample_id": "S0004",
+      "sample_material": "PFA-fixed osteogenic cultures derived from FACS-isolated femoral SSCs, cultured in osteogenic medium for 21 days with 100 ng/mL BMP-2 throughout the 21-day induction.",
+      "sample_name": "Femoral-SSCs — BMP-2",
+      "species": "Mus musculus"
+    }
+  ]
+}

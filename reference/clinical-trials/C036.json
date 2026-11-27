@@ -1,0 +1,271 @@
+{
+  "measure": [
+    {
+      "measure_definition": "Measured value: Partial Mayo score (PMS) at the specified assessment time; Participants; PMS assessed before treatment and after 24 weeks of treatment; within-group comparisons by Wilcoxon signed-rank test; between-group comparison after treatment by Mann–Whitney U test.; Partial Mayo score (PMS) is a clinical disease activity index. Values are recorded as median with interquartile range at baseline and week 24.",
+      "measure_id": "M0",
+      "measure_name": "Partial Mayo score (PMS)"
+    },
+    {
+      "measure_definition": "Occurrence: participants meeting the clinical remission definition at week 24; Participants; PMS assessed at week 24; ITT analysis with BOCF for missing data; between-group comparison by Chi-square test.; The Methods define remission at week 24 as PMS < 2 with no subscore > 1. The abstract gives PMS ≤ 2 with the same subscore rule. The boundary used for the published counts is unresolved.",
+      "measure_id": "M1",
+      "measure_name": "Clinical remission"
+    },
+    {
+      "measure_definition": "Measured value: IBDQ-32 total score at the specified assessment time; Participants; IBDQ-32 total score assessed before treatment and after 24 weeks; within-group comparisons by Wilcoxon signed-rank test; between-group comparison after treatment by Mann–Whitney U test.; IBDQ-32 total score, a disease-specific quality-of-life measure; values recorded as median with interquartile range at baseline and week 24.",
+      "measure_id": "M2",
+      "measure_name": "Inflammatory Bowel Disease Questionnaire (IBDQ-32) total score"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "Mesalamine plus placebo or mesalamine plus pentoxifylline",
+      "intervention_regimen": "Placebo twice daily or pentoxifylline 400 mg twice daily, each together with Mesalamine 3 g/day, given as 1 g three times daily, for six months.",
+      "population_definition": "Randomization to mesalamine plus placebo or mesalamine plus pentoxifylline; all randomized participants included in the ITT analysis.; Patients with mild-to-moderate ulcerative colitis (UC) randomized in the trial. ITT analysis includes all 60 randomized participants; missing PMS values handled by BOCF. No per-protocol restriction.",
+      "population_id": "P0",
+      "population_name": "All randomized intention-to-treat population",
+      "population_size": 60,
+      "population_time_frame": "Study enrollment window: February 2023 to May 2025; planned treatment for six months. Individual calendar follow-up dates not separately reported."
+    },
+    {
+      "intervention": "Mesalamine plus placebo",
+      "intervention_regimen": "Matching placebo tablet twice daily, together with Mesalamine 3 g/day, given as 1 g three times daily, for six months.",
+      "population_definition": "Randomized to mesalamine plus placebo; ITT analysis.; Patients with mild-to-moderate UC randomized to mesalamine plus placebo. All 30 randomized participants included in ITT; 4 participants lost to follow-up were retained using BOCF for missing PMS. The per-protocol subset (n = 26) is not this population.",
+      "population_id": "P1",
+      "population_name": "Mesalamine plus placebo intention-to-treat group",
+      "population_size": 30,
+      "population_time_frame": "Study enrollment window: February 2023 to May 2025; planned treatment for six months. Individual calendar follow-up dates not separately reported."
+    },
+    {
+      "intervention": "Mesalamine plus pentoxifylline",
+      "intervention_regimen": "Pentoxifylline 400 mg twice daily, together with Mesalamine 3 g/day, given as 1 g three times daily, for six months.",
+      "population_definition": "Randomized to mesalamine plus pentoxifylline; ITT analysis.; Patients with mild-to-moderate UC randomized to mesalamine plus pentoxifylline. All 30 randomized participants included in ITT; 3 participants lost to follow-up were retained using BOCF for missing PMS. The per-protocol subset (n = 27) is not this population.",
+      "population_id": "P2",
+      "population_name": "Mesalamine plus pentoxifylline intention-to-treat group",
+      "population_size": 30,
+      "population_time_frame": "Study enrollment window: February 2023 to May 2025; planned treatment for six months. Individual calendar follow-up dates not separately reported."
+    }
+  ],
+  "population_relation": [
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P2",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P2",
+      "relationship": "disjoint from"
+    }
+  ],
+  "result": [
+    {
+      "assessment_time": "Baseline (before treatment)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R01",
+      "result_unit": "score points",
+      "result_value": 5,
+      "statistic_type": "Median",
+      "statistical_method": null,
+      "supplementary_statistics": "IQR 5–6"
+    },
+    {
+      "assessment_time": "Baseline (before treatment)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P2",
+      "result_id": "R02",
+      "result_unit": "score points",
+      "result_value": 5,
+      "statistic_type": "Median",
+      "statistical_method": null,
+      "supplementary_statistics": "IQR 3–6"
+    },
+    {
+      "assessment_time": "Week 24 (after treatment)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R03",
+      "result_unit": "score points",
+      "result_value": 2,
+      "statistic_type": "Median",
+      "statistical_method": null,
+      "supplementary_statistics": "IQR 1–3"
+    },
+    {
+      "assessment_time": "Week 24 (after treatment)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P2",
+      "result_id": "R04",
+      "result_unit": "score points",
+      "result_value": 1,
+      "statistic_type": "Median",
+      "statistical_method": null,
+      "supplementary_statistics": "IQR 0–2"
+    },
+    {
+      "assessment_time": "Week 24 (after treatment)",
+      "comparison": "P2 vs P1; subtraction/sign direction not explicitly established",
+      "measure_id": "M0",
+      "population_id": "P2",
+      "result_id": "R07",
+      "result_unit": null,
+      "result_value": 0.004,
+      "statistic_type": "P value for between-group difference at week 24 (Mann–Whitney U test)",
+      "statistical_method": "Mann–Whitney U test",
+      "supplementary_statistics": null
+    },
+    {
+      "assessment_time": "Baseline to week 24",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R08",
+      "result_unit": "%",
+      "result_value": 60,
+      "statistic_type": "Reported percent change from baseline (within group)",
+      "statistical_method": "Wilcoxon signed-rank test",
+      "supplementary_statistics": "Within-group Wilcoxon P < 0.001"
+    },
+    {
+      "assessment_time": "Baseline to week 24",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P2",
+      "result_id": "R09",
+      "result_unit": "%",
+      "result_value": 80,
+      "statistic_type": "Reported percent change from baseline (within group)",
+      "statistical_method": "Wilcoxon signed-rank test",
+      "supplementary_statistics": "Within-group Wilcoxon P < 0.001"
+    },
+    {
+      "assessment_time": "Week 24 (after treatment)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R10",
+      "result_unit": "participants",
+      "result_value": 7,
+      "statistic_type": "Number of participants achieving clinical remission",
+      "statistical_method": null,
+      "supplementary_statistics": "23.33%; Reported denominator: 30"
+    },
+    {
+      "assessment_time": "Week 24 (after treatment)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P2",
+      "result_id": "R11",
+      "result_unit": "participants",
+      "result_value": 15,
+      "statistic_type": "Number of participants achieving clinical remission",
+      "statistical_method": null,
+      "supplementary_statistics": "50%; Reported denominator: 30"
+    },
+    {
+      "assessment_time": "Week 24 (after treatment)",
+      "comparison": "P2 vs P1; subtraction/sign direction not explicitly established",
+      "measure_id": "M1",
+      "population_id": "P2",
+      "result_id": "R12",
+      "result_unit": null,
+      "result_value": 0.04,
+      "statistic_type": "P value for between-group difference in clinical remission (Chi-square test)",
+      "statistical_method": null,
+      "supplementary_statistics": null
+    },
+    {
+      "assessment_time": "Baseline (before treatment)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R13",
+      "result_unit": "score points",
+      "result_value": 85,
+      "statistic_type": "Median",
+      "statistical_method": null,
+      "supplementary_statistics": "IQR 71–102"
+    },
+    {
+      "assessment_time": "Baseline (before treatment)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P2",
+      "result_id": "R14",
+      "result_unit": "score points",
+      "result_value": 100,
+      "statistic_type": "Median",
+      "statistical_method": null,
+      "supplementary_statistics": "IQR 74.75–109"
+    },
+    {
+      "assessment_time": "Week 24 (after treatment)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R15",
+      "result_unit": "score points",
+      "result_value": 121,
+      "statistic_type": "Median",
+      "statistical_method": null,
+      "supplementary_statistics": "IQR 104.5–146.3"
+    },
+    {
+      "assessment_time": "Week 24 (after treatment)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P2",
+      "result_id": "R16",
+      "result_unit": "score points",
+      "result_value": 135.5,
+      "statistic_type": "Median",
+      "statistical_method": null,
+      "supplementary_statistics": "IQR 119.3–149"
+    },
+    {
+      "assessment_time": "Week 24 (after treatment)",
+      "comparison": "P2 vs P1; subtraction/sign direction not explicitly established",
+      "measure_id": "M2",
+      "population_id": "P2",
+      "result_id": "R19",
+      "result_unit": null,
+      "result_value": 0.036,
+      "statistic_type": "P value for between-group difference at week 24 (Mann–Whitney U test)",
+      "statistical_method": "Mann–Whitney U test",
+      "supplementary_statistics": "BH-FDR adjusted p=0.048"
+    },
+    {
+      "assessment_time": "Baseline to week 24",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R20",
+      "result_unit": "%",
+      "result_value": 42.4,
+      "statistic_type": "Reported percent change from baseline (within group)",
+      "statistical_method": "Wilcoxon signed-rank test",
+      "supplementary_statistics": "Within-group Wilcoxon P < 0.001"
+    },
+    {
+      "assessment_time": "Baseline to week 24",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P2",
+      "result_id": "R21",
+      "result_unit": "%",
+      "result_value": 35.5,
+      "statistic_type": "Reported percent change from baseline (within group)",
+      "statistical_method": "Wilcoxon signed-rank test",
+      "supplementary_statistics": "Within-group Wilcoxon P < 0.001"
+    }
+  ]
+}

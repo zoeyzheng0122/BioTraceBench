@@ -1,0 +1,577 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "B021",
+    "domain": "basic",
+    "title": "Hypothyroidism impairs skeletal muscle regeneration after injury by altering myogenic and nonmyogenic pathways",
+    "doi": "10.1172/jci.insight.197761",
+    "pipeline": "basic-research",
+    "pmid": "41869726",
+    "pmcid": "PMC13043096",
+    "registry": "GSE311479"
+  },
+  "files": [
+    {
+      "path": "records/GEO-GSE311479-project.txt",
+      "sha256": "d9e71d613fd5bd2ef60e192aeb94e49189457e29e28b62f9054299ca0b897f99",
+      "bytes": 3233,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE311479&targ=self&form=text&view=brief"
+      ],
+      "association": "exact accession reported in Data Availability; metadata only; relation not yet verified",
+      "original_filename": "GEO-GSE311479-project.txt"
+    },
+    {
+      "path": "records/GEO-GSE311479-samples.txt",
+      "sha256": "edf7f0a14ada039e4164a8cbdc4d03489ae719d7e107bfcf19567be2dacbaec0",
+      "bytes": 19513,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE311479&targ=gsm&form=text&view=brief"
+      ],
+      "association": "exact accession reported in Data Availability; metadata only; relation not yet verified",
+      "original_filename": "GEO-GSE311479-samples.txt"
+    },
+    {
+      "path": "sources/article.xml",
+      "sha256": "e29862179fa1d5134d169e83e62315a51aa69e355182c2d1fc1cb594115db90d",
+      "bytes": 145494,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13043096/fullTextXML"
+      ],
+      "association": "exact public PMCID candidate"
+    },
+    {
+      "path": "figures/captions.txt",
+      "sha256": "aafa7c7997d8baacfd542600d95236d6cd62b27b09d49ef67920595541137975",
+      "bytes": 12360,
+      "role": "figure_captions",
+      "roles": [
+        "figure_captions"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13043096/"
+      ],
+      "derived_from": "f3b13bbbf8dac31fbe8b75df9092e76d3a97ea0a617a3cc39d4135a226e3ffe6"
+    },
+    {
+      "path": "figures/jciinsight-11-197761-g168.jpg",
+      "sha256": "533dcb03640ab199aa93ecc62a63f2f952bff2cda8dcf22ba5032501e3ba19cd",
+      "bytes": 260375,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13043096.1/jciinsight-11-197761-g168.jpg?md5=1002d28ff8482a17f18b7f5b6ecb4ca7"
+      ],
+      "association": "exact JATS F1 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/jciinsight-11-197761-g169.jpg",
+      "sha256": "ee9fd918177599401c686bc7b99ace4cfbc7be80e30a62ffab74aab810f6e31d",
+      "bytes": 232463,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13043096.1/jciinsight-11-197761-g169.jpg?md5=16f12281bef36ac049f95767577e3ef8"
+      ],
+      "association": "exact JATS F2 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/jciinsight-11-197761-g170.jpg",
+      "sha256": "97569ce6f6e6a8ec5f1125f91183d6c37f08ccd388adccbb74bbc7ebaa461766",
+      "bytes": 119979,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13043096.1/jciinsight-11-197761-g170.jpg?md5=ca19dd93f7c2cee08e88814b7b991e4c"
+      ],
+      "association": "exact JATS F3 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/jciinsight-11-197761-g171.jpg",
+      "sha256": "0f76f1e9a46e1cf66a8f4903a6f0349df38581153d7ee235f3aef7f5ef1780e5",
+      "bytes": 169580,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13043096.1/jciinsight-11-197761-g171.jpg?md5=aa281f6a1317b97718fc25c5c144ca3d"
+      ],
+      "association": "exact JATS F4 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/jciinsight-11-197761-g172.jpg",
+      "sha256": "51a283e7e293bb3d0dca329b84a761f4594d27139da7df6df9979f9e9f9e0597",
+      "bytes": 244899,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13043096.1/jciinsight-11-197761-g172.jpg?md5=370f707a6e3bbbf64056b18ea8b002be"
+      ],
+      "association": "exact JATS F5 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/jciinsight-11-197761-g173.jpg",
+      "sha256": "187462ddf25d80bf93321c22b2695eec75fc01bc80510fff696d8cb9d8c4a18c",
+      "bytes": 296327,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13043096.1/jciinsight-11-197761-g173.jpg?md5=a7f071fcec15b96fd77ccf9e654e5fa6"
+      ],
+      "association": "exact JATS F6 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/jciinsight-11-197761-g174.jpg",
+      "sha256": "7d72205e8789791364564e81ec36aa3282870a854aa2e21422bd6c8b6d230572",
+      "bytes": 176419,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13043096.1/jciinsight-11-197761-g174.jpg?md5=aedba4f32cc63f1ec5058a30d6b2ae12"
+      ],
+      "association": "exact JATS F7 in verified PMC version; article source only"
+    },
+    {
+      "path": "supplements/jciinsight-11-197761-s176__refine/page-0002-region-01.png",
+      "sha256": "413449731356cddc3e18ed30c97e5ec3fe8f448bcffff4c2adeb8e219e4f3b3c",
+      "bytes": 101368,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13043096.1/jciinsight-11-197761-s176.pdf?md5=b754f426a0a3a25a673049d9d395b2a3"
+      ],
+      "association": "exact JATS SD1 in verified PMC version; article source only",
+      "derived_from": "61f5c4341768a74f7a9271b3aca7a3cedc11bc610ef7053ab94cb43e03abc88e",
+      "original_sha256": "61f5c4341768a74f7a9271b3aca7a3cedc11bc610ef7053ab94cb43e03abc88e",
+      "original_filename": "jciinsight-11-197761-s176.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/jciinsight-11-197761-s176__refine/page-0003-region-01.png",
+      "sha256": "f5d0ce99d022ddc19af15ad835a4cd9dbb8ab3ae76dc097b7d27fb21a7bcaeb7",
+      "bytes": 406499,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13043096.1/jciinsight-11-197761-s176.pdf?md5=b754f426a0a3a25a673049d9d395b2a3"
+      ],
+      "association": "exact JATS SD1 in verified PMC version; article source only",
+      "derived_from": "61f5c4341768a74f7a9271b3aca7a3cedc11bc610ef7053ab94cb43e03abc88e",
+      "original_sha256": "61f5c4341768a74f7a9271b3aca7a3cedc11bc610ef7053ab94cb43e03abc88e",
+      "original_filename": "jciinsight-11-197761-s176.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/jciinsight-11-197761-s176__refine/page-0004-region-01.png",
+      "sha256": "d8d3577adf9e43b9be1e2d2cb457788caec85904bfb536474828545b857e95a1",
+      "bytes": 267739,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13043096.1/jciinsight-11-197761-s176.pdf?md5=b754f426a0a3a25a673049d9d395b2a3"
+      ],
+      "association": "exact JATS SD1 in verified PMC version; article source only",
+      "derived_from": "61f5c4341768a74f7a9271b3aca7a3cedc11bc610ef7053ab94cb43e03abc88e",
+      "original_sha256": "61f5c4341768a74f7a9271b3aca7a3cedc11bc610ef7053ab94cb43e03abc88e",
+      "original_filename": "jciinsight-11-197761-s176.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/jciinsight-11-197761-s176__refine/page-0005-region-01.png",
+      "sha256": "32f19c12f997906aa299c0bc8f212e0c17621ab7999fb4612cf5f13a9fab45af",
+      "bytes": 499553,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13043096.1/jciinsight-11-197761-s176.pdf?md5=b754f426a0a3a25a673049d9d395b2a3"
+      ],
+      "association": "exact JATS SD1 in verified PMC version; article source only",
+      "derived_from": "61f5c4341768a74f7a9271b3aca7a3cedc11bc610ef7053ab94cb43e03abc88e",
+      "original_sha256": "61f5c4341768a74f7a9271b3aca7a3cedc11bc610ef7053ab94cb43e03abc88e",
+      "original_filename": "jciinsight-11-197761-s176.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/jciinsight-11-197761-s176__refine/page-0007-region-01.png",
+      "sha256": "3e679288403176ffa7365af156eec791fb229cf688929529aaa2071c3190b115",
+      "bytes": 71205,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13043096.1/jciinsight-11-197761-s176.pdf?md5=b754f426a0a3a25a673049d9d395b2a3"
+      ],
+      "association": "exact JATS SD1 in verified PMC version; article source only",
+      "derived_from": "61f5c4341768a74f7a9271b3aca7a3cedc11bc610ef7053ab94cb43e03abc88e",
+      "original_sha256": "61f5c4341768a74f7a9271b3aca7a3cedc11bc610ef7053ab94cb43e03abc88e",
+      "original_filename": "jciinsight-11-197761-s176.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_grayscale"
+    },
+    {
+      "path": "supplements/jciinsight-11-197761-s176__refine/page-0008-region-01.png",
+      "sha256": "22d02b30e34895e4f05569ff855ddda0085ca1720cd44f6cc180d23e13dad509",
+      "bytes": 76971,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13043096.1/jciinsight-11-197761-s176.pdf?md5=b754f426a0a3a25a673049d9d395b2a3"
+      ],
+      "association": "exact JATS SD1 in verified PMC version; article source only",
+      "derived_from": "61f5c4341768a74f7a9271b3aca7a3cedc11bc610ef7053ab94cb43e03abc88e",
+      "original_sha256": "61f5c4341768a74f7a9271b3aca7a3cedc11bc610ef7053ab94cb43e03abc88e",
+      "original_filename": "jciinsight-11-197761-s176.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_grayscale"
+    },
+    {
+      "path": "supplements/jciinsight-11-197761-s176__refine/page-0009-region-01.png",
+      "sha256": "2130c8a12fd40ec6b56aec10939bb88f0e69998587049c09382e341cf3668c5d",
+      "bytes": 50962,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13043096.1/jciinsight-11-197761-s176.pdf?md5=b754f426a0a3a25a673049d9d395b2a3"
+      ],
+      "association": "exact JATS SD1 in verified PMC version; article source only",
+      "derived_from": "61f5c4341768a74f7a9271b3aca7a3cedc11bc610ef7053ab94cb43e03abc88e",
+      "original_sha256": "61f5c4341768a74f7a9271b3aca7a3cedc11bc610ef7053ab94cb43e03abc88e",
+      "original_filename": "jciinsight-11-197761-s176.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_grayscale"
+    },
+    {
+      "path": "supplements/jciinsight-11-197761-s176__refine/page-0010-region-01.png",
+      "sha256": "b843cd2ae96a724cc2e3ce2ae723a6653c45e2b6021b62f7dc52a16b878919f0",
+      "bytes": 351307,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13043096.1/jciinsight-11-197761-s176.pdf?md5=b754f426a0a3a25a673049d9d395b2a3"
+      ],
+      "association": "exact JATS SD1 in verified PMC version; article source only",
+      "derived_from": "61f5c4341768a74f7a9271b3aca7a3cedc11bc610ef7053ab94cb43e03abc88e",
+      "original_sha256": "61f5c4341768a74f7a9271b3aca7a3cedc11bc610ef7053ab94cb43e03abc88e",
+      "original_filename": "jciinsight-11-197761-s176.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/jciinsight-11-197761-s176__refine/page-0011-region-01.png",
+      "sha256": "6881cae58543cb7c62eda1db6225e8fb7c3fb4d213c0e6fb0c04718db1f8d509",
+      "bytes": 384228,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13043096.1/jciinsight-11-197761-s176.pdf?md5=b754f426a0a3a25a673049d9d395b2a3"
+      ],
+      "association": "exact JATS SD1 in verified PMC version; article source only",
+      "derived_from": "61f5c4341768a74f7a9271b3aca7a3cedc11bc610ef7053ab94cb43e03abc88e",
+      "original_sha256": "61f5c4341768a74f7a9271b3aca7a3cedc11bc610ef7053ab94cb43e03abc88e",
+      "original_filename": "jciinsight-11-197761-s176.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/jciinsight-11-197761-s176__refine/page-0012-region-01.png",
+      "sha256": "51e1b89a19561affb4a8fe5118b660437b62e1a706eac457ce5e4c5307fdaa22",
+      "bytes": 65827,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13043096.1/jciinsight-11-197761-s176.pdf?md5=b754f426a0a3a25a673049d9d395b2a3"
+      ],
+      "association": "exact JATS SD1 in verified PMC version; article source only",
+      "derived_from": "61f5c4341768a74f7a9271b3aca7a3cedc11bc610ef7053ab94cb43e03abc88e",
+      "original_sha256": "61f5c4341768a74f7a9271b3aca7a3cedc11bc610ef7053ab94cb43e03abc88e",
+      "original_filename": "jciinsight-11-197761-s176.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/jciinsight-11-197761-s176__refine/page-0013-region-01.png",
+      "sha256": "94652444466caf9cf4f732882d112eaa29e827efb32302a1887643adbfade1db",
+      "bytes": 284288,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13043096.1/jciinsight-11-197761-s176.pdf?md5=b754f426a0a3a25a673049d9d395b2a3"
+      ],
+      "association": "exact JATS SD1 in verified PMC version; article source only",
+      "derived_from": "61f5c4341768a74f7a9271b3aca7a3cedc11bc610ef7053ab94cb43e03abc88e",
+      "original_sha256": "61f5c4341768a74f7a9271b3aca7a3cedc11bc610ef7053ab94cb43e03abc88e",
+      "original_filename": "jciinsight-11-197761-s176.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/jciinsight-11-197761-s176__refine/page-0014-region-01.png",
+      "sha256": "624847bcdd84ac66089f453da9bd6e1f0a90e66ecccb893225d3bdd4cec8aef6",
+      "bytes": 323339,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13043096.1/jciinsight-11-197761-s176.pdf?md5=b754f426a0a3a25a673049d9d395b2a3"
+      ],
+      "association": "exact JATS SD1 in verified PMC version; article source only",
+      "derived_from": "61f5c4341768a74f7a9271b3aca7a3cedc11bc610ef7053ab94cb43e03abc88e",
+      "original_sha256": "61f5c4341768a74f7a9271b3aca7a3cedc11bc610ef7053ab94cb43e03abc88e",
+      "original_filename": "jciinsight-11-197761-s176.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/jciinsight-11-197761-s176__refine/page-0015-region-01.png",
+      "sha256": "8dbb2b96ede14c8e8dc8a4d3381a1baffcab62979a599b55c2a1e22d581c131c",
+      "bytes": 390725,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13043096.1/jciinsight-11-197761-s176.pdf?md5=b754f426a0a3a25a673049d9d395b2a3"
+      ],
+      "association": "exact JATS SD1 in verified PMC version; article source only",
+      "derived_from": "61f5c4341768a74f7a9271b3aca7a3cedc11bc610ef7053ab94cb43e03abc88e",
+      "original_sha256": "61f5c4341768a74f7a9271b3aca7a3cedc11bc610ef7053ab94cb43e03abc88e",
+      "original_filename": "jciinsight-11-197761-s176.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/jciinsight-11-197761-s176__refine/page-0016-region-01.png",
+      "sha256": "4319608118b9ad3245ff710c61cbba97f9fa6cd81846cfb2b53794a3caae7121",
+      "bytes": 254304,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13043096.1/jciinsight-11-197761-s176.pdf?md5=b754f426a0a3a25a673049d9d395b2a3"
+      ],
+      "association": "exact JATS SD1 in verified PMC version; article source only",
+      "derived_from": "61f5c4341768a74f7a9271b3aca7a3cedc11bc610ef7053ab94cb43e03abc88e",
+      "original_sha256": "61f5c4341768a74f7a9271b3aca7a3cedc11bc610ef7053ab94cb43e03abc88e",
+      "original_filename": "jciinsight-11-197761-s176.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/jciinsight-11-197761-s176__refine/page-0017-region-01.png",
+      "sha256": "d2ed6d00c88031ffce7733bfa70fc610866a696806f347eb84ae57782c425530",
+      "bytes": 73187,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13043096.1/jciinsight-11-197761-s176.pdf?md5=b754f426a0a3a25a673049d9d395b2a3"
+      ],
+      "association": "exact JATS SD1 in verified PMC version; article source only",
+      "derived_from": "61f5c4341768a74f7a9271b3aca7a3cedc11bc610ef7053ab94cb43e03abc88e",
+      "original_sha256": "61f5c4341768a74f7a9271b3aca7a3cedc11bc610ef7053ab94cb43e03abc88e",
+      "original_filename": "jciinsight-11-197761-s176.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/jciinsight-11-197761-s176__refine/page-0018-region-01.png",
+      "sha256": "bb28e9e9f6393778fb017b3bead1707c4d1883bc90f1bed2b746b401d26b7f59",
+      "bytes": 133964,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13043096.1/jciinsight-11-197761-s176.pdf?md5=b754f426a0a3a25a673049d9d395b2a3"
+      ],
+      "association": "exact JATS SD1 in verified PMC version; article source only",
+      "derived_from": "61f5c4341768a74f7a9271b3aca7a3cedc11bc610ef7053ab94cb43e03abc88e",
+      "original_sha256": "61f5c4341768a74f7a9271b3aca7a3cedc11bc610ef7053ab94cb43e03abc88e",
+      "original_filename": "jciinsight-11-197761-s176.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/jciinsight-11-197761-s176__refine/page-0019-region-01.png",
+      "sha256": "8987034da03b48832a6100acbe47271c1be610b942e2319fcb9b248ebc798043",
+      "bytes": 100585,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13043096.1/jciinsight-11-197761-s176.pdf?md5=b754f426a0a3a25a673049d9d395b2a3"
+      ],
+      "association": "exact JATS SD1 in verified PMC version; article source only",
+      "derived_from": "61f5c4341768a74f7a9271b3aca7a3cedc11bc610ef7053ab94cb43e03abc88e",
+      "original_sha256": "61f5c4341768a74f7a9271b3aca7a3cedc11bc610ef7053ab94cb43e03abc88e",
+      "original_filename": "jciinsight-11-197761-s176.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/jciinsight-11-197761-s176__refine/page-0020-region-01.png",
+      "sha256": "26190d75eb7d01fed8876d695896e068652db2fd3c4dccfe00d01d8a4e711fa0",
+      "bytes": 106764,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13043096.1/jciinsight-11-197761-s176.pdf?md5=b754f426a0a3a25a673049d9d395b2a3"
+      ],
+      "association": "exact JATS SD1 in verified PMC version; article source only",
+      "derived_from": "61f5c4341768a74f7a9271b3aca7a3cedc11bc610ef7053ab94cb43e03abc88e",
+      "original_sha256": "61f5c4341768a74f7a9271b3aca7a3cedc11bc610ef7053ab94cb43e03abc88e",
+      "original_filename": "jciinsight-11-197761-s176.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/jciinsight-11-197761-s176__refine/page-0021-region-01.png",
+      "sha256": "f89d58f455d3af5b6718aae4dedb0a8e62920060f6693f205208035cf3c0f806",
+      "bytes": 321407,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13043096.1/jciinsight-11-197761-s176.pdf?md5=b754f426a0a3a25a673049d9d395b2a3"
+      ],
+      "association": "exact JATS SD1 in verified PMC version; article source only",
+      "derived_from": "61f5c4341768a74f7a9271b3aca7a3cedc11bc610ef7053ab94cb43e03abc88e",
+      "original_sha256": "61f5c4341768a74f7a9271b3aca7a3cedc11bc610ef7053ab94cb43e03abc88e",
+      "original_filename": "jciinsight-11-197761-s176.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/jciinsight-11-197761-s176__refine/page-0022-region-01.png",
+      "sha256": "11fd227f87e5e754d041e21b1f08e623b3471b75e32505f4a289a8ab64203c6c",
+      "bytes": 220822,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13043096.1/jciinsight-11-197761-s176.pdf?md5=b754f426a0a3a25a673049d9d395b2a3"
+      ],
+      "association": "exact JATS SD1 in verified PMC version; article source only",
+      "derived_from": "61f5c4341768a74f7a9271b3aca7a3cedc11bc610ef7053ab94cb43e03abc88e",
+      "original_sha256": "61f5c4341768a74f7a9271b3aca7a3cedc11bc610ef7053ab94cb43e03abc88e",
+      "original_filename": "jciinsight-11-197761-s176.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/jciinsight-11-197761-s176__refine/content.md",
+      "sha256": "bbbe8e9421c12f15baaab68ac8c539dac89efca30a54008b0f9367e635a8cd0a",
+      "bytes": 16988,
+      "role": "supplement",
+      "roles": [
+        "supplement"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13043096.1/jciinsight-11-197761-s176.pdf?md5=b754f426a0a3a25a673049d9d395b2a3"
+      ],
+      "association": "exact JATS SD1 in verified PMC version; article source only",
+      "derived_from": "61f5c4341768a74f7a9271b3aca7a3cedc11bc610ef7053ab94cb43e03abc88e",
+      "original_sha256": "61f5c4341768a74f7a9271b3aca7a3cedc11bc610ef7053ab94cb43e03abc88e",
+      "original_filename": "jciinsight-11-197761-s176.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "pdf_text_visual"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

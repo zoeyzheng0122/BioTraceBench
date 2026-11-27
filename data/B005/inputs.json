@@ -1,0 +1,165 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "B005",
+    "domain": "basic",
+    "title": "Proteomic analysis of 7-octenoic acid antifibrotic effects in TGF-β1 activated hepatic stellate cells",
+    "doi": "10.1038/s41598-025-29722-8",
+    "pipeline": "basic-research",
+    "pmid": "41315577",
+    "pmcid": "PMC12753640",
+    "registry": "PXD063183"
+  },
+  "files": [
+    {
+      "path": "sources/article.xml",
+      "sha256": "ce95094b945fb0f51f0860c33bc0a78237dd22732be8d97307e0d1d021a16915",
+      "bytes": 147252,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12753640.1/PMC12753640.1.xml?md5=52ff54c2d0b0a203ab096beae57054c2"
+      ],
+      "association": "official published article XML for exact DOI"
+    },
+    {
+      "path": "records/PXD063183-record.json",
+      "sha256": "341423bfe2661f8fb71b5ee2660ab795192e726cba544ab53cb02ea1aafbd386",
+      "bytes": 6856,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/pride/ws/archive/v2/projects/PXD063183"
+      ],
+      "association": "public data accession explicitly reported in this article; module eligibility not yet asserted",
+      "original_filename": "PXD063183-record.json",
+      "retrieved_at": "2026-10-18T01:13:47+08:00",
+      "derived_from": "170c67842f9d7ccccd47699cdcb8803f20bd3efae441f5c78f988691104caae6",
+      "original_sha256": "170c67842f9d7ccccd47699cdcb8803f20bd3efae441f5c78f988691104caae6",
+      "representation": "refine-lexical-json-1",
+      "provenance_transform": "exact_json_whitespace_compaction"
+    },
+    {
+      "path": "figures/41598_2025_29722_Fig1_HTML.jpg",
+      "sha256": "39f3cb81f1ea6edc4c844b1571d82cc5b7a8f57e74cde0d9fca43d40aeaac5ec",
+      "bytes": 27129,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12753640.1/41598_2025_29722_Fig1_HTML.jpg?md5=d38ac5af5834499364021969e9f75643"
+      ],
+      "association": "exact JATS Fig1 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41598_2025_29722_Fig2_HTML.jpg",
+      "sha256": "9bc61ca078905b4dfff3f314acaaa67be0f94b0b5336250e288043536eec346d",
+      "bytes": 63261,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12753640.1/41598_2025_29722_Fig2_HTML.jpg?md5=368cf25e7f617b9b02f7ac96e3e25a3c"
+      ],
+      "association": "exact JATS Fig2 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41598_2025_29722_Fig3_HTML.jpg",
+      "sha256": "9149f9e2de78408191ebf8b470f5242179db8914f629a26797b28cb8f5275bf8",
+      "bytes": 68039,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12753640.1/41598_2025_29722_Fig3_HTML.jpg?md5=35e9ca5e901fb7e6c4e2618e436ae3de"
+      ],
+      "association": "exact JATS Fig3 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41598_2025_29722_Fig4_HTML.jpg",
+      "sha256": "f5785badca937476143274060f36e6284fd388b6e48f430299f251b89cbdae77",
+      "bytes": 158984,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12753640.1/41598_2025_29722_Fig4_HTML.jpg?md5=33a69fc42e63c8bc5c6609c7e5d28355"
+      ],
+      "association": "exact JATS Fig4 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41598_2025_29722_Fig5_HTML.jpg",
+      "sha256": "13cdb2fe4419d3e8ad804a0784147571d76b1ca8bd21a1adbb664abb053908dc",
+      "bytes": 54404,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12753640.1/41598_2025_29722_Fig5_HTML.jpg?md5=b8a9864652a4252a62240ef59cdf5648"
+      ],
+      "association": "exact JATS Fig5 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41598_2025_29722_Fig6_HTML.jpg",
+      "sha256": "50b7a982b7a1f171c89fc53925aac221826ae46d5cb532ca6ad8559f475d3e41",
+      "bytes": 214310,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12753640.1/41598_2025_29722_Fig6_HTML.jpg?md5=1981982d752822f64778dfd2fa26eaa6"
+      ],
+      "association": "exact JATS Fig6 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41598_2025_29722_Fig7_HTML.jpg",
+      "sha256": "b0d8891c8f0914a1c7fe16c96e7d961157e8fa3d442b02fae29ee70bcdfb08d5",
+      "bytes": 51649,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12753640.1/41598_2025_29722_Fig7_HTML.jpg?md5=e13317dff019aa3631470a33179b27d0"
+      ],
+      "association": "exact JATS Fig7 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/captions.txt",
+      "sha256": "4f4c50be3454b3a3f2ff812f4506c1ebf9ab26e406986f70cab152b40fd173ba",
+      "bytes": 4003,
+      "role": "figure_captions",
+      "roles": [
+        "figure_captions"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12753640/"
+      ],
+      "derived_from": "da4554720b310344caffd11a1b31632edd5d707db5a858ab5e44f0e4b6ee234b"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

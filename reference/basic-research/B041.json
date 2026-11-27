@@ -1,0 +1,309 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "NanoString Human Fibrosis V2 expression profiling",
+      "experiment_run_accession": "Figshare:10.6084/m9.figshare.32051796.v3 (dataset)",
+      "method": "Human Fibrosis V2 panel (770 target genes) on FFPE-derived RNA; nSolver 3.0 normalization. The source fibrosis profile is identified by the native sample label.",
+      "platform": "NanoString nCounter",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0002",
+      "assay_type": "NanoString Human Fibrosis V2 expression profiling",
+      "experiment_run_accession": "Figshare:10.6084/m9.figshare.32051796.v3 (dataset)",
+      "method": "Human Fibrosis V2 panel (770 target genes) on FFPE-derived RNA; nSolver 3.0 normalization. The source fibrosis profile is identified by the native sample label.",
+      "platform": "NanoString nCounter",
+      "sample_ids": [
+        "S0002"
+      ]
+    },
+    {
+      "assay_id": "A0003",
+      "assay_type": "NanoString Human Fibrosis V2 expression profiling",
+      "experiment_run_accession": "Figshare:10.6084/m9.figshare.32051796.v3 (dataset)",
+      "method": "Human Fibrosis V2 panel (770 target genes) on FFPE-derived RNA; nSolver 3.0 normalization. The source fibrosis profile is identified by the native sample label.",
+      "platform": "NanoString nCounter",
+      "sample_ids": [
+        "S0003"
+      ]
+    },
+    {
+      "assay_id": "A0004",
+      "assay_type": "NanoString Human Fibrosis V2 expression profiling",
+      "experiment_run_accession": "Figshare:10.6084/m9.figshare.32051796.v3 (dataset)",
+      "method": "Human Fibrosis V2 panel (770 target genes) on FFPE-derived RNA; nSolver 3.0 normalization. The source fibrosis profile is identified by the native sample label.",
+      "platform": "NanoString nCounter",
+      "sample_ids": [
+        "S0004"
+      ]
+    },
+    {
+      "assay_id": "A0005",
+      "assay_type": "NanoString Human Fibrosis V2 expression profiling",
+      "experiment_run_accession": "Figshare:10.6084/m9.figshare.32051796.v3 (dataset)",
+      "method": "Human Fibrosis V2 panel (770 target genes) on FFPE-derived RNA; nSolver 3.0 normalization. The source fibrosis profile is identified by the native sample label.",
+      "platform": "NanoString nCounter",
+      "sample_ids": [
+        "S0005"
+      ]
+    },
+    {
+      "assay_id": "A0006",
+      "assay_type": "NanoString Human Fibrosis V2 expression profiling",
+      "experiment_run_accession": "Figshare:10.6084/m9.figshare.32051796.v3 (dataset)",
+      "method": "Human Fibrosis V2 panel (770 target genes) on FFPE-derived RNA; nSolver 3.0 normalization. The source fibrosis profile is identified by the native sample label.",
+      "platform": "NanoString nCounter",
+      "sample_ids": [
+        "S0006"
+      ]
+    },
+    {
+      "assay_id": "A0007",
+      "assay_type": "NanoString Human Fibrosis V2 expression profiling",
+      "experiment_run_accession": "Figshare:10.6084/m9.figshare.32051796.v3 (dataset)",
+      "method": "Human Fibrosis V2 panel (770 target genes) on FFPE-derived RNA; nSolver 3.0 normalization. The source fibrosis profile is identified by the native sample label.",
+      "platform": "NanoString nCounter",
+      "sample_ids": [
+        "S0007"
+      ]
+    },
+    {
+      "assay_id": "A0008",
+      "assay_type": "NanoString Human Fibrosis V2 expression profiling",
+      "experiment_run_accession": "Figshare:10.6084/m9.figshare.32051796.v3 (dataset)",
+      "method": "Human Fibrosis V2 panel (770 target genes) on FFPE-derived RNA; nSolver 3.0 normalization. The source fibrosis profile is identified by the native sample label.",
+      "platform": "NanoString nCounter",
+      "sample_ids": [
+        "S0008"
+      ]
+    },
+    {
+      "assay_id": "A0009",
+      "assay_type": "NanoString Human Fibrosis V2 expression profiling",
+      "experiment_run_accession": "Figshare:10.6084/m9.figshare.32051796.v3 (dataset)",
+      "method": "Human Fibrosis V2 panel (770 target genes) on FFPE-derived RNA; nSolver 3.0 normalization. The source fibrosis profile is identified by the native sample label.",
+      "platform": "NanoString nCounter",
+      "sample_ids": [
+        "S0009"
+      ]
+    },
+    {
+      "assay_id": "A0010",
+      "assay_type": "NanoString Human Fibrosis V2 expression profiling",
+      "experiment_run_accession": "Figshare:10.6084/m9.figshare.32051796.v3 (dataset)",
+      "method": "Human Fibrosis V2 panel (770 target genes) on FFPE-derived RNA; nSolver 3.0 normalization. The source fibrosis profile is identified by the native sample label.",
+      "platform": "NanoString nCounter",
+      "sample_ids": [
+        "S0010"
+      ]
+    },
+    {
+      "assay_id": "A0011",
+      "assay_type": "NanoString Human Fibrosis V2 expression profiling",
+      "experiment_run_accession": "Figshare:10.6084/m9.figshare.32051796.v3 (dataset)",
+      "method": "Human Fibrosis V2 panel (770 target genes) on FFPE-derived RNA; nSolver 3.0 normalization. The source fibrosis profile is identified by the native sample label.",
+      "platform": "NanoString nCounter",
+      "sample_ids": [
+        "S0011"
+      ]
+    },
+    {
+      "assay_id": "A0012",
+      "assay_type": "NanoString Human Fibrosis V2 expression profiling",
+      "experiment_run_accession": "Figshare:10.6084/m9.figshare.32051796.v3 (dataset)",
+      "method": "Human Fibrosis V2 panel (770 target genes) on FFPE-derived RNA; nSolver 3.0 normalization. The source fibrosis profile is identified by the native sample label.",
+      "platform": "NanoString nCounter",
+      "sample_ids": [
+        "S0012"
+      ]
+    },
+    {
+      "assay_id": "A0013",
+      "assay_type": "NanoString Human Fibrosis V2 expression profiling",
+      "experiment_run_accession": "Figshare:10.6084/m9.figshare.32051796.v3 (dataset)",
+      "method": "Human Fibrosis V2 panel (770 target genes) on FFPE-derived RNA; nSolver 3.0 normalization. The source fibrosis profile is identified by the native sample label.",
+      "platform": "NanoString nCounter",
+      "sample_ids": [
+        "S0013"
+      ]
+    }
+  ],
+  "condition": [
+    {
+      "condition_id": "C0001",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Implantation-to-explantation interval",
+      "factor_unit": "month",
+      "factor_value": 4,
+      "sample_id": "S0001",
+      "time": "At explantation, 4 months after homograft implantation"
+    },
+    {
+      "condition_id": "C0002",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Implantation-to-explantation interval",
+      "factor_unit": "month",
+      "factor_value": 55,
+      "sample_id": "S0002",
+      "time": "At explantation, 4 years 7 months after homograft implantation"
+    },
+    {
+      "condition_id": "C0003",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Implantation-to-explantation interval",
+      "factor_unit": "month",
+      "factor_value": 69,
+      "sample_id": "S0003",
+      "time": "At explantation, 5 years 9 months after homograft implantation"
+    },
+    {
+      "condition_id": "C0004",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Implantation-to-explantation interval",
+      "factor_unit": "month",
+      "factor_value": 14,
+      "sample_id": "S0004",
+      "time": "At explantation, 1 year 2 months after homograft implantation"
+    },
+    {
+      "condition_id": "C0005",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Implantation-to-explantation interval",
+      "factor_unit": "month",
+      "factor_value": 87,
+      "sample_id": "S0005",
+      "time": "At explantation, 7 years 3 months after homograft implantation"
+    },
+    {
+      "condition_id": "C0006",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Implantation-to-explantation interval",
+      "factor_unit": "month",
+      "factor_value": 108,
+      "sample_id": "S0006",
+      "time": "At explantation, 9 years after homograft implantation"
+    }
+  ],
+  "sample": [
+    {
+      "biological_model": "Degenerated decellularized allogeneic aortic valve homograft",
+      "biological_source": "Allogeneic human aortic valve homograft; recipient aged 1 year 4 months at explantation. Original graft donor identity is not reported.",
+      "sample_accession": null,
+      "sample_id": "S0001",
+      "sample_material": "RNA extracted from FFPE explanted aortic homograft tissue. Histology: focal coagulation, calcifying sclerosis and myxoid degeneration. Individual decalcification status and duration are not resolved.",
+      "sample_name": "20230801_230801 Fibrose Herzklappen_02 2_02",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Degenerated decellularized allogeneic aortic valve homograft",
+      "biological_source": "Allogeneic human aortic valve homograft; recipient aged 4 years 11 months at explantation. Original graft donor identity is not reported.",
+      "sample_accession": null,
+      "sample_id": "S0002",
+      "sample_material": "RNA extracted from FFPE explanted aortic homograft tissue. Histology: fibrosis. Individual decalcification status and duration are not resolved.",
+      "sample_name": "20230801_230801 Fibrose Herzklappen_05 5_05",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Degenerated decellularized allogeneic aortic valve homograft",
+      "biological_source": "Allogeneic human aortic valve homograft; recipient aged 7 years 5 months at explantation. Original graft donor identity is not reported.",
+      "sample_accession": null,
+      "sample_id": "S0003",
+      "sample_material": "RNA extracted from FFPE explanted aortic homograft tissue. Histology: myxoid degeneration, scarring and calcification. Individual decalcification status and duration are not resolved.",
+      "sample_name": "20230801_230801 Fibrose Herzklappen_01 1_01",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Degenerated decellularized allogeneic aortic valve homograft",
+      "biological_source": "Allogeneic human aortic valve homograft; recipient aged 7 years 10 months at explantation. Original graft donor identity is not reported.",
+      "sample_accession": null,
+      "sample_id": "S0004",
+      "sample_material": "RNA extracted from FFPE explanted aortic homograft tissue. Histology: sclerosis and myxoid degeneration. Individual decalcification status and duration are not resolved.",
+      "sample_name": "20230801_230801 Fibrose Herzklappen_11 11_11",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Degenerated decellularized allogeneic aortic valve homograft",
+      "biological_source": "Allogeneic human aortic valve homograft; recipient aged 24 years at explantation. Original graft donor identity is not reported.",
+      "sample_accession": null,
+      "sample_id": "S0005",
+      "sample_material": "RNA extracted from FFPE explanted aortic homograft tissue. Histology: calcification and scarring. Individual decalcification status and duration are not resolved.",
+      "sample_name": "20230801_230801 Fibrose Herzklappen_04 4_04",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Degenerated decellularized allogeneic aortic valve homograft",
+      "biological_source": "Allogeneic human aortic valve homograft; recipient aged 26 years at explantation. Original graft donor identity is not reported.",
+      "sample_accession": null,
+      "sample_id": "S0006",
+      "sample_material": "RNA extracted from FFPE explanted aortic homograft tissue. Histology: degeneration and foreign-body reaction. Individual decalcification status and duration are not resolved.",
+      "sample_name": "20230801_230801 Fibrose Herzklappen_03 3_03",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Native aortic valve reference tissue",
+      "biological_source": "Human native/reference aortic valve tissue from a resected heart specimen; donor demographics are not reported.",
+      "sample_accession": null,
+      "sample_id": "S0007",
+      "sample_material": "RNA extracted from an individually labelled FFPE native/reference aortic valve tissue preparation.",
+      "sample_name": "20231123_FI-23-11-WH-KO_10 10_10",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Native aortic valve reference tissue",
+      "biological_source": "Human native/reference aortic valve tissue from a resected heart specimen; donor demographics are not reported.",
+      "sample_accession": null,
+      "sample_id": "S0008",
+      "sample_material": "RNA extracted from an individually labelled FFPE native/reference aortic valve tissue preparation.",
+      "sample_name": "20231123_FI-23-11-WH-KO_11 11_11",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Native aortic valve reference tissue",
+      "biological_source": "Human native/reference aortic valve tissue from a resected heart specimen; donor demographics are not reported.",
+      "sample_accession": null,
+      "sample_id": "S0009",
+      "sample_material": "RNA extracted from an individually labelled FFPE native/reference aortic valve tissue preparation.",
+      "sample_name": "20231129_231129 Fibrose WH-KO_03 3_03",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Native aortic valve reference tissue",
+      "biological_source": "Human native/reference aortic valve tissue from a resected heart specimen; donor demographics are not reported.",
+      "sample_accession": null,
+      "sample_id": "S0010",
+      "sample_material": "RNA extracted from an individually labelled FFPE native/reference aortic valve tissue preparation.",
+      "sample_name": "20231129_231129 Fibrose WH-KO_05 5_05",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Native aortic valve reference tissue",
+      "biological_source": "Human native/reference aortic valve tissue from a resected heart specimen; donor demographics are not reported.",
+      "sample_accession": null,
+      "sample_id": "S0011",
+      "sample_material": "RNA extracted from an individually labelled FFPE native/reference aortic valve tissue preparation.",
+      "sample_name": "20231129_231129 Fibrose WH-KO_08 8_08",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Native aortic valve reference tissue",
+      "biological_source": "Human native/reference aortic valve tissue from a resected heart specimen; donor demographics are not reported.",
+      "sample_accession": null,
+      "sample_id": "S0012",
+      "sample_material": "RNA extracted from an individually labelled FFPE native/reference aortic valve tissue preparation.",
+      "sample_name": "20231129_231129 Fibrose WH-KO_10 10_10",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Native aortic valve reference tissue",
+      "biological_source": "Human native/reference aortic valve tissue from a resected heart specimen; donor demographics are not reported.",
+      "sample_accession": null,
+      "sample_id": "S0013",
+      "sample_material": "RNA extracted from an individually labelled FFPE native/reference aortic valve tissue preparation.",
+      "sample_name": "20231129_231129 Fibrose WH-KO_11 11_11",
+      "species": "Homo sapiens"
+    }
+  ]
+}

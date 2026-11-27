@@ -1,0 +1,295 @@
+{
+  "measure": [
+    {
+      "measure_definition": "Measured value: Pittsburgh Sleep Quality Index total score; Participants; Self-reported Pittsburgh Sleep Quality Index questionnaire administered at baseline and 24 weeks post-randomization; PSQI total score analyzed.; PSQI total score; no additional threshold applied. Component scores not used.",
+      "measure_id": "M0",
+      "measure_name": "Pittsburgh Sleep Quality Index total score"
+    },
+    {
+      "measure_definition": "Measured value: Insomnia Severity Index total score; Participants; Self-reported Insomnia Severity Index questionnaire administered at baseline and 24 weeks post-randomization; ISI total score analyzed.; ISI total score; no additional threshold applied for the continuous score. Responder/remitter categories not used.",
+      "measure_id": "M1",
+      "measure_name": "Insomnia Severity Index total score"
+    },
+    {
+      "measure_definition": "Measured value: Epworth Sleepiness Scale score; Participants; Self-reported Epworth Sleepiness Scale questionnaire administered at baseline and 24 weeks post-randomization; ESS total score analyzed.; ESS total score; no additional threshold applied.",
+      "measure_id": "M2",
+      "measure_name": "Epworth Sleepiness Scale score"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "Brief behavioral therapy for insomnia (BBTI) plus eszopiclone.",
+      "intervention_regimen": "Eszopiclone 2 mg nightly.; Eszopiclone 2 mg nightly 30 min before bedtime for a 2-week period; BBTI administered individually by trained staff therapists.",
+      "population_definition": "Randomized treatment allocation to BBTI plus eszopiclone.; Veterans aged 18–65 years with PTSD (DSM-5 and CAPS-5 score ≥25) and COMISA (DSM-5 insomnia disorder and PSG-documented OSA with AHI ≥5/h) who were non-adherent to CPAP (<4 h/night), met protocol inclusion/exclusion criteria, and were randomized to BBTI plus eszopiclone. Analysis set: intention-to-treat.",
+      "population_id": "P0",
+      "population_name": "BBTI plus eszopiclone randomized group",
+      "population_size": 26,
+      "population_time_frame": "Enrolment January 4th, 2020, to December 28th, 2023; follow-up visits at 6 and 24 weeks post-randomization."
+    },
+    {
+      "intervention": "Brief behavioral therapy for insomnia (BBTI) alone.",
+      "intervention_regimen": "BBTI administered individually by trained staff therapists; no eszopiclone.",
+      "population_definition": "Randomized treatment allocation to BBTI alone.; Veterans aged 18–65 years with PTSD (DSM-5 and CAPS-5 score ≥25) and COMISA (DSM-5 insomnia disorder and PSG-documented OSA with AHI ≥5/h) who were non-adherent to CPAP (<4 h/night), met protocol inclusion/exclusion criteria, and were randomized to BBTI-only. Analysis set: intention-to-treat.",
+      "population_id": "P1",
+      "population_name": "BBTI-only randomized group",
+      "population_size": 27,
+      "population_time_frame": "Enrolment January 4th, 2020, to December 28th, 2023; follow-up visits at 6 and 24 weeks post-randomization."
+    },
+    {
+      "intervention": "BBTI with or without initial 2-week eszopiclone.",
+      "intervention_regimen": "Eszopiclone 2 mg nightly in the BBTI plus eszopiclone arm; no eszopiclone in the BBTI-only arm.; Eszopiclone 2 mg nightly 30 min before bedtime for 2 weeks in the combination arm; BBTI administered individually in both arms.",
+      "population_definition": "Randomized treatment allocation (BBTI plus eszopiclone vs BBTI-only); all analyses based on intention-to-treat.; Veterans aged 18–65 years with PTSD (DSM-5 and CAPS-5 score ≥25) and COMISA (DSM-5 insomnia disorder and PSG-documented OSA with AHI ≥5/h) who were non-adherent to CPAP (<4 h/night), met protocol inclusion/exclusion criteria, and were randomized to BBTI plus eszopiclone or BBTI-only. Analysis set: intention-to-treat.",
+      "population_id": "P2",
+      "population_name": "Overall randomized intention-to-treat population",
+      "population_size": 53,
+      "population_time_frame": "Enrolment January 4th, 2020, to December 28th, 2023; follow-up visits at 6 and 24 weeks post-randomization."
+    }
+  ],
+  "population_relation": [
+    {
+      "population_a_id": "P0",
+      "population_b_id": "P2",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P2",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P0",
+      "population_b_id": "P1",
+      "relationship": "disjoint from"
+    }
+  ],
+  "result": [
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R01",
+      "result_unit": "points",
+      "result_value": 13.0,
+      "statistic_type": "Adjusted mean",
+      "statistical_method": "Intention-to-treat linear mixed-effects model with participant random effect and allocation and time-vector interactions as fixed effects. Unstructured within-participant covariance and maximum likelihood under missing at random. Table 3 reports baseline/stratum adjustment with baseline outcome, age, sex, AHI and psychiatric comorbidity.",
+      "supplementary_statistics": "SD 3.4."
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R02",
+      "result_unit": "points",
+      "result_value": 13.8,
+      "statistic_type": "Adjusted mean",
+      "statistical_method": "Intention-to-treat linear mixed-effects model with participant random effect and allocation and time-vector interactions as fixed effects. Unstructured within-participant covariance and maximum likelihood under missing at random. Table 3 reports baseline/stratum adjustment with baseline outcome, age, sex, AHI and psychiatric comorbidity.",
+      "supplementary_statistics": "SD 2.7."
+    },
+    {
+      "assessment_time": "24 weeks post-randomization",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R03",
+      "result_unit": "points",
+      "result_value": 7.8,
+      "statistic_type": "Adjusted mean",
+      "statistical_method": "Intention-to-treat linear mixed-effects model with participant random effect and allocation and time-vector interactions as fixed effects. Unstructured within-participant covariance and maximum likelihood under missing at random. Table 3 reports baseline/stratum adjustment with baseline outcome, age, sex, AHI and psychiatric comorbidity.",
+      "supplementary_statistics": "SD 4.2"
+    },
+    {
+      "assessment_time": "24 weeks post-randomization",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R04",
+      "result_unit": "points",
+      "result_value": 8.3,
+      "statistic_type": "Adjusted mean",
+      "statistical_method": "Intention-to-treat linear mixed-effects model with participant random effect and allocation and time-vector interactions as fixed effects. Unstructured within-participant covariance and maximum likelihood under missing at random. Table 3 reports baseline/stratum adjustment with baseline outcome, age, sex, AHI and psychiatric comorbidity.",
+      "supplementary_statistics": "SD 3.7"
+    },
+    {
+      "assessment_time": "Baseline to 24 weeks post-randomization",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R05",
+      "result_unit": "points",
+      "result_value": -5.24,
+      "statistic_type": "Mean change from baseline to 24 weeks",
+      "statistical_method": "Intention-to-treat linear mixed-effects model with participant random effect and allocation and time-vector interactions as fixed effects. Unstructured within-participant covariance and maximum likelihood under missing at random. The abstract directly reports the whole-period change and does not detail a separate contrast procedure.",
+      "supplementary_statistics": "95% CI -6.55 to -3.94; p < 0.001"
+    },
+    {
+      "assessment_time": "Baseline to 24 weeks post-randomization",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R06",
+      "result_unit": "points",
+      "result_value": -5.45,
+      "statistic_type": "Mean change from baseline to 24 weeks",
+      "statistical_method": "Intention-to-treat linear mixed-effects model with participant random effect and allocation and time-vector interactions as fixed effects. Unstructured within-participant covariance and maximum likelihood under missing at random. The abstract directly reports the whole-period change and does not detail a separate contrast procedure.",
+      "supplementary_statistics": "95% CI -6.75 to -4.14; p < 0.001"
+    },
+    {
+      "assessment_time": "24 weeks post-randomization",
+      "comparison": "P0 vs P1 (BBTI plus eszopiclone versus BBTI alone) at Week 24; subtraction formula not explicitly reported.",
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R07",
+      "result_unit": "points",
+      "result_value": -0.58,
+      "statistic_type": "Between-group mean difference at 24 weeks (BBTI plus ESZ vs BBTI-only)",
+      "statistical_method": "Intention-to-treat linear mixed-effects model with participant random effect and allocation and time-vector interactions as fixed effects. Unstructured within-participant covariance and maximum likelihood under missing at random. Table 3 reports baseline/stratum adjustment with baseline outcome, age, sex, AHI and psychiatric comorbidity.",
+      "supplementary_statistics": "95% CI -2.86 to 1.68; p = 0.61; adjusted for outcome value at baseline, age, sex, AHI, and psychiatric comorbidity"
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P0",
+      "result_id": "R08",
+      "result_unit": "points",
+      "result_value": 18.2,
+      "statistic_type": "Adjusted mean",
+      "statistical_method": "Intention-to-treat linear mixed-effects model with participant random effect and allocation and time-vector interactions as fixed effects. Unstructured within-participant covariance and maximum likelihood under missing at random. Table 3 reports baseline/stratum adjustment with baseline outcome, age, sex, AHI and psychiatric comorbidity.",
+      "supplementary_statistics": "SD 4.3."
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R09",
+      "result_unit": "points",
+      "result_value": 18.7,
+      "statistic_type": "Adjusted mean",
+      "statistical_method": "Intention-to-treat linear mixed-effects model with participant random effect and allocation and time-vector interactions as fixed effects. Unstructured within-participant covariance and maximum likelihood under missing at random. Table 3 reports baseline/stratum adjustment with baseline outcome, age, sex, AHI and psychiatric comorbidity.",
+      "supplementary_statistics": "SD 4.1."
+    },
+    {
+      "assessment_time": "24 weeks post-randomization",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P0",
+      "result_id": "R10",
+      "result_unit": "points",
+      "result_value": 9.9,
+      "statistic_type": "Adjusted mean",
+      "statistical_method": "Intention-to-treat linear mixed-effects model with participant random effect and allocation and time-vector interactions as fixed effects. Unstructured within-participant covariance and maximum likelihood under missing at random. Table 3 reports baseline/stratum adjustment with baseline outcome, age, sex, AHI and psychiatric comorbidity.",
+      "supplementary_statistics": "SD 5.8"
+    },
+    {
+      "assessment_time": "24 weeks post-randomization",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R11",
+      "result_unit": "points",
+      "result_value": 10.3,
+      "statistic_type": "Adjusted mean",
+      "statistical_method": "Intention-to-treat linear mixed-effects model with participant random effect and allocation and time-vector interactions as fixed effects. Unstructured within-participant covariance and maximum likelihood under missing at random. Table 3 reports baseline/stratum adjustment with baseline outcome, age, sex, AHI and psychiatric comorbidity.",
+      "supplementary_statistics": "SD 5.1"
+    },
+    {
+      "assessment_time": "Baseline to 24 weeks post-randomization",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P0",
+      "result_id": "R12",
+      "result_unit": "points",
+      "result_value": -8.32,
+      "statistic_type": "Mean change from baseline to 24 weeks",
+      "statistical_method": "Intention-to-treat linear mixed-effects model with participant random effect and allocation and time-vector interactions as fixed effects. Unstructured within-participant covariance and maximum likelihood under missing at random. The abstract directly reports the whole-period change and does not detail a separate contrast procedure.",
+      "supplementary_statistics": "95% CI -10.51 to -6.14; p < 0.001"
+    },
+    {
+      "assessment_time": "Baseline to 24 weeks post-randomization",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R13",
+      "result_unit": "points",
+      "result_value": -8.64,
+      "statistic_type": "Mean change from baseline to 24 weeks",
+      "statistical_method": "Intention-to-treat linear mixed-effects model with participant random effect and allocation and time-vector interactions as fixed effects. Unstructured within-participant covariance and maximum likelihood under missing at random. The abstract directly reports the whole-period change and does not detail a separate contrast procedure.",
+      "supplementary_statistics": "95% CI -10.88 to -6.41; p < 0.001"
+    },
+    {
+      "assessment_time": "24 weeks post-randomization",
+      "comparison": "P0 vs P1 (BBTI plus eszopiclone versus BBTI alone) at Week 24; subtraction formula not explicitly reported.",
+      "measure_id": "M1",
+      "population_id": "P0",
+      "result_id": "R14",
+      "result_unit": "points",
+      "result_value": -0.42,
+      "statistic_type": "Between-group mean difference at 24 weeks (BBTI plus ESZ vs BBTI-only)",
+      "statistical_method": "Intention-to-treat linear mixed-effects model with participant random effect and allocation and time-vector interactions as fixed effects. Unstructured within-participant covariance and maximum likelihood under missing at random. Table 3 reports baseline/stratum adjustment with baseline outcome, age, sex, AHI and psychiatric comorbidity.",
+      "supplementary_statistics": "95% CI -3.59 to 2.74; p = 0.79; adjusted for outcome value at baseline, age, sex, AHI, and psychiatric comorbidity"
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P0",
+      "result_id": "R15",
+      "result_unit": "points",
+      "result_value": 11.4,
+      "statistic_type": "Adjusted mean",
+      "statistical_method": "Intention-to-treat linear mixed-effects model with participant random effect and allocation and time-vector interactions as fixed effects. Unstructured within-participant covariance and maximum likelihood under missing at random. Table 3 reports baseline/stratum adjustment with baseline outcome, age, sex, AHI and psychiatric comorbidity.",
+      "supplementary_statistics": "SD 3.9."
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R16",
+      "result_unit": "points",
+      "result_value": 12.2,
+      "statistic_type": "Adjusted mean",
+      "statistical_method": "Intention-to-treat linear mixed-effects model with participant random effect and allocation and time-vector interactions as fixed effects. Unstructured within-participant covariance and maximum likelihood under missing at random. Table 3 reports baseline/stratum adjustment with baseline outcome, age, sex, AHI and psychiatric comorbidity.",
+      "supplementary_statistics": "SD 4.4."
+    },
+    {
+      "assessment_time": "24 weeks post-randomization",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P0",
+      "result_id": "R17",
+      "result_unit": "points",
+      "result_value": 8.1,
+      "statistic_type": "Adjusted mean",
+      "statistical_method": "Intention-to-treat linear mixed-effects model with participant random effect and allocation and time-vector interactions as fixed effects. Unstructured within-participant covariance and maximum likelihood under missing at random. Table 3 reports baseline/stratum adjustment with baseline outcome, age, sex, AHI and psychiatric comorbidity.",
+      "supplementary_statistics": "SD 5.2"
+    },
+    {
+      "assessment_time": "24 weeks post-randomization",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R18",
+      "result_unit": "points",
+      "result_value": 8.6,
+      "statistic_type": "Adjusted mean",
+      "statistical_method": "Intention-to-treat linear mixed-effects model with participant random effect and allocation and time-vector interactions as fixed effects. Unstructured within-participant covariance and maximum likelihood under missing at random. Table 3 reports baseline/stratum adjustment with baseline outcome, age, sex, AHI and psychiatric comorbidity.",
+      "supplementary_statistics": "SD 5.1"
+    },
+    {
+      "assessment_time": "24 weeks post-randomization",
+      "comparison": "P0 vs P1 (BBTI plus eszopiclone versus BBTI alone) at Week 24; subtraction formula not explicitly reported.",
+      "measure_id": "M2",
+      "population_id": "P0",
+      "result_id": "R19",
+      "result_unit": "points",
+      "result_value": -0.5,
+      "statistic_type": "Between-group mean difference at 24 weeks (BBTI plus ESZ vs BBTI-only)",
+      "statistical_method": "Intention-to-treat linear mixed-effects model with participant random effect and allocation and time-vector interactions as fixed effects. Unstructured within-participant covariance and maximum likelihood under missing at random. Table 3 reports baseline/stratum adjustment with baseline outcome, age, sex, AHI and psychiatric comorbidity.",
+      "supplementary_statistics": "95% CI -3.62 to 2.62; p = 0.74; adjusted for outcome value at baseline, age, sex, AHI, and psychiatric comorbidity"
+    }
+  ]
+}

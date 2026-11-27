@@ -1,0 +1,340 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "C009",
+    "domain": "clinical",
+    "title": "Datopotamab–deruxtecan in early-stage breast cancer: the sequential multiple assignment randomized I-SPY2.2 phase 2 trial",
+    "doi": "10.1038/s41591-024-03266-2",
+    "pipeline": "clinical-trials",
+    "pmid": "39277671",
+    "pmcid": "PMC12044543",
+    "registry": "NCT01042379"
+  },
+  "files": [
+    {
+      "path": "sources/article.html",
+      "sha256": "51f7440725afb4b96e34f576fcfb0716be13cbe7e7c8640e31055655190ee956",
+      "bytes": 283083,
+      "role": "main_html",
+      "roles": [
+        "main_html"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12044543/"
+      ],
+      "association": "official PMC full HTML; citation DOI and full body verified; XML unavailable"
+    },
+    {
+      "path": "records/NCT01042379.json",
+      "sha256": "943a23faaf932b299c3cf6aa4ed2675253b60de973bb22be449f99800213a67f",
+      "bytes": 71576,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://clinicaltrials.gov/api/v2/studies/NCT01042379"
+      ],
+      "association": "own study registration explicitly reported in article; public record text only",
+      "original_filename": "NCT01042379.json",
+      "retrieved_at": "2026-10-18T01:08:51+08:00",
+      "derived_from": "225580c657b68e199504348a21591a50326c8102b0b45da79ad7a9466ee6069b",
+      "original_sha256": "225580c657b68e199504348a21591a50326c8102b0b45da79ad7a9466ee6069b",
+      "representation": "refine-lexical-json-1",
+      "provenance_transform": "exact_json_whitespace_compaction"
+    },
+    {
+      "path": "figures/nihms-2073062-f0001.jpg",
+      "sha256": "8e40c79a545abae478750930726d600277e3b67fd7e0e44378647bba8e10b789",
+      "bytes": 581783,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6b3b/12044543/90564362bade/nihms-2073062-f0001.jpg"
+      ],
+      "association": "exact linked asset in verified same-study XML"
+    },
+    {
+      "path": "figures/nihms-2073062-f0002.jpg",
+      "sha256": "0e414a392d4afc0f04d28c111274c765ec63c271db7e372c664ee3f1d75aa586",
+      "bytes": 698364,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6b3b/12044543/c04ca03f6c19/nihms-2073062-f0002.jpg"
+      ],
+      "association": "exact linked asset in verified same-study XML"
+    },
+    {
+      "path": "figures/nihms-2073062-f0003.jpg",
+      "sha256": "c417a1e273ec5607c4f491b6126dcb07f92fbd40ff7308f56479b714c7d95bfd",
+      "bytes": 346709,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6b3b/12044543/d59b3b7eaf38/nihms-2073062-f0003.jpg"
+      ],
+      "association": "exact linked asset in verified same-study XML"
+    },
+    {
+      "path": "figures/nihms-2073062-f0004.png",
+      "sha256": "3bf1b9d6e74c7c12a0d9374724963f03da3c86b26589c0aa6b805761b4a21b4d",
+      "bytes": 840046,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6b3b/12044543/d793b04855bf/nihms-2073062-f0004.jpg"
+      ],
+      "association": "exact linked asset in verified same-study XML",
+      "derived_from": "c735fb59050dd4b7a7910aff285a4bf4fed9f9056562f85bc63fd38923df1139",
+      "original_sha256": "c735fb59050dd4b7a7910aff285a4bf4fed9f9056562f85bc63fd38923df1139",
+      "original_filename": "nihms-2073062-f0004.jpg",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "figures/nihms-2073062-f0005.png",
+      "sha256": "75ac77855b87240d969ad327da3c7b373d5e2349aa096eea59e596b9a63c8249",
+      "bytes": 691298,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6b3b/12044543/d12bb9e8f8b8/nihms-2073062-f0005.jpg"
+      ],
+      "association": "exact linked asset in verified same-study XML",
+      "derived_from": "6dc0428104acd1fd4615a7f7361b8cd3aa4f715d39edb77c907e467c041aff9b",
+      "original_sha256": "6dc0428104acd1fd4615a7f7361b8cd3aa4f715d39edb77c907e467c041aff9b",
+      "original_filename": "nihms-2073062-f0005.jpg",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41591_2024_3266_MOESM1_ESM__refine/page-0001-region-01.png",
+      "sha256": "8ede3a16851d7d2fc59659bc929a3892546ca1544faf48d91f167ea4a30755f1",
+      "bytes": 3422,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41591-024-03266-2/MediaObjects/41591_2024_3266_MOESM1_ESM.pdf"
+      ],
+      "association": "exact linked asset in verified same-study XML",
+      "derived_from": "376ab3b0721a6a3b62b3ab42f3184aad3ca52159b367b142f365b10c5f80ec62",
+      "original_sha256": "376ab3b0721a6a3b62b3ab42f3184aad3ca52159b367b142f365b10c5f80ec62",
+      "original_filename": "41591_2024_3266_MOESM1_ESM.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_grayscale"
+    },
+    {
+      "path": "supplements/41591_2024_3266_MOESM1_ESM__refine/page-0003-region-01.png",
+      "sha256": "52d29a01debf15d2a40a18f9836332ac6b7fc88619d176ec1eff78c53a5de2d5",
+      "bytes": 77967,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41591-024-03266-2/MediaObjects/41591_2024_3266_MOESM1_ESM.pdf"
+      ],
+      "association": "exact linked asset in verified same-study XML",
+      "derived_from": "376ab3b0721a6a3b62b3ab42f3184aad3ca52159b367b142f365b10c5f80ec62",
+      "original_sha256": "376ab3b0721a6a3b62b3ab42f3184aad3ca52159b367b142f365b10c5f80ec62",
+      "original_filename": "41591_2024_3266_MOESM1_ESM.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41591_2024_3266_MOESM1_ESM__refine/page-0004-region-01.png",
+      "sha256": "6be4124b57e57ef3b5848ef29126591525a7421267f6e2d1e14b1336363b269a",
+      "bytes": 46771,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41591-024-03266-2/MediaObjects/41591_2024_3266_MOESM1_ESM.pdf"
+      ],
+      "association": "exact linked asset in verified same-study XML",
+      "derived_from": "376ab3b0721a6a3b62b3ab42f3184aad3ca52159b367b142f365b10c5f80ec62",
+      "original_sha256": "376ab3b0721a6a3b62b3ab42f3184aad3ca52159b367b142f365b10c5f80ec62",
+      "original_filename": "41591_2024_3266_MOESM1_ESM.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_grayscale"
+    },
+    {
+      "path": "supplements/41591_2024_3266_MOESM1_ESM__refine/page-0007-region-01.png",
+      "sha256": "0f7d5e175d99a228bc09f9e38dc7230af5cee10d135e352308753d06b810e1ef",
+      "bytes": 99575,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41591-024-03266-2/MediaObjects/41591_2024_3266_MOESM1_ESM.pdf"
+      ],
+      "association": "exact linked asset in verified same-study XML",
+      "derived_from": "376ab3b0721a6a3b62b3ab42f3184aad3ca52159b367b142f365b10c5f80ec62",
+      "original_sha256": "376ab3b0721a6a3b62b3ab42f3184aad3ca52159b367b142f365b10c5f80ec62",
+      "original_filename": "41591_2024_3266_MOESM1_ESM.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41591_2024_3266_MOESM1_ESM__refine/page-0008-region-01.png",
+      "sha256": "6a27f5342f5abb7bb2a8d07a832566cc60d67116b6569ce6090dd782bcb48759",
+      "bytes": 122466,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41591-024-03266-2/MediaObjects/41591_2024_3266_MOESM1_ESM.pdf"
+      ],
+      "association": "exact linked asset in verified same-study XML",
+      "derived_from": "376ab3b0721a6a3b62b3ab42f3184aad3ca52159b367b142f365b10c5f80ec62",
+      "original_sha256": "376ab3b0721a6a3b62b3ab42f3184aad3ca52159b367b142f365b10c5f80ec62",
+      "original_filename": "41591_2024_3266_MOESM1_ESM.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_grayscale"
+    },
+    {
+      "path": "supplements/41591_2024_3266_MOESM1_ESM__refine/content.md",
+      "sha256": "22f0370f5bead6429fa8c8e6b19814040f16664cd72d2786d107b060d1fb261f",
+      "bytes": 11150,
+      "role": "supplement",
+      "roles": [
+        "supplement"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41591-024-03266-2/MediaObjects/41591_2024_3266_MOESM1_ESM.pdf"
+      ],
+      "association": "exact linked asset in verified same-study XML",
+      "derived_from": "376ab3b0721a6a3b62b3ab42f3184aad3ca52159b367b142f365b10c5f80ec62",
+      "original_sha256": "376ab3b0721a6a3b62b3ab42f3184aad3ca52159b367b142f365b10c5f80ec62",
+      "original_filename": "41591_2024_3266_MOESM1_ESM.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "pdf_text_visual"
+    },
+    {
+      "path": "supplements/41591_2024_3266_MOESM2_ESM__refine/page-0001-region-01.png",
+      "sha256": "79b60c1603636ba0c80b16af8e3444a063de6963b2c1b524218c07e46cb4a771",
+      "bytes": 503182,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41591-024-03266-2/MediaObjects/41591_2024_3266_MOESM2_ESM.pdf"
+      ],
+      "association": "exact linked asset in verified same-study XML",
+      "derived_from": "b261abf816442b6580cebd19b3abaabb858b7d4e82355270161fa8a07ebac9d1",
+      "original_sha256": "b261abf816442b6580cebd19b3abaabb858b7d4e82355270161fa8a07ebac9d1",
+      "original_filename": "41591_2024_3266_MOESM2_ESM.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41591_2024_3266_MOESM2_ESM__refine/page-0002-region-01.png",
+      "sha256": "44e1852ec9e938368ae01e9b31b5a495fe8423273aa556f8c23f6dc5bff2e53d",
+      "bytes": 595837,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41591-024-03266-2/MediaObjects/41591_2024_3266_MOESM2_ESM.pdf"
+      ],
+      "association": "exact linked asset in verified same-study XML",
+      "derived_from": "b261abf816442b6580cebd19b3abaabb858b7d4e82355270161fa8a07ebac9d1",
+      "original_sha256": "b261abf816442b6580cebd19b3abaabb858b7d4e82355270161fa8a07ebac9d1",
+      "original_filename": "41591_2024_3266_MOESM2_ESM.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41591_2024_3266_MOESM2_ESM__refine/page-0003-region-01.png",
+      "sha256": "904f9decc86f1cbf0f5c542af5022b2d236cfe48573d548c13ded30d8cc16aec",
+      "bytes": 451716,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41591-024-03266-2/MediaObjects/41591_2024_3266_MOESM2_ESM.pdf"
+      ],
+      "association": "exact linked asset in verified same-study XML",
+      "derived_from": "b261abf816442b6580cebd19b3abaabb858b7d4e82355270161fa8a07ebac9d1",
+      "original_sha256": "b261abf816442b6580cebd19b3abaabb858b7d4e82355270161fa8a07ebac9d1",
+      "original_filename": "41591_2024_3266_MOESM2_ESM.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41591_2024_3266_MOESM2_ESM__refine/content.md",
+      "sha256": "760172848a07a9e2667e1f58462a6e234dac3eddd8398ef81485adb2f3e4ac4e",
+      "bytes": 356,
+      "role": "supplement",
+      "roles": [
+        "supplement"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41591-024-03266-2/MediaObjects/41591_2024_3266_MOESM2_ESM.pdf"
+      ],
+      "association": "exact linked asset in verified same-study XML",
+      "derived_from": "b261abf816442b6580cebd19b3abaabb858b7d4e82355270161fa8a07ebac9d1",
+      "original_sha256": "b261abf816442b6580cebd19b3abaabb858b7d4e82355270161fa8a07ebac9d1",
+      "original_filename": "41591_2024_3266_MOESM2_ESM.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "pdf_text_visual"
+    },
+    {
+      "path": "sources/article.converted.xml",
+      "sha256": "1859aac132742f8262f8cbfd280e26ca9b00deb23a11729d4346d9561660f451",
+      "bytes": 189436,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [],
+      "original_sha256": "16566f2cd7e839c64542454c96a45e01826024b9c7b375244951f4e8df4effbd",
+      "provenance_transform": "Only the local conversion source-path was replaced with sources/article.html; scientific XML content is unchanged.",
+      "original_filename": "article.converted.xml"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

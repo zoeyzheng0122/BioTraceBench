@@ -1,0 +1,382 @@
+{
+  "measure": [
+    {
+      "measure_definition": "Occurrence: development of clinical RA from treatment initiation to month 36; Participants; Clinical RA evaluation was triggered by ≥1 joint with RA-like synovitis on physical examination; assessment used the 2010 ACR/EULAR classification criteria and imaging when applicable through month 36.; Clinical RA defined by 2010 ACR/EULAR classification criteria score ≥6, or a joint examination with RA-like synovitis plus ≥1 bone erosion on x-ray of hands, wrists, and feet. Time origin was treatment initiation; event was clinical RA by month 36. Under the intercurrent event strategy, one HCQ participant was censored before clinical RA due to use of a prohibited medication.",
+      "measure_id": "M0",
+      "measure_name": "Clinical rheumatoid arthritis (clinical RA)"
+    },
+    {
+      "measure_definition": "Occurrence: development of inflammatory arthritis from treatment initiation to month 36; Participants; Physician joint examinations at clinic visits were used to identify swollen joints due to IA.; IA defined as development of ≥1 swollen joint consistent with rheumatoid arthritis-like (RA-like) synovitis. Time origin was treatment initiation; event was IA by month 36. Supplementary Table S8 reports the 36-month IA counts, Kaplan-Meier risk estimates and between-arm risk difference.",
+      "measure_id": "M1",
+      "measure_name": "Inflammatory arthritis (IA)"
+    },
+    {
+      "measure_definition": "Measured value: number of painful joints reported by the participant among 42 assessed joints; Participants; Participant self-reported joint symptoms assessment using a body-joint diagram; 42 joints assessed were hand (proximal interphalangeal and metacarpophalangeal), wrist, elbow, shoulder, hip, knee, ankle (including subtalar and talocalcaneal), and foot (metatarsophalangeal) joints on both sides. Participants indicated joints painful on the day of visit or in the past week. Summary statistics used participants with evaluable data at baseline or month 36.; Count of painful joints among the full 42-joint assessment, not restricted to participants with >0 painful joints. Medians and min–max summaries were calculated across participants; differences in medians are HCQ − placebo with bootstrap confidence intervals. Month-36 summaries use observed data, not LOCF.",
+      "measure_id": "M2",
+      "measure_name": "Participant-reported painful joints over the full 42-joint assessment"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "Hydroxychloroquine (HCQ)",
+      "intervention_regimen": "1–2 tablets daily, determined by ideal body weight; each 200 mg tablet contained 155 mg of active drug (registry: 200–400 mg HCQ daily); Daily for 12 months; followed for up to 24 months after study drug cessation.",
+      "population_definition": "Randomized treatment assignment (hydroxychloroquine) and inclusion in the modified intent-to-treat efficacy analysis; Adults aged ≥18 years with anti-CCP3 ≥2 times the upper limit of normal (≥40 units) at screening; no history of inflammatory arthritis and no evidence of inflammatory arthritis on physical examination at trial entry; no prior or current use of immunomodulatory therapy; randomized to hydroxychloroquine; met entry criteria and received at least one dose of assigned study drug; included in the primary modified intent-to-treat efficacy analysis.",
+      "population_id": "P0",
+      "population_name": "mITT hydroxychloroquine group",
+      "population_size": 69,
+      "population_time_frame": "Randomized April 2016 to November 2021; primary outcome assessed through month 36."
+    },
+    {
+      "intervention": "Placebo",
+      "intervention_regimen": "1–2 placebo tablets daily, determined by ideal body weight (registry: 200–400 mg HCQ placebo daily); Daily for 12 months; followed for up to 24 months after study drug cessation.",
+      "population_definition": "Randomized treatment assignment (placebo) and inclusion in the modified intent-to-treat efficacy analysis; Adults aged ≥18 years with anti-CCP3 ≥2 times the upper limit of normal (≥40 units) at screening; no history of inflammatory arthritis and no evidence of inflammatory arthritis on physical examination at trial entry; no prior or current use of immunomodulatory therapy; randomized to placebo; met entry criteria and received at least one dose of assigned study drug; included in the primary modified intent-to-treat efficacy analysis.",
+      "population_id": "P1",
+      "population_name": "mITT placebo group",
+      "population_size": 73,
+      "population_time_frame": "Randomized April 2016 to November 2021; primary outcome assessed through month 36."
+    },
+    {
+      "intervention": "Hydroxychloroquine (HCQ)",
+      "intervention_regimen": "1–2 tablets daily, determined by ideal body weight; each 200 mg tablet contained 155 mg of active drug (registry: 200–400 mg HCQ daily); Daily for 12 months; followed for up to 24 months after study drug cessation.",
+      "population_definition": "Hydroxychloroquine mITT participants with nonmissing baseline participant-reported painful-joint count over 42 joints; Adults aged ≥18 years with anti-CCP3 ≥40 units at screening; no history or evidence of inflammatory arthritis; no prior or current immunomodulatory therapy; randomized to hydroxychloroquine; met entry criteria and received at least one dose of assigned study drug; had an evaluable/nonmissing participant-reported painful-joint count over the full 42-joint assessment at baseline.",
+      "population_id": "P2",
+      "population_name": "mITT HCQ participants with evaluable baseline 42-joint painful-joint count",
+      "population_size": 68,
+      "population_time_frame": "Baseline visit; trial randomized April 2016 to November 2021."
+    },
+    {
+      "intervention": "Placebo",
+      "intervention_regimen": "1–2 placebo tablets daily, determined by ideal body weight (registry: 200–400 mg HCQ placebo daily); Daily for 12 months; followed for up to 24 months after study drug cessation.",
+      "population_definition": "Placebo mITT participants with nonmissing baseline participant-reported painful-joint count over 42 joints; Adults aged ≥18 years with anti-CCP3 ≥40 units at screening; no history or evidence of inflammatory arthritis; no prior or current immunomodulatory therapy; randomized to placebo; met entry criteria and received at least one dose of assigned study drug; had an evaluable/nonmissing participant-reported painful-joint count over the full 42-joint assessment at baseline.",
+      "population_id": "P3",
+      "population_name": "mITT placebo participants with evaluable baseline 42-joint painful-joint count",
+      "population_size": 73,
+      "population_time_frame": "Baseline visit; trial randomized April 2016 to November 2021."
+    },
+    {
+      "intervention": "Hydroxychloroquine (HCQ)",
+      "intervention_regimen": "1–2 tablets daily, determined by ideal body weight; each 200 mg tablet contained 155 mg of active drug (registry: 200–400 mg HCQ daily); Daily for 12 months; followed for up to 24 months after study drug cessation.",
+      "population_definition": "Hydroxychloroquine mITT participants with observed month-36 participant-reported painful-joint count over 42 joints (observed data; no LOCF); Adults aged ≥18 years with anti-CCP3 ≥40 units at screening; no history or evidence of inflammatory arthritis; no prior or current immunomodulatory therapy; randomized to hydroxychloroquine; met entry criteria and received at least one dose of assigned study drug; had an observed participant-reported painful-joint count over the full 42-joint assessment at month 36; last observation carried forward was not used.",
+      "population_id": "P4",
+      "population_name": "mITT HCQ participants with observed month-36 42-joint painful-joint count",
+      "population_size": 38,
+      "population_time_frame": "Month 36 visit; trial randomized April 2016 to November 2021."
+    },
+    {
+      "intervention": "Placebo",
+      "intervention_regimen": "1–2 placebo tablets daily, determined by ideal body weight (registry: 200–400 mg HCQ placebo daily); Daily for 12 months; followed for up to 24 months after study drug cessation.",
+      "population_definition": "Placebo mITT participants with observed month-36 participant-reported painful-joint count over 42 joints (observed data; no LOCF); Adults aged ≥18 years with anti-CCP3 ≥40 units at screening; no history or evidence of inflammatory arthritis; no prior or current immunomodulatory therapy; randomized to placebo; met entry criteria and received at least one dose of assigned study drug; had an observed participant-reported painful-joint count over the full 42-joint assessment at month 36; last observation carried forward was not used.",
+      "population_id": "P5",
+      "population_name": "mITT placebo participants with observed month-36 42-joint painful-joint count",
+      "population_size": 39,
+      "population_time_frame": "Month 36 visit; trial randomized April 2016 to November 2021."
+    },
+    {
+      "intervention": "Hydroxychloroquine (HCQ)",
+      "intervention_regimen": "1–2 tablets daily, determined by ideal body weight; each 200 mg tablet contained 155 mg of active drug (registry: 200–400 mg HCQ daily); Daily for 12 months; followed for up to 24 months after study drug cessation.",
+      "population_definition": "Randomized treatment assignment (hydroxychloroquine); Adults aged ≥18 years with anti-CCP3 ≥2 times the upper limit of normal (≥40 units) at screening; no history or evidence of inflammatory arthritis; no prior or current immunomodulatory therapy; randomized 1:1 to hydroxychloroquine.",
+      "population_id": "P6",
+      "population_name": "Randomized hydroxychloroquine group",
+      "population_size": 71,
+      "population_time_frame": "Randomized April 2016 to November 2021."
+    },
+    {
+      "intervention": "Placebo",
+      "intervention_regimen": "1–2 placebo tablets daily, determined by ideal body weight (registry: 200–400 mg HCQ placebo daily); Daily for 12 months; followed for up to 24 months after study drug cessation.",
+      "population_definition": "Randomized treatment assignment (placebo); Adults aged ≥18 years with anti-CCP3 ≥2 times the upper limit of normal (≥40 units) at screening; no history or evidence of inflammatory arthritis; no prior or current immunomodulatory therapy; randomized 1:1 to placebo.",
+      "population_id": "P7",
+      "population_name": "Randomized placebo group",
+      "population_size": 73,
+      "population_time_frame": "Randomized April 2016 to November 2021."
+    },
+    {
+      "intervention": "Hydroxychloroquine or placebo",
+      "intervention_regimen": null,
+      "population_definition": "Randomized treatment assignment; includes both hydroxychloroquine and placebo arms; All randomized participants who receive at least one dose of study drug and meet entry criteria; participants who do not complete assigned therapy are included in the groups to which they were randomized.; Reported primary-efficacy mITT population: 142 (69 HCQ, 73 placebo); distinct from the 144 randomized participants.",
+      "population_id": "P8",
+      "population_name": "Modified intent-to-treat (mITT) population",
+      "population_size": 142,
+      "population_time_frame": null
+    },
+    {
+      "intervention": "Hydroxychloroquine or placebo",
+      "intervention_regimen": "Hydroxychloroquine 200–400 mg (1–2 pills) daily or placebo 1–2 pills daily, based on ideal body weight at Screening; Daily for 12 months; participants followed to Month 36.",
+      "population_definition": "Randomized treatment assignment (hydroxychloroquine or placebo); Participants randomized in ARA08/StopRA after eligibility; high risk for future RA due to anti-CCP3 >=40 units and without a history or clinical findings of inflammatory arthritis at Baseline. Includes both hydroxychloroquine and placebo arms.",
+      "population_id": "P9",
+      "population_name": "All randomized participants",
+      "population_size": 144,
+      "population_time_frame": "Enrollment closed on November 1, 2021; 144 participants randomized."
+    }
+  ],
+  "population_relation": [
+    {
+      "population_a_id": "P0",
+      "population_b_id": "P6",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P7",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P2",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P3",
+      "population_b_id": "P1",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P4",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P5",
+      "population_b_id": "P1",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P0",
+      "population_b_id": "P1",
+      "relationship": "disjoint from"
+    },
+    {
+      "population_a_id": "P6",
+      "population_b_id": "P7",
+      "relationship": "disjoint from"
+    },
+    {
+      "population_a_id": "P0",
+      "population_b_id": "P8",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P8",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P6",
+      "population_b_id": "P9",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P7",
+      "population_b_id": "P9",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P2",
+      "population_b_id": "P3",
+      "relationship": "disjoint from"
+    },
+    {
+      "population_a_id": "P4",
+      "population_b_id": "P5",
+      "relationship": "disjoint from"
+    },
+    {
+      "population_a_id": "P8",
+      "population_b_id": "P9",
+      "relationship": "subset of"
+    }
+  ],
+  "result": [
+    {
+      "assessment_time": "Month 36 (treatment initiation to month 36)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R01",
+      "result_unit": "participants",
+      "result_value": 21,
+      "statistic_type": "Number of participants with clinical RA",
+      "statistical_method": "Descriptive count of observed clinical RA diagnoses by month 36 in the modified intention-to-treat population.",
+      "supplementary_statistics": "30.4%; Reported denominator: 69"
+    },
+    {
+      "assessment_time": "Month 36 (treatment initiation to month 36)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R02",
+      "result_unit": "participants",
+      "result_value": 24,
+      "statistic_type": "Number of participants with clinical RA",
+      "statistical_method": "Descriptive count of observed clinical RA diagnoses by month 36 in the modified intention-to-treat population. The primary IES Policy 1 time-to-event event tally reports the same placebo count.",
+      "supplementary_statistics": "32.9%; Reported denominator: 73"
+    },
+    {
+      "assessment_time": "Month 36",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R03",
+      "result_unit": null,
+      "result_value": 0.336,
+      "statistic_type": "Kaplan-Meier estimate of risk (cumulative probability) of clinical RA at 36 months",
+      "statistical_method": "Kaplan–Meier estimation under the prespecified primary intercurrent event strategy (IES) Policy 1 in the modified intention-to-treat population.",
+      "supplementary_statistics": "95% CI 0.213–0.459"
+    },
+    {
+      "assessment_time": "Month 36",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R04",
+      "result_unit": null,
+      "result_value": 0.394,
+      "statistic_type": "Kaplan-Meier estimate of risk (cumulative probability) of clinical RA at 36 months",
+      "statistical_method": "Kaplan–Meier estimation under the prespecified primary intercurrent event strategy (IES) Policy 1 in the modified intention-to-treat population.",
+      "supplementary_statistics": "95% CI 0.268–0.519"
+    },
+    {
+      "assessment_time": "Month 36",
+      "comparison": "P0 minus P1 (hydroxychloroquine minus placebo)",
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R05",
+      "result_unit": null,
+      "result_value": -0.058,
+      "statistic_type": "Risk difference (HCQ − placebo) in Kaplan-Meier estimated risk of clinical RA at 36 months",
+      "statistical_method": "Fixed-time difference in Kaplan–Meier risks under the prespecified primary intercurrent event strategy (IES) Policy 1 in the modified intention-to-treat population. The P value is from a Wald-type chi-square test on logit-transformed Kaplan–Meier survival estimates with delta-method variance.",
+      "supplementary_statistics": "95% CI −0.336 to 0.220; P = 0.52"
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P2",
+      "result_id": "R11",
+      "result_unit": null,
+      "result_value": 2.0,
+      "statistic_type": "Median number of painful joints over 42-joint assessment",
+      "statistical_method": "Observed-data median including zero counts.",
+      "supplementary_statistics": "min, max 0, 39; N = 68"
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P3",
+      "result_id": "R12",
+      "result_unit": null,
+      "result_value": 1.0,
+      "statistic_type": "Median number of painful joints over 42-joint assessment",
+      "statistical_method": "Observed-data median including zero counts.",
+      "supplementary_statistics": "min, max 0, 40; N = 73"
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": "P2 minus P3 (HCQ minus placebo)",
+      "measure_id": "M2",
+      "population_id": "P2",
+      "result_id": "R13",
+      "result_unit": null,
+      "result_value": 1.0,
+      "statistic_type": "Difference in medians (HCQ − placebo) in number of painful joints over 42-joint assessment",
+      "statistical_method": "Bootstrap confidence interval",
+      "supplementary_statistics": "95% CI −1.00 to 3.00; N = 68 HCQ, 73 placebo; CI by bootstrap resampling"
+    },
+    {
+      "assessment_time": "Month 36",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P4",
+      "result_id": "R14",
+      "result_unit": null,
+      "result_value": 1.0,
+      "statistic_type": "Median number of painful joints over 42-joint assessment",
+      "statistical_method": "Observed-data median including zero counts.",
+      "supplementary_statistics": "min, max 0, 13; N = 38"
+    },
+    {
+      "assessment_time": "Month 36",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P5",
+      "result_id": "R15",
+      "result_unit": null,
+      "result_value": 2.0,
+      "statistic_type": "Median number of painful joints over 42-joint assessment",
+      "statistical_method": "Observed-data median including zero counts.",
+      "supplementary_statistics": "min, max 0, 36; N = 39"
+    },
+    {
+      "assessment_time": "Month 36",
+      "comparison": "P4 minus P5 (HCQ minus placebo)",
+      "measure_id": "M2",
+      "population_id": "P4",
+      "result_id": "R16",
+      "result_unit": null,
+      "result_value": -1.0,
+      "statistic_type": "Difference in medians (HCQ − placebo) in number of painful joints over 42-joint assessment",
+      "statistical_method": "Bootstrap confidence interval",
+      "supplementary_statistics": "95% CI −3.00 to 0.50; N = 38 HCQ, 39 placebo; CI by bootstrap resampling"
+    },
+    {
+      "assessment_time": "Month 36 (treatment initiation to Month 36)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P0",
+      "result_id": "R17",
+      "result_unit": "participants",
+      "result_value": 21,
+      "statistic_type": "Number of participants who developed inflammatory arthritis",
+      "statistical_method": "Primary intercurrent-event strategy Policy 1. Outside diagnosis counts only if confirmed by study data, censor at off-study HCQ/prohibited medication as specified, include study-treatment discontinuers without censoring solely for stopping study drug.",
+      "supplementary_statistics": "Reported denominator: 69"
+    },
+    {
+      "assessment_time": "Month 36 (treatment initiation to Month 36)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R18",
+      "result_unit": "participants",
+      "result_value": 27,
+      "statistic_type": "Number of participants who developed inflammatory arthritis",
+      "statistical_method": "Primary intercurrent-event strategy Policy 1. Outside diagnosis counts only if confirmed by study data, censor at off-study HCQ/prohibited medication as specified, include study-treatment discontinuers without censoring solely for stopping study drug.",
+      "supplementary_statistics": "Reported denominator: 73"
+    },
+    {
+      "assessment_time": "Month 36",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P0",
+      "result_id": "R19",
+      "result_unit": null,
+      "result_value": 0.356,
+      "statistic_type": "Kaplan-Meier estimate of cumulative probability of inflammatory arthritis at 36 months",
+      "statistical_method": "Kaplan–Meier estimation",
+      "supplementary_statistics": "95% CI 0.230 to 0.482; Kaplan-Meier product-limit method with Greenwood's formula"
+    },
+    {
+      "assessment_time": "Month 36",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R20",
+      "result_unit": null,
+      "result_value": 0.425,
+      "statistic_type": "Kaplan-Meier estimate of cumulative probability of inflammatory arthritis at 36 months",
+      "statistical_method": "Kaplan–Meier estimation",
+      "supplementary_statistics": "95% CI 0.298 to 0.551; Kaplan-Meier product-limit method with Greenwood's formula"
+    },
+    {
+      "assessment_time": "Month 36",
+      "comparison": "P0 minus P1 (hydroxychloroquine minus placebo)",
+      "measure_id": "M1",
+      "population_id": "P0",
+      "result_id": "R21",
+      "result_unit": null,
+      "result_value": -0.069,
+      "statistic_type": "Risk difference (HCQ − placebo) in Kaplan-Meier estimated risk of inflammatory arthritis at 36 months",
+      "statistical_method": "Kaplan–Meier estimation",
+      "supplementary_statistics": "95% CI -0.363 to 0.226; P = 0.452; Wald-type chi-square test using logit-transformed KM survival estimates and delta-method variance"
+    }
+  ]
+}

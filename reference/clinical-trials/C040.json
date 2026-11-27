@@ -1,0 +1,175 @@
+{
+  "measure": [
+    {
+      "measure_definition": "Occurrence: remission based on modified Mayo score at Month 30; Participants; Modified Mayo score assessed at Month 30; the score includes stool frequency, rectal bleeding and endoscopic subscores.; Remission is defined as an endoscopic subscore of 0 or 1, a stool frequency subscore of 0 or 1, and a rectal bleeding subscore of 0 at Month 30. Modified Mayo score range 0 to 9; higher scores indicate more severe disease.",
+      "measure_id": "M0",
+      "measure_name": "Remission based on modified Mayo score"
+    },
+    {
+      "measure_definition": "Occurrence: endoscopic improvement (mucosal healing) at Month 30; Participants; Flexible sigmoidoscopy findings centrally read; Mayo endoscopic subscore assessed at Month 30.; Mucosal healing is defined as a Mayo endoscopic subscore of 0 or 1. The Mayo endoscopic subscore is graded from 0 to 3, with higher scores indicating more severe disease.",
+      "measure_id": "M1",
+      "measure_name": "Endoscopic improvement (mucosal healing)"
+    },
+    {
+      "measure_definition": "Occurrence: clinical response based on total Mayo score at Month 30; Participants; Total Mayo score assessed at Month 30 and compared with the induction trial baseline. Total Mayo score includes stool frequency, rectal bleeding, flexible sigmoidoscopy findings and physician global assessment.; Clinical response is defined as a decrease from the induction trial baseline total Mayo score of at least 3 points and at least 30 percent, with an accompanying decrease in rectal bleeding subscore of at least 1 point or an absolute rectal bleeding subscore of 0 or 1. Mayo score range 0 to 12; higher scores indicate more severe disease.",
+      "measure_id": "M2",
+      "measure_name": "Clinical response based on total Mayo score"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "Tofacitinib (CP-690,550) 5 mg with matching placebo",
+      "intervention_regimen": "5 mg tofacitinib per dose; one tablet of matching placebo; Orally twice daily up to 42 months; follow-up up to 4 weeks after last dose.",
+      "population_definition": "Original randomized assignment to tofacitinib 5 mg twice daily (dose reduction). Eligible adults had ulcerative colitis, received tofacitinib 10 mg twice daily for at least 2 consecutive years in OCTAVE Open, were in stable remission for at least 6 months, and had used no corticosteroid for ulcerative colitis for at least 4 weeks before baseline. Stable remission required partial Mayo score ≤2 with no subscore >1 and rectal bleeding subscore 0 at applicable visits, with at least one assessment confirming an endoscopic subscore of 0 or 1 in the 6 months before randomization. The full analysis set included randomized participants who received at least one dose. Original assignment defines membership after a dose change.",
+      "population_id": "P0",
+      "population_name": "Tofacitinib 5 mg BID full analysis set",
+      "population_size": 70,
+      "population_time_frame": "Study-level dates: start 2017-11-16; primary completion 2020-02-14; study completion 2022-03-18 (all ACTUAL). Participant-level enrolment dates: Not reported. Treatment period up to 42 months; follow-up up to 4 weeks."
+    },
+    {
+      "intervention": "Tofacitinib (CP-690,550) 10 mg",
+      "intervention_regimen": "10 mg tofacitinib per dose (two 5 mg tablets); Orally twice daily up to 42 months; follow-up up to 4 weeks after last dose.",
+      "population_definition": "Original randomized assignment to tofacitinib 10 mg twice daily (continuation). Eligible adults had ulcerative colitis, received tofacitinib 10 mg twice daily for at least 2 consecutive years in OCTAVE Open, were in stable remission for at least 6 months, and had used no corticosteroid for ulcerative colitis for at least 4 weeks before baseline. Stable remission required partial Mayo score ≤2 with no subscore >1 and rectal bleeding subscore 0 at applicable visits, with at least one assessment confirming an endoscopic subscore of 0 or 1 in the 6 months before randomization. The full analysis set included randomized participants who received at least one dose. Original assignment defines membership after a dose change.",
+      "population_id": "P1",
+      "population_name": "Tofacitinib 10 mg BID full analysis set",
+      "population_size": 70,
+      "population_time_frame": "Study-level dates: start 2017-11-16; primary completion 2020-02-14; study completion 2022-03-18 (all ACTUAL). Participant-level enrolment dates: Not reported. Treatment period up to 42 months; follow-up up to 4 weeks."
+    },
+    {
+      "intervention": "Tofacitinib (CP-690,550) 5 mg BID or 10 mg BID",
+      "intervention_regimen": "5 mg or 10 mg tofacitinib per dose according to randomized group; Orally twice daily up to 42 months; follow-up up to 4 weeks after last dose.",
+      "population_definition": "Aggregate of both original randomized dose groups (tofacitinib 5 mg BID and 10 mg BID); full analysis set; not a separate randomized comparison group.; Adults with ulcerative colitis enrolled from Study A3921139 after receiving tofacitinib 10 mg BID for at least 2 consecutive years AND in stable remission for at least 6 months before baseline AND not receiving corticosteroids for UC for at least 4 weeks before enrollment AND randomized in A3921288 to either tofacitinib 5 mg BID OR tofacitinib 10 mg BID AND received at least 1 dose. This is the aggregate full analysis set.",
+      "population_id": "P2",
+      "population_name": "Total full analysis set",
+      "population_size": 140,
+      "population_time_frame": "Study-level dates: start 2017-11-16; primary completion 2020-02-14; study completion 2022-03-18 (all ACTUAL). Participant-level enrolment dates: Not reported. Treatment period up to 42 months; follow-up up to 4 weeks."
+    }
+  ],
+  "population_relation": [
+    {
+      "population_a_id": "P0",
+      "population_b_id": "P2",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P2",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P0",
+      "population_b_id": "P1",
+      "relationship": "disjoint from"
+    }
+  ],
+  "result": [
+    {
+      "assessment_time": "Month 30 after RIVETING baseline",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R01",
+      "result_unit": "participants",
+      "result_value": 38,
+      "statistic_type": "Number of participants with remission based on modified Mayo score",
+      "statistical_method": "Regimen Group full analysis set by original randomized assignment. Includes observations after protocol dose escalation for relapse and dose reduction for DVT/PE risk. Missing data for other reasons were imputed as nonresponse.",
+      "supplementary_statistics": "38/70 (54.3%) under nonresponder imputation."
+    },
+    {
+      "assessment_time": "Month 30 after RIVETING baseline",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R02",
+      "result_unit": "participants",
+      "result_value": 45,
+      "statistic_type": "Number of participants with remission based on modified Mayo score",
+      "statistical_method": "Regimen Group full analysis set by original randomized assignment. Includes observations after protocol dose escalation for relapse and dose reduction for DVT/PE risk. Missing data for other reasons were imputed as nonresponse.",
+      "supplementary_statistics": "45/70 (64.3%) under nonresponder imputation."
+    },
+    {
+      "assessment_time": "Month 30 after RIVETING baseline",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P0",
+      "result_id": "R04",
+      "result_unit": "%",
+      "result_value": 61.4,
+      "statistic_type": "Responder proportion",
+      "statistical_method": "Regimen Group full analysis set by original randomized assignment. Includes observations after protocol dose escalation for relapse and dose reduction for DVT/PE risk. Missing data for other reasons were imputed as nonresponse.",
+      "supplementary_statistics": "Regimen Group denominator: 70 under nonresponder imputation."
+    },
+    {
+      "assessment_time": "Month 30 after RIVETING baseline",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R05",
+      "result_unit": "%",
+      "result_value": 67.1,
+      "statistic_type": "Responder proportion",
+      "statistical_method": "Regimen Group full analysis set by original randomized assignment. Includes observations after protocol dose escalation for relapse and dose reduction for DVT/PE risk. Missing data for other reasons were imputed as nonresponse.",
+      "supplementary_statistics": "Regimen Group denominator: 70 under nonresponder imputation."
+    },
+    {
+      "assessment_time": "Month 30 after RIVETING baseline",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P0",
+      "result_id": "R06",
+      "result_unit": "%",
+      "result_value": 67.1,
+      "statistic_type": "Responder proportion",
+      "statistical_method": "Regimen Group full analysis set by original randomized assignment. Includes observations after protocol dose escalation for relapse and dose reduction for DVT/PE risk. Missing data for other reasons were imputed as nonresponse.",
+      "supplementary_statistics": "Regimen Group denominator: 70 under nonresponder imputation."
+    },
+    {
+      "assessment_time": "Month 30 after RIVETING baseline",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R07",
+      "result_unit": "%",
+      "result_value": 68.6,
+      "statistic_type": "Responder proportion",
+      "statistical_method": "Regimen Group full analysis set by original randomized assignment. Includes observations after protocol dose escalation for relapse and dose reduction for DVT/PE risk. Missing data for other reasons were imputed as nonresponse.",
+      "supplementary_statistics": "Regimen Group denominator: 70 under nonresponder imputation."
+    },
+    {
+      "assessment_time": "Month 30 after RIVETING baseline",
+      "comparison": "P1 minus P0 (tofacitinib 10-mg BID minus 5-mg BID)",
+      "measure_id": "M0",
+      "population_id": "P2",
+      "result_id": "R12",
+      "result_unit": "percentage points",
+      "result_value": 10.0,
+      "statistic_type": "Adjusted (Cochran-Mantel-Haenszel weighted) difference in remission proportion (tofacitinib 10 mg BID minus 5 mg BID)",
+      "statistical_method": "Regimen Group full analysis set by original randomized assignment. Includes observations after protocol dose escalation for relapse and dose reduction for DVT/PE risk. Missing data for other reasons were imputed as nonresponse. Cochran–Mantel–Haenszel weighting by baseline endoscopic subscore (0 versus 1). Newcombe method by Yan and Su for the confidence interval. No hypothesis test was performed.",
+      "supplementary_statistics": "95% CI -6.2 to 25.5. Regimen Group denominator: 70 per arm under nonresponder imputation."
+    },
+    {
+      "assessment_time": "Month 30 after RIVETING baseline",
+      "comparison": "P1 minus P0 (tofacitinib 10-mg BID minus 5-mg BID)",
+      "measure_id": "M1",
+      "population_id": "P2",
+      "result_id": "R13",
+      "result_unit": "percentage points",
+      "result_value": 5.7,
+      "statistic_type": "Adjusted (Cochran-Mantel-Haenszel weighted) difference in endoscopic improvement proportion (tofacitinib 10 mg BID minus 5 mg BID)",
+      "statistical_method": "Regimen Group full analysis set by original randomized assignment. Includes observations after protocol dose escalation for relapse and dose reduction for DVT/PE risk. Missing data for other reasons were imputed as nonresponse. Cochran–Mantel–Haenszel weighting by baseline endoscopic subscore (0 versus 1). Newcombe method by Yan and Su for the confidence interval. No hypothesis test was performed.",
+      "supplementary_statistics": "95% CI -10.0 to 21.0. Regimen Group denominator: 70 per arm under nonresponder imputation."
+    },
+    {
+      "assessment_time": "Month 30 after RIVETING baseline",
+      "comparison": "P1 minus P0 (tofacitinib 10-mg BID minus 5-mg BID)",
+      "measure_id": "M2",
+      "population_id": "P2",
+      "result_id": "R14",
+      "result_unit": "percentage points",
+      "result_value": 1.4,
+      "statistic_type": "Adjusted (Cochran-Mantel-Haenszel weighted) difference in clinical response proportion (tofacitinib 10 mg BID minus 5 mg BID)",
+      "statistical_method": "Regimen Group full analysis set by original randomized assignment. Includes observations after protocol dose escalation for relapse and dose reduction for DVT/PE risk. Missing data for other reasons were imputed as nonresponse. Cochran–Mantel–Haenszel weighting by baseline endoscopic subscore (0 versus 1). Newcombe method by Yan and Su for the confidence interval. No hypothesis test was performed.",
+      "supplementary_statistics": "95% CI -13.8 to 16.6. Regimen Group denominator: 70 per arm under nonresponder imputation."
+    }
+  ]
+}

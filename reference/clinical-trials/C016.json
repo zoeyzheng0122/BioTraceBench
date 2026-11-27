@@ -1,0 +1,216 @@
+{
+  "measure": [
+    {
+      "measure_definition": "Measured value: NT-proBNP concentration in serum or plasma; Participants; NT-proBNP measured in serum or plasma at baseline (randomization visit), Week 4, Week 8, Week 12 and Week 16; central laboratory after randomization; summarized by arm as geometric mean with 95% CI.; NT-proBNP concentration reported in ng l−1; baseline defined as the randomization visit. Values are labeled geometric mean here because the article text and Fig. 2 describe geometric means; Table 2 header labels the summary as median, a conflict noted below.",
+      "measure_id": "M0",
+      "measure_name": "N-terminal prohormone B-type natriuretic peptide (NT-proBNP)"
+    },
+    {
+      "measure_definition": "Measured value: plasma cGMP concentration; Participants; Plasma cGMP measured at baseline, Week 8 and Week 16; summarized by arm as geometric mean with 95% CI.; Plasma cGMP concentration reported in nMol l−1; baseline and Week 16 values used. Values are labeled geometric mean here because the article text and Fig. 2 describe geometric means; Table 2 header labels the summary as median, a conflict noted below.",
+      "measure_id": "M2",
+      "measure_name": "Plasma cyclic guanosine monophosphate (cGMP)"
+    },
+    {
+      "measure_definition": "Investigator-reported occurrence of worsening heart failure in Table 3, counted as patients with an event; separate from all-cause death/worsening-HF composite and from number of recurrent episodes.",
+      "measure_id": "M4",
+      "measure_name": "Worsening heart failure event"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "XXB750 (fully human monoclonal IgG1 antibody targeting NPR1).",
+      "intervention_regimen": "60 mg on Day 1, then 120 mg at Weeks 4, 8 and 12 (120 mg target dose).; Subcutaneous injection every 4 weeks; four injections over the 16-week treatment period (Day 1, Week 4, Week 8, Week 12).",
+      "population_definition": "Randomized treatment arm (XXB750 120 mg) within the background ACEi/ARB stratum.; Adults with symptomatic heart failure (NYHA class II–III), LVEF <50%, elevated NT-proBNP, and stable background ACE inhibitor or ARB therapy (not background sacubitril/valsartan) at baseline; randomized to XXB750 120 mg target dose. Group size is the n reported for the background ACE/ARB column in Table 3.",
+      "population_id": "P0",
+      "population_name": "ACEi/ARB background stratum — XXB750 120 mg (reported group)",
+      "population_size": 15,
+      "population_time_frame": "Randomization period 27 December 2023 to 8 August 2024; biomarker samples at baseline and Week 16; safety observation through 12 weeks after last dose."
+    },
+    {
+      "intervention": "Matching placebo.",
+      "intervention_regimen": "Not applicable (matching placebo).; Subcutaneous injection every 4 weeks; four injections over the 16-week treatment period (Day 1, Week 4, Week 8, Week 12).",
+      "population_definition": "Randomized treatment arm (matching placebo) within the background ACEi/ARB stratum.; Adults with symptomatic heart failure (NYHA class II–III), LVEF <50%, elevated NT-proBNP, and stable background ACE inhibitor or ARB therapy (not background sacubitril/valsartan) at baseline; randomized to matching placebo. Group size is the n reported for the background ACE/ARB column in Table 3.",
+      "population_id": "P1",
+      "population_name": "ACEi/ARB background stratum — matching placebo (reported group)",
+      "population_size": 9,
+      "population_time_frame": "Randomization period 27 December 2023 to 8 August 2024; biomarker samples at baseline and Week 16; safety observation through 12 weeks after last dose."
+    }
+  ],
+  "population_relation": [
+    {
+      "population_a_id": "P0",
+      "population_b_id": "P1",
+      "relationship": "disjoint from"
+    }
+  ],
+  "result": [
+    {
+      "assessment_time": "Baseline (Week 0; randomization visit)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R01",
+      "result_unit": "ng l-1",
+      "result_value": 1060.0,
+      "statistic_type": "Geometric mean (95% CI)",
+      "statistical_method": "Descriptive geometric summary in the selected ACEi/ARB arm after early termination. Visit-specific biomarker n is unreported.",
+      "supplementary_statistics": "95% CI 579–1,940 ng l−1; group n = 15 in Table 3; baseline evaluable denominator for this stratum not separately reported."
+    },
+    {
+      "assessment_time": "Baseline (Week 0; randomization visit)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R02",
+      "result_unit": "ng l-1",
+      "result_value": 1746.0,
+      "statistic_type": "Geometric mean (95% CI)",
+      "statistical_method": "Descriptive geometric summary in the selected ACEi/ARB arm after early termination. Visit-specific biomarker n is unreported.",
+      "supplementary_statistics": "95% CI 1,076–2,833 ng l−1; group n = 9 in Table 3; baseline evaluable denominator for this stratum not separately reported."
+    },
+    {
+      "assessment_time": "Week 16 after treatment initiation",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R03",
+      "result_unit": "ng l-1",
+      "result_value": 1289.0,
+      "statistic_type": "Geometric mean (95% CI)",
+      "statistical_method": "Descriptive geometric summary in the selected ACEi/ARB arm after early termination. Visit-specific biomarker n is unreported.",
+      "supplementary_statistics": "95% CI 610–2,723 ng l−1; paired Week-16 NT-proBNP evaluable denominator Not reported; Table 3 group n = 15."
+    },
+    {
+      "assessment_time": "Week 16 after treatment initiation",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R04",
+      "result_unit": "ng l-1",
+      "result_value": 1503.0,
+      "statistic_type": "Geometric mean (95% CI)",
+      "statistical_method": "Descriptive geometric summary in the selected ACEi/ARB arm after early termination. Visit-specific biomarker n is unreported.",
+      "supplementary_statistics": "95% CI 990–2,282 ng l−1; paired Week-16 NT-proBNP evaluable denominator Not reported; Table 3 group n = 9."
+    },
+    {
+      "assessment_time": "Week 16 after treatment initiation (ratio to baseline)",
+      "comparison": "Within P0: week 16 divided by baseline",
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R05",
+      "result_unit": null,
+      "result_value": 1.21,
+      "statistic_type": "Geometric mean ratio of Week 16 to baseline (95% CI)",
+      "statistical_method": "Descriptive geometric summary in the selected ACEi/ARB arm after early termination. Visit-specific biomarker n is unreported.",
+      "supplementary_statistics": "95% CI 0.75–1.95; paired Week-16 NT-proBNP evaluable denominator Not reported; Table 3 group n = 15."
+    },
+    {
+      "assessment_time": "Week 16 after treatment initiation (ratio to baseline)",
+      "comparison": "Within P1: week 16 divided by baseline",
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R06",
+      "result_unit": null,
+      "result_value": 0.86,
+      "statistic_type": "Geometric mean ratio of Week 16 to baseline (95% CI)",
+      "statistical_method": "Descriptive geometric summary in the selected ACEi/ARB arm after early termination. Visit-specific biomarker n is unreported.",
+      "supplementary_statistics": "95% CI 0.67–1.11; paired Week-16 NT-proBNP evaluable denominator Not reported; Table 3 group n = 9."
+    },
+    {
+      "assessment_time": "Baseline (Week 0; randomization visit)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P0",
+      "result_id": "R07",
+      "result_unit": "nMol l-1",
+      "result_value": 8.65,
+      "statistic_type": "Geometric mean (95% CI)",
+      "statistical_method": "Descriptive geometric summary in the selected ACEi/ARB arm after early termination. Visit-specific biomarker n is unreported.",
+      "supplementary_statistics": "95% CI 5.98–12.49 nMol l−1; group n = 15 in Table 3; baseline evaluable denominator for this stratum not separately reported."
+    },
+    {
+      "assessment_time": "Baseline (Week 0; randomization visit)",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R08",
+      "result_unit": "nMol l-1",
+      "result_value": 8.32,
+      "statistic_type": "Geometric mean (95% CI)",
+      "statistical_method": "Descriptive geometric summary in the selected ACEi/ARB arm after early termination. Visit-specific biomarker n is unreported.",
+      "supplementary_statistics": "95% CI 6.33–10.95 nMol l−1; group n = 9 in Table 3; baseline evaluable denominator for this stratum not separately reported."
+    },
+    {
+      "assessment_time": "Week 16 after treatment initiation",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P0",
+      "result_id": "R09",
+      "result_unit": "nMol l-1",
+      "result_value": 8.7,
+      "statistic_type": "Geometric mean (95% CI)",
+      "statistical_method": "Descriptive geometric summary in the selected ACEi/ARB arm after early termination. Visit-specific biomarker n is unreported.",
+      "supplementary_statistics": "95% CI 6.19–12.22 nMol l−1; paired Week-16 cGMP evaluable denominator Not reported; Table 3 group n = 15."
+    },
+    {
+      "assessment_time": "Week 16 after treatment initiation",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R10",
+      "result_unit": "nMol l-1",
+      "result_value": 9.07,
+      "statistic_type": "Geometric mean (95% CI)",
+      "statistical_method": "Descriptive geometric summary in the selected ACEi/ARB arm after early termination. Visit-specific biomarker n is unreported.",
+      "supplementary_statistics": "95% CI 6.40–12.85 nMol l−1; paired Week-16 cGMP evaluable denominator Not reported; Table 3 group n = 9."
+    },
+    {
+      "assessment_time": "Week 16 after treatment initiation (ratio to baseline)",
+      "comparison": "Within P0: week 16 divided by baseline",
+      "measure_id": "M2",
+      "population_id": "P0",
+      "result_id": "R11",
+      "result_unit": null,
+      "result_value": 0.98,
+      "statistic_type": "Geometric mean ratio of Week 16 to baseline (95% CI)",
+      "statistical_method": "Descriptive geometric summary in the selected ACEi/ARB arm after early termination. Visit-specific biomarker n is unreported.",
+      "supplementary_statistics": "95% CI 0.72–1.32; paired Week-16 cGMP evaluable denominator Not reported; Table 3 group n = 15."
+    },
+    {
+      "assessment_time": "Week 16 after treatment initiation (ratio to baseline)",
+      "comparison": "Within P1: week 16 divided by baseline",
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R12",
+      "result_unit": null,
+      "result_value": 1.13,
+      "statistic_type": "Geometric mean ratio of Week 16 to baseline (95% CI)",
+      "statistical_method": "Descriptive geometric summary in the selected ACEi/ARB arm after early termination. Visit-specific biomarker n is unreported.",
+      "supplementary_statistics": "95% CI 0.88–1.44; paired Week-16 cGMP evaluable denominator Not reported; Table 3 group n = 9."
+    },
+    {
+      "assessment_time": "First dose through end of study treatment plus 12 weeks post-treatment (maximum 24 weeks)",
+      "comparison": null,
+      "measure_id": "M4",
+      "population_id": "P0",
+      "result_id": "R13",
+      "result_unit": "participants",
+      "result_value": 3.0,
+      "statistic_type": "Number of participants with at least one worsening HF event",
+      "statistical_method": "Descriptive patient counts and proportions for worsening heart failure in the selected ACEi/ARB safety arm.",
+      "supplementary_statistics": "20.0%; Reported denominator: 15"
+    },
+    {
+      "assessment_time": "First dose through end of study treatment plus 12 weeks post-treatment (maximum 24 weeks)",
+      "comparison": null,
+      "measure_id": "M4",
+      "population_id": "P1",
+      "result_id": "R14",
+      "result_unit": "participants",
+      "result_value": 0.0,
+      "statistic_type": "Number of participants with at least one worsening HF event",
+      "statistical_method": "Descriptive patient counts and proportions for worsening heart failure in the selected ACEi/ARB safety arm.",
+      "supplementary_statistics": "0.0%; Reported denominator: 9"
+    }
+  ]
+}

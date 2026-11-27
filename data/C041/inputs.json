@@ -1,0 +1,110 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "C041",
+    "domain": "clinical",
+    "title": "Longitudinal Outcomes of Bilateral and Unilateral Proximal Greater Occipital Nerve Pulsed Radiofrequency in Migraine: A Prospective Randomized Controlled Trial",
+    "doi": "10.3390/medicina62081554",
+    "pipeline": "clinical-trials",
+    "pmid": "42654451",
+    "pmcid": "PMC13515407",
+    "registry": "NCT06894121"
+  },
+  "files": [
+    {
+      "path": "sources/article.xml",
+      "sha256": "1baa85797b5f826d4ab0f38a73118b6e05464baed0595e62093fa5d8199bb502",
+      "bytes": 143667,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13515407/fullTextXML"
+      ],
+      "association": "exact PMCID from case identity"
+    },
+    {
+      "path": "records/ClinicalTrials-NCT06894121.json",
+      "sha256": "b9b7b542a5527c706170e40c6715bf08846b09086786aa514f33c11136f9390e",
+      "bytes": 15318,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://clinicaltrials.gov/api/v2/studies/NCT06894121"
+      ],
+      "association": "exact trial registration linked by article; verify in source projection",
+      "original_filename": "registry.json",
+      "retrieved_at": "2026-10-17T21:28:05+08:00",
+      "derived_from": "d079c00050270b16e740bc0377c5dabd875be72ac0e6aa31b28dad45b2c8aeb3",
+      "original_sha256": "d079c00050270b16e740bc0377c5dabd875be72ac0e6aa31b28dad45b2c8aeb3",
+      "representation": "refine-lexical-json-1",
+      "provenance_transform": "exact_json_whitespace_compaction"
+    },
+    {
+      "path": "figures/medicina-62-01554-g001.png",
+      "sha256": "2c977398be1283654ada2c0950a46dd8e845c8f8e76fc2f63df600e66eaa8b01",
+      "bytes": 892533,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13515407/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package",
+      "derived_from": "85fdb0bef1fd03de5392304a98550bf446ef7068bdb16a273c8419d7c2219a80",
+      "original_sha256": "85fdb0bef1fd03de5392304a98550bf446ef7068bdb16a273c8419d7c2219a80",
+      "original_filename": "medicina-62-01554-g001.webp",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "figures/medicina-62-01554-g002.png",
+      "sha256": "8fdda3bc2e4e5c6208a04be128cda4c7232f158fb61244149213217e64e0ab27",
+      "bytes": 1055796,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13515407/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package",
+      "derived_from": "ba12a8c8a6a58ad3ed2801b3bd774591066a10ba41d310ff7d3429fc1ca19f59",
+      "original_sha256": "ba12a8c8a6a58ad3ed2801b3bd774591066a10ba41d310ff7d3429fc1ca19f59",
+      "original_filename": "medicina-62-01554-g002.webp",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "figures/medicina-62-01554-g003.png",
+      "sha256": "7fc8b3a6ac4705b81dde09f92c7e66deae1f2766d46e91815add4acea7f2ad6d",
+      "bytes": 214376,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13515407/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package",
+      "derived_from": "fd21abfcd0e8e0a69d235689c1dbbe9e0012feac7006d5245d180cf777378746",
+      "original_sha256": "fd21abfcd0e8e0a69d235689c1dbbe9e0012feac7006d5245d180cf777378746",
+      "original_filename": "medicina-62-01554-g003.webp",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

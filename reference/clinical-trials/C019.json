@@ -1,0 +1,301 @@
+{
+  "measure": [
+    {
+      "measure_definition": "Measured value: LVEF by cardiac magnetic resonance imaging at 6 months.; Participants; CMR at 3 T (Achieva; Philips Medical Systems) at baseline and 6 months; short-axis imaging used for primary LVEF analysis; long-axis images used in 10 participants with suboptimal short-axis images; core laboratory analysis with CVI42 by a cardiologist blinded to treatment. Adjusted least-squares means from linear mixed-effects models with maximum likelihood, including treatment group, timepoint and treatment × time, with adjustment for age, sex, race/ethnicity, NYHA class, HF etiology, HF chronicity, eGFR, baseline NT-proBNP and baseline value.; LVEF at 6 months in the modified intention-to-treat population with baseline and 6-month CMR (n = 187; excludes 25 without follow-up CMR). Between-group difference is polypill minus enhanced usual care; higher LVEF indicates better cardiac function.",
+      "measure_id": "M0",
+      "measure_name": "Left ventricular ejection fraction (LVEF)"
+    },
+    {
+      "measure_definition": "Occurrence: rate of HF hospitalization or ED visit for HF (recurrent event episodes per 100 person-years).; Events; Clinical event ascertainment over 6 months; person-time from randomization to final study visit, loss to follow-up or death; quasi-Poisson regression with person-time offset for rate ratios; adjusted model as reported.; HF hospitalization or ED visit for HF counted as recurrent event episodes and expressed per 100 person-years; clinical event analyses included all 212 randomized participants, censoring at last follow-up, loss to follow-up or death. Adjusted rate ratio compares polypill with enhanced usual care.",
+      "measure_id": "M1",
+      "measure_name": "Heart-failure hospitalization or emergency-department visit for heart failure"
+    },
+    {
+      "measure_definition": "Categorical status: adherent by TDM, defined as detectable serum levels of all tested medications.; Participants; Follow-up serum samples; quantitative liquid chromatography-tandem mass spectrometry for serum metoprolol and spironolactone; adherent if detectable levels of all tested medications, nonadherent if any tested medication undetectable; Poisson regression with log link for adjusted rate ratio.; TDM adherence at follow-up among participants with available follow-up serum samples (n = 186). Tested medications limited to metoprolol and spironolactone; adherence was not assessed for other GDMT components. Adjusted rate ratio compares polypill with enhanced usual care.",
+      "measure_id": "M2",
+      "measure_name": "Medication adherence by therapeutic drug monitoring of serum metoprolol and spironolactone"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "Polypill (metoprolol succinate, spironolactone, empagliflozin) or enhanced usual care (individual GDMT uptitration); a renin-angiotensin system inhibitor or sacubitril/valsartan continued separately when applicable.",
+      "intervention_regimen": "Polypill components: metoprolol succinate 25/50/100/150 mg, spironolactone 12.5 mg, empagliflozin 10 mg; enhanced usual care individual GDMT doses per treating providers (no fixed dose reported).; Polypill once daily; enhanced usual care individual GDMT initiation/optimization; study visits at months 1, 3 and 6; RASi or sacubitril/valsartan continued separately.",
+      "population_definition": "Randomized 1:1 to polypill-based therapy or enhanced usual care, stratified by acute versus chronic HF status and Black versus non-Black race.; Adults aged ≥18 years with symptomatic heart failure and LVEF ≤40% on screening echocardiogram who were not receiving target doses of quadruple GDMT and were randomized in POLY-HF at Parkland Hospital or Clements University Hospital. Key exclusions: serum creatinine >2.5 mg dl−1 for men or >2.0 mg dl−1 for women, contraindications to GDMT, or inability to undergo CMR.",
+      "population_id": "P0",
+      "population_name": "All randomized POLY-HF participants",
+      "population_size": 212,
+      "population_time_frame": "Randomized between November 2021 and October 2025; follow-up to 6 months."
+    },
+    {
+      "intervention": "Polypill containing metoprolol succinate, spironolactone and empagliflozin; continued RASi or sacubitril/valsartan separately.",
+      "intervention_regimen": "Metoprolol succinate 25/50/100/150 mg; spironolactone 12.5 mg; empagliflozin 10 mg.; Once-daily polypill; initial 30-day prescription; uptitration at months 1, 3 and 6 based on clinical response and tolerability; transitioned to equivalent individual GDMT at 6 months.",
+      "population_definition": "Randomized to polypill-based therapy.; Adults aged ≥18 years with symptomatic heart failure and LVEF ≤40% on screening echocardiogram, not receiving target doses of quadruple GDMT, randomized to polypill-based therapy in POLY-HF.",
+      "population_id": "P1",
+      "population_name": "Polypill arm",
+      "population_size": 108,
+      "population_time_frame": "Randomized between November 2021 and October 2025; 6-month follow-up."
+    },
+    {
+      "intervention": "Individual GDMT (beta-blocker, MRA, SGLT2i, RASi/ARNI) optimization; no polypill.",
+      "intervention_regimen": "Not reported (individual GDMT doses at treating providers' discretion; no fixed dose reported).; Study team collaborated with primary care or cardiology providers to initiate and optimize individual GDMT; study visits at months 1, 3 and 6; GDMT provided at no cost.",
+      "population_definition": "Randomized to enhanced usual care.; Adults aged ≥18 years with symptomatic heart failure and LVEF ≤40% on screening echocardiogram, not receiving target doses of quadruple GDMT, randomized to enhanced usual care in POLY-HF.",
+      "population_id": "P2",
+      "population_name": "Enhanced usual care arm",
+      "population_size": 104,
+      "population_time_frame": "Randomized between November 2021 and October 2025; 6-month follow-up."
+    },
+    {
+      "intervention": "As randomized: polypill (metoprolol succinate, spironolactone, empagliflozin) or enhanced usual care individual GDMT.",
+      "intervention_regimen": "As randomized: polypill components metoprolol succinate 25/50/100/150 mg, spironolactone 12.5 mg, empagliflozin 10 mg; enhanced usual care individual GDMT doses per treating providers.; As randomized; CMR at baseline and 6 months.",
+      "population_definition": "Both randomized arms combined; participants with baseline and 6-month CMR.; Randomized to either polypill or enhanced usual care; baseline and 6-month CMR available; 187 of 212 randomized participants (88%); excludes 25 participants without follow-up CMR.",
+      "population_id": "P3",
+      "population_name": "Modified intention-to-treat CMR population",
+      "population_size": 187,
+      "population_time_frame": "Baseline and 6-month CMR; randomized between November 2021 and October 2025."
+    },
+    {
+      "intervention": "Polypill containing metoprolol succinate, spironolactone and empagliflozin; continued RASi or sacubitril/valsartan separately.",
+      "intervention_regimen": "Metoprolol succinate 25/50/100/150 mg; spironolactone 12.5 mg; empagliflozin 10 mg.; Once-daily polypill; uptitration at months 1, 3 and 6; transitioned to equivalent individual GDMT at 6 months.",
+      "population_definition": "Polypill-randomized participants in the primary modified intention-to-treat CMR population with LVEF at both baseline and6months. Arm counts conflict: Extended Data Figure1 reports polypill93/enhanced usual care94, whereas main Figure1 reports finalMRI completers95/92. No single arm count is resolved by a supplied correction or applicable priority rule.",
+      "population_id": "P4",
+      "population_name": "Polypill CMR modified intention-to-treat subset",
+      "population_size": 93,
+      "population_time_frame": "Baseline and 6-month CMR; randomized between November 2021 and October 2025."
+    },
+    {
+      "intervention": "Individual GDMT optimization; no polypill.",
+      "intervention_regimen": "Not reported (individual GDMT doses at treating providers' discretion; no fixed dose reported).; Individual GDMT initiation/optimization; study visits at months 1, 3 and 6.",
+      "population_definition": "Enhanced usual care-randomized participants in the primary modified intention-to-treat CMR population with LVEF at both baseline and6months. Arm counts conflict: Extended Data Figure1 reports polypill93/enhanced usual care94, whereas main Figure1 reports finalMRI completers95/92. No single arm count is resolved by a supplied correction or applicable priority rule.",
+      "population_id": "P5",
+      "population_name": "Enhanced usual care CMR modified intention-to-treat subset",
+      "population_size": 94,
+      "population_time_frame": "Baseline and 6-month CMR; randomized between November 2021 and October 2025."
+    },
+    {
+      "intervention": "As randomized: polypill or enhanced usual care individual GDMT.",
+      "intervention_regimen": "As randomized: polypill components metoprolol succinate 25/50/100/150 mg, spironolactone 12.5 mg, empagliflozin 10 mg; enhanced usual care individual GDMT doses per treating providers.; Follow-up serum samples for TDM; study visits at months 1, 3 and 6.",
+      "population_definition": "Both randomized arms combined; participants with available follow-up serum samples for TDM.; Randomized to either polypill or enhanced usual care; available follow-up serum samples for TDM; adherence classified as detectable serum levels of all tested medications (metoprolol and spironolactone) versus any tested medication undetectable.",
+      "population_id": "P6",
+      "population_name": "TDM adherence-evaluable population",
+      "population_size": 186,
+      "population_time_frame": "Follow-up serum samples; randomized between November 2021 and October 2025."
+    },
+    {
+      "intervention": "Polypill containing metoprolol succinate, spironolactone and empagliflozin; continued RASi or sacubitril/valsartan separately.",
+      "intervention_regimen": "Metoprolol succinate 25/50/100/150 mg; spironolactone 12.5 mg; empagliflozin 10 mg.; Once-daily polypill; uptitration at months 1, 3 and 6; follow-up TDM sample.",
+      "population_definition": "Polypill arm participants with available follow-up serum samples for TDM.; Randomized to polypill; available follow-up serum sample for TDM; arm-specific N not reported.; Reported population size: Not reported",
+      "population_id": "P7",
+      "population_name": "Polypill TDM-evaluable subset",
+      "population_size": null,
+      "population_time_frame": "Follow-up serum samples; randomized between November 2021 and October 2025."
+    },
+    {
+      "intervention": "Individual GDMT optimization; no polypill.",
+      "intervention_regimen": "Not reported (individual GDMT doses at treating providers' discretion; no fixed dose reported).; Individual GDMT initiation/optimization; follow-up TDM sample.",
+      "population_definition": "Enhanced usual care arm participants with available follow-up serum samples for TDM.; Randomized to enhanced usual care; available follow-up serum sample for TDM; arm-specific N not reported.; Reported population size: Not reported",
+      "population_id": "P8",
+      "population_name": "Enhanced usual care TDM-evaluable subset",
+      "population_size": null,
+      "population_time_frame": "Follow-up serum samples; randomized between November 2021 and October 2025."
+    }
+  ],
+  "population_relation": [
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P2",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P3",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P4",
+      "population_b_id": "P3",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P4",
+      "population_b_id": "P1",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P5",
+      "population_b_id": "P3",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P5",
+      "population_b_id": "P2",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P6",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P7",
+      "population_b_id": "P6",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P7",
+      "population_b_id": "P1",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P8",
+      "population_b_id": "P6",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P8",
+      "population_b_id": "P2",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P2",
+      "relationship": "disjoint from"
+    },
+    {
+      "population_a_id": "P4",
+      "population_b_id": "P5",
+      "relationship": "disjoint from"
+    },
+    {
+      "population_a_id": "P7",
+      "population_b_id": "P8",
+      "relationship": "disjoint from"
+    }
+  ],
+  "result": [
+    {
+      "assessment_time": "6 months",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P4",
+      "result_id": "R01",
+      "result_unit": "%",
+      "result_value": 40.4,
+      "statistic_type": "Adjusted least-squares mean",
+      "statistical_method": "Maximum-likelihood linear mixed-effects model in the modified-ITT population with available baseline and follow-up CMR; treatment, time and treatment-by-time as fixed effects and participant as random effect, adjusted for age, sex, race/ethnicity, NYHA class, HF etiology and chronicity, eGFR and baseline NT-proBNP. Last-observation-carried-forward belongs to the separate ITT sensitivity analysis, not this selected analysis.",
+      "supplementary_statistics": "95% CI 33.8, 47.0; adjusted least-squares mean in the modified intention-to-treat CMR population."
+    },
+    {
+      "assessment_time": "6 months",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P5",
+      "result_id": "R02",
+      "result_unit": "%",
+      "result_value": 37.1,
+      "statistic_type": "Adjusted least-squares mean",
+      "statistical_method": "Maximum-likelihood linear mixed-effects model in the modified-ITT population with available baseline and follow-up CMR; treatment, time and treatment-by-time as fixed effects and participant as random effect, adjusted for age, sex, race/ethnicity, NYHA class, HF etiology and chronicity, eGFR and baseline NT-proBNP. Last-observation-carried-forward belongs to the separate ITT sensitivity analysis, not this selected analysis.",
+      "supplementary_statistics": "95% CI 30.5, 43.7; adjusted least-squares mean in the modified intention-to-treat CMR population."
+    },
+    {
+      "assessment_time": "6 months",
+      "comparison": "P4 minus P5 (polypill minus enhanced usual care)",
+      "measure_id": "M0",
+      "population_id": "P3",
+      "result_id": "R03",
+      "result_unit": "percentage points",
+      "result_value": 3.3,
+      "statistic_type": "Adjusted between-group difference in least-squares means",
+      "statistical_method": "Maximum-likelihood linear mixed-effects model in the modified-ITT population with available baseline and follow-up CMR; treatment, time and treatment-by-time as fixed effects and participant as random effect, adjusted for age, sex, race/ethnicity, NYHA class, HF etiology and chronicity, eGFR and baseline NT-proBNP. Last-observation-carried-forward belongs to the separate ITT sensitivity analysis, not this selected analysis.",
+      "supplementary_statistics": "95% CI 0.2–6.4; P = 0.039; polypill minus enhanced usual care."
+    },
+    {
+      "assessment_time": "6 months",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R04",
+      "result_unit": "events per 100 person-years",
+      "result_value": 37.0,
+      "statistic_type": "Rate per 100 person-years (event episodes)",
+      "statistical_method": "HF hospitalization or emergency department visit episodes per observed person-time in the randomized clinical-event analysis.",
+      "supplementary_statistics": "Clinical event analysis included all 212 randomized participants."
+    },
+    {
+      "assessment_time": "6 months",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P2",
+      "result_id": "R05",
+      "result_unit": "events per 100 person-years",
+      "result_value": 85.8,
+      "statistic_type": "Rate per 100 person-years (event episodes)",
+      "statistical_method": "HF hospitalization or emergency department visit episodes per observed person-time in the randomized clinical-event analysis.",
+      "supplementary_statistics": "Clinical event analysis included all 212 randomized participants."
+    },
+    {
+      "assessment_time": "6 months",
+      "comparison": "P1 relative to P2 (numerator versus reference)",
+      "measure_id": "M1",
+      "population_id": "P0",
+      "result_id": "R06",
+      "result_unit": null,
+      "result_value": 0.4,
+      "statistic_type": "Adjusted rate ratio",
+      "statistical_method": "Poisson model",
+      "supplementary_statistics": "95% CI 0.18–0.88; P = 0.024; polypill versus enhanced usual care; quasi-Poisson regression."
+    },
+    {
+      "assessment_time": "6 months",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P7",
+      "result_id": "R07",
+      "result_unit": "participants",
+      "result_value": 73,
+      "statistic_type": "Number of participants adherent by TDM",
+      "statistical_method": "Observed binary TDM adherence among participants with evaluable follow-up serum samples.",
+      "supplementary_statistics": "79.3%; TDM-evaluable total n = 186 across both arms; arm-specific denominator not reported.; Reported denominator: Not reported"
+    },
+    {
+      "assessment_time": "6 months",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P8",
+      "result_id": "R08",
+      "result_unit": "participants",
+      "result_value": 51,
+      "statistic_type": "Number of participants adherent by TDM",
+      "statistical_method": "Observed binary TDM adherence among participants with evaluable follow-up serum samples.",
+      "supplementary_statistics": "54.3%; TDM-evaluable total n = 186 across both arms; arm-specific denominator not reported.; Reported denominator: Not reported"
+    },
+    {
+      "assessment_time": "6 months",
+      "comparison": "P7 relative to P8 (numerator versus reference)",
+      "measure_id": "M2",
+      "population_id": "P6",
+      "result_id": "R09",
+      "result_unit": null,
+      "result_value": 1.5,
+      "statistic_type": "Adjusted risk ratio for TDM adherence",
+      "statistical_method": "Poisson model",
+      "supplementary_statistics": "95% CI 1.05–2.16; P = 0.027; polypill versus enhanced usual care; Poisson regression with log link."
+    },
+    {
+      "assessment_time": "6 months",
+      "comparison": "P7 vs P8; subtraction/sign direction not explicitly established",
+      "measure_id": "M2",
+      "population_id": "P6",
+      "result_id": "R10",
+      "result_unit": null,
+      "result_value": 0.001,
+      "statistic_type": "P value for unadjusted between-group comparison of TDM adherence proportions",
+      "statistical_method": "Unadjusted comparison of TDM adherence proportions. The test procedure was unreported.",
+      "supplementary_statistics": "79% versus 54% in text; test method not specified."
+    }
+  ]
+}

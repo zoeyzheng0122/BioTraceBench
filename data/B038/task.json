@@ -1,0 +1,32 @@
+{
+  "case_id": "B038",
+  "task_id": "B038",
+  "title": "Long-term daily light exposure boosts human retinal organoid differentiation",
+  "doi": "10.1038/s42003-026-10216-w",
+  "comparison_or_design": "The DIV210 proteomics comparison of native labelled primary-line control and light-conditioned pools, including the reported second-line validation.",
+  "observations_or_assays": [
+    "Mass-spectrometry proteomics"
+  ],
+  "time_scope": "DIV210 collection.",
+  "excluded": [
+    "Other ages, qPCR, Western blot and immunofluorescence branches",
+    "Treating each organoid within a reported pool or each technical replicate as an independent donor"
+  ],
+  "population_or_material": "Human retinal-organoid preparations submitted to the DIV210 proteomics experiment.",
+  "requested_items": [
+    "Daily light versus control, exposure regimen and collection DIV"
+  ],
+  "resources": [
+    {
+      "accession": "PXD065849",
+      "url": "https://www.ebi.ac.uk/pride/archive/projects/PXD065849"
+    }
+  ],
+  "domain": "basic",
+  "pipeline": "basic-research",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/basic-research.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

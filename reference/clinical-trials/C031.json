@@ -1,0 +1,165 @@
+{
+  "measure": [
+    {
+      "measure_definition": "Occurrence: use of a ts/bDMARD at 10 months; Participants; Treatment status recorded at the month 10 study visit as a binary primary outcome. Proportions were calculated relative to the total group at baseline; patients who discontinued the study were retained in the denominator with their last recorded treatment status carried forward for the binary primary outcome. The primary comparison used a one-sided two-proportion Z-test and a prespecified 5% non-inferiority margin.; Use of a targeted synthetic or biologic DMARD at 10 months after randomization. Protocol-specified ts/bDMARDs included filgotinib and tumour necrosis factor inhibitors. Patients were counted as using a ts/bDMARD if so recorded at month 10. Time origin was randomization.",
+      "measure_id": "M0",
+      "measure_name": "Targeted synthetic or biologic disease-modifying antirheumatic drug (ts/bDMARD) use"
+    },
+    {
+      "measure_definition": "Measured value: mean DAS trajectory over the 10-month follow-up; Participants; DAS measured in 44 joints; components were a 44-joint swollen joint count, a weighted 53-joint tender joint count assessed with the Ritchie Articular Index, erythrocyte sedimentation rate in mm/hour, and patient general health on a 0–100 mm visual analogue scale. Assessed monthly during the first 4 months and at months 7 and 10. Mean DAS over time analysed with a linear mixed-effects model with random intercepts for patient and centre and fixed effects for treatment arm, time (assessment month) and treatment-by-time interaction; a joint Wald test assessed all treatment-by-time interactions.; Continuous DAS over follow-up from randomization to 10 months. The overall treatment-by-time interaction test compared DAS trajectories between arms; no per-visit values were extracted. DAS ≤2.4 was the treat-to-target threshold.",
+      "measure_id": "M1",
+      "measure_name": "Disease Activity Score (DAS)"
+    },
+    {
+      "measure_definition": "Occurrence: attainment of LDA at 3 months; Participants; DAS measured in 44 joints at the 3-month visit; LDA defined as DAS ≤2.4. Proportions calculated relative to the total group at baseline, with patients who discontinued retained in the denominator.; Attainment of low disease activity, defined as DAS ≤2.4, at 3 months after randomization. This is the 3-month LDA proportion, not time to first LDA.",
+      "measure_id": "M2",
+      "measure_name": "Low disease activity (LDA)"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "Initial oral methotrexate (MTX) for autoantibody-positive patients or oral hydroxychloroquine (HCQ) for autoantibody-negative patients, each with a single intramuscular glucocorticoid bridge; protocol-specified treat-to-target intensification included triple DMARD therapy, MTX+filgotinib, MTX+a tumour necrosis factor inhibitor, and MTX+a second tumour necrosis factor inhibitor.",
+      "intervention_regimen": "MTX 15 mg once weekly in week 1, 20 mg once weekly in week 2, then 25 mg once weekly (oral/subcutaneous); HCQ 400 mg once per day and after 3 months 200 mg once per day (oral); single intramuscular triamcinolone acetonide 80 mg or methylprednisolone 120 mg; filgotinib 200 mg once per day (oral); adalimumab 40 mg every 2 weeks (subcutaneous); certolizumab pegol 400 mg at 0, 2 and 4 weeks, thereafter 200 mg every 2 weeks (subcutaneous); etanercept 50 mg once weekly (subcutaneous); golimumab 50 mg once monthly (subcutaneous); infliximab 3–5 mg/kg at 0, 2 and 6 weeks, thereafter every 8 weeks (intravenous); sulfasalazine week 1 500 mg two times per day, week 2 500 mg three times a day, week ≥3 1000 mg two times per day (oral); leflunomide 20 mg once per day (oral).; Initial treatment at baseline. Treat-to-target intensifications were allowed at months 1, 3, 4, 7 and 10 if DAS >2.4, with additional intensification opportunities at months 1 and 4 unique to this arm. Patients were assessed monthly during the first 4 months and at months 7 and 10. This is the planned schedule; observed treatment duration is not reported.",
+      "population_definition": "Randomized allocation to the tailor-made approach and inclusion in the intention-to-treat analysis.; Adults with DMARD-naïve rheumatoid arthritis meeting the 2010 American College of Rheumatology/European Alliance of Associations for Rheumatology classification criteria, irrespective of symptom duration, randomly assigned 1:1 to the tailor-made approach. Exclusions were prior or current DMARD use, systemic glucocorticoid use within 3 months before randomization, insufficient Dutch language proficiency, and contraindications to study medications. Seven patients in total across both arms found ineligible after randomization were excluded, leaving 152 patients in the intention-to-treat group.",
+      "population_id": "P0",
+      "population_name": "Tailor-made approach intention-to-treat population",
+      "population_size": 152,
+      "population_time_frame": "Recruitment 9 April 2021 to 6 May 2024; follow-up ended 3 March 2025."
+    },
+    {
+      "intervention": "Initial oral methotrexate (MTX) plus a single intramuscular glucocorticoid bridge in all patients; protocol-specified treat-to-target intensification included triple DMARD therapy, MTX+filgotinib, MTX+a tumour necrosis factor inhibitor, and MTX+a second tumour necrosis factor inhibitor.",
+      "intervention_regimen": "MTX 15 mg once weekly in week 1, 20 mg once weekly in week 2, then 25 mg once weekly (oral/subcutaneous); single intramuscular triamcinolone acetonide 80 mg or methylprednisolone 120 mg; HCQ 400 mg once per day and after 3 months 200 mg once per day (oral); sulfasalazine week 1 500 mg two times per day, week 2 500 mg three times a day, week ≥3 1000 mg two times per day (oral); leflunomide 20 mg once per day (oral); filgotinib 200 mg once per day (oral); adalimumab 40 mg every 2 weeks (subcutaneous); certolizumab pegol 400 mg at 0, 2 and 4 weeks, thereafter 200 mg every 2 weeks (subcutaneous); etanercept 50 mg once weekly (subcutaneous); golimumab 50 mg once monthly (subcutaneous); infliximab 3–5 mg/kg at 0, 2 and 6 weeks, thereafter every 8 weeks (intravenous).; Initial treatment at baseline. Treat-to-target intensifications were permitted only at months 3, 7 and 10 if DAS >2.4; extra intensifications at months 1 and 4 were not permitted. Patients were assessed monthly during the first 4 months and at months 7 and 10. This is the planned schedule; observed treatment duration is not reported.",
+      "population_definition": "Randomized allocation to routine care and inclusion in the intention-to-treat analysis.; Adults with DMARD-naïve rheumatoid arthritis meeting the 2010 American College of Rheumatology/European Alliance of Associations for Rheumatology classification criteria, irrespective of symptom duration, randomly assigned 1:1 to routine care. Exclusions were prior or current DMARD use, systemic glucocorticoid use within 3 months before randomization, insufficient Dutch language proficiency, and contraindications to study medications. Seven patients in total across both arms found ineligible after randomization were excluded, leaving 156 patients in the intention-to-treat group.",
+      "population_id": "P1",
+      "population_name": "Routine care intention-to-treat population",
+      "population_size": 156,
+      "population_time_frame": "Recruitment 9 April 2021 to 6 May 2024; follow-up ended 3 March 2025."
+    },
+    {
+      "intervention": "Tailor-made treat-to-target management approach (autoantibody-positive: methotrexate + intramuscular glucocorticoids; autoantibody-negative: hydroxychloroquine + intramuscular glucocorticoids) or routine treat-to-target care (methotrexate + intramuscular glucocorticoids).",
+      "intervention_regimen": "Methotrexate 25 mg/week orally (week 1 15 mg/week; week 2 20 mg/week; week 3 and thereafter 25 mg/week); sulfasalazine 2 g/day (week 1 500 mg bid; week 2 500 mg tid; week 3 and thereafter 1000 mg bid); hydroxychloroquine 400 mg/day; intramuscular glucocorticoids as methylprednisolone 120 mg or triamcinolone acetonide 80 mg; filgotinib 200 mg once daily; TNF inhibitor regimens as reported (adalimumab 40 mg/2 weeks s.c.; etanercept 50 mg/week s.c.; certolizumab pegol 200 mg/2 weeks s.c. after loading doses of 400 mg/2 weeks at weeks 0, 2 and 4; golimumab 50 mg/4 weeks s.c.; infliximab 3-5 mg/kg at weeks 0, 2 and 6 and 8 weekly thereafter).; Treat-to-target strategy aiming for DAS ≤2.4; routine care could intensify every 3 months, while the tailor-made approach also allowed medication alteration after 1 month and 4 months depending on response to intramuscular glucocorticoids and filgotinib, respectively; the intensification sequence was the same in both groups.",
+      "population_definition": "Randomised allocation to the tailor-made treat-to-target approach or routine treat-to-target care, with both groups combined as the design-level all-randomised population.; Adults aged ≥18 years with newly diagnosed, DMARD-naive rheumatoid arthritis according to the 2010 ACR/EULAR criteria; 315 participants were randomly assigned. Seven participants were found ineligible after randomisation and excluded from the published analysis, leaving 152 in the tailor-made group and 156 in routine care (308 analysed).",
+      "population_id": "P2",
+      "population_name": "All randomised PRIMERA participants",
+      "population_size": 315,
+      "population_time_frame": "Enrolment 9 April 2021 to 6 May 2024; published follow-up ended 3 March 2025. Registry-listed study completion date: 31 December 2025."
+    },
+    {
+      "intervention": "Tailor-made treat-to-target or routine treat-to-target",
+      "intervention_regimen": "DAS treat-to-target threshold ≤2.4. MTX escalated 15, 20, 25 mg weekly in weeks 1, 2 and ≥3. IM GC bridge, triamcinolone 80 mg or methylprednisolone 120 mg once. Escalations use triple csDMARD, then MTX + filgotinib, then MTX plus first or second TNFi.",
+      "population_definition": "DMARD-naïve adults with early RA meeting 2010 ACR/EULAR classification criteria. Assigned-arm primary ITT excludes seven patients found ineligible after randomization.",
+      "population_id": "P3",
+      "population_name": "PRIMERA primary randomized-analysis cohort",
+      "population_size": 308,
+      "population_time_frame": "Recruited 9 Apr 2021–6 May 2024, primary 10-month follow-up. Follow-up ended 3 Mar 2025."
+    }
+  ],
+  "population_relation": [
+    {
+      "population_a_id": "P0",
+      "population_b_id": "P1",
+      "relationship": "disjoint from"
+    },
+    {
+      "population_a_id": "P0",
+      "population_b_id": "P3",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P3",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P3",
+      "population_b_id": "P2",
+      "relationship": "subset of"
+    }
+  ],
+  "result": [
+    {
+      "assessment_time": "10 months after randomization",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R01",
+      "result_unit": "participants",
+      "result_value": 32,
+      "statistic_type": "Number of participants using a ts/bDMARD",
+      "statistical_method": "Primary ITT arm summary; denominator is baseline group. Last recorded treatment status carried forward for discontinuers.",
+      "supplementary_statistics": "21%; Reported denominator: 152"
+    },
+    {
+      "assessment_time": "10 months after randomization",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R02",
+      "result_unit": "participants",
+      "result_value": 27,
+      "statistic_type": "Number of participants using a ts/bDMARD",
+      "statistical_method": "Primary ITT arm summary; denominator is baseline group. Last recorded treatment status carried forward for discontinuers.",
+      "supplementary_statistics": "17%; Reported denominator: 156"
+    },
+    {
+      "assessment_time": "10 months after randomization",
+      "comparison": "P1 minus P0 (routine care minus tailor-made approach)",
+      "measure_id": "M0",
+      "population_id": "P3",
+      "result_id": "R03",
+      "result_unit": "percentage points",
+      "result_value": -4.0,
+      "statistic_type": "Absolute difference in proportion (routine care minus tailor-made approach)",
+      "statistical_method": "One-sided two-proportion Z-test, baseline ITT denominator and last-recorded treatment status carried forward for discontinuers. Prespecified 5 percentage-point NI margin; criterion was not met.",
+      "supplementary_statistics": "95% CI −13% to 5%; one-sided p=0.20"
+    },
+    {
+      "assessment_time": "Overall 10-month follow-up (randomization to month 10)",
+      "comparison": "P0 versus P1 across the 10-month longitudinal DAS analysis",
+      "measure_id": "M1",
+      "population_id": "P3",
+      "result_id": "R04",
+      "result_unit": null,
+      "result_value": 4.77,
+      "statistic_type": "Joint Wald chi-square statistic for treatment-by-time interaction",
+      "statistical_method": "Joint Wald test p value for treatment-by-time interaction",
+      "supplementary_statistics": "df=6; P=0.57"
+    },
+    {
+      "assessment_time": "3 months after randomization",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P0",
+      "result_id": "R05",
+      "result_unit": "participants",
+      "result_value": 100,
+      "statistic_type": "Number of participants with LDA",
+      "statistical_method": "Primary ITT arm summary; denominator is baseline group. Descriptive LDA analysis.",
+      "supplementary_statistics": "66%; Reported denominator: 152"
+    },
+    {
+      "assessment_time": "3 months after randomization",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R06",
+      "result_unit": "participants",
+      "result_value": 111,
+      "statistic_type": "Number of participants with LDA",
+      "statistical_method": "Primary ITT arm summary; denominator is baseline group. Descriptive LDA analysis.",
+      "supplementary_statistics": "71%; Reported denominator: 156"
+    },
+    {
+      "assessment_time": "3 months after randomization",
+      "comparison": "P1 routine care versus P0 tailor-made approach; subtraction order unreported for this endpoint.",
+      "measure_id": "M2",
+      "population_id": "P3",
+      "result_id": "R07",
+      "result_unit": "percentage points",
+      "result_value": 5,
+      "statistic_type": "Absolute difference in proportion",
+      "statistical_method": "Descriptive ITT LDA comparison; specific test method not reported.",
+      "supplementary_statistics": "95% CI −5% to 16%; p=0.31"
+    }
+  ]
+}

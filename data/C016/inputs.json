@@ -1,0 +1,220 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "C016",
+    "domain": "clinical",
+    "title": "The NPR1 agonist antibody XXB750 in heart failure: a phase 2 randomized trial",
+    "doi": "10.1038/s41591-026-04313-w",
+    "pipeline": "clinical-trials",
+    "pmid": "41912806",
+    "pmcid": "PMC13190253",
+    "registry": "NCT06142383"
+  },
+  "files": [
+    {
+      "path": "sources/article.xml",
+      "sha256": "15343c2ecf84be1c4212888878aea2fbfd141c78d707333760d5293710815ddf",
+      "bytes": 104732,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13190253.1/PMC13190253.1.xml?md5=efbd662a89a50416d57883b20154a244"
+      ],
+      "association": "official published article XML for exact DOI"
+    },
+    {
+      "path": "records/ClinicalTrials-NCT06142383.json",
+      "sha256": "c0f5edd16b0fdefa2920018480819997b478f7bdd2fa0b6ee18ce4b3a8569f9b",
+      "bytes": 71012,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://clinicaltrials.gov/api/v2/studies/NCT06142383"
+      ],
+      "association": "exact study registration explicitly identified in paper; public protocol metadata",
+      "original_filename": "registry.json",
+      "retrieved_at": "2026-10-18T02:01:13+08:00",
+      "derived_from": "67a3a10114e861b67e908bdf9bd362c547e9043ca9d28b4e0687c2ffa278df4b",
+      "original_sha256": "67a3a10114e861b67e908bdf9bd362c547e9043ca9d28b4e0687c2ffa278df4b",
+      "representation": "refine-lexical-json-1",
+      "provenance_transform": "exact_json_whitespace_compaction"
+    },
+    {
+      "path": "figures/41591_2026_4313_Fig1_HTML.jpg",
+      "sha256": "472f644bd61136b4d1e10300a140a44da8453fc08bf7252ffab0a763daf05d4a",
+      "bytes": 89356,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13190253.1/41591_2026_4313_Fig1_HTML.jpg?md5=c8aaf26bce4997bf945cc7b0f549dbb6"
+      ],
+      "association": "exact JATS Fig1 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41591_2026_4313_Fig2_HTML.jpg",
+      "sha256": "3b9dc87c77d1e57de570a5360b0709849c02dd1c5e9390a6db0ed7a76131e232",
+      "bytes": 93010,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13190253.1/41591_2026_4313_Fig2_HTML.jpg?md5=a9cad80776391294b216bcf18b4cd902"
+      ],
+      "association": "exact JATS Fig2 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41591_2026_4313_Fig3_HTML.jpg",
+      "sha256": "fe850bbde509eeef5539d0ed235a339f2ecc9c7db9b6a4a7f49c9839c2c3bd62",
+      "bytes": 67251,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13190253.1/41591_2026_4313_Fig3_HTML.jpg?md5=9b44bdf6bf116594bf733f9833691c71"
+      ],
+      "association": "exact JATS Fig3 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/41591_2026_4313_Fig4_ESM.jpg",
+      "sha256": "c29ed04ca6c64f71ecf9177d94e7dc0b5a20549d370d7c37e93da5861ecfdeeb",
+      "bytes": 239793,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13190253.1/41591_2026_4313_Fig4_ESM.jpg?md5=a6480639f331a709b26f5822dc7422ce"
+      ],
+      "association": "exact JATS Fig4 in verified PMC version; article source only"
+    },
+    {
+      "path": "figures/captions.txt",
+      "sha256": "44638cb9f57e31b439512f3a031ef08deed1fb5c4c7ccb3de5d2e3d931853422",
+      "bytes": 1661,
+      "role": "figure_captions",
+      "roles": [
+        "figure_captions"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13190253/"
+      ],
+      "derived_from": "b0e9ba3c6524ac0f6588af98bab84137fe460d7b87866b47522a319673076467"
+    },
+    {
+      "path": "supplements/41591_2026_4313_MOESM1_ESM__refine/content.md",
+      "sha256": "e80e7a6ec829d6637a4ae9d3393ba9fc13680f7f5496d72e0b855e7e31490ee9",
+      "bytes": 659921,
+      "role": "supplement",
+      "roles": [
+        "supplement"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13190253.1/41591_2026_4313_MOESM1_ESM.pdf?md5=78e4f78bd626c7c7f4c3f9247cf68085"
+      ],
+      "association": "exact JATS MOESM1 in verified PMC version; article source only",
+      "derived_from": "faa2881209586e83246ca73d1d00a1f9a30be3e36959ea4250b593fe22ff7ed2",
+      "original_sha256": "faa2881209586e83246ca73d1d00a1f9a30be3e36959ea4250b593fe22ff7ed2",
+      "original_filename": "41591_2026_4313_MOESM1_ESM.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "pdf_text_visual",
+      "prior_sha256": "e7ddef346cd6b4b3b9134ed10b920e1cb7467be4721d1669ab695c8d665106ae",
+      "compatibility_transform": "remove_task_excluded_image_reference_lines"
+    },
+    {
+      "path": "supplements/41591_2026_4313_MOESM2_ESM__refine/page-0001-region-01.png",
+      "sha256": "3ea38b7f2da0d7061f5d4c896e034dd17ad2631c859725dc95dc08e3157da0a7",
+      "bytes": 493638,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13190253.1/41591_2026_4313_MOESM2_ESM.pdf?md5=c85c5302ba43b2c85e31c27df5a4c9ab"
+      ],
+      "association": "exact JATS MOESM2 in verified PMC version; article source only",
+      "derived_from": "ce9438793ee69c43d1d4dc5e953137400796a41dd5b1245393bcec7ad8ec0b12",
+      "original_sha256": "ce9438793ee69c43d1d4dc5e953137400796a41dd5b1245393bcec7ad8ec0b12",
+      "original_filename": "41591_2026_4313_MOESM2_ESM.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41591_2026_4313_MOESM2_ESM__refine/page-0002-region-01.png",
+      "sha256": "52f61f9ca1159f4888f869c4c91fa4c5ea2e7d5fb0452df82e38137a14490999",
+      "bytes": 556631,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13190253.1/41591_2026_4313_MOESM2_ESM.pdf?md5=c85c5302ba43b2c85e31c27df5a4c9ab"
+      ],
+      "association": "exact JATS MOESM2 in verified PMC version; article source only",
+      "derived_from": "ce9438793ee69c43d1d4dc5e953137400796a41dd5b1245393bcec7ad8ec0b12",
+      "original_sha256": "ce9438793ee69c43d1d4dc5e953137400796a41dd5b1245393bcec7ad8ec0b12",
+      "original_filename": "41591_2026_4313_MOESM2_ESM.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41591_2026_4313_MOESM2_ESM__refine/page-0003-region-01.png",
+      "sha256": "34a3c0498bc55d25d0fd534ea8a4c9786646195411a11a5a62215804ffac6f36",
+      "bytes": 366655,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13190253.1/41591_2026_4313_MOESM2_ESM.pdf?md5=c85c5302ba43b2c85e31c27df5a4c9ab"
+      ],
+      "association": "exact JATS MOESM2 in verified PMC version; article source only",
+      "derived_from": "ce9438793ee69c43d1d4dc5e953137400796a41dd5b1245393bcec7ad8ec0b12",
+      "original_sha256": "ce9438793ee69c43d1d4dc5e953137400796a41dd5b1245393bcec7ad8ec0b12",
+      "original_filename": "41591_2026_4313_MOESM2_ESM.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/41591_2026_4313_MOESM2_ESM__refine/content.md",
+      "sha256": "863e4b97800c721d6e490e26c94fcbedd9af40f3549350cd7df0951e3ce67cb0",
+      "bytes": 356,
+      "role": "supplement",
+      "roles": [
+        "supplement"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13190253.1/41591_2026_4313_MOESM2_ESM.pdf?md5=c85c5302ba43b2c85e31c27df5a4c9ab"
+      ],
+      "association": "exact JATS MOESM2 in verified PMC version; article source only",
+      "derived_from": "ce9438793ee69c43d1d4dc5e953137400796a41dd5b1245393bcec7ad8ec0b12",
+      "original_sha256": "ce9438793ee69c43d1d4dc5e953137400796a41dd5b1245393bcec7ad8ec0b12",
+      "original_filename": "41591_2026_4313_MOESM2_ESM.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "pdf_text_visual"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

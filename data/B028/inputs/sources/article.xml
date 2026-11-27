@@ -1,0 +1,1191 @@
+<?xml version="1.0" encoding="UTF-8"?><article xml:lang="en" article-type="research-article"><front><journal-meta><journal-id journal-id-type="pmc-domain-id">2252</journal-id><journal-id journal-id-type="pmc-domain">physrep</journal-id><journal-title-group><journal-title>Physiological Reports</journal-title><abbrev-journal-title>Physiol Rep</abbrev-journal-title></journal-title-group><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC13239658</article-id><article-id pub-id-type="pmcaid">13239658</article-id><article-id pub-id-type="pmcaiid">13239658</article-id><article-id pub-id-type="pmid">42163780</article-id><article-id pub-id-type="doi">10.14814/phy2.70906</article-id><title-group><article-title>Loss of calcium‐dependent phospholipase A2 contributes to multi‐omic changes in mouse denervated skeletal muscle</article-title></title-group><contrib-group content-type="author"><contrib><name name-style="western"><surname>Czyżowska‐Froemling</surname><given-names initials="A">Agnieszka</given-names></name><xref ref-type="aff" rid="phy270906-aff-0001">1</xref></contrib><contrib><name name-style="western"><surname>Xu</surname><given-names initials="H">Hongyang</given-names></name><xref ref-type="aff" rid="phy270906-aff-0001">1</xref></contrib><contrib><name name-style="western"><surname>Harold</surname><given-names initials="K">Kylene</given-names></name><xref ref-type="aff" rid="phy270906-aff-0001">1</xref></contrib><contrib><name name-style="western"><surname>Thomason</surname><given-names initials="J">Jessica</given-names></name><xref ref-type="aff" rid="phy270906-aff-0001">1</xref></contrib><contrib><name name-style="western"><surname>Kneuper</surname><given-names initials="K">Kara</given-names></name><xref ref-type="aff" rid="phy270906-aff-0001">1</xref></contrib><contrib><name name-style="western"><surname>Duggan</surname><given-names initials="E">Elizabeth</given-names></name><xref ref-type="aff" rid="phy270906-aff-0001">1</xref></contrib><contrib><name name-style="western"><surname>Pranay</surname><given-names initials="A">Atul</given-names></name><xref ref-type="aff" rid="phy270906-aff-0001">1</xref></contrib><contrib><name name-style="western"><surname>Zhu</surname><given-names initials="J">Jie</given-names></name><xref ref-type="aff" rid="phy270906-aff-0001">1</xref></contrib><contrib><name name-style="western"><surname>Agbaga</surname><given-names initials="MP">Martin‐Paul</given-names></name><xref ref-type="aff" rid="phy270906-aff-0002">2</xref></contrib><contrib><name name-style="western"><surname>Georgescu</surname><given-names initials="C">Constantin</given-names></name><xref ref-type="aff" rid="phy270906-aff-0001">1</xref></contrib><contrib><name name-style="western"><surname>Tyrrell</surname><given-names initials="V">Victoria</given-names></name><xref ref-type="aff" rid="phy270906-aff-0003">3</xref></contrib><contrib><name name-style="western"><surname>O'Donnell</surname><given-names initials="V">Valerie</given-names></name><xref ref-type="aff" rid="phy270906-aff-0003">3</xref></contrib><contrib><name name-style="western"><surname>Humphries</surname><given-names initials="K">Ken</given-names></name><xref ref-type="aff" rid="phy270906-aff-0001">1</xref></contrib><contrib><name name-style="western"><surname>Van Remmen</surname><given-names initials="H">Holly</given-names></name><xref ref-type="aff" rid="phy270906-aff-0001">1</xref><xref ref-type="aff" rid="phy270906-aff-0004">4</xref></contrib><contrib><name name-style="western"><surname>Brown</surname><given-names initials="JL">Jacob L</given-names></name><xref ref-type="aff" rid="phy270906-aff-0001">1</xref><xref ref-type="aff" rid="phy270906-aff-0004">4</xref><xref ref-type="aff" rid="phy270906-aff-0005">5</xref><xref ref-type="author-notes" rid="_fncrsp93pmc__">✉</xref></contrib></contrib-group><aff id="phy270906-aff-0001"><label>
+<sup>1</sup>
+</label>Aging and Metabolism Research Program, Oklahoma Medical Research Foundation, Oklahoma City, Oklahoma, USA</aff><aff id="phy270906-aff-0002"><label>
+<sup>2</sup>
+</label>Department of Ophthalmology, and Department of Cell Biology, Dean McGee Eye Institute, and University of Oklahoma Health Sciences Center, Oklahoma City, Oklahoma, USA</aff><aff id="phy270906-aff-0003"><label>
+<sup>3</sup>
+</label>Systems Immunity Research Institute, School of Medicine, Cardiff University, Cardiff, UK</aff><aff id="phy270906-aff-0004"><label>
+<sup>4</sup>
+</label>Oklahoma City VA Medical Center, Oklahoma City, Oklahoma, USA</aff><aff id="phy270906-aff-0005"><label>
+<sup>5</sup>
+</label>Department of Health, Nutrition, and Food Sciences, Florida State University, Tallahassee, Florida, USA</aff><author-notes><fn id="correspondenceTo"><label>*</label><p>
+
+<bold>Correspondence</bold>
+, 
+Jacob L. Brown, Florida State University, 107 Chieftain Way, Tallahassee, FL 32304, USA. 
+Email: <email>jb25bw@fsu.edu</email>
+
+</p></fn><fn id="_fncrsp93pmc__"><label>✉</label><p>Corresponding author.</p></fn></author-notes><pub-date><day>21</day><month>5</month><year>2026</year></pub-date><volume>14</volume><issue>10</issue><fpage>e70906</fpage><page-range>e70906</page-range><pub-history><event event-type="pmc-release"><date><day>6</day><month>6</month><year>2026</year></date></event></pub-history><permissions><copyright-statement>© 2026 The Author(s). <italic>Physiological Reports</italic> published by Wiley Periodicals LLC on behalf of The Physiological Society and the American Physiological Society.</copyright-statement><license><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://creativecommons.org/licenses/by/4.0/" ext-link-type="uri">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="PHY2-14-e70906.pdf" content-type="pmc-pdf"><?cloudpmc-path 58d2/13239658/5d624bef1c9b/PHY2-14-e70906.pdf?><?cloudpmc-bucket app?><?size 5818789?></self-uri><abstract id="abstract1"><title>Abstract</title><p>Age‐related loss of innervation in skeletal muscle is a key driver of sarcopenia. We investigated the role of calcium‐dependent phospholipase A<sub>2</sub> (cPLA<sub>2</sub>) in denervation‐atrophy. cPLA<sub>2</sub> mediates the release of polyunsaturated fatty acid substrates, and the oxidation of the free fatty acids generates oxylipins, which are bioactive signaling facilitators. We hypothesized that loss of cPLA<sub>2</sub> would protect against muscle atrophy by altering hydroperoxide and oxylipin generation, thereby modifying the transcriptome and lipidome of denervated muscle to mitigate atrophy. We used a sciatic nerve transection model in wildtype and cPLA<sub>2</sub> knockout (KO) mice to test this hypothesis. Surprisingly, oxylipin content was significantly higher in 4,10,11,13,14‐HDoHE, 12‐HEPE, 9,10‐EpOME, and 12,13‐EpOME in gastrocnemius muscle from mice with genetic deletion of cPLA<sub>2</sub> compared to wildtype controls. We observed reductions in several glycolytic intermediates after denervation such as fructose‐6‐phosphate, glucose‐6‐phosphate, fructose‐1,6‐bisphosphate, and phosphoenol pyruvate. Both alpha‐hydroxy‐glutarate and glucose‐6‐phosphate were lower in muscle from mice lacking cPLA<sub>2</sub>. Transcriptomic analysis showed that G‐protein coupled receptor signaling was differentially expressed when comparing wildtype and cPLA<sub>2</sub> KO mice. In contrast to the protective effects previously reported with inhibition of cPLA<sub>2</sub>, we found that genetic deletion of cPLA<sub>2</sub> did not mitigate denervation‐induced muscle atrophy despite having lower hydroperoxide generation in gastrocnemius muscle.</p><sec id="kwd-group1" sec-type="kwd-group" disp-level="2"><p><bold>Keywords:</bold> atrophy, denervation, lipids, oxylipins, transcriptomics</p></sec></abstract><custom-meta-group><custom-meta><meta-name>status</meta-name><meta-value>released</meta-value></custom-meta><custom-meta><meta-name>display-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>is-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-journal-matter</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-scanned</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-retracted</meta-name><meta-value>no</meta-value></custom-meta></custom-meta-group></article-meta><notes notes-type="article-notes"><sec id="historyarticle-meta1" sec-type="history" disp-level="2"><p>Revised 2026 Apr 30; Received 2026 Apr 9; Accepted 2026 Apr 30; Collection date 2026 May.</p></sec></notes></front><body><sec id="phy270906-sec-0001" disp-level="1"><label>1.</label><title>INTRODUCTION</title><p>Age‐related loss of skeletal muscle mass and function (sarcopenia) contributes to poor quality of life and increases the risk of injury and chronic disease (Rizzoli et al., <xref rid="phy270906-bib-0054" ref-type="bibr">2013</xref>; Wickham et al., <xref rid="phy270906-bib-0066" ref-type="bibr">1989</xref>). Denervation damage is a key driver of sarcopenia (Campbell et al., <xref rid="phy270906-bib-0014" ref-type="bibr">1973</xref>; Deschenes et al., <xref rid="phy270906-bib-0019" ref-type="bibr">2010</xref>; Jang &amp; van Remmen, <xref rid="phy270906-bib-0037" ref-type="bibr">2011</xref>; Spendiff et al., <xref rid="phy270906-bib-0061" ref-type="bibr">2016</xref>). In fact, neuromuscular junction disruption and subsequent denervation that occur with aging precede hallmarks of sarcopenia such as muscle loss, mitochondrial pathologies, contractile dysfunction and impaired protein turnover (Deschenes et al., <xref rid="phy270906-bib-0019" ref-type="bibr">2010</xref>; Larsson &amp; Ansved, <xref rid="phy270906-bib-0040" ref-type="bibr">1995</xref>; Spendiff et al., <xref rid="phy270906-bib-0061" ref-type="bibr">2016</xref>). Therefore, understanding the molecular mechanisms underlying denervation‐induced muscle atrophy may help inform the design of interventions to treat sarcopenia.</p><p>We have previously shown that mitochondrial hydroperoxide (R‐OOH) generation is higher in both isolated mitochondria and permeabilized muscle fiber bundles from denervated skeletal muscle (Muller et al., <xref rid="phy270906-bib-0047" ref-type="bibr">2007</xref>). Further, hydroperoxide generation in muscle correlates with the extent of muscle atrophy in various models of neurogenic muscle atrophy (Pharaoh et al., <xref rid="phy270906-bib-0050" ref-type="bibr">2020</xref>). In subsequent studies, we reported that these hydroperoxides are primarily phospholipids and oxylipins rather than electron transport chain‐generated reactive oxygen species (Brown et al., <xref rid="phy270906-bib-0009" ref-type="bibr">2022</xref>; Pharaoh et al., <xref rid="phy270906-bib-0050" ref-type="bibr">2020</xref>). Lipid peroxidation can produce toxic signaling molecules such as 4‐hydroxynonenal (4‐HNE) (Esterbauer et al., <xref rid="phy270906-bib-0021" ref-type="bibr">1991</xref>; Schneider et al., <xref rid="phy270906-bib-0055" ref-type="bibr">2001</xref>; Spickett, <xref rid="phy270906-bib-0062" ref-type="bibr">2013</xref>). 4‐HNE has been shown to trigger skeletal muscle and mitochondrial pathologies (Dalle‐Donne et al., <xref rid="phy270906-bib-0017" ref-type="bibr">2003</xref>; del Rio et al., <xref rid="phy270906-bib-0018" ref-type="bibr">2005</xref>; Gęgotek &amp; Skrzydlewska, <xref rid="phy270906-bib-0026" ref-type="bibr">2019</xref>; Humphries et al., <xref rid="phy270906-bib-0034" ref-type="bibr">1998</xref>; Long et al., <xref rid="phy270906-bib-0045" ref-type="bibr">2009</xref>; Schwarzer et al., <xref rid="phy270906-bib-0057" ref-type="bibr">2015</xref>; Zablocka‐Slowinska et al., <xref rid="phy270906-bib-0071" ref-type="bibr">2019</xref>). Further, we have shown that scavenging lipid hydroperoxides via pharmacological intervention (Brown et al., <xref rid="phy270906-bib-0009" ref-type="bibr">2022</xref>; Brown et al., <xref rid="phy270906-bib-0011" ref-type="bibr">2025</xref>) or overexpression of phospholipid glutathione peroxidase (Xu et al., <xref rid="phy270906-bib-0068" ref-type="bibr">2023</xref>) mitigates denervation and age‐related muscle pathologies.</p><p>Omega‐3 and ‐6 polyunsaturated fatty acids (PUFAs), including arachidonic acid (AA), linoleic acid (LA), eicosapentaenoic acid (EPA), docosahexaenoic acid (DHA), and others, which are enriched in the membrane phospholipid bilayer, are a major source of lipid hydroperoxides and oxylipin signaling molecules (Burke &amp; Dennis, <xref rid="phy270906-bib-0013" ref-type="bibr">2009</xref>). A simplified schematic illustrating the source and generation of oxylipin mediators is illustrated in Figure <xref rid="phy270906-fig-0001" ref-type="fig">1</xref>. In response to external or internal stimuli or insult, these fatty acids are released from the phospholipid bilayer by phospholipase (PLA<sub>2</sub>) enzymes to provide substrates for the enzymatic generation of oxylipins by 12/15‐lipoxygenase, cytochrome p450, or cyclooxygenase enzymes [18]. The calcium‐dependent phospholipase A<sub>2</sub> (cPLA<sub>2</sub>) is ubiquitously expressed and binds Ca<sup>2+</sup> at its C2 domain, leading to a conformational change which enables membrane binding (Chiba et al., <xref rid="phy270906-bib-0015" ref-type="bibr">2004</xref>; Ohto et al., <xref rid="phy270906-bib-0049" ref-type="bibr">2005</xref>; Pickard et al., <xref rid="phy270906-bib-0051" ref-type="bibr">1999</xref>; Sharp &amp; White, <xref rid="phy270906-bib-0059" ref-type="bibr">1993</xref>).</p><fig id="phy270906-fig-0001" position="float"><?disp-level 2?><label>FIGURE 1</label><caption><p>Schematic showing various pathways in which oxylipins are generated. The figure shows various polyunsaturated fatty acid substrates used to generate oxylipins. The figure also shows enzymes that oxidize the polyunsaturated fatty acid substrate to generate an oxylipin.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="jats-graphic-1" xlink:href="PHY2-14-e70906-g002.jpg"><?cloudpmc-path blobs/58d2/13239658/e26822f0601b/PHY2-14-e70906-g002.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 727?><?original-width 1064?><?scaled-height 484?><?scaled-width 709?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="PHY2-14-e70906-g002.gif"><?cloudpmc-path blobs/58d2/13239658/41ced5f31ba7/PHY2-14-e70906-g002.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>The physiological importance of cPLA<sub>2</sub> has been documented in studies using genetically altered mice lacking the enzyme (Bonventre et al., <xref rid="phy270906-bib-0005" ref-type="bibr">1997</xref>; Brown et al., <xref rid="phy270906-bib-0012" ref-type="bibr">2009</xref>). cPLA<sub>2</sub> knockout (KO) mice were shown to have protective neurological effects following stress and injury in brain and spinal cord (Bonventre et al., <xref rid="phy270906-bib-0005" ref-type="bibr">1997</xref>; Uozumi et al., <xref rid="phy270906-bib-0065" ref-type="bibr">1997</xref>). These protective effects include smaller cerebral infarcts, reduced brain edema, less neurologic impairments, and reduced atrophy of dendrites in the spinal cord following injury (Liu et al., <xref rid="phy270906-bib-0044" ref-type="bibr">2021</xref>). Blocking cPLA<sub>2</sub> also has protective effects in skeletal muscle. We have previously shown that cPLA<sub>2</sub> protein content is higher in denervated muscle when compared to innervated muscle, and arachidonoyl trifluoromethyl ketone (AACOCF<sub>3</sub>), a phospholipase inhibitor that reduces the release of fatty acid substrate for the generation of oxylipins by PLA<sub>2</sub> enzymes, lowers the state 1 hydroperoxide signal in denervated muscle and mitigates muscle atrophy (Pharaoh et al., <xref rid="phy270906-bib-0050" ref-type="bibr">2020</xref>). In addition, cPLA<sub>2</sub> KO mice have been reported to have exaggerated hypertrophic responses in striated muscle related to altered stress related IGF‐1 signaling and enhanced growth regulatory signaling pathways that promote muscle growth (Haq et al., <xref rid="phy270906-bib-0027" ref-type="bibr">2003</xref>). Collectively, these data suggest that blocking oxylipin generation via cPLA<sub>2</sub> may be an effective strategy to mitigate denervation‐induced muscle atrophy.</p><p>Based on our previous report that inhibition of PLA<sub>2</sub> protects against denervation‐atrophy and data from others showing that deletion of cPLA<sub>2</sub> leads to muscle growth, in the current study, we asked whether genetic deletion of cPLA<sub>2</sub> protects against denervation‐induced muscle atrophy. We hypothesized that cPLA<sub>2</sub> deletion would mitigate muscle atrophy, hydroperoxide generation, and alter the transcriptome and lipidome of denervated muscle. We also predicted that G protein coupled receptor signaling, a known target of oxylipins (Barquissau et al., <xref rid="phy270906-bib-0001" ref-type="bibr">2017</xref>), would be altered in denervated muscle from cPLA<sub>2</sub> KO mice when compared to denervated muscle from wildtype mice.</p></sec><sec id="phy270906-sec-0002" disp-level="1"><label>2.</label><title>METHODS</title><sec id="phy270906-sec-0003" disp-level="2"><label>2.1.</label><title>Animals</title><p>We conducted all animal experiments in accordance with the guidelines for the care and use of laboratory animals for the Oklahoma Medical Research Foundation (OMRF). The Institutional Animal Care and Use Committees at the OMRF approved the study. Whole body cPLA<sub>2</sub> KO mice were generated by two independent groups and the initial phenotypes were reported in Nature in 1997 (Bonventre et al., <xref rid="phy270906-bib-0005" ref-type="bibr">1997</xref>). These mice develop normally, though they exhibit some fertility issues (Bonventre et al., <xref rid="phy270906-bib-0005" ref-type="bibr">1997</xref>; Brown et al., <xref rid="phy270906-bib-0012" ref-type="bibr">2009</xref>). cPLA<sub>2</sub> KO mice were acquired by Dr. Van Remmen from Dr. Joseph Bonventre at the Harvard Stem Cell Institute and bred and maintained on a C57BL/6J genetic background at OMRF. Experimental mice were group housed, kept on a 14:10 h light: dark cycle, and had access to standard rodent chow (LabDiet 5001) and water ad libitum. A combination of male and female mice was used for all experiments in the study. We did not observe any sex differences, so male and female samples were pooled for all experiments. Mice were euthanized by CO2 asphyxiation followed by cervical dislocation.</p></sec><sec id="phy270906-sec-0004" disp-level="2"><label>2.2.</label><title>Body composition measurement</title><p>Two days prior to denervation surgery, we used quantitative magnetic resonance (QMR, Echo Medial Systems, Houston, TX, USA) to assess body composition as previously described (Borowik et al., <xref rid="phy270906-bib-0006" ref-type="bibr">2024</xref>).</p></sec><sec id="phy270906-sec-0005" disp-level="2"><label>2.3.</label><title>Sciatic nerve transection surgeries</title><p>We performed sciatic nerve transection on the right hindlimb and sham surgery on the left in 6‐month‐old male and female C57BL/6J mice as previously described (Bhattacharya et al., <xref rid="phy270906-bib-0003" ref-type="bibr">2014</xref>; Pharaoh et al., <xref rid="phy270906-bib-0050" ref-type="bibr">2020</xref>). We euthanized mice 7 days after the surgery and collected tissues. After sacrifice, we compared muscle from the following groups: sham wildtype, sham cPLA<sub>2</sub> KO, denervated wildtype, and denervated cPLA<sub>2</sub> KO.</p></sec><sec id="phy270906-sec-0006" disp-level="2"><label>2.4.</label><title>Histology</title><p>After excision, gastrocnemius muscles were embedded in optimal cutting temperature (O.C.T.) compound (VWR, Radnor, PA, USA) using TissueTek Cryomolds (Sakura, 4557) and snap‐frozen in isopentane pre‐cooled with liquid nitrogen to preserve myofiber alignment. Frozen muscles were cryosectioned through the mid‐belly into 8–10 μm cross‐sections, and then the sections were mounted onto glass slides. Sections were air‐dried at room temperature for approximately 10 min and then fixed with 4% paraformaldehyde (PFA) in PBS for 30 min. Following fixation, sections were washed three times for 10 min each with PBS. Afterwards, sections were incubated in immunobuffer (50 mM glycine, 0.033% saponin, 0.25% bovine serum albumin, 5% serum corresponding to the host species of the secondary antibody, and 0.05% sodium azide) for 2 h at room temperature, as previously described (Xu et al., <xref rid="phy270906-bib-0069" ref-type="bibr">2021</xref>). Primary antibodies (anti‐dystrophin (Sigma, D8168)) for depicting sarcolemma, and anti‐cPLA2 (Cell Signaling #2832) (1:100) diluted in immunobuffer were then applied, and sections were incubated overnight at room temperature in a humidified, airtight chamber. After primary antibody incubation, sections were washed with immunobuffer and incubated with secondary antibodies (goat anti‐mouse Alexa Fluor 647 and goat anti‐rabbit Alexa Fluor 488; Life Technologies) for 2 h at room temperature in the dark. Sections were then washed twice with PBS for 10 min each and mounted with coverslips using mounting medium (Electron Microscopy Sciences, #17989). Immunofluorescence images were acquired at identical magnification (×20) using a Nikon confocal microscope (Nikon Eclipse). Representative images were downloaded as TIF files directly from Nikon NIS software. Unfortunately, tissue for our denervation experiments was used for other experiments such as lipidomics, metabolomics, RNA and protein extraction. We did not have enough gastrocnemius muscle left for histological assessments.</p></sec><sec id="phy270906-sec-0007" disp-level="2"><label>2.5.</label><title>Lipid extraction and LC/MS/MS oxylipin and phospholipid analysis</title><p>We homogenized gastrocnemius muscle and prepared samples for lipid extraction and LC/MS/MS lipidomics analysis as we have previously described (Brown et al., <xref rid="phy270906-bib-0009" ref-type="bibr">2022</xref>). Briefly, we homogenized tissue samples with ceramic beads in 1 mL antioxidant buffer containing 100 μM diethylenetriaminepentaacetic acid (DTPA) and 100 μM M butylated hydroxytoluene (BHT) in phosphate buffered saline using a Bead Ruptor Elite for 30 s at 6 m/s, under cooled nitrogen gas (4°C). We spiked samples with 12‐HETE‐d8 (2.5 ng), 15‐HETE‐d8 (2.5 ng), 13‐HODE‐d4 (2.3 ng), standards (Cayman Chemical) and 10 ng of PE 15:0–18:1‐d7 (Avanti, Alabaster, Alabama 35,007) prior to homogenization. We then extracted lipids as described in Brown et al. (Brown et al., <xref rid="phy270906-bib-0009" ref-type="bibr">2022</xref>). For oxylipin analysis, we separated lipids by liquid chromatography (LC) using a gradient of 30%–100% B over 20 min (A: Water: Mob B 95:5% + 0.1% glacial acetic acid, B: Acetonitrile: Methanol – 80:15% + 0.1% glacial acetic acid) on an Eclipse Plus C18 Column (Agilent), and analyzed on a Sciex QTRAP® 7500 LC–MS/MS system, Source conditions: TEM 475°C, IS‐2500, GS1 40, GS2 60, CUR 40 and monitored MRM transitions as detailed in the Table <xref rid="phy270906-supitem-0001" ref-type="supplementary-material">S1</xref>. Chromatographic peaks were integrated using Sciex OS 3.3.0 software (Sciex). Peaks were only selected when their intensity exceeded a 5:1 signal to noise ratio with at least 7 data points across the peak. The ratio of analyte peak areas to internal standard was taken and lipids quantified using a standard curve made up and run at the same time as the samples.</p><p>For oxPL measurements, lipids were separated by liquid chromatography (LC) using a gradient of 50%–100% B over 10 min, followed by 30 min at 100% B (A: methanol: acetonitrile: water, 1 mM ammonium acetate, 60:20:20. B: methanol, 1 mM ammonium acetate), with a flow rate of 0.2 mL/min on a Luna C18 column (15 cm × 2 mm, 3 μm) (Phenomenex), and analyzed on a Sciex QTRAP® 7500 LC–MS/MS system. Source conditions, negative ion mode: TEM 550°C, IS‐3500, GS1 60, GS2 70, CUR 40. Lipids were detecting using MRM monitoring with the following parent to daughter ion transitions: PE 18:0a_20:4(O) and PC 16:0a_20:4(O) [M − H]‐ 782.6/319.2, PE 18:0p_20:4(O) [M − H]‐ 766.6/319.2, PE 18:1p_20:4(O) [M − H]‐ 764.6/319.2, PE 16:0p_20:4(O) [M − H]‐ 738.6/319.2 and PC 18:0a_20:4(O) [M − H]‐ 810.7/319.2. We monitored PE 15:0–18:1‐d7 as internal standard using precursor to production ion transition of: [M − H]‐ 709.5/288.2. We integrated chromatographic peaks using Analyst 1.7 software (Sciex). The criteria for assigning a peak were signal: noise of at least 5:1 and with at least 7 points across a peak. These MRM transitions gave rise to multiple peaks which were integrated as a group. This method was used since MS/MS data showed these peaks to be a mixture of oxidized PLs (not isolated to HETE‐PL's, but also other oxidized FA containing PL's), however it was not possible to assign individual IDs to each peak. The ratio of analyte peak areas to internal standard was taken and displayed as relative values.</p></sec><sec id="phy270906-sec-0008" disp-level="2"><label>2.6.</label><title>Fatty acids analysis</title><p>Gastrocnemius muscles were isolated, snap frozen in liquid nitrogen, and stored at −80°C until analysis. The phospholipid composition of the muscle tissue was analyzed using methods described previously (Hopiavuori et al., <xref rid="phy270906-bib-0032" ref-type="bibr">2017</xref>; Hopiavuori et al., <xref rid="phy270906-bib-0033" ref-type="bibr">2018</xref>; Schori et al., <xref rid="phy270906-bib-0056" ref-type="bibr">2018</xref>). Briefly, the gastrocnemius muscles were homogenized in methanol using Next Advantage Bullet Blender Storm 24 (Troy, NY, USA), and diluted 1:40 with 2‐propanol/methanol/chloroform (4:2:1 v/v/v) containing 20 mM ammonium formate and 1.00 μM Phosphatidylcholine 14:0/14:0 (PC, Avanti Research 850,345), 1.00 μM phosphatidylethanolamine 14:0/14:0 (PE Avanti Research, 850,745), and 0.33 μM phosphatidylserine 14:0/ 14:0 (PS Avanti Research 840,033) as internal standards. Samples were introduced into a triple quadrupole mass spectrometer (TSQ Ultra, Thermo Scientific, Waltham, MA, United States) using a chip‐based nano‐Electron Spray Ionization source (NanoMate, Advion, Ithaca, NY, United States) operating in infusion mode. PC lipids were measured using precursor ion scanning of m/z 184, PE lipids were measured using neutral loss scanning of m/z 141, and PS lipids were measured using neutral loss scanning of m/z 185. Quantification of lipid molecular species was performed using the Lipid Mass Spectrum Analysis (LIMSA, University of Helsinki) software's peak model‐fitting algorithm. Data is represented as the relative percent of each measured species within each class (PC, PE, PS) ± standard deviation.</p><p>For fatty acid profiling of muscle tissues, total lipids were extracted from the remaining samples used for lipidomics analyses using the Bligh and Dyer method (Bligh &amp; Dyer, <xref rid="phy270906-bib-0004" ref-type="bibr">1959</xref>) with modifications (Li et al., <xref rid="phy270906-bib-0043" ref-type="bibr">2009</xref>). To each lipid extract, 15:0 and 17:0 FAs were added as internal standards. The lipid extracts were subjected to acid hydrolysis in methanol to generate fatty acid methyl esters (FAMEs) (Ford et al., <xref rid="phy270906-bib-0023" ref-type="bibr">2008</xref>). FAMEs were quantified using a gas chromatograph (6890 N, Agilent Technologies, Foster City, CA, United States) with a flame ionization detector (GC‐FID) (Yu et al., <xref rid="phy270906-bib-0070" ref-type="bibr">2012</xref>). Data are represented as the relative mole percent of each FA species.</p></sec><sec id="phy270906-sec-0009" disp-level="2"><label>2.7.</label><title>Metabolomic analysis</title><p>Targeted metabolomics was performed using liquid chromatography–mass spectrometry assays (LC–MS), as previously described (Harold et al., <xref rid="phy270906-bib-0028" ref-type="bibr">2024</xref>; Harold et al., <xref rid="phy270906-bib-0029" ref-type="bibr">2025</xref>). Briefly, frozen muscle tissue was pulverized using a Qiagen Tissue Lyser II containing pre‐chilled metal beads, followed by metabolite extraction with methanol: water (8:2 v/v), and sonication &amp; centrifugation. 5 μL of adonitol (0.2 mg/mL, Sigma, A5502) was added as an internal standard to the samples. Metabolite extracts were passed through Captiva EMR‐lipid cartridges for removal of lipids. For quality control (QC), 35 μL from each sample was pooled to generate a QC sample. Supernatant was dried and reconstituted in 100 μL of acetonitrile and water (80:20 v/v) &amp; transferred to glass inserts for LC–MS analysis.</p><p>LC–MS analysis was performed on an Agilent 6546 LC/Q‐TOF coupled to an Agilent 1290 Infinity II LC. Liquid chromatographic separation was performed on an InfinityLab Poroshell 120 HILIC‐Z column (Agilent Technologies, Santa Clara, CA) using aqueous ammonium acetate and acetonitrile as mobile phases. Hydrophilic interaction liquid chromatography (HILIC) was used with an injection volume of 1 μL. Data was acquired in a negative ESI full MS scan mode (scan range: m/z 40–1000) using Agilent MassHunter Workstation LC/MS Data Acquisition software version 10.1. Data analysis and peak integration for target metabolites was performed with Agilent MassHunter Quantitative analysis software (version 10.1). Targeted metabolomic profiling focused on glycolytic intermediates, TCA cycle intermediates and amino acids. To identify these metabolites, a custom Agilent Personal Compound Database and Library (PCDL) was created from the Agilent METLIN PCDL. An analytical standard mix of glycolytic &amp; TCA cycle intermediates, and amino acids standard mix samples were also analyzed along with muscle samples for identification of these metabolites in the samples. Relative abundance values for target metabolites were obtained by normalizing the raw data with tissue weights and adonitol (added as an internal standard) values.</p></sec><sec id="phy270906-sec-0010" disp-level="2"><label>2.8.</label><title>Muscle fiber permeabilization, oxygen consumption, and hydroperoxide production rate measurement</title><p>Muscle fiber bundles were permeabilized with saponin for the measurement of oxygen consumption and hydroperoxide production using Amplex UltraRed (Invitrogen A36006) and the Oroboros Oxygraph‐2 k (O2k, OROBOROS Instruments, Innsbruck, Austria) with a fluorometer as previously described (Brown et al., <xref rid="phy270906-bib-0010" ref-type="bibr">2017</xref>; Brown et al., <xref rid="phy270906-bib-0007" ref-type="bibr">2020</xref>; Pharaoh et al., <xref rid="phy270906-bib-0050" ref-type="bibr">2020</xref>). We normalized respiration measurements to Antimycin A (Sigma, A8674) to account for non‐mitochondrial oxygen consumption, and OCR and rates of hydroperoxide generation were normalized by milligrams of muscle bundle wet weights weighed on the Acculab AL‐104 scale.</p></sec><sec id="phy270906-sec-0011" disp-level="2"><label>2.9.</label><title>
+RNA isolation and RNA sequencing</title><p>We extracted total RNA from gastrocnemius using TRI reagent solution (Invitrogen, Carlsbad, CA, United States) as previously described (Brown et al., <xref rid="phy270906-bib-0010" ref-type="bibr">2017</xref>; Brown et al., <xref rid="phy270906-bib-0008" ref-type="bibr">2018</xref>). RNA sequencing (RNA Seq) was performed at the OMRF Clinical Genomics Core and analyzed by the Geroinformarics Core in the Oklahoma Nathan Shock Center of Excellence in the Biology of Aging as previously described (Qaisar et al., <xref rid="phy270906-bib-0053" ref-type="bibr">2020</xref>).</p><p>Sequencing was performed on an Illumina NovaSeq 6000 instrument with paired‐end 150 bp reads. Sequence reads were trimmed to remove possible adapter sequences and nucleotides with poor quality using Trimmomatic v.0.36. The trimmed reads were mapped to the Mus musculus GRCm39 (mm39) reference genome available on ENSEMBL using the STAR aligner v.2.5.2b. Unique gene hit counts were calculated by using feature Counts from the Subread package v.1.5.2.</p><p>We used R packages limma‐voom and edgeR as parts of a two‐stage pipeline for performing Differential Expression (DE) analysis of RNA‐seq data. In short, the edgeR package cleans and organizes the count data, the limma package performs robust statistical testing, while the voom function translates between the two packages. Read‐count normalization and differentially expressed analyses were performed using the edgeR package from Bioconductor. Expression values quantile normalized with the voom function were analyzed for differential expression using the standard functions of the limma package. Moderated <italic>t</italic>‐test <italic>p</italic>‐values were adjusted for multiple testing using the false discovery rate (FDR) method. The moderated <italic>t</italic>‐statistic computed by the Empirical Bayes function in the R package limma (Linear Models for Microarray Data) is a statistically enhanced version of the ordinary <italic>t</italic>‐statistic designed to increase the power and stability of differential expression analysis with small sample sizes. The test is moderated because it uses an Empirical Bayes approach to stabilize the gene‐wise variance estimates. Instead of relying solely on the possibly unreliable variance calculated from the small sample size of a single gene, Empirical Bayes borrows information across the thousands of other genes in the dataset, effectively shrinking each gene's estimated variance toward a common, pooled prior variance. This stabilization prevents extreme variance estimates from leading to spurious significant or non‐significant results, thereby yielding a more powerful and reliable test statistic than the ordinary <italic>t</italic>‐statistic. FDR (<italic>q</italic>.value) &lt; 0.05 and absolute log2 fold change above 1 were used as criteria to filter significantly differentiated genes.</p><p>Gene Set Enrichment Analysis (GSEA) was conducted using specialized Bioconductor packages, including fgsea, ReactomePA, and viewPathway, to identify functionally related gene sets (e.g., GO terms, KEGG and Reactome pathways) that were significantly overrepresented among the differentially expressed genes.</p><p>Ingenuity Pathway Analysis (IPA, QIAGEN, Redwood City CA, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.qiagenbioinformatics.com/products/ingenuitypathway-analysis" ext-link-type="uri">https://www.qiagenbioinformatics.com/products/ingenuitypathway‐analysis</ext-link>) was used to explore significant gene networks and pathways interactively.</p></sec><sec id="phy270906-sec-0012" disp-level="2"><label>2.10.</label><title>Western blot analysis</title><p>We performed western blots as previously described (Brown et al., <xref rid="phy270906-bib-0008" ref-type="bibr">2018</xref>; Brown et al., <xref rid="phy270906-bib-0007" ref-type="bibr">2020</xref>). Briefly, we homogenized gastrocnemius muscle in RIPA buffer. Protein concentrations were determined using a Bradford assay. We resolved 20–40 μg of protein by sodium dodecyl sulfate‐polyacrylamide gel electrophoresis, transferred to a nitrocellulose membrane (Thermo Scientific Catalog 88,018) and blocked in 5% weight by volume bovine serum albumin (Sigma‐Aldrich A3311) in Tris‐buffered saline with 0.2% Tween 20. We probed membranes overnight for antibodies specific to cPLA<sub>2</sub> (abcam, ab58375), iPLA<sub>2</sub> (abcam, ab259950), 15‐LOX (abcam, ab244205), and GPx4 (Santa Cruz, sc‐166,570). We used anti‐rabbit HRP‐conjugated secondary antibody (Cell signaling, 7074) per manufacturer protocols. We used Licor premium Chemiluminescent substrate (Licor, 926–95,000) to develop the western blots. Imaging was performed with G:BOX imaging system (Syngene) and quantified using Alpha View: Protein Simple analysis software.</p></sec><sec id="phy270906-sec-0013" disp-level="2"><label>2.11.</label><title>Statistical analysis</title><p>For animal experiments, independent factors were Surgery (Sham or Denervated) and genotype (wildtype or cPLA<sub>2</sub> KO). A Two‐Way ANOVA was employed for each dependent variable for animal experiments. Where we found significant <italic>F</italic>‐ratios, we used Tukey Kramer post hoc test to determine differences among means. For all experiments, the comparison‐wise error rate, <italic>α</italic>, was set at 0.05 for all statistical tests. We analyzed data and compiled figures using GraphPad Prism (La Jolla, CA, USA) and data expressed as mean ± SEM.</p></sec></sec><sec id="phy270906-sec-0014" disp-level="1"><label>3.</label><title>RESULTS</title><sec id="phy270906-sec-0015" disp-level="2"><label>3.1.</label><title>Characterization of cPLA<sub>2</sub> KO mice</title><p>Figure <xref rid="phy270906-fig-0002" ref-type="fig">2</xref> illustrates the basic characteristics of the mice used in this study. Age and body weight did not differ between groups (Figure <xref rid="phy270906-fig-0002" ref-type="fig">2a,b</xref>). While mass was unchanged, body composition was altered by genotype. The percentage lean mass was ~20% higher in cPLA<sub>2</sub> KO mice when compared to wildtype mice, and the percentage of fat mass was ~50% lower in cPLA<sub>2</sub> KO mice when compared to wildtype mice (Figure <xref rid="phy270906-fig-0002" ref-type="fig">2c</xref>). Quadricep mass and liver mass expressed relative to body mass were lower in cPLA<sub>2</sub> KO mice when compared to wildtype mice (Figure <xref rid="phy270906-fig-0002" ref-type="fig">2d</xref>). Gastrocnemius, heart, brain, and kidney mass were not different between groups (Figure <xref rid="phy270906-fig-0002" ref-type="fig">2d</xref>). Figure <xref rid="phy270906-fig-0002" ref-type="fig">2e</xref> shows that the protein content of cPLA<sub>2</sub> is localized on the sarcolemma in wildtype mice and cPLA<sub>2</sub> is undetectable in KO mice.</p><fig id="phy270906-fig-0002" position="float"><?disp-level 3?><label>FIGURE 2</label><caption><p>Characterization of cPLA<sub>2</sub> KO mouse. (a) Age of wildtype and cPLA<sub>2</sub> KO mice used for the study. (b) Bodymass of wildtype and cPLA<sub>2</sub> KO mice. (c) Body composition of wildtype and cPLA<sub>2</sub> KO mice. (d) Tissue masses of various organs normalized to body mass from wildtype and cPLA<sub>2</sub> KO mice. (e) Representative dystrophin staining images from TA muscle in wildtype and cPLA<sub>2</sub> KO mice to show the outline of the muscle fibers. Scale bar in the images is 50 μm. An <italic>n</italic> = 8–19 per group was used.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="jats-graphic-3" xlink:href="PHY2-14-e70906-g008.jpg"><?cloudpmc-path blobs/58d2/13239658/1e087b0a6fc1/PHY2-14-e70906-g008.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 510?><?original-width 1064?><?scaled-height 340?><?scaled-width 709?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="PHY2-14-e70906-g008.gif"><?cloudpmc-path blobs/58d2/13239658/99e1b86a4457/PHY2-14-e70906-g008.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec><sec id="phy270906-sec-0016" disp-level="2"><label>3.2.</label><title>
+cPLA<sub>2</sub>
+, iPLA2, 12/15‐lox, and GPx4 protein content in sham and denervated muscle from wildtype and cPLA<sub>2</sub> KO mice</title><p>PLA<sub>2</sub> enzymes release substrates such as arachidonic acid to be oxygenated by enzymes such as 12/15‐Lipoxygenase (12/15‐LOX) to generate oxylipins (mono‐oxygenated and lipid hydroperoxides) [18]. cPLA<sub>2</sub> protein content in hindlimb skeletal muscle was 2‐fold higher in denervated compared to sham control muscle in wildtype mice (Figure <xref rid="phy270906-fig-0003" ref-type="fig">3a</xref>). As expected, cPLA<sub>2</sub> protein content was not detected in sham or denervated muscle from cPLA<sub>2</sub> KO mice (Figure <xref rid="phy270906-fig-0003" ref-type="fig">3a</xref>). The protein content of iPLA<sub>2</sub> was ~50% higher in denervated muscle compared to sham, but not different between genotypes (Figure <xref rid="phy270906-fig-0003" ref-type="fig">3b</xref>), confirming the specificity of the gene deletion for the cPLA<sub>2</sub> isoform of PLA<sub>2</sub>. 12/15‐LOX expression was ~2‐fold higher in denervated muscle when compared to sham (Figure <xref rid="phy270906-fig-0003" ref-type="fig">3c</xref>). The level of 12/15‐LOX, the enzyme responsible for converting fatty acids to oxylipins such as 12‐ and 15‐HETE, 17‐HDOHE, and 13‐HODE, was significantly lower (~80%) in cPLA<sub>2</sub> KO mice versus wildtype mice (Figure <xref rid="phy270906-fig-0003" ref-type="fig">3c</xref>). We also measured the level of Phospholipid Glutathione Peroxidase (GPx4), the enzyme that reduces lipid hydroperoxides into mono‐oxygenated oxylipins (Forcina &amp; Dixon, <xref rid="phy270906-bib-0022" ref-type="bibr">2019</xref>; Imai &amp; Nakagawa, <xref rid="phy270906-bib-0035" ref-type="bibr">2003</xref>; Seibt et al., <xref rid="phy270906-bib-0058" ref-type="bibr">2019</xref>). GPx4 protein content was higher in denervated muscle when compared to sham muscle from wildtype mice, but not different in sham or denervated muscle from cPLA<sub>2</sub> KO mice (Figure <xref rid="phy270906-fig-0003" ref-type="fig">3d</xref>).</p><fig id="phy270906-fig-0003" position="float"><?disp-level 3?><label>FIGURE 3</label><caption><p>CPLA<sub>2</sub>, iPLA2, 12/15‐Lox, and GPx4 protein content in sham and denervated muscle from wildtype and cPLA<sub>2</sub> KO mice. (a) cPLA<sub>2</sub> protein content in sham and denervated gastrocnemius muscle from wildtype and cPLA<sub>2</sub> KO mice. (b) iPLA<sub>2</sub> protein content in sham and denervated gastrocnemius muscle from wildtype and cPLA<sub>2</sub> KO mice. (c) 12/15‐Lox protein content in sham and denervated gastrocnemius muscle from wildtype and cPLA<sub>2</sub> KO mice. (d) GPx4 protein content in sham and denervated gastrocnemius muscle from wildtype and cPLA<sub>2</sub> KO mice. An <italic>n</italic> = 4–9 per group was used. ME: Main Effect.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="jats-graphic-5" xlink:href="PHY2-14-e70906-g001.jpg"><?cloudpmc-path blobs/58d2/13239658/9324ed418b0e/PHY2-14-e70906-g001.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 606?><?original-width 1064?><?scaled-height 404?><?scaled-width 709?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="PHY2-14-e70906-g001.gif"><?cloudpmc-path blobs/58d2/13239658/afc97d073a46/PHY2-14-e70906-g001.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec><sec id="phy270906-sec-0017" disp-level="2"><label>3.3.</label><title>Deletion of cPLA<sub>2</sub>
+ does not mitigate denervation‐induced muscle atrophy</title><p>Our previous study using a cPLA<sub>2</sub> inhibitor, AACOCF<sub>3</sub>, showed protection against denervation induced muscle atrophy (Pharaoh et al., <xref rid="phy270906-bib-0050" ref-type="bibr">2020</xref>). Here, under similar conditions (7‐days post denervation) we measured muscle mass in wildtype and cPLA<sub>2</sub> KO mice. As expected, denervation induced loss of muscle mass in both wildtype and cPLA<sub>2</sub> KO mice (Figure <xref rid="phy270906-fig-0004" ref-type="fig">4a,b</xref>). However, contrary to our previous results using a cPLA<sub>2</sub> pharmacologic inhibitor AACOCF<sub>3</sub>, denervation in the cPLA<sub>2</sub> KO mice resulted in ~15% greater relative muscle atrophy in cPLA<sub>2</sub> KO mice compared to wildtype mice (expressed as the percentage of gastrocnemius mass lost comparing the sham and denervated limb in each individual mouse, Figure <xref rid="phy270906-fig-0004" ref-type="fig">4c</xref>).</p><fig id="phy270906-fig-0004" position="float"><?disp-level 3?><label>FIGURE 4</label><caption><p>WT and cPLA<sub>2</sub> KO mice response to denervation. (a) Gastrocnemius mass normalized to bodyweight from sham and denervated muscle in wildtype and cPLA<sub>2</sub> KO mice. (b) Matched mass loss from sham and denervated muscle in wildtype and cPLA<sub>2</sub> KO mice. (c) Percent mass loss in denervated gastrocnemius muscle from wildtype and cPLA<sub>2</sub> KO mice. An <italic>n</italic> = 13–22 per group was used. ME, main effect.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="jats-graphic-7" xlink:href="PHY2-14-e70906-g005.jpg"><?cloudpmc-path blobs/58d2/13239658/86340536c906/PHY2-14-e70906-g005.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 327?><?original-width 1064?><?scaled-height 218?><?scaled-width 709?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="PHY2-14-e70906-g005.gif"><?cloudpmc-path blobs/58d2/13239658/cef2edc43158/PHY2-14-e70906-g005.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec><sec id="phy270906-sec-0018" disp-level="2"><label>3.4.</label><title>Denervation lowers most glycolytic intermediates, and deletion of cPLA2 lowers D‐glucose‐6‐phosphate in muscle</title><p>Prior work shows that denervation (Kostrominova, <xref rid="phy270906-bib-0039" ref-type="bibr">2022</xref>) and PLA<sub>2</sub> enzymes (Prunonosa Cervera et al., <xref rid="phy270906-bib-0052" ref-type="bibr">2021</xref>) alter muscle metabolism. D‐Glucose 6‐phosphate was ~75% lower in DN muscle and muscle from cPLA<sub>2</sub> KO mice when compared to sham or wildtype controls (Figure <xref rid="phy270906-fig-0005" ref-type="fig">5a</xref>). D‐Fructose 6‐phosphate and D‐Fructose 1,6‐bisphosphate were ~50% lower in DN muscle when compared to sham (Figure <xref rid="phy270906-fig-0005" ref-type="fig">5b,c</xref>). D‐Glyceraldehyde 3‐phosphate was not different between groups (Figure <xref rid="phy270906-fig-0005" ref-type="fig">5d</xref>). 3‐Phosphoglyceric acid and Phosphoenolpyruvate were ~65% lower in DN muscle when compared to sham control (Figure <xref rid="phy270906-fig-0005" ref-type="fig">5e,f</xref>). Pyruvate and lactic acid were not different between groups.</p><fig id="phy270906-fig-0005" position="float"><?disp-level 3?><label>FIGURE 5</label><caption><p>Denervation lowers glycolysis metabolites, and deletion of cPLA2 lowers D‐glucose‐6‐phosphate in muscle. (a) D‐Glucose‐6‐Phosphate normalized to gastrocnemius weight. (b) D‐Fructose‐6‐Phosphate normalized to gastrocnemius weight. (c) D‐Fructose‐1,6‐BisPhosphate normalized to gastrocnemius weight. (d) D‐Glyceraldehyde‐3‐Phosphate normalized to gastrocnemius weight. (e) 3Phosphoglyceric Acid normalized to gastrocnemius weight. (f) Phosphoenolpyruvate normalized to gastrocnemius weight. (g) Pyruvate normalized to gastrocnemius weight. An <italic>n</italic> = 6–8 per group was used. *denotes a main effect difference with denervation; *denotes a main effect difference with denervation; ^denotes an interaction between sham and denervated WT and cPLA<sub>2</sub> KO.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="jats-graphic-9" xlink:href="PHY2-14-e70906-g007.jpg"><?cloudpmc-path blobs/58d2/13239658/aaa7710330ea/PHY2-14-e70906-g007.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1285?><?original-width 1064?><?scaled-height 856?><?scaled-width 709?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="PHY2-14-e70906-g007.gif"><?cloudpmc-path blobs/58d2/13239658/a98448ee6d2f/PHY2-14-e70906-g007.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec><sec id="phy270906-sec-0019" disp-level="2"><label>3.5.</label><title>Deletion of cPLA<sub>2</sub>
+ lowers muscle DL‐α‐hydroxyglutaric acid content and hydroperoxide generation in denervated muscle</title><p>The TCA metabolites malic acid, fumaric acid, succinic acid, and aconitic acid were not different between groups (Figure <xref rid="phy270906-fig-0006" ref-type="fig">6a–d</xref>). However, DL‐α‐hydroxyglutaric acid was ~70% lower in muscle from cPLA<sub>2</sub> KO mice when compared to muscle from wildtype mice (Figure <xref rid="phy270906-fig-0006" ref-type="fig">6e</xref>). Mitochondrial respiration and hydroperoxide generation were measured in permeabilized fiber bundles from red gastrocnemius muscle from sham and denervated wildtype and cPLA<sub>2</sub> KO mice. Complex I, complex I + II, and complex II respiration were not different between groups (Figure <xref rid="phy270906-fig-0006" ref-type="fig">6f</xref>). Hydroperoxide generation was significantly elevated by ~10‐fold in both wildtype and cPLA<sub>2</sub> KO denervated muscle when compared to sham (Figure <xref rid="phy270906-fig-0006" ref-type="fig">6g</xref>). However, hydroperoxide generation was lower in denervated muscle from cPLA<sub>2</sub> KO mice when compared to wildtype mice (Figure <xref rid="phy270906-fig-0006" ref-type="fig">6g</xref>). Collectively, these data indicate that cPLA<sub>2</sub> deletion significantly attenuates DL‐α‐hydroxyglutaric acid accumulation and mitigates hydroperoxide generation in denervated muscle, despite having no impact on mitochondrial respiratory kinetics or on standard TCA cycle intermediates.</p><fig id="phy270906-fig-0006" position="float"><?disp-level 3?><label>FIGURE 6</label><caption><p>Deletion of cPLA<sub>2</sub> lowers muscle DL‐α‐hydroxyglutaric acid content and hydroperoxide generation in denervated muscle. (a) Malic Acid normalized to gastrocnemius weight. (b) Fumaric Acid normalized to gastrocnemius weight. (c) Succinic Acid normalized to gastrocnemius weight. (d) Aconitic Acid normalized to gastrocnemius weight. (e) DL‐Alpha‐hydroxyglutaric Acid normalized to gastrocnemius weight. (f) Complex I, Complex II, and Complex I + II Respiration in permeabilized fiber bundles. (g) State 1 ROS generation in permeabilized fiber bundles. An <italic>n</italic> = 6–15 per group was used. ME: Main Effect. *denotes a main effect difference with denervation; *denotes a main effect difference with genotype; ^denotes an interaction between sham and denervated WT and cPLA<sub>2</sub> KO.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="jats-graphic-11" xlink:href="PHY2-14-e70906-g011.jpg"><?cloudpmc-path blobs/58d2/13239658/b1026cffa0ce/PHY2-14-e70906-g011.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1027?><?original-width 1064?><?scaled-height 684?><?scaled-width 709?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="PHY2-14-e70906-g011.gif"><?cloudpmc-path blobs/58d2/13239658/08e5b5bdb14e/PHY2-14-e70906-g011.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec><sec id="phy270906-sec-0020" disp-level="2"><label>3.6.</label><title>
+cPLA<sub>2</sub>
+ deletion alters the muscle polyunsaturated fatty acids</title><p>Genetic deletion of cPLA<sub>2</sub> would be predicted to reduce or limit the release of PUFAs from the membrane phospholipid pool, in particular release of arachidonic acid, to serve as substrates for the generation of oxylipins. To investigate the impact of cPLA<sub>2</sub> deletion on fatty acid levels and oxylipin generation, we measured oxidized phospholipids, PUFA substrate, and oxylipin levels in gastrocnemius muscle from sham and denervated wildtype and cPLA<sub>2</sub> KO mice. Levels of oxidized phospholipids are shown in Figure <xref rid="phy270906-fig-0007" ref-type="fig">7a,b</xref>. As expected, the levels of 18:0p/20:4(O)‐PE (Figure <xref rid="phy270906-fig-0007" ref-type="fig">7a</xref>), 16:0p/20:4(O)‐PE (Figure <xref rid="phy270906-fig-0007" ref-type="fig">7a</xref>), 18:0a/20:4(O)‐PE (Figure <xref rid="phy270906-fig-0007" ref-type="fig">7a</xref>), 18:0p/20:4(O)‐PE (Figure <xref rid="phy270906-fig-0007" ref-type="fig">7a</xref>), and 18:0a/20:4(O)‐PC (Figure <xref rid="phy270906-fig-0007" ref-type="fig">7b</xref>) were 10%–20% higher in denervated muscle from cPLA<sub>2</sub> KO mice compared to sham muscle from wildtype mice, demonstrating lack of release of arachidonic acid, 20:4n6 from the membranes of cPLA<sub>2</sub> KO mice. 16:0a/20:4 (O)‐PC was not changed in DN or cPLA<sub>2</sub> KO mice compared to control (Figure <xref rid="phy270906-fig-0007" ref-type="fig">7b</xref>). Figure <xref rid="phy270906-fig-0007" ref-type="fig">7c</xref> shows the levels of specific fatty acids measured in muscle from sham and denervated wildtype and cPLA<sub>2</sub> KO mice. Linoleic acid and DHA levels were the only fatty acids to show a change in denervation, and there were no changes in response to the loss of cPLA<sub>2</sub> (Figure <xref rid="phy270906-fig-0007" ref-type="fig">7d,e</xref>). Linoleic acid levels were ~30% higher in wildtype denervated muscle compared to wildtype sham muscle (Figure <xref rid="phy270906-fig-0007" ref-type="fig">7d</xref>), while DHA was ~20% lower in denervated muscle from cPLA<sub>2</sub> KO mice when compared to sham muscle from cPLA<sub>2</sub> KO mice (Figure <xref rid="phy270906-fig-0007" ref-type="fig">7e</xref>). The omega 6:3 ratio was ~35% higher in cPLA<sub>2</sub> KO denervated muscle compared to wildtype sham muscle (Figure <xref rid="phy270906-fig-0007" ref-type="fig">7f</xref>), but not altered in the cPLA<sub>2</sub> KO mice. Thus, contrary to the prediction that cPLA<sub>2</sub> deletion would limit substrate supply, the levels of PUFAs and arachidonic acid‐containing oxidized phospholipids were largely preserved, or even elevated, in cPLA<sub>2</sub> KO muscle, pointing to alternative mechanisms for substrate maintenance.</p><fig id="phy270906-fig-0007" position="float"><?disp-level 3?><label>FIGURE 7</label><caption><p>CPLA<sub>2</sub> deletion alters the muscle polyunsaturated fatty acids. (a) 18:1p20:1(o)‐PE phospholipid content. 16:0p 20:4(O)‐PE phospholipid content. 18:0a20:4(O)‐PE phospholipid content. 18:0p20:4(O)‐PE phospholipid content. (b) 16:0a20:4(O)‐PC phospholipid content. 18:0a20:4(O)‐PC phospholipid content. (c) Relative content of PUFA substrate. (d) Linoleic Acid content. (e) DHA Content. (f) Omega 6/3 ratio. An <italic>n</italic> = 5–9 per group was used. ME, main effect.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="jats-graphic-13" xlink:href="PHY2-14-e70906-g010.jpg"><?cloudpmc-path blobs/58d2/13239658/88738aaf3616/PHY2-14-e70906-g010.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1284?><?original-width 1064?><?scaled-height 856?><?scaled-width 709?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="PHY2-14-e70906-g010.gif"><?cloudpmc-path blobs/58d2/13239658/13c424e592ae/PHY2-14-e70906-g010.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec><sec id="phy270906-sec-0021" disp-level="2"><label>3.7.</label><title>
+cPLA<sub>2</sub>
+ deletion alters the muscle oxylipin profile</title><p>Loss of cPLA<sub>2</sub> would be expected to alter the availability of PUFA substrate for oxylipin generation. We measured the effects of genotype and denervation on the oxylipin profile. With respect to levels of oxylipins derived from ω‐3 fatty acids, we found that 4‐HDOHE was ~40% higher in denervated muscle when compared to sham (Figure <xref rid="phy270906-fig-0008" ref-type="fig">8a</xref>). Meanwhile, the oxylipins 10‐HDoHE, 11‐HDoHE, 13‐HDoHE, 14‐HDoHE, 16‐HDoHE, and 12‐HEPE were higher in denervated cPLA2 KO muscle when compared to denervated wildtype muscle (Figure <xref rid="phy270906-fig-0008" ref-type="fig">8b–g</xref>). The oxylipins 10‐HDoHE (Figure <xref rid="phy270906-fig-0008" ref-type="fig">8b</xref>), 14‐HDoHE (Figure <xref rid="phy270906-fig-0008" ref-type="fig">8e</xref>), 12‐HEPE (Figure <xref rid="phy270906-fig-0008" ref-type="fig">8g</xref>), and 15‐HEPE (Figure <xref rid="phy270906-fig-0008" ref-type="fig">8h</xref>) were higher in cPLA<sub>2</sub> KO DN when compared to cPLA<sub>2</sub> KO sham. 16‐HDoHE was higher in muscle from cPLA<sub>2</sub> KO mice when compared to wildtype mice. Similarly, when we measured oxylipins derived from ω‐6 fatty acids, we found that 5‐HETE was higher in cPLA2 KO sham when compared to wildtype sham (Figure <xref rid="phy270906-fig-0008" ref-type="fig">8i</xref>). 12‐HETE, 9,10‐EpOME, and 12,13‐EpOME were higher in cPLA<sub>2</sub> KO denervated when compared to cPLA<sub>2</sub> KO sham (Figure <xref rid="phy270906-fig-0008" ref-type="fig">8j–l</xref>). 9,10‐EpOME and 12,13‐EpOME were higher in cPLA2 KO DN when compared to wildtype DN (Figure <xref rid="phy270906-fig-0008" ref-type="fig">8k,l</xref>). Collectively, these data indicate that cPLA<sub>2</sub> deletion significantly alters the muscle oxylipin profile that is independent of denervation‐induced muscle loss.</p><fig id="phy270906-fig-0008" position="float"><?disp-level 3?><label>FIGURE 8</label><caption><p>CPLA<sub>2</sub> deletion alters the muscle oxylipin profile. (a) 4‐HDoHE content in sham and denervated gastrocnemius muscle from wildtype and cPLA<sub>2</sub> KO mice. (b) 10‐HDoHE content in sham and denervated gastrocnemius muscle from wildtype and cPLA<sub>2</sub> KO mice. (c) 11‐HDoHE content in sham and denervated gastrocnemius muscle from wildtype and cPLA<sub>2</sub> KO mice. (d) 13‐HDoHE content in sham and denervated gastrocnemius muscle from wildtype and cPLA<sub>2</sub> KO mice. (e) 14‐HDoHE content in sham and denervated gastrocnemius muscle from wildtype and cPLA<sub>2</sub> KO mice. (f) 16‐HDoHE content in sham and denervated gastrocnemius muscle from wildtype and cPLA<sub>2</sub> KO mice. (g) 12‐HEPE content in sham and denervated gastrocnemius muscle from wildtype and cPLA<sub>2</sub> KO mice. (h) 15‐HEPE content in sham and denervated gastrocnemius muscle from wildtype and cPLA<sub>2</sub> KO mice. (i) 5‐HETE content in sham and denervated gastrocnemius muscle from wildtype and cPLA<sub>2</sub> KO mice. (j) 12‐HETE content in sham and denervated gastrocnemius muscle from wildtype and cPLA<sub>2</sub> KO mice. (k) 9,10‐EpOME content in sham and denervated gastrocnemius muscle from wildtype and cPLA<sub>2</sub> KO mice. (l) 12,13‐EpOME content in sham and denervated gastrocnemius muscle from wildtype and cPLA<sub>2</sub> KO mice. An <italic>n</italic> = 5–7 per group was used. ME, main effect.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="jats-graphic-15" xlink:href="PHY2-14-e70906-g003.jpg"><?cloudpmc-path blobs/58d2/13239658/fadd3352b366/PHY2-14-e70906-g003.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 603?><?original-width 1064?><?scaled-height 402?><?scaled-width 709?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="PHY2-14-e70906-g003.gif"><?cloudpmc-path blobs/58d2/13239658/b4aaeb050b6e/PHY2-14-e70906-g003.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec><sec id="phy270906-sec-0022" disp-level="2"><label>3.8.</label><title>
+cPLA<sub>2</sub>
+ deletion alters the transcriptome in sham and denervated muscle</title><p>We performed bulk RNA sequencing transcriptomics in gastrocnemius muscle from sham and denervated wildtype and cPLA<sub>2</sub> KO mice. The cluster dendrogram shows that muscle transcript is altered by denervation (Figure <xref rid="phy270906-fig-0009" ref-type="fig">9a</xref>). However, deletion of cPLA<sub>2</sub> had minimal impact on the muscle transcriptome (Figure <xref rid="phy270906-fig-0009" ref-type="fig">9a</xref>) as evidenced by KO and WT clustering together. Figure <xref rid="phy270906-fig-0009" ref-type="fig">9c</xref> shows differentially expressed pathways in muscle from WT DN and cPLA<sub>2</sub> KO DN. These pathways include RNA processing, response to calcium, post‐translational modifications, and G‐protein coupled receptor signaling (Figure <xref rid="phy270906-fig-0009" ref-type="fig">9c</xref>). Figure <xref rid="phy270906-fig-0010" ref-type="fig">10</xref> shows the top denervation‐affected genes appear protected by cPLA<sub>2</sub> deletion. In control mice (Wtsh), the strong color contrast between the first two columns of the heatmap reflects marked differential expression between wildtype (Wtsh) and cPLA<sub>2</sub> KO muscle (koShm) samples. In KO mice, the difference between WTDN and WT Sham samples is largely diminished (last two columns of the heatmap). For clarity (gene symbol readability), the heatmap is restricted to the 80 genes with the highest interaction effect. Table <xref rid="phy270906-tbl-0001" ref-type="table">1</xref> shows genes that were significantly different when comparing groups.</p><fig id="phy270906-fig-0009" position="float"><?disp-level 3?><label>FIGURE 9</label><caption><p>Transcriptomics in sham and denervated wildtype and cPLA<sub>2</sub> KO mice. (a) Cluster dendrogram of transcriptomics analysis. Hierarchical clustering of all RNA‐seq samples based on global gene expression profiles. Each point corresponds to an individual sample. Sample labels are abbreviated as follows: The first two letters indicate the mouse genotype (WT or KO), followed by the denervation condition (sham or DN), and a trailing number identifying biological replicates within each group. Four biological replicates were included for WT groups and three for DN groups. (b) Gene Set Enrichment Analysis (GSEA) highlighting the top pathways enriched among differentially expressed genes in denervated muscle from wild‐type and cPLA2 knockout (KO) mice. For each pathway, the GSEA enrichment plot displays the distribution of pathway genes across the ranked list of genes ordered by differential expression following cPLA2 deletion. Vertical black bars mark the positions of pathway genes within the ranked list; clustering of these bars toward either end of the plot indicates directional enrichment and altered pathway activity. The normalized enrichment score (NES), nominal <italic>p</italic>‐value, and false discovery rate (adjusted <italic>p</italic>‐value, padj) shown in each panel indicate the statistical significance of enrichment. Positive NES values reflect increased pathway activation in cPLA2 KO muscle, with leading‐edge subsets primarily composed of upregulated genes. An <italic>n</italic> = 3–4 per group was used.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="jats-graphic-17" xlink:href="PHY2-14-e70906-g004.jpg"><?cloudpmc-path blobs/58d2/13239658/d03f865b5fb4/PHY2-14-e70906-g004.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 549?><?original-width 1064?><?scaled-height 366?><?scaled-width 709?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="PHY2-14-e70906-g004.gif"><?cloudpmc-path blobs/58d2/13239658/354fb2d72506/PHY2-14-e70906-g004.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><fig id="phy270906-fig-0010" position="float"><?disp-level 3?><label>FIGURE 10</label><caption><p>Heatmap of genes showing a significant interaction between genotype (WT vs. cPLA2 KO) and denervation status (sham vs. DN). Strong genotype‐dependent differences in gene expression in sham leg, reflected by pronounced color contrast between (WTsh) and KO (KOsh) first two columns, are diminished in denervation leg (last two columns), highlighting the modulatory effect of cPLA<sub>2</sub> deletion on denervation‐induced transcriptional changes. An <italic>n</italic> = 3–4 per group was used.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="jats-graphic-19" xlink:href="PHY2-14-e70906-g009.jpg"><?cloudpmc-path blobs/58d2/13239658/96b8d0e25ae6/PHY2-14-e70906-g009.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1528?><?original-width 1064?><?scaled-height 1018?><?scaled-width 709?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="PHY2-14-e70906-g009.gif"><?cloudpmc-path blobs/58d2/13239658/5be3176ad1aa/PHY2-14-e70906-g009.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><table-wrap id="phy270906-tbl-0001" position="float"><?disp-level 3?><label>TABLE 1</label><caption><p>Summary of changes in genes that were altered in denervation and cPLA<sub>2</sub> deletion.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Comparison</th><th align="left" valign="bottom" rowspan="1" colspan="1">Gene</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">WT &gt; cPLA<sub>2</sub> KO</td><td align="left" valign="top" rowspan="1" colspan="1">Lcm14b, Ftm2, Pfkfb3, Zfp768, Adhfe1, Lfngr2, Uqcrfs1, Bdh1, Xkr8, Mrm1, Arfgap1, Gcat, Cd59b, Nedd9, Dele1, Cd59a, Stat1, Nlrc3, and Hjurp</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">WT&lt;cPLA<sub>2</sub> KO</td><td align="left" valign="top" rowspan="1" colspan="1">Tmbim7, Zfp87, Pou6f2, Ajm1, Lyrm7, Fam220a, Plpp4, Galnt14, Pwp1, Ccl28, Gdpd3, Lnpp5f, Tmem267, Gna14, Nfxl1, Atoh7, Anxa4, Scn3b, Ctps, Cage1, Lft74, Lepr, Cdc73, Fam13b, Pdk3, Ube2e2, Tmem183a, Commd10, Nup107, Ccdc152</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">DN WT &lt; cPLA<sub>2</sub> KO DN = SHAM WT</td><td align="left" valign="top" rowspan="1" colspan="1">Taf712, Vmn1r179, Rab4a, Zfp235, Zcchc8, Zfp239, Tra2b, Suv39h1, Sv2a, Ankrd33b</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">DN WT &gt; cPLA<sub>2</sub> KO DN = SHAM WT</td><td align="left" valign="top" rowspan="1" colspan="1">Nectin1, Mfsd6l, Slc52a3, Pkp3, Aar2, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/Bc035044" ext-link-type="uri">Bc035044</ext-link>, Nectin2, Ly6g6d, Mcm6, Spag1, B2m, Tmem250‐ps, H2‐Aa, Sapcd2, Aco1, Klrk1, Phlda3, Radx, Plod2</td></tr></tbody></table></table-wrap><p>Because our transcriptomics data shows G‐protein coupled receptor signaling is differentially expressed in denervated muscle from cPLA<sub>2</sub> KO and wildtype mice and oxylipins have been shown to work through G coupled protein receptor signaling pathways (Barquissau et al., <xref rid="phy270906-bib-0001" ref-type="bibr">2017</xref>), we used a targeted G‐protein coupled receptor PCR array to measure mRNA levels in sham and denervated muscle from wildtype and cPLA<sub>2</sub> KO mice. We measured downstream G‐protein coupled receptor signaling via a PCR array. Figure <xref rid="phy270906-fig-0011" ref-type="fig">11</xref> shows a heat map of genes measured in the array. Table <xref rid="phy270906-tbl-0002" ref-type="table">2</xref> shows genes in the G‐protein coupled receptor signaling PCR array that were significantly different when comparing groups. There was a differential response of genes when comparing wildtype denervated muscle to sham and cPLA<sub>2</sub> KO denervated muscle to sham, which would indicate that deletion of cPLA<sub>2</sub> alters G‐protein coupled receptor signaling in denervated muscle. Of note, fewer genes were differentially expressed when comparing cPLA<sub>2</sub> KO denervated muscle to sham than wildtype denervated muscle to sham (10 genes vs. 25 genes, Table <xref rid="phy270906-tbl-0002" ref-type="table">2</xref>).</p><fig id="phy270906-fig-0011" position="float"><?disp-level 3?><label>FIGURE 11</label><caption><p>Heatmap showing a G‐protein coupled receptor signaling array. <italic>N</italic> = 6 per group.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="jats-graphic-21" xlink:href="PHY2-14-e70906-g006.jpg"><?cloudpmc-path blobs/58d2/13239658/abd809b64103/PHY2-14-e70906-g006.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 2339?><?original-width 992?><?scaled-height 1559?><?scaled-width 661?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="PHY2-14-e70906-g006.gif"><?cloudpmc-path blobs/58d2/13239658/3496ee1e9f8c/PHY2-14-e70906-g006.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><table-wrap id="phy270906-tbl-0002" position="float"><?disp-level 3?><label>TABLE 2</label><caption><p>Summary of changes in the G‐Protein Coupled Receptor Signaling Array.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Comparison</th><th align="left" valign="bottom" rowspan="1" colspan="1">Gene</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">DN WT &gt; SHAM WT</td><td align="left" valign="top" rowspan="1" colspan="1">Galr2, Myc, CCnd1, Rgs2, Icam1, Arrb2, Pik3cg, Cdkn1a, Junb, Akt1, Jun, Col1a1, Agtrap</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">DN WT &lt; SHAM WT</td><td align="left" valign="top" rowspan="1" colspan="1">S1pr1, S1pr3, Agtr1a, Nos2, Dusp14, Arrb1, Casr, Vegfa, Ccl2, Fgf2, Grm1, and Agt</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">DN in cPLA<sub>2</sub> KO &gt; SHAM cPLA<sub>2</sub> KO</td><td align="left" valign="top" rowspan="1" colspan="1">Ctgf, Ywhaz</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">DN in cPLA<sub>2</sub> KO &lt; SHAM cPLA<sub>2</sub> KO</td><td align="left" valign="top" rowspan="1" colspan="1">Grm5, Bcl2, Drd1, Il1r2, Oprk1, Agtr1b, Lhcgr, Kcnh8</td></tr></tbody></table></table-wrap></sec></sec><sec id="phy270906-sec-0023" disp-level="1"><label>4.</label><title>DISCUSSION</title><p>Contrary to our hypothesis and previous results with cPLA<sub>2</sub> inhibition, the current study found that genetic deletion of cPLA<sub>2</sub> did not prevent denervation‐mediated muscle atrophy. However, deletion of cPLA<sub>2</sub> significantly impacted metabolic pathways in skeletal muscle supporting an important role for lipid mediators in muscle. Our data show that proteins involved in oxylipin metabolism and the content of oxylipins were differentially expressed in denervated muscle from wildtype and cPLA<sub>2</sub> KO mice. In addition, we show that both denervation and deletion of cPLA<sub>2</sub> change the content of various metabolites. Of note, the metabolite alpha‐hydroxy‐glutarate was lower in muscle from cPLA<sub>2</sub> KO mice when compared to wildtype mice, which may be consistent with lower HIF‐1α production (Intlekofer et al., <xref rid="phy270906-bib-0036" ref-type="bibr">2015</xref>). Surprisingly, denervation and deletion of cPLA<sub>2</sub> seemed to have independent effects on G‐Protein coupled receptor signaling except for the gene <italic>Crhr2</italic>.</p><p>We previously showed that the addition of the PLA<sub>2</sub> inhibitor AACOCF<sub>3</sub> completely reduces the hydroperoxide signal when added to the fiber bundles in vitro. These data support that state 1 hydroperoxide generation in denervated muscle is PLA<sub>2</sub> dependent (Pharaoh et al., <xref rid="phy270906-bib-0050" ref-type="bibr">2020</xref>). Therefore, we hypothesized that genetic deletion of cPLA<sub>2</sub> would reduce the hydroperoxide signal in denervated muscle. In support of this, we found that genetic deletion of cPLA<sub>2</sub> lowered state 1 hydroperoxide generation in denervated muscle compared to the amount measured in wildtype muscle after denervation (Figure <xref rid="phy270906-fig-0006" ref-type="fig">6g</xref>).</p><p>As in our previous work (Pharaoh et al., <xref rid="phy270906-bib-0050" ref-type="bibr">2020</xref>), we observed that cPLA<sub>2</sub> and iPLA<sub>2</sub> were higher in denervated muscle than in innervated muscle; however, in this study, 12/15‐Lox was not altered by denervation. Furthermore, deletion of cPLA<sub>2</sub> lowered 12/15‐Lox content in muscle when compared to wildtype mice. Intriguingly, deletion of cPLA<sub>2</sub> did not dramatically alter the muscle oxylipin profile. This may be because of compensatory action from other enzymes such as iPLA<sub>2</sub>, which was higher in denervated muscle in our current study. Another interesting finding in our study was that 12/15‐Lox was lower in cPLA<sub>2</sub> KO mice when compared to wildtype mice. 12/15‐Lox has previously been implicated as a driver of denervation‐induced muscle atrophy (Bhattacharya et al., <xref rid="phy270906-bib-0003" ref-type="bibr">2014</xref>). Despite lower protein content of 12/15‐Lox, some 12/15‐Lox metabolites such as 12‐HEPE were higher in the denervated cPLA<sub>2</sub> KO muscle when compared to wildtype denervated muscle. These data illustrate that the protein content may not be the predominant driver of 12/15‐Lox activity. We also show that GPx4 protein is higher in denervated wildtype muscle but not denervated muscle from cPLA<sub>2</sub> KO mice. GPx4 overexpression has been shown to mitigate muscle atrophy in aging (Czyżowska et al., <xref rid="phy270906-bib-0016" ref-type="bibr">2023</xref>), oxidative stress‐induced frailty (Xu et al., <xref rid="phy270906-bib-0068" ref-type="bibr">2023</xref>) and cancer cachexia (Duggan et al., <xref rid="phy270906-bib-0020" ref-type="bibr">2026</xref>). Perhaps lower GPx4 content in the denervated cPLA<sub>2</sub> KO muscle contributed to why we did not observe a protection in denervated muscle.</p><p>Based on our prior work (Pharaoh et al., <xref rid="phy270906-bib-0050" ref-type="bibr">2020</xref>), we hypothesized that genetic deletion of cPLA<sub>2</sub> like enzymatic inhibition of PLA<sub>2</sub> would prevent denervation‐induced muscle atrophy. In line with this, when we were phenotyping the cPLA<sub>2</sub> knockout mice, percent lean mass was higher in cPLA<sub>2</sub> KO mice compared to wildtype mice. However, the muscle mass and organ mass data do not explain the difference in lean mass in cPLA<sub>2</sub> KO mice when compared to wildtype mice. Perhaps something not measured like bone density could contribute to the changes observed in lean mass. Contrary to our hypothesis, genetic deletion of cPLA<sub>2</sub> exacerbated denervation‐induced muscle atrophy despite less mitochondrial hydroperoxide generation. One potential explanation for the differences we observe when treating with the PLA<sub>2</sub> inhibitor AACOCF<sub>3</sub> and genetic deletion is that the inhibitor seems to be transient. In our prior in vivo studies using the PLA<sub>2</sub> inhibitor AACOCF<sub>3</sub>, we observed that AACOCF<sub>3</sub> would wash out of our fiber bundles, and we could only show that the inhibitor reduced the hydroperoxide signal in denervated muscle if we omitted washing steps prior to the hydroperoxide assay (Pharaoh et al., <xref rid="phy270906-bib-0050" ref-type="bibr">2020</xref>). In addition, AACOCF<sub>3</sub> may inhibit other isoforms of PLA<sub>2</sub>. cPLA<sub>2</sub> is implicated in the production of pro‐resolving lipid mediators and bioactive lysophospholipids, which have many positive effects on cells (Leslie, <xref rid="phy270906-bib-0042" ref-type="bibr">2015</xref>; Norris et al., <xref rid="phy270906-bib-0048" ref-type="bibr">2014</xref>; Shindou et al., <xref rid="phy270906-bib-0060" ref-type="bibr">2000</xref>). There may be systemic effects from cPLA2 deletion that prevent cPLA<sub>2</sub>‐mediated protection against denervation‐atrophy. An example of a systemic effect from cPLA2 deletion could be the upregulation of other PLA<sub>2</sub> isoforms as there are over 16 different groups of PLA<sub>2</sub> enzymes that have similar roles to cPLA<sub>2</sub>. Therefore, genetic deletion of cPLA<sub>2</sub> may remove both positive and negative lipid mediators thus failing to mitigate denervation‐induced muscle atrophy.</p><p>In addition to muscle atrophy, denervation alters muscle metabolism (Kostrominova, <xref rid="phy270906-bib-0039" ref-type="bibr">2022</xref>; Prunonosa Cervera et al., <xref rid="phy270906-bib-0052" ref-type="bibr">2021</xref>). cPLA<sub>2</sub> also plays a role in regulating metabolism (Kostrominova, <xref rid="phy270906-bib-0039" ref-type="bibr">2022</xref>; Prunonosa Cervera et al., <xref rid="phy270906-bib-0052" ref-type="bibr">2021</xref>). Therefore, we explored whether deletion of cPLA<sub>2</sub> altered metabolites in denervated muscle. Our data showed that denervation lowered the content of metabolites associated with glycolysis. More work needs to be done to figure out why denervation lowers the content of glycolysis metabolites. Denervation did not alter metabolites from the TCA cycle or mitochondrial respiration. However, α‐hydroxyglutaric acid was significantly lower in muscle from cPLA<sub>2</sub> KO mice when compared to wildtype mice. α‐hydroxyglutaric acid is a key regulator of HIF‐1α (Intlekofer et al., <xref rid="phy270906-bib-0036" ref-type="bibr">2015</xref>). The D‐enantiomer impairs HIF‐1α via destabilization, while the L‐enantiomer can stabilize HIF‐1α 1α (Intlekofer et al., <xref rid="phy270906-bib-0036" ref-type="bibr">2015</xref>). Interestingly, L‐2‐hydroxyglutarate has been shown to protect against ischemic reperfusion injury in cardiac tissue (He et al., <xref rid="phy270906-bib-0030" ref-type="bibr">2022</xref>). Other work has shown that L‐2‐hydroxyglutarate may sensitize blood cells to ferroptosis (Xi et al., <xref rid="phy270906-bib-0067" ref-type="bibr">2023</xref>). Therefore, lower levels of α‐hydroxyglutaric acid may contribute to why we did not observe a protection of denervated muscle in cPLA<sub>2</sub> KO mice.</p><p>Prior work shows that denervation may hinder skeletal muscle's ability to use fatty acids as a fuel source (Koonen et al., <xref rid="phy270906-bib-0038" ref-type="bibr">2004</xref>). Consistent with this literature, we showed that the fatty acid concentration was higher in denervated muscle when compared to innervated control. In addition, our data show that the omega 6:3 ratio is higher in denervated muscle when compared to control. Omega 6 PUFAs such as AA and LA are used to generate pro‐inflammatory oxylipins (Gabbs et al., <xref rid="phy270906-bib-0024" ref-type="bibr">2015</xref>). In our cPLA<sub>2</sub> KO model, fatty acid concentration was lower in denervated muscle from cPLA<sub>2</sub> KO mice compared to denervated muscle from wildtype mice. Further, the omega‐6/omega‐3 ratio was not different in denervated muscle from cPLA<sub>2</sub> KO mice when compared to innervated muscle from wildtype mice. These data suggest that cPLA<sub>2</sub> can alter the PUFA concentration in denervated muscle.</p><p>Oxylipins derived from n6 PUFAs, such as linoleic acid and arachidonic acid, are typically associated with pro‐inflammatory signaling (Gabbs et al., <xref rid="phy270906-bib-0024" ref-type="bibr">2015</xref>). Our previous work shows that 12/15‐Lox metabolism of AA and LA may be a source of deleterious oxylipins in denervated muscle (Bhattacharya et al., <xref rid="phy270906-bib-0003" ref-type="bibr">2014</xref>; Brown et al., <xref rid="phy270906-bib-0009" ref-type="bibr">2022</xref>). We showed that 12/15‐LOX protein content and oxylipins generated by 12/15‐LOX were higher in denervated muscle compared to control (Pharaoh et al., <xref rid="phy270906-bib-0050" ref-type="bibr">2020</xref>). We also showed that liproxstatin‐1 treatment, which mitigated denervation‐mediated muscle atrophy, lowered the content of several oxylipins generated by 12/15‐Lox (Brown et al., <xref rid="phy270906-bib-0009" ref-type="bibr">2022</xref>). We detected a series of oxylipins typically generated from 12/15‐LOX, with 12‐HETE and 14‐HDOHE being most abundant. These oxylipins were higher in cPLA<sub>2</sub> KO either basally or following denervation. The higher levels of oxylipins generated from 12/15‐LOX were intriguing, considering the enzyme had been significantly downregulated in the muscle from cPLA<sub>2</sub> KO mice. Specific oxylipins that were higher in denervated muscle from cPLA<sub>2</sub> KO mice compared to denervated wildtype muscle were 10‐DHoHE, 14‐DHoHE, 12‐HEPE, 9,10‐EpOME, and 12,13‐EpOME. 9,10‐EpOME and 12,13‐EpOME are associated with muscle fatty acid metabolism (Hildreth et al., <xref rid="phy270906-bib-0031" ref-type="bibr">2020</xref>; Stanford et al., <xref rid="phy270906-bib-0063" ref-type="bibr">2018</xref>), and 12‐HEPE is associated with glucose uptake in muscle (Leiria et al., <xref rid="phy270906-bib-0041" ref-type="bibr">2019</xref>). To our knowledge, there are no reports exploring the roles of 10‐DHoHE and 14‐DHoHE in skeletal muscle. Therefore, these results do not explain why denervation‐induced muscle atrophy was not mitigated in cPLA<sub>2</sub> KO mice.</p><p>Our transcriptomics data also showed that ligands associated with G‐protein coupled receptor signaling are differentially expressed in denervated muscle from wildtype and cPLA<sub>2</sub> KO mice. G‐protein coupled receptors play a critical role in regulating both skeletal muscle hypertrophy and atrophy (Berdeaux &amp; Stewart, <xref rid="phy270906-bib-0002" ref-type="bibr">2012</xref>). We assessed G‐protein coupled receptor signaling via a qPCR array. The qPCR array showed that connective tissue growth factor (<italic>Ctgf</italic>) was upregulated in denervated muscle from cPLA<sub>2</sub> KO mice when compared to denervated muscle from wildtype mice. Perhaps the upregulation of <italic>Ctgf</italic> contributes to the altered extracellular matrix signaling observed in our transcriptomics dataset. <italic>Ilr2</italic>, <italic>Bcl2</italic>, <italic>and Agtr1b</italic> are downregulated in denervated muscle from cPLA<sub>2</sub> KO mice. <italic>Ilr2</italic>, <italic>Bcl2, and Agtr1b</italic> play a role in catabolic signaling in skeletal muscle (Ge et al., <xref rid="phy270906-bib-0025" ref-type="bibr">2023</xref>; Miao et al., <xref rid="phy270906-bib-0046" ref-type="bibr">2021</xref>; Takayama et al., <xref rid="phy270906-bib-0064" ref-type="bibr">2023</xref>). <italic>Agtr1b</italic> is of particular interest in our study as Takayama et al. 2023 showed that suppressed activation of this gene mitigated denervation‐induced muscle atrophy by lowering NFκB and FOXO1 expression (Takayama et al., <xref rid="phy270906-bib-0064" ref-type="bibr">2023</xref>). Other genes that were differentially expressed in denervated muscle from cPLA<sub>2</sub> KO mice when compared to wildtype mice were <italic>Lhcgr</italic>, <italic>Ywhaz, Drd1, Kcnh8, Grm5, and Oprk1</italic>.</p><p>In summary, we have shown that genetic deletion of cPLA<sub>2</sub> does not mitigate denervation‐induced muscle atrophy despite lowering muscle hydroperoxide generation. We showed that genetic deletion of cPLA<sub>2</sub> altered the expression of extracellular matrix and plasma membrane‐related genes. It is not known if the altered expression of extracellular matrix‐related genes leads to altered extracellular matrix composition. Exploring how cPLA<sub>2</sub> regulates the muscle extracellular matrix could be a worthwhile future direction of study that is relevant for skeletal muscle health.</p></sec><sec id="phy270906-sec-0028" disp-level="1"><title>AUTHOR CONTRIBUTIONS</title><p>
+<bold>Agnieszka Czyżowska‐Froemling:</bold> Conceptualization; data curation; formal analysis; investigation; methodology; validation. <bold>Hongyang Xu:</bold> Data curation; formal analysis; methodology. <bold>Kylene Harold:</bold> Data curation; formal analysis; methodology; software; visualization. <bold>Jessica Thomason:</bold> Data curation; formal analysis. <bold>Kara Kneuper:</bold> Data curation; formal analysis; methodology. <bold>Elizabeth Duggan:</bold> Data curation; formal analysis. <bold>Atul Pranay:</bold> Data curation; formal analysis; methodology; validation. <bold>Jie Zhu:</bold> Data curation; formal analysis; methodology; validation. <bold>Martin‐Paul Agbaga:</bold> Data curation; formal analysis; methodology; resources. <bold>Constantin Georgescu:</bold> Data curation; formal analysis; methodology; software. <bold>Victoria Tyrrell:</bold> Data curation; formal analysis; resources; software; validation. <bold>Valerie O'Donnell:</bold> Data curation; methodology; resources; supervision; validation. <bold>Ken Humphries:</bold> Resources; supervision; visualization. <bold>Holly Van Remmen:</bold> Conceptualization; data curation; formal analysis; funding acquisition; investigation; methodology; project administration; resources; software; supervision; validation; visualization. <bold>Jacob L. Brown:</bold> Conceptualization; data curation; formal analysis; funding acquisition; investigation; methodology; project administration; resources; software; supervision; validation; visualization.</p></sec><sec id="phy270906-sec-0025" disp-level="1"><title>CONFLICT OF INTEREST STATEMENT</title><p>Authors do not have any conflict of interest.</p></sec><sec id="phy270906-sec-0121" disp-level="1"><title>ETHICS STATEMENT</title><p>All authors adhered to ethical standards in accordance to Physiological Reports.</p></sec><sec id="sec27" disp-level="1"><title>Supporting information</title><supplementary-material id="phy270906-supitem-0001" position="float"><caption><p>
+Data S1.
+</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="PHY2-14-e70906-s001.xlsx" mimetype="application" mime-subtype="vnd.openxmlformats-officedocument.spreadsheetml.sheet"><?cloudpmc-path 58d2/13239658/9a3b3d81d439/PHY2-14-e70906-s001.xlsx?><?cloudpmc-bucket app?><?size 37242?></media></supplementary-material></sec><sec id="phy270906-sec-0024" sec-type="ack" disp-level="1"><title>ACKNOWLEDGMENTS</title><p>Support for this work has been provided by National Institute on Aging R01 AG077812. Funding for this manuscript was also supported by R01EY030513; MPA and Unrestricted grant support from Research to Prevent Blindness, and OUHSC Department of Ophthalmology Core Grant, P30 EY021725. Dr. Brown is supported by start‐up funds provided by Florida State University. Dr. Brown is also supported by the American Federation on Aging Research via an early career investigator grant. Dr. Ken Humphries with the Nathan Shock Center Redox Core Facility (P30 AG050911) performed the metabolomics experiment. Contents of this publication are solely the responsibility of the authors and do not necessarily represent the official views of the NIH. The authors would like to thank the members of the Van Remmen Laboratory and Brown laboratory for their contributions to the experiments presented here.</p></sec><sec id="phy270906-sec-0027" disp-level="1"><title>DATA AVAILABILITY STATEMENT</title><p>Transcriptomics, lipidomics, and metabolomics datasets can be found: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.6084/m9.figshare.32125855" ext-link-type="uri">https://doi.org/10.6084/m9.figshare.32125855</ext-link>. All other data will be made available upon request.</p></sec><sec id="phy270906-bibl-0001" sec-type="ref-list" disp-level="1"><title>REFERENCES</title><sec id="phy270906-bibl-0001_sec2" disp-level="2"><ref-list><ref id="phy270906-bib-0001"><mixed-citation id="phy270906-cit-0001"><named-content content-type="citation-string">
+
+Barquissau, V.
+, 
+Ghandour, R. A.
+, 
+Ailhaud, G.
+, 
+Klingenspor, M.
+, 
+Langin, D.
+, 
+Amri, E. Z.
+, &amp; 
+Pisani, D. F.
+ (2017). Control of adipogenesis by oxylipins, GPCRs and PPARs. Biochimie, 136, 3–11.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.biochi.2016.12.012"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="28034718"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Biochimie&amp;title=Control of adipogenesis by oxylipins, GPCRs and PPARs&amp;author=V. Barquissau&amp;author=R. A. Ghandour&amp;author=G. Ailhaud&amp;author=M. Klingenspor&amp;author=D. Langin&amp;volume=136&amp;publication_year=2017&amp;pages=3-11&amp;pmid=28034718&amp;doi=10.1016/j.biochi.2016.12.012&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0002"><mixed-citation id="phy270906-cit-0002"><named-content content-type="citation-string">
+
+Berdeaux, R.
+, &amp; 
+Stewart, R.
+ (2012). cAMP signaling in skeletal muscle adaptation: Hypertrophy, metabolism, and regeneration. American Journal of Physiology. Endocrinology and Metabolism, 303, E1–E17.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1152/ajpendo.00555.2011"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3404564"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="22354781"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=American Journal of Physiology. Endocrinology and Metabolism&amp;title=cAMP signaling in skeletal muscle adaptation: Hypertrophy, metabolism, and regeneration&amp;author=R. Berdeaux&amp;author=R. Stewart&amp;volume=303&amp;publication_year=2012&amp;pages=E1-E17&amp;pmid=22354781&amp;doi=10.1152/ajpendo.00555.2011&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0003"><mixed-citation id="phy270906-cit-0003"><named-content content-type="citation-string">
+
+Bhattacharya, A.
+, 
+Hamilton, R.
+, 
+Jernigan, A.
+, 
+Zhang, Y.
+, 
+Sabia, M.
+, 
+Rahman, M. M.
+, 
+Li, Y.
+, 
+Wei, R.
+, 
+Chaudhuri, A.
+, &amp; 
+van Remmen, H.
+ (2014). Genetic ablation of 12/15‐lipoxygenase but not 5‐lipoxygenase protects against denervation‐induced muscle atrophy. Free Radical Biology &amp; Medicine, 67, 30–40.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.freeradbiomed.2013.10.002"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="24121057"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Free Radical Biology &amp; Medicine&amp;title=Genetic ablation of 12/15‐lipoxygenase but not 5‐lipoxygenase protects against denervation‐induced muscle atrophy&amp;author=A. Bhattacharya&amp;author=R. Hamilton&amp;author=A. Jernigan&amp;author=Y. Zhang&amp;author=M. Sabia&amp;volume=67&amp;publication_year=2014&amp;pages=30-40&amp;pmid=24121057&amp;doi=10.1016/j.freeradbiomed.2013.10.002&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0004"><mixed-citation id="phy270906-cit-0004"><named-content content-type="citation-string">
+
+Bligh, E. G.
+, &amp; 
+Dyer, W. J.
+ (1959). A rapid method of total lipid extraction and purification. Canadian Journal of Biochemistry and Physiology, 37, 911–917.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1139/o59-099"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="13671378"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Canadian Journal of Biochemistry and Physiology&amp;title=A rapid method of total lipid extraction and purification&amp;author=E. G. Bligh&amp;author=W. J. Dyer&amp;volume=37&amp;publication_year=1959&amp;pages=911-917&amp;pmid=13671378&amp;doi=10.1139/o59-099&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0005"><mixed-citation id="phy270906-cit-0005"><named-content content-type="citation-string">
+
+Bonventre, J. V.
+, 
+Huang, Z.
+, 
+Taheri, M. R.
+, 
+O'Leary, E.
+, 
+Li, E.
+, 
+Moskowitz, M. A.
+, &amp; 
+Sapirstein, A.
+ (1997). Reduced fertility and postischaemic brain injury in mice deficient in cytosolic phospholipase A2. Nature, 390, 622–625.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/37635"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="9403693"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nature&amp;title=Reduced fertility and postischaemic brain injury in mice deficient in cytosolic phospholipase A2&amp;author=J. V. Bonventre&amp;author=Z. Huang&amp;author=M. R. Taheri&amp;author=E. O'Leary&amp;author=E. Li&amp;volume=390&amp;publication_year=1997&amp;pages=622-625&amp;pmid=9403693&amp;doi=10.1038/37635&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0006"><mixed-citation id="phy270906-cit-0006"><named-content content-type="citation-string">
+
+Borowik, A. K.
+, 
+Lawrence, M. M.
+, 
+Peelor, F. F., 3rd
+, 
+Piekarz, K. M.
+, 
+Crosswhite, A.
+, 
+Richardson, A.
+, 
+Miller, B. F.
+, 
+van Remmen, H.
+, &amp; 
+Brown, J. L.
+ (2024). Senolytic treatment does not mitigate oxidative stress‐induced muscle atrophy but improves muscle force generation in CuZn superoxide dismutase knockout mice. Geroscience, 46, 3219–3233.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s11357-024-01070-x"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC11009189"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="38233728"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Geroscience&amp;title=Senolytic treatment does not mitigate oxidative stress‐induced muscle atrophy but improves muscle force generation in CuZn superoxide dismutase knockout mice&amp;author=A. K. Borowik&amp;author=M. M. Lawrence&amp;author=F. F. Peelor&amp;author=K. M. Piekarz&amp;author=A. Crosswhite&amp;volume=46&amp;publication_year=2024&amp;pages=3219-3233&amp;pmid=38233728&amp;doi=10.1007/s11357-024-01070-x&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0007"><mixed-citation id="phy270906-cit-0007"><named-content content-type="citation-string">
+
+Brown, J. L.
+, 
+Lawrence, M. M.
+, 
+Ahn, B.
+, 
+Kneis, P.
+, 
+Piekarz, K. M.
+, 
+Qaisar, R.
+, 
+Ranjit, R.
+, 
+Bian, J.
+, 
+Pharaoh, G.
+, 
+Brown, C.
+, 
+Peelor, F. F., 3rd
+, 
+Kinter, M. T.
+, 
+Miller, B. F.
+, 
+Richardson, A.
+, &amp; 
+van Remmen, H.
+ (2020). Cancer cachexia in a mouse model of oxidative stress. Journal of Cachexia, Sarcopenia and Muscle, 11, 1688–1704.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/jcsm.12615"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC7749559"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="32918528"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of Cachexia, Sarcopenia and Muscle&amp;title=Cancer cachexia in a mouse model of oxidative stress&amp;author=J. L. Brown&amp;author=M. M. Lawrence&amp;author=B. Ahn&amp;author=P. Kneis&amp;author=K. M. Piekarz&amp;volume=11&amp;publication_year=2020&amp;pages=1688-1704&amp;pmid=32918528&amp;doi=10.1002/jcsm.12615&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0008"><mixed-citation id="phy270906-cit-0008"><named-content content-type="citation-string">
+
+Brown, J. L.
+, 
+Lee, D. E.
+, 
+Rosa‐Caldwell, M. E.
+, 
+Brown, L. A.
+, 
+Perry, R. A.
+, 
+Haynie, W. S.
+, 
+Huseman, K.
+, 
+Sataranatarajan, K.
+, 
+van Remmen, H.
+, 
+Washington, T. A.
+, 
+Wiggs, M. P.
+, &amp; 
+Greene, N. P.
+ (2018). Protein imbalance in the development of skeletal muscle wasting in tumour‐bearing mice. Journal of Cachexia, Sarcopenia and Muscle, 9, 987–1002.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/jcsm.12354"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC6204589"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30328290"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of Cachexia, Sarcopenia and Muscle&amp;title=Protein imbalance in the development of skeletal muscle wasting in tumour‐bearing mice&amp;author=J. L. Brown&amp;author=D. E. Lee&amp;author=M. E. Rosa‐Caldwell&amp;author=L. A. Brown&amp;author=R. A. Perry&amp;volume=9&amp;publication_year=2018&amp;pages=987-1002&amp;pmid=30328290&amp;doi=10.1002/jcsm.12354&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0009"><mixed-citation id="phy270906-cit-0009"><named-content content-type="citation-string">
+
+Brown, J. L.
+, 
+Peelor, F. F., 3rd
+, 
+Georgescu, C.
+, 
+Wren, J. D.
+, 
+Kinter, M.
+, 
+Tyrrell, V. J.
+, 
+O'Donnell, V. B.
+, 
+Miller, B. F.
+, &amp; 
+van Remmen, H.
+ (2022). Lipid hydroperoxides and oxylipins are mediators of denervation induced muscle atrophy. Redox Biology, 57, 102518.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.redox.2022.102518"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC9593840"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="36283174"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Redox Biology&amp;title=Lipid hydroperoxides and oxylipins are mediators of denervation induced muscle atrophy&amp;author=J. L. Brown&amp;author=F. F. Peelor&amp;author=C. Georgescu&amp;author=J. D. Wren&amp;author=M. Kinter&amp;volume=57&amp;publication_year=2022&amp;pages=102518&amp;pmid=36283174&amp;doi=10.1016/j.redox.2022.102518&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0010"><mixed-citation id="phy270906-cit-0010"><named-content content-type="citation-string">
+
+Brown, J. L.
+, 
+Rosa‐Caldwell, M. E.
+, 
+Lee, D. E.
+, 
+Blackwell, T. A.
+, 
+Brown, L. A.
+, 
+Perry, R. A.
+, 
+Haynie, W. S.
+, 
+Hardee, J. P.
+, 
+Carson, J. A.
+, 
+Wiggs, M. P.
+, 
+Washington, T. A.
+, &amp; 
+Greene, N. P.
+ (2017). Mitochondrial degeneration precedes the development of muscle atrophy in progression of cancer cachexia in tumour‐bearing mice. Journal of Cachexia, Sarcopenia and Muscle, 8, 926–938.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/jcsm.12232"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5700433"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="28845591"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of Cachexia, Sarcopenia and Muscle&amp;title=Mitochondrial degeneration precedes the development of muscle atrophy in progression of cancer cachexia in tumour‐bearing mice&amp;author=J. L. Brown&amp;author=M. E. Rosa‐Caldwell&amp;author=D. E. Lee&amp;author=T. A. Blackwell&amp;author=L. A. Brown&amp;volume=8&amp;publication_year=2017&amp;pages=926-938&amp;pmid=28845591&amp;doi=10.1002/jcsm.12232&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0011"><mixed-citation id="phy270906-cit-0011"><named-content content-type="citation-string">
+
+Brown, J. L.
+, 
+Xu, H.
+, 
+Duggan, E.
+, 
+Rosenfeld, C. S.
+, &amp; 
+van Remmen, H.
+ (2025). Pharmacological reduction of lipid hydroperoxides as a potential modulator of sarcopenia. The Journal of Physiology, 603, 837–854.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1113/JP287090"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC12042244"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="39777675"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=The Journal of Physiology&amp;title=Pharmacological reduction of lipid hydroperoxides as a potential modulator of sarcopenia&amp;author=J. L. Brown&amp;author=H. Xu&amp;author=E. Duggan&amp;author=C. S. Rosenfeld&amp;author=H. van Remmen&amp;volume=603&amp;publication_year=2025&amp;pages=837-854&amp;pmid=39777675&amp;doi=10.1113/JP287090&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0012"><mixed-citation id="phy270906-cit-0012"><named-content content-type="citation-string">
+
+Brown, N.
+, 
+Morrow, J. D.
+, 
+Slaughter, J. C.
+, 
+Paria, B. C.
+, &amp; 
+Reese, J.
+ (2009). Restoration of on‐time embryo implantation corrects the timing of parturition in cytosolic phospholipase A2 group IVA deficient mice. Biology of Reproduction, 81, 1131–1138.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1095/biolreprod.109.079061"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC2802236"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="19684335"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Biology of Reproduction&amp;title=Restoration of on‐time embryo implantation corrects the timing of parturition in cytosolic phospholipase A2 group IVA deficient mice&amp;author=N. Brown&amp;author=J. D. Morrow&amp;author=J. C. Slaughter&amp;author=B. C. Paria&amp;author=J. Reese&amp;volume=81&amp;publication_year=2009&amp;pages=1131-1138&amp;pmid=19684335&amp;doi=10.1095/biolreprod.109.079061&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0013"><mixed-citation id="phy270906-cit-0013"><named-content content-type="citation-string">
+
+Burke, J. E.
+, &amp; 
+Dennis, E. A.
+ (2009). Phospholipase A2 biochemistry. Cardiovascular Drugs and Therapy, 23, 49–59.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s10557-008-6132-9"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC2823292"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="18931897"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Cardiovascular Drugs and Therapy&amp;title=Phospholipase A2 biochemistry&amp;author=J. E. Burke&amp;author=E. A. Dennis&amp;volume=23&amp;publication_year=2009&amp;pages=49-59&amp;pmid=18931897&amp;doi=10.1007/s10557-008-6132-9&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0014"><mixed-citation id="phy270906-cit-0014"><named-content content-type="citation-string">
+
+Campbell, M. J.
+, 
+McComas, A. J.
+, &amp; 
+Petito, F.
+ (1973). Physiological changes in ageing muscles. Journal of Neurology, Neurosurgery, and Psychiatry, 36, 174–182.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1136/jnnp.36.2.174"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC1083551"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="4708452"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of Neurology, Neurosurgery, and Psychiatry&amp;title=Physiological changes in ageing muscles&amp;author=M. J. Campbell&amp;author=A. J. McComas&amp;author=F. Petito&amp;volume=36&amp;publication_year=1973&amp;pages=174-182&amp;pmid=4708452&amp;doi=10.1136/jnnp.36.2.174&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0015"><mixed-citation id="phy270906-cit-0015"><named-content content-type="citation-string">
+
+Chiba, H.
+, 
+Michibata, H.
+, 
+Wakimoto, K.
+, 
+Seishima, M.
+, 
+Kawasaki, S.
+, 
+Okubo, K.
+, 
+Mitsui, H.
+, 
+Torii, H.
+, &amp; 
+Imai, Y.
+ (2004). Cloning of a gene for a novel epithelium‐specific cytosolic phospholipase A2, cPLA2delta, induced in psoriatic skin. The Journal of Biological Chemistry, 279, 12890–12897.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1074/jbc.M305801200"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="14709560"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=The Journal of Biological Chemistry&amp;title=Cloning of a gene for a novel epithelium‐specific cytosolic phospholipase A2, cPLA2delta, induced in psoriatic skin&amp;author=H. Chiba&amp;author=H. Michibata&amp;author=K. Wakimoto&amp;author=M. Seishima&amp;author=S. Kawasaki&amp;volume=279&amp;publication_year=2004&amp;pages=12890-12897&amp;pmid=14709560&amp;doi=10.1074/jbc.M305801200&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0016"><mixed-citation id="phy270906-cit-0016"><named-content content-type="citation-string">
+
+Czyżowska, A.
+, 
+Brown, J.
+, 
+Xu, H.
+, 
+Sataranatarajan, K.
+, 
+Kinter, M.
+, 
+Tyrell, V. J.
+, 
+O'Donnell, V. B.
+, &amp; 
+van Remmen, H.
+ (2023). Elevated phospholipid hydroperoxide glutathione peroxidase (GPX4) expression modulates oxylipin formation and inhibits age‐related skeletal muscle atrophy and weakness. Redox Biology, 64, 102761.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.redox.2023.102761"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC10276143"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="37279604"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Redox Biology&amp;title=Elevated phospholipid hydroperoxide glutathione peroxidase (GPX4) expression modulates oxylipin formation and inhibits age‐related skeletal muscle atrophy and weakness&amp;author=A. Czyżowska&amp;author=J. Brown&amp;author=H. Xu&amp;author=K. Sataranatarajan&amp;author=M. Kinter&amp;volume=64&amp;publication_year=2023&amp;pages=102761&amp;pmid=37279604&amp;doi=10.1016/j.redox.2023.102761&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0017"><mixed-citation id="phy270906-cit-0017"><named-content content-type="citation-string">
+
+Dalle‐Donne, I.
+, 
+Rossi, R.
+, 
+Giustarini, D.
+, 
+Milzani, A.
+, &amp; 
+Colombo, R.
+ (2003). Protein carbonyl groups as biomarkers of oxidative stress. Clinica Chimica Acta, 329, 23–38.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Clinica Chimica Acta&amp;title=Protein carbonyl groups as biomarkers of oxidative stress&amp;author=I. Dalle‐Donne&amp;author=R. Rossi&amp;author=D. Giustarini&amp;author=A. Milzani&amp;author=R. Colombo&amp;volume=329&amp;publication_year=2003&amp;pages=23-38&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0018"><mixed-citation id="phy270906-cit-0018"><named-content content-type="citation-string">
+
+del Rio, D.
+, 
+Stewart, A. J.
+, &amp; 
+Pellegrini, N.
+ (2005). A review of recent studies on malondialdehyde as toxic molecule and biological marker of oxidative stress. Nutrition, Metabolism, and Cardiovascular Diseases, 15, 316–328.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nutrition, Metabolism, and Cardiovascular Diseases&amp;title=A review of recent studies on malondialdehyde as toxic molecule and biological marker of oxidative stress&amp;author=D. del Rio&amp;author=A. J. Stewart&amp;author=N. Pellegrini&amp;volume=15&amp;publication_year=2005&amp;pages=316-328&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0019"><mixed-citation id="phy270906-cit-0019"><named-content content-type="citation-string">
+
+Deschenes, M. R.
+, 
+Roby, M. A.
+, 
+Eason, M. K.
+, &amp; 
+Harris, M. B.
+ (2010). Remodeling of the neuromuscular junction precedes sarcopenia related alterations in myofibers. Experimental Gerontology, 45, 389–393.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.exger.2010.03.007"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC2854317"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="20226849"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Experimental Gerontology&amp;title=Remodeling of the neuromuscular junction precedes sarcopenia related alterations in myofibers&amp;author=M. R. Deschenes&amp;author=M. A. Roby&amp;author=M. K. Eason&amp;author=M. B. Harris&amp;volume=45&amp;publication_year=2010&amp;pages=389-393&amp;pmid=20226849&amp;doi=10.1016/j.exger.2010.03.007&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0020"><mixed-citation id="phy270906-cit-0020"><named-content content-type="citation-string">
+
+Duggan, E.
+, 
+Fuqua, J. D.
+, 
+Hagy, B.
+, 
+Georgescu, C.
+, 
+Miller, B. F.
+, 
+van Remmen, H.
+, &amp; 
+Brown, J. L.
+ (2026). Phospholipid glutathione peroxidase overexpression mitigates cancer cachexia by protecting muscle mass and lowering inflammation. Journal of Cachexia, Sarcopenia and Muscle, 17, e70255.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/jcsm.70255"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC13140832"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="41854231"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of Cachexia, Sarcopenia and Muscle&amp;title=Phospholipid glutathione peroxidase overexpression mitigates cancer cachexia by protecting muscle mass and lowering inflammation&amp;author=E. Duggan&amp;author=J. D. Fuqua&amp;author=B. Hagy&amp;author=C. Georgescu&amp;author=B. F. Miller&amp;volume=17&amp;publication_year=2026&amp;pages=e70255&amp;pmid=41854231&amp;doi=10.1002/jcsm.70255&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0021"><mixed-citation id="phy270906-cit-0021"><named-content content-type="citation-string">
+
+Esterbauer, H.
+, 
+Schaur, R. J.
+, &amp; 
+Zollner, H.
+ (1991). Chemistry and biochemistry of 4‐hydroxynonenal, malonaldehyde and related aldehydes. Free Radical Biology &amp; Medicine, 11, 81–128.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/0891-5849(91)90192-6"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="1937131"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Free Radical Biology &amp; Medicine&amp;title=Chemistry and biochemistry of 4‐hydroxynonenal, malonaldehyde and related aldehydes&amp;author=H. Esterbauer&amp;author=R. J. Schaur&amp;author=H. Zollner&amp;volume=11&amp;publication_year=1991&amp;pages=81-128&amp;pmid=1937131&amp;doi=10.1016/0891-5849(91)90192-6&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0022"><mixed-citation id="phy270906-cit-0022"><named-content content-type="citation-string">
+
+Forcina, G. C.
+, &amp; 
+Dixon, S. J.
+ (2019). GPX4 at the crossroads of lipid homeostasis and Ferroptosis. Proteomics, 19, e1800311.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/pmic.201800311"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30888116"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Proteomics&amp;title=GPX4 at the crossroads of lipid homeostasis and Ferroptosis&amp;author=G. C. Forcina&amp;author=S. J. Dixon&amp;volume=19&amp;publication_year=2019&amp;pages=e1800311&amp;pmid=30888116&amp;doi=10.1002/pmic.201800311&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0023"><mixed-citation id="phy270906-cit-0023"><named-content content-type="citation-string">
+
+Ford, D. A.
+, 
+Monda, J. K.
+, 
+Brush, R. S.
+, 
+Anderson, R. E.
+, 
+Richards, M. J.
+, &amp; 
+Fliesler, S. J.
+ (2008). Lipidomic analysis of the retina in a rat model of smith‐Lemli‐Opitz syndrome: Alterations in docosahexaenoic acid content of phospholipid molecular species. Journal of Neurochemistry, 105, 1032–1047.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/j.1471-4159.2007.05203.x"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC2721972"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="18182048"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of Neurochemistry&amp;title=Lipidomic analysis of the retina in a rat model of smith‐Lemli‐Opitz syndrome: Alterations in docosahexaenoic acid content of phospholipid molecular species&amp;author=D. A. Ford&amp;author=J. K. Monda&amp;author=R. S. Brush&amp;author=R. E. Anderson&amp;author=M. J. Richards&amp;volume=105&amp;publication_year=2008&amp;pages=1032-1047&amp;pmid=18182048&amp;doi=10.1111/j.1471-4159.2007.05203.x&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0024"><mixed-citation id="phy270906-cit-0024"><named-content content-type="citation-string">
+
+Gabbs, M.
+, 
+Leng, S.
+, 
+Devassy, J. G.
+, 
+Monirujjaman, M.
+, &amp; 
+Aukema, H. M.
+ (2015). Advances in our understanding of Oxylipins derived from dietary PUFAs. Advances in Nutrition, 6, 513–540.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3945/an.114.007732"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC4561827"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="26374175"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Advances in Nutrition&amp;title=Advances in our understanding of Oxylipins derived from dietary PUFAs&amp;author=M. Gabbs&amp;author=S. Leng&amp;author=J. G. Devassy&amp;author=M. Monirujjaman&amp;author=H. M. Aukema&amp;volume=6&amp;publication_year=2015&amp;pages=513-540&amp;pmid=26374175&amp;doi=10.3945/an.114.007732&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0025"><mixed-citation id="phy270906-cit-0025"><named-content content-type="citation-string">
+
+Ge, J.
+, 
+Zeng, J.
+, 
+Li, N.
+, 
+Ma, H.
+, 
+Zhao, Z.
+, 
+Sun, S.
+, 
+Jing, Y.
+, 
+Qian, C.
+, 
+Fei, Z.
+, 
+Qu, S.
+, 
+Cui, R.
+, &amp; 
+Sheng, H.
+ (2023). Soluble interleukin 2 receptor is risk for sarcopenia in men with high fracture risk. J Orthop Translat, 38, 213–219.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.jot.2022.10.017"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC9674866"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="36439626"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J Orthop Translat&amp;title=Soluble interleukin 2 receptor is risk for sarcopenia in men with high fracture risk&amp;author=J. Ge&amp;author=J. Zeng&amp;author=N. Li&amp;author=H. Ma&amp;author=Z. Zhao&amp;volume=38&amp;publication_year=2023&amp;pages=213-219&amp;pmid=36439626&amp;doi=10.1016/j.jot.2022.10.017&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0026"><mixed-citation id="phy270906-cit-0026"><named-content content-type="citation-string">
+
+Gęgotek, A.
+, &amp; 
+Skrzydlewska, E.
+ (2019). Biological effect of protein modifications by lipid peroxidation products. Chemistry and Physics of Lipids, 221, 46–52.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.chemphyslip.2019.03.011"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30922835"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Chemistry and Physics of Lipids&amp;title=Biological effect of protein modifications by lipid peroxidation products&amp;author=A. Gęgotek&amp;author=E. Skrzydlewska&amp;volume=221&amp;publication_year=2019&amp;pages=46-52&amp;pmid=30922835&amp;doi=10.1016/j.chemphyslip.2019.03.011&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0027"><mixed-citation id="phy270906-cit-0027"><named-content content-type="citation-string">
+
+Haq, S.
+, 
+Kilter, H.
+, 
+Michael, A.
+, 
+Tao, J.
+, 
+O'Leary, E.
+, 
+Sun, X. M.
+, 
+Walters, B.
+, 
+Bhattacharya, K.
+, 
+Chen, X.
+, 
+Cui, L.
+, 
+Andreucci, M.
+, 
+Rosenzweig, A.
+, 
+Guerrero, J. L.
+, 
+Patten, R.
+, 
+Liao, R.
+, 
+Molkentin, J.
+, 
+Picard, M.
+, 
+Bonventre, J. V.
+, &amp; 
+Force, T.
+ (2003). Deletion of cytosolic phospholipase A2 promotes striated muscle growth. Nature Medicine, 9, 944–951.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nature Medicine&amp;title=Deletion of cytosolic phospholipase A2 promotes striated muscle growth&amp;author=S. Haq&amp;author=H. Kilter&amp;author=A. Michael&amp;author=J. Tao&amp;author=E. O'Leary&amp;volume=9&amp;publication_year=2003&amp;pages=944-951&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0028"><mixed-citation id="phy270906-cit-0028"><named-content content-type="citation-string">
+
+Harold, K. M.
+, 
+Matsuzaki, S.
+, 
+Pranay, A.
+, 
+Loveland, B. L.
+, 
+Batushansky, A.
+, 
+Mendez Garcia, M. F.
+, 
+Eyster, C.
+, 
+Stavrakis, S.
+, 
+Chiao, Y. A.
+, 
+Kinter, M.
+, &amp; 
+Humphries, K. M.
+ (2024). Loss of cardiac PFKFB2 drives metabolic, functional, and electrophysiological remodeling in the heart. Journal of the American Heart Association, 13, e033676.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1161/JAHA.123.033676"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC11179765"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="38533937"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of the American Heart Association&amp;title=Loss of cardiac PFKFB2 drives metabolic, functional, and electrophysiological remodeling in the heart&amp;author=K. M. Harold&amp;author=S. Matsuzaki&amp;author=A. Pranay&amp;author=B. L. Loveland&amp;author=A. Batushansky&amp;volume=13&amp;publication_year=2024&amp;pages=e033676&amp;pmid=38533937&amp;doi=10.1161/JAHA.123.033676&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0029"><mixed-citation id="phy270906-cit-0029"><named-content content-type="citation-string">
+
+Harold, K. M.
+, 
+Matsuzaki, S.
+, 
+Pranay, A.
+, 
+Zhu, J.
+, 
+Faakye, A.
+, &amp; 
+Humphries, K. M.
+ (2025). PFKFB2 is pivotal for metabolic flexibility and differential glucose utilization. Journal of the American Heart Association, 14, e043921.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1161/JAHA.125.043921"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC12887202"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="41220150"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of the American Heart Association&amp;title=PFKFB2 is pivotal for metabolic flexibility and differential glucose utilization&amp;author=K. M. Harold&amp;author=S. Matsuzaki&amp;author=A. Pranay&amp;author=J. Zhu&amp;author=A. Faakye&amp;volume=14&amp;publication_year=2025&amp;pages=e043921&amp;pmid=41220150&amp;doi=10.1161/JAHA.125.043921&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0030"><mixed-citation id="phy270906-cit-0030"><named-content content-type="citation-string">
+
+He, H.
+, 
+Mulhern, R. M.
+, 
+Oldham, W. M.
+, 
+Xiao, W.
+, 
+Lin, Y. D.
+, 
+Liao, R.
+, &amp; 
+Loscalzo, J.
+ (2022). L‐2‐Hydroxyglutarate protects against cardiac injury via metabolic remodeling. Circulation Research, 131, 562–579.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1161/CIRCRESAHA.122.321227"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC9533473"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="36043417"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Circulation Research&amp;title=L‐2‐Hydroxyglutarate protects against cardiac injury via metabolic remodeling&amp;author=H. He&amp;author=R. M. Mulhern&amp;author=W. M. Oldham&amp;author=W. Xiao&amp;author=Y. D. Lin&amp;volume=131&amp;publication_year=2022&amp;pages=562-579&amp;pmid=36043417&amp;doi=10.1161/CIRCRESAHA.122.321227&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0031"><mixed-citation id="phy270906-cit-0031"><named-content content-type="citation-string">
+
+Hildreth, K.
+, 
+Kodani, S. D.
+, 
+Hammock, B. D.
+, &amp; 
+Zhao, L.
+ (2020). Cytochrome P450‐derived linoleic acid metabolites EpOMEs and DiHOMEs: A review of recent studies. The Journal of Nutritional Biochemistry, 86, 108484.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.jnutbio.2020.108484"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC7606796"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="32827665"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=The Journal of Nutritional Biochemistry&amp;title=Cytochrome P450‐derived linoleic acid metabolites EpOMEs and DiHOMEs: A review of recent studies&amp;author=K. Hildreth&amp;author=S. D. Kodani&amp;author=B. D. Hammock&amp;author=L. Zhao&amp;volume=86&amp;publication_year=2020&amp;pages=108484&amp;pmid=32827665&amp;doi=10.1016/j.jnutbio.2020.108484&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0032"><mixed-citation id="phy270906-cit-0032"><named-content content-type="citation-string">
+
+Hopiavuori, B. R.
+, 
+Agbaga, M. P.
+, 
+Brush, R. S.
+, 
+Sullivan, M. T.
+, 
+Sonntag, W. E.
+, &amp; 
+Anderson, R. E.
+ (2017). Regional changes in CNS and retinal glycerophospholipid profiles with age: A molecular blueprint. Journal of Lipid Research, 58, 668–680.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1194/jlr.M070714"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5392743"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="28202633"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of Lipid Research&amp;title=Regional changes in CNS and retinal glycerophospholipid profiles with age: A molecular blueprint&amp;author=B. R. Hopiavuori&amp;author=M. P. Agbaga&amp;author=R. S. Brush&amp;author=M. T. Sullivan&amp;author=W. E. Sonntag&amp;volume=58&amp;publication_year=2017&amp;pages=668-680&amp;pmid=28202633&amp;doi=10.1194/jlr.M070714&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0033"><mixed-citation id="phy270906-cit-0033"><named-content content-type="citation-string">
+
+Hopiavuori, B. R.
+, 
+Deák, F.
+, 
+Wilkerson, J. L.
+, 
+Brush, R. S.
+, 
+Rocha‐Hopiavuori, N. A.
+, 
+Hopiavuori, A. R.
+, 
+Ozan, K. G.
+, 
+Sullivan, M. T.
+, 
+Wren, J. D.
+, 
+Georgescu, C.
+, 
+Szweda, L.
+, 
+Awasthi, V.
+, 
+Towner, R.
+, 
+Sherry, D. M.
+, 
+Anderson, R. E.
+, &amp; 
+Agbaga, M. P.
+ (2018). Homozygous expression of mutant ELOVL4 leads to seizures and death in a novel animal model of very Long‐chain fatty acid deficiency. Molecular Neurobiology, 55, 1795–1813.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s12035-017-0824-8"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5820379"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="29168048"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Molecular Neurobiology&amp;title=Homozygous expression of mutant ELOVL4 leads to seizures and death in a novel animal model of very Long‐chain fatty acid deficiency&amp;author=B. R. Hopiavuori&amp;author=F. Deák&amp;author=J. L. Wilkerson&amp;author=R. S. Brush&amp;author=N. A. Rocha‐Hopiavuori&amp;volume=55&amp;publication_year=2018&amp;pages=1795-1813&amp;pmid=29168048&amp;doi=10.1007/s12035-017-0824-8&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0034"><mixed-citation id="phy270906-cit-0034"><named-content content-type="citation-string">
+
+Humphries, K. M.
+, 
+Yoo, Y.
+, &amp; 
+Szweda, L. I.
+ (1998). Inhibition of NADH‐linked mitochondrial respiration by 4‐hydroxy‐2‐nonenal. Biochemistry, 37, 552–557.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/bi971958i"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="9425076"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Biochemistry&amp;title=Inhibition of NADH‐linked mitochondrial respiration by 4‐hydroxy‐2‐nonenal&amp;author=K. M. Humphries&amp;author=Y. Yoo&amp;author=L. I. Szweda&amp;volume=37&amp;publication_year=1998&amp;pages=552-557&amp;pmid=9425076&amp;doi=10.1021/bi971958i&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0035"><mixed-citation id="phy270906-cit-0035"><named-content content-type="citation-string">
+
+Imai, H.
+, &amp; 
+Nakagawa, Y.
+ (2003). Biological significance of phospholipid hydroperoxide glutathione peroxidase (PHGPx, GPx4) in mammalian cells. Free Radical Biology &amp; Medicine, 34, 145–169.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/s0891-5849(02)01197-8"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="12521597"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Free Radical Biology &amp; Medicine&amp;title=Biological significance of phospholipid hydroperoxide glutathione peroxidase (PHGPx, GPx4) in mammalian cells&amp;author=H. Imai&amp;author=Y. Nakagawa&amp;volume=34&amp;publication_year=2003&amp;pages=145-169&amp;pmid=12521597&amp;doi=10.1016/s0891-5849(02)01197-8&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0036"><mixed-citation id="phy270906-cit-0036"><named-content content-type="citation-string">
+
+Intlekofer, A. M.
+, 
+Dematteo, R. G.
+, 
+Venneti, S.
+, 
+Finley, L. W.
+, 
+Lu, C.
+, 
+Judkins, A. R.
+, 
+Rustenburg, A. S.
+, 
+Grinaway, P. B.
+, 
+Chodera, J. D.
+, 
+Cross, J. R.
+, &amp; 
+Thompson, C. B.
+ (2015). Hypoxia induces production of L‐2‐Hydroxyglutarate. Cell Metabolism, 22, 304–311.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.cmet.2015.06.023"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC4527873"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="26212717"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Cell Metabolism&amp;title=Hypoxia induces production of L‐2‐Hydroxyglutarate&amp;author=A. M. Intlekofer&amp;author=R. G. Dematteo&amp;author=S. Venneti&amp;author=L. W. Finley&amp;author=C. Lu&amp;volume=22&amp;publication_year=2015&amp;pages=304-311&amp;pmid=26212717&amp;doi=10.1016/j.cmet.2015.06.023&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0037"><mixed-citation id="phy270906-cit-0037"><named-content content-type="citation-string">
+
+Jang, Y. C.
+, &amp; 
+van Remmen, H.
+ (2011). Age‐associated alterations of the neuromuscular junction. Experimental Gerontology, 46, 193–198.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.exger.2010.08.029"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3026920"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="20854887"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Experimental Gerontology&amp;title=Age‐associated alterations of the neuromuscular junction&amp;author=Y. C. Jang&amp;author=H. van Remmen&amp;volume=46&amp;publication_year=2011&amp;pages=193-198&amp;pmid=20854887&amp;doi=10.1016/j.exger.2010.08.029&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0038"><mixed-citation id="phy270906-cit-0038"><named-content content-type="citation-string">
+
+Koonen, D. P.
+, 
+Benton, C. R.
+, 
+Arumugam, Y.
+, 
+Tandon, N. N.
+, 
+Calles‐Escandon, J.
+, 
+Glatz, J. F.
+, 
+Luiken, J. J.
+, &amp; 
+Bonen, A.
+ (2004). Different mechanisms can alter fatty acid transport when muscle contractile activity is chronically altered. American Journal of Physiology. Endocrinology and Metabolism, 286, E1042–E1049.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1152/ajpendo.00531.2003"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="15140757"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=American Journal of Physiology. Endocrinology and Metabolism&amp;title=Different mechanisms can alter fatty acid transport when muscle contractile activity is chronically altered&amp;author=D. P. Koonen&amp;author=C. R. Benton&amp;author=Y. Arumugam&amp;author=N. N. Tandon&amp;author=J. Calles‐Escandon&amp;volume=286&amp;publication_year=2004&amp;pages=E1042-E1049&amp;pmid=15140757&amp;doi=10.1152/ajpendo.00531.2003&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0039"><mixed-citation id="phy270906-cit-0039"><named-content content-type="citation-string">
+
+Kostrominova, T. Y.
+ (2022). Skeletal muscle denervation: Past, present and future. International Journal of Molecular Sciences, 23, 7489.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3390/ijms23147489"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC9316613"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="35886838"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=International Journal of Molecular Sciences&amp;title=Skeletal muscle denervation: Past, present and future&amp;author=T. Y. Kostrominova&amp;volume=23&amp;publication_year=2022&amp;pages=7489&amp;pmid=35886838&amp;doi=10.3390/ijms23147489&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0040"><mixed-citation id="phy270906-cit-0040"><named-content content-type="citation-string">
+
+Larsson, L.
+, &amp; 
+Ansved, T.
+ (1995). Effects of ageing on the motor unit. Progress in Neurobiology, 45, 397–458.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/0301-0082(95)98601-z"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="7617890"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Progress in Neurobiology&amp;title=Effects of ageing on the motor unit&amp;author=L. Larsson&amp;author=T. Ansved&amp;volume=45&amp;publication_year=1995&amp;pages=397-458&amp;pmid=7617890&amp;doi=10.1016/0301-0082(95)98601-z&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0041"><mixed-citation id="phy270906-cit-0041"><named-content content-type="citation-string">
+
+Leiria, L. O.
+, 
+Wang, C. H.
+, 
+Lynes, M. D.
+, 
+Yang, K.
+, 
+Shamsi, F.
+, 
+Sato, M.
+, 
+Sugimoto, S.
+, 
+Chen, E. Y.
+, 
+Bussberg, V.
+, 
+Narain, N. R.
+, 
+Sansbury, B. E.
+, 
+Darcy, J.
+, 
+Huang, T. L.
+, 
+Kodani, S. D.
+, 
+Sakaguchi, M.
+, 
+Rocha, A. L.
+, 
+Schulz, T. J.
+, 
+Bartelt, A.
+, 
+Hotamisligil, G. S.
+, … 
+Tseng, Y. H.
+ (2019). 12‐lipoxygenase regulates cold adaptation and glucose metabolism by producing the Omega‐3 lipid 12‐HEPE from Brown fat. Cell Metabolism, 30, 768–783.e767.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.cmet.2019.07.001"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC6774888"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="31353262"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Cell Metabolism&amp;title=12‐lipoxygenase regulates cold adaptation and glucose metabolism by producing the Omega‐3 lipid 12‐HEPE from Brown fat&amp;author=L. O. Leiria&amp;author=C. H. Wang&amp;author=M. D. Lynes&amp;author=K. Yang&amp;author=F. Shamsi&amp;volume=30&amp;publication_year=2019&amp;pages=768-783.e767&amp;pmid=31353262&amp;doi=10.1016/j.cmet.2019.07.001&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0042"><mixed-citation id="phy270906-cit-0042"><named-content content-type="citation-string">
+
+Leslie, C. C.
+ (2015). Cytosolic phospholipase a<sub>2</sub>: Physiological function and role in disease. Journal of Lipid Research, 56, 1386–1402.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1194/jlr.R057588"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC4513982"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="25838312"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of Lipid Research&amp;title=Cytosolic phospholipase a2: Physiological function and role in disease&amp;author=C. C. Leslie&amp;volume=56&amp;publication_year=2015&amp;pages=1386-1402&amp;pmid=25838312&amp;doi=10.1194/jlr.R057588&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0043"><mixed-citation id="phy270906-cit-0043"><named-content content-type="citation-string">
+
+Li, F.
+, 
+Marchette, L. D.
+, 
+Brush, R. S.
+, 
+Elliott, M. H.
+, 
+Le, Y. Z.
+, 
+Henry, K. A.
+, 
+Anderson, A. G.
+, 
+Zhao, C.
+, 
+Sun, X.
+, 
+Zhang, K.
+, &amp; 
+Anderson, R. E.
+ (2009). DHA does not protect ELOVL4 transgenic mice from retinal degeneration. Molecular Vision, 15, 1185–1193.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC2697457"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="19536303"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Molecular Vision&amp;title=DHA does not protect ELOVL4 transgenic mice from retinal degeneration&amp;author=F. Li&amp;author=L. D. Marchette&amp;author=R. S. Brush&amp;author=M. H. Elliott&amp;author=Y. Z. Le&amp;volume=15&amp;publication_year=2009&amp;pages=1185-1193&amp;pmid=19536303&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0044"><mixed-citation id="phy270906-cit-0044"><named-content content-type="citation-string">
+
+Liu, N. K.
+, 
+Byers, J. S.
+, 
+Lam, T.
+, 
+Lu, Q. B.
+, 
+Sengelaub, D. R.
+, &amp; 
+Xu, X. M.
+ (2021). Inhibition of cytosolic phospholipase a(2) has neuroprotective effects on Motoneuron and muscle atrophy after spinal cord injury. Journal of Neurotrauma, 38, 1327–1337.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1089/neu.2014.3690"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC9208724"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="25386720"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of Neurotrauma&amp;title=Inhibition of cytosolic phospholipase a(2) has neuroprotective effects on Motoneuron and muscle atrophy after spinal cord injury&amp;author=N. K. Liu&amp;author=J. S. Byers&amp;author=T. Lam&amp;author=Q. B. Lu&amp;author=D. R. Sengelaub&amp;volume=38&amp;publication_year=2021&amp;pages=1327-1337&amp;pmid=25386720&amp;doi=10.1089/neu.2014.3690&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0045"><mixed-citation id="phy270906-cit-0045"><named-content content-type="citation-string">
+
+Long, J.
+, 
+Liu, C.
+, 
+Sun, L.
+, 
+Gao, H.
+, &amp; 
+Liu, J.
+ (2009). Neuronal mitochondrial toxicity of malondialdehyde: Inhibitory effects on respiratory function and enzyme activities in rat brain mitochondria. Neurochemical Research, 34, 786–794.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s11064-008-9882-7"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="19023656"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Neurochemical Research&amp;title=Neuronal mitochondrial toxicity of malondialdehyde: Inhibitory effects on respiratory function and enzyme activities in rat brain mitochondria&amp;author=J. Long&amp;author=C. Liu&amp;author=L. Sun&amp;author=H. Gao&amp;author=J. Liu&amp;volume=34&amp;publication_year=2009&amp;pages=786-794&amp;pmid=19023656&amp;doi=10.1007/s11064-008-9882-7&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0046"><mixed-citation id="phy270906-cit-0046"><named-content content-type="citation-string">
+
+Miao, C.
+, 
+Zhang, W.
+, 
+Feng, L.
+, 
+Gu, X.
+, 
+Shen, Q.
+, 
+Lu, S.
+, 
+Fan, M.
+, 
+Li, Y.
+, 
+Guo, X.
+, 
+Ma, Y.
+, 
+Liu, X.
+, 
+Wang, H.
+, &amp; 
+Zhang, X.
+ (2021). Cancer‐derived exosome miRNAs induce skeletal muscle wasting by Bcl‐2‐mediated apoptosis in colon cancer cachexia. Molecular Therapy‐‐Nucleic Acids, 24, 923–938.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.omtn.2021.04.015"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC8141664"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="34094711"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Molecular Therapy‐‐Nucleic Acids&amp;title=Cancer‐derived exosome miRNAs induce skeletal muscle wasting by Bcl‐2‐mediated apoptosis in colon cancer cachexia&amp;author=C. Miao&amp;author=W. Zhang&amp;author=L. Feng&amp;author=X. Gu&amp;author=Q. Shen&amp;volume=24&amp;publication_year=2021&amp;pages=923-938&amp;pmid=34094711&amp;doi=10.1016/j.omtn.2021.04.015&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0047"><mixed-citation id="phy270906-cit-0047"><named-content content-type="citation-string">
+
+Muller, F. L.
+, 
+Song, W.
+, 
+Jang, Y. C.
+, 
+Liu, Y.
+, 
+Sabia, M.
+, 
+Richardson, A.
+, &amp; 
+van Remmen, H.
+ (2007). Denervation‐induced skeletal muscle atrophy is associated with increased mitochondrial ROS production. American Journal of Physiology. Regulatory, Integrative and Comparative Physiology, 293, R1159–R1168.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1152/ajpregu.00767.2006"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="17584954"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=American Journal of Physiology. Regulatory, Integrative and Comparative Physiology&amp;title=Denervation‐induced skeletal muscle atrophy is associated with increased mitochondrial ROS production&amp;author=F. L. Muller&amp;author=W. Song&amp;author=Y. C. Jang&amp;author=Y. Liu&amp;author=M. Sabia&amp;volume=293&amp;publication_year=2007&amp;pages=R1159-R1168&amp;pmid=17584954&amp;doi=10.1152/ajpregu.00767.2006&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0048"><mixed-citation id="phy270906-cit-0048"><named-content content-type="citation-string">
+
+Norris, P. C.
+, 
+Gosselin, D.
+, 
+Reichart, D.
+, 
+Glass, C. K.
+, &amp; 
+Dennis, E. A.
+ (2014). Phospholipase A2 regulates eicosanoid class switching during inflammasome activation. Proceedings of the National Academy of Sciences of the United States of America, 111, 12746–12751.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1073/pnas.1404372111"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC4156727"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="25139986"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Proceedings of the National Academy of Sciences of the United States of America&amp;title=Phospholipase A2 regulates eicosanoid class switching during inflammasome activation&amp;author=P. C. Norris&amp;author=D. Gosselin&amp;author=D. Reichart&amp;author=C. K. Glass&amp;author=E. A. Dennis&amp;volume=111&amp;publication_year=2014&amp;pages=12746-12751&amp;pmid=25139986&amp;doi=10.1073/pnas.1404372111&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0049"><mixed-citation id="phy270906-cit-0049"><named-content content-type="citation-string">
+
+Ohto, T.
+, 
+Uozumi, N.
+, 
+Hirabayashi, T.
+, &amp; 
+Shimizu, T.
+ (2005). Identification of novel cytosolic phospholipase a(2)s, murine cPLA(2){delta}, {epsilon}, and {zeta}, which form a gene cluster with cPLA(2){beta}. The Journal of Biological Chemistry, 280, 24576–24583.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1074/jbc.M413711200"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="15866882"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=The Journal of Biological Chemistry&amp;title=Identification of novel cytosolic phospholipase a(2)s, murine cPLA(2){delta}, {epsilon}, and {zeta}, which form a gene cluster with cPLA(2){beta}&amp;author=T. Ohto&amp;author=N. Uozumi&amp;author=T. Hirabayashi&amp;author=T. Shimizu&amp;volume=280&amp;publication_year=2005&amp;pages=24576-24583&amp;pmid=15866882&amp;doi=10.1074/jbc.M413711200&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0050"><mixed-citation id="phy270906-cit-0050"><named-content content-type="citation-string">
+
+Pharaoh, G.
+, 
+Brown, J. L.
+, 
+Sataranatarajan, K.
+, 
+Kneis, P.
+, 
+Bian, J.
+, 
+Ranjit, R.
+, 
+Hadad, N.
+, 
+Georgescu, C.
+, 
+Rabinovitch, P.
+, 
+Ran, Q.
+, 
+Wren, J. D.
+, 
+Freeman, W.
+, 
+Kinter, M.
+, 
+Richardson, A.
+, &amp; 
+van Remmen, H.
+ (2020). Targeting cPLA(2) derived lipid hydroperoxides as a potential intervention for sarcopenia. Scientific Reports, 10, 13968.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41598-020-70792-7"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC7435184"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="32811851"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Scientific Reports&amp;title=Targeting cPLA(2) derived lipid hydroperoxides as a potential intervention for sarcopenia&amp;author=G. Pharaoh&amp;author=J. L. Brown&amp;author=K. Sataranatarajan&amp;author=P. Kneis&amp;author=J. Bian&amp;volume=10&amp;publication_year=2020&amp;pages=13968&amp;pmid=32811851&amp;doi=10.1038/s41598-020-70792-7&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0051"><mixed-citation id="phy270906-cit-0051"><named-content content-type="citation-string">
+
+Pickard, R. T.
+, 
+Strifler, B. A.
+, 
+Kramer, R. M.
+, &amp; 
+Sharp, J. D.
+ (1999). Molecular cloning of two new human paralogs of 85‐kDa cytosolic phospholipase A2. The Journal of Biological Chemistry, 274, 8823–8831.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1074/jbc.274.13.8823"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="10085124"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=The Journal of Biological Chemistry&amp;title=Molecular cloning of two new human paralogs of 85‐kDa cytosolic phospholipase A2&amp;author=R. T. Pickard&amp;author=B. A. Strifler&amp;author=R. M. Kramer&amp;author=J. D. Sharp&amp;volume=274&amp;publication_year=1999&amp;pages=8823-8831&amp;pmid=10085124&amp;doi=10.1074/jbc.274.13.8823&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0052"><mixed-citation id="phy270906-cit-0052"><named-content content-type="citation-string">
+
+Prunonosa Cervera, I.
+, 
+Gabriel, B. M.
+, 
+Aldiss, P.
+, &amp; 
+Morton, N. M.
+ (2021). The phospholipase A2 family's role in metabolic diseases: Focus on skeletal muscle. Physiological Reports, 9, e14662.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.14814/phy2.14662"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC7802192"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="33433056"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Physiological Reports&amp;title=The phospholipase A2 family's role in metabolic diseases: Focus on skeletal muscle&amp;author=I. Prunonosa Cervera&amp;author=B. M. Gabriel&amp;author=P. Aldiss&amp;author=N. M. Morton&amp;volume=9&amp;publication_year=2021&amp;pages=e14662&amp;pmid=33433056&amp;doi=10.14814/phy2.14662&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0053"><mixed-citation id="phy270906-cit-0053"><named-content content-type="citation-string">
+
+Qaisar, R.
+, 
+Pharaoh, G.
+, 
+Bhaskaran, S.
+, 
+Xu, H.
+, 
+Ranjit, R.
+, 
+Bian, J.
+, 
+Ahn, B.
+, 
+Georgescu, C.
+, 
+Wren, J. D.
+, &amp; 
+van Remmen, H.
+ (2020). Restoration of sarcoplasmic reticulum Ca(2+) ATPase (SERCA) activity prevents age‐related muscle atrophy and weakness in mice. International Journal of Molecular Sciences, 22, 37.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3390/ijms22010037"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC7792969"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="33375170"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=International Journal of Molecular Sciences&amp;title=Restoration of sarcoplasmic reticulum Ca(2+) ATPase (SERCA) activity prevents age‐related muscle atrophy and weakness in mice&amp;author=R. Qaisar&amp;author=G. Pharaoh&amp;author=S. Bhaskaran&amp;author=H. Xu&amp;author=R. Ranjit&amp;volume=22&amp;publication_year=2020&amp;pages=37&amp;pmid=33375170&amp;doi=10.3390/ijms22010037&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0054"><mixed-citation id="phy270906-cit-0054"><named-content content-type="citation-string">
+
+Rizzoli, R.
+, 
+Reginster, J. Y.
+, 
+Arnal, J. F.
+, 
+Bautmans, I.
+, 
+Beaudart, C.
+, 
+Bischoff‐Ferrari, H.
+, 
+Biver, E.
+, 
+Boonen, S.
+, 
+Brandi, M. L.
+, 
+Chines, A.
+, 
+Cooper, C.
+, 
+Epstein, S.
+, 
+Fielding, R. A.
+, 
+Goodpaster, B.
+, 
+Kanis, J. A.
+, 
+Kaufman, J. M.
+, 
+Laslop, A.
+, 
+Malafarina, V.
+, 
+Mañas, L. R.
+, … 
+Bruyère, O.
+ (2013). Quality of life in sarcopenia and frailty. Calcified Tissue International, 93, 101–120.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s00223-013-9758-y"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3747610"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="23828275"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Calcified Tissue International&amp;title=Quality of life in sarcopenia and frailty&amp;author=R. Rizzoli&amp;author=J. Y. Reginster&amp;author=J. F. Arnal&amp;author=I. Bautmans&amp;author=C. Beaudart&amp;volume=93&amp;publication_year=2013&amp;pages=101-120&amp;pmid=23828275&amp;doi=10.1007/s00223-013-9758-y&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0055"><mixed-citation id="phy270906-cit-0055"><named-content content-type="citation-string">
+
+Schneider, C.
+, 
+Tallman, K. A.
+, 
+Porter, N. A.
+, &amp; 
+Brash, A. R.
+ (2001). Two distinct pathways of formation of 4‐hydroxynonenal. Mechanisms of nonenzymatic transformation of the 9‐ and 13‐hydroperoxides of linoleic acid to 4‐hydroxyalkenals. The Journal of Biological Chemistry, 276, 20831–20838.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1074/jbc.M101821200"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="11259420"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=The Journal of Biological Chemistry&amp;title=Two distinct pathways of formation of 4‐hydroxynonenal. Mechanisms of nonenzymatic transformation of the 9‐ and 13‐hydroperoxides of linoleic acid to 4‐hydroxyalkenals&amp;author=C. Schneider&amp;author=K. A. Tallman&amp;author=N. A. Porter&amp;author=A. R. Brash&amp;volume=276&amp;publication_year=2001&amp;pages=20831-20838&amp;pmid=11259420&amp;doi=10.1074/jbc.M101821200&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0056"><mixed-citation id="phy270906-cit-0056"><named-content content-type="citation-string">
+
+Schori, C.
+, 
+Agbaga, M. P.
+, 
+Brush, R. S.
+, 
+Ayyagari, R.
+, 
+Grimm, C.
+, &amp; 
+Samardzija, M.
+ (2018). Elovl4 5‐bp deletion does not accelerate cone photoreceptor degeneration in an all‐cone mouse. PLoS One, 13, e0190514.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1371/journal.pone.0190514"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5749830"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="29293603"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=PLoS One&amp;title=Elovl4 5‐bp deletion does not accelerate cone photoreceptor degeneration in an all‐cone mouse&amp;author=C. Schori&amp;author=M. P. Agbaga&amp;author=R. S. Brush&amp;author=R. Ayyagari&amp;author=C. Grimm&amp;volume=13&amp;publication_year=2018&amp;pages=e0190514&amp;pmid=29293603&amp;doi=10.1371/journal.pone.0190514&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0057"><mixed-citation id="phy270906-cit-0057"><named-content content-type="citation-string">
+
+Schwarzer, E.
+, 
+Arese, P.
+, &amp; 
+Skorokhod, O. A.
+ (2015). Role of the lipoperoxidation product 4‐hydroxynonenal in the pathogenesis of severe malaria anemia and malaria immunodepression. Oxidative Medicine and Cellular Longevity, 2015, 638416.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1155/2015/638416"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC4417603"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="25969702"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Oxidative Medicine and Cellular Longevity&amp;title=Role of the lipoperoxidation product 4‐hydroxynonenal in the pathogenesis of severe malaria anemia and malaria immunodepression&amp;author=E. Schwarzer&amp;author=P. Arese&amp;author=O. A. Skorokhod&amp;volume=2015&amp;publication_year=2015&amp;pages=638416&amp;pmid=25969702&amp;doi=10.1155/2015/638416&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0058"><mixed-citation id="phy270906-cit-0058"><named-content content-type="citation-string">
+
+Seibt, T. M.
+, 
+Proneth, B.
+, &amp; 
+Conrad, M.
+ (2019). Role of GPX4 in ferroptosis and its pharmacological implication. Free Radical Biology &amp; Medicine, 133, 144–152.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.freeradbiomed.2018.09.014"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30219704"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Free Radical Biology &amp; Medicine&amp;title=Role of GPX4 in ferroptosis and its pharmacological implication&amp;author=T. M. Seibt&amp;author=B. Proneth&amp;author=M. Conrad&amp;volume=133&amp;publication_year=2019&amp;pages=144-152&amp;pmid=30219704&amp;doi=10.1016/j.freeradbiomed.2018.09.014&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0059"><mixed-citation id="phy270906-cit-0059"><named-content content-type="citation-string">
+
+Sharp, J. D.
+, &amp; 
+White, D. L.
+ (1993). Cytosolic PLA2: mRNA levels and potential for transcriptional regulation. Journal of Lipid Mediators, 8, 183–189.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="8268465"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of Lipid Mediators&amp;title=Cytosolic PLA2: mRNA levels and potential for transcriptional regulation&amp;author=J. D. Sharp&amp;author=D. L. White&amp;volume=8&amp;publication_year=1993&amp;pages=183-189&amp;pmid=8268465&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0060"><mixed-citation id="phy270906-cit-0060"><named-content content-type="citation-string">
+
+Shindou, H.
+, 
+Ishii, S.
+, 
+Uozumi, N.
+, &amp; 
+Shimizu, T.
+ (2000). Roles of cytosolic phospholipase a(2) and platelet‐activating factor receptor in the Ca‐induced biosynthesis of PAF. Biochemical and Biophysical Research Communications, 271, 812–817.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1006/bbrc.2000.2723"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="10814544"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Biochemical and Biophysical Research Communications&amp;title=Roles of cytosolic phospholipase a(2) and platelet‐activating factor receptor in the Ca‐induced biosynthesis of PAF&amp;author=H. Shindou&amp;author=S. Ishii&amp;author=N. Uozumi&amp;author=T. Shimizu&amp;volume=271&amp;publication_year=2000&amp;pages=812-817&amp;pmid=10814544&amp;doi=10.1006/bbrc.2000.2723&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0061"><mixed-citation id="phy270906-cit-0061"><named-content content-type="citation-string">
+
+Spendiff, S.
+, 
+Vuda, M.
+, 
+Gouspillou, G.
+, 
+Aare, S.
+, 
+Perez, A.
+, 
+Morais, J. A.
+, 
+Jagoe, R. T.
+, 
+Filion, M. E.
+, 
+Glicksman, R.
+, 
+Kapchinsky, S.
+, 
+MacMillan, N. J.
+, 
+Pion, C. H.
+, 
+Aubertin‐Leheudre, M.
+, 
+Hettwer, S.
+, 
+Correa, J. A.
+, 
+Taivassalo, T.
+, &amp; 
+Hepple, R. T.
+ (2016). Denervation drives mitochondrial dysfunction in skeletal muscle of octogenarians. Journal of Physiology, 594, 7361–7379.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1113/JP272487"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5157074"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="27619626"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of Physiology&amp;title=Denervation drives mitochondrial dysfunction in skeletal muscle of octogenarians&amp;author=S. Spendiff&amp;author=M. Vuda&amp;author=G. Gouspillou&amp;author=S. Aare&amp;author=A. Perez&amp;volume=594&amp;publication_year=2016&amp;pages=7361-7379&amp;pmid=27619626&amp;doi=10.1113/JP272487&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0062"><mixed-citation id="phy270906-cit-0062"><named-content content-type="citation-string">
+
+Spickett, C. M.
+ (2013). The lipid peroxidation product 4‐hydroxy‐2‐nonenal: Advances in chemistry and analysis. Redox Biology, 1, 145–152.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.redox.2013.01.007"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3757682"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="24024147"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Redox Biology&amp;title=The lipid peroxidation product 4‐hydroxy‐2‐nonenal: Advances in chemistry and analysis&amp;author=C. M. Spickett&amp;volume=1&amp;publication_year=2013&amp;pages=145-152&amp;pmid=24024147&amp;doi=10.1016/j.redox.2013.01.007&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0063"><mixed-citation id="phy270906-cit-0063"><named-content content-type="citation-string">
+
+Stanford, K. I.
+, 
+Lynes, M. D.
+, 
+Takahashi, H.
+, 
+Baer, L. A.
+, 
+Arts, P. J.
+, 
+May, F. J.
+, 
+Lehnig, A. C.
+, 
+RJW, M.
+, 
+Richard, J. J.
+, 
+So, K.
+, 
+Chen, E. Y.
+, 
+Gao, F.
+, 
+Narain, N. R.
+, 
+Distefano, G.
+, 
+Shettigar, V. K.
+, 
+Hirshman, M. F.
+, 
+Ziolo, M. T.
+, 
+Kiebish, M. A.
+, 
+Tseng, Y.‐H.
+, … 
+Goodyear, L. J.
+ (2018). 12,13‐diHOME: An exercise‐induced Lipokine that increases skeletal muscle fatty acid uptake. Cell Metabolism, 27, 1111–1120.e1113.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.cmet.2018.03.020"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5935136"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="29719226"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Cell Metabolism&amp;title=12,13‐diHOME: An exercise‐induced Lipokine that increases skeletal muscle fatty acid uptake&amp;author=K. I. Stanford&amp;author=M. D. Lynes&amp;author=H. Takahashi&amp;author=L. A. Baer&amp;author=P. J. Arts&amp;volume=27&amp;publication_year=2018&amp;pages=1111-1120.e1113&amp;pmid=29719226&amp;doi=10.1016/j.cmet.2018.03.020&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0064"><mixed-citation id="phy270906-cit-0064"><named-content content-type="citation-string">
+
+Takayama, S.
+, 
+Inoue, K.
+, 
+Ogura, Y.
+, 
+Hoshino, S.
+, 
+Sugaya, T.
+, 
+Ohata, K.
+, 
+Kotake, H.
+, 
+Ichikawa, D.
+, 
+Watanabe, M.
+, 
+Kimura, K.
+, 
+Shibagaki, Y.
+, &amp; 
+Kamijo‐Ikemori, A.
+ (2023). Angiotensin II type 1a receptor deficiency alleviates muscle atrophy after denervation. Scientific Reports, 13, 519.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41598-023-27737-7"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC9832142"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="36627369"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Scientific Reports&amp;title=Angiotensin II type 1a receptor deficiency alleviates muscle atrophy after denervation&amp;author=S. Takayama&amp;author=K. Inoue&amp;author=Y. Ogura&amp;author=S. Hoshino&amp;author=T. Sugaya&amp;volume=13&amp;publication_year=2023&amp;pages=519&amp;pmid=36627369&amp;doi=10.1038/s41598-023-27737-7&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0065"><mixed-citation id="phy270906-cit-0065"><named-content content-type="citation-string">
+
+Uozumi, N.
+, 
+Kume, K.
+, 
+Nagase, T.
+, 
+Nakatani, N.
+, 
+Ishii, S.
+, 
+Tashiro, F.
+, 
+Komagata, Y.
+, 
+Maki, K.
+, 
+Ikuta, K.
+, 
+Ouchi, Y.
+, 
+Miyazaki, J.
+, &amp; 
+Shimizu, T.
+ (1997). Role of cytosolic phospholipase A2 in allergic response and parturition. Nature, 390, 618–622.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/37622"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="9403692"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nature&amp;title=Role of cytosolic phospholipase A2 in allergic response and parturition&amp;author=N. Uozumi&amp;author=K. Kume&amp;author=T. Nagase&amp;author=N. Nakatani&amp;author=S. Ishii&amp;volume=390&amp;publication_year=1997&amp;pages=618-622&amp;pmid=9403692&amp;doi=10.1038/37622&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0066"><mixed-citation id="phy270906-cit-0066"><named-content content-type="citation-string">
+
+Wickham, C.
+, 
+Cooper, C.
+, 
+Margetts, B. M.
+, &amp; 
+Barker, D. J.
+ (1989). Muscle strength, activity, housing and the risk of falls in elderly people. Age and Ageing, 18, 47–51.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1093/ageing/18.1.47"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="2565665"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Age and Ageing&amp;title=Muscle strength, activity, housing and the risk of falls in elderly people&amp;author=C. Wickham&amp;author=C. Cooper&amp;author=B. M. Margetts&amp;author=D. J. Barker&amp;volume=18&amp;publication_year=1989&amp;pages=47-51&amp;pmid=2565665&amp;doi=10.1093/ageing/18.1.47&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0067"><mixed-citation id="phy270906-cit-0067"><named-content content-type="citation-string">
+
+Xi, C.
+, 
+Pang, J.
+, 
+Zhi, W.
+, 
+Chang, C. S.
+, 
+Siddaramappa, U.
+, 
+Shi, H.
+, 
+Horuzsko, A.
+, 
+Pace, B. S.
+, &amp; 
+Zhu, X.
+ (2023). Nrf2 sensitizes ferroptosis through l‐2‐hydroxyglutarate‐mediated chromatin modifications in sickle cell disease. Blood, 142, 382–396.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1182/blood.2022018159"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC10485372"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="37267508"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Blood&amp;title=Nrf2 sensitizes ferroptosis through l‐2‐hydroxyglutarate‐mediated chromatin modifications in sickle cell disease&amp;author=C. Xi&amp;author=J. Pang&amp;author=W. Zhi&amp;author=C. S. Chang&amp;author=U. Siddaramappa&amp;volume=142&amp;publication_year=2023&amp;pages=382-396&amp;pmid=37267508&amp;doi=10.1182/blood.2022018159&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0068"><mixed-citation id="phy270906-cit-0068"><named-content content-type="citation-string">
+
+Xu, H.
+, 
+Czyzowska, A.
+, 
+van Remmen, H.
+, &amp; 
+Brown, J. L.
+ (2023). Modulation of sarcopenia phenotypes by glutathione peroxidase 4 overexpression in mice. The Journal of Physiology, 601, 5277–5293.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1113/JP285259"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC10871152"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="37878529"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=The Journal of Physiology&amp;title=Modulation of sarcopenia phenotypes by glutathione peroxidase 4 overexpression in mice&amp;author=H. Xu&amp;author=A. Czyzowska&amp;author=H. van Remmen&amp;author=J. L. Brown&amp;volume=601&amp;publication_year=2023&amp;pages=5277-5293&amp;pmid=37878529&amp;doi=10.1113/JP285259&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0069"><mixed-citation id="phy270906-cit-0069"><named-content content-type="citation-string">
+
+Xu, H.
+, 
+Ranjit, R.
+, 
+Richardson, A.
+, &amp; 
+van Remmen, H.
+ (2021). Muscle mitochondrial catalase expression prevents neuromuscular junction disruption, atrophy, and weakness in a mouse model of accelerated sarcopenia. Journal of Cachexia, Sarcopenia and Muscle, 12, 1582–1596.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/jcsm.12768"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC8718066"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="34559475"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of Cachexia, Sarcopenia and Muscle&amp;title=Muscle mitochondrial catalase expression prevents neuromuscular junction disruption, atrophy, and weakness in a mouse model of accelerated sarcopenia&amp;author=H. Xu&amp;author=R. Ranjit&amp;author=A. Richardson&amp;author=H. van Remmen&amp;volume=12&amp;publication_year=2021&amp;pages=1582-1596&amp;pmid=34559475&amp;doi=10.1002/jcsm.12768&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0070"><mixed-citation id="phy270906-cit-0070"><named-content content-type="citation-string">
+
+Yu, M.
+, 
+Benham, A.
+, 
+Logan, S.
+, 
+Brush, R. S.
+, 
+Mandal, M. N. A.
+, 
+Anderson, R. E.
+, &amp; 
+Agbaga, M. P.
+ (2012). ELOVL4 protein preferentially elongates 20:5n3 to very long chain PUFAs over 20:4n6 and 22:6n3. Journal of Lipid Research, 53, 494–504.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1194/jlr.M021386"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3276472"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="22158834"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of Lipid Research&amp;title=ELOVL4 protein preferentially elongates 20:5n3 to very long chain PUFAs over 20:4n6 and 22:6n3&amp;author=M. Yu&amp;author=A. Benham&amp;author=S. Logan&amp;author=R. S. Brush&amp;author=M. N. A. Mandal&amp;volume=53&amp;publication_year=2012&amp;pages=494-504&amp;pmid=22158834&amp;doi=10.1194/jlr.M021386&amp;"/></mixed-citation></ref><ref id="phy270906-bib-0071"><mixed-citation id="phy270906-cit-0071"><named-content content-type="citation-string">
+
+Zablocka‐Slowinska, K.
+, 
+Placzkowska, S.
+, 
+Skorska, K.
+, 
+Prescha, A.
+, 
+Pawelczyk, K.
+, 
+Porebska, I.
+, 
+Kosacka, M.
+, &amp; 
+Grajeta, H.
+ (2019). Oxidative stress in lung cancer patients is associated with altered serum markers of lipid metabolism. PLoS One, 14, e0215246.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1371/journal.pone.0215246"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC6459492"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30973911"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=PLoS One&amp;title=Oxidative stress in lung cancer patients is associated with altered serum markers of lipid metabolism&amp;author=K. Zablocka‐Slowinska&amp;author=S. Placzkowska&amp;author=K. Skorska&amp;author=A. Prescha&amp;author=K. Pawelczyk&amp;volume=14&amp;publication_year=2019&amp;pages=e0215246&amp;pmid=30973911&amp;doi=10.1371/journal.pone.0215246&amp;"/></mixed-citation></ref></ref-list></sec></sec><sec id="_ad93_" xml:lang="en" sec-type="associated-data" disp-level="1"><title>Associated Data</title><sec id="_adsm93_" xml:lang="en" sec-type="supplementary-materials" disp-level="2"><title>Supplementary Materials</title><supplementary-material id="db_ds_supplementary-material1_reqid_" position="float"><caption><p>
+Data S1.
+</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="PHY2-14-e70906-s001.xlsx" mimetype="application" mime-subtype="vnd.openxmlformats-officedocument.spreadsheetml.sheet"><?cloudpmc-path 58d2/13239658/9a3b3d81d439/PHY2-14-e70906-s001.xlsx?><?cloudpmc-bucket app?><?size 37242?></media></supplementary-material></sec><sec id="_adda93_" xml:lang="en" sec-type="data-availability-statement" disp-level="2"><title>Data Availability Statement</title><p>Transcriptomics, lipidomics, and metabolomics datasets can be found: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.6084/m9.figshare.32125855" ext-link-type="uri">https://doi.org/10.6084/m9.figshare.32125855</ext-link>. All other data will be made available upon request.</p></sec></sec></body></article>

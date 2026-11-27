@@ -1,0 +1,30 @@
+{
+  "case_id": "C047",
+  "task_id": "C047",
+  "title": "The impact of home-based telerehabilitation pranayama on sleep quality and wellbeing in mild to moderate obstructive sleep apnea syndrome. A randomized controlled trial",
+  "doi": "10.1186/s13030-026-00359-x",
+  "comparison_or_design": "The home-based telerehabilitation pranayama trial.",
+  "observations_or_assays": [
+    "Pittsburgh Sleep Quality Index total score",
+    "Epworth Sleepiness Scale score",
+    "Fatigue Severity Scale score"
+  ],
+  "time_scope": "Baseline to week 8.",
+  "excluded": [
+    "Questionnaire components and other follow-up intervals",
+    "Quality of life, mood and other questionnaires"
+  ],
+  "population_or_material": "The article’s final analyzed population with mild-to-moderate OSA, preserving its relation to randomized participants.",
+  "requested_items": [
+    "Table 2 baseline/week-eight arm means/SD and published within-arm improvements with paired P; independent between-arm tests for PSQI/ESS/FSS. Preserve source improvement sign and analyzed versus allocated counts. Exclude other questionnaires."
+  ],
+  "resources": [],
+  "case_specific_rules": [],
+  "domain": "clinical",
+  "pipeline": "clinical-trials",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/clinical-trials.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

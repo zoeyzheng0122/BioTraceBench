@@ -1,0 +1,483 @@
+{
+  "protocol": "biomedical-benchmark-materials-1",
+  "case": {
+    "case_id": "C012",
+    "domain": "clinical",
+    "title": "Tirzepatide in Adults With Type 1 Diabetes: A Phase 2 Randomized Placebo-Controlled Clinical Trial",
+    "doi": "10.2337/dc25-2379",
+    "pipeline": "clinical-trials",
+    "pmid": "41264593",
+    "pmcid": "PMC12719702",
+    "registry": "ACTRN12624000111572"
+  },
+  "files": [
+    {
+      "path": "sources/article.xml",
+      "sha256": "615305d9babd81e9d6c9f537aea6f24d254ac5732b0a570c8c53b32548890544",
+      "bytes": 141242,
+      "role": "main",
+      "roles": [
+        "main"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12719702/fullTextXML"
+      ],
+      "association": "exact PMCID from case identity"
+    },
+    {
+      "path": "figures/dc252379F0GA.jpg",
+      "sha256": "bdbc0ca1179c1975b8b1cf031f1d4c07efaf5e87625830414ba1b480a421bd2d",
+      "bytes": 159087,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12719702/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/dc252379f1.jpg",
+      "sha256": "6b0c7514fd4a72fa213ccff6ccaca2426fafb10bf29d28369cb1c23d84043046",
+      "bytes": 73267,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12719702/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "figures/dc252379f2.jpg",
+      "sha256": "ff451dfa08f5626fae50211b1ac57ba8d28f9e789bf5993fc2466ea06d35ac06",
+      "bytes": 69781,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12719702/supplementaryFiles"
+      ],
+      "association": "member of exact PMCID package"
+    },
+    {
+      "path": "records/Registry-ACTRN12624000111572.txt",
+      "sha256": "3d52e6c5efec03e4a43945e8d254fd742fcc4b022d1eb34fcbfa19d092430fee",
+      "bytes": 17438,
+      "role": "related_report",
+      "roles": [
+        "related_report"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.anzctr.org.au/Trial/Registration/TrialReview.aspx?ACTRN=12624000111572"
+      ],
+      "derived_from": "6e2e92b87974ad642afac3ff1a67cd4148f01dec47efc6b4ca905d911cae6920",
+      "representation": "readable_repository_page",
+      "original_filename": "Registry-ACTRN12624000111572.txt",
+      "retrieved_at": "2026-10-18T02:08:39+08:00"
+    },
+    {
+      "path": "supplements/Supplementary_appendix_TIRTLE_diabetes_care__refine/page-0006-region-01.png",
+      "sha256": "b8d4c97e2944565105cbb855b2241d5954a5d7bfd99f033cd75a871f66ff4cf5",
+      "bytes": 25810,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12719702/supplementaryFiles"
+      ],
+      "association": "member of frozen archive",
+      "derived_from": "255069707dc7b7cfdbbb702d11d94af86ad0cc4fdd06b70fdffee9c06fcb42df",
+      "original_sha256": "255069707dc7b7cfdbbb702d11d94af86ad0cc4fdd06b70fdffee9c06fcb42df",
+      "original_filename": "Supplementary_appendix_TIRTLE_diabetes_care.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_grayscale"
+    },
+    {
+      "path": "supplements/Supplementary_appendix_TIRTLE_diabetes_care__refine/page-0007-region-01.png",
+      "sha256": "7b092adf712594f4b9c3ab99e45a927b4957049a2390ca28eb17978aacc965d7",
+      "bytes": 11945,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12719702/supplementaryFiles"
+      ],
+      "association": "member of frozen archive",
+      "derived_from": "255069707dc7b7cfdbbb702d11d94af86ad0cc4fdd06b70fdffee9c06fcb42df",
+      "original_sha256": "255069707dc7b7cfdbbb702d11d94af86ad0cc4fdd06b70fdffee9c06fcb42df",
+      "original_filename": "Supplementary_appendix_TIRTLE_diabetes_care.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_grayscale"
+    },
+    {
+      "path": "supplements/Supplementary_appendix_TIRTLE_diabetes_care__refine/content.md",
+      "sha256": "a67458f12ba77c15d9105d5cf7f8f52ea67d109d4cea93da617f6d521b183b5e",
+      "bytes": 17338,
+      "role": "supplement",
+      "roles": [
+        "supplement"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12719702/supplementaryFiles"
+      ],
+      "association": "member of frozen archive",
+      "derived_from": "255069707dc7b7cfdbbb702d11d94af86ad0cc4fdd06b70fdffee9c06fcb42df",
+      "original_sha256": "255069707dc7b7cfdbbb702d11d94af86ad0cc4fdd06b70fdffee9c06fcb42df",
+      "original_filename": "Supplementary_appendix_TIRTLE_diabetes_care.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "pdf_text_visual"
+    },
+    {
+      "path": "supplements/TIRTLE_protocol_supplement__refine/page-0002-region-01.png",
+      "sha256": "50de6293f0ce08b2104fd22fb5272d954febca877b76044108d2eeda79b097b9",
+      "bytes": 54672,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12719702/supplementaryFiles"
+      ],
+      "association": "member of frozen archive",
+      "derived_from": "a65071a2feb8fe9f99c211cc489c81204d610e9b425542d2040b77a0dcbb8486",
+      "original_sha256": "a65071a2feb8fe9f99c211cc489c81204d610e9b425542d2040b77a0dcbb8486",
+      "original_filename": "TIRTLE_protocol_supplement.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/TIRTLE_protocol_supplement__refine/page-0002-region-02.png",
+      "sha256": "226bd2122632ac7ef5bbc298826a1b3eb8bc6bed7783c810a52e85c7a2549961",
+      "bytes": 8238,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12719702/supplementaryFiles"
+      ],
+      "association": "member of frozen archive",
+      "derived_from": "a65071a2feb8fe9f99c211cc489c81204d610e9b425542d2040b77a0dcbb8486",
+      "original_sha256": "a65071a2feb8fe9f99c211cc489c81204d610e9b425542d2040b77a0dcbb8486",
+      "original_filename": "TIRTLE_protocol_supplement.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_grayscale"
+    },
+    {
+      "path": "supplements/TIRTLE_protocol_supplement__refine/page-0003-region-01.png",
+      "sha256": "6ff11a9fbaf63a134c1a0e1812a3a37e07fee5bcdef411c28529ea3a4864116a",
+      "bytes": 190380,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12719702/supplementaryFiles"
+      ],
+      "association": "member of frozen archive",
+      "derived_from": "a65071a2feb8fe9f99c211cc489c81204d610e9b425542d2040b77a0dcbb8486",
+      "original_sha256": "a65071a2feb8fe9f99c211cc489c81204d610e9b425542d2040b77a0dcbb8486",
+      "original_filename": "TIRTLE_protocol_supplement.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/TIRTLE_protocol_supplement__refine/page-0004-region-01.png",
+      "sha256": "f035d5f79108a9452ec64f71eb3f0dd57c40fd22c9859c4355423d4735e2688a",
+      "bytes": 331756,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12719702/supplementaryFiles"
+      ],
+      "association": "member of frozen archive",
+      "derived_from": "a65071a2feb8fe9f99c211cc489c81204d610e9b425542d2040b77a0dcbb8486",
+      "original_sha256": "a65071a2feb8fe9f99c211cc489c81204d610e9b425542d2040b77a0dcbb8486",
+      "original_filename": "TIRTLE_protocol_supplement.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/TIRTLE_protocol_supplement__refine/page-0008-region-01.png",
+      "sha256": "9db60ffbb8c61a59ea8c27900699185e8efe956899529250332486e36411b792",
+      "bytes": 13292,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12719702/supplementaryFiles"
+      ],
+      "association": "member of frozen archive",
+      "derived_from": "a65071a2feb8fe9f99c211cc489c81204d610e9b425542d2040b77a0dcbb8486",
+      "original_sha256": "a65071a2feb8fe9f99c211cc489c81204d610e9b425542d2040b77a0dcbb8486",
+      "original_filename": "TIRTLE_protocol_supplement.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_grayscale"
+    },
+    {
+      "path": "supplements/TIRTLE_protocol_supplement__refine/page-0008-region-02.png",
+      "sha256": "56e7be713967933b6efb860297b965a7c63eaf7aac2269a0c890ef029c5bcb75",
+      "bytes": 42341,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12719702/supplementaryFiles"
+      ],
+      "association": "member of frozen archive",
+      "derived_from": "a65071a2feb8fe9f99c211cc489c81204d610e9b425542d2040b77a0dcbb8486",
+      "original_sha256": "a65071a2feb8fe9f99c211cc489c81204d610e9b425542d2040b77a0dcbb8486",
+      "original_filename": "TIRTLE_protocol_supplement.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_grayscale"
+    },
+    {
+      "path": "supplements/TIRTLE_protocol_supplement__refine/page-0009-region-01.png",
+      "sha256": "c362a5f19138a4046363d1be22af38b244bbd1201df9d7d4e9f5e2ed47685740",
+      "bytes": 98184,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12719702/supplementaryFiles"
+      ],
+      "association": "member of frozen archive",
+      "derived_from": "a65071a2feb8fe9f99c211cc489c81204d610e9b425542d2040b77a0dcbb8486",
+      "original_sha256": "a65071a2feb8fe9f99c211cc489c81204d610e9b425542d2040b77a0dcbb8486",
+      "original_filename": "TIRTLE_protocol_supplement.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_grayscale"
+    },
+    {
+      "path": "supplements/TIRTLE_protocol_supplement__refine/page-0010-region-01.png",
+      "sha256": "a64cc5dfbc8a97a2a0e3202879d8a46d946a6ac507e732d1c44d406676bc93a3",
+      "bytes": 33796,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12719702/supplementaryFiles"
+      ],
+      "association": "member of frozen archive",
+      "derived_from": "a65071a2feb8fe9f99c211cc489c81204d610e9b425542d2040b77a0dcbb8486",
+      "original_sha256": "a65071a2feb8fe9f99c211cc489c81204d610e9b425542d2040b77a0dcbb8486",
+      "original_filename": "TIRTLE_protocol_supplement.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_grayscale"
+    },
+    {
+      "path": "supplements/TIRTLE_protocol_supplement__refine/page-0018-region-01.png",
+      "sha256": "bac17fae0a853121dbdb816f18cd5b259e19137fa3e6bfdcf573fa39158627ab",
+      "bytes": 10161,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12719702/supplementaryFiles"
+      ],
+      "association": "member of frozen archive",
+      "derived_from": "a65071a2feb8fe9f99c211cc489c81204d610e9b425542d2040b77a0dcbb8486",
+      "original_sha256": "a65071a2feb8fe9f99c211cc489c81204d610e9b425542d2040b77a0dcbb8486",
+      "original_filename": "TIRTLE_protocol_supplement.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/TIRTLE_protocol_supplement__refine/page-0020-region-01.png",
+      "sha256": "2658dae0b9225b1d5501fa3977f5a657639742cdbf18f60a6bf757f4f8bba0f1",
+      "bytes": 230441,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12719702/supplementaryFiles"
+      ],
+      "association": "member of frozen archive",
+      "derived_from": "a65071a2feb8fe9f99c211cc489c81204d610e9b425542d2040b77a0dcbb8486",
+      "original_sha256": "a65071a2feb8fe9f99c211cc489c81204d610e9b425542d2040b77a0dcbb8486",
+      "original_filename": "TIRTLE_protocol_supplement.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/TIRTLE_protocol_supplement__refine/page-0021-region-01.png",
+      "sha256": "e1bada693624642224f2236072ecc2c6be2cddaa826c18959893ac1a01f7ed71",
+      "bytes": 328120,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12719702/supplementaryFiles"
+      ],
+      "association": "member of frozen archive",
+      "derived_from": "a65071a2feb8fe9f99c211cc489c81204d610e9b425542d2040b77a0dcbb8486",
+      "original_sha256": "a65071a2feb8fe9f99c211cc489c81204d610e9b425542d2040b77a0dcbb8486",
+      "original_filename": "TIRTLE_protocol_supplement.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/TIRTLE_protocol_supplement__refine/page-0026-region-01.png",
+      "sha256": "a33745a03511bfa7d14d9a0e9b803d4661545911bde69b53d8bb5d08f2d8bafc",
+      "bytes": 96378,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12719702/supplementaryFiles"
+      ],
+      "association": "member of frozen archive",
+      "derived_from": "a65071a2feb8fe9f99c211cc489c81204d610e9b425542d2040b77a0dcbb8486",
+      "original_sha256": "a65071a2feb8fe9f99c211cc489c81204d610e9b425542d2040b77a0dcbb8486",
+      "original_filename": "TIRTLE_protocol_supplement.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_grayscale"
+    },
+    {
+      "path": "supplements/TIRTLE_protocol_supplement__refine/page-0027-region-01.png",
+      "sha256": "80d4d1244212d9b4f1af9f78a4d1bc0727a13b6d86c7558e0d7a43378ea1e58f",
+      "bytes": 62883,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12719702/supplementaryFiles"
+      ],
+      "association": "member of frozen archive",
+      "derived_from": "a65071a2feb8fe9f99c211cc489c81204d610e9b425542d2040b77a0dcbb8486",
+      "original_sha256": "a65071a2feb8fe9f99c211cc489c81204d610e9b425542d2040b77a0dcbb8486",
+      "original_filename": "TIRTLE_protocol_supplement.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_grayscale"
+    },
+    {
+      "path": "supplements/TIRTLE_protocol_supplement__refine/page-0036-region-01.png",
+      "sha256": "ecb98937203c5f701e06611b7a702b1c4f35442c6b45385047ee5bcd7c1172de",
+      "bytes": 10161,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12719702/supplementaryFiles"
+      ],
+      "association": "member of frozen archive",
+      "derived_from": "a65071a2feb8fe9f99c211cc489c81204d610e9b425542d2040b77a0dcbb8486",
+      "original_sha256": "a65071a2feb8fe9f99c211cc489c81204d610e9b425542d2040b77a0dcbb8486",
+      "original_filename": "TIRTLE_protocol_supplement.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image"
+    },
+    {
+      "path": "supplements/TIRTLE_protocol_supplement__refine/page-0040-region-01.png",
+      "sha256": "ccb87ee8aad1de93a02b61c718eecc13d05e47d399d58989b67e81f5d89ca4b8",
+      "bytes": 72513,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12719702/supplementaryFiles"
+      ],
+      "association": "member of frozen archive",
+      "derived_from": "a65071a2feb8fe9f99c211cc489c81204d610e9b425542d2040b77a0dcbb8486",
+      "original_sha256": "a65071a2feb8fe9f99c211cc489c81204d610e9b425542d2040b77a0dcbb8486",
+      "original_filename": "TIRTLE_protocol_supplement.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_grayscale"
+    },
+    {
+      "path": "supplements/TIRTLE_protocol_supplement__refine/page-0042-region-01.png",
+      "sha256": "2015f48a3f0416b0949cee63a981b5e47f3581561322a004ec7244f02bd70f3c",
+      "bytes": 5934,
+      "role": "asset",
+      "roles": [
+        "asset"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12719702/supplementaryFiles"
+      ],
+      "association": "member of frozen archive",
+      "derived_from": "a65071a2feb8fe9f99c211cc489c81204d610e9b425542d2040b77a0dcbb8486",
+      "original_sha256": "a65071a2feb8fe9f99c211cc489c81204d610e9b425542d2040b77a0dcbb8486",
+      "original_filename": "TIRTLE_protocol_supplement.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "image",
+      "lossless_png_encoding": "exact_grayscale"
+    },
+    {
+      "path": "supplements/TIRTLE_protocol_supplement__refine/content.md",
+      "sha256": "d2522ce5f5aad0f0843bb7eaca7a4aeb7a69f1074933d693f6b28245d95cb134",
+      "bytes": 93898,
+      "role": "supplement",
+      "roles": [
+        "supplement"
+      ],
+      "input_use": "model",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12719702/supplementaryFiles"
+      ],
+      "association": "member of frozen archive",
+      "derived_from": "a65071a2feb8fe9f99c211cc489c81204d610e9b425542d2040b77a0dcbb8486",
+      "original_sha256": "a65071a2feb8fe9f99c211cc489c81204d610e9b425542d2040b77a0dcbb8486",
+      "original_filename": "TIRTLE_protocol_supplement.pdf",
+      "representation": "refine-text-visual-1",
+      "provenance_transform": "pdf_text_visual"
+    }
+  ],
+  "task_prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "source_license": "LICENSES.txt",
+  "description": "Source paths are relative to inputs/."
+}

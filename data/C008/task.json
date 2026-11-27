@@ -1,0 +1,32 @@
+{
+  "case_id": "C008",
+  "task_id": "C008",
+  "title": "Patient-reported outcomes with trastuzumab deruxtecan in hormone receptor-positive, HER2-low or HER2-ultralow metastatic breast cancer: results from the randomized DESTINY-Breast06 trial",
+  "doi": "10.1016/j.esmoop.2025.105082",
+  "comparison_or_design": "The overall DESTINY-Breast06 time-to-deterioration comparison.",
+  "observations_or_assays": [
+    "TTD in EORTC QLQ-C30 physical functioning",
+    "TTD in EORTC QLQ-C30 pain",
+    "TTD in EORTC QLQ-C30 fatigue"
+  ],
+  "time_scope": "The reported time-to-deterioration analysis, preserving its event threshold, time origin and censoring rules.",
+  "excluded": [
+    "The separate HER2-low analysis and comparisons against individual TPC drugs",
+    "Change-from-baseline analyses, all other scales, efficacy and safety endpoints"
+  ],
+  "population_or_material": "The combined HER2-low/HER2-ultralow ITT population of DESTINY-Breast06.",
+  "requested_items": [
+    "Primary overall-population median TTD per arm and between-group HR for each requested scale, with reported CI/nominal P. Exclude other scales and treatment-component subgroups."
+  ],
+  "resources": [],
+  "case_specific_rules": [
+    "Use the requested ITT scale analyses and their matching medians, CIs and HRs. Derive the identities and meanings of the reported populations and risk sets from the source, applying the shared denominator rules. Retain the source censoring rules. Exclude HER2-low-only and individual TPC-drug comparisons."
+  ],
+  "domain": "clinical",
+  "pipeline": "clinical-trials",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/clinical-trials.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

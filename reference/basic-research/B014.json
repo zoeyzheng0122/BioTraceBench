@@ -1,0 +1,120 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX30163728 (experiment)",
+      "method": "GEO library-associated sample title: AK_RNAseq_hESCtoPHcellDifferentiation_Rep1_Day0. Total RNA isolated using QIAGEN RNeasy; rRNA depletion using NEBNext Human/Mouse/Rat kit; strand-specific libraries prepared using NEBNext Ultra II Directional RNA Library Prep Kit; paired-end 75-bp sequencing.",
+      "platform": "Illumina NextSeq 500",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0002",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX30163737 (experiment)",
+      "method": "GEO library-associated sample title: AK_RNAseq_hESCtoPHcellDifferentiation_Rep1_Day17. Total RNA isolated using QIAGEN RNeasy; rRNA depletion using NEBNext Human/Mouse/Rat kit; strand-specific libraries prepared using NEBNext Ultra II Directional RNA Library Prep Kit; paired-end 75-bp sequencing.",
+      "platform": "Illumina NextSeq 500",
+      "sample_ids": [
+        "S0002"
+      ]
+    },
+    {
+      "assay_id": "A0003",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX30163738 (experiment)",
+      "method": "GEO library-associated sample title: AK_RNAseq_hESCtoPHcellDifferentiation_Rep2_Day0. Total RNA isolated using QIAGEN RNeasy; rRNA depletion using NEBNext Human/Mouse/Rat kit; strand-specific libraries prepared using NEBNext Ultra II Directional RNA Library Prep Kit; paired-end 75-bp sequencing.",
+      "platform": "Illumina NextSeq 500",
+      "sample_ids": [
+        "S0003"
+      ]
+    },
+    {
+      "assay_id": "A0004",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "SRA:SRX30163747 (experiment)",
+      "method": "GEO library-associated sample title: AK_RNAseq_hESCtoPHcellDifferentiation_Rep2_Day17. Total RNA isolated using QIAGEN RNeasy; rRNA depletion using NEBNext Human/Mouse/Rat kit; strand-specific libraries prepared using NEBNext Ultra II Directional RNA Library Prep Kit; paired-end 75-bp sequencing.",
+      "platform": "Illumina NextSeq 500",
+      "sample_ids": [
+        "S0004"
+      ]
+    }
+  ],
+  "condition": [
+    {
+      "condition_id": "C0001",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Differentiation collection day",
+      "factor_unit": "day",
+      "factor_value": 0,
+      "sample_id": "S0001",
+      "time": "At differentiation initiation"
+    },
+    {
+      "condition_id": "C0002",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Differentiation collection day",
+      "factor_unit": "day",
+      "factor_value": 17,
+      "sample_id": "S0002",
+      "time": "17 days after differentiation initiation"
+    },
+    {
+      "condition_id": "C0003",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Differentiation collection day",
+      "factor_unit": "day",
+      "factor_value": 0,
+      "sample_id": "S0003",
+      "time": "At differentiation initiation"
+    },
+    {
+      "condition_id": "C0004",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Differentiation collection day",
+      "factor_unit": "day",
+      "factor_value": 17,
+      "sample_id": "S0004",
+      "time": "17 days after differentiation initiation"
+    }
+  ],
+  "sample": [
+    {
+      "biological_model": "Wild-type RUES2 human embryonic stem cells",
+      "biological_source": "RUES2 hESCs (hPSCreg:RUESe002-A), cultured with irradiated mouse embryonic fibroblast feeders.",
+      "sample_accession": "GEO:GSM9188177 (sample); BioSample:SAMN50696110 (sample)",
+      "sample_id": "S0001",
+      "sample_material": "Total RNA extracted from Day 0 RUES2 hESC cultures maintained on irradiated MEF feeders, using the RNA-seq aliquot of material collected from five wells. The study estimates approximately 300,000 irradiated MEFs and 3 million hESC-derived cells per collected well (less than one-tenth MEFs by cell count). The RNA/read fraction is unreported.",
+      "sample_name": "RNAseq_Rep1_Day0",
+      "species": "Homo sapiens; Mus musculus (irradiated MEF feeders)"
+    },
+    {
+      "biological_model": "RUES2-derived polyhormonal pancreatic cell differentiation model",
+      "biological_source": "RUES2 hESCs (hPSCreg:RUESe002-A), cultured with irradiated mouse embryonic fibroblast feeders.",
+      "sample_accession": "GEO:GSM9188186 (sample); BioSample:SAMN50696101 (sample)",
+      "sample_id": "S0002",
+      "sample_material": "Total RNA extracted from Day 17 RUES2-derived polyhormonal differentiation cultures with irradiated MEF feeders retained, using the RNA-seq aliquot of material collected from five wells. The study estimates approximately 300,000 irradiated MEFs and 3 million hESC-derived cells per collected well (less than one-tenth MEFs by cell count). The RNA/read fraction is unreported.",
+      "sample_name": "RNAseq_Rep1_Day17",
+      "species": "Homo sapiens; Mus musculus (irradiated MEF feeders)"
+    },
+    {
+      "biological_model": "Wild-type RUES2 human embryonic stem cells",
+      "biological_source": "RUES2 hESCs (hPSCreg:RUESe002-A), cultured with irradiated mouse embryonic fibroblast feeders.",
+      "sample_accession": "GEO:GSM9188187 (sample); BioSample:SAMN50696100 (sample)",
+      "sample_id": "S0003",
+      "sample_material": "Total RNA extracted from Day 0 RUES2 hESC cultures maintained on irradiated MEF feeders, using the RNA-seq aliquot of material collected from five wells. The study estimates approximately 300,000 irradiated MEFs and 3 million hESC-derived cells per collected well (less than one-tenth MEFs by cell count). The RNA/read fraction is unreported.",
+      "sample_name": "RNAseq_Rep2_Day0",
+      "species": "Homo sapiens; Mus musculus (irradiated MEF feeders)"
+    },
+    {
+      "biological_model": "RUES2-derived polyhormonal pancreatic cell differentiation model",
+      "biological_source": "RUES2 hESCs (hPSCreg:RUESe002-A), cultured with irradiated mouse embryonic fibroblast feeders.",
+      "sample_accession": "GEO:GSM9188196 (sample); BioSample:SAMN50696091 (sample)",
+      "sample_id": "S0004",
+      "sample_material": "Total RNA extracted from Day 17 RUES2-derived polyhormonal differentiation cultures with irradiated MEF feeders retained, using the RNA-seq aliquot of material collected from five wells. The study estimates approximately 300,000 irradiated MEFs and 3 million hESC-derived cells per collected well (less than one-tenth MEFs by cell count). The RNA/read fraction is unreported.",
+      "sample_name": "RNAseq_Rep2_Day17",
+      "species": "Homo sapiens; Mus musculus (irradiated MEF feeders)"
+    }
+  ]
+}

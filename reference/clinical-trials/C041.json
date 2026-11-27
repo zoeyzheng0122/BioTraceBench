@@ -1,0 +1,263 @@
+{
+  "measure": [
+    {
+      "measure_definition": "Measured value: absolute number of monthly headache days, defined as calendar days with headache lasting at least 4 h with moderate or greater intensity or any headache requiring acute migraine medication.; Participants; Standardized headache diary; monthly headache days assessed at baseline and month 6 after treatment. MHD counted as calendar days meeting the headache definition.; MHD definition includes headache lasting ≥4 h with moderate or greater intensity, or any headache requiring acute migraine medication. Absolute monthly count; no imputation.",
+      "measure_id": "M0",
+      "measure_name": "Monthly headache days (MHD)"
+    },
+    {
+      "measure_definition": "Categorical status: responder, defined as ≥50% reduction in monthly headache days from baseline at month 6.; Participants; Standardized headache diary; MHD at baseline and month 6 used to classify participants as responders or non-responders.; Responder = ≥50% reduction in MHD from baseline. Month 6 responder rate; per-protocol denominator.",
+      "measure_id": "M2",
+      "measure_name": "At least 50% reduction in monthly headache days (MHD responder)"
+    },
+    {
+      "measure_definition": "Measured value: absolute number of monthly acute migraine medication days.; Participants; Standardized headache diary; monthly acute medication days assessed at baseline and month 6.; Days per month with acute migraine medication use; absolute monthly count; no imputation.",
+      "measure_id": "M3",
+      "measure_name": "Monthly acute medication days (AMD)"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "Ultrasound-guided proximal greater occipital nerve pulsed radiofrequency (GON-PRF) at the C2 level, unilateral, without concomitant local anesthetic or corticosteroid.",
+      "intervention_regimen": "Per application: 360 s at 45 V, pulse frequency 5 Hz, pulse width 5 ms; electrode tip temperature maintained below 42 °C.; Single procedure session; unilateral treatment on the side with predominant headache symptoms; monitored for at least 1 h and discharged the same day if no complications occurred.",
+      "population_definition": "Randomized treatment allocation to unilateral GON-PRF and inclusion in the per-protocol analysis set.; Age 18–65 years; ICHD-3 episodic migraine (≥5 migraine attacks/month) or chronic migraine; inadequate response to preventive migraine therapies and either untreated or on a stable preventive regimen for at least 3 months; no active infection or bleeding disorder; no current pregnancy; no history of craniocervical surgery affecting the intervention site; randomized to unilateral ultrasound-guided proximal GON-PRF at C2; received allocated intervention; completed 6-month follow-up without major protocol deviations, additional migraine interventions, or incomplete outcome data. Excludes other primary headache disorders, secondary headache, recent interventional migraine procedure/botulinum toxin/non-pharmacological migraine treatment within 3 months, and participants lost to follow-up or excluded from per-protocol analysis.",
+      "population_id": "P0",
+      "population_name": "Unilateral GON-PRF per-protocol population",
+      "population_size": 78,
+      "population_time_frame": "Follow-up from baseline to month 6; exact enrollment dates Not reported."
+    },
+    {
+      "intervention": "Ultrasound-guided proximal greater occipital nerve pulsed radiofrequency (GON-PRF) at the C2 level, bilateral, without concomitant local anesthetic or corticosteroid.",
+      "intervention_regimen": "Per application: 360 s at 45 V, pulse frequency 5 Hz, pulse width 5 ms; electrode tip temperature maintained below 42 °C. Bilateral group received the same parameters contralaterally.; Single procedure session; bilateral treatment with the same procedure repeated contralaterally during the same session; monitored for at least 1 h and discharged the same day if no complications occurred.",
+      "population_definition": "Randomized treatment allocation to bilateral GON-PRF and inclusion in the per-protocol analysis set.; Age 18–65 years; ICHD-3 episodic migraine (≥5 migraine attacks/month) or chronic migraine; inadequate response to preventive migraine therapies and either untreated or on a stable preventive regimen for at least 3 months; no active infection or bleeding disorder; no current pregnancy; no history of craniocervical surgery affecting the intervention site; randomized to bilateral ultrasound-guided proximal GON-PRF at C2; received allocated intervention; completed 6-month follow-up without major protocol deviations, additional migraine interventions, or incomplete outcome data. Excludes other primary headache disorders, secondary headache, recent interventional migraine procedure/botulinum toxin/non-pharmacological migraine treatment within 3 months, and participants lost to follow-up or excluded from per-protocol analysis.",
+      "population_id": "P1",
+      "population_name": "Bilateral GON-PRF per-protocol population",
+      "population_size": 88,
+      "population_time_frame": "Follow-up from baseline to month 6; exact enrollment dates Not reported."
+    },
+    {
+      "intervention": "Ultrasound-guided proximal (C2) greater occipital nerve pulsed radiofrequency (GON-PRF), unilateral or bilateral according to allocation; no medications injected during the PRF procedure.",
+      "intervention_regimen": "Per application: 45 V, 5 Hz, 5 ms pulse width for 360 seconds; electrode tip temperature not exceeding 42 °C.; PRF application for 360 seconds per treated side; bilateral treatment repeats the same procedure contralaterally. Post-procedure observation for at least 1 hour before discharge.",
+      "population_definition": "All 187 participants randomized in the published CONSORT flow diagram: 91 unilateral and 96 bilateral GON-PRF. The published report screened 268 and retained 166 in the per-protocol analysis (78 unilateral, 88 bilateral). This parent population is defined by the published participant flow.",
+      "population_id": "P2",
+      "population_name": "Published randomized trial population",
+      "population_size": 187,
+      "population_time_frame": "Enrollment start 2024-12-18 (actual); primary completion 2026-04-01 (actual); study completion 2026-05-01 (actual); outcome follow-up from baseline to 6 months after treatment."
+    },
+    {
+      "intervention": "Unilateral ultrasound-guided proximal (C2) greater occipital nerve pulsed radiofrequency (GON-PRF); no medications injected during the PRF procedure.",
+      "intervention_regimen": "45 V, 5 Hz, 5 ms pulse width for 360 seconds; electrode tip temperature not exceeding 42 °C.; PRF application for 360 seconds on one side; post-procedure observation for at least 1 hour before discharge.",
+      "population_definition": "Randomized allocation to unilateral ultrasound-guided proximal GON-PRF at C2.; Participants meeting trial eligibility criteria and allocated to the unilateral GON-PRF arm in the randomized parallel-group trial.; Published CONSORT flow diagram reports 91 randomized participants in this arm.",
+      "population_id": "P3",
+      "population_name": "Unilateral GON-PRF randomized arm",
+      "population_size": 91,
+      "population_time_frame": "Trial enrollment start 2024-12-18; primary completion 2026-04-01; study completion 2026-05-01; arm-specific dates Not reported."
+    },
+    {
+      "intervention": "Bilateral ultrasound-guided proximal (C2) greater occipital nerve pulsed radiofrequency (GON-PRF); no medications injected during the PRF procedure.",
+      "intervention_regimen": "45 V, 5 Hz, 5 ms pulse width for 360 seconds per application; electrode tip temperature not exceeding 42 °C.; PRF application for 360 seconds per side; the same procedure is performed contralaterally. Post-procedure observation for at least 1 hour before discharge.",
+      "population_definition": "Randomized allocation to bilateral ultrasound-guided proximal GON-PRF at C2.; Participants meeting trial eligibility criteria and allocated to the bilateral GON-PRF arm in the randomized parallel-group trial.; Published CONSORT flow diagram reports 96 randomized participants in this arm.",
+      "population_id": "P4",
+      "population_name": "Bilateral GON-PRF randomized arm",
+      "population_size": 96,
+      "population_time_frame": "Trial enrollment start 2024-12-18; primary completion 2026-04-01; study completion 2026-05-01; arm-specific dates Not reported."
+    }
+  ],
+  "population_relation": [
+    {
+      "population_a_id": "P0",
+      "population_b_id": "P1",
+      "relationship": "disjoint from"
+    },
+    {
+      "population_a_id": "P0",
+      "population_b_id": "P3",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P4",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P3",
+      "population_b_id": "P2",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P4",
+      "population_b_id": "P2",
+      "relationship": "subset of"
+    }
+  ],
+  "result": [
+    {
+      "assessment_time": "Baseline (pre-intervention)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R01",
+      "result_unit": "days per month",
+      "result_value": 20.0,
+      "statistic_type": "Median monthly headache days",
+      "statistical_method": "Per-protocol arm summary.",
+      "supplementary_statistics": "IQR 8.0"
+    },
+    {
+      "assessment_time": "Baseline (pre-intervention)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R02",
+      "result_unit": "days per month",
+      "result_value": 20.0,
+      "statistic_type": "Median monthly headache days",
+      "statistical_method": "Per-protocol arm summary.",
+      "supplementary_statistics": "IQR 13.0"
+    },
+    {
+      "assessment_time": "Month 6 after treatment",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R04",
+      "result_unit": "days per month",
+      "result_value": 10.0,
+      "statistic_type": "Median monthly headache days",
+      "statistical_method": "Per-protocol arm summary. Friedman analysis with Bonferroni-adjusted post hoc pairwise test against baseline.",
+      "supplementary_statistics": "IQR 6.0; within-group baseline-to-month-6 P < 0.001"
+    },
+    {
+      "assessment_time": "Month 6 after treatment",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R05",
+      "result_unit": "days per month",
+      "result_value": 7.0,
+      "statistic_type": "Median monthly headache days",
+      "statistical_method": "Per-protocol arm summary. Friedman analysis with Bonferroni-adjusted post hoc pairwise test against baseline.",
+      "supplementary_statistics": "IQR 6.0; within-group baseline-to-month-6 P < 0.001"
+    },
+    {
+      "assessment_time": "Month 6 after treatment",
+      "comparison": "P1 vs P0; subtraction/sign direction not explicitly established",
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R06",
+      "result_unit": null,
+      "result_value": 0.03,
+      "statistic_type": "Between-group p value for absolute MHD at month 6 (bilateral vs unilateral; Mann–Whitney U)",
+      "statistical_method": "Mann–Whitney U test",
+      "supplementary_statistics": null
+    },
+    {
+      "assessment_time": "Baseline to month 6",
+      "comparison": "P1 vs P0; subtraction/sign direction not explicitly established",
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R07",
+      "result_unit": null,
+      "result_value": 0.012,
+      "statistic_type": "Between-group p value for reduction in MHD from baseline to month 6 (bilateral vs unilateral)",
+      "statistical_method": "Per-protocol between-arm comparison of reduction. The reduction-specific test is not identified.",
+      "supplementary_statistics": null
+    },
+    {
+      "assessment_time": "Month 6 after treatment",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P0",
+      "result_id": "R10",
+      "result_unit": "%",
+      "result_value": 55.1,
+      "statistic_type": "Proportion of participants with ≥50% reduction in MHD from baseline",
+      "statistical_method": "Published per-protocol responder summary.",
+      "supplementary_statistics": null
+    },
+    {
+      "assessment_time": "Month 6 after treatment",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R11",
+      "result_unit": "%",
+      "result_value": 77.3,
+      "statistic_type": "Proportion of participants with ≥50% reduction in MHD from baseline",
+      "statistical_method": "Published per-protocol responder summary.",
+      "supplementary_statistics": null
+    },
+    {
+      "assessment_time": "Month 6 after treatment",
+      "comparison": "P1 vs P0; subtraction/sign direction not explicitly established",
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R12",
+      "result_unit": null,
+      "result_value": 0.003,
+      "statistic_type": "Between-group p value for ≥50% MHD responder proportion at month 6 (bilateral vs unilateral)",
+      "statistical_method": "Per-protocol categorical comparison. The endpoint-specific test is not identified.",
+      "supplementary_statistics": null
+    },
+    {
+      "assessment_time": "Baseline (pre-intervention)",
+      "comparison": null,
+      "measure_id": "M3",
+      "population_id": "P0",
+      "result_id": "R13",
+      "result_unit": "days per month",
+      "result_value": 15.0,
+      "statistic_type": "Median monthly acute medication days",
+      "statistical_method": "Per-protocol arm summary.",
+      "supplementary_statistics": "IQR 12.0"
+    },
+    {
+      "assessment_time": "Baseline (pre-intervention)",
+      "comparison": null,
+      "measure_id": "M3",
+      "population_id": "P1",
+      "result_id": "R14",
+      "result_unit": "days per month",
+      "result_value": 15.0,
+      "statistic_type": "Median monthly acute medication days",
+      "statistical_method": "Per-protocol arm summary.",
+      "supplementary_statistics": "IQR 10.0"
+    },
+    {
+      "assessment_time": "Month 6 after treatment",
+      "comparison": null,
+      "measure_id": "M3",
+      "population_id": "P0",
+      "result_id": "R16",
+      "result_unit": "days per month",
+      "result_value": 6.0,
+      "statistic_type": "Median monthly acute medication days",
+      "statistical_method": "Per-protocol arm summary. Friedman analysis with Bonferroni-adjusted post hoc pairwise test against baseline.",
+      "supplementary_statistics": "IQR 6.0; within-group baseline-to-month-6 P < 0.001"
+    },
+    {
+      "assessment_time": "Month 6 after treatment",
+      "comparison": null,
+      "measure_id": "M3",
+      "population_id": "P1",
+      "result_id": "R17",
+      "result_unit": "days per month",
+      "result_value": 5.0,
+      "statistic_type": "Median monthly acute medication days",
+      "statistical_method": "Per-protocol arm summary. Friedman analysis with Bonferroni-adjusted post hoc pairwise test against baseline.",
+      "supplementary_statistics": "IQR 5.0; within-group baseline-to-month-6 P < 0.001"
+    },
+    {
+      "assessment_time": "Month 6 after treatment",
+      "comparison": "P1 vs P0; subtraction/sign direction not explicitly established",
+      "measure_id": "M3",
+      "population_id": "P1",
+      "result_id": "R18",
+      "result_unit": null,
+      "result_value": 0.024,
+      "statistic_type": "Between-group p value for absolute AMD at month 6 (bilateral vs unilateral; Mann–Whitney U)",
+      "statistical_method": "Mann–Whitney U test",
+      "supplementary_statistics": null
+    }
+  ]
+}

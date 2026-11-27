@@ -1,0 +1,319 @@
+{
+  "measure": [
+    {
+      "measure_definition": "Measured value: Insomnia Severity Index total score; Participants; Online self-report Insomnia Severity Index (ISI) questionnaire administered at baseline and 8 weeks post-randomisation; estimated marginal means and baseline-adjusted between-group contrasts from linear mixed models (Table 2).; Total ISI score analyzed as a continuous measure from baseline to 8 weeks; baseline-adjusted intent-to-treat mixed models; no threshold applied for this measure (responder/remission thresholds excluded).",
+      "measure_id": "M0",
+      "measure_name": "Insomnia Severity Index total score"
+    },
+    {
+      "measure_definition": "Measured value: PHQ-9 depression total score; Participants; Online self-report PHQ-9 questionnaire administered at baseline and 8 weeks post-randomisation; estimated marginal means and baseline-adjusted between-group contrasts from linear mixed models (Table 2; supplement).; Total PHQ-9 score analyzed as a continuous measure from baseline to 8 weeks; baseline-adjusted intent-to-treat mixed models; no threshold applied for this measure.",
+      "measure_id": "M1",
+      "measure_name": "Patient Health Questionnaire-9 (PHQ-9) depression total score"
+    },
+    {
+      "measure_definition": "Measured value: GAD-7 anxiety total score; Participants; Online self-report GAD-7 questionnaire administered at baseline and 8 weeks post-randomisation; estimated marginal means and baseline-adjusted between-group contrasts from linear mixed models (Table 2; supplement).; Total GAD-7 score analyzed as a continuous measure from baseline to 8 weeks; baseline-adjusted intent-to-treat mixed models; no threshold applied for this measure.",
+      "measure_id": "M2",
+      "measure_name": "Generalised Anxiety Disorder-7 (GAD-7) anxiety total score"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "Immediate tailored self-guided interactive digital cognitive behavioural therapy for insomnia (Bedtime Window) or digital sleep education control.",
+      "intervention_regimen": "CBTi: planned 5 × 20-minute online sessions over 5 consecutive weeks; control: 5 weekly digital sleep education packets during the first 5 weeks; control offered CBTi after 8-week follow-up.",
+      "population_definition": "Randomized treatment assignment (1:1) to immediate tailored digital CBTi vs digital sleep education; primary ITT sample; Adults aged ≥18 years with a self-reported doctor diagnosis of obstructive sleep apnoea and Insomnia Severity Index (ISI) ≥15, randomized 1:1. Exclusions: bipolar disorder; schizophrenia; epilepsy; pregnancy; PHQ-9 item 9 score ≥1; Epworth Sleepiness Scale score ≥16; current shift work; operating heavy machinery or driving for work; previous diagnosis of cognitive impairment; doctor diagnosis of any sleep disorder other than insomnia or OSA; previous sleepiness-related motor vehicle accident.",
+      "population_id": "P0",
+      "population_name": "Primary intention-to-treat population of adults with COMISA (both randomized arms)",
+      "population_size": 30,
+      "population_time_frame": "Recruited September 2022 to May 2023 (paper); ANZCTR reports actual first participant enrolment 23/09/2022 and actual last participant enrolment 16/05/2024; questionnaire assessments at baseline and 8 weeks post-randomisation for this task."
+    },
+    {
+      "intervention": "Tailored self-guided interactive digital cognitive behavioural therapy for insomnia (Bedtime Window).",
+      "intervention_regimen": "Planned 5 × 20-minute online sessions over 5 consecutive weeks; weekly interactive sessions with tailored recommendations; baseline and 8-week post-randomisation assessments in this task.",
+      "population_definition": "Randomized to immediate tailored digital CBTi; Randomized to immediate tailored digital CBTi. Adults aged ≥18 years with a self-reported doctor diagnosis of obstructive sleep apnoea and ISI ≥15. Exclusions: bipolar disorder; schizophrenia; epilepsy; pregnancy; PHQ-9 item 9 score ≥1; Epworth Sleepiness Scale score ≥16; current shift work; operating heavy machinery or driving for work; previous diagnosis of cognitive impairment; doctor diagnosis of any sleep disorder other than insomnia or OSA; previous sleepiness-related motor vehicle accident.",
+      "population_id": "P1",
+      "population_name": "Immediate tailored digital CBTi arm (ITT)",
+      "population_size": 15,
+      "population_time_frame": "Randomized arm followed from baseline through week 8, before delayed CBTi access in controls. Parent-trial recruitment windows are recorded in the overall population; arm-specific calendar recruitment dates are not separately reported."
+    },
+    {
+      "intervention": "Digital sleep education control (5 weekly digital sleep education packets).",
+      "intervention_regimen": "5 weekly digital sleep education packets during the first 5 weeks; control offered access to tailored digital CBTi after the 8-week follow-up; baseline and 8-week post-randomisation assessments in this task.",
+      "population_definition": "Randomized to digital sleep education control; Randomized to digital sleep education control. Adults aged ≥18 years with a self-reported doctor diagnosis of obstructive sleep apnoea and ISI ≥15. Exclusions: bipolar disorder; schizophrenia; epilepsy; pregnancy; PHQ-9 item 9 score ≥1; Epworth Sleepiness Scale score ≥16; current shift work; operating heavy machinery or driving for work; previous diagnosis of cognitive impairment; doctor diagnosis of any sleep disorder other than insomnia or OSA; previous sleepiness-related motor vehicle accident.",
+      "population_id": "P2",
+      "population_name": "Digital sleep education control arm (ITT, before delayed CBTi access)",
+      "population_size": 15,
+      "population_time_frame": "Randomized arm followed from baseline through week 8, before delayed CBTi access in controls. Parent-trial recruitment windows are recorded in the overall population; arm-specific calendar recruitment dates are not separately reported."
+    }
+  ],
+  "population_relation": [
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P2",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P2",
+      "relationship": "disjoint from"
+    }
+  ],
+  "result": [
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R01",
+      "result_unit": "points",
+      "result_value": 18.6,
+      "statistic_type": "Estimated marginal mean",
+      "statistical_method": "Estimated marginal mean from the intent-to-treat linear mixed-model analysis, with baseline scores entered as a covariate.",
+      "supplementary_statistics": "Reported parenthetical value 2.2 (Table 2 caption: estimated marginal mean (±95% CI)); analysis adjusted for baseline scores"
+    },
+    {
+      "assessment_time": "8 weeks post-randomisation",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R02",
+      "result_unit": "points",
+      "result_value": 9.2,
+      "statistic_type": "Estimated marginal mean",
+      "statistical_method": "Estimated marginal mean from the intent-to-treat linear mixed-model analysis, with baseline scores entered as a covariate.",
+      "supplementary_statistics": "Reported parenthetical value 2.4 (Table 2 caption: estimated marginal mean (±95% CI)); analysis adjusted for baseline scores"
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P2",
+      "result_id": "R03",
+      "result_unit": "points",
+      "result_value": 18.8,
+      "statistic_type": "Estimated marginal mean",
+      "statistical_method": "Estimated marginal mean from the intent-to-treat linear mixed-model analysis, with baseline scores entered as a covariate.",
+      "supplementary_statistics": "Reported parenthetical value 2.2 (Table 2 caption: estimated marginal mean (±95% CI)); analysis adjusted for baseline scores"
+    },
+    {
+      "assessment_time": "8 weeks post-randomisation",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P2",
+      "result_id": "R04",
+      "result_unit": "points",
+      "result_value": 17.5,
+      "statistic_type": "Estimated marginal mean",
+      "statistical_method": "Estimated marginal mean from the intent-to-treat linear mixed-model analysis, with baseline scores entered as a covariate.",
+      "supplementary_statistics": "Reported parenthetical value 2.3 (Table 2 caption: estimated marginal mean (±95% CI)); analysis adjusted for baseline scores"
+    },
+    {
+      "assessment_time": "Baseline to 8 weeks post-randomisation",
+      "comparison": "P1 versus P2 across baseline and week 8; group-by-time interaction test",
+      "measure_id": "M0",
+      "population_id": "P0",
+      "result_id": "R05",
+      "result_unit": null,
+      "result_value": "< 0.001",
+      "statistic_type": "Group-by-time interaction p value",
+      "statistical_method": "Baseline-to-8-week group-by-time interaction in the intent-to-treat linear mixed model; all analyses adjusted for baseline scores.",
+      "supplementary_statistics": "Reported in Table 2 as baseline to 8-week interaction p"
+    },
+    {
+      "assessment_time": "8 weeks post-randomisation",
+      "comparison": "P1 versus P2 (CBTi versus control); positive source-reported magnitude of lower scores with CBTi; subtraction formula not explicitly stated",
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R06",
+      "result_unit": "points",
+      "result_value": 8.3,
+      "statistic_type": "Baseline-adjusted between-group mean difference at 8 weeks, CBTi lower than control",
+      "statistical_method": "Bonferroni-corrected intent-to-treat linear mixed-model between-group comparison at 8 weeks, with baseline scores entered as a covariate.",
+      "supplementary_statistics": "95% CI 5.0–11.6; P < 0.001"
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R07",
+      "result_unit": "points",
+      "result_value": 11.0,
+      "statistic_type": "Estimated marginal mean",
+      "statistical_method": "Estimated marginal mean from the intent-to-treat linear mixed-model analysis, with baseline scores entered as a covariate.",
+      "supplementary_statistics": "Reported parenthetical value 1.8 (Table 2 caption: estimated marginal mean (±95% CI)); analysis adjusted for baseline scores"
+    },
+    {
+      "assessment_time": "8 weeks post-randomisation",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R08",
+      "result_unit": "points",
+      "result_value": 5.7,
+      "statistic_type": "Estimated marginal mean",
+      "statistical_method": "Estimated marginal mean from the intent-to-treat linear mixed-model analysis, with baseline scores entered as a covariate.",
+      "supplementary_statistics": "Reported parenthetical value 2.0 (Table 2 caption: estimated marginal mean (±95% CI)); analysis adjusted for baseline scores"
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P2",
+      "result_id": "R09",
+      "result_unit": "points",
+      "result_value": 10.4,
+      "statistic_type": "Estimated marginal mean",
+      "statistical_method": "Estimated marginal mean from the intent-to-treat linear mixed-model analysis, with baseline scores entered as a covariate.",
+      "supplementary_statistics": "Reported parenthetical value 1.8 (Table 2 caption: estimated marginal mean (±95% CI)); analysis adjusted for baseline scores"
+    },
+    {
+      "assessment_time": "8 weeks post-randomisation",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P2",
+      "result_id": "R10",
+      "result_unit": "points",
+      "result_value": 9.4,
+      "statistic_type": "Estimated marginal mean",
+      "statistical_method": "Estimated marginal mean from the intent-to-treat linear mixed-model analysis, with baseline scores entered as a covariate.",
+      "supplementary_statistics": "Reported parenthetical value 1.9 (Table 2 caption: estimated marginal mean (±95% CI)); analysis adjusted for baseline scores"
+    },
+    {
+      "assessment_time": "Baseline to 8 weeks post-randomisation",
+      "comparison": "P1 versus P2 across baseline and week 8; group-by-time interaction test",
+      "measure_id": "M1",
+      "population_id": "P0",
+      "result_id": "R11",
+      "result_unit": null,
+      "result_value": 0.009,
+      "statistic_type": "Group-by-time interaction p value",
+      "statistical_method": "Baseline-to-8-week group-by-time interaction in the intent-to-treat linear mixed model; all analyses adjusted for baseline scores.",
+      "supplementary_statistics": "Reported in Table 2 as baseline to 8-week interaction p"
+    },
+    {
+      "assessment_time": "8 weeks post-randomisation",
+      "comparison": "P1 versus P2 (CBTi versus control); positive source-reported magnitude of lower scores with CBTi; subtraction formula not explicitly stated",
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R12",
+      "result_unit": "points",
+      "result_value": 3.7,
+      "statistic_type": "Baseline-adjusted between-group mean difference at 8 weeks, CBTi lower than control",
+      "statistical_method": "Bonferroni-corrected intent-to-treat linear mixed-model between-group comparison at 8 weeks, with baseline scores entered as a covariate.",
+      "supplementary_statistics": "95% CI 1.0–6.4 (supplement); P=0.008"
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R13",
+      "result_unit": "points",
+      "result_value": 7.0,
+      "statistic_type": "Estimated marginal mean",
+      "statistical_method": "Estimated marginal mean from the intent-to-treat linear mixed-model analysis, with baseline scores entered as a covariate.",
+      "supplementary_statistics": "Reported parenthetical value 1.3 (Table 2 caption: estimated marginal mean (±95% CI)); analysis adjusted for baseline scores"
+    },
+    {
+      "assessment_time": "8 weeks post-randomisation",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R14",
+      "result_unit": "points",
+      "result_value": 3.3,
+      "statistic_type": "Estimated marginal mean",
+      "statistical_method": "Estimated marginal mean from the intent-to-treat linear mixed-model analysis, with baseline scores entered as a covariate.",
+      "supplementary_statistics": "Reported parenthetical value 1.5 (Table 2 caption: estimated marginal mean (±95% CI)); analysis adjusted for baseline scores"
+    },
+    {
+      "assessment_time": "Baseline",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P2",
+      "result_id": "R15",
+      "result_unit": "points",
+      "result_value": 7.1,
+      "statistic_type": "Estimated marginal mean",
+      "statistical_method": "Estimated marginal mean from the intent-to-treat linear mixed-model analysis, with baseline scores entered as a covariate.",
+      "supplementary_statistics": "Reported parenthetical value 1.3 (Table 2 caption: estimated marginal mean (±95% CI)); analysis adjusted for baseline scores"
+    },
+    {
+      "assessment_time": "8 weeks post-randomisation",
+      "comparison": null,
+      "measure_id": "M2",
+      "population_id": "P2",
+      "result_id": "R16",
+      "result_unit": "points",
+      "result_value": 6.2,
+      "statistic_type": "Estimated marginal mean",
+      "statistical_method": "Estimated marginal mean from the intent-to-treat linear mixed-model analysis, with baseline scores entered as a covariate.",
+      "supplementary_statistics": "Reported parenthetical value 1.4 (Table 2 caption: estimated marginal mean (±95% CI)); analysis adjusted for baseline scores"
+    },
+    {
+      "assessment_time": "Baseline to 8 weeks post-randomisation",
+      "comparison": "P1 versus P2 across baseline and week 8; group-by-time interaction test",
+      "measure_id": "M2",
+      "population_id": "P0",
+      "result_id": "R17",
+      "result_unit": null,
+      "result_value": 0.019,
+      "statistic_type": "Group-by-time interaction p value",
+      "statistical_method": "Baseline-to-8-week group-by-time interaction in the intent-to-treat linear mixed model; all analyses adjusted for baseline scores.",
+      "supplementary_statistics": "Reported in Table 2 as baseline to 8-week interaction p"
+    },
+    {
+      "assessment_time": "8 weeks post-randomisation",
+      "comparison": "P1 versus P2 (CBTi versus control); positive source-reported magnitude of lower scores with CBTi; subtraction formula not explicitly stated",
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R18",
+      "result_unit": "points",
+      "result_value": 2.9,
+      "statistic_type": "Baseline-adjusted between-group mean difference at 8 weeks, CBTi lower than control",
+      "statistical_method": "Bonferroni-corrected intent-to-treat linear mixed-model between-group comparison at 8 weeks, with baseline scores entered as a covariate.",
+      "supplementary_statistics": "95% CI 0.9–4.9; P=0.005"
+    },
+    {
+      "assessment_time": "8 weeks post-randomisation",
+      "comparison": "P1 versus P2 (CBTi versus control); reported d; sign convention not explicitly defined",
+      "measure_id": "M0",
+      "population_id": "P1",
+      "result_id": "R19",
+      "result_unit": null,
+      "result_value": 2.88,
+      "statistic_type": "Between-group standardized effect size (Cohen's d)",
+      "statistical_method": "Reported baseline-adjusted between-group standardized effect size from Table 2/supplement.",
+      "supplementary_statistics": null
+    },
+    {
+      "assessment_time": "8 weeks post-randomisation",
+      "comparison": "P1 versus P2 (CBTi versus control); reported d; sign convention not explicitly defined",
+      "measure_id": "M1",
+      "population_id": "P1",
+      "result_id": "R20",
+      "result_unit": null,
+      "result_value": 1.16,
+      "statistic_type": "Between-group standardized effect size (Cohen's d)",
+      "statistical_method": "Reported baseline-adjusted between-group standardized effect size from Table 2/supplement.",
+      "supplementary_statistics": null
+    },
+    {
+      "assessment_time": "8 weeks post-randomisation",
+      "comparison": "P1 versus P2 (CBTi versus control); reported d; sign convention not explicitly defined",
+      "measure_id": "M2",
+      "population_id": "P1",
+      "result_id": "R21",
+      "result_unit": null,
+      "result_value": 0.62,
+      "statistic_type": "Between-group standardized effect size (Cohen's d)",
+      "statistical_method": "Reported baseline-adjusted between-group standardized effect size from Table 2/supplement.",
+      "supplementary_statistics": null
+    }
+  ]
+}

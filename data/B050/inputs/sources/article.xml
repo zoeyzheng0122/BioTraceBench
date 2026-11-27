@@ -1,0 +1,805 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="sci3275855" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Stem Cells Int</journal-id><journal-id journal-id-type="iso-abbrev">Stem Cells Int</journal-id><journal-id journal-id-type="pmc-domain-id">1340</journal-id><journal-id journal-id-type="pmc-domain">sci</journal-id><journal-id journal-id-type="nlm-id">101535822</journal-id><journal-id journal-id-type="publisher-id">SCI</journal-id><journal-title-group><journal-title>Stem Cells International</journal-title></journal-title-group><issn pub-type="ppub">1687-966X</issn><issn pub-type="epub">1687-9678</issn><?publisher_abbrev blackwell?><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC12860394</article-id><article-id pub-id-type="pmcid-ver">PMC12860394.1</article-id><article-id pub-id-type="pmcaid">12860394</article-id><article-id pub-id-type="pmcaiid">12860394</article-id><article-id pub-id-type="pmid">41624062</article-id><article-id pub-id-type="doi">10.1155/sci/3275855</article-id><article-id pub-id-type="publisher-id">SCI3275855</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></article-categories><title-group><article-title>Evaluation of MSC‐Secretome Effects in an Ex Vivo Compartmentalized Osteochondral Interface Model</article-title></title-group><contrib-group><contrib id="cr-0001" contrib-type="author"><name name-style="western"><surname>Cadelano</surname><given-names initials="F">Francesca</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-1658-8932</contrib-id><xref rid="aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="cr-0002" contrib-type="author" corresp="yes"><name name-style="western"><surname>Giannasi</surname><given-names initials="C">Chiara</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-7186-7432</contrib-id><xref rid="aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><address><email>chiara.giannasi@unimi.it</email></address></contrib><contrib id="cr-0003" contrib-type="author"><name name-style="western"><surname>Rossi</surname><given-names initials="N">Nicolò</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-4895-4789</contrib-id><xref rid="aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="cr-0004" contrib-type="author"><name name-style="western"><surname>Della Morte</surname><given-names initials="E">Elena</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-1361-168X</contrib-id><xref rid="aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="cr-0005" contrib-type="author"><name name-style="western"><surname>Niada</surname><given-names initials="S">Stefania</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-3655-9968</contrib-id><xref rid="aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="cr-0006" contrib-type="author"><name name-style="western"><surname>Talò</surname><given-names initials="G">Giuseppe</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-1976-5073</contrib-id><xref rid="aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="cr-0007" contrib-type="author"><name name-style="western"><surname>Mistretta</surname><given-names initials="DA">Davide Alessandro</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0009-0006-3274-4751</contrib-id><xref rid="aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="cr-0008" contrib-type="author"><name name-style="western"><surname>Moretti</surname><given-names initials="M">Matteo</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-7301-1208</contrib-id><xref rid="aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref><xref rid="aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref><xref rid="aff-0007" ref-type="aff">
+<sup>7</sup>
+</xref></contrib><contrib id="cr-0009" contrib-type="author"><name name-style="western"><surname>Peretti</surname><given-names initials="GM">Giuseppe Michele</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-9341-7187</contrib-id><xref rid="aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="aff-0008" ref-type="aff">
+<sup>8</sup>
+</xref></contrib><contrib id="cr-0010" contrib-type="author"><name name-style="western"><surname>Mangiavini</surname><given-names initials="L">Laura</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-1892-1249</contrib-id><xref rid="aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="aff-0008" ref-type="aff">
+<sup>8</sup>
+</xref></contrib><contrib id="cr-0011" contrib-type="author"><name name-style="western"><surname>Brini</surname><given-names initials="AT">Anna Teresa</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-7848-8099</contrib-id><xref rid="aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib></contrib-group><contrib-group><contrib id="cr-0012" contrib-type="editor"><name name-style="western"><surname>Choudhery</surname><given-names initials="MS">Mahmood S.</given-names></name><address><email>hkhatra@wiley.com</email></address></contrib></contrib-group><aff id="aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Department of Biomedical</named-content>, <named-content content-type="organisation-division">Surgical and Dental Sciences, One Health</named-content>, <institution>University of Milan</institution>, <city>Milan</city>, <country>Italy</country>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://unimi.it" ext-link-type="uri">unimi.it</ext-link>
+</aff><aff id="aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Laboratory of Biotechnological Applications</named-content>, <named-content content-type="organisation-division">IRCCS Istituto Ortopedico Galeazzi</named-content>, <city>Milan</city>, <country>Italy</country>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://galeazzi-gsd.it" ext-link-type="uri">galeazzi-gsd.it</ext-link>
+</aff><aff id="aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">E.U.O.R.R.</named-content>, <named-content content-type="organisation-division">IRCCS Istituto Ortopedico Galeazzi</named-content>, <city>Milan</city>, <country>Italy</country>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://galeazzi-gsd.it" ext-link-type="uri">galeazzi-gsd.it</ext-link>
+</aff><aff id="aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<institution>Cell and Tissue Engineering Laboratory</institution>, <named-content content-type="organisation-division">IRCCS Istituto Ortopedico Galeazzi</named-content>, <city>Milan</city>, <country>Italy</country>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://galeazzi-gsd.it" ext-link-type="uri">galeazzi-gsd.it</ext-link>
+</aff><aff id="aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<named-content content-type="organisation-division">Anatomopathology and Cytodiagnostic Department</named-content>, <named-content content-type="organisation-division">IRCCS Istituto Ortopedico Galeazzi</named-content>, <city>Milan</city>, <country>Italy</country>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://galeazzi-gsd.it" ext-link-type="uri">galeazzi-gsd.it</ext-link>
+</aff><aff id="aff-0006">
+<label>
+<sup>6</sup>
+</label>
+<named-content content-type="organisation-division">Regenerative Medicine Division</named-content>, <institution>Institute for Translational Research</institution>, <named-content content-type="organisation-division">Ente Ospedaliero Cantonale-Università della Svizzera Italiana</named-content>, <city>Bellinzona</city>, <country>Switzerland</country>
+</aff><aff id="aff-0007">
+<label>
+<sup>7</sup>
+</label>
+<institution>Euler Institute</institution>, <named-content content-type="organisation-division">Faculty of Biomedical Sciences</named-content>, <named-content content-type="organisation-division">Università della Svizzera Italiana</named-content>, <city>Lugano</city>, <country>Switzerland</country>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://usi.ch" ext-link-type="uri">usi.ch</ext-link>
+</aff><aff id="aff-0008">
+<label>
+<sup>8</sup>
+</label>
+<named-content content-type="organisation-division">Department of Biomedical Sciences for Health</named-content>, <institution>University of Milan</institution>, <city>Milan</city>, <country>Italy</country>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://unimi.it" ext-link-type="uri">unimi.it</ext-link>
+</aff><pub-date pub-type="epub"><day>31</day><month>1</month><year>2026</year></pub-date><pub-date pub-type="collection"><year>2026</year></pub-date><volume>2026</volume><issue-id pub-id-type="pmc-issue-id">504214</issue-id><elocation-id>3275855</elocation-id><history>
+<date date-type="rev-recd"><day>17</day><month>12</month><year>2025</year></date>
+<date date-type="received"><day>12</day><month>5</month><year>2025</year></date>
+<date date-type="accepted"><day>20</day><month>12</month><year>2025</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>31</day><month>01</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>01</day><month>02</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-09-19 17:02:14.663"><day>19</day><month>09</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">Copyright © 2026 Francesca Cadelano et al. Stem Cells International published by John Wiley &amp; Sons Ltd.</copyright-statement><copyright-year>2026</copyright-year><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="SCI-2026-3275855.pdf"><?pdf-name SCI-2026-3275855.pdf?><?pdf-size 2275977?><?pdf-md5 aae9c685ad2bf9071bf58dc8468a5f86?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:f242/12860394/aae9c685ad2b/SCI-2026-3275855.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:SCI-2026-3275855.pdf"/><abstract><p>Osteoarthritis (OA) represents a significant challenge in both orthopedic research and clinical practice, necessitating the development of effective therapeutic strategies. Here, we describe an ex vivo model based on osteochondral (OCh) explants housed in a three‐dimensional printed device that enables the separation of bone and cartilage compartments. Our model demonstrates effective partitioning, as confirmed by significant differences in measurements of tissue‐specific markers. The markers included matrix metalloproteinase (MMP) activity and sulfated glycosaminoglycan (sGAG) release for cartilage and alkaline phosphatase (ALP) activity, tartrate‐resistant acid phosphatase (TRAP) activity, and osteocalcin (OC) levels for bone. The cartilage compartment of OCh explants was exposed to inflammatory stimuli, to mimic the OA‐related microenvironment, using 10 ng/mL TNFα and 1 ng/mL IL‐1β. Cytokine administration was coupled with secretome (or conditioned medium, CM) treatment obtained from 5 × 10<sup>5</sup> naïve or cytokine‐primed adipose‐derived mesenchymal cells (CM and pCM). After 3 days, inflammatory cytokines induced a significant upregulation of MMP activity, effectively countered by both CM and pCM, alongside a modest increase in sGAG release. No major changes were detected in the bone counterpart. This study holds dual significance: firstly, the development and preliminary assessment of a human‐based ex vivo model in accordance with 3Rs (Replacement, Reduction, Refinement) principles in preclinical research; secondarily, the evidence of an anti‐catabolic potential of the adipose‐derived mesenchymal cell secretome contributes, within a broader research context, to hypothesizing its potentiality in counteracting OA‐associated hallmarks, with possible applications at early onset to mitigate the degenerative processes of this pathology.</p><p>
+<bold>Trial Registration:</bold> ClinicalTrials.gov identifier: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:clinical-trial" xlink:href="NCT04223622">NCT04223622</ext-link></p></abstract><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>Ministero della Salute</institution><institution-id institution-id-type="doi">10.13039/501100003196</institution-id></institution-wrap>
+</funding-source></award-group><award-group id="funding-0002"><funding-source>
+<institution-wrap><institution>Università degli Studi di Milano</institution><institution-id institution-id-type="doi">10.13039/100012352</institution-id></institution-wrap>
+</funding-source><award-id>PSR2023_DIP_017</award-id></award-group></funding-group><counts><fig-count count="22"/><table-count count="0"/><ref-count count="52"/><page-count count="12"/><word-count count="7097"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>2026</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.7.1 mode:remove_FC converted:06.03.2026</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="sci3275855-cit-2001">
+<string-name name-style="western">
+<surname>Cadelano</surname>, <given-names>Francesca</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Giannasi</surname>, <given-names>Chiara</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Rossi</surname>, <given-names>Nicolò</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Della Morte</surname>, <given-names>Elena</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Niada</surname>, <given-names>Stefania</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Talò</surname>, <given-names>Giuseppe</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Mistretta</surname>, <given-names>Davide Alessandro</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Moretti</surname>, <given-names>Matteo</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Peretti</surname>, <given-names>Giuseppe Michele</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Mangiavini</surname>, <given-names>Laura</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Brini</surname>, <given-names>Anna Teresa</given-names>
+</string-name>, 
+<article-title>Evaluation of MSC‐Secretome Effects in an Ex Vivo Compartmentalized Osteochondral Interface Model</article-title>, 
+<source>Stem Cells International</source>, <volume>2026</volume>, <elocation-id>3275855</elocation-id>, 12 pages, <year>2026</year>. 
+<pub-id pub-id-type="doi">10.1155/sci/3275855</pub-id>
+<pub-id pub-id-type="pmid">41624062</pub-id>
+<pub-id pub-id-type="pmcid">PMC12860394</pub-id></mixed-citation>
+</p><fn-group><fn id="note-0001" fn-type="other"><p>Francesca Cadelano and Chiara Giannasi contributed equally as first authors. Laura Mangiavini and Anna Teresa Brini contributed equally as senior authors.</p></fn><fn id="note-0002"><p>
+<bold>Guest Editor:</bold> Mahmood S. Choudhery</p></fn></fn-group></notes></front><body><sec id="sec-0001"><title>1. Introduction</title><p>Osteoarthritis (OA) is a chronic, debilitating joint disorder characterized by progressive degradation of articular cartilage, subchondral bone remodeling, and synovial inflammation. Affecting millions of individuals globally, OA imposes a significant socioeconomic burden on healthcare systems and substantially impacts patients’ quality of life [<xref rid="bib-0001" ref-type="bibr">1</xref>]. Current therapeutic approaches primarily focus on symptom relief, while disease‐modifying interventions are still under development [<xref rid="bib-0002" ref-type="bibr">2</xref>]. The increasing prevalence of OA underscores the urgent need for early innovative strategies that target the underlying mechanisms driving cartilage degradation and joint degeneration. Advancing our understanding of OA pathophysiology is essential to achieving this goal.</p><p>Conventional in vitro OA models, often employing articular chondrocytes in monolayer cultures, have provided valuable insights into the molecular pathways involved in OA onset and progression. These models typically use primary chondrocytes isolated from human or animal cartilage or commercially available immortalized cell lines, such as CHON‐002 and CI‐huChon [<xref rid="bib-0003" ref-type="bibr">3</xref>–<xref rid="bib-0005" ref-type="bibr">5</xref>]. While bi‐dimensional cell cultures are advantageous for their simplicity and reproducibility, they lack the natural ECM, a critical component when studying the complex interactions within the joint microenvironment. Moreover, since OA is an all‐joint disease, it is mandatory to study its molecular and pathological processes in each affected tissue. However, employing single tissue models to recapitulate cartilage, subchondral bone, and other joint tissues (i.e., synovial membrane, synovial fluid, tendons) could limit and undermine the correct understanding of this complex pathology. In contrast, osteochondral (OCh) explants, derived from human or animal joints, preserve the structural integrity of native tissues, thus offering a more physiologically relevant model for orthopedic research. These explants facilitate the study of bone‐cartilage crosstalk, a critical aspect of OA pathogenesis, wherein altered communication between bone and cartilage contributes to disease progression [<xref rid="bib-0006" ref-type="bibr">6</xref>]. This crosstalk involves the bidirectional exchange of signaling molecules, growth factors, and inflammatory cytokines [<xref rid="bib-0006" ref-type="bibr">6</xref>]. Understanding these molecular interactions is pivotal for developing targeted therapies that address the multifaceted nature of OA.</p><p>Mesenchymal stem/stromal cells (MSCs), multipotent progenitors capable of differentiating into osteoblasts, chondrocytes, and adipocytes, have emerged as promising candidates for OA management [<xref rid="bib-0007" ref-type="bibr">7</xref>]. Their therapeutic potential is largely attributed to their immunomodulatory properties and regenerative capabilities. Preclinical and early‐phase clinical studies have demonstrated the safety and feasibility of MSC‐based therapies, showing improvements in pain relief, joint function, and, in some cases, cartilage regeneration [<xref rid="bib-0008" ref-type="bibr">8</xref>, <xref rid="bib-0009" ref-type="bibr">9</xref>]. However, challenges such as high costs, sourcing standardization, and long‐term safety concerns limit their clinical application. As a cell‐free alternative, the MSC‐derived secretome, including conditioned medium (CM) and extracellular vesicles (EVs), is gaining attention. These products contain bioactive molecules such as growth factors, cytokines, lipids, and microRNAs, which modulate inflammation and promote tissue repair. Their cell‐free nature mitigates potential issues associated with cell‐based therapies, such as uncontrolled differentiation or proliferation, while their ease of storage and handling enhances their translational potential [<xref rid="bib-0010" ref-type="bibr">10</xref>]. Preliminary studies indicate that MSC‐CM and EVs exhibit anti‐inflammatory properties, support chondrocyte proliferation, and preserve cartilage integrity in OA models [<xref rid="bib-0004" ref-type="bibr">4</xref>]. Recent advances in MSC research have explored priming or preconditioning strategies to enhance the therapeutic potential of their secretome. Priming involves the exposure of MSCs to specific environmental cues that recapitulate the pathological microenvironment they would face upon transplantation, with the aim of exploiting their inherent plasticity and improving their functional properties. Usually, these strategies rely on the administration of cytokines [<xref rid="bib-0011" ref-type="bibr">11</xref>], the establishment of chemical gradients of gases (e.g., hypoxia [<xref rid="bib-0012" ref-type="bibr">12</xref>]), and the optimization of culture conditions (e.g., substrate stiffness [<xref rid="bib-0013" ref-type="bibr">13</xref>, <xref rid="bib-0014" ref-type="bibr">14</xref>], three‐dimensional culture [<xref rid="bib-0015" ref-type="bibr">15</xref>]). In the context of OA, interleukin‐1β (IL‐1β) and tumor necrosis factor alpha (TNFα) are key players in the onset and progression of the pathology. Our recent findings demonstrated that a brief exposure to these inflammatory mediators induces a “primed” state in MSCs, characterized by increased secretion of immunomodulatory and regenerative factors [<xref rid="bib-0010" ref-type="bibr">10</xref>]. This approach holds promise for mitigating OA‐associated hallmarks and symptoms.</p><p>Building on previous studies investigating the effects of CM in whole OCh explant models, this study employs an enhanced experimental setup featuring a custom‐designed double‐chamber device. This device physically separates the cartilage and bone compartments, restricting their interaction to the OCh interface. Indeed, under physiological conditions, the communication between cartilage and subchondral bone occurs primarily across the subchondral plate, a mineralized interface that mediates the exchange of signaling molecules and small solutes. This tightly regulated connection plays a pivotal role in maintaining joint homeostasis and is also recognized as a key contributor to OA pathogenesis [<xref rid="bib-0016" ref-type="bibr">16</xref>, <xref rid="bib-0017" ref-type="bibr">17</xref>]. Consistently, in vitro evidence has shown that, during direct co‐culture, factors secreted by osteoblasts can negatively affect chondrocyte metabolism, leading to a reduction in ECM synthesis [<xref rid="bib-0018" ref-type="bibr">18</xref>, <xref rid="bib-0019" ref-type="bibr">19</xref>]. Therefore, restricting the direct communication between bone and cartilage—allowing only cross‐talk via the OCh interface—may help preserve cartilage matrix composition. Moreover, the system enables the implementation of compartment‐specific culture conditions and allows for the targeted application of inflammatory stimuli and treatments to the cartilage side, effectively simulating the inflamed synovial environment and mimicking intra‐articular therapeutic administration. In this context, the potential of adipose‐derived MSC (ASC) secretome, particularly CM and primed CM (pCM), is explored as a candidate tool for tissue repair and inflammation modulation.</p></sec><sec id="sec-0002"><title>2. Materials and Methods</title><p>Unless otherwise stated, reagents were purchased from Merck Life Science S.r.l., Milan, Italy.</p><sec id="sec-0003"><title>2.1. Harvest of OCh Explants</title><p>OCh explants were acquired after obtaining informed consent from participants enrolled in the ASC‐OA study, approved by the ethics committee of IRCCS Ospedale San Raffaele (Approval Number: 187/int/2019, ClinicalTrials.gov Identifier: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:clinical-trial" xlink:href="NCT04223622">NCT04223622</ext-link>). Only patients with a Kellgren–Lawrence grade III were included in this study [<xref rid="bib-0020" ref-type="bibr">20</xref>]. The explants were extracted, using a trephine, from the macroscopically preserved regions of tibial plateaus and femoral condyles during knee replacement surgery. The characteristics of the donors are detailed in Supporting Information <xref rid="sec-0027" ref-type="sec">1</xref>: Table <xref rid="sec-0027" ref-type="sec">S1</xref>. OCh explants, each with a diameter of 10 mm and comprising both cartilage and bone, underwent thorough washing in sterile phosphate‐buffered saline (PBS) before being equilibrated for 1 week in a culture medium consisting of high‐glucose DMEM, 10% fetal bovine serum (FBS, Euroclone, Pero, ITA), 2 mM L‐glutamine, 50 U/mL penicillin, 50 µg/mL streptomycin, and 2.5 µg/mL amphotericin β.</p></sec><sec id="sec-0004"><title>2.2. ASC Culture and Preparation of CM and pCM</title><p>ASCs utilized in the study were thawed from batches cryopreserved between 2015 and 2023. Originally, cells were isolated from the subcutaneous adipose waste tissue of patients who underwent either esthetic (<italic toggle="yes">n</italic> = 1) or prosthetic (<italic toggle="yes">n</italic> = 4) surgery, within the Internal Review Board Procedure PQ 7.5.125 and the TENET study (Approval Number: 38/int/2022). Cell isolation, characterization, and culture procedures were conducted following established protocols [<xref rid="bib-0021" ref-type="bibr">21</xref>]. For CM and pCM production, ASCs at 80%–90% confluence, whether untreated or treated for 5 min with 10 ng/mL TNFα and 10 ng/mL IL‐1β, were cultured for 3 days in serum‐free conditions [<xref rid="bib-0010" ref-type="bibr">10</xref>]. Subsequently, conditioned media were collected, centrifuged at 2000 g for 10 min at 4°C to eliminate dead cells and debris, and concentrated using 3 kDa filter devices (Merck Millipore, Burlington, MA, USA). Details of the ASC donors, along with the corresponding couples of CM and pCM samples, are provided in the Supporting Information <xref rid="sec-0027" ref-type="sec">2</xref>: Table <xref rid="sec-0027" ref-type="sec">S2</xref>. To ensure consistency and minimize potential donor‐related variables, treatments were administered using pooled samples of 5 CM or 5 pCM, respectively.</p></sec><sec id="sec-0005"><title>2.3. 3D Insert Design</title><p>The study made use of custom‐made inserts, which were designed through Computer Assisted Design (CAD) software and fabricated employing an Asiga Max x3D printer (ASIGA) that uses Digital Light Processing (DLP) technology. The resin used for printing was the Freeprint® Model 2 (Detax Gmbh, Germany). The insert consists of two interlocking parts: the first part (A) is seated with a biocompatible UV resin within each well of a 12‐well plate, while the second part (B) is used to fit the OCh explant through a silicone O‐ring (Figure <xref rid="fig-0001" ref-type="fig">1</xref>A). The O‐ring creates a tight seal between two compartments that delimits regions containing bone and cartilage. Having separate chambers allows filling each one with its own culture medium, establishing separate environmental conditions for the bone and cartilage tissues. The final design is simple to use and provides an adequate separation between the two compartments for the duration of the experiment.</p><fig-group position="float" id="fig-0001" content-type="Figure" orientation="portrait"><label>Figure 1</label><caption><p>Experimental setup: (A) Project of the 3D insert used to allocate the OCh explants. (B) Experimental timeline, from harvest (Day ‐7) housing (Day 0) to final timepoint (Day 3). (C) Schematic representation of an osteochondral explant handling, from the collection site to the placement in the plate. (D) Procedural steps of explant housing.</p></caption><fig position="anchor" fig-type="Figure" id="figpt-0001" orientation="portrait"><caption><p>(A)</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="SCI-2026-3275855-g021.jpg"><?image-name SCI-2026-3275855-g021.jpg?><?image-size 27929?><?image-md5 f112f5809ab098dd53e67054970ef000?><?image-image-server-status NEVER_LOAD?><?image-original-height 274?><?image-original-width 600?><?image-scaled-height 274?><?image-scaled-width 600?><?image-cloudpmc-urn urn:cdn:blobs/f242/12860394/f112f5809ab0/SCI-2026-3275855-g021.jpg?><?thumb-name SCI-2026-3275855-g021.gif?><?thumb-size 6903?><?thumb-md5 73d7e32666e1d8543b896888e4ba1b31?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 175?><?thumb-cloudpmc-urn urn:cdn:blobs/f242/12860394/73d7e32666e1/SCI-2026-3275855-g021.gif?></graphic></fig><fig position="anchor" fig-type="Figure" id="figpt-0002" orientation="portrait"><caption><p>(B)</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="SCI-2026-3275855-g003.jpg"><?image-name SCI-2026-3275855-g003.jpg?><?image-size 7305?><?image-md5 794ba87c904138be2d200e3af737e1c9?><?image-image-server-status NEVER_LOAD?><?image-original-height 75?><?image-original-width 600?><?image-scaled-height 75?><?image-scaled-width 600?><?image-cloudpmc-urn urn:cdn:blobs/f242/12860394/794ba87c9041/SCI-2026-3275855-g003.jpg?><?thumb-name SCI-2026-3275855-g003.gif?><?thumb-size 1715?><?thumb-md5 393f432da35929ceed9e769cd5a5fd53?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 25?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/f242/12860394/393f432da359/SCI-2026-3275855-g003.gif?></graphic></fig><fig position="anchor" fig-type="Figure" id="figpt-0003" orientation="portrait"><caption><p>(C)</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="SCI-2026-3275855-g020.jpg"><?image-name SCI-2026-3275855-g020.jpg?><?image-size 49880?><?image-md5 3bb56111edcb0be5e872f07cf0338d19?><?image-image-server-status NEVER_LOAD?><?image-original-height 385?><?image-original-width 600?><?image-scaled-height 385?><?image-scaled-width 600?><?image-cloudpmc-urn urn:cdn:blobs/f242/12860394/3bb56111edcb/SCI-2026-3275855-g020.jpg?><?thumb-name SCI-2026-3275855-g020.gif?><?thumb-size 5188?><?thumb-md5 c3fbaf55c8c2a93d852ad7c6fa3f3588?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 124?><?thumb-cloudpmc-urn urn:cdn:blobs/f242/12860394/c3fbaf55c8c2/SCI-2026-3275855-g020.gif?></graphic></fig><fig position="anchor" fig-type="Figure" id="figpt-0004" orientation="portrait"><caption><p>(D)</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="SCI-2026-3275855-g019.jpg"><?image-name SCI-2026-3275855-g019.jpg?><?image-size 23715?><?image-md5 b91035caf102557d1eb7189d0faf267c?><?image-image-server-status NEVER_LOAD?><?image-original-height 141?><?image-original-width 600?><?image-scaled-height 141?><?image-scaled-width 600?><?image-cloudpmc-urn urn:cdn:blobs/f242/12860394/b91035caf102/SCI-2026-3275855-g019.jpg?><?thumb-name SCI-2026-3275855-g019.gif?><?thumb-size 9294?><?thumb-md5 c70520eef4faec6814a7a427297b2f76?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 47?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/f242/12860394/c70520eef4fa/SCI-2026-3275855-g019.gif?></graphic></fig></fig-group></sec><sec id="sec-0006"><title>2.4. CM and pCM Characterization</title><p>As part of the characterization process, the particle and protein content of our products was assessed [<xref rid="bib-0022" ref-type="bibr">22</xref>]. The concentration and size distribution of CM particles were evaluated using nanoparticle tracking analysis (NTA). Samples were diluted in triple‐filtered PBS (with 0.22 μm sterile filters). The NanoSight (Malvern PANalytical, Salisbury, UK) setup parameters comprised 3 × 60 s measurements and a 30‐infusion rate. The quality of the analysis was confirmed following standard parameters (10<sup>6</sup> to 4 × 10<sup>9</sup> particles/mL, 20–120 particles/frame, and &gt;20% valid events in total). Total protein content was evaluated using the Bradford assay (Bio‐Rad, Milan, Italy) following a standard protocol. Observed OD values were interpolated with standard curves to infer μg of protein and normalized to 10<sup>6</sup> donor ASCs. Cytofluorimetric analysis was performed on a CytoFLEX flow cytometer (Beckman Coulter, Brea, CA, USA). The instrument was calibrated using the Megamix‐Plus SSC and FSC (Biocytex, Marseille, France), a reference mixture of FITC‐fluorescent and known‐sized beads (100 nm, 160 nm, 200 nm, 240 nm, 300 nm, 500 nm, and 900 nm). Samples were dilluted 1:10 and stained with 1 μM CFSE for 1 h at 37°C. CFSE‐positive (CFSE+) samples were run in Violet SSC–H and FITC–H channels. Samples were incubated for 30 min at 4°C with APC‐conjugated antibodies αCD9, αCD63, and αCD81 (BioLegend, San Diego, CA, USA, dilution 1:20). Samples were then acquired for 150 s at a medium flow rate. DMEM‐diluted antibodies and unlabeled samples were used as appropriate controls. Finally, the levels of 14 analytes—comprising immunomodulatory cytokines, chemokines, and growth factors—were assessed in CM and pCM pools using a customized Human Premixed Multi‐Analyte Kit LXSAHM (R&amp;D Systems, Minneapolis, MN, USA). The panel was designed to quantify CCL2, CCL3, CXCL1, G‐CSF, HGF, IFN‐γ, IL‐10, IL‐1ra, IL‐4, IL‐8, M‐CSF, OPG, TIMP‐1, and VEGF‐A. After appropriate dilution (1:2–1:5000), samples were analyzed using the Bio‐Plex Multiplex System (Bio‐Rad, Milan, IT) and MAGPIX PONENT 4.2 software (Luminex Corporation, Austin, TX, USA).</p></sec><sec id="sec-0007"><title>2.5. Experimental Design</title><p>The OCh explants were initially maintained for 1 week at 37°C with 5% CO<sub>2</sub> in 12‐well non‐treated plates containing 3 mL of culture medium whose composition has been previously described (section ‘Harvest of OCh explants’). Following this acclimatization, the specimens were placed within custom‐made dividers inside a 12‐well culture plate (Figure <xref rid="fig-0001" ref-type="fig">1</xref>B,C) and randomly allocated to one of four groups:<list list-type="simple"><list-item><label>1.</label><p>Control group (CTR)</p></list-item><list-item><label>2.</label><p>Cytokine‐challenged group (TNF + IL)</p></list-item><list-item><label>3.</label><p>Cytokine‐challenged and CM‐treated group (TNF + IL + CM)</p></list-item><list-item><label>4.</label><p>Cytokine‐challenged and pCM‐treated group (TNF + IL + pCM)</p></list-item></list>
+</p><p>Cartilage‐specific medium consisted of high‐glucose DMEM, 1% FBS, 2 mM L‐glutamine, 50 U/mL penicillin, 50 µg/mL streptomycin, 2.5 µg/mL amphotericin β, and 110 µg/mL sodium pyruvate. The bone counterpart was maintained in a medium composed of high‐glucose DMEM, 1% FBS, 2 mM L‐glutamine, 50 U/mL penicillin, 50 µg/mL streptomycin, 2.5 µg/mL amphotericin β, 100 nM dexamethasone, 50 µg/mL ascorbic acid, and 10 mM β‐glycerophosphate. Inflammatory cues were applied to the cartilage side using cytokines at concentrations of 10 ng/mL for TNFα and 1 ng/mL for IL‐1β (300‐01A and 200‐01B, PeproTech, Cranbury, NJ, USA), while CM and pCM doses were derived from 5 × 10<sup>5</sup> ASCs, corresponding to 67.1 µL and 64.8 µL, respectively.</p></sec><sec id="sec-0008"><title>2.6. Analysis of Tissue Viability</title><p>Before any interventions, the viability of each OCh explant was assessed using the AlamarBlue assay (Thermo Fisher Scientific, Waltham, MA, USA). 10% AlamarBlue reagent was added to the culture medium on both the cartilage and bone sides of the explants for 3 h at 37°C. After incubation, 100 µL aliquots from both compartments were transferred in triplicate to black‐bottom 96‐well plates. Fluorescence measurements (excitation λ = 530 nm, emission λ = 590 nm) were recorded using a Wallac Victor II microplate reader (Perkin Elmer, Milan, ITA). Subsequently, the explants were rinsed with PBS and underwent the designated treatments. The same viability assessment was repeated on day 3 to monitor changes over time. Tissue viability was expressed in Arbitrary Fluorescent Units (AFUs) ×10<sup>3</sup>.</p></sec><sec id="sec-0009"><title>2.7. Evaluation of Matrix Metalloproteinases (MMP) Activity</title><p>The activity of MMPs was assessed using the SensoLyte 520 Generic MMP Activity Kit (AnaSpec, Fremont, CA, USA). Activation of pro‐enzymes was achieved by incubating undiluted samples with 1 mM 4‐aminophenyl mercuric acetate for 40 min at 37°C. After a 45‐minute incubation with the appropriate substrate, fluorescence signals (excitation <italic toggle="yes">λ</italic> = 490 nm, emission <italic toggle="yes">λ</italic> = 520 nm) were measured using a Wallac Victor II microplate reader.</p></sec><sec id="sec-0010"><title>2.8. Measurement of Released Sulfated Glycosaminoglycans (sGAGs)</title><p>The release of sGAGs into culture supernatants was quantified using the dimethyl‐methylene blue (DMMB) method (Sigma Aldrich, St. Louis, MO, USA). A standard curve was generated using chondroitin sulfate with concentrations ranging from 1.6 to 25 μg/mL. In the assay, 50 μL of standards or samples (diluted 1:10 when harvested from the cartilage side) were combined with 200 μL of DMMB reagent. The absorbance at 500 nm was promptly measured using a Wallac Victor II microplate reader.</p></sec><sec id="sec-0011"><title>2.9. Osteocalcin (OC) Quantification</title><p>OC levels were quantified using the Human Osteocalcin Simple Step ELISA Kit (ab270202, Abcam, Cambridge, UK), following standard procedures. Samples were tested either undiluted when collected from the cartilage side or 1:25 diluted when derived from the bone side. Absorbance readings were taken at 450 nm with a Wallac Victor II microplate reader. The resulting values were then interpolated to a standard curve obtained with recombinant protein concentrations ranging from 62.5 pg/mL to 2 ng/mL.</p></sec><sec id="sec-0012"><title>2.10. Evaluation of Alkaline Phosphatase (ALP) Activity</title><p>The activity of ALP was evaluated through a colorimetric assay, exploiting the conversion of the substrate p‐nitrophenyl phosphate (pNPP) into its yellow product, p‐nitrophenol (pNP). The assay was conducted in a buffer solution composed of 100 mM diethanolamine and 0.5 mM MgCl<sub>2</sub>, adjusted to pH 10.5. Following color development, absorbance at 405 nm was quantified using a Wallac Victor II microplate reader. Absorbance values were then correlated to a standard curve of pNP concentrations ranging from 4 mM to 0.06 mM. Enzymatic activity was subsequently determined by calculating the amount of pNP produced, divided by the reaction time, and expressed as picomoles/minutes/µL (pmol/min/μL).</p></sec><sec id="sec-0013"><title>2.11. Analysis of Tartrate‐Resistant Acid Phosphatase (TRAP) Activity</title><p>The enzymatic activity of TRAP was evaluated using a colorimetric assay. Samples (50 μL each) were transferred into a 96‐well plate, followed by the addition of 100 μL of assay buffer per well. The assay buffer consisted of 0.1 M sodium acetate, 0.1% Triton X‐100 in PBS, 30 μL/mL of tartrate solution (Sigma–Aldrich, Saint Louis, MO, USA), and the substrate, pNPP, at a final concentration of 1 mg/mL. The final solution was adjusted to pH 5.5. To quantify the reaction product, a standard curve was prepared using pNP diluted in assay buffer at concentrations ranging from 4 mM to 0.03 mM. Absorbance at 405 nm was measured after 90 min to calculate the enzymatic activity, expressed as pmol/min/μL.</p></sec><sec id="sec-0014"><title>2.12. Analysis of MMP3 and COL2A1 Protein Expression</title><p>For protein extraction, the cartilage layer of each explant was carefully excised from the bone counterpart using a scalpel and finely triturated. Samples were processed using PreCellys Mini Tubes (Bertin Technologies, Montigny‐le‐Bretonneux, FR) following the TRIzol–chloroform extraction method. Protein concentrations were determined using the BCA assay (Thermo Fisher Scientific, Waltham, MA, USA). Subsequently, 15 µg of total proteins per sample were loaded and separated on a 10% SDS‐PAGE gel. Western blotting was performed following standard protocols. Primary antibodies—rabbit anti‐MMP3 (#14351, Cell Signaling, Danvers, MA, USA; 1:1000 dilution), rabbit anti‐COL2A1 (ab34712, Abcam, Cambridge, UK; 1:2000 dilution), and mouse anti‐GAPDH (sc‐47724, Santa Cruz Biotechnology, Santa Cruz, CA, USA; 1:1000 dilution)—were incubated overnight at 4°C. Specific signals were detected using appropriate horseradish peroxidase‐conjugated secondary antibodies (Thermo Fisher Scientific, Waltham, MA, USA; 1:3000 dilution) and visualized with ECL Westar Supernova (Cyanagen, Bologna, IT). Signal acquisition was carried out using a ChemiDoc Imaging System, and densitometric analysis was performed using Image Lab Software (Bio‐Rad, Milan, IT).</p></sec><sec id="sec-0015"><title>2.13. Statistical Analysis</title><p>All data regarding CM and pCM characterization were normalized to 10<sup>6</sup> donor ASCs, while data from the bone compartment were normalized to grams (g) of bone tissue, which constitutes the predominant component of the explant weight. Statistical analyses were conducted using GraphPad Prism (version 10.4.1). Comparisons between the cartilage and bone compartments were performed using a paired <italic toggle="yes">t</italic>‐test or the Wilcoxon matched‐pairs signed rank test, depending on the results of the normality test. For comparisons involving more than two experimental conditions, repeated‐measures ANOVA and mixed‐effects models were employed, incorporating the Geisser‐Greenhouse correction. A <italic toggle="yes">p</italic>‐value of 0.05 or lower was considered statistically significant.</p></sec></sec><sec id="sec-0016"><title>3. Results</title><sec id="sec-0017"><title>3.1. Validation of Explant Viability and Compartmental Integrity of the OCh Model</title><p>The OCh explants were cultured for a total of 10 days post‐collection, with viability assessments conducted 1 week after harvesting, acknowledged as an acclimatization phase (Day 0 of experimental timepoints), and again at the end of the experiment (Day 3) (Figure <xref rid="fig-0001" ref-type="fig">1</xref>B). Prior to positioning the explants in the insert at Day 0, each sample was macroscopically examined and selected only if no signs of necrosis or tissue damage at the edges were detected. Subsequently, a silicone ring was placed at the cartilage‐bone interface level of the explant, which was then housed in the insert part A and closed with the part B, to create a double‐compartmentalized well (Figure <xref rid="fig-0001" ref-type="fig">1</xref>D, from left to right).</p><p>To confirm compartmental isolation and the preservation of tissue phenotype, metabolic activity, as well as tissue‐specific markers, was assessed in the supernatant of each section. Both cartilage and bone tissues exhibited metabolic activity at Day 3, albeit at significantly distinct grades (Figure <xref rid="fig-0002" ref-type="fig">2</xref>A), aligning with their expected differences in metabolism, cellularity, resident cell proliferative rates, and turnover [<xref rid="bib-0023" ref-type="bibr">23</xref>]. Regarding tissue markers, MMP activity and sulfated glycosaminoglycan (sGAG) levels were chosen for the cartilage compartment (Figure <xref rid="fig-0002" ref-type="fig">2</xref>B,C), given their expected higher levels in cartilage compared to bone. Indeed, MMP activity, specifically MMP3 and 13, predominant in osteoarthritic cartilage, is an indication of the state of the tissue [<xref rid="bib-0024" ref-type="bibr">24</xref>]. Similarly, ALP and TRAP activity, and OC levels were analyzed as bone markers (Figure <xref rid="fig-0002" ref-type="fig">2</xref>D, E and F). ALP and TRAP are specific enzymes that control the balance between bone deposition and resorption; indeed, their levels are used as a direct measure of bone homeostasis. Results confirmed a clear compartmental separation with distinct levels of tissue‐specific markers, suggesting that the model works as a bi‐chamber system without leakages, and media formulations preserve the native characteristics of each compartment without altering the physiology of the neighboring one.</p><fig-group position="float" id="fig-0002" content-type="Figure" orientation="portrait"><label>Figure 2</label><caption><p>Evaluation of tissue‐specific compartmentalization: (A) Explants viability expressed in AFUs (×10<sup>3</sup>) (<italic toggle="yes">n</italic> = 12). (B) MMP activity expressed in AFUs (×10<sup>3</sup>) (<italic toggle="yes">n</italic> = 9). (C) sGAG concentration in supernatants expressed as μg/ml (<italic toggle="yes">n</italic> = 7). (D) ALP activity expressed as pmol of product formed per min per μL (<italic toggle="yes">n</italic> = 9). (E) TRAP activity expressed as pmol of product formed per min per μL (<italic toggle="yes">n</italic> = 13). (F) Concentration of osteocalcin in supernatants, expressed as ng/mL (<italic toggle="yes">n</italic> = 9). All data are obtained at Day 3 and represented as mean ± SEM, with bone data normalized on weight in grams.  <sup>∗</sup>
+<italic toggle="yes">p</italic>‐value &lt;0.05,  <sup>∗</sup>
+<italic toggle="yes">p</italic>‐value &lt;0.01,  <sup>∗</sup> 
+<sup>∗</sup>
+<italic toggle="yes">p</italic>‐value &lt;0.001.</p></caption><fig position="anchor" fig-type="Figure" id="figpt-0005" orientation="portrait"><caption><p>(A)</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="SCI-2026-3275855-g018.jpg"><?image-name SCI-2026-3275855-g018.jpg?><?image-size 39309?><?image-md5 bb9b9ec3185ba0b48bf0032b5c2fe1de?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 840?><?image-original-width 600?><?image-scaled-height 840?><?image-scaled-width 600?><?image-cloudpmc-urn urn:cdn:blobs/f242/12860394/bb9b9ec3185b/SCI-2026-3275855-g018.jpg?><?thumb-name SCI-2026-3275855-g018.gif?><?thumb-size 2907?><?thumb-md5 c641fce7651fd559bef57fa08f569a48?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 140?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/f242/12860394/c641fce7651f/SCI-2026-3275855-g018.gif?></graphic></fig><fig position="anchor" fig-type="Figure" id="figpt-0006" orientation="portrait"><caption><p>(B)</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-11" orientation="portrait" xlink:href="SCI-2026-3275855-g017.jpg"><?image-name SCI-2026-3275855-g017.jpg?><?image-size 42135?><?image-md5 1d6028071eb6d2df8215a4a0a7532f76?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 838?><?image-original-width 600?><?image-scaled-height 838?><?image-scaled-width 600?><?image-cloudpmc-urn urn:cdn:blobs/f242/12860394/1d6028071eb6/SCI-2026-3275855-g017.jpg?><?thumb-name SCI-2026-3275855-g017.gif?><?thumb-size 3055?><?thumb-md5 717318b0fa112a332b2b44c659d2cca5?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 140?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/f242/12860394/717318b0fa11/SCI-2026-3275855-g017.gif?></graphic></fig><fig position="anchor" fig-type="Figure" id="figpt-0007" orientation="portrait"><caption><p>(C)</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-13" orientation="portrait" xlink:href="SCI-2026-3275855-g016.jpg"><?image-name SCI-2026-3275855-g016.jpg?><?image-size 37408?><?image-md5 f1479249c4b097b32efbc4c1e48ee046?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 814?><?image-original-width 600?><?image-scaled-height 814?><?image-scaled-width 600?><?image-cloudpmc-urn urn:cdn:blobs/f242/12860394/f1479249c4b0/SCI-2026-3275855-g016.jpg?><?thumb-name SCI-2026-3275855-g016.gif?><?thumb-size 2611?><?thumb-md5 54e480b4257cba07501757107141871a?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 136?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/f242/12860394/54e480b4257c/SCI-2026-3275855-g016.gif?></graphic></fig><fig position="anchor" fig-type="Figure" id="figpt-0008" orientation="portrait"><caption><p>(D)</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-15" orientation="portrait" xlink:href="SCI-2026-3275855-g015.jpg"><?image-name SCI-2026-3275855-g015.jpg?><?image-size 43372?><?image-md5 e1f78f1200da98d095cbbd82a8451101?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 887?><?image-original-width 600?><?image-scaled-height 887?><?image-scaled-width 600?><?image-cloudpmc-urn urn:cdn:blobs/f242/12860394/e1f78f1200da/SCI-2026-3275855-g015.jpg?><?thumb-name SCI-2026-3275855-g015.gif?><?thumb-size 3135?><?thumb-md5 66dd743877f562cc65e3cb446253bba9?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 148?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/f242/12860394/66dd743877f5/SCI-2026-3275855-g015.gif?></graphic></fig><fig position="anchor" fig-type="Figure" id="figpt-0009" orientation="portrait"><caption><p>(E)</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-17" orientation="portrait" xlink:href="SCI-2026-3275855-g014.jpg"><?image-name SCI-2026-3275855-g014.jpg?><?image-size 44606?><?image-md5 281a32623078963a1bc10ddffa222fc9?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 830?><?image-original-width 600?><?image-scaled-height 830?><?image-scaled-width 600?><?image-cloudpmc-urn urn:cdn:blobs/f242/12860394/281a32623078/SCI-2026-3275855-g014.jpg?><?thumb-name SCI-2026-3275855-g014.gif?><?thumb-size 3099?><?thumb-md5 ad2652f039cd61a0457572e6c170aca3?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 138?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/f242/12860394/ad2652f039cd/SCI-2026-3275855-g014.gif?></graphic></fig><fig position="anchor" fig-type="Figure" id="figpt-0010" orientation="portrait"><caption><p>(F)</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-19" orientation="portrait" xlink:href="SCI-2026-3275855-g013.jpg"><?image-name SCI-2026-3275855-g013.jpg?><?image-size 37126?><?image-md5 0e575a2622c403e5c589e069f0b01d00?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 849?><?image-original-width 600?><?image-scaled-height 849?><?image-scaled-width 600?><?image-cloudpmc-urn urn:cdn:blobs/f242/12860394/0e575a2622c4/SCI-2026-3275855-g013.jpg?><?thumb-name SCI-2026-3275855-g013.gif?><?thumb-size 2768?><?thumb-md5 e8cbf58d98e8fbbce2258757a2090f9d?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 142?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/f242/12860394/e8cbf58d98e8/SCI-2026-3275855-g013.gif?></graphic></fig></fig-group></sec><sec id="sec-0018"><title>3.2. CM and pCM Characterization</title><p>CM and pCM samples underwent classical characterization before administration to cartilage compartments. NTA revealed that the particle distribution of CM and pCM showed peaks in the same size ranges, but with pCM expressing higher ones (red line, Figure <xref rid="fig-0003" ref-type="fig">3</xref>A). Indeed, particle concentration was significantly incremented in the pCM (Figure <xref rid="fig-0003" ref-type="fig">3</xref>B). Total protein quantification also was significantly higher in the pCM samples (Figure <xref rid="fig-0003" ref-type="fig">3</xref>C). Subsequently, EV presence and their quality were assessed by cytofluorimetric analysis as a required control. Primarily, a calibration with fluorescently labeled beads with known dimensions was done to set up a size reference for correct EV gating (Figure <xref rid="fig-0003" ref-type="fig">3</xref>D). Consequently, CFSE + vesicles were gated, and after this selection, the positivity to canonical markers was assessed in both CM and pCM. They equally showed strong positivity for CD63 and CD81 and a weaker one for CD9 (CM: CD9 22.1%, CD63 95.59%, and CD81 92.89%; pCM: CD9 22.59%, CD63 95.87%, and CD81 92.97%, Figure <xref rid="fig-0003" ref-type="fig">3</xref> E and F). At last, the levels of 14 bioactive factors were quantified in CM and pCM. All analytes were detectable, confirming that both preparations contain factors involved in key biological processes such as immune regulation, cellular responses to inflammatory stimuli, and modulation of cellular catabolism (Figure <xref rid="fig-0003" ref-type="fig">3</xref>G and Supporting Information <xref rid="sec-0027" ref-type="sec">3</xref>: Table <xref rid="sec-0027" ref-type="sec">S3</xref>). Notably, the concentrations of most analytes were higher in pCM compared to CM, with particularly marked increases observed for CCL2, CCL3, CXCL1, G‐CSF, HGF, IL‐1ra, IL‐8, and VEGF‐A, exhibiting fold changes of 17, 5, 53, 216, 3, 3, 74, and 3, respectively. These results reinforce the hypothesis that pCM may represent a more promising therapeutic candidate for the treatment of OA.</p><fig-group position="float" id="fig-0003" content-type="Figure" orientation="portrait"><label>Figure 3</label><caption><p>CM and pCM characterization: (A) Particle size distribution of CM (blue) and pCM (red) pools detected with NTA, normalized per 10<sup>6</sup> donor ASCs. (B) Particle concentration of CM and pCM obtained with NTA, normalized per 10<sup>6</sup> ASCs (mean ± SEM). (C) Protein levels in CM and pCM, expressed in μg on 10<sup>6</sup> donor ASCs (mean ± SEM). (D) Cytofluorimetric analysis of known‐sized beads, for EV size gating. (E) Cytofluorimetric analysis of CD9, CD63, and CD81 positive CFSE + vesicles present in a pooled CM sample. (F) Cytofluorimetric analysis of CD9, CD63, and CD81 positive CFSE + vesicles present in a pooled pCM sample. (G) Histogram showing the levels of 14 quantified factors in CM and pCM pools. The <italic toggle="yes">Y</italic>‐axis is presented on a logarithmic scale. The table on the right details the concentrations expressed as pg per 10<sup>6</sup> ASCs.  <sup>∗</sup>
+<italic toggle="yes">p</italic>‐value &lt;0.05.</p></caption><fig position="anchor" fig-type="Figure" id="figpt-0011" orientation="portrait"><caption><p>(A)</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-21" orientation="portrait" xlink:href="SCI-2026-3275855-g012.jpg"><?image-name SCI-2026-3275855-g012.jpg?><?image-size 41658?><?image-md5 5e785cb9709e17cf4b48b0c7973f2694?><?image-image-server-status NEVER_LOAD?><?image-original-height 601?><?image-original-width 600?><?image-scaled-height 601?><?image-scaled-width 600?><?image-cloudpmc-urn urn:cdn:blobs/f242/12860394/5e785cb9709e/SCI-2026-3275855-g012.jpg?><?thumb-name SCI-2026-3275855-g012.gif?><?thumb-size 2737?><?thumb-md5 a53eae29ec471f5d05866a98bdfd15b9?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 100?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/f242/12860394/a53eae29ec47/SCI-2026-3275855-g012.gif?></graphic></fig><fig position="anchor" fig-type="Figure" id="figpt-0012" orientation="portrait"><caption><p>(B)</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-23" orientation="portrait" xlink:href="SCI-2026-3275855-g011.jpg"><?image-name SCI-2026-3275855-g011.jpg?><?image-size 44428?><?image-md5 c8db44ed1eeb7b95c6620b6dfc93ffdd?><?image-image-server-status NEVER_LOAD?><?image-original-height 733?><?image-original-width 600?><?image-scaled-height 733?><?image-scaled-width 600?><?image-cloudpmc-urn urn:cdn:blobs/f242/12860394/c8db44ed1eeb/SCI-2026-3275855-g011.jpg?><?thumb-name SCI-2026-3275855-g011.gif?><?thumb-size 3108?><?thumb-md5 ed6881b79d7d87048a7c0c24a2969737?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 122?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/f242/12860394/ed6881b79d7d/SCI-2026-3275855-g011.gif?></graphic></fig><fig position="anchor" fig-type="Figure" id="figpt-0013" orientation="portrait"><caption><p>(C)</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-25" orientation="portrait" xlink:href="SCI-2026-3275855-g010.jpg"><?image-name SCI-2026-3275855-g010.jpg?><?image-size 48123?><?image-md5 589438b306894310035c1ebb4fa40135?><?image-image-server-status NEVER_LOAD?><?image-original-height 787?><?image-original-width 600?><?image-scaled-height 787?><?image-scaled-width 600?><?image-cloudpmc-urn urn:cdn:blobs/f242/12860394/589438b30689/SCI-2026-3275855-g010.jpg?><?thumb-name SCI-2026-3275855-g010.gif?><?thumb-size 3323?><?thumb-md5 f97b2704a21f750c41f2bb084c8f6f3b?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 131?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/f242/12860394/f97b2704a21f/SCI-2026-3275855-g010.gif?></graphic></fig><fig position="anchor" fig-type="Figure" id="figpt-0014" orientation="portrait"><caption><p>(D)</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-27" orientation="portrait" xlink:href="SCI-2026-3275855-g009.jpg"><?image-name SCI-2026-3275855-g009.jpg?><?image-size 80468?><?image-md5 9cd125d1f48b5731753293ee017274e3?><?image-image-server-status NEVER_LOAD?><?image-original-height 611?><?image-original-width 600?><?image-scaled-height 611?><?image-scaled-width 600?><?image-cloudpmc-urn urn:cdn:blobs/f242/12860394/9cd125d1f48b/SCI-2026-3275855-g009.jpg?><?thumb-name SCI-2026-3275855-g009.gif?><?thumb-size 4345?><?thumb-md5 527fd2d8aac25c816e4e9ce500e2afa5?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 102?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/f242/12860394/527fd2d8aac2/SCI-2026-3275855-g009.gif?></graphic></fig><fig position="anchor" fig-type="Figure" id="figpt-0015" orientation="portrait"><caption><p>(E)</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-29" orientation="portrait" xlink:href="SCI-2026-3275855-g008.jpg"><?image-name SCI-2026-3275855-g008.jpg?><?image-size 73446?><?image-md5 0083737173df8495dc6e1fc22802f865?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 814?><?image-original-width 600?><?image-scaled-height 814?><?image-scaled-width 600?><?image-cloudpmc-urn urn:cdn:blobs/f242/12860394/0083737173df/SCI-2026-3275855-g008.jpg?><?thumb-name SCI-2026-3275855-g008.gif?><?thumb-size 3944?><?thumb-md5 527455384d30a47fca47afcb3c701c1e?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 136?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/f242/12860394/527455384d30/SCI-2026-3275855-g008.gif?></graphic></fig><fig position="anchor" fig-type="Figure" id="figpt-0016" orientation="portrait"><caption><p>(F)</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-31" orientation="portrait" xlink:href="SCI-2026-3275855-g007.jpg"><?image-name SCI-2026-3275855-g007.jpg?><?image-size 76793?><?image-md5 b6613fb67e8155d10f0b8b94efa65262?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 820?><?image-original-width 600?><?image-scaled-height 820?><?image-scaled-width 600?><?image-cloudpmc-urn urn:cdn:blobs/f242/12860394/b6613fb67e81/SCI-2026-3275855-g007.jpg?><?thumb-name SCI-2026-3275855-g007.gif?><?thumb-size 4032?><?thumb-md5 e585828bc36d68490cdd989754a3dc7d?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 137?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/f242/12860394/e585828bc36d/SCI-2026-3275855-g007.gif?></graphic></fig><fig position="anchor" fig-type="Figure" id="figpt-0017" orientation="portrait"><caption><p>(G)</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-33" orientation="portrait" xlink:href="SCI-2026-3275855-g006.jpg"><?image-name SCI-2026-3275855-g006.jpg?><?image-size 50173?><?image-md5 2c489c7018c6f0fd6709720e4c47376b?><?image-image-server-status NEVER_LOAD?><?image-original-height 318?><?image-original-width 600?><?image-scaled-height 318?><?image-scaled-width 600?><?image-cloudpmc-urn urn:cdn:blobs/f242/12860394/2c489c7018c6/SCI-2026-3275855-g006.jpg?><?thumb-name SCI-2026-3275855-g006.gif?><?thumb-size 4776?><?thumb-md5 f6edaba7a19c8fab7e2f9d7d3b3ee801?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 150?><?thumb-cloudpmc-urn urn:cdn:blobs/f242/12860394/f6edaba7a19c/SCI-2026-3275855-g006.gif?></graphic></fig></fig-group></sec><sec id="sec-0019"><title>3.3. Effects of CM and pCM on Cytokine‐Challenged Explants</title><p>After validating the robustness of the experimental setup, the second part of the study aimed to assess the effects of CM and pCM on cytokine‐challenged OCh explants. The inflammatory stimulation involved OA‐related cytokines, and both the cytokines and CM/pCM treatments were administered exclusively to the cartilage compartment. TNFα and IL‐1β concentrations were selected based on prior studies to facilitate comparisons of induced effects with other models, including cartilage explants [<xref rid="bib-0025" ref-type="bibr">25</xref>] and 2D chondrocyte cultures [<xref rid="bib-0026" ref-type="bibr">26</xref>]. Similarly, CM and pCM doses were derived from previous investigations involving cartilage and OCh explants [<xref rid="bib-0025" ref-type="bibr">25</xref>, <xref rid="bib-0027" ref-type="bibr">27</xref>]. Viability assessments conducted throughout the experiment revealed a time‐dependent decline in the cartilage compartment, irrespective of the experimental group (Figure <xref rid="fig-0004" ref-type="fig">4</xref>A). In contrast, viability in the bone compartment remained rather stable over the 3‐day period and in all experimental groups (Supporting Information <xref rid="sec-0027" ref-type="sec">4</xref>: Figure <xref rid="sec-0027" ref-type="sec">S1</xref>A). In the cartilage compartment, cytokine stimulation produced a significant increase in MMP activity (+345%), a hallmark of cartilage degradation. However, treatment with CM and, more effectively, pCM mitigated this increase, reducing MMP activity by −60% and −84% versus the TNF + IL group, respectively (Figure <xref rid="fig-0004" ref-type="fig">4</xref>B). Interestingly, the evaluation of MMP3 protein expression—one of the major players in OA—revealed that, although inflammatory cytokines induce an increase at the transcriptional/translational level, the effect of CM and pCM is downstream (Figure <xref rid="fig-0004" ref-type="fig">4</xref>C). Their beneficial action is most likely due to the high abundance of physiological MMP inhibitors in both preparations, as shown for TIMP‐1, whose levels reach the µg/10<sup>6</sup> ASCs range (Figure <xref rid="fig-0003" ref-type="fig">3</xref>G). sGAG levels showed an increase in all groups exposed to cytokines versus CTR (+59% TNF + IL, +43% TNF + IL + CM, and + 47% TNF + IL + pCM) (Figure <xref rid="fig-0004" ref-type="fig">4</xref> D). Lastly, the protein expression of COL2A1—an essential component of the cartilage extracellular matrix—further supports the observed trends. Despite high variability, the data suggest a negative effect of cytokine treatment, while no clear modulatory action of CM or pCM could be detected (Figure <xref rid="fig-0004" ref-type="fig">4</xref> E). Preliminary histological analyses (Supporting Information <xref rid="sec-0027" ref-type="sec">5</xref>: Figure <xref rid="sec-0027" ref-type="sec">S2</xref>) confirm the overall integrity of the explants but do not reveal any substantial differences across groups. On the bone side, OCh explants did not exhibit any significant modulation—either upon inflammatory cytokine stimulation or following CM/pCM treatment—in terms of ALP and TRAP activity, nor in OC release (Supporting Information <xref rid="sec-0027" ref-type="sec">4</xref>: Figure <xref rid="sec-0027" ref-type="sec">S1</xref>B–D). All tissue‐specific markers were also assessed on the opposite side, and in all cases their levels were consistently higher in the appropriate tissue, independent of the experimental group, thereby confirming the effective separation and integrity of the system (Supporting Information <xref rid="sec-0027" ref-type="sec">6</xref>: Figure <xref rid="sec-0027" ref-type="sec">S3</xref>).</p><fig-group position="float" id="fig-0004" content-type="Figure" orientation="portrait"><label>Figure 4</label><caption><p>Evaluation of CM and pCM effects on the cartilage side: (A) Cartilage metabolic activity. <sup>$</sup>vs Day 0 (<italic toggle="yes">n</italic> = 12). (B) MMP activity, at Day 3, in cartilage supernatants expressed as AFUs (×10<sup>3</sup>).  <sup>∗</sup> vs CTR, <sup>+</sup>vs TNF + IL + pCM (<italic toggle="yes">n</italic> = 13). (C) MMP3 protein expression in cartilage at Day 3, normalized to the housekeeping protein GAPDH (<italic toggle="yes">n</italic> = 5). A representative blot is shown above the histogram. (D) sGAG levels at Day 3 in cartilage supernatants (<italic toggle="yes">n</italic> = 13). (E) COL2A1 protein expression in cartilage at Day 3, normalized to the housekeeping protein GAPDH (<italic toggle="yes">n</italic> = 4). A representative blot is shown above the histogram.  <sup>∗</sup>
+<italic toggle="yes">p</italic>‐value &lt;0.05, <sup>++/$$</sup>
+<italic toggle="yes">p</italic>‐value &lt;0.01, <sup>$$$</sup>
+<italic toggle="yes">p</italic>‐value &lt;0.001.</p></caption><fig position="anchor" fig-type="Figure" id="figpt-0018" orientation="portrait"><caption><p>(A)</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-35" orientation="portrait" xlink:href="SCI-2026-3275855-g005.jpg"><?image-name SCI-2026-3275855-g005.jpg?><?image-size 49739?><?image-md5 9d17714c9179d21e72ead6deab0e19d5?><?image-image-server-status NEVER_LOAD?><?image-original-height 575?><?image-original-width 600?><?image-scaled-height 575?><?image-scaled-width 600?><?image-cloudpmc-urn urn:cdn:blobs/f242/12860394/9d17714c9179/SCI-2026-3275855-g005.jpg?><?thumb-name SCI-2026-3275855-g005.gif?><?thumb-size 3396?><?thumb-md5 3a977e1ce4c99b4e2ba59968e20a92f2?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 96?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/f242/12860394/3a977e1ce4c9/SCI-2026-3275855-g005.gif?></graphic></fig><fig position="anchor" fig-type="Figure" id="figpt-0019" orientation="portrait"><caption><p>(B)</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-37" orientation="portrait" xlink:href="SCI-2026-3275855-g004.jpg"><?image-name SCI-2026-3275855-g004.jpg?><?image-size 37227?><?image-md5 400ce51b820f9eac8600e75fb7e901cc?><?image-image-server-status NEVER_LOAD?><?image-original-height 763?><?image-original-width 600?><?image-scaled-height 763?><?image-scaled-width 600?><?image-cloudpmc-urn urn:cdn:blobs/f242/12860394/400ce51b820f/SCI-2026-3275855-g004.jpg?><?thumb-name SCI-2026-3275855-g004.gif?><?thumb-size 2881?><?thumb-md5 c1f88e5c4b46e1bbf8c161a2035a468c?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 127?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/f242/12860394/c1f88e5c4b46/SCI-2026-3275855-g004.gif?></graphic></fig><fig position="anchor" fig-type="Figure" id="figpt-0020" orientation="portrait"><caption><p>(C)</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-39" orientation="portrait" xlink:href="SCI-2026-3275855-g022.jpg"><?image-name SCI-2026-3275855-g022.jpg?><?image-size 42647?><?image-md5 ef1a1be79e71624f04353627693b69be?><?image-image-server-status NEVER_LOAD?><?image-original-height 678?><?image-original-width 600?><?image-scaled-height 678?><?image-scaled-width 600?><?image-cloudpmc-urn urn:cdn:blobs/f242/12860394/ef1a1be79e71/SCI-2026-3275855-g022.jpg?><?thumb-name SCI-2026-3275855-g022.gif?><?thumb-size 3589?><?thumb-md5 50eb9ec848aff32dbff97ff7f4ffb6bd?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 113?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/f242/12860394/50eb9ec848af/SCI-2026-3275855-g022.gif?></graphic></fig><fig position="anchor" fig-type="Figure" id="figpt-0021" orientation="portrait"><caption><p>(D)</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-41" orientation="portrait" xlink:href="SCI-2026-3275855-g001.jpg"><?image-name SCI-2026-3275855-g001.jpg?><?image-size 42438?><?image-md5 5c8949e5946248d718c3c13184e4e089?><?image-image-server-status NEVER_LOAD?><?image-original-height 785?><?image-original-width 600?><?image-scaled-height 785?><?image-scaled-width 600?><?image-cloudpmc-urn urn:cdn:blobs/f242/12860394/5c8949e59462/SCI-2026-3275855-g001.jpg?><?thumb-name SCI-2026-3275855-g001.gif?><?thumb-size 3144?><?thumb-md5 b607c3f23de1485a422ca910e13fc9d2?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 131?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/f242/12860394/b607c3f23de1/SCI-2026-3275855-g001.gif?></graphic></fig><fig position="anchor" fig-type="Figure" id="figpt-0022" orientation="portrait"><caption><p>(E)</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-43" orientation="portrait" xlink:href="SCI-2026-3275855-g002.jpg"><?image-name SCI-2026-3275855-g002.jpg?><?image-size 42519?><?image-md5 4dcbbf01229c9e086e43cee433667f80?><?image-image-server-status NEVER_LOAD?><?image-original-height 672?><?image-original-width 600?><?image-scaled-height 672?><?image-scaled-width 600?><?image-cloudpmc-urn urn:cdn:blobs/f242/12860394/4dcbbf01229c/SCI-2026-3275855-g002.jpg?><?thumb-name SCI-2026-3275855-g002.gif?><?thumb-size 3465?><?thumb-md5 c6f604c97020965234f84e2bf59e743d?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 112?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/f242/12860394/c6f604c97020/SCI-2026-3275855-g002.gif?></graphic></fig></fig-group></sec></sec><sec id="sec-0020"><title>4. Discussion</title><p>Improved <italic toggle="yes">in vitro</italic> models are pivotal for unraveling the complex interplay between bone and cartilage in OA progression. These advancements aid in identifying therapeutic targets and developing disease‐modifying treatments [<xref rid="bib-0028" ref-type="bibr">28</xref>]. Among emerging strategies, MSC‐based therapies offer a promising avenue for OA management, with cell‐free alternatives representing a paradigm shift by addressing challenges inherent to cell transplantation. In musculoskeletal research, optimizing therapeutic strategies for OCh pathologies remains a significant challenge. Our approach integrates custom‐made devices that spatially segregate bone and cartilage within OCh explant cultures, recapitulating the physiological joint interface. This configuration allows targeted administration of inflammatory stimuli and therapeutic interventions to the cartilage compartment, mimicking the pathological microenvironment and intra‐articular drug delivery. While achieving a perfect replication of pathological hallmarks in vitro or ex vivo remains challenging, the use of human samples represents a substantial improvement. This approach ensures that inflammatory pathways and signaling mechanisms reflect the species‐specific biology of the intended therapeutic target [<xref rid="bib-0029" ref-type="bibr">29</xref>]. Before applying the model in the experimental setting, we validated the presence of tissue‐specific markers within the appropriate compartment after a 3‐day period. This allowed us to confirm the effective separation of compartments and the absence of cross‐contamination, ensured using the custom‐made insert. Simultaneously, we evaluated tissue viability to determine whether the insert or culture conditions adversely affected the explants. Our findings demonstrated that all tissue‐specific markers were more abundant in their respective compartments. The double‐chamber culture system allowed for the administration of distinct media formulations tailored to each tissue type, potentially enhancing tissue‐specific maintenance. Viability assessment revealed that while the bone compartment remained stable over the 3‐day period, cartilage metabolism showed a significant reduction by the third day. In other experimental settings, where standard FBS‐free media formulations were supplemented with L‐proline, L‐ascorbic acid‐2‐phosphate, and insulin‐transferrin‐selenium (ITS+) premix for cartilage culture, cartilage remained viable for a prolonged period, as MTT staining and LDH assays revealed [<xref rid="bib-0030" ref-type="bibr">30</xref>, <xref rid="bib-0031" ref-type="bibr">31</xref>]. Similarly, studies by Yeung et al. [<xref rid="bib-0032" ref-type="bibr">32</xref>] and Houtman et al. [<xref rid="bib-0033" ref-type="bibr">33</xref>], culturing OCh explants without compartmentalization, adopted chondrogenic media containing HEPES, dexamethasone, L‐proline, L‐ascorbic acid‐2‐phosphate, TGF‐β3, ITS +, and sodium pyruvate. This suggests that specific factors may be necessary for cartilage maintenance and that a defined media formulation could be implemented to preserve explant viability at later time points. However, to the best of our knowledge, differential analysis of tissue‐specific markers to confirm proper compartmentalization and phenotypic maintenance has not been previously performed. In our model, cartilage proved to be responsive to inflammatory stimulation with OA‐typical cytokines, demonstrating significant modulation of tissue‐specific markers. Indeed, we detected an increase in MMP activity and sGAG levels, with a fold‐change of 1.54 and 1.33, respectively.</p><p>On the bone side, ALP activity, and to an even lesser extent OC concentration, show only a decreasing trend following cartilage inflammatory exposure. Moreover, TRAP activity, which is expected to increase in response to inflammatory insults [<xref rid="bib-0034" ref-type="bibr">34</xref>], was not distinctively modulated. The absence of alterations in bone markers, despite the inflammatory response observed in the cartilage compartment, might suggest that inter‐tissue communication was not effectively established under the current experimental conditions. The relatively brief experimental timeframe, that is 10 days post‐harvest and only 3 days post‐cytokine exposure, may not have been sufficient to fully obtain a response in bone. Indeed, bone markers such as TRAP often require prolonged stimulation before showing signs of modulation [<xref rid="bib-0035" ref-type="bibr">35</xref>]. In the literature, the presence of bone in OCh models is recognized as a factor that increases cartilage‐specific gene expression and serves as an important source of chondrogenic factors [<xref rid="bib-0036" ref-type="bibr">36</xref>]. Although the bone side of the explants did not appear to be affected by the stimuli applied to the cartilage compartment in this experimental setting, maintaining the OCh unit intact provides a more physiologically relevant model. Future experiments should consider optimizing the experimental design through repeated stimulation, extended endpoints, and more frequent assessment timepoints. Moreover, applying mechanical loading to the explants may more closely recapitulate the physiological bone environment and yield different responses. These strategies will help to better characterize the dynamics of bone‐cartilage cross‐talk across the OCh plate and to disclose potential modulations of bone markers following inflammatory exposure of the cartilage.</p><p>In this study we exploited the OCh model to evaluate CM and pCM effects against inflammatory stimuli. Over the years, our CM has been extensively characterized [<xref rid="bib-0021" ref-type="bibr">21</xref>, <xref rid="bib-0037" ref-type="bibr">37</xref>, <xref rid="bib-0038" ref-type="bibr">38</xref>], and with the priming strategy, our goal was to enhance its biological effects. Priming the cells from which the secretome is derived can be performed through various approaches [<xref rid="bib-0039" ref-type="bibr">39</xref>]. In our case, we selected OA‐related cytokines as priming agents, aiming to expose MSCs to an inflammatory environment resembling that of an affected joint. The characterization of the conditioned media used in this work confirmed the efficacy of the priming strategy in improving the number of particles and protein levels. Indeed, in a previous study, we observed that pCM exhibited a significant increase in particle concentration, total protein content, and specific bioactive factors [<xref rid="bib-0010" ref-type="bibr">10</xref>]. Moreover, STRING analysis highlighted the peculiarity of CM and pCM to simultaneously deliver pro‐regenerative, immunomodulatory, and anti‐catabolic factors, thus reinforcing their therapeutic potential. Among the most promising factors, HGF, ANG, and SPP1 should be mentioned. Additionally, several growth factors are also present, including EGF, TGFβ, and FGF family members. Collectively, these factors have a role in wound healing, regulation of bone turnover, and tissue regeneration. Notably, chemokines and other immunoregulatory factors, such as CCL and CXCL family members, IL‐6, and IL‐10, are abundantly present. The involvement of these factors in bone and cartilage therapeutic contexts has been recently reviewed by Giannasi et al. [<xref rid="bib-0040" ref-type="bibr">40</xref>]. However, bridging the gap from preclinical to clinical research requires reliable safety and efficacy testing, and we recognize that the journey ahead remains long and complex. A key challenge in complex biotherapeutics is defining the optimal dosage, which involves identifying specific thresholds for both beneficial and potentially harmful factors [<xref rid="bib-0041" ref-type="bibr">41</xref>].</p><p>In the cartilage compartment, CM/pCM treatment resulted in an anti‐catabolic effect on MMP activity, without altering the cytokine‐induced MMP3 expression. This suggests a downstream action of CM, rather than a transcriptional/translational modulatory effect. Previous studies confirmed the presence in both preparations of all four human tissue inhibitors of metalloproteinases (TIMPs) [<xref rid="bib-0010" ref-type="bibr">10</xref>, <xref rid="bib-0021" ref-type="bibr">21</xref>]. TIMPs’ mode of action consists in binding MMP active sites, thus preventing their degradative activity. Moreover, TIMPs are also involved in sequestering active enzymes from the extracellular environment [<xref rid="bib-0042" ref-type="bibr">42</xref>]. These molecules play a key role in matrix remodeling, acting synergistically with other pro‐regenerative factors present in CM/pCM, including bone morphogenetic proteins (BMPs), insulin‐like growth factors (IGFs), and fibroblast growth factor‐2 (FGF2) [<xref rid="bib-0043" ref-type="bibr">43</xref>]. The treatments did not alter the levels of released sGAGs, incremented by the cytokines. However, this marker is not always consistently altered in other experimental models. Indeed, in a concurrent mechanical pression and IL‐1 stimulation model, the variance was minimal [<xref rid="bib-0044" ref-type="bibr">44</xref>]. Differently, in a human OCh explant model of post‐traumatic OA developed by Black et al. [<xref rid="bib-0045" ref-type="bibr">45</xref>], sGAG loss at later timepoints was associated with the mechanical‐cytokine stimulation and treatment administration in a donor‐dependent fashion. Regarding COL2A1 protein expression, other studies suggest that CM is not responsible for its translational regulation [<xref rid="bib-0046" ref-type="bibr">46</xref>], and that—in the presence of an inflammatory environment—cartilage matrix deposition is strongly inhibited [<xref rid="bib-0047" ref-type="bibr">47</xref>]. This implies that any potential pro‐deposition effects could only be observed once the inflammation has resolved, possibly at later experimental timepoints. Consistently, our preliminary histological evaluation revealed no significant differences across groups after 3 days. This is likely due to the short duration of cytokine exposure and treatment, as structural tissue remodeling is a complex process that requires longer time frames to become detectable. Indeed, in a study by He et al. [<xref rid="bib-0048" ref-type="bibr">48</xref>], the earliest time point chosen to assess cartilage repair was 2 weeks, with appreciable results observed after 4 weeks. To better evaluate the long‐term impact of inflammatory stimuli and ASC‐derived secretome on explants, we plan to extend the duration of culture and integrate both molecular and histological assessments in future studies. Moreover, inter‐ and intra‐donor variability introduces significant challenges when comparing groups [<xref rid="bib-0049" ref-type="bibr">49</xref>], as each explant possesses unique characteristics and subtle differences may go undetected. To overcome this issue, reduced explant size could be a valuable strategy in order to obtain biological replicates from the same collection area.</p><p>Regardless of the different outcomes, ex vivo human models offer a significant advantage by closely recapitulating the in vivo environment, making them one of the most relevant tools for assessing pathological phenotypes and therapeutics’ efficacy before clinical translation [<xref rid="bib-0050" ref-type="bibr">50</xref>]. Still, inherent drawbacks persist, primarily due to inter‐donor variability, differences in tissue composition, and patient clinical history. Indeed, in studies involving OCh explants, the variability issue is discussed, as it could hide the effects of insults or treatments [<xref rid="bib-0051" ref-type="bibr">51</xref>]. This work presents several intrinsic limitations that should be acknowledged. First, the absence of mechanical loading, a major driver of cartilage‐bone crosstalk in vivo, may have contributed to the limited modulation observed on the bone side. Moreover, future investigations may benefit from the use of samples exhibiting different degrees of osteoarthritic degeneration, obtained from different weight‐bearing areas of the same patient or from patients with different levels of articular involvement. This approach would enable a more accurate evaluation of markers at distinct stages of the pathology and ultimately a clearer assessment of the effects of stem cell–conditioned media. Once these parameters are optimized, potential improvements should consider the inclusion of additional joint tissues to uphold the principle of studying OA as a whole‐joint disease. Given the composition of CM and pCM, which are enriched in immunomodulators, integrating tissues with immune infiltrates—such as synovial membrane and synovial fluid—would provide deeper insights into the immunoregulatory potential of these products.</p></sec><sec id="sec-0021"><title>5. Conclusions</title><p>OA is one of the fastest‐growing musculoskeletal diseases worldwide, with substantial economic and social burdens that are expected to escalate due to the increasing aging population. In this context, the development of innovative, effective, and safe therapeutic strategies is of critical importance. Cell‐free approaches, particularly those based on mesenchymal cell derivatives, are emerging as feasible and promising tools to treat affected joints and alleviate OA‐related symptoms without the complexities associated with cell‐based therapies. In this study, we aimed to implement an ex vivo compartmentalized OCh interface model, a key site of crosstalk between cartilage and bone, which are major targets of OA‐associated damage. The dual‐chamber model allowed for the localized administration of an inflammatory stimulus and, simultaneously, the application of our cell‐free therapeutic on the cartilage side: the secretome derived from naïve or inflammatory cytokine‐challenged adipose‐derived mesenchymal stem cells. Both treatments showed a strong anti‐catabolic potential, hindering the MMP activity at the cartilage level. Given the lack of improved pCM efficacy in this context, exploring alternative priming strategies (e.g., different cytokine and/or growth factor combinations or hypoxic conditions) may be necessary to optimize secretome composition for therapeutic relevance in OA. In conclusion, our findings should be interpreted within the broader context of ongoing research on cell‐free strategies for OA. As recently reviewed [<xref rid="bib-0052" ref-type="bibr">52</xref>], an increasing body of evidence indicates that the secretome can improve histological and functional outcomes in osteoarthritic joints by promoting chondrocyte survival and proliferation and by reducing fibrosis, inflammation, and pain. By demonstrating the applicability of this optimized ex vivo platform, this work contributes to advancing translational research in OA and provides additional rationale for the study of secretome‐based, cell‐free therapeutic approaches in regenerative medicine.</p></sec><sec id="sec-0023"><title>Funding</title><p>This work was supported and funded by the Italian Ministry of Health–“Ricerca Corrente” and by the Department of Biomedical, Surgical, and Dental Sciences of the University of Milan (PSR2023_DIP_017). The APC was funded by Italian Ministry of Health–“Ricerca Corrente”. Francesca Cadelano was recipient of a fellowship from the PhD program in Experimental Medicine of the University of Milan, Milan, Italy.</p></sec><sec sec-type="COI-statement" id="sec-0024"><title>Conflicts of Interest</title><p>The authors declare no conflicts of interest.</p></sec><sec id="sec-0027"><title>Supporting Information</title><p>Additional supporting information can be found online in the Supporting Information section.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="link-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Supporting Information 1</bold> Table S1: Characteristics of osteochondral explant donors</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="SCI-2026-3275855-s005.docx" position="float" orientation="portrait"><?suppdata-name SCI-2026-3275855-s005.docx?><?suppdata-size 78805?><?suppdata-md5 801ce0860f762300d8f92a11bb922e57?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.wordprocessingml.document?><?suppdata-cloudpmc-urn urn:app:f242/12860394/801ce0860f76/SCI-2026-3275855-s005.docx?></media></supplementary-material><supplementary-material id="link-0002" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Supporting Information 2</bold> Table S2: ASC donor information and associated CM and pCM characterization data.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="SCI-2026-3275855-s001.docx" position="float" orientation="portrait"><?suppdata-name SCI-2026-3275855-s001.docx?><?suppdata-size 79402?><?suppdata-md5 d28551b5a9e5991d9d13a88c4c66eb21?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.wordprocessingml.document?><?suppdata-cloudpmc-urn urn:app:f242/12860394/d28551b5a9e5/SCI-2026-3275855-s001.docx?></media></supplementary-material><supplementary-material id="link-0003" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Supporting Information 3</bold> Table S3: List of enriched biological processes identified by STRING analysis of the 14 quantified proteins in CM/pCM. STRING: functional protein association networks was accessed on July 2025.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="SCI-2026-3275855-s006.xls" position="float" orientation="portrait"><?suppdata-name SCI-2026-3275855-s006.xls?><?suppdata-size 89600?><?suppdata-md5 dcb51432c8a57af2c888ef293110811e?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.ms-excel?><?suppdata-cloudpmc-urn urn:app:f242/12860394/dcb51432c8a5/SCI-2026-3275855-s006.xls?></media></supplementary-material><supplementary-material id="link-0004" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Supporting Information 4</bold> Figure S1: Evaluation of cytokine stimulation and CM/ pCM treatment in the bone compartment.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="SCI-2026-3275855-s003.docx" position="float" orientation="portrait"><?suppdata-name SCI-2026-3275855-s003.docx?><?suppdata-size 266491?><?suppdata-md5 98d28d1b018726929d039e363776e921?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.wordprocessingml.document?><?suppdata-cloudpmc-urn urn:app:f242/12860394/98d28d1b0187/SCI-2026-3275855-s003.docx?></media></supplementary-material><supplementary-material id="link-0005" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Supporting Information 5</bold> Figure S2: Histological evaluation of osteochondral explants.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="SCI-2026-3275855-s004.docx" position="float" orientation="portrait"><?suppdata-name SCI-2026-3275855-s004.docx?><?suppdata-size 5084971?><?suppdata-md5 9cd5b1631520d323dba846ff774e3f34?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.wordprocessingml.document?><?suppdata-cloudpmc-urn urn:app:f242/12860394/9cd5b1631520/SCI-2026-3275855-s004.docx?></media></supplementary-material><supplementary-material id="link-0006" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Supporting Information 6</bold> Figure S3: Tissue‐specific markers measured in the opposite tissue side.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="SCI-2026-3275855-s002.docx" position="float" orientation="portrait"><?suppdata-name SCI-2026-3275855-s002.docx?><?suppdata-size 352411?><?suppdata-md5 f3dcff1c3bc5a8f1e5858714c067750f?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.wordprocessingml.document?><?suppdata-cloudpmc-urn urn:app:f242/12860394/f3dcff1c3bc5/SCI-2026-3275855-s002.docx?></media></supplementary-material></sec></body><back><ack id="sec-0022"><title>Acknowledgments</title><p>The authors would like to thank all participants in the ASC‐OA study and Dr. Alessandra Colombini for providing the COL2A1 antibody.</p></ack><sec sec-type="data-availability" id="sec-0026"><title>Data Availability Statement</title><p>All data supporting the findings of this study are publicly available in the Zenodo repository at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.5281/zenodo.18173753" ext-link-type="uri" specific-use="dataset is-supplemented-by">https://doi.org/10.5281/zenodo.18173753</ext-link>.</p></sec><ref-list><ref id="bib-0001"><label>1</label><mixed-citation publication-type="journal" id="cit-0001">
+<string-name name-style="western">
+<surname>Allen</surname>
+<given-names>K. D.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Thoma</surname>
+<given-names>L. M.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Golightly</surname>
+<given-names>Y. M.</given-names>
+</string-name>, <article-title>Epidemiology of Osteoarthritis</article-title>, <source>Osteoarthritis and Cartilage</source>. (<year>2022</year>) <volume>30</volume>, no. 2, <fpage>184</fpage>–<lpage>195</lpage>, <pub-id pub-id-type="doi">10.1016/j.joca.2021.04.020</pub-id>.<pub-id pub-id-type="pmid">34534661</pub-id>
+<pub-id pub-id-type="pmcid">PMC10735233</pub-id></mixed-citation></ref><ref id="bib-0002"><label>2</label><mixed-citation publication-type="journal" id="cit-0002">
+<string-name name-style="western">
+<surname>Cho</surname>
+<given-names>Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Jeong</surname>
+<given-names>S.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Kim</surname>
+<given-names>H.</given-names>
+</string-name>, et al.<article-title>Disease-Modifying Therapeutic Strategies in Osteoarthritis: Current Status and Future Directions</article-title>, <source>Experimental and Molecular Medicine</source>. (<year>2021</year>) <volume>53</volume>, no. 11, <fpage>1689</fpage>–<lpage>1696</lpage>, <pub-id pub-id-type="doi">10.1038/s12276-021-00710-y</pub-id>.<pub-id pub-id-type="pmid">34848838</pub-id>
+<pub-id pub-id-type="pmcid">PMC8640059</pub-id></mixed-citation></ref><ref id="bib-0003"><label>3</label><mixed-citation publication-type="journal" id="cit-0003">
+<string-name name-style="western">
+<surname>Bartolotti</surname>
+<given-names>I.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Roseti</surname>
+<given-names>L.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Petretta</surname>
+<given-names>M.</given-names>
+</string-name>, et al.<article-title>A Roadmap of In Vitro Models in Osteoarthritis: A Focus on Their Biological Relevance in Regenerative Medicine</article-title>, <source>Journal of Clinical Medicine</source>. (<year>2021</year>) <volume>10</volume>, no. 9, 1920<pub-id pub-id-type="doi">10.3390/jcm10091920</pub-id>.<pub-id pub-id-type="pmcid">PMC8124812</pub-id><pub-id pub-id-type="pmid">33925222</pub-id></mixed-citation></ref><ref id="bib-0004"><label>4</label><mixed-citation publication-type="journal" id="cit-0004">
+<string-name name-style="western">
+<surname>Rosochowicz</surname>
+<given-names>M. A.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Lach</surname>
+<given-names>M. S.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Richter</surname>
+<given-names>M.</given-names>
+</string-name>, et al.<article-title>Conditioned Medium–Is it an Undervalued Lab Waste With the Potential for Osteoarthritis Management?</article-title>, <source>Stem Cell Reviews and Reports</source>. (<year>2023</year>) <volume>19</volume>, no. 5, <fpage>1185</fpage>–<lpage>1213</lpage>, <pub-id pub-id-type="doi">10.1007/s12015-023-10517-1</pub-id>.<pub-id pub-id-type="pmid">36790694</pub-id>
+<pub-id pub-id-type="pmcid">PMC10366316</pub-id></mixed-citation></ref><ref id="bib-0005"><label>5</label><mixed-citation publication-type="journal" id="cit-0005">
+<string-name name-style="western">
+<surname>Lipps</surname>
+<given-names>C.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Klein</surname>
+<given-names>F.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Wahlicht</surname>
+<given-names>T.</given-names>
+</string-name>, et al.<article-title>Expansion of Functional Personalized Cells With Specific Transgene Combinations</article-title>, <source>Nature Communications</source>. (<year>2018</year>) <volume>9</volume>, no. 1, <pub-id pub-id-type="doi">10.1038/s41467-018-03408-4</pub-id>, 2-s2.0-85045451969.<pub-id pub-id-type="pmcid">PMC5843645</pub-id><pub-id pub-id-type="pmid">29520052</pub-id></mixed-citation></ref><ref id="bib-0006"><label>6</label><mixed-citation publication-type="journal" id="cit-0006">
+<string-name name-style="western">
+<surname>Yuan</surname>
+<given-names>X. L.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Meng</surname>
+<given-names>H. Y.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>Y. C.</given-names>
+</string-name>, et al.<article-title>Bone–Cartilage Interface Crosstalk in Osteoarthritis: Potential Pathways and Future Therapeutic Strategies</article-title>, <source>Osteoarthritis and Cartilage</source>. (<year>2014</year>) <volume>22</volume>, no. 8, <fpage>1077</fpage>–<lpage>1089</lpage>, <pub-id pub-id-type="doi">10.1016/j.joca.2014.05.023</pub-id>, 2-s2.0-84905591268.<pub-id pub-id-type="pmid">24928319</pub-id>
+</mixed-citation></ref><ref id="bib-0007"><label>7</label><mixed-citation publication-type="journal" id="cit-0007">
+<string-name name-style="western">
+<surname>Yu</surname>
+<given-names>H.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Huang</surname>
+<given-names>Y.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Yang</surname>
+<given-names>L.</given-names>
+</string-name>, <article-title>Research Progress in the Use of Mesenchymal Stem Cells and Their Derived Exosomes in the Treatment of Osteoarthritis</article-title>, <source>Ageing Research Reviews</source>. (<year>2022</year>) <volume>80</volume>, <pub-id pub-id-type="doi">10.1016/j.arr.2022.101684</pub-id>, <elocation-id>101684</elocation-id>.<pub-id pub-id-type="pmid">35809775</pub-id>
+</mixed-citation></ref><ref id="bib-0008"><label>8</label><mixed-citation publication-type="journal" id="cit-0008">
+<string-name name-style="western">
+<surname>Hwang</surname>
+<given-names>J. J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Rim</surname>
+<given-names>Y. A.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Nam</surname>
+<given-names>Y.</given-names>
+</string-name>, et al.<article-title>Recent Developments in Clinical Applications of Mesenchymal Stem Cells in the Treatment of Rheumatoid Arthritis and Osteoarthritis</article-title>, <source>Frontiers in Immunology</source>. (<year>2021</year>) <volume>12</volume>, <pub-id pub-id-type="doi">10.3389/fimmu.2021.631291</pub-id>, <elocation-id>631291</elocation-id>.<pub-id pub-id-type="pmid">33763076</pub-id>
+<pub-id pub-id-type="pmcid">PMC7982594</pub-id></mixed-citation></ref><ref id="bib-0009"><label>9</label><mixed-citation publication-type="journal" id="cit-0009">
+<string-name name-style="western">
+<surname>Mancuso</surname>
+<given-names>P.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Raman</surname>
+<given-names>S.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Glynn</surname>
+<given-names>A.</given-names>
+</string-name>, et al.<article-title>Mesenchymal Stem Cell Therapy for Osteoarthritis: The Critical Role of the Cell Secretome</article-title>, <source>Frontiers in Bioengineering and Biotechnology</source>. (<year>2019</year>) <volume>7</volume>, <pub-id pub-id-type="doi">10.3389/fbioe.2019.00009</pub-id>, 2-s2.0-85063533248.<pub-id pub-id-type="pmcid">PMC6361779</pub-id><pub-id pub-id-type="pmid">30761298</pub-id></mixed-citation></ref><ref id="bib-0010"><label>10</label><mixed-citation publication-type="journal" id="cit-0010">
+<string-name name-style="western">
+<surname>Giannasi</surname>
+<given-names>C.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Morte</surname>
+<given-names>E. D.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Cadelano</surname>
+<given-names>F.</given-names>
+</string-name>, et al.<article-title>Boosting the Therapeutic Potential of Cell Secretome Against Osteoarthritis: Comparison of Cytokine-Based Priming Strategies</article-title>, <source>Biomedicine &amp; Pharmacotherapy</source>. (<year>2024</year>) <volume>170</volume>, <pub-id pub-id-type="doi">10.1016/j.biopha.2023.115970</pub-id>, <elocation-id>115970</elocation-id>.<pub-id pub-id-type="pmid">38042116</pub-id>
+</mixed-citation></ref><ref id="bib-0011"><label>11</label><mixed-citation publication-type="journal" id="cit-0011">
+<string-name name-style="western">
+<surname>Fan</surname>
+<given-names>H.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Zhao</surname>
+<given-names>G.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Liu</surname>
+<given-names>L.</given-names>
+</string-name>, et al.<article-title>Pre-Treatment With IL-1β Enhances the Efficacy of MSC Transplantation in DSS-Induced Colitis</article-title>, <source>Cellular &amp; Molecular Immunology</source>. (<year>2012</year>) <volume>9</volume>, no. 6, <fpage>473</fpage>–<lpage>481</lpage>, <pub-id pub-id-type="doi">10.1038/cmi.2012.40</pub-id>, 2-s2.0-84868566915.<pub-id pub-id-type="pmid">23085948</pub-id>
+<pub-id pub-id-type="pmcid">PMC4002219</pub-id></mixed-citation></ref><ref id="bib-0012"><label>12</label><mixed-citation publication-type="journal" id="cit-0012">
+<string-name name-style="western">
+<surname>Chen</surname>
+<given-names>L.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Xu</surname>
+<given-names>Y.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Zhao</surname>
+<given-names>J.</given-names>
+</string-name>, et al.<article-title>Conditioned Medium from Hypoxic Bone Marrow-Derived Mesenchymal Stem Cells Enhances Wound Healing in Mice</article-title>, <source>PLoS One</source>. (<year>2014</year>) <volume>9</volume>, no. 4, <pub-id pub-id-type="doi">10.1371/journal.pone.0096161</pub-id>, 2-s2.0-84899749519.<pub-id pub-id-type="pmcid">PMC4004560</pub-id><pub-id pub-id-type="pmid">24781370</pub-id></mixed-citation></ref><ref id="bib-0013"><label>13</label><mixed-citation publication-type="journal" id="cit-0013">
+<string-name name-style="western">
+<surname>Wu</surname>
+<given-names>Y.-N.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Law</surname>
+<given-names>J. B. K.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>He</surname>
+<given-names>A. Y.</given-names>
+</string-name>, et al.<article-title>Substrate Topography Determines the Fate of Chondrogenesis from Human Mesenchymal Stem Cells Resulting in Specific Cartilage Phenotype Formation</article-title>, <source>Nanomedicine: Nanotechnology, Biology and Medicine</source>. (<year>2014</year>) <volume>10</volume>, no. 7, <fpage>1507</fpage>–<lpage>1516</lpage>, <pub-id pub-id-type="doi">10.1016/j.nano.2014.04.002</pub-id>, 2-s2.0-84912150814.<pub-id pub-id-type="pmid">24768908</pub-id>
+</mixed-citation></ref><ref id="bib-0014"><label>14</label><mixed-citation publication-type="journal" id="cit-0014">
+<string-name name-style="western">
+<surname>Bloise</surname>
+<given-names>N.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Waldorff</surname>
+<given-names>E. I.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Montagna</surname>
+<given-names>G.</given-names>
+</string-name>, et al.<article-title>Early Osteogenic Marker Expression in hMSCs Cultured onto Acid Etching-Derived Micro- and Nanotopography 3D-Printed Titanium Surfaces</article-title>, <source>International Journal of Molecular Sciences</source>. (<year>2022</year>) <volume>23</volume>, no. 13, <pub-id pub-id-type="doi">10.3390/ijms23137070</pub-id>.<pub-id pub-id-type="pmcid">PMC9266831</pub-id><pub-id pub-id-type="pmid">35806083</pub-id></mixed-citation></ref><ref id="bib-0015"><label>15</label><mixed-citation publication-type="journal" id="cit-0015">
+<string-name name-style="western">
+<surname>YlÖstalo</surname>
+<given-names>J. H.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Bartosh</surname>
+<given-names>T. J.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Coble</surname>
+<given-names>K.</given-names>
+</string-name>, et al.<article-title>Human Mesenchymal Stem/Stromal Cells Cultured as Spheroids are Self-Activated to Produce Prostaglandin E2 that Directs Stimulated Macrophages into an Anti-Inflammatory Phenotype</article-title>, <source>Stem Cells</source>. (<year>2012</year>) <volume>30</volume>, no. 10, <fpage>2283</fpage>–<lpage>2296</lpage>, <pub-id pub-id-type="doi">10.1002/stem.1191</pub-id>, 2-s2.0-84866636444.<pub-id pub-id-type="pmid">22865689</pub-id>
+<pub-id pub-id-type="pmcid">PMC3448872</pub-id></mixed-citation></ref><ref id="bib-0016"><label>16</label><mixed-citation publication-type="journal" id="cit-0016">
+<string-name name-style="western">
+<surname>Findlay</surname>
+<given-names>D. M.</given-names>
+</string-name> and 
+<string-name name-style="western">
+<surname>Kuliwaba</surname>
+<given-names>J. S.</given-names>
+</string-name>, <article-title>Bone–Cartilage Crosstalk: A Conversation for Understanding Osteoarthritis</article-title>, <source>Bone Research</source>. (<year>2016</year>) <volume>4</volume>, no. 1, <pub-id pub-id-type="doi">10.1038/boneres.2016.28</pub-id>, 2-s2.0-84988489938.<pub-id pub-id-type="pmcid">PMC5028726</pub-id><pub-id pub-id-type="pmid">27672480</pub-id></mixed-citation></ref><ref id="bib-0017"><label>17</label><mixed-citation publication-type="journal" id="cit-0017">
+<string-name name-style="western">
+<surname>Lepage</surname>
+<given-names>S. I. M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Robson</surname>
+<given-names>N.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Gilmore</surname>
+<given-names>H.</given-names>
+</string-name>, et al.<article-title>Beyond Cartilage Repair: The Role of the Osteochondral Unit in Joint Health and Disease</article-title>, <source>Tissue Engineering Part B: Reviews</source>. (<year>2019</year>) <volume>25</volume>, no. 2, <fpage>114</fpage>–<lpage>125</lpage>, <pub-id pub-id-type="doi">10.1089/ten.teb.2018.0122</pub-id>, 2-s2.0-85064536835.<pub-id pub-id-type="pmid">30638141</pub-id>
+<pub-id pub-id-type="pmcid">PMC6486663</pub-id></mixed-citation></ref><ref id="bib-0018"><label>18</label><mixed-citation publication-type="journal" id="cit-0018">
+<string-name name-style="western">
+<surname>Sanchez</surname>
+<given-names>C.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Deberg</surname>
+<given-names>M. A.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Piccardi</surname>
+<given-names>N.</given-names>
+</string-name>, et al.<article-title>Subchondral Bone Osteoblasts Induce Phenotypic Changes in Human Osteoarthritic Chondrocytes</article-title>, <source>Osteoarthritis and Cartilage/Oars, Osteoarthritis Research Society</source>. (<year>2005</year>) <volume>13</volume>, no. 11, <fpage>988</fpage>–<lpage>997</lpage>, <pub-id pub-id-type="doi">10.1016/j.joca.2005.07.012</pub-id>, 2-s2.0-27544459954.<pub-id pub-id-type="pmid">16168681</pub-id></mixed-citation></ref><ref id="bib-0019"><label>19</label><mixed-citation publication-type="journal" id="cit-0019">
+<string-name name-style="western">
+<surname>Sanchez</surname>
+<given-names>C.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Deberg</surname>
+<given-names>M. A.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Piccardi</surname>
+<given-names>N.</given-names>
+</string-name>, et al.<article-title>Osteoblasts From the Sclerotic Subchondral Bone Downregulate Aggrecan But Upregulate Metalloproteinases Expression by Chondrocytes. This Effect is Mimicked by Interleukin-6, -1beta and Oncostatin M Pre-Treated Non-Sclerotic Osteoblasts</article-title>, <source>Osteoarthritis and Cartilage/Oars, Osteoarthritis Research Society</source>. (<year>2005</year>) <volume>13</volume>, no. 11, <fpage>979</fpage>–<lpage>987</lpage>, <pub-id pub-id-type="doi">10.1016/j.joca.2005.03.008</pub-id>, 2-s2.0-27544466756.<pub-id pub-id-type="pmid">16243232</pub-id></mixed-citation></ref><ref id="bib-0020"><label>20</label><mixed-citation publication-type="journal" id="cit-0020">
+<string-name name-style="western">
+<surname>Kellgren</surname>
+<given-names>J. H.</given-names>
+</string-name> and 
+<string-name name-style="western">
+<surname>Lawrence</surname>
+<given-names>J. S.</given-names>
+</string-name>, <article-title>Radiological Assessment of Osteo-Arthrosis</article-title>, <source>Annals of the Rheumatic Diseases</source>. (<year>1957</year>) <volume>16</volume>, no. 4, <fpage>494</fpage>–<lpage>502</lpage>, <pub-id pub-id-type="doi">10.1136/ard.16.4.494</pub-id>, 2-s2.0-62949246527.<pub-id pub-id-type="pmid">13498604</pub-id>
+<pub-id pub-id-type="pmcid">PMC1006995</pub-id></mixed-citation></ref><ref id="bib-0021"><label>21</label><mixed-citation publication-type="journal" id="cit-0021">
+<string-name name-style="western">
+<surname>Giannasi</surname>
+<given-names>C.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Niada</surname>
+<given-names>S.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Della Morte</surname>
+<given-names>E.</given-names>
+</string-name>, et al.<article-title>Towards Secretome Standardization: Identifying Key Ingredients of MSC-Derived Therapeutic Cocktail</article-title>, <source>Stem Cells International</source>. (<year>2021</year>) <volume>2021</volume>, <lpage>13</lpage>, <pub-id pub-id-type="doi">10.1155/2021/3086122</pub-id>, <elocation-id>3086122</elocation-id>.<pub-id pub-id-type="pmid">34484347</pub-id>
+<pub-id pub-id-type="pmcid">PMC8413055</pub-id></mixed-citation></ref><ref id="bib-0022"><label>22</label><mixed-citation publication-type="journal" id="cit-0022">
+<string-name name-style="western">
+<surname>Cadelano</surname>
+<given-names>F.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Giannasi</surname>
+<given-names>C.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Gualerzi</surname>
+<given-names>A.</given-names>
+</string-name>, et al.<article-title>Pre-Concentration Freezing Alters the Composition of Mesenchymal Stem/Stromal Cell-Conditioned Medium</article-title>, <source>Biology (Basel)</source>. (<year>2025</year>) <volume>14</volume>, no. 2, <pub-id pub-id-type="doi">10.3390/biology14020181</pub-id>.<pub-id pub-id-type="pmcid">PMC11852129</pub-id><pub-id pub-id-type="pmid">40001949</pub-id></mixed-citation></ref><ref id="bib-0023"><label>23</label><mixed-citation publication-type="journal" id="cit-0023">
+<string-name name-style="western">
+<surname>Jørgensen</surname>
+<given-names>A. E. M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Agergaard</surname>
+<given-names>J.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Schjerling</surname>
+<given-names>P.</given-names>
+</string-name>, et al.<article-title>The Regional Turnover of Cartilage Collagen Matrix in Late-Stage Human Knee Osteoarthritis</article-title>, <source>Osteoarthritis and Cartilage</source>. (<year>2022</year>) <volume>30</volume>, no. 6, <fpage>886</fpage>–<lpage>895</lpage>, <pub-id pub-id-type="doi">10.1016/j.joca.2022.03.007</pub-id>.<pub-id pub-id-type="pmid">35358700</pub-id>
+</mixed-citation></ref><ref id="bib-0024"><label>24</label><mixed-citation publication-type="journal" id="cit-0024">
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>G.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>Y.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Zhao</surname>
+<given-names>X.</given-names>
+</string-name>, et al.<article-title>MicroRNA-411 Inhibited Matrix Metalloproteinase 13 Expression in Human Chondrocytes</article-title>, <source>American Journal of Translational Research</source>. (<year>2015</year>) <volume>7</volume>, no. 10, <fpage>2000</fpage>–<lpage>2006</lpage>.<pub-id pub-id-type="pmid">26692943</pub-id>
+<pub-id pub-id-type="pmcid">PMC4656776</pub-id></mixed-citation></ref><ref id="bib-0025"><label>25</label><mixed-citation publication-type="journal" id="cit-0025">
+<string-name name-style="western">
+<surname>Cadelano</surname>
+<given-names>F.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Della Morte</surname>
+<given-names>E.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Niada</surname>
+<given-names>S.</given-names>
+</string-name>, et al.<article-title>Cartilage Responses to Inflammatory Stimuli and Adipose Stem/Stromal Cell-Derived Conditioned Medium: Results From an Ex Vivo Model</article-title>, <source>Regenerative Therapy</source>. (<year>2024</year>) <volume>26</volume>, <fpage>346</fpage>–<lpage>353</lpage>, <pub-id pub-id-type="doi">10.1016/j.reth.2024.06.010</pub-id>.<pub-id pub-id-type="pmid">39036443</pub-id>
+<pub-id pub-id-type="pmcid">PMC11260398</pub-id></mixed-citation></ref><ref id="bib-0026"><label>26</label><mixed-citation publication-type="journal" id="cit-0026">
+<string-name name-style="western">
+<surname>Della Morte</surname>
+<given-names>E.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Niada</surname>
+<given-names>S.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Giannasi</surname>
+<given-names>C.</given-names>
+</string-name>, et al.<article-title>Dynamics of Connexin 43 Down Modulation in Human Articular Chondrocytes Stimulated by Tumor Necrosis Factor Alpha</article-title>, <source>International Journal of Molecular Sciences</source>. (<year>2022</year>) <volume>23</volume>, no. 10, <pub-id pub-id-type="doi">10.3390/ijms23105575</pub-id>.<pub-id pub-id-type="pmcid">PMC9142923</pub-id><pub-id pub-id-type="pmid">35628386</pub-id></mixed-citation></ref><ref id="bib-0027"><label>27</label><mixed-citation publication-type="journal" id="cit-0027">
+<string-name name-style="western">
+<surname>Giannasi</surname>
+<given-names>C.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Mangiavini</surname>
+<given-names>L.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Niada</surname>
+<given-names>S.</given-names>
+</string-name>, et al.<article-title>Human Osteochondral Explants as an Ex Vivo Model of Osteoarthritis for the Assessment of a Novel Class of Orthobiologics</article-title>, <source>Pharmaceutics</source>. (<year>2022</year>) <volume>14</volume>, no. 6, <pub-id pub-id-type="doi">10.3390/pharmaceutics14061231</pub-id>.<pub-id pub-id-type="pmcid">PMC9229444</pub-id><pub-id pub-id-type="pmid">35745803</pub-id></mixed-citation></ref><ref id="bib-0028"><label>28</label><mixed-citation publication-type="journal" id="cit-0028">
+<string-name name-style="western">
+<surname>Salehi</surname>
+<given-names>S.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Brambilla</surname>
+<given-names>S.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Rasponi</surname>
+<given-names>M.</given-names>
+</string-name>, et al.<article-title>Development of a Microfluidic Vascularized Osteochondral Model as a Drug Testing Platform for Osteoarthritis</article-title>, <source>Advanced Healthcare Materials</source>. (<year>2024</year>) <volume>13</volume>, no. 31, <pub-id pub-id-type="doi">10.1002/adhm.202402350</pub-id>, <elocation-id>2402350</elocation-id>.<pub-id pub-id-type="pmid">39370575</pub-id>
+<pub-id pub-id-type="pmcid">PMC11650433</pub-id></mixed-citation></ref><ref id="bib-0029"><label>29</label><mixed-citation publication-type="journal" id="cit-0029">
+<string-name name-style="western">
+<surname>Poulsen</surname>
+<given-names>R. C.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Jain</surname>
+<given-names>L.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Dalbeth</surname>
+<given-names>N.</given-names>
+</string-name>, <article-title>Re-Thinking Osteoarthritis Pathogenesis: What Can We Learn (and What Do We Need to Unlearn) From Mouse Models About the Mechanisms Involved in Disease Development</article-title>, <source>Arthritis Research &amp; Therapy</source>. (<year>2023</year>) <volume>25</volume>, no. 1, <pub-id pub-id-type="doi">10.1186/s13075-023-03042-6</pub-id>.<pub-id pub-id-type="pmcid">PMC10100340</pub-id><pub-id pub-id-type="pmid">37046337</pub-id></mixed-citation></ref><ref id="bib-0030"><label>30</label><mixed-citation publication-type="journal" id="cit-0030">
+<string-name name-style="western">
+<surname>Kleuskens</surname>
+<given-names>M. W. A.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>van Donkelaar</surname>
+<given-names>C. C.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Kock</surname>
+<given-names>L. M.</given-names>
+</string-name>, et al.<article-title>An Ex Vivo Human Osteochondral Culture Model</article-title>, <source>Journal of Orthopaedic Research</source>. (<year>2021</year>) <volume>39</volume>, no. 4, <fpage>871</fpage>–<lpage>879</lpage>, <pub-id pub-id-type="doi">10.1002/jor.24789</pub-id>.<pub-id pub-id-type="pmid">32592503</pub-id>
+<pub-id pub-id-type="pmcid">PMC8048497</pub-id></mixed-citation></ref><ref id="bib-0031"><label>31</label><mixed-citation publication-type="journal" id="cit-0031">
+<string-name name-style="western">
+<surname>Kleuskens</surname>
+<given-names>M. W. A.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Crispim</surname>
+<given-names>J. F.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>van Donkelaar</surname>
+<given-names>C. C.</given-names>
+</string-name>, et al.<article-title>Evaluating Initial Integration of Cell-Based Chondrogenic Constructs in Human Osteochondral Explants</article-title>, <source>Tissue Engineering Part C: Methods</source>. (<year>2022</year>) <volume>28</volume>, no. 1, <fpage>34</fpage>–<lpage>44</lpage>, <pub-id pub-id-type="doi">10.1089/ten.tec.2021.0196</pub-id>.<pub-id pub-id-type="pmid">35018813</pub-id>
+</mixed-citation></ref><ref id="bib-0032"><label>32</label><mixed-citation publication-type="journal" id="cit-0032">
+<string-name name-style="western">
+<surname>Yeung</surname>
+<given-names>P.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>W.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>X. N.</given-names>
+</string-name>, et al.<article-title>A Human Osteoarthritis Osteochondral Organ Culture Model for Cartilage Tissue Engineering</article-title>, <source>Biomaterials</source>. (<year>2018</year>) <volume>162</volume>, <fpage>1</fpage>–<lpage>21</lpage>, <pub-id pub-id-type="doi">10.1016/j.biomaterials.2018.02.002</pub-id>, 2-s2.0-85041533772.<pub-id pub-id-type="pmid">29428675</pub-id>
+</mixed-citation></ref><ref id="bib-0033"><label>33</label><mixed-citation publication-type="journal" id="cit-0033">
+<string-name name-style="western">
+<surname>Houtman</surname>
+<given-names>E.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>van Hoolwerff</surname>
+<given-names>M.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Lakenberg</surname>
+<given-names>N.</given-names>
+</string-name>, et al.<article-title>Human Osteochondral Explants: Reliable Biomimetic Models to Investigate Disease Mechanisms and Develop Personalized Treatments for Osteoarthritis</article-title>, <source>Rheumatology and Therapy</source>. (<year>2021</year>) <volume>8</volume>, no. 1, <fpage>499</fpage>–<lpage>515</lpage>, <pub-id pub-id-type="doi">10.1007/s40744-021-00287-y</pub-id>.<pub-id pub-id-type="pmid">33608843</pub-id>
+<pub-id pub-id-type="pmcid">PMC7991015</pub-id></mixed-citation></ref><ref id="bib-0034"><label>34</label><mixed-citation publication-type="journal" id="cit-0034">
+<string-name name-style="western">
+<surname>Epsley</surname>
+<given-names>S.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Tadros</surname>
+<given-names>S.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Farid</surname>
+<given-names>A.</given-names>
+</string-name>, et al.<article-title>The Effect of Inflammation on Bone</article-title>, <source>Frontiers in Physiology</source>. (<year>2021</year>) <volume>11</volume>, <pub-id pub-id-type="doi">10.3389/fphys.2020.511799</pub-id>.<pub-id pub-id-type="pmcid">PMC7874051</pub-id><pub-id pub-id-type="pmid">33584321</pub-id></mixed-citation></ref><ref id="bib-0035"><label>35</label><mixed-citation publication-type="journal" id="cit-0035">
+<string-name name-style="western">
+<surname>Lam</surname>
+<given-names>J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Takeshita</surname>
+<given-names>S.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Barker</surname>
+<given-names>J. E.</given-names>
+</string-name>, <article-title>TNF-α Induces Osteoclastogenesis by Direct Stimulation of Macrophages Exposed to Permissive Levels of RANK Ligand</article-title>, <source>Journal of Clinical Investigation</source>. (<year>2000</year>) <volume>106</volume>, no. 12, <fpage>1481</fpage>–<lpage>1488</lpage>, <pub-id pub-id-type="doi">10.1172/JCI11176</pub-id>, 2-s2.0-0034523328.<pub-id pub-id-type="pmid">11120755</pub-id>
+<pub-id pub-id-type="pmcid">PMC387259</pub-id></mixed-citation></ref><ref id="bib-0036"><label>36</label><mixed-citation publication-type="journal" id="cit-0036">
+<string-name name-style="western">
+<surname>de Vries-van Melle</surname>
+<given-names>M. L.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Mandl</surname>
+<given-names>E. W.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Kops</surname>
+<given-names>N.</given-names>
+</string-name>, et al.<article-title>An Osteochondral Culture Model to Study Mechanisms Involved in Articular Cartilage Repair</article-title>, <source>Tissue Engineering Part C: Methods</source>. (<year>2012</year>) <volume>18</volume>, no. 1, <fpage>45</fpage>–<lpage>53</lpage>, <pub-id pub-id-type="doi">10.1089/ten.tec.2011.0339</pub-id>, 2-s2.0-84855410111.<pub-id pub-id-type="pmid">21875392</pub-id>
+<pub-id pub-id-type="pmcid">PMC3245721</pub-id></mixed-citation></ref><ref id="bib-0037"><label>37</label><mixed-citation publication-type="journal" id="cit-0037">
+<string-name name-style="western">
+<surname>Niada</surname>
+<given-names>S.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Giannasi</surname>
+<given-names>C.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Gualerzi</surname>
+<given-names>A.</given-names>
+</string-name>, et al.<article-title>Differential Proteomic Analysis Predicts Appropriate Applications for the Secretome of Adipose-Derived Mesenchymal Stem/Stromal Cells and Dermal Fibroblasts</article-title>, <source>Stem Cells International</source>. (<year>2018</year>) <volume>2018</volume>, <lpage>11</lpage>, <pub-id pub-id-type="doi">10.1155/2018/7309031</pub-id>, 2-s2.0-85058934143, <elocation-id>7309031</elocation-id>.<pub-id pub-id-type="pmid">30158987</pub-id>
+<pub-id pub-id-type="pmcid">PMC6109467</pub-id></mixed-citation></ref><ref id="bib-0038"><label>38</label><mixed-citation publication-type="journal" id="cit-0038">
+<string-name name-style="western">
+<surname>Casati</surname>
+<given-names>S.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Giannasi</surname>
+<given-names>C.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Niada</surname>
+<given-names>S.</given-names>
+</string-name>, et al.<article-title>Lipidomics of Cell Secretome Combined With the Study of Selected Bioactive Lipids in an In Vitro Model of Osteoarthritis</article-title>, <source>Stem Cells Translational Medicine</source>. (<year>2022</year>) <volume>11</volume>, no. 9, <lpage>970</lpage>, <pub-id pub-id-type="doi">10.1093/stcltm/szac045</pub-id>, <elocation-id>szac045</elocation-id>.<pub-id pub-id-type="pmcid">PMC9492289</pub-id><pub-id pub-id-type="pmid">35792075</pub-id></mixed-citation></ref><ref id="bib-0039"><label>39</label><mixed-citation publication-type="journal" id="cit-0039">
+<string-name name-style="western">
+<surname>de Noronha</surname>
+<given-names>N. C.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Mizukami</surname>
+<given-names>A.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Caliári-Oliveira</surname>
+<given-names>C.</given-names>
+</string-name>, et al.<article-title>Priming Approaches to Improve the Efficacy of Mesenchymal Stromal Cell-Based Therapies</article-title>, <source>Stem Cell Research &amp; Therapy</source>. (<year>2019</year>) <volume>10</volume>, no. 1, <pub-id pub-id-type="doi">10.1186/s13287-019-1224-y</pub-id>, 2-s2.0-85065203754.<pub-id pub-id-type="pmcid">PMC6498654</pub-id><pub-id pub-id-type="pmid">31046833</pub-id></mixed-citation></ref><ref id="bib-0040"><label>40</label><mixed-citation publication-type="journal" id="cit-0040">
+<string-name name-style="western">
+<surname>Giannasi</surname>
+<given-names>C.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Cadelano</surname>
+<given-names>F.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Della Morte</surname>
+<given-names>E.</given-names>
+</string-name>, et al.<article-title>Unlocking the Therapeutic Potential of Adipose-Derived Stem Cell Secretome in Oral and Maxillofacial Medicine: A Composition-Based Perspective</article-title>, <source>Biology</source>. (<year>2024</year>) <volume>13</volume>, no. 12, <pub-id pub-id-type="doi">10.3390/biology13121016</pub-id>, <elocation-id>1016</elocation-id>.<pub-id pub-id-type="pmid">39765683</pub-id>
+<pub-id pub-id-type="pmcid">PMC11673083</pub-id></mixed-citation></ref><ref id="bib-0041"><label>41</label><mixed-citation publication-type="journal" id="cit-0041">
+<string-name name-style="western">
+<surname>Gunawardena</surname>
+<given-names>T. N. A.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Rahman</surname>
+<given-names>M. T.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Abdullah</surname>
+<given-names>B. J. J.</given-names>
+</string-name>, et al.<article-title>Conditioned Media Derived From Mesenchymal Stem Cell Cultures: The Next Generation for Regenerative Medicine</article-title>, <source>Journal of Tissue Engineering and Regenerative Medicine</source>. (<year>2019</year>) <volume>13</volume>, no. 4, <fpage>569</fpage>–<lpage>586</lpage>, <pub-id pub-id-type="doi">10.1002/term.2806</pub-id>, 2-s2.0-85063147709.<pub-id pub-id-type="pmid">30644175</pub-id>
+</mixed-citation></ref><ref id="bib-0042"><label>42</label><mixed-citation publication-type="journal" id="cit-0042">
+<string-name name-style="western">
+<surname>Cabral-Pacheco</surname>
+<given-names>G. A.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Garza-Veloz</surname>
+<given-names>I.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Castruita-De la Rosa</surname>
+<given-names>C.</given-names>
+</string-name>, et al.<article-title>The Roles of Matrix Metalloproteinases and Their Inhibitors in Human Diseases</article-title>, <source>International Journal of Molecular Sciences</source>. (<year>2020</year>) <volume>21</volume>, no. 24, <pub-id pub-id-type="doi">10.3390/ijms21249739</pub-id>, <elocation-id>9739</elocation-id>.<pub-id pub-id-type="pmid">33419373</pub-id>
+<pub-id pub-id-type="pmcid">PMC7767220</pub-id></mixed-citation></ref><ref id="bib-0043"><label>43</label><mixed-citation publication-type="journal" id="cit-0043">
+<string-name name-style="western">
+<surname>Ohba</surname>
+<given-names>S.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Hojo</surname>
+<given-names>H.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Chung</surname>
+<given-names>U.</given-names>
+</string-name>, <article-title>Bioactive Factors for Tissue Regeneration: State of the Art</article-title>, <source>Muscles, Ligaments and Tendons Journal</source>. (<year>2012</year>) <volume>2</volume>, no. 3, <fpage>193</fpage>–<lpage>203</lpage>.<pub-id pub-id-type="pmid">23738297</pub-id>
+<pub-id pub-id-type="pmcid">PMC3666524</pub-id></mixed-citation></ref><ref id="bib-0044"><label>44</label><mixed-citation publication-type="book" id="cit-0044">
+<string-name name-style="western">
+<surname>Chai</surname>
+<given-names>D. H.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Stevens</surname>
+<given-names>A. L.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Grodzinsky</surname>
+<given-names>A. J.</given-names>
+</string-name>, <person-group person-group-type="editor">
+<string-name name-style="western">
+<surname>Bronner</surname>
+<given-names>F.</given-names>
+</string-name>
+</person-group> and <person-group person-group-type="editor">
+<string-name name-style="western">
+<surname>Farach-Carson</surname>
+<given-names>M. C.</given-names>
+</string-name>
+</person-group>, <part-title>Biomechanical Aspects: Joint Injury and Osteoarthritis</part-title>, <source>Bone and Osteoarthritis</source>, <year>2007</year>, <publisher-name>Springer</publisher-name>, <fpage>165</fpage>–<lpage>179</lpage>.</mixed-citation></ref><ref id="bib-0045"><label>45</label><mixed-citation publication-type="journal" id="cit-0045">
+<string-name name-style="western">
+<surname>Black</surname>
+<given-names>R. M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Flaman</surname>
+<given-names>L. L.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Lindblom</surname>
+<given-names>K.</given-names>
+</string-name>, et al.<article-title>Tissue Catabolism and Donor-Specific Dexamethasone Response in a Human Osteochondral Model of Post-Traumatic Osteoarthritis</article-title>, <source>Arthritis Research &amp; Therapy</source>. (<year>2022</year>) <volume>24</volume>, no. 1, <pub-id pub-id-type="doi">10.1186/s13075-022-02828-4</pub-id>.<pub-id pub-id-type="pmcid">PMC9185927</pub-id><pub-id pub-id-type="pmid">35689293</pub-id></mixed-citation></ref><ref id="bib-0046"><label>46</label><mixed-citation publication-type="journal" id="cit-0046">
+<string-name name-style="western">
+<surname>Rosochowicz</surname>
+<given-names>M. A.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Lach</surname>
+<given-names>M. S.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Richter</surname>
+<given-names>M.</given-names>
+</string-name>, <article-title>iPSC-Conditioned Medium Mitigates the Adverse Effects of Osteoarthritic Synovial Fluid on Chondrocyte Cultures</article-title>, <source>Biochemical and Biophysical Research Communications</source>. (<year>2025</year>) <volume>777</volume>, <pub-id pub-id-type="doi">10.1016/j.bbrc.2025.152336</pub-id>, <elocation-id>152336</elocation-id>.<pub-id pub-id-type="pmid">40652816</pub-id>
+</mixed-citation></ref><ref id="bib-0047"><label>47</label><mixed-citation publication-type="journal" id="cit-0047">
+<string-name name-style="western">
+<surname>Li</surname>
+<given-names>M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Yin</surname>
+<given-names>H.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Yan</surname>
+<given-names>Z.</given-names>
+</string-name>, et al.<article-title>The Immune Microenvironment in Cartilage Injury and Repair</article-title>, <source>Acta Biomaterialia</source>. (<year>2022</year>) <volume>140</volume>, <fpage>23</fpage>–<lpage>42</lpage>, <pub-id pub-id-type="doi">10.1016/j.actbio.2021.12.006</pub-id>.<pub-id pub-id-type="pmid">34896634</pub-id>
+</mixed-citation></ref><ref id="bib-0048"><label>48</label><mixed-citation publication-type="journal" id="cit-0048">
+<string-name name-style="western">
+<surname>He</surname>
+<given-names>A.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Liu</surname>
+<given-names>L.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Luo</surname>
+<given-names>X.</given-names>
+</string-name>, et al.<article-title>Repair of Osteochondral Defects With In Vitro Engineered Cartilage Based on Autologous Bone Marrow Stromal Cells in a Swine Model</article-title>, <source>Scientific Reports</source>. (<year>2017</year>) <volume>7</volume>, no. 1, <pub-id pub-id-type="doi">10.1038/srep40489</pub-id>, 2-s2.0-85009476355, <elocation-id>40489</elocation-id>.<pub-id pub-id-type="pmid">28084417</pub-id>
+<pub-id pub-id-type="pmcid">PMC5234019</pub-id></mixed-citation></ref><ref id="bib-0049"><label>49</label><mixed-citation publication-type="journal" id="cit-0049">
+<string-name name-style="western">
+<surname>Werner</surname>
+<given-names>N. C.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Stoker</surname>
+<given-names>A. M.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Bozynski</surname>
+<given-names>C. C.</given-names>
+</string-name>, et al.<article-title>Characterizing Correlations among Disease Severity Measures in Osteochondral Tissues From Osteoarthritic Knees</article-title>, <source>Journal of Orthopaedic Research</source>. (<year>2021</year>) <volume>39</volume>, no. 5, <fpage>1103</fpage>–<lpage>1112</lpage>, <pub-id pub-id-type="doi">10.1002/jor.24802</pub-id>.<pub-id pub-id-type="pmid">32678931</pub-id>
+</mixed-citation></ref><ref id="bib-0050"><label>50</label><mixed-citation publication-type="journal" id="cit-0050">
+<string-name name-style="western">
+<surname>Xu</surname>
+<given-names>Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Shrestha</surname>
+<given-names>N.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Préat</surname>
+<given-names>V.</given-names>
+</string-name>, et al.<article-title>An Overview of <italic toggle="yes">In Vitro</italic>, <italic toggle="yes">e, Ex Vivo</italic> and <italic toggle="yes">In Vivo</italic> m Models for Studying the Transport of Drugs Across Intestinal Barriers</article-title>, <source>Advanced Drug Delivery Reviews</source>. (<year>2021</year>) <volume>175</volume>, <pub-id pub-id-type="doi">10.1016/j.addr.2021.05.005</pub-id>.<pub-id pub-id-type="pmid">33989702</pub-id></mixed-citation></ref><ref id="bib-0051"><label>51</label><mixed-citation publication-type="journal" id="cit-0051">
+<string-name name-style="western">
+<surname>Szapary</surname>
+<given-names>H. J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Flaman</surname>
+<given-names>L.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Frank</surname>
+<given-names>E.</given-names>
+</string-name>, et al.<article-title>Effects of Dexamethasone and Dynamic Loading on Cartilage of Human Osteochondral Explants Challenged With Inflammatory Cytokines</article-title>, <source>Journal of Biomechanics</source>. (<year>2023</year>) <volume>149</volume>, <pub-id pub-id-type="doi">10.1016/j.jbiomech.2023.111480</pub-id>, <elocation-id>111480</elocation-id>.<pub-id pub-id-type="pmid">36791513</pub-id>
+</mixed-citation></ref><ref id="bib-0052"><label>52</label><mixed-citation publication-type="journal" id="cit-0052">
+<string-name name-style="western">
+<surname>Suteja</surname>
+<given-names>R. C.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Harianto</surname>
+<given-names>J. E.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Hendrawan</surname>
+<given-names>G.</given-names>
+</string-name>, et al.<article-title>In Vitro and In Vivo Potential of Human Stem Cell-Derived Conditioned Medium (Secretome) and Exosomes as a Novel Treatment for Osteoarthritis: A Systematic Review of Experimental Studies</article-title>, <source>Clinics in Orthopedic Surgery</source>. (<year>2025</year>) <volume>17</volume>, no. 5, <fpage>797</fpage>–<lpage>814</lpage>, <pub-id pub-id-type="doi">10.4055/cios25023</pub-id>.<pub-id pub-id-type="pmid">41112131</pub-id>
+<pub-id pub-id-type="pmcid">PMC12531848</pub-id></mixed-citation></ref></ref-list></back></article>

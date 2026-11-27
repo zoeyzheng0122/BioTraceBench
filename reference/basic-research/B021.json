@@ -1,0 +1,118 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "Single-cell RNA-seq",
+      "experiment_run_accession": "SRA:SRX31232632 (experiment)",
+      "method": "Library CTRL_05d. Pooled muscle-derived single-cell suspension processed using Chromium Single Cell 3′ v3 chemistry. Approximately 5,000 cells were captured; libraries were sequenced using paired-end 101-bp reads with an 8-cycle index read. Approximately 30,000 reads per cell were sequenced.",
+      "platform": "10x Genomics Chromium; Illumina NovaSeq 6000",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0002",
+      "assay_type": "Single-cell RNA-seq",
+      "experiment_run_accession": "SRA:SRX31232635 (experiment)",
+      "method": "Library HYP_05d. Pooled muscle-derived single-cell suspension processed using Chromium Single Cell 3′ v3 chemistry. Approximately 5,000 cells were captured; libraries were sequenced using paired-end 101-bp reads with an 8-cycle index read. Approximately 30,000 reads per cell were sequenced.",
+      "platform": "10x Genomics Chromium; Illumina NovaSeq 6000",
+      "sample_ids": [
+        "S0002"
+      ]
+    }
+  ],
+  "condition": [
+    {
+      "condition_id": "C0001",
+      "condition_target": "Source mice",
+      "experimental_factor": "Dietary iodine content",
+      "factor_unit": "mg/kg diet",
+      "factor_value": 0.7,
+      "sample_id": "S0001",
+      "time": "During the experimental diet"
+    },
+    {
+      "condition_id": "C0002",
+      "condition_target": "Source mice",
+      "experimental_factor": "Pre-injury dietary treatment duration",
+      "factor_unit": "week",
+      "factor_value": 3,
+      "sample_id": "S0001",
+      "time": "Before CTX injection; diet continued afterward"
+    },
+    {
+      "condition_id": "C0003",
+      "condition_target": "Source tibialis anterior muscle",
+      "experimental_factor": "Cardiotoxin concentration",
+      "factor_unit": "μg/mL",
+      "factor_value": 50,
+      "sample_id": "S0001",
+      "time": "Injection into the right tibialis anterior"
+    },
+    {
+      "condition_id": "C0004",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-injury collection interval",
+      "factor_unit": "day",
+      "factor_value": 5,
+      "sample_id": "S0001",
+      "time": "After CTX injury"
+    },
+    {
+      "condition_id": "C0005",
+      "condition_target": "Source mice",
+      "experimental_factor": "Dietary PTU content",
+      "factor_unit": "% w/w",
+      "factor_value": 0.15,
+      "sample_id": "S0002",
+      "time": "Diet started 3 weeks before CTX injury and continued through collection"
+    },
+    {
+      "condition_id": "C0006",
+      "condition_target": "Source mice",
+      "experimental_factor": "Pre-injury dietary treatment duration",
+      "factor_unit": "week",
+      "factor_value": 3,
+      "sample_id": "S0002",
+      "time": "Before CTX injection; diet continued afterward"
+    },
+    {
+      "condition_id": "C0007",
+      "condition_target": "Source tibialis anterior muscle",
+      "experimental_factor": "Cardiotoxin concentration",
+      "factor_unit": "μg/mL",
+      "factor_value": 50,
+      "sample_id": "S0002",
+      "time": "Injection into the right tibialis anterior"
+    },
+    {
+      "condition_id": "C0008",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-injury collection interval",
+      "factor_unit": "day",
+      "factor_value": 5,
+      "sample_id": "S0002",
+      "time": "After CTX injury"
+    }
+  ],
+  "sample": [
+    {
+      "biological_model": "Euthyroid control mouse model of cardiotoxin-induced muscle regeneration",
+      "biological_source": "Tibialis anterior muscle from male Cre-negative mice carrying the reported Fucci2aR background: B6;129-Gt(ROSA)26Sor<tm1(Fucci2aR)Jkn.",
+      "sample_accession": "GEO:GSM9325840 (sample); BioSample:SAMN53395667 (sample)",
+      "sample_id": "S0001",
+      "sample_material": "Single-cell suspension pooled from tibialis anterior muscles of three male euthyroid control mice, collected 5 days after cardiotoxin injury. Mice received matched control diet TD.120461 without PTU. Donor identities and individual cell contributions were not reported.",
+      "sample_name": "CTRL_05d",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Low-iodine/PTU-induced hypothyroid mouse model of cardiotoxin-induced muscle regeneration",
+      "biological_source": "Tibialis anterior muscle from male Cre-negative mice carrying the reported Fucci2aR background: B6;129-Gt(ROSA)26Sor<tm1(Fucci2aR)Jkn.",
+      "sample_accession": "GEO:GSM9325843 (sample); BioSample:SAMN53395664 (sample)",
+      "sample_id": "S0002",
+      "sample_material": "Single-cell suspension pooled from tibialis anterior muscles of three male low-iodine/PTU-treated hypothyroid mice, collected 5 days after cardiotoxin injury. Mice received iodine-deficient diet TD.08259; its exact iodine content was not reported. Donor identities and individual cell contributions were not reported.",
+      "sample_name": "HYP_05d",
+      "species": "Mus musculus"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "case_id": "B009",
+  "task_id": "B009",
+  "title": "Imbalanced chromatin distribution in cellular senescence specifies paraspeckle dynamics",
+  "doi": "10.1186/s13059-025-03757-6",
+  "comparison_or_design": "Five-day etoposide versus the matched five-day vehicle condition.",
+  "observations_or_assays": [
+    "Sequential RNA-FISH/immunofluorescence with confocal imaging"
+  ],
+  "time_scope": "The 5-day treatment endpoint.",
+  "excluded": [
+    "Nine-day exposure, live NONO-GFP tracking and other imaging branches",
+    "IMR90, oxidative stress, HP1α manipulation and separate biochemical assays"
+  ],
+  "population_or_material": "U2OS materials in the fixed-cell endogenous NONO/NEAT1_2 paraspeckle-imaging comparison.",
+  "requested_items": [
+    "Etoposide versus vehicle, dose and exposure duration"
+  ],
+  "resources": [
+    {
+      "accession": "10.6084/m9.figshare.29955509.v3",
+      "url": "https://doi.org/10.6084/m9.figshare.29955509.v3"
+    }
+  ],
+  "domain": "basic",
+  "pipeline": "basic-research",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/basic-research.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

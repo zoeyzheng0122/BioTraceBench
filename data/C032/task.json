@@ -1,0 +1,30 @@
+{
+  "case_id": "C032",
+  "task_id": "C032",
+  "title": "Specific carbohydrate diet versus Mediterranean diet in adult patients with mild to moderate ulcerative colitis: a randomized controlled-feeding trial",
+  "doi": "10.3389/fnut.2026.1838160",
+  "comparison_or_design": "The primary controlled-feeding comparison of Specific Carbohydrate Diet and Mediterranean diet.",
+  "observations_or_assays": [
+    "Partial Mayo Clinic score",
+    "Clinical remission under the reported pMCS criterion",
+    "Fecal calprotectin normalization under the reported criterion"
+  ],
+  "time_scope": "Baseline to week 6, primary ITT/BOCF analysis.",
+  "excluded": [
+    "Week-10, complete-case/sensitivity analyses and other inflammatory thresholds",
+    "Quality of life, microbiome and metagenomic outcomes"
+  ],
+  "population_or_material": "The primary ITT population of adults with mild-to-moderate UC in the controlled-feeding pilot trial.",
+  "requested_items": [
+    "Arm-level raw and ANCOVA-adjusted week-six pMCS summaries/changes and primary contrast; week-six remission and FC normalization count/proportion/test in their applicable populations. Exclude combined-cohort summaries, baseline-normalization results, later visits and unrelated biomarkers."
+  ],
+  "resources": [],
+  "case_specific_rules": [],
+  "domain": "clinical",
+  "pipeline": "clinical-trials",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/clinical-trials.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

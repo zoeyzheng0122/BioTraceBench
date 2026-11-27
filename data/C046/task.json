@@ -1,0 +1,30 @@
+{
+  "case_id": "C046",
+  "task_id": "C046",
+  "title": "Time to diagnosis and treatment of obstructive sleep apnoea using mandibular jaw movement monitoring versus polysomnography: an open-label, multicentre, randomised, controlled trial",
+  "doi": "10.1016/j.lanepe.2026.101637",
+  "comparison_or_design": "The main SUNSAS diagnostic-pathway comparison.",
+  "observations_or_assays": [
+    "Time from randomization to diagnostic consultation",
+    "Time from randomization to treatment initiation",
+    "Epworth Sleepiness Scale score"
+  ],
+  "time_scope": "Timing endpoints start at randomization; ESS at baseline and 3 months after diagnostic consultation, not 3 months after randomization.",
+  "excluded": [
+    "ESS at 3 months post-randomization and mITT/imputed ESS supporting variants",
+    "Severity subgroups, quality of life, productivity, accuracy, economics and PAP adherence"
+  ],
+  "population_or_material": "The main randomized-analysis population of adults with suspected OSA in SUNSAS; retain the source-defined population for each timing endpoint.",
+  "requested_items": [
+    "Main-analysis randomization-origin time-to-diagnosis/treatment medians and tests; ESS baseline and primary PP change/contrast three months after diagnostic consultation. Exclude post hoc at-home-PSG comparisons, mITT ESS sensitivity and post-randomization ESS timing as an alternate endpoint."
+  ],
+  "resources": [],
+  "case_specific_rules": [],
+  "domain": "clinical",
+  "pipeline": "clinical-trials",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/clinical-trials.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

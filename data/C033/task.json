@@ -1,0 +1,32 @@
+{
+  "case_id": "C033",
+  "task_id": "C033",
+  "title": "Abatacept versus hydroxychloroquine for prevention of rheumatoid arthritis in individuals with palindromic rheumatism: a randomized open-label trial",
+  "doi": "10.1038/s41591-026-04395-6",
+  "comparison_or_design": "The primary PALABA prevention comparison in palindromic rheumatism.",
+  "observations_or_assays": [
+    "Development of persistent RA-classifying arthritis",
+    "Intensity of palindromic joint attacks on the reported VAS",
+    "Palindromic-rheumatism symptom remission"
+  ],
+  "time_scope": "The 24-month trial period; use the source-defined pre-randomization reference interval for attack-intensity change.",
+  "excluded": [
+    "Available-data-only/per-protocol analyses, time-to-RA and visit-specific trajectories",
+    "Attack frequency/duration, antibodies and safety"
+  ],
+  "population_or_material": "The modified full analysis set with failure imputation in seropositive palindromic rheumatism.",
+  "requested_items": [
+    "Primary failure-imputed 24-month RA arm counts/proportions and risk difference/test; pre-randomization and 24-month period-level attack-intensity medians and comparison; 0–24-month remission counts/proportions/test using observed denominator in Supplementary Table 7. Exclude alternate logistic models, overall-cohort results and 0–12-month remission."
+  ],
+  "resources": [],
+  "case_specific_rules": [
+    "For remission use the endpoint-specific observed denominator in Supplementary Table 7. Derive its population membership from the source. Retain the primary reported risk difference and its CI, applying the shared rules for comparison direction."
+  ],
+  "domain": "clinical",
+  "pipeline": "clinical-trials",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/clinical-trials.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

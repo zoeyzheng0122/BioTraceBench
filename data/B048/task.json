@@ -1,0 +1,40 @@
+{
+  "case_id": "B048",
+  "task_id": "B048",
+  "title": "Ex vivo- generated lymphoid progenitors encompass both T cell and innate lymphoid cell fates",
+  "doi": "10.3389/fimmu.2025.1617707",
+  "comparison_or_design": "The source-comparison scRNA-seq experiment in DLL4-cultured ProT products.",
+  "observations_or_assays": [
+    "Single-cell RNA sequencing"
+  ],
+  "time_scope": "After 7 days of ProT culture.",
+  "excluded": [
+    "Mass/flow cytometry, CD161-sorted functional studies, BCL11B perturbation and transplantation",
+    "Treating a CD7 transcript-filtered analysis subset as a newly collected sample and extracting cell-cluster results"
+  ],
+  "population_or_material": "Day 7 ProT products submitted to scRNA-seq, without implying Day 0 sequencing.",
+  "requested_items": [
+    "Cord-blood versus mobilized-peripheral-blood source, DLL4 platform and ProT culture duration"
+  ],
+  "resources": [
+    {
+      "accession": "GSE292844",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE292844"
+    },
+    {
+      "accession": "GEO-GSE292844-family.soft.txt",
+      "url": "related/GEO-GSE292844-family.soft.txt"
+    },
+    {
+      "accession": "ENA-PRJNA1241729-run-metadata.tsv",
+      "url": "related/ENA-PRJNA1241729-run-metadata.tsv"
+    }
+  ],
+  "domain": "basic",
+  "pipeline": "basic-research",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/basic-research.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

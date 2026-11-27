@@ -1,0 +1,32 @@
+{
+  "case_id": "B012",
+  "task_id": "B012",
+  "title": "Stereotyped Subclones Revealed by High‐Density Single‐Cell Lineage Tracing Support Robust Development",
+  "doi": "10.1002/advs.202406208",
+  "comparison_or_design": "The non-differentiating HESC reference and the differentiating colonies in this simultaneous PLP lineage/transcriptome experiment; keep colony identity and paired assay relationships only when explicitly supported.",
+  "observations_or_assays": [
+    "Single-cell transcriptome sequencing; Matched expressed-lineage-barcode sequencing"
+  ],
+  "time_scope": "The 10-day primordial-lung-progenitor differentiation experiment and its matched HESC reference.",
+  "excluded": [
+    "The separate full 20-day differentiation experiment and later alveolar-sphere validation",
+    "Reconstructing lineage trees, counting cells as independent biological sources, or extracting clone/transcriptomic results"
+  ],
+  "population_or_material": "Lineage-tracer hESC preparations and colonies in the simultaneous PLP lineage/transcriptome experiment.",
+  "requested_items": [
+    "Non-differentiating reference versus PLP differentiation, induction duration and lineage-labelling context"
+  ],
+  "resources": [
+    {
+      "accession": "PRJNA1099925",
+      "url": "https://www.ebi.ac.uk/ena/browser/view/PRJNA1099925"
+    }
+  ],
+  "domain": "basic",
+  "pipeline": "basic-research",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/basic-research.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

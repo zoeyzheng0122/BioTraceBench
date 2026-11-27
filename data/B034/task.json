@@ -1,0 +1,32 @@
+{
+  "case_id": "B034",
+  "task_id": "B034",
+  "title": "Human gastric extracellular matrix hydrogels maintain organoid growth and reduce gene expression associated with stemness and inflammation",
+  "doi": "10.1088/1748-605X/ae943e",
+  "comparison_or_design": "Matrigel versus hgECM supplemented with Matrigel within each explicitly matched line/pair; preserve line, matrix-donor and dissociation-protocol distinctions.",
+  "observations_or_assays": [
+    "10x single-cell RNA sequencing"
+  ],
+  "time_scope": "The four-day matrix-culture collection in the paired library experiment.",
+  "excluded": [
+    "PXD081816 matrix proteomics, matrix rheology, growth and independent validation assays",
+    "Inferring that pair labels imply one common donor across all lines"
+  ],
+  "population_or_material": "The assayed human gastric organoid preparations in the matched A–D matrix-culture single-cell experiment. Describe the culture-matrix reagent and its donor provenance in Biological Source, Sample Material or Method; do not create matrix-only sample rows. Matrix donors are not automatically organoid cellular donors.",
+  "requested_items": [
+    "Culture matrix (Matrigel or hgECM plus Matrigel), matrix proportions, culture duration and distinguishing dissociation protocol"
+  ],
+  "resources": [
+    {
+      "accession": "GSE303526",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE303526"
+    }
+  ],
+  "domain": "basic",
+  "pipeline": "basic-research",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/basic-research.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

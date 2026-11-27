@@ -1,0 +1,83 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "10x single-cell RNA-seq",
+      "experiment_run_accession": "SRA:SRX24028438 (experiment); SRA:SRR28424411 (run)",
+      "method": "10x Genomics-based single-cell RNA sequencing with oligo(dT)-selected cDNA. Native library: XR20221123. Paired-end sequencing.",
+      "platform": "Illumina NovaSeq 6000",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0002",
+      "assay_type": "10x single-cell RNA-seq",
+      "experiment_run_accession": "SRA:SRX24028439 (experiment); SRA:SRR28424410 (run)",
+      "method": "10x Genomics-based single-cell RNA sequencing with oligo(dT)-selected cDNA. Native library: XR20221128. Paired-end sequencing.",
+      "platform": "Illumina NovaSeq 6000",
+      "sample_ids": [
+        "S0002"
+      ]
+    },
+    {
+      "assay_id": "A0003",
+      "assay_type": "10x single-cell RNA-seq",
+      "experiment_run_accession": "SRA:SRX24028440 (experiment); SRA:SRR28424409 (run)",
+      "method": "10x Genomics-based single-cell RNA sequencing with oligo(dT)-selected cDNA. Native library: XR20221214. Paired-end sequencing.",
+      "platform": "Illumina NovaSeq 6000",
+      "sample_ids": [
+        "S0003"
+      ]
+    },
+    {
+      "assay_id": "A0004",
+      "assay_type": "10x single-cell RNA-seq",
+      "experiment_run_accession": "SRA:SRX24028441 (experiment); SRA:SRR28424408 (run)",
+      "method": "10x Genomics-based single-cell RNA sequencing with oligo(dT)-selected cDNA. Native library: XR20221105. Paired-end sequencing.",
+      "platform": "Illumina NovaSeq 6000",
+      "sample_ids": [
+        "S0004"
+      ]
+    }
+  ],
+  "condition": [],
+  "sample": [
+    {
+      "biological_model": "Native human meibomian gland tissue reference",
+      "biological_source": "Human meibomian gland tissue (isolate 22-16)",
+      "sample_accession": "BioSample:SAMN40583978 (sample); SRA:SRS20822031 (sample)",
+      "sample_id": "S0001",
+      "sample_material": "Single-cell suspension prepared by dissociation of native human meibomian gland tissue for scRNA-seq. Archived sample collection_date: 2022-11-04.",
+      "sample_name": "hMG1",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Native human meibomian gland tissue reference",
+      "biological_source": "Human meibomian gland tissue (isolate 22-18)",
+      "sample_accession": "BioSample:SAMN40583979 (sample); SRA:SRS20822032 (sample)",
+      "sample_id": "S0002",
+      "sample_material": "Single-cell suspension prepared by dissociation of native human meibomian gland tissue for scRNA-seq. Archived sample collection_date: 2022-11-07.",
+      "sample_name": "hMG2",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Human meibomian gland organoid model",
+      "biological_source": "Human meibomian gland tissue (isolate 22-16)",
+      "sample_accession": "BioSample:SAMN40583980 (sample); SRA:SRS20822033 (sample)",
+      "sample_id": "S0003",
+      "sample_material": "Single-cell suspension from cultured human meibomian gland organoids, released from Matrigel and dissociated for scRNA-seq. Native tissue counterpart: hMG1 (isolate 22-16). Culture duration and passage at collection are not reported. Archived sample collection_date: 2022-11-23.",
+      "sample_name": "hMGO1",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Human meibomian gland organoid model",
+      "biological_source": "Human meibomian gland tissue (isolate 22-18)",
+      "sample_accession": "BioSample:SAMN40583981 (sample); SRA:SRS20822034 (sample)",
+      "sample_id": "S0004",
+      "sample_material": "Single-cell suspension from cultured human meibomian gland organoids, released from Matrigel and dissociated for scRNA-seq. Native tissue counterpart: hMG2 (isolate 22-18). Culture duration and passage at collection are not reported. Archived sample collection_date: 2023-11-26.",
+      "sample_name": "hMGO2",
+      "species": "Homo sapiens"
+    }
+  ]
+}

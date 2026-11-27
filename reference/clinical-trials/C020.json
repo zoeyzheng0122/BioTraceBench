@@ -1,0 +1,220 @@
+{
+  "measure": [
+    {
+      "measure_definition": "Measured value: model-predicted 10-year risk of a first fatal or nonfatal cardiovascular event, including reported change from baseline; Participants; Participant-level data were applied to the Steno Type 1 Risk Engine (ST1RE) at baseline and after each 15-week treatment period. ST1RE inputs include sex, albuminuria status, physical activity, smoking status, age, diabetes duration, HbA1c, systolic blood pressure, LDL cholesterol, and eGFR. Multiple imputation was used for missing data. The model output is predicted 10-year risk, not observed event incidence.; Predicted 10-year risk of a first fatal or nonfatal cardiovascular event using ST1RE. Baseline and post-treatment predicted risks were compared within participants, and placebo-adjusted changes between semaglutide and placebo periods were tested with paired-sample t-tests; p<0.05 defined significance. The 10-year period is the prediction horizon, not follow-up.",
+      "measure_id": "M0",
+      "measure_name": "Predicted 10-year cardiovascular disease risk using ST1RE"
+    },
+    {
+      "measure_definition": "Measured value: model-predicted 10-year risk of a first fatal or nonfatal cardiovascular event, including reported change from baseline; Participants; Participant-level data were applied to the Scottish Diabetes Research Network (SDRN) risk model at baseline and after each 15-week treatment period. SDRN inputs include sex, albuminuria status, diabetic retinopathy, smoking status, treatment for hypertension or dyslipidaemia, atrial fibrillation, age, diabetes duration, HbA1c, mean 3-year HbA1c (approximated from screening values), BMI, height, weight, systolic blood pressure, total cholesterol-to-HDL ratio, and eGFR. Multiple imputation was used for missing data. The model output is predicted 10-year risk, not observed event incidence.; Predicted 10-year risk of a first fatal or nonfatal cardiovascular event using SDRN. Baseline and post-treatment predicted risks were compared within participants, and placebo-adjusted changes between semaglutide and placebo periods were tested with paired-sample t-tests; p<0.05 defined significance. The 10-year period is the prediction horizon, not follow-up.",
+      "measure_id": "M1",
+      "measure_name": "Predicted 10-year cardiovascular disease risk using SDRN"
+    },
+    {
+      "measure_definition": "Measured value: body weight in kg, including reported change from baseline; Participants; Anthropometric measurement at baseline and after each 15-week treatment period; Figure 1C reports within-group and placebo-adjusted changes. Values were not digitized from the plot.; Body weight in kg; change from baseline compared within participants and placebo-adjusted between semaglutide and placebo periods using paired methods; p<0.05 defined significance.",
+      "measure_id": "M2",
+      "measure_name": "Body weight"
+    },
+    {
+      "measure_definition": "Measured value: HbA1c percentage, including reported change from baseline; Participants; Blood test for glycated hemoglobin at baseline and after each 15-week treatment period; Figure 1D reports within-group and placebo-adjusted changes. Values were not digitized from the plot.; HbA1c reported in %; change from baseline compared within participants and placebo-adjusted between semaglutide and placebo periods using paired methods; p<0.05 defined significance.",
+      "measure_id": "M3",
+      "measure_name": "HbA1c"
+    }
+  ],
+  "population": [
+    {
+      "intervention": "Semaglutide or matching placebo, each given as adjunct to usual insulin pump therapy and closed-loop insulin delivery.",
+      "intervention_regimen": "Semaglutide 0.25 mg weekly for 4 weeks, 0.5 mg weekly for 4 weeks, then up to 1.0 mg weekly thereafter; matching placebo in the placebo period.; Each 15-week treatment arm comprised an 11-week drug titration phase followed by 4 weeks of research-based closed-loop insulin delivery; a 2-week washout separated the two arms; total study duration 32 weeks.",
+      "population_definition": "Randomization in the original double-blind, placebo-controlled crossover trial (all randomized participants).; Adults with type 1 diabetes for at least 1 year, HbA1c up to 11% inclusive, insulin pump use for at least 3 months, and meeting the original trial eligibility criteria; randomized to a sequence of semaglutide and placebo periods.",
+      "population_id": "P0",
+      "population_name": "Randomized trial participants",
+      "population_size": 28,
+      "population_time_frame": "Parent trial dates: start 2022-10-02, primary completion 2024-04-15, completion 2024-06-30 (registry); individual enrolment dates not reported."
+    },
+    {
+      "intervention": "Semaglutide or matching placebo, each given as adjunct to usual insulin pump therapy and closed-loop insulin delivery.",
+      "intervention_regimen": "Semaglutide 0.25 mg weekly for 4 weeks, 0.5 mg weekly for 4 weeks, then up to 1.0 mg weekly thereafter; matching placebo in the placebo period.; Each 15-week treatment arm comprised an 11-week drug titration phase followed by 4 weeks of research-based closed-loop insulin delivery; a 2-week washout separated the two arms; total study duration 32 weeks.",
+      "population_definition": "Treatment completion in both crossover periods.; Randomized participants who completed both the semaglutide and placebo treatment arms; no other restriction in this parent completeness group.",
+      "population_id": "P1",
+      "population_name": "Completed both treatment arms",
+      "population_size": 24,
+      "population_time_frame": "Parent trial dates: start 2022-10-02, primary completion 2024-04-15, completion 2024-06-30 (registry); dates for this completer subset not reported."
+    },
+    {
+      "intervention": "Semaglutide and matching placebo (crossover), as adjunct to insulin pump and closed-loop insulin delivery.",
+      "intervention_regimen": "Semaglutide 0.25 mg weekly for 4 weeks, 0.5 mg weekly for 4 weeks, then up to 1.0 mg weekly thereafter; matching placebo in the placebo period.; Each 15-week treatment arm comprised an 11-week drug titration phase followed by 4 weeks of research-based closed-loop insulin delivery; a 2-week washout separated the two arms; total study duration 32 weeks.",
+      "population_definition": "Analysis set after excluding participants with established CVD from completers of both arms.; Participants who completed both treatment periods and had no established cardiovascular disease; two participants with established CVD were excluded from the present analysis. Each participant contributed to both semaglutide and placebo periods.",
+      "population_id": "P2",
+      "population_name": "Cardiovascular-risk secondary-analysis cohort",
+      "population_size": 22,
+      "population_time_frame": "Parent trial dates: start 2022-10-02, primary completion 2024-04-15, completion 2024-06-30 (registry); dates for this secondary analysis not reported."
+    },
+    {
+      "intervention": "Semaglutide as adjunct to the participant's insulin pump and research closed-loop insulin delivery.",
+      "intervention_regimen": "0.25 mg weekly for 4 weeks, 0.5 mg weekly for 4 weeks, then up to 1.0 mg weekly thereafter.; 15-week semaglutide period: 11-week titration plus 4 weeks of closed-loop insulin delivery; 2-week washout between the two treatment periods.",
+      "population_definition": "Treatment period: semaglutide arm within the crossover.; Participants in P2 during the 15-week semaglutide period; the same participants also contribute to the placebo period. No established CVD; completed both treatment arms.",
+      "population_id": "P3",
+      "population_name": "Semaglutide period cohort",
+      "population_size": 22,
+      "population_time_frame": "Parent trial dates: start 2022-10-02, primary completion 2024-04-15, completion 2024-06-30 (registry); period-specific dates not reported."
+    },
+    {
+      "intervention": "Matching placebo as adjunct to the participant's insulin pump and research closed-loop insulin delivery.",
+      "intervention_regimen": "Matching placebo; no active dose reported.; 15-week placebo period: 11-week placebo phase followed by 4 weeks of closed-loop insulin delivery; 2-week washout between the two treatment periods.",
+      "population_definition": "Treatment period: placebo arm within the crossover.; Participants in P2 during the 15-week placebo period; the same participants also contribute to the semaglutide period. No established CVD; completed both treatment arms.",
+      "population_id": "P4",
+      "population_name": "Placebo period cohort",
+      "population_size": 22,
+      "population_time_frame": "Parent trial dates: start 2022-10-02, primary completion 2024-04-15, completion 2024-06-30 (registry); period-specific dates not reported."
+    }
+  ],
+  "population_relation": [
+    {
+      "population_a_id": "P1",
+      "population_b_id": "P0",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P2",
+      "population_b_id": "P1",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P3",
+      "population_b_id": "P2",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P4",
+      "population_b_id": "P2",
+      "relationship": "subset of"
+    },
+    {
+      "population_a_id": "P3",
+      "population_b_id": "P4",
+      "relationship": "same participants as"
+    }
+  ],
+  "result": [
+    {
+      "assessment_time": "Baseline (before treatment periods)",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P2",
+      "result_id": "R01",
+      "result_unit": "%",
+      "result_value": 12.4,
+      "statistic_type": "Median predicted 10-year CVD risk",
+      "statistical_method": null,
+      "supplementary_statistics": "IQR 8.5% to 20.8%; baseline median [interquartile range] as reported."
+    },
+    {
+      "assessment_time": "Baseline (before treatment periods)",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P2",
+      "result_id": "R02",
+      "result_unit": "%",
+      "result_value": 11.5,
+      "statistic_type": "Median predicted 10-year CVD risk",
+      "statistical_method": null,
+      "supplementary_statistics": "IQR 4.3% to 18.5%; baseline median [interquartile range] as reported."
+    },
+    {
+      "assessment_time": "Baseline to end of 15-week placebo period",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P4",
+      "result_id": "R03",
+      "result_unit": "%",
+      "result_value": -5.1,
+      "statistic_type": "Median change from baseline in predicted 10-year CVD risk",
+      "statistical_method": null,
+      "supplementary_statistics": "Reported bracketed interval [−20.0, −1.3]."
+    },
+    {
+      "assessment_time": "Baseline to end of 15-week semaglutide period",
+      "comparison": null,
+      "measure_id": "M0",
+      "population_id": "P3",
+      "result_id": "R04",
+      "result_unit": "%",
+      "result_value": -17.0,
+      "statistic_type": "Median change from baseline in predicted 10-year CVD risk",
+      "statistical_method": null,
+      "supplementary_statistics": "Reported bracketed interval [−23.2, −6.5]."
+    },
+    {
+      "assessment_time": "Baseline to end of 15-week treatment periods",
+      "comparison": "P3 minus P4 (within-person semaglutide-period minus placebo-period contrast)",
+      "measure_id": "M0",
+      "population_id": "P3",
+      "result_id": "R05",
+      "result_unit": "%",
+      "result_value": -4.1,
+      "statistic_type": "Placebo-adjusted difference in change from baseline (semaglutide period vs placebo period)",
+      "statistical_method": null,
+      "supplementary_statistics": "Reported bracketed interval [−9.5, 1.4]; P=0.07."
+    },
+    {
+      "assessment_time": "Baseline to end of 15-week placebo period",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P4",
+      "result_id": "R06",
+      "result_unit": "%",
+      "result_value": -9.5,
+      "statistic_type": "Median change from baseline in predicted 10-year CVD risk",
+      "statistical_method": null,
+      "supplementary_statistics": "Reported bracketed interval [−20.5, −2.9]."
+    },
+    {
+      "assessment_time": "Baseline to end of 15-week semaglutide period",
+      "comparison": null,
+      "measure_id": "M1",
+      "population_id": "P3",
+      "result_id": "R07",
+      "result_unit": "%",
+      "result_value": -10.7,
+      "statistic_type": "Median change from baseline in predicted 10-year CVD risk",
+      "statistical_method": null,
+      "supplementary_statistics": "Reported bracketed interval [−25.3, −0.8]."
+    },
+    {
+      "assessment_time": "Baseline to end of 15-week treatment periods",
+      "comparison": "P3 minus P4 (within-person semaglutide-period minus placebo-period contrast)",
+      "measure_id": "M1",
+      "population_id": "P3",
+      "result_id": "R08",
+      "result_unit": "%",
+      "result_value": 0.4,
+      "statistic_type": "Placebo-adjusted difference in change from baseline (semaglutide period vs placebo period)",
+      "statistical_method": null,
+      "supplementary_statistics": "Reported bracketed interval [−6.8, 7.6]; P=0.78."
+    },
+    {
+      "assessment_time": "Baseline to end of 15-week treatment periods",
+      "comparison": "P3 minus P4 (within-person semaglutide-period minus placebo-period contrast)",
+      "measure_id": "M2",
+      "population_id": "P3",
+      "result_id": "R09",
+      "result_unit": "kg",
+      "result_value": -5.16,
+      "statistic_type": "Placebo-adjusted difference in body-weight change from baseline (semaglutide period vs placebo period)",
+      "statistical_method": null,
+      "supplementary_statistics": "Reported bracketed interval [−6.43, −3.88] kg; P<0.01."
+    },
+    {
+      "assessment_time": "Baseline to end of 15-week treatment periods",
+      "comparison": "P3 minus P4 (within-person semaglutide-period minus placebo-period contrast)",
+      "measure_id": "M3",
+      "population_id": "P3",
+      "result_id": "R10",
+      "result_unit": "percentage points",
+      "result_value": -0.4,
+      "statistic_type": "Placebo-adjusted difference in HbA1c change from baseline (semaglutide period vs placebo period)",
+      "statistical_method": null,
+      "supplementary_statistics": "Reported bracketed interval [−0.55, −0.25] percentage points; P<0.01."
+    }
+  ]
+}

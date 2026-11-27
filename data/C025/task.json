@@ -1,0 +1,32 @@
+{
+  "case_id": "C025",
+  "task_id": "C025",
+  "title": "Effect of temporomandibular joint exercises on mechanical low back pain: a preliminary randomized controlled study",
+  "doi": "10.1186/s12891-026-09657-5",
+  "comparison_or_design": "The randomized temporomandibular-exercise study in mechanical low back pain.",
+  "observations_or_assays": [
+    "Pain at rest",
+    "Pain during activity",
+    "Oswestry disability score (ODQ/ODI as labeled in the source)"
+  ],
+  "time_scope": "Baseline to the end of 2 weeks.",
+  "excluded": [
+    "Lumbar range-of-motion and other outcomes",
+    "Any numerical/group-label correction inferred from inconsistencies"
+  ],
+  "population_or_material": "Participants with mechanical low back pain in the two randomized physiotherapy groups, using the reported pain-analysis population.",
+  "requested_items": [
+    "Literal Table 2 Group A/B baseline/post means, published changes and tests for resting pain, activity pain and disability. Use Methods treatment mapping; preserve contradictory narrative labels and unusual source values in separate review records without swapping groups or recalculating changes."
+  ],
+  "resources": [],
+  "case_specific_rules": [
+    "Recover Group A/B treatment identities from the Methods, giving that source precedence over contradictory narrative labels. Preserve Table 2 values and their stated group labels; apply the shared rules for unreported calculation direction and unusual reported values."
+  ],
+  "domain": "clinical",
+  "pipeline": "clinical-trials",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/clinical-trials.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

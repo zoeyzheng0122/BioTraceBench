@@ -1,0 +1,32 @@
+{
+  "case_id": "B007",
+  "task_id": "B007",
+  "title": "Post-replicative chromatin accessibility predicts cell fate change",
+  "doi": "10.1016/j.stemcr.2026.102821",
+  "comparison_or_design": "The naïve-to-primed differentiation chromatin-accessibility experiment, including its matched chromatin preparations.",
+  "observations_or_assays": [
+    "Replication-coupled ATAC sequencing; The matched bulk/unreplicated ATAC controls for this same differentiation branch"
+  ],
+  "time_scope": "0, 9 and 48 hours after the switch to EpiLC induction conditions.",
+  "excluded": [
+    "MEF reprogramming, proliferation-dye sorting and other experiments in GSE296014",
+    "Flow cytometry, independent motif/ChIP datasets and accessibility result matrices"
+  ],
+  "population_or_material": "Mouse ESC/EpiLC preparations in the naïve-to-primed differentiation branch.",
+  "requested_items": [
+    "Differentiation induction time, EdU/replication-labelling schedule and replication-coupled versus bulk chromatin preparation"
+  ],
+  "resources": [
+    {
+      "accession": "GSE296014",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE296014"
+    }
+  ],
+  "domain": "basic",
+  "pipeline": "basic-research",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/basic-research.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

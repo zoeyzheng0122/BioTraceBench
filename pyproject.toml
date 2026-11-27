@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "biotracebench"
+version = "1.1.1"
+description = "Experimental fidelity evaluation for biomedical database construction"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+biotracebench-demo = "biotracebench_analysis.replay.demo:main"
+biotracebench-score = "biotracebench_analysis.replay.score_output:main"
+biotracebench-review = "biotracebench_analysis.replay.score_output:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+biotracebench = ["review_configs/scoring/*.json", "review_configs/schemas/*.json",
+                 "publication_configs/scoring/*.json", "publication_configs/schemas/*.json"]

@@ -1,0 +1,30 @@
+{
+  "case_id": "C003",
+  "task_id": "C003",
+  "title": "Orelabrutinib versus chemoimmunotherapy in treatment-naïve chronic lymphocytic leukemia/small lymphocytic lymphoma: a randomized, phase 3 trial",
+  "doi": "10.1038/s41392-026-02818-x",
+  "comparison_or_design": "The primary randomized treatment-naive CLL/SLL comparison reported in this study.",
+  "observations_or_assays": [
+    "IRC-assessed progression-free survival",
+    "IRC-assessed overall response rate",
+    "IRC-assessed duration of response"
+  ],
+  "time_scope": "The interim efficacy analysis reported in this article.",
+  "excluded": [
+    "Investigator-assessed outcomes, OS and landmark survival estimates",
+    "Subgroups, biomarkers, PROs and safety"
+  ],
+  "population_or_material": "The treatment-naïve CLL/SLL ITT population of the randomized phase 3 study.",
+  "requested_items": [
+    "IRC PFS and DoR: arm medians and primary HRs. IRC ORR: the reported Table 2 responder counts/proportions and primary OR. Recover response categories and the DoR responder population from the statistical analysis plan response definitions and the matching reported analysis. Exclude landmark rates and investigator alternatives."
+  ],
+  "resources": [],
+  "case_specific_rules": [],
+  "domain": "clinical",
+  "pipeline": "clinical-trials",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/clinical-trials.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

@@ -1,0 +1,482 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "Endpoint β-catenin and TOPFlash fluorescence imaging",
+      "experiment_run_accession": "Zenodo:10.5281/zenodo.17874586 (software)",
+      "method": "Original-screen aggregate of the HEK293T Wnt I/O frequency series at 55% duty cycle. Endpoint tdmRuby3–β-catenin and TOPFlash–tdIRFP fluorescence was measured after 48 h of LITOS stimulation. Figure 3B–E reports four biological replicates per condition. Repository content: study-level numerical data and plotting code. The archived Zenodo record classifies this resource as software (computational notebook).",
+      "platform": "Nikon W2 SoRa spinning-disk confocal microscope; LITOS stimulation device",
+      "sample_ids": [
+        "S0001",
+        "S0002",
+        "S0003",
+        "S0004",
+        "S0005",
+        "S0006",
+        "S0007",
+        "S0008",
+        "S0009",
+        "S0010",
+        "S0011",
+        "S0012"
+      ]
+    },
+    {
+      "assay_id": "A0002",
+      "assay_type": "Endpoint TopFlash fluorescence imaging",
+      "experiment_run_accession": "Zenodo:10.5281/zenodo.17874586 (software)",
+      "method": "Rearranged replicate LITOS screen aggregate for the selected 55% duty-cycle frequency series. Figure 3—figure supplement 1H reports the replicate TopFlash endpoint. The sample IDs represent frequency conditions. Individual replicate and acquisition identities are unspecified.",
+      "platform": "Nikon W2 SoRa spinning-disk confocal microscope; LITOS stimulation device",
+      "sample_ids": [
+        "S0001",
+        "S0002",
+        "S0003",
+        "S0004",
+        "S0005",
+        "S0006",
+        "S0007",
+        "S0008",
+        "S0009",
+        "S0010",
+        "S0011",
+        "S0012"
+      ]
+    }
+  ],
+  "condition": [
+    {
+      "condition_id": "C0001",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Light-stimulation frequency",
+      "factor_unit": "cycles/h",
+      "factor_value": "1/24",
+      "sample_id": "S0001",
+      "time": "During the 48-h LITOS stimulation period"
+    },
+    {
+      "condition_id": "C0002",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Duty cycle",
+      "factor_unit": "%",
+      "factor_value": 55,
+      "sample_id": "S0001",
+      "time": "During the 48-h LITOS stimulation period"
+    },
+    {
+      "condition_id": "C0003",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Stimulation duration",
+      "factor_unit": "h",
+      "factor_value": 48,
+      "sample_id": "S0001",
+      "time": "From LITOS stimulation initiation to endpoint imaging"
+    },
+    {
+      "condition_id": "C0004",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Light-stimulation frequency",
+      "factor_unit": "cycles/h",
+      "factor_value": "1/16",
+      "sample_id": "S0002",
+      "time": "During the 48-h LITOS stimulation period"
+    },
+    {
+      "condition_id": "C0005",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Duty cycle",
+      "factor_unit": "%",
+      "factor_value": 55,
+      "sample_id": "S0002",
+      "time": "During the 48-h LITOS stimulation period"
+    },
+    {
+      "condition_id": "C0006",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Stimulation duration",
+      "factor_unit": "h",
+      "factor_value": 48,
+      "sample_id": "S0002",
+      "time": "From LITOS stimulation initiation to endpoint imaging"
+    },
+    {
+      "condition_id": "C0007",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Light-stimulation frequency",
+      "factor_unit": "cycles/h",
+      "factor_value": "1/12",
+      "sample_id": "S0003",
+      "time": "During the 48-h LITOS stimulation period"
+    },
+    {
+      "condition_id": "C0008",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Duty cycle",
+      "factor_unit": "%",
+      "factor_value": 55,
+      "sample_id": "S0003",
+      "time": "During the 48-h LITOS stimulation period"
+    },
+    {
+      "condition_id": "C0009",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Stimulation duration",
+      "factor_unit": "h",
+      "factor_value": 48,
+      "sample_id": "S0003",
+      "time": "From LITOS stimulation initiation to endpoint imaging"
+    },
+    {
+      "condition_id": "C0010",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Light-stimulation frequency",
+      "factor_unit": "cycles/h",
+      "factor_value": "1/8",
+      "sample_id": "S0004",
+      "time": "During the 48-h LITOS stimulation period"
+    },
+    {
+      "condition_id": "C0011",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Duty cycle",
+      "factor_unit": "%",
+      "factor_value": 55,
+      "sample_id": "S0004",
+      "time": "During the 48-h LITOS stimulation period"
+    },
+    {
+      "condition_id": "C0012",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Stimulation duration",
+      "factor_unit": "h",
+      "factor_value": 48,
+      "sample_id": "S0004",
+      "time": "From LITOS stimulation initiation to endpoint imaging"
+    },
+    {
+      "condition_id": "C0013",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Light-stimulation frequency",
+      "factor_unit": "cycles/h",
+      "factor_value": "1/6",
+      "sample_id": "S0005",
+      "time": "During the 48-h LITOS stimulation period"
+    },
+    {
+      "condition_id": "C0014",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Duty cycle",
+      "factor_unit": "%",
+      "factor_value": 55,
+      "sample_id": "S0005",
+      "time": "During the 48-h LITOS stimulation period"
+    },
+    {
+      "condition_id": "C0015",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Stimulation duration",
+      "factor_unit": "h",
+      "factor_value": 48,
+      "sample_id": "S0005",
+      "time": "From LITOS stimulation initiation to endpoint imaging"
+    },
+    {
+      "condition_id": "C0016",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Light-stimulation frequency",
+      "factor_unit": "cycles/h",
+      "factor_value": "1/4",
+      "sample_id": "S0006",
+      "time": "During the 48-h LITOS stimulation period"
+    },
+    {
+      "condition_id": "C0017",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Duty cycle",
+      "factor_unit": "%",
+      "factor_value": 55,
+      "sample_id": "S0006",
+      "time": "During the 48-h LITOS stimulation period"
+    },
+    {
+      "condition_id": "C0018",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Stimulation duration",
+      "factor_unit": "h",
+      "factor_value": 48,
+      "sample_id": "S0006",
+      "time": "From LITOS stimulation initiation to endpoint imaging"
+    },
+    {
+      "condition_id": "C0019",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Light-stimulation frequency",
+      "factor_unit": "cycles/h",
+      "factor_value": "1/3",
+      "sample_id": "S0007",
+      "time": "During the 48-h LITOS stimulation period"
+    },
+    {
+      "condition_id": "C0020",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Duty cycle",
+      "factor_unit": "%",
+      "factor_value": 55,
+      "sample_id": "S0007",
+      "time": "During the 48-h LITOS stimulation period"
+    },
+    {
+      "condition_id": "C0021",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Stimulation duration",
+      "factor_unit": "h",
+      "factor_value": 48,
+      "sample_id": "S0007",
+      "time": "From LITOS stimulation initiation to endpoint imaging"
+    },
+    {
+      "condition_id": "C0022",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Light-stimulation frequency",
+      "factor_unit": "cycles/h",
+      "factor_value": "1/2",
+      "sample_id": "S0008",
+      "time": "During the 48-h LITOS stimulation period"
+    },
+    {
+      "condition_id": "C0023",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Duty cycle",
+      "factor_unit": "%",
+      "factor_value": 55,
+      "sample_id": "S0008",
+      "time": "During the 48-h LITOS stimulation period"
+    },
+    {
+      "condition_id": "C0024",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Stimulation duration",
+      "factor_unit": "h",
+      "factor_value": 48,
+      "sample_id": "S0008",
+      "time": "From LITOS stimulation initiation to endpoint imaging"
+    },
+    {
+      "condition_id": "C0025",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Light-stimulation frequency",
+      "factor_unit": "cycles/h",
+      "factor_value": 1,
+      "sample_id": "S0009",
+      "time": "During the 48-h LITOS stimulation period"
+    },
+    {
+      "condition_id": "C0026",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Duty cycle",
+      "factor_unit": "%",
+      "factor_value": 55,
+      "sample_id": "S0009",
+      "time": "During the 48-h LITOS stimulation period"
+    },
+    {
+      "condition_id": "C0027",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Stimulation duration",
+      "factor_unit": "h",
+      "factor_value": 48,
+      "sample_id": "S0009",
+      "time": "From LITOS stimulation initiation to endpoint imaging"
+    },
+    {
+      "condition_id": "C0028",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Light-stimulation frequency",
+      "factor_unit": "cycles/h",
+      "factor_value": 2,
+      "sample_id": "S0010",
+      "time": "During the 48-h LITOS stimulation period"
+    },
+    {
+      "condition_id": "C0029",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Duty cycle",
+      "factor_unit": "%",
+      "factor_value": 55,
+      "sample_id": "S0010",
+      "time": "During the 48-h LITOS stimulation period"
+    },
+    {
+      "condition_id": "C0030",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Stimulation duration",
+      "factor_unit": "h",
+      "factor_value": 48,
+      "sample_id": "S0010",
+      "time": "From LITOS stimulation initiation to endpoint imaging"
+    },
+    {
+      "condition_id": "C0031",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Light-stimulation frequency",
+      "factor_unit": "cycles/h",
+      "factor_value": 4,
+      "sample_id": "S0011",
+      "time": "During the 48-h LITOS stimulation period"
+    },
+    {
+      "condition_id": "C0032",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Duty cycle",
+      "factor_unit": "%",
+      "factor_value": 55,
+      "sample_id": "S0011",
+      "time": "During the 48-h LITOS stimulation period"
+    },
+    {
+      "condition_id": "C0033",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Stimulation duration",
+      "factor_unit": "h",
+      "factor_value": 48,
+      "sample_id": "S0011",
+      "time": "From LITOS stimulation initiation to endpoint imaging"
+    },
+    {
+      "condition_id": "C0034",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Light-stimulation frequency",
+      "factor_unit": "cycles/h",
+      "factor_value": 8,
+      "sample_id": "S0012",
+      "time": "During the 48-h LITOS stimulation period"
+    },
+    {
+      "condition_id": "C0035",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Duty cycle",
+      "factor_unit": "%",
+      "factor_value": 55,
+      "sample_id": "S0012",
+      "time": "During the 48-h LITOS stimulation period"
+    },
+    {
+      "condition_id": "C0036",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Stimulation duration",
+      "factor_unit": "h",
+      "factor_value": 48,
+      "sample_id": "S0012",
+      "time": "From LITOS stimulation initiation to endpoint imaging"
+    }
+  ],
+  "sample": [
+    {
+      "biological_model": "Clonal Wnt input/output reporter cells carrying optogenetic LRP6 activation, tdmRuby3–β-catenin and an 8×TOPFlash–tdIRFP reporter",
+      "biological_source": "HEK293T",
+      "sample_accession": null,
+      "sample_id": "S0001",
+      "sample_material": "HEK293T Wnt I/O cells exposed to periodic light stimulation at 1/24 cycles/h and 55% duty cycle for 48 h, used for endpoint β-catenin and TOPFlash fluorescence imaging.",
+      "sample_name": "HEK293T Wnt I/O: 1/24 cycles/h, 55% duty cycle",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Clonal Wnt input/output reporter cells carrying optogenetic LRP6 activation, tdmRuby3–β-catenin and an 8×TOPFlash–tdIRFP reporter",
+      "biological_source": "HEK293T",
+      "sample_accession": null,
+      "sample_id": "S0002",
+      "sample_material": "HEK293T Wnt I/O cells exposed to periodic light stimulation at 1/16 cycles/h and 55% duty cycle for 48 h, used for endpoint β-catenin and TOPFlash fluorescence imaging.",
+      "sample_name": "HEK293T Wnt I/O: 1/16 cycles/h, 55% duty cycle",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Clonal Wnt input/output reporter cells carrying optogenetic LRP6 activation, tdmRuby3–β-catenin and an 8×TOPFlash–tdIRFP reporter",
+      "biological_source": "HEK293T",
+      "sample_accession": null,
+      "sample_id": "S0003",
+      "sample_material": "HEK293T Wnt I/O cells exposed to periodic light stimulation at 1/12 cycles/h and 55% duty cycle for 48 h, used for endpoint β-catenin and TOPFlash fluorescence imaging.",
+      "sample_name": "HEK293T Wnt I/O: 1/12 cycles/h, 55% duty cycle",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Clonal Wnt input/output reporter cells carrying optogenetic LRP6 activation, tdmRuby3–β-catenin and an 8×TOPFlash–tdIRFP reporter",
+      "biological_source": "HEK293T",
+      "sample_accession": null,
+      "sample_id": "S0004",
+      "sample_material": "HEK293T Wnt I/O cells exposed to periodic light stimulation at 1/8 cycles/h and 55% duty cycle for 48 h, used for endpoint β-catenin and TOPFlash fluorescence imaging.",
+      "sample_name": "HEK293T Wnt I/O: 1/8 cycles/h, 55% duty cycle",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Clonal Wnt input/output reporter cells carrying optogenetic LRP6 activation, tdmRuby3–β-catenin and an 8×TOPFlash–tdIRFP reporter",
+      "biological_source": "HEK293T",
+      "sample_accession": null,
+      "sample_id": "S0005",
+      "sample_material": "HEK293T Wnt I/O cells exposed to periodic light stimulation at 1/6 cycles/h and 55% duty cycle for 48 h, used for endpoint β-catenin and TOPFlash fluorescence imaging.",
+      "sample_name": "HEK293T Wnt I/O: 1/6 cycles/h, 55% duty cycle",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Clonal Wnt input/output reporter cells carrying optogenetic LRP6 activation, tdmRuby3–β-catenin and an 8×TOPFlash–tdIRFP reporter",
+      "biological_source": "HEK293T",
+      "sample_accession": null,
+      "sample_id": "S0006",
+      "sample_material": "HEK293T Wnt I/O cells exposed to periodic light stimulation at 1/4 cycles/h and 55% duty cycle for 48 h, used for endpoint β-catenin and TOPFlash fluorescence imaging.",
+      "sample_name": "HEK293T Wnt I/O: 1/4 cycles/h, 55% duty cycle",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Clonal Wnt input/output reporter cells carrying optogenetic LRP6 activation, tdmRuby3–β-catenin and an 8×TOPFlash–tdIRFP reporter",
+      "biological_source": "HEK293T",
+      "sample_accession": null,
+      "sample_id": "S0007",
+      "sample_material": "HEK293T Wnt I/O cells exposed to periodic light stimulation at 1/3 cycles/h and 55% duty cycle for 48 h, used for endpoint β-catenin and TOPFlash fluorescence imaging.",
+      "sample_name": "HEK293T Wnt I/O: 1/3 cycles/h, 55% duty cycle",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Clonal Wnt input/output reporter cells carrying optogenetic LRP6 activation, tdmRuby3–β-catenin and an 8×TOPFlash–tdIRFP reporter",
+      "biological_source": "HEK293T",
+      "sample_accession": null,
+      "sample_id": "S0008",
+      "sample_material": "HEK293T Wnt I/O cells exposed to periodic light stimulation at 1/2 cycles/h and 55% duty cycle for 48 h, used for endpoint β-catenin and TOPFlash fluorescence imaging.",
+      "sample_name": "HEK293T Wnt I/O: 1/2 cycles/h, 55% duty cycle",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Clonal Wnt input/output reporter cells carrying optogenetic LRP6 activation, tdmRuby3–β-catenin and an 8×TOPFlash–tdIRFP reporter",
+      "biological_source": "HEK293T",
+      "sample_accession": null,
+      "sample_id": "S0009",
+      "sample_material": "HEK293T Wnt I/O cells exposed to periodic light stimulation at 1 cycles/h and 55% duty cycle for 48 h, used for endpoint β-catenin and TOPFlash fluorescence imaging.",
+      "sample_name": "HEK293T Wnt I/O: 1 cycles/h, 55% duty cycle",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Clonal Wnt input/output reporter cells carrying optogenetic LRP6 activation, tdmRuby3–β-catenin and an 8×TOPFlash–tdIRFP reporter",
+      "biological_source": "HEK293T",
+      "sample_accession": null,
+      "sample_id": "S0010",
+      "sample_material": "HEK293T Wnt I/O cells exposed to periodic light stimulation at 2 cycles/h and 55% duty cycle for 48 h, used for endpoint β-catenin and TOPFlash fluorescence imaging.",
+      "sample_name": "HEK293T Wnt I/O: 2 cycles/h, 55% duty cycle",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Clonal Wnt input/output reporter cells carrying optogenetic LRP6 activation, tdmRuby3–β-catenin and an 8×TOPFlash–tdIRFP reporter",
+      "biological_source": "HEK293T",
+      "sample_accession": null,
+      "sample_id": "S0011",
+      "sample_material": "HEK293T Wnt I/O cells exposed to periodic light stimulation at 4 cycles/h and 55% duty cycle for 48 h, used for endpoint β-catenin and TOPFlash fluorescence imaging.",
+      "sample_name": "HEK293T Wnt I/O: 4 cycles/h, 55% duty cycle",
+      "species": "Homo sapiens"
+    },
+    {
+      "biological_model": "Clonal Wnt input/output reporter cells carrying optogenetic LRP6 activation, tdmRuby3–β-catenin and an 8×TOPFlash–tdIRFP reporter",
+      "biological_source": "HEK293T",
+      "sample_accession": null,
+      "sample_id": "S0012",
+      "sample_material": "HEK293T Wnt I/O cells exposed to periodic light stimulation at 8 cycles/h and 55% duty cycle for 48 h, used for endpoint β-catenin and TOPFlash fluorescence imaging.",
+      "sample_name": "HEK293T Wnt I/O: 8 cycles/h, 55% duty cycle",
+      "species": "Homo sapiens"
+    }
+  ]
+}

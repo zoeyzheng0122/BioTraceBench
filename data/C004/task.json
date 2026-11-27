@@ -1,0 +1,32 @@
+{
+  "case_id": "C004",
+  "task_id": "C004",
+  "title": "BRUIN CLL-313: Randomized Phase III Trial of Pirtobrutinib Versus Bendamustine Plus Rituximab in Untreated Patients With Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma",
+  "doi": "10.1200/JCO-25-02380",
+  "comparison_or_design": "The primary BRUIN CLL-313 efficacy comparison.",
+  "observations_or_assays": [
+    "IRC-assessed progression-free survival",
+    "Overall survival",
+    "IRC-assessed overall response rate"
+  ],
+  "time_scope": "The final PFS and corresponding interim OS analysis in this article; include only the explicitly requested 24-month PFS landmark.",
+  "excluded": [
+    "Investigator-assessed efficacy, individual best-response categories and other survival landmarks",
+    "Crossover-only subsets, subgroup/sensitivity analyses and safety"
+  ],
+  "population_or_material": "Treatment-naïve CLL/SLL participants without del(17p) in the BRUIN CLL-313 ITT population.",
+  "requested_items": [
+    "IRC PFS: arm medians, 24-month rates, rate difference and HR. OS: arm medians and primary HR. IRC ORR: arm responder count/proportion and independent CMH test. Exclude investigator/subgroup/sensitivity results."
+  ],
+  "resources": [],
+  "case_specific_rules": [
+    "Retain the reported difference in 24-month PFS rates and its own CI. Apply the shared rules for recovering comparison direction from explicit source evidence."
+  ],
+  "domain": "clinical",
+  "pipeline": "clinical-trials",
+  "prompt": "query.md",
+  "complete_prompt": "generation-prompt.md",
+  "materials_manifest": "inputs.json",
+  "schema": "../../src/biotracebench/publication_configs/schemas/clinical-trials.schema.json",
+  "field_dictionary": "../../src/biotracebench/publication_configs/schemas/field-dictionary.json"
+}

@@ -1,0 +1,806 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "Label-free quantitative LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD049972 (project)",
+      "method": "S-Trap tryptic digestion of liver protein material; technical injection 01. Raw acquisition: 23P31-CA-01.raw. MaxQuant/MaxLFQ processing.",
+      "platform": "Dionex Ultimate 3000 nano-LC; Orbitrap Fusion Tribrid",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0002",
+      "assay_type": "Label-free quantitative LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD049972 (project)",
+      "method": "S-Trap tryptic digestion of liver protein material; technical injection 02. Raw acquisition: 23P31-CA-02.raw. MaxQuant/MaxLFQ processing.",
+      "platform": "Dionex Ultimate 3000 nano-LC; Orbitrap Fusion Tribrid",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0003",
+      "assay_type": "Label-free quantitative LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD049972 (project)",
+      "method": "S-Trap tryptic digestion of liver protein material; technical injection 03. Raw acquisition: 23P31-CA-03.raw. MaxQuant/MaxLFQ processing.",
+      "platform": "Dionex Ultimate 3000 nano-LC; Orbitrap Fusion Tribrid",
+      "sample_ids": [
+        "S0001"
+      ]
+    },
+    {
+      "assay_id": "A0004",
+      "assay_type": "Label-free quantitative LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD049972 (project)",
+      "method": "S-Trap tryptic digestion of liver protein material; technical injection 01. Raw acquisition: 23P31-CB-01.raw. MaxQuant/MaxLFQ processing.",
+      "platform": "Dionex Ultimate 3000 nano-LC; Orbitrap Fusion Tribrid",
+      "sample_ids": [
+        "S0002"
+      ]
+    },
+    {
+      "assay_id": "A0005",
+      "assay_type": "Label-free quantitative LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD049972 (project)",
+      "method": "S-Trap tryptic digestion of liver protein material; technical injection 02. Raw acquisition: 23P31-CB-02.raw. MaxQuant/MaxLFQ processing.",
+      "platform": "Dionex Ultimate 3000 nano-LC; Orbitrap Fusion Tribrid",
+      "sample_ids": [
+        "S0002"
+      ]
+    },
+    {
+      "assay_id": "A0006",
+      "assay_type": "Label-free quantitative LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD049972 (project)",
+      "method": "S-Trap tryptic digestion of liver protein material; technical injection 03. Raw acquisition: 23P31-CB-03.raw. MaxQuant/MaxLFQ processing.",
+      "platform": "Dionex Ultimate 3000 nano-LC; Orbitrap Fusion Tribrid",
+      "sample_ids": [
+        "S0002"
+      ]
+    },
+    {
+      "assay_id": "A0007",
+      "assay_type": "Label-free quantitative LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD049972 (project)",
+      "method": "S-Trap tryptic digestion of liver protein material; technical injection 01. Raw acquisition: 23P31-CC-01.raw. MaxQuant/MaxLFQ processing.",
+      "platform": "Dionex Ultimate 3000 nano-LC; Orbitrap Fusion Tribrid",
+      "sample_ids": [
+        "S0003"
+      ]
+    },
+    {
+      "assay_id": "A0008",
+      "assay_type": "Label-free quantitative LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD049972 (project)",
+      "method": "S-Trap tryptic digestion of liver protein material; technical injection 02. Raw acquisition: 23P31-CC-02.raw. MaxQuant/MaxLFQ processing.",
+      "platform": "Dionex Ultimate 3000 nano-LC; Orbitrap Fusion Tribrid",
+      "sample_ids": [
+        "S0003"
+      ]
+    },
+    {
+      "assay_id": "A0009",
+      "assay_type": "Label-free quantitative LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD049972 (project)",
+      "method": "S-Trap tryptic digestion of liver protein material; technical injection 03. Raw acquisition: 23P31-CC-03.raw. MaxQuant/MaxLFQ processing.",
+      "platform": "Dionex Ultimate 3000 nano-LC; Orbitrap Fusion Tribrid",
+      "sample_ids": [
+        "S0003"
+      ]
+    },
+    {
+      "assay_id": "A0010",
+      "assay_type": "Label-free quantitative LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD049972 (project)",
+      "method": "S-Trap tryptic digestion of liver protein material; technical injection 01. Raw acquisition: 23P31-CD-01.raw. MaxQuant/MaxLFQ processing.",
+      "platform": "Dionex Ultimate 3000 nano-LC; Orbitrap Fusion Tribrid",
+      "sample_ids": [
+        "S0004"
+      ]
+    },
+    {
+      "assay_id": "A0011",
+      "assay_type": "Label-free quantitative LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD049972 (project)",
+      "method": "S-Trap tryptic digestion of liver protein material; technical injection 02. Raw acquisition: 23P31-CD-02.raw. MaxQuant/MaxLFQ processing.",
+      "platform": "Dionex Ultimate 3000 nano-LC; Orbitrap Fusion Tribrid",
+      "sample_ids": [
+        "S0004"
+      ]
+    },
+    {
+      "assay_id": "A0012",
+      "assay_type": "Label-free quantitative LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD049972 (project)",
+      "method": "S-Trap tryptic digestion of liver protein material; technical injection 03. Raw acquisition: 23P31-CD-03.raw. MaxQuant/MaxLFQ processing.",
+      "platform": "Dionex Ultimate 3000 nano-LC; Orbitrap Fusion Tribrid",
+      "sample_ids": [
+        "S0004"
+      ]
+    },
+    {
+      "assay_id": "A0013",
+      "assay_type": "Label-free quantitative LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD049972 (project)",
+      "method": "S-Trap tryptic digestion of liver protein material; technical injection 01. Raw acquisition: 23P31-CE-01.raw. MaxQuant/MaxLFQ processing.",
+      "platform": "Dionex Ultimate 3000 nano-LC; Orbitrap Fusion Tribrid",
+      "sample_ids": [
+        "S0005"
+      ]
+    },
+    {
+      "assay_id": "A0014",
+      "assay_type": "Label-free quantitative LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD049972 (project)",
+      "method": "S-Trap tryptic digestion of liver protein material; technical injection 02. Raw acquisition: 23P31-CE-02.raw. MaxQuant/MaxLFQ processing.",
+      "platform": "Dionex Ultimate 3000 nano-LC; Orbitrap Fusion Tribrid",
+      "sample_ids": [
+        "S0005"
+      ]
+    },
+    {
+      "assay_id": "A0015",
+      "assay_type": "Label-free quantitative LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD049972 (project)",
+      "method": "S-Trap tryptic digestion of liver protein material; technical injection 03. Raw acquisition: 23P31-CE-03.raw. MaxQuant/MaxLFQ processing.",
+      "platform": "Dionex Ultimate 3000 nano-LC; Orbitrap Fusion Tribrid",
+      "sample_ids": [
+        "S0005"
+      ]
+    },
+    {
+      "assay_id": "A0016",
+      "assay_type": "Label-free quantitative LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD049972 (project)",
+      "method": "S-Trap tryptic digestion of liver protein material; technical injection 01. Raw acquisition: 23P31-CF-01.raw. MaxQuant/MaxLFQ processing.",
+      "platform": "Dionex Ultimate 3000 nano-LC; Orbitrap Fusion Tribrid",
+      "sample_ids": [
+        "S0006"
+      ]
+    },
+    {
+      "assay_id": "A0017",
+      "assay_type": "Label-free quantitative LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD049972 (project)",
+      "method": "S-Trap tryptic digestion of liver protein material; technical injection 02. Raw acquisition: 23P31-CF-02.raw. MaxQuant/MaxLFQ processing.",
+      "platform": "Dionex Ultimate 3000 nano-LC; Orbitrap Fusion Tribrid",
+      "sample_ids": [
+        "S0006"
+      ]
+    },
+    {
+      "assay_id": "A0018",
+      "assay_type": "Label-free quantitative LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD049972 (project)",
+      "method": "S-Trap tryptic digestion of liver protein material; technical injection 03. Raw acquisition: 23P31-CF-03.raw. MaxQuant/MaxLFQ processing.",
+      "platform": "Dionex Ultimate 3000 nano-LC; Orbitrap Fusion Tribrid",
+      "sample_ids": [
+        "S0006"
+      ]
+    },
+    {
+      "assay_id": "A0019",
+      "assay_type": "Label-free quantitative LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD049972 (project)",
+      "method": "S-Trap tryptic digestion of liver protein material; technical injection 01. Raw acquisition: 23P31-CP-01.raw. MaxQuant/MaxLFQ processing.",
+      "platform": "Dionex Ultimate 3000 nano-LC; Orbitrap Fusion Tribrid",
+      "sample_ids": [
+        "S0007"
+      ]
+    },
+    {
+      "assay_id": "A0020",
+      "assay_type": "Label-free quantitative LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD049972 (project)",
+      "method": "S-Trap tryptic digestion of liver protein material; technical injection 02. Raw acquisition: 23P31-CP-02.raw. MaxQuant/MaxLFQ processing.",
+      "platform": "Dionex Ultimate 3000 nano-LC; Orbitrap Fusion Tribrid",
+      "sample_ids": [
+        "S0007"
+      ]
+    },
+    {
+      "assay_id": "A0021",
+      "assay_type": "Label-free quantitative LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD049972 (project)",
+      "method": "S-Trap tryptic digestion of liver protein material; technical injection 03. Raw acquisition: 23P31-CP-03.raw. MaxQuant/MaxLFQ processing.",
+      "platform": "Dionex Ultimate 3000 nano-LC; Orbitrap Fusion Tribrid",
+      "sample_ids": [
+        "S0007"
+      ]
+    },
+    {
+      "assay_id": "A0022",
+      "assay_type": "Label-free quantitative LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD049972 (project)",
+      "method": "S-Trap tryptic digestion of liver protein material; technical injection 01. Raw acquisition: 23P31-SA_A-01.raw. MaxQuant/MaxLFQ processing.",
+      "platform": "Dionex Ultimate 3000 nano-LC; Orbitrap Fusion Tribrid",
+      "sample_ids": [
+        "S0008"
+      ]
+    },
+    {
+      "assay_id": "A0023",
+      "assay_type": "Label-free quantitative LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD049972 (project)",
+      "method": "S-Trap tryptic digestion of liver protein material; technical injection 02. Raw acquisition: 23P31-SA_A-02.raw. MaxQuant/MaxLFQ processing.",
+      "platform": "Dionex Ultimate 3000 nano-LC; Orbitrap Fusion Tribrid",
+      "sample_ids": [
+        "S0008"
+      ]
+    },
+    {
+      "assay_id": "A0024",
+      "assay_type": "Label-free quantitative LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD049972 (project)",
+      "method": "S-Trap tryptic digestion of liver protein material; technical injection 03. Raw acquisition: 23P31-SA_A-03.raw. MaxQuant/MaxLFQ processing.",
+      "platform": "Dionex Ultimate 3000 nano-LC; Orbitrap Fusion Tribrid",
+      "sample_ids": [
+        "S0008"
+      ]
+    },
+    {
+      "assay_id": "A0025",
+      "assay_type": "Label-free quantitative LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD049972 (project)",
+      "method": "S-Trap tryptic digestion of liver protein material; technical injection 01. Raw acquisition: 23P31-SA_B-01.raw. MaxQuant/MaxLFQ processing.",
+      "platform": "Dionex Ultimate 3000 nano-LC; Orbitrap Fusion Tribrid",
+      "sample_ids": [
+        "S0009"
+      ]
+    },
+    {
+      "assay_id": "A0026",
+      "assay_type": "Label-free quantitative LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD049972 (project)",
+      "method": "S-Trap tryptic digestion of liver protein material; technical injection 02. Raw acquisition: 23P31-SA_B-02.raw. MaxQuant/MaxLFQ processing.",
+      "platform": "Dionex Ultimate 3000 nano-LC; Orbitrap Fusion Tribrid",
+      "sample_ids": [
+        "S0009"
+      ]
+    },
+    {
+      "assay_id": "A0027",
+      "assay_type": "Label-free quantitative LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD049972 (project)",
+      "method": "S-Trap tryptic digestion of liver protein material; technical injection 03. Raw acquisition: 23P31-SA_B-03.raw. MaxQuant/MaxLFQ processing.",
+      "platform": "Dionex Ultimate 3000 nano-LC; Orbitrap Fusion Tribrid",
+      "sample_ids": [
+        "S0009"
+      ]
+    },
+    {
+      "assay_id": "A0028",
+      "assay_type": "Label-free quantitative LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD049972 (project)",
+      "method": "S-Trap tryptic digestion of liver protein material; technical injection 01. Raw acquisition: 23P31-SA_C-01.raw. MaxQuant/MaxLFQ processing.",
+      "platform": "Dionex Ultimate 3000 nano-LC; Orbitrap Fusion Tribrid",
+      "sample_ids": [
+        "S0010"
+      ]
+    },
+    {
+      "assay_id": "A0029",
+      "assay_type": "Label-free quantitative LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD049972 (project)",
+      "method": "S-Trap tryptic digestion of liver protein material; technical injection 02. Raw acquisition: 23P31-SA_C-02.raw. MaxQuant/MaxLFQ processing.",
+      "platform": "Dionex Ultimate 3000 nano-LC; Orbitrap Fusion Tribrid",
+      "sample_ids": [
+        "S0010"
+      ]
+    },
+    {
+      "assay_id": "A0030",
+      "assay_type": "Label-free quantitative LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD049972 (project)",
+      "method": "S-Trap tryptic digestion of liver protein material; technical injection 03. Raw acquisition: 23P31-SA_C-03.raw. MaxQuant/MaxLFQ processing.",
+      "platform": "Dionex Ultimate 3000 nano-LC; Orbitrap Fusion Tribrid",
+      "sample_ids": [
+        "S0010"
+      ]
+    },
+    {
+      "assay_id": "A0031",
+      "assay_type": "Label-free quantitative LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD049972 (project)",
+      "method": "S-Trap tryptic digestion of liver protein material; technical injection 01. Raw acquisition: 23P31-SA_D-01.raw. MaxQuant/MaxLFQ processing.",
+      "platform": "Dionex Ultimate 3000 nano-LC; Orbitrap Fusion Tribrid",
+      "sample_ids": [
+        "S0011"
+      ]
+    },
+    {
+      "assay_id": "A0032",
+      "assay_type": "Label-free quantitative LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD049972 (project)",
+      "method": "S-Trap tryptic digestion of liver protein material; technical injection 02. Raw acquisition: 23P31-SA_D-02.raw. MaxQuant/MaxLFQ processing.",
+      "platform": "Dionex Ultimate 3000 nano-LC; Orbitrap Fusion Tribrid",
+      "sample_ids": [
+        "S0011"
+      ]
+    },
+    {
+      "assay_id": "A0033",
+      "assay_type": "Label-free quantitative LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD049972 (project)",
+      "method": "S-Trap tryptic digestion of liver protein material; technical injection 03. Raw acquisition: 23P31-SA_D-03.raw. MaxQuant/MaxLFQ processing.",
+      "platform": "Dionex Ultimate 3000 nano-LC; Orbitrap Fusion Tribrid",
+      "sample_ids": [
+        "S0011"
+      ]
+    },
+    {
+      "assay_id": "A0034",
+      "assay_type": "Label-free quantitative LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD049972 (project)",
+      "method": "S-Trap tryptic digestion of liver protein material; technical injection 01. Raw acquisition: 23P31-SA_E-01.raw. MaxQuant/MaxLFQ processing.",
+      "platform": "Dionex Ultimate 3000 nano-LC; Orbitrap Fusion Tribrid",
+      "sample_ids": [
+        "S0012"
+      ]
+    },
+    {
+      "assay_id": "A0035",
+      "assay_type": "Label-free quantitative LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD049972 (project)",
+      "method": "S-Trap tryptic digestion of liver protein material; technical injection 02. Raw acquisition: 23P31-SA_E-02.raw. MaxQuant/MaxLFQ processing.",
+      "platform": "Dionex Ultimate 3000 nano-LC; Orbitrap Fusion Tribrid",
+      "sample_ids": [
+        "S0012"
+      ]
+    },
+    {
+      "assay_id": "A0036",
+      "assay_type": "Label-free quantitative LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD049972 (project)",
+      "method": "S-Trap tryptic digestion of liver protein material; technical injection 03. Raw acquisition: 23P31-SA_E-03.raw. MaxQuant/MaxLFQ processing.",
+      "platform": "Dionex Ultimate 3000 nano-LC; Orbitrap Fusion Tribrid",
+      "sample_ids": [
+        "S0012"
+      ]
+    },
+    {
+      "assay_id": "A0037",
+      "assay_type": "Label-free quantitative LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD049972 (project)",
+      "method": "S-Trap tryptic digestion of liver protein material; technical injection 01. Raw acquisition: 23P31-SA_F-01.raw. MaxQuant/MaxLFQ processing.",
+      "platform": "Dionex Ultimate 3000 nano-LC; Orbitrap Fusion Tribrid",
+      "sample_ids": [
+        "S0013"
+      ]
+    },
+    {
+      "assay_id": "A0038",
+      "assay_type": "Label-free quantitative LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD049972 (project)",
+      "method": "S-Trap tryptic digestion of liver protein material; technical injection 02. Raw acquisition: 23P31-SA_F-02.raw. MaxQuant/MaxLFQ processing.",
+      "platform": "Dionex Ultimate 3000 nano-LC; Orbitrap Fusion Tribrid",
+      "sample_ids": [
+        "S0013"
+      ]
+    },
+    {
+      "assay_id": "A0039",
+      "assay_type": "Label-free quantitative LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD049972 (project)",
+      "method": "S-Trap tryptic digestion of liver protein material; technical injection 03. Raw acquisition: 23P31-SA_F-03.raw. MaxQuant/MaxLFQ processing.",
+      "platform": "Dionex Ultimate 3000 nano-LC; Orbitrap Fusion Tribrid",
+      "sample_ids": [
+        "S0013"
+      ]
+    },
+    {
+      "assay_id": "A0040",
+      "assay_type": "Label-free quantitative LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD049972 (project)",
+      "method": "S-Trap tryptic digestion of liver protein material; technical injection 01. Raw acquisition: 23P31-SA_P-01.raw. MaxQuant/MaxLFQ processing.",
+      "platform": "Dionex Ultimate 3000 nano-LC; Orbitrap Fusion Tribrid",
+      "sample_ids": [
+        "S0014"
+      ]
+    },
+    {
+      "assay_id": "A0041",
+      "assay_type": "Label-free quantitative LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD049972 (project)",
+      "method": "S-Trap tryptic digestion of liver protein material; technical injection 02. Raw acquisition: 23P31-SA_P-02.raw. MaxQuant/MaxLFQ processing.",
+      "platform": "Dionex Ultimate 3000 nano-LC; Orbitrap Fusion Tribrid",
+      "sample_ids": [
+        "S0014"
+      ]
+    },
+    {
+      "assay_id": "A0042",
+      "assay_type": "Label-free quantitative LC-MS/MS proteomics",
+      "experiment_run_accession": "PRIDE:PXD049972 (project)",
+      "method": "S-Trap tryptic digestion of liver protein material; technical injection 03. Raw acquisition: 23P31-SA_P-03.raw. MaxQuant/MaxLFQ processing.",
+      "platform": "Dionex Ultimate 3000 nano-LC; Orbitrap Fusion Tribrid",
+      "sample_ids": [
+        "S0014"
+      ]
+    }
+  ],
+  "condition": [
+    {
+      "condition_id": "C0001",
+      "condition_target": "Source pigs",
+      "experimental_factor": "Source-animal dietary salty former-food replacement proportion",
+      "factor_unit": "%",
+      "factor_value": 0,
+      "sample_id": "S0001",
+      "time": "From the start of the growing phase to slaughter at 110 ± 3 kg body weight; duration in days not reported"
+    },
+    {
+      "condition_id": "C0002",
+      "condition_target": "Source pigs",
+      "experimental_factor": "Source-animal dietary sodium content",
+      "factor_unit": "g/kg dry matter",
+      "factor_value": 1.7,
+      "sample_id": "S0001",
+      "time": "Reported finishing-phase diet composition"
+    },
+    {
+      "condition_id": "C0003",
+      "condition_target": "Source pigs",
+      "experimental_factor": "Source-animal dietary salty former-food replacement proportion",
+      "factor_unit": "%",
+      "factor_value": 0,
+      "sample_id": "S0002",
+      "time": "From the start of the growing phase to slaughter at 110 ± 3 kg body weight; duration in days not reported"
+    },
+    {
+      "condition_id": "C0004",
+      "condition_target": "Source pigs",
+      "experimental_factor": "Source-animal dietary sodium content",
+      "factor_unit": "g/kg dry matter",
+      "factor_value": 1.7,
+      "sample_id": "S0002",
+      "time": "Reported finishing-phase diet composition"
+    },
+    {
+      "condition_id": "C0005",
+      "condition_target": "Source pigs",
+      "experimental_factor": "Source-animal dietary salty former-food replacement proportion",
+      "factor_unit": "%",
+      "factor_value": 0,
+      "sample_id": "S0003",
+      "time": "From the start of the growing phase to slaughter at 110 ± 3 kg body weight; duration in days not reported"
+    },
+    {
+      "condition_id": "C0006",
+      "condition_target": "Source pigs",
+      "experimental_factor": "Source-animal dietary sodium content",
+      "factor_unit": "g/kg dry matter",
+      "factor_value": 1.7,
+      "sample_id": "S0003",
+      "time": "Reported finishing-phase diet composition"
+    },
+    {
+      "condition_id": "C0007",
+      "condition_target": "Source pigs",
+      "experimental_factor": "Source-animal dietary salty former-food replacement proportion",
+      "factor_unit": "%",
+      "factor_value": 0,
+      "sample_id": "S0004",
+      "time": "From the start of the growing phase to slaughter at 110 ± 3 kg body weight; duration in days not reported"
+    },
+    {
+      "condition_id": "C0008",
+      "condition_target": "Source pigs",
+      "experimental_factor": "Source-animal dietary sodium content",
+      "factor_unit": "g/kg dry matter",
+      "factor_value": 1.7,
+      "sample_id": "S0004",
+      "time": "Reported finishing-phase diet composition"
+    },
+    {
+      "condition_id": "C0009",
+      "condition_target": "Source pigs",
+      "experimental_factor": "Source-animal dietary salty former-food replacement proportion",
+      "factor_unit": "%",
+      "factor_value": 0,
+      "sample_id": "S0005",
+      "time": "From the start of the growing phase to slaughter at 110 ± 3 kg body weight; duration in days not reported"
+    },
+    {
+      "condition_id": "C0010",
+      "condition_target": "Source pigs",
+      "experimental_factor": "Source-animal dietary sodium content",
+      "factor_unit": "g/kg dry matter",
+      "factor_value": 1.7,
+      "sample_id": "S0005",
+      "time": "Reported finishing-phase diet composition"
+    },
+    {
+      "condition_id": "C0011",
+      "condition_target": "Source pigs",
+      "experimental_factor": "Source-animal dietary salty former-food replacement proportion",
+      "factor_unit": "%",
+      "factor_value": 0,
+      "sample_id": "S0006",
+      "time": "From the start of the growing phase to slaughter at 110 ± 3 kg body weight; duration in days not reported"
+    },
+    {
+      "condition_id": "C0012",
+      "condition_target": "Source pigs",
+      "experimental_factor": "Source-animal dietary sodium content",
+      "factor_unit": "g/kg dry matter",
+      "factor_value": 1.7,
+      "sample_id": "S0006",
+      "time": "Reported finishing-phase diet composition"
+    },
+    {
+      "condition_id": "C0013",
+      "condition_target": "Source pigs",
+      "experimental_factor": "Source-animal dietary salty former-food replacement proportion",
+      "factor_unit": "%",
+      "factor_value": 0,
+      "sample_id": "S0007",
+      "time": "From the start of the growing phase to slaughter at 110 ± 3 kg body weight; duration in days not reported"
+    },
+    {
+      "condition_id": "C0014",
+      "condition_target": "Source pigs",
+      "experimental_factor": "Source-animal dietary sodium content",
+      "factor_unit": "g/kg dry matter",
+      "factor_value": 1.7,
+      "sample_id": "S0007",
+      "time": "Reported finishing-phase diet composition"
+    },
+    {
+      "condition_id": "C0015",
+      "condition_target": "Source pigs",
+      "experimental_factor": "Source-animal dietary salty former-food replacement proportion",
+      "factor_unit": "%",
+      "factor_value": 30,
+      "sample_id": "S0008",
+      "time": "From the start of the growing phase to slaughter at 110 ± 3 kg body weight; duration in days not reported"
+    },
+    {
+      "condition_id": "C0016",
+      "condition_target": "Source pigs",
+      "experimental_factor": "Source-animal dietary sodium content",
+      "factor_unit": "g/kg dry matter",
+      "factor_value": 3.2,
+      "sample_id": "S0008",
+      "time": "Reported finishing-phase diet composition"
+    },
+    {
+      "condition_id": "C0017",
+      "condition_target": "Source pigs",
+      "experimental_factor": "Source-animal dietary salty former-food replacement proportion",
+      "factor_unit": "%",
+      "factor_value": 30,
+      "sample_id": "S0009",
+      "time": "From the start of the growing phase to slaughter at 110 ± 3 kg body weight; duration in days not reported"
+    },
+    {
+      "condition_id": "C0018",
+      "condition_target": "Source pigs",
+      "experimental_factor": "Source-animal dietary sodium content",
+      "factor_unit": "g/kg dry matter",
+      "factor_value": 3.2,
+      "sample_id": "S0009",
+      "time": "Reported finishing-phase diet composition"
+    },
+    {
+      "condition_id": "C0019",
+      "condition_target": "Source pigs",
+      "experimental_factor": "Source-animal dietary salty former-food replacement proportion",
+      "factor_unit": "%",
+      "factor_value": 30,
+      "sample_id": "S0010",
+      "time": "From the start of the growing phase to slaughter at 110 ± 3 kg body weight; duration in days not reported"
+    },
+    {
+      "condition_id": "C0020",
+      "condition_target": "Source pigs",
+      "experimental_factor": "Source-animal dietary sodium content",
+      "factor_unit": "g/kg dry matter",
+      "factor_value": 3.2,
+      "sample_id": "S0010",
+      "time": "Reported finishing-phase diet composition"
+    },
+    {
+      "condition_id": "C0021",
+      "condition_target": "Source pigs",
+      "experimental_factor": "Source-animal dietary salty former-food replacement proportion",
+      "factor_unit": "%",
+      "factor_value": 30,
+      "sample_id": "S0011",
+      "time": "From the start of the growing phase to slaughter at 110 ± 3 kg body weight; duration in days not reported"
+    },
+    {
+      "condition_id": "C0022",
+      "condition_target": "Source pigs",
+      "experimental_factor": "Source-animal dietary sodium content",
+      "factor_unit": "g/kg dry matter",
+      "factor_value": 3.2,
+      "sample_id": "S0011",
+      "time": "Reported finishing-phase diet composition"
+    },
+    {
+      "condition_id": "C0023",
+      "condition_target": "Source pigs",
+      "experimental_factor": "Source-animal dietary salty former-food replacement proportion",
+      "factor_unit": "%",
+      "factor_value": 30,
+      "sample_id": "S0012",
+      "time": "From the start of the growing phase to slaughter at 110 ± 3 kg body weight; duration in days not reported"
+    },
+    {
+      "condition_id": "C0024",
+      "condition_target": "Source pigs",
+      "experimental_factor": "Source-animal dietary sodium content",
+      "factor_unit": "g/kg dry matter",
+      "factor_value": 3.2,
+      "sample_id": "S0012",
+      "time": "Reported finishing-phase diet composition"
+    },
+    {
+      "condition_id": "C0025",
+      "condition_target": "Source pigs",
+      "experimental_factor": "Source-animal dietary salty former-food replacement proportion",
+      "factor_unit": "%",
+      "factor_value": 30,
+      "sample_id": "S0013",
+      "time": "From the start of the growing phase to slaughter at 110 ± 3 kg body weight; duration in days not reported"
+    },
+    {
+      "condition_id": "C0026",
+      "condition_target": "Source pigs",
+      "experimental_factor": "Source-animal dietary sodium content",
+      "factor_unit": "g/kg dry matter",
+      "factor_value": 3.2,
+      "sample_id": "S0013",
+      "time": "Reported finishing-phase diet composition"
+    },
+    {
+      "condition_id": "C0027",
+      "condition_target": "Source pigs",
+      "experimental_factor": "Source-animal dietary salty former-food replacement proportion",
+      "factor_unit": "%",
+      "factor_value": 30,
+      "sample_id": "S0014",
+      "time": "From the start of the growing phase to slaughter at 110 ± 3 kg body weight; duration in days not reported"
+    },
+    {
+      "condition_id": "C0028",
+      "condition_target": "Source pigs",
+      "experimental_factor": "Source-animal dietary sodium content",
+      "factor_unit": "g/kg dry matter",
+      "factor_value": 3.2,
+      "sample_id": "S0014",
+      "time": "Reported finishing-phase diet composition"
+    }
+  ],
+  "sample": [
+    {
+      "biological_model": "Swiss Large White castrated male pig",
+      "biological_source": "Liver, distal portion of the right lateral lobe",
+      "sample_accession": null,
+      "sample_id": "S0001",
+      "sample_material": "Tryptic digest of liver protein extract from one selected CTR pig, prepared using S-Trap for LC-MS/MS. Native preparation label: 23P31-CA; original animal identity not mapped. CTR is the conventional-cereal control; CTR is the semantic zero level of salty-former-food substitution; the article does not separately print a numerical CTR percentage. This zero does not mean zero dietary sodium.",
+      "sample_name": "23P31-CA",
+      "species": "Sus scrofa domesticus"
+    },
+    {
+      "biological_model": "Swiss Large White castrated male pig",
+      "biological_source": "Liver, distal portion of the right lateral lobe",
+      "sample_accession": null,
+      "sample_id": "S0002",
+      "sample_material": "Tryptic digest of liver protein extract from one selected CTR pig, prepared using S-Trap for LC-MS/MS. Native preparation label: 23P31-CB; original animal identity not mapped. CTR is the conventional-cereal control; CTR is the semantic zero level of salty-former-food substitution; the article does not separately print a numerical CTR percentage. This zero does not mean zero dietary sodium.",
+      "sample_name": "23P31-CB",
+      "species": "Sus scrofa domesticus"
+    },
+    {
+      "biological_model": "Swiss Large White castrated male pig",
+      "biological_source": "Liver, distal portion of the right lateral lobe",
+      "sample_accession": null,
+      "sample_id": "S0003",
+      "sample_material": "Tryptic digest of liver protein extract from one selected CTR pig, prepared using S-Trap for LC-MS/MS. Native preparation label: 23P31-CC; original animal identity not mapped. CTR is the conventional-cereal control; CTR is the semantic zero level of salty-former-food substitution; the article does not separately print a numerical CTR percentage. This zero does not mean zero dietary sodium.",
+      "sample_name": "23P31-CC",
+      "species": "Sus scrofa domesticus"
+    },
+    {
+      "biological_model": "Swiss Large White castrated male pig",
+      "biological_source": "Liver, distal portion of the right lateral lobe",
+      "sample_accession": null,
+      "sample_id": "S0004",
+      "sample_material": "Tryptic digest of liver protein extract from one selected CTR pig, prepared using S-Trap for LC-MS/MS. Native preparation label: 23P31-CD; original animal identity not mapped. CTR is the conventional-cereal control; CTR is the semantic zero level of salty-former-food substitution; the article does not separately print a numerical CTR percentage. This zero does not mean zero dietary sodium.",
+      "sample_name": "23P31-CD",
+      "species": "Sus scrofa domesticus"
+    },
+    {
+      "biological_model": "Swiss Large White castrated male pig",
+      "biological_source": "Liver, distal portion of the right lateral lobe",
+      "sample_accession": null,
+      "sample_id": "S0005",
+      "sample_material": "Tryptic digest of liver protein extract from one selected CTR pig, prepared using S-Trap for LC-MS/MS. Native preparation label: 23P31-CE; original animal identity not mapped. CTR is the conventional-cereal control; CTR is the semantic zero level of salty-former-food substitution; the article does not separately print a numerical CTR percentage. This zero does not mean zero dietary sodium.",
+      "sample_name": "23P31-CE",
+      "species": "Sus scrofa domesticus"
+    },
+    {
+      "biological_model": "Swiss Large White castrated male pig",
+      "biological_source": "Liver, distal portion of the right lateral lobe",
+      "sample_accession": null,
+      "sample_id": "S0006",
+      "sample_material": "Tryptic digest of liver protein extract from one selected CTR pig, prepared using S-Trap for LC-MS/MS. Native preparation label: 23P31-CF; original animal identity not mapped. CTR is the conventional-cereal control; CTR is the semantic zero level of salty-former-food substitution; the article does not separately print a numerical CTR percentage. This zero does not mean zero dietary sodium.",
+      "sample_name": "23P31-CF",
+      "species": "Sus scrofa domesticus"
+    },
+    {
+      "biological_model": "Swiss Large White castrated male pig",
+      "biological_source": "Liver, distal portion of the right lateral lobe",
+      "sample_accession": null,
+      "sample_id": "S0007",
+      "sample_material": "Tryptic digest of a reference pool containing equal protein contributions from all 12 CTR pigs, including animals not selected for individual LC-MS/MS analysis. CTR is the conventional-cereal control; CTR is the semantic zero level of salty-former-food substitution; the article does not separately print a numerical CTR percentage. This zero does not mean zero dietary sodium.",
+      "sample_name": "23P31-CP",
+      "species": "Sus scrofa domesticus"
+    },
+    {
+      "biological_model": "Swiss Large White castrated male pig",
+      "biological_source": "Liver, distal portion of the right lateral lobe",
+      "sample_accession": null,
+      "sample_id": "S0008",
+      "sample_material": "Tryptic digest of liver protein extract from one selected SA pig, prepared using S-Trap for LC-MS/MS. Native preparation label: 23P31-SA_A; original animal identity not mapped.",
+      "sample_name": "23P31-SA_A",
+      "species": "Sus scrofa domesticus"
+    },
+    {
+      "biological_model": "Swiss Large White castrated male pig",
+      "biological_source": "Liver, distal portion of the right lateral lobe",
+      "sample_accession": null,
+      "sample_id": "S0009",
+      "sample_material": "Tryptic digest of liver protein extract from one selected SA pig, prepared using S-Trap for LC-MS/MS. Native preparation label: 23P31-SA_B; original animal identity not mapped.",
+      "sample_name": "23P31-SA_B",
+      "species": "Sus scrofa domesticus"
+    },
+    {
+      "biological_model": "Swiss Large White castrated male pig",
+      "biological_source": "Liver, distal portion of the right lateral lobe",
+      "sample_accession": null,
+      "sample_id": "S0010",
+      "sample_material": "Tryptic digest of liver protein extract from one selected SA pig, prepared using S-Trap for LC-MS/MS. Native preparation label: 23P31-SA_C; original animal identity not mapped.",
+      "sample_name": "23P31-SA_C",
+      "species": "Sus scrofa domesticus"
+    },
+    {
+      "biological_model": "Swiss Large White castrated male pig",
+      "biological_source": "Liver, distal portion of the right lateral lobe",
+      "sample_accession": null,
+      "sample_id": "S0011",
+      "sample_material": "Tryptic digest of liver protein extract from one selected SA pig, prepared using S-Trap for LC-MS/MS. Native preparation label: 23P31-SA_D; original animal identity not mapped.",
+      "sample_name": "23P31-SA_D",
+      "species": "Sus scrofa domesticus"
+    },
+    {
+      "biological_model": "Swiss Large White castrated male pig",
+      "biological_source": "Liver, distal portion of the right lateral lobe",
+      "sample_accession": null,
+      "sample_id": "S0012",
+      "sample_material": "Tryptic digest of liver protein extract from one selected SA pig, prepared using S-Trap for LC-MS/MS. Native preparation label: 23P31-SA_E; original animal identity not mapped.",
+      "sample_name": "23P31-SA_E",
+      "species": "Sus scrofa domesticus"
+    },
+    {
+      "biological_model": "Swiss Large White castrated male pig",
+      "biological_source": "Liver, distal portion of the right lateral lobe",
+      "sample_accession": null,
+      "sample_id": "S0013",
+      "sample_material": "Tryptic digest of liver protein extract from one selected SA pig, prepared using S-Trap for LC-MS/MS. Native preparation label: 23P31-SA_F; original animal identity not mapped.",
+      "sample_name": "23P31-SA_F",
+      "species": "Sus scrofa domesticus"
+    },
+    {
+      "biological_model": "Swiss Large White castrated male pig",
+      "biological_source": "Liver, distal portion of the right lateral lobe",
+      "sample_accession": null,
+      "sample_id": "S0014",
+      "sample_material": "Tryptic digest of a reference pool containing equal protein contributions from all 12 SA pigs, including animals not selected for individual LC-MS/MS analysis.",
+      "sample_name": "23P31-SA_P",
+      "species": "Sus scrofa domesticus"
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "assay_run": [
+    {
+      "assay_id": "A0001",
+      "assay_type": "Bulk RNA-seq",
+      "experiment_run_accession": "Figshare:10.6084/m9.figshare.32125855.v1 (dataset)",
+      "method": "Bulk RNA-seq aggregate for the 14 Figure 9a gastrocnemius specimens. Total RNA extraction with TRI reagent and 150-bp paired-end sequencing. The study-level Figshare workbooks and article do not resolve individual library or acquisition identities.",
+      "platform": "Illumina NovaSeq 6000",
+      "sample_ids": [
+        "S0001",
+        "S0002",
+        "S0003",
+        "S0004",
+        "S0005",
+        "S0006",
+        "S0007",
+        "S0008",
+        "S0009",
+        "S0010",
+        "S0011",
+        "S0012",
+        "S0013",
+        "S0014"
+      ]
+    }
+  ],
+  "condition": [
+    {
+      "condition_id": "C0001",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-surgery collection interval",
+      "factor_unit": "day",
+      "factor_value": 7,
+      "sample_id": "S0001",
+      "time": "After left sham surgery"
+    },
+    {
+      "condition_id": "C0002",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-surgery collection interval",
+      "factor_unit": "day",
+      "factor_value": 7,
+      "sample_id": "S0002",
+      "time": "After left sham surgery"
+    },
+    {
+      "condition_id": "C0003",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-surgery collection interval",
+      "factor_unit": "day",
+      "factor_value": 7,
+      "sample_id": "S0003",
+      "time": "After left sham surgery"
+    },
+    {
+      "condition_id": "C0004",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-surgery collection interval",
+      "factor_unit": "day",
+      "factor_value": 7,
+      "sample_id": "S0004",
+      "time": "After left sham surgery"
+    },
+    {
+      "condition_id": "C0005",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-surgery collection interval",
+      "factor_unit": "day",
+      "factor_value": 7,
+      "sample_id": "S0005",
+      "time": "After left sham surgery"
+    },
+    {
+      "condition_id": "C0006",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-surgery collection interval",
+      "factor_unit": "day",
+      "factor_value": 7,
+      "sample_id": "S0006",
+      "time": "After left sham surgery"
+    },
+    {
+      "condition_id": "C0007",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-surgery collection interval",
+      "factor_unit": "day",
+      "factor_value": 7,
+      "sample_id": "S0007",
+      "time": "After left sham surgery"
+    },
+    {
+      "condition_id": "C0008",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-surgery collection interval",
+      "factor_unit": "day",
+      "factor_value": 7,
+      "sample_id": "S0008",
+      "time": "After right sciatic nerve transection"
+    },
+    {
+      "condition_id": "C0009",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-surgery collection interval",
+      "factor_unit": "day",
+      "factor_value": 7,
+      "sample_id": "S0009",
+      "time": "After right sciatic nerve transection"
+    },
+    {
+      "condition_id": "C0010",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-surgery collection interval",
+      "factor_unit": "day",
+      "factor_value": 7,
+      "sample_id": "S0010",
+      "time": "After right sciatic nerve transection"
+    },
+    {
+      "condition_id": "C0011",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-surgery collection interval",
+      "factor_unit": "day",
+      "factor_value": 7,
+      "sample_id": "S0011",
+      "time": "After right sciatic nerve transection"
+    },
+    {
+      "condition_id": "C0012",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-surgery collection interval",
+      "factor_unit": "day",
+      "factor_value": 7,
+      "sample_id": "S0012",
+      "time": "After right sciatic nerve transection"
+    },
+    {
+      "condition_id": "C0013",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-surgery collection interval",
+      "factor_unit": "day",
+      "factor_value": 7,
+      "sample_id": "S0013",
+      "time": "After right sciatic nerve transection"
+    },
+    {
+      "condition_id": "C0014",
+      "condition_target": "Whole sample",
+      "experimental_factor": "Post-surgery collection interval",
+      "factor_unit": "day",
+      "factor_value": 7,
+      "sample_id": "S0014",
+      "time": "After right sciatic nerve transection"
+    }
+  ],
+  "sample": [
+    {
+      "biological_model": "Wild-type sham-operated control in a paired unilateral denervation model",
+      "biological_source": "Gastrocnemius muscle from C57BL/6J mice; surgery performed at 6 months of age. Sample-specific sex not reported.",
+      "sample_accession": null,
+      "sample_id": "S0001",
+      "sample_material": "Total RNA extracted using TRI reagent from left sham-operated gastrocnemius muscle, collected 7 days after surgery. Study design: right denervation and left sham surgery in the same mouse. The native numeric suffix is a biological-replicate label; an explicit sample-to-donor mapping is not supplied. Both sexes were included; sample-specific sex and physical pooling are not specified.",
+      "sample_name": "WT Sham 30",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Wild-type sham-operated control in a paired unilateral denervation model",
+      "biological_source": "Gastrocnemius muscle from C57BL/6J mice; surgery performed at 6 months of age. Sample-specific sex not reported.",
+      "sample_accession": null,
+      "sample_id": "S0002",
+      "sample_material": "Total RNA extracted using TRI reagent from left sham-operated gastrocnemius muscle, collected 7 days after surgery. Study design: right denervation and left sham surgery in the same mouse. The native numeric suffix is a biological-replicate label; an explicit sample-to-donor mapping is not supplied. Both sexes were included; sample-specific sex and physical pooling are not specified.",
+      "sample_name": "WT Sham 29",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Wild-type sham-operated control in a paired unilateral denervation model",
+      "biological_source": "Gastrocnemius muscle from C57BL/6J mice; surgery performed at 6 months of age. Sample-specific sex not reported.",
+      "sample_accession": null,
+      "sample_id": "S0003",
+      "sample_material": "Total RNA extracted using TRI reagent from left sham-operated gastrocnemius muscle, collected 7 days after surgery. Study design: right denervation and left sham surgery in the same mouse. The native numeric suffix is a biological-replicate label; an explicit sample-to-donor mapping is not supplied. Both sexes were included; sample-specific sex and physical pooling are not specified.",
+      "sample_name": "WT Sham 27",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Wild-type sham-operated control in a paired unilateral denervation model",
+      "biological_source": "Gastrocnemius muscle from C57BL/6J mice; surgery performed at 6 months of age. Sample-specific sex not reported.",
+      "sample_accession": null,
+      "sample_id": "S0004",
+      "sample_material": "Total RNA extracted using TRI reagent from left sham-operated gastrocnemius muscle, collected 7 days after surgery. Study design: right denervation and left sham surgery in the same mouse. The native numeric suffix is a biological-replicate label; an explicit sample-to-donor mapping is not supplied. Both sexes were included; sample-specific sex and physical pooling are not specified.",
+      "sample_name": "WT Sham 28",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "cPLA₂ whole-body knockout sham-operated control in a paired unilateral denervation model",
+      "biological_source": "Gastrocnemius muscle from C57BL/6J mice; surgery performed at 6 months of age. Sample-specific sex not reported.",
+      "sample_accession": null,
+      "sample_id": "S0005",
+      "sample_material": "Total RNA extracted using TRI reagent from left sham-operated gastrocnemius muscle, collected 7 days after surgery. Study design: right denervation and left sham surgery in the same mouse. The native numeric suffix is a biological-replicate label; an explicit sample-to-donor mapping is not supplied. Both sexes were included; sample-specific sex and physical pooling are not specified.",
+      "sample_name": "KO Sham 67",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "cPLA₂ whole-body knockout sham-operated control in a paired unilateral denervation model",
+      "biological_source": "Gastrocnemius muscle from C57BL/6J mice; surgery performed at 6 months of age. Sample-specific sex not reported.",
+      "sample_accession": null,
+      "sample_id": "S0006",
+      "sample_material": "Total RNA extracted using TRI reagent from left sham-operated gastrocnemius muscle, collected 7 days after surgery. Study design: right denervation and left sham surgery in the same mouse. The native numeric suffix is a biological-replicate label; an explicit sample-to-donor mapping is not supplied. Both sexes were included; sample-specific sex and physical pooling are not specified.",
+      "sample_name": "KO Sham 34",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "cPLA₂ whole-body knockout sham-operated control in a paired unilateral denervation model",
+      "biological_source": "Gastrocnemius muscle from C57BL/6J mice; surgery performed at 6 months of age. Sample-specific sex not reported.",
+      "sample_accession": null,
+      "sample_id": "S0007",
+      "sample_material": "Total RNA extracted using TRI reagent from left sham-operated gastrocnemius muscle, collected 7 days after surgery. Study design: right denervation and left sham surgery in the same mouse. The native numeric suffix is a biological-replicate label; an explicit sample-to-donor mapping is not supplied. Both sexes were included; sample-specific sex and physical pooling are not specified.",
+      "sample_name": "KO Sham 37",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Wild-type sciatic nerve transection-induced muscle denervation model",
+      "biological_source": "Gastrocnemius muscle from C57BL/6J mice; surgery performed at 6 months of age. Sample-specific sex not reported.",
+      "sample_accession": null,
+      "sample_id": "S0008",
+      "sample_material": "Total RNA extracted using TRI reagent from right denervated gastrocnemius muscle, collected 7 days after sciatic nerve transection. Study design: right denervation and left sham surgery in the same mouse. The native numeric suffix is a biological-replicate label; an explicit sample-to-donor mapping is not supplied. Both sexes were included; sample-specific sex and physical pooling are not specified.",
+      "sample_name": "WT DN 30",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Wild-type sciatic nerve transection-induced muscle denervation model",
+      "biological_source": "Gastrocnemius muscle from C57BL/6J mice; surgery performed at 6 months of age. Sample-specific sex not reported.",
+      "sample_accession": null,
+      "sample_id": "S0009",
+      "sample_material": "Total RNA extracted using TRI reagent from right denervated gastrocnemius muscle, collected 7 days after sciatic nerve transection. Study design: right denervation and left sham surgery in the same mouse. The native numeric suffix is a biological-replicate label; an explicit sample-to-donor mapping is not supplied. Both sexes were included; sample-specific sex and physical pooling are not specified.",
+      "sample_name": "WT DN 29",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Wild-type sciatic nerve transection-induced muscle denervation model",
+      "biological_source": "Gastrocnemius muscle from C57BL/6J mice; surgery performed at 6 months of age. Sample-specific sex not reported.",
+      "sample_accession": null,
+      "sample_id": "S0010",
+      "sample_material": "Total RNA extracted using TRI reagent from right denervated gastrocnemius muscle, collected 7 days after sciatic nerve transection. Study design: right denervation and left sham surgery in the same mouse. The native numeric suffix is a biological-replicate label; an explicit sample-to-donor mapping is not supplied. Both sexes were included; sample-specific sex and physical pooling are not specified.",
+      "sample_name": "WT DN 28",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "Wild-type sciatic nerve transection-induced muscle denervation model",
+      "biological_source": "Gastrocnemius muscle from C57BL/6J mice; surgery performed at 6 months of age. Sample-specific sex not reported.",
+      "sample_accession": null,
+      "sample_id": "S0011",
+      "sample_material": "Total RNA extracted using TRI reagent from right denervated gastrocnemius muscle, collected 7 days after sciatic nerve transection. Study design: right denervation and left sham surgery in the same mouse. The native numeric suffix is a biological-replicate label; an explicit sample-to-donor mapping is not supplied. Both sexes were included; sample-specific sex and physical pooling are not specified.",
+      "sample_name": "WT DN 27",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "cPLA₂ whole-body knockout sciatic nerve transection-induced muscle denervation model",
+      "biological_source": "Gastrocnemius muscle from C57BL/6J mice; surgery performed at 6 months of age. Sample-specific sex not reported.",
+      "sample_accession": null,
+      "sample_id": "S0012",
+      "sample_material": "Total RNA extracted using TRI reagent from right denervated gastrocnemius muscle, collected 7 days after sciatic nerve transection. Study design: right denervation and left sham surgery in the same mouse. The native numeric suffix is a biological-replicate label; an explicit sample-to-donor mapping is not supplied. Both sexes were included; sample-specific sex and physical pooling are not specified.",
+      "sample_name": "KO DN 34",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "cPLA₂ whole-body knockout sciatic nerve transection-induced muscle denervation model",
+      "biological_source": "Gastrocnemius muscle from C57BL/6J mice; surgery performed at 6 months of age. Sample-specific sex not reported.",
+      "sample_accession": null,
+      "sample_id": "S0013",
+      "sample_material": "Total RNA extracted using TRI reagent from right denervated gastrocnemius muscle, collected 7 days after sciatic nerve transection. Study design: right denervation and left sham surgery in the same mouse. The native numeric suffix is a biological-replicate label; an explicit sample-to-donor mapping is not supplied. Both sexes were included; sample-specific sex and physical pooling are not specified.",
+      "sample_name": "KO DN 37",
+      "species": "Mus musculus"
+    },
+    {
+      "biological_model": "cPLA₂ whole-body knockout sciatic nerve transection-induced muscle denervation model",
+      "biological_source": "Gastrocnemius muscle from C57BL/6J mice; surgery performed at 6 months of age. Sample-specific sex not reported.",
+      "sample_accession": null,
+      "sample_id": "S0014",
+      "sample_material": "Total RNA extracted using TRI reagent from right denervated gastrocnemius muscle, collected 7 days after sciatic nerve transection. Study design: right denervation and left sham surgery in the same mouse. The native numeric suffix is a biological-replicate label; an explicit sample-to-donor mapping is not supplied. Both sexes were included; sample-specific sex and physical pooling are not specified.",
+      "sample_name": "KO DN 67",
+      "species": "Mus musculus"
+    }
+  ]
+}

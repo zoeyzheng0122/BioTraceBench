@@ -1,0 +1,122 @@
+{
+  "version": "biotracebench-unit-catalog-draft-1",
+  "status": "approved_catalog_implemented_unfrozen",
+  "approved": true,
+  "frozen": false,
+  "activated": true,
+  "scope": "Approved finite exact equivalences, used only through explicit quantity bindings after independent object alignment. Embedded in the scoring policy for immutable replay; formal scientific rules remain unfrozen.",
+  "value_unit_pairs": [
+    "condition.factor_value:condition.factor_unit",
+    "result.result_value:result.result_unit"
+  ],
+  "families": {
+    "mass": {
+      "canonical": "mg",
+      "scales": {
+        "kg": "1000000",
+        "g": "1000",
+        "mg": "1",
+        "\u03bcg": "0.001",
+        "\u00b5g": "0.001",
+        "ug": "0.001",
+        "ng": "0.000001"
+      }
+    },
+    "volume": {
+      "canonical": "mL",
+      "scales": {
+        "L": "1000",
+        "mL": "1",
+        "\u03bcL": "0.001",
+        "\u00b5L": "0.001",
+        "uL": "0.001"
+      }
+    },
+    "fixed_duration": {
+      "canonical": "s",
+      "scales": {
+        "s": "1",
+        "min": "60",
+        "h": "3600",
+        "day": "86400",
+        "days": "86400",
+        "week": "604800",
+        "weeks": "604800"
+      },
+      "requires": "Same duration and temporal anchor; never equate distinct visits or calendar cutoffs."
+    },
+    "pressure_pa": {
+      "canonical": "Pa",
+      "scales": {
+        "Pa": "1",
+        "kPa": "1000"
+      }
+    },
+    "molar_concentration": {
+      "canonical": "nM",
+      "scales": {
+        "nM": "1",
+        "nmol/L": "1",
+        "nMol l-1": "1",
+        "nMol l\u22121": "1",
+        "\u03bcM": "1000",
+        "\u00b5M": "1000",
+        "uM": "1000",
+        "\u03bcmol/L": "1000",
+        "\u00b5mol/L": "1000"
+      },
+      "requires": "Same analyte, chemical form and concentration basis."
+    },
+    "mass_concentration": {
+      "canonical": "ng/mL",
+      "scales": {
+        "ng/mL": "1",
+        "ng/ml": "1",
+        "ng/L": "0.001",
+        "ng l-1": "0.001",
+        "ng l\u22121": "0.001",
+        "\u03bcg/mL": "1000",
+        "\u00b5g/mL": "1000",
+        "ug/mL": "1000",
+        "mg/mL": "1000000",
+        "mg/dL": "10000"
+      },
+      "requires": "Same analyte, chemical form and concentration basis; do not convert mass to molar concentration."
+    },
+    "daily_exposure_duration": {
+      "canonical": "min/day",
+      "scales": {
+        "min/day": "1",
+        "h/day": "60"
+      },
+      "requires": "Same daily regimen; do not confuse per-day exposure with total exposure."
+    },
+    "event_rate_spelling": {
+      "canonical": "events/h",
+      "scales": {
+        "events/h": "1",
+        "events/hr": "1"
+      },
+      "requires": "Same event definition and denominator basis."
+    }
+  },
+  "case_specific_existing_permission": {},
+  "not_automatically_equivalent": [
+    "calendar month versus 30 days; calendar year versus 365 days",
+    "mg/kg body weight versus mg/kg diet or dry matter",
+    "mass concentration versus molar concentration requiring a molecular mass",
+    "% versus % w/v versus % v/v versus % w/w versus percentage points",
+    "raw scale points versus T-score or standardized effect",
+    "person-time event rates versus participant counts or event counts",
+    "Pa/kPa versus psi or mmHg without an approved exact rule"
+  ],
+  "coupled_content": "Convert value and unit consistently. Review all dependent bounds, intervals and own statistics in a whole compound field. Fields remain one all-or-nothing scoring item. Do not let scalar conversion silently exempt unchanged companion content.",
+  "unsupported_forms": "Preserve ranges, inequalities, compound ratios, unlisted spellings and ambiguous quantities as whole fields. Qwen judges them under the supplied exact quantity-compatible rules; genuinely unresolved cases stay uncertain with reasons for later external inspection. A parser limitation alone is not a scientific error.",
+  "formal_freeze_requirements": [
+    "Documented scientific approval of the final scientific rule package, beyond this previously approved finite catalog",
+    "Quantity-aware scorer integration rather than one global canonical unit",
+    "Whole-field and companion consistency checks",
+    "Tests for equivalent conversions and context or denominator mismatches",
+    "Bind rules to the exact frozen task, reference and scorer identities"
+  ]
+}
